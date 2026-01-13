@@ -120,6 +120,17 @@ python scripts/build_pack.py \
 - 支持时间序列（Timeline）
 - 自动去重与合并
 
+## 📖 SOP 文档
+
+- **[标准操作流程 (SOP)](docs/SOP.md)** - 从小说文本到内容包的完整流程
+
+## 📂 实际案例
+
+| 案例 | 类型 | 地点数 | 特点 |
+|------|------|--------|------|
+| [北派盗墓笔记](cases/beipai-novel/README.md) | 冒险小说 | 942 | 覆盖全国30+省份 |
+| [繁花](cases/fanhua-novel/README.md) | 都市小说 | 66 | 聚焦上海，历史街道 |
+
 ## 🔗 相关链接
 
 - [Geolore iOS 应用](https://github.com/jrenc2002/geolore)

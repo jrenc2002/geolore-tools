@@ -11,7 +11,15 @@ geolore-tools/
 ├── docs/                        # 规范文档
 │   ├── ContentPackSpec.md       # 内容包 JSON v2 协议规范
 │   ├── CloudKitSchema.json      # iOS CloudKit 数据模型定义
-│   └── GeocodingRules.md        # 地理编码规则与最佳实践
+│   ├── GeocodingRules.md        # 地理编码规则与最佳实践
+│   ├── SOP.md                   # 完整工作流 SOP
+│   ├── TroubleshootingGuide.md  # 问题排查指南
+│   ├── ValidationMechanism.md   # 地理编码验证机制
+│   └── TimelineSpec.md          # 时间序列内容包规范
+├── prompts/                     # LLM 提示词模板
+│   ├── README.md                # 使用说明
+│   ├── extraction.md            # 地点提取 prompt
+│   └── cleaning.md              # 数据清洗 prompt
 ├── src/                         # 核心工具代码
 │   ├── __init__.py
 │   ├── extraction/              # 文本信息抽取
@@ -32,7 +40,11 @@ geolore-tools/
 │   ├── generate_prompts.py      # 提示词生成入口
 │   ├── run_extraction.py        # LLM 抽取入口
 │   ├── geocode_places.py        # 地理编码入口
-│   └── build_pack.py            # 内容包构建入口
+│   ├── build_pack.py            # 内容包构建入口
+│   └── fix_geocode_template.py  # 地理编码修复模板
+├── cases/                       # 实战案例
+│   ├── beipai-novel/            # 北派盗墓笔记案例
+│   └── fanhua-novel/            # 繁花案例
 └── examples/                    # 使用示例
     ├── novel/                   # 小说场景处理示例
     └── biography/               # 人物传记处理示例
@@ -84,6 +96,16 @@ python scripts/build_pack.py \
 - **[内容包规范](docs/ContentPackSpec.md)** - Geolore iOS 应用使用的 JSON 内容包格式 v2
 - **[CloudKit Schema](docs/CloudKitSchema.json)** - iOS 端数据模型定义
 - **[地理编码规则](docs/GeocodingRules.md)** - 地址解析的最佳实践
+- **[验证机制](docs/ValidationMechanism.md)** - 地理编码结果验证
+- **[时间序列规范](docs/TimelineSpec.md)** - 支持按时间顺序浏览的内容包
+- **[问题排查](docs/TroubleshootingGuide.md)** - 常见问题与解决方案
+
+## 🎯 LLM Prompt 模板
+
+经过实战验证的提示词模板：
+
+- **[prompts/extraction.md](prompts/extraction.md)** - 地点提取 Chain-of-Thought prompt
+- **[prompts/cleaning.md](prompts/cleaning.md)** - 数据批量清洗 prompt
 
 ## 🔧 工具说明
 

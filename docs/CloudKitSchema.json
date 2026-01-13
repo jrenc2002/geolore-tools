@@ -1,0 +1,299 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Geolore CloudKit Schema",
+  "description": "完整的 CloudKit 记录类型定义（配置参考清单，可用于 Dashboard 手动配置或脚本生成）",
+  "recordTypes": [
+    {
+      "name": "Map",
+      "fields": [
+        { "name": "id", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "title", "type": "STRING", "queryable": true, "sortable": true },
+        { "name": "lowercasedTitle", "type": "STRING", "queryable": true, "sortable": true },
+        { "name": "descriptionText", "type": "STRING", "queryable": false, "sortable": false },
+        { "name": "defaultGeo", "type": "LOCATION", "queryable": false, "sortable": false },
+        { "name": "defaultZoom", "type": "DOUBLE", "queryable": false, "sortable": false },
+        { "name": "createdAt", "type": "DATE_TIME", "queryable": true, "sortable": true },
+        { "name": "updatedAt", "type": "DATE_TIME", "queryable": true, "sortable": true },
+        { "name": "isDeleted", "type": "INT64", "queryable": true, "sortable": false }
+      ],
+      "indexes": [
+        { "fields": ["updatedAt"], "order": "DESC" },
+        { "fields": ["lowercasedTitle"], "order": "ASC" }
+      ]
+    },
+    {
+      "name": "Place",
+      "fields": [
+        { "name": "id", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "title", "type": "STRING", "queryable": true, "sortable": true },
+        { "name": "lowercasedTitle", "type": "STRING", "queryable": true, "sortable": true },
+        { "name": "location", "type": "LOCATION", "queryable": true, "sortable": false },
+        { "name": "formattedAddress", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "locality", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "countryCode", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "geohash", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "createdAt", "type": "DATE_TIME", "queryable": true, "sortable": true },
+        { "name": "updatedAt", "type": "DATE_TIME", "queryable": true, "sortable": true },
+        { "name": "isDeleted", "type": "INT64", "queryable": true, "sortable": false }
+      ],
+      "indexes": [
+        { "fields": ["location"] },
+        { "fields": ["geohash"], "order": "ASC" },
+        { "fields": ["updatedAt"], "order": "DESC" }
+      ]
+    },
+    {
+      "name": "MapPlace",
+      "fields": [
+        { "name": "id", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "mapRef", "type": "REFERENCE", "queryable": true, "sortable": false, "referenceType": "Map" },
+        { "name": "placeRef", "type": "REFERENCE", "queryable": true, "sortable": false, "referenceType": "Place" },
+        { "name": "customTitle", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "note", "type": "STRING", "queryable": false, "sortable": false },
+        { "name": "orderIndex", "type": "INT64", "queryable": false, "sortable": true },
+        { "name": "pinStyle", "type": "STRING", "queryable": false, "sortable": false },
+        { "name": "createdAt", "type": "DATE_TIME", "queryable": true, "sortable": true },
+        { "name": "updatedAt", "type": "DATE_TIME", "queryable": true, "sortable": true },
+        { "name": "isDeleted", "type": "INT64", "queryable": true, "sortable": false }
+      ],
+      "indexes": [
+        { "fields": ["mapRef", "placeRef"] },
+        { "fields": ["updatedAt"], "order": "DESC" }
+      ]
+    },
+    {
+      "name": "Work",
+      "fields": [
+        { "name": "id", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "typeRaw", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "originalTitle", "type": "STRING", "queryable": true, "sortable": true },
+        { "name": "lowercasedOriginalTitle", "type": "STRING", "queryable": true, "sortable": true },
+        { "name": "localizedTitle", "type": "STRING", "queryable": true, "sortable": true },
+        { "name": "lowercasedLocalizedTitle", "type": "STRING", "queryable": true, "sortable": true },
+        { "name": "createdAt", "type": "DATE_TIME", "queryable": true, "sortable": true },
+        { "name": "updatedAt", "type": "DATE_TIME", "queryable": true, "sortable": true },
+        { "name": "isDeleted", "type": "INT64", "queryable": true, "sortable": false }
+      ],
+      "indexes": [
+        { "fields": ["lowercasedOriginalTitle"], "order": "ASC" },
+        { "fields": ["lowercasedLocalizedTitle"], "order": "ASC" },
+        { "fields": ["typeRaw", "lowercasedOriginalTitle"] },
+        { "fields": ["updatedAt"], "order": "DESC" }
+      ]
+    },
+    {
+      "name": "Fragment",
+      "fields": [
+        { "name": "id", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "workRef", "type": "REFERENCE", "queryable": true, "sortable": false, "referenceType": "Work" },
+        { "name": "placeRef", "type": "REFERENCE", "queryable": true, "sortable": false, "referenceType": "Place" },
+        { "name": "quote", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "note", "type": "STRING", "queryable": false, "sortable": false },
+        { "name": "createdAt", "type": "DATE_TIME", "queryable": true, "sortable": true },
+        { "name": "updatedAt", "type": "DATE_TIME", "queryable": true, "sortable": true },
+        { "name": "isDeleted", "type": "INT64", "queryable": true, "sortable": false }
+      ],
+      "indexes": [
+        { "fields": ["placeRef", "workRef"] },
+        { "fields": ["updatedAt"], "order": "DESC" }
+      ]
+    },
+    {
+      "name": "WorkBookDetail",
+      "fields": [
+        { "name": "id", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "workRef", "type": "REFERENCE", "queryable": true, "sortable": false, "referenceType": "Work" },
+        { "name": "isbn", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "publisher", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "language", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "wordCount", "type": "INT64", "queryable": false, "sortable": true },
+        { "name": "createdAt", "type": "DATE_TIME", "queryable": true, "sortable": true },
+        { "name": "updatedAt", "type": "DATE_TIME", "queryable": true, "sortable": true }
+      ],
+      "indexes": [
+        { "fields": ["workRef"] }
+      ]
+    },
+    {
+      "name": "WorkScreenDetail",
+      "fields": [
+        { "name": "id", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "workRef", "type": "REFERENCE", "queryable": true, "sortable": false, "referenceType": "Work" },
+        { "name": "bangumiId", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "tmdbId", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "imdbId", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "seasons", "type": "INT64", "queryable": false, "sortable": false },
+        { "name": "episodes", "type": "INT64", "queryable": false, "sortable": false },
+        { "name": "runtimeMin", "type": "INT64", "queryable": false, "sortable": true },
+        { "name": "createdAt", "type": "DATE_TIME", "queryable": true, "sortable": true },
+        { "name": "updatedAt", "type": "DATE_TIME", "queryable": true, "sortable": true }
+      ],
+      "indexes": [
+        { "fields": ["workRef"] },
+        { "fields": ["bangumiId"] }
+      ]
+    },
+    {
+      "name": "FragmentTextAnchor",
+      "fields": [
+        { "name": "id", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "fragmentRef", "type": "REFERENCE", "queryable": true, "sortable": false, "referenceType": "Fragment" },
+        { "name": "chapter", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "section", "type": "STRING", "queryable": false, "sortable": false },
+        { "name": "pageFrom", "type": "INT64", "queryable": false, "sortable": true },
+        { "name": "pageTo", "type": "INT64", "queryable": false, "sortable": true },
+        { "name": "createdAt", "type": "DATE_TIME", "queryable": true, "sortable": true },
+        { "name": "updatedAt", "type": "DATE_TIME", "queryable": true, "sortable": true }
+      ],
+      "indexes": [
+        { "fields": ["fragmentRef"] }
+      ]
+    },
+    {
+      "name": "FragmentScreenAnchor",
+      "fields": [
+        { "name": "id", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "fragmentRef", "type": "REFERENCE", "queryable": true, "sortable": false, "referenceType": "Fragment" },
+        { "name": "seasonNumber", "type": "INT64", "queryable": true, "sortable": true },
+        { "name": "episodeNumber", "type": "INT64", "queryable": true, "sortable": true },
+        { "name": "timecodeMsStart", "type": "INT64", "queryable": false, "sortable": true },
+        { "name": "timecodeMsEnd", "type": "INT64", "queryable": false, "sortable": true },
+        { "name": "createdAt", "type": "DATE_TIME", "queryable": true, "sortable": true },
+        { "name": "updatedAt", "type": "DATE_TIME", "queryable": true, "sortable": true }
+      ],
+      "indexes": [
+        { "fields": ["fragmentRef"] },
+        { "fields": ["seasonNumber", "episodeNumber"] }
+      ]
+    },
+    {
+      "name": "PlaceMediaAsset",
+      "fields": [
+        { "name": "id", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "placeRef", "type": "REFERENCE", "queryable": true, "sortable": false, "referenceType": "Place" },
+        { "name": "kind", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "localId", "type": "STRING", "queryable": false, "sortable": false },
+        { "name": "remoteURLString", "type": "STRING", "queryable": false, "sortable": false },
+        { "name": "caption", "type": "STRING", "queryable": false, "sortable": false },
+        { "name": "createdAt", "type": "DATE_TIME", "queryable": true, "sortable": true },
+        { "name": "updatedAt", "type": "DATE_TIME", "queryable": true, "sortable": true },
+        { "name": "isDeleted", "type": "INT64", "queryable": true, "sortable": false }
+      ],
+      "indexes": [
+        { "fields": ["placeRef"] }
+      ]
+    },
+    {
+      "name": "FragmentMediaAsset",
+      "fields": [
+        { "name": "id", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "fragmentRef", "type": "REFERENCE", "queryable": true, "sortable": false, "referenceType": "Fragment" },
+        { "name": "kind", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "localId", "type": "STRING", "queryable": false, "sortable": false },
+        { "name": "remoteURLString", "type": "STRING", "queryable": false, "sortable": false },
+        { "name": "caption", "type": "STRING", "queryable": false, "sortable": false },
+        { "name": "createdAt", "type": "DATE_TIME", "queryable": true, "sortable": true },
+        { "name": "updatedAt", "type": "DATE_TIME", "queryable": true, "sortable": true },
+        { "name": "isDeleted", "type": "INT64", "queryable": true, "sortable": false }
+      ],
+      "indexes": [
+        { "fields": ["fragmentRef"] }
+      ]
+    },
+    {
+      "name": "Creator",
+      "fields": [
+        { "name": "id", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "name", "type": "STRING", "queryable": true, "sortable": true },
+        { "name": "localizedName", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "lowercasedName", "type": "STRING", "queryable": true, "sortable": true },
+        { "name": "createdAt", "type": "DATE_TIME", "queryable": true, "sortable": true },
+        { "name": "updatedAt", "type": "DATE_TIME", "queryable": true, "sortable": true },
+        { "name": "isDeleted", "type": "INT64", "queryable": true, "sortable": false }
+      ],
+      "indexes": [
+        { "fields": ["lowercasedName"], "order": "ASC" },
+        { "fields": ["updatedAt"], "order": "DESC" }
+      ]
+    },
+    {
+      "name": "WorkCreatorLink",
+      "fields": [
+        { "name": "id", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "workRef", "type": "REFERENCE", "queryable": true, "sortable": false, "referenceType": "Work" },
+        { "name": "creatorRef", "type": "REFERENCE", "queryable": true, "sortable": false, "referenceType": "Creator" },
+        { "name": "role", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "orderIndex", "type": "INT64", "queryable": false, "sortable": true },
+        { "name": "createdAt", "type": "DATE_TIME", "queryable": true, "sortable": true },
+        { "name": "updatedAt", "type": "DATE_TIME", "queryable": true, "sortable": true }
+      ],
+      "indexes": [
+        { "fields": ["workRef", "creatorRef"] },
+        { "fields": ["creatorRef"] }
+      ]
+    },
+    {
+      "name": "ExternalId",
+      "fields": [
+        { "name": "id", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "workRef", "type": "REFERENCE", "queryable": true, "sortable": false, "referenceType": "Work" },
+        { "name": "sourceKey", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "value", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "createdAt", "type": "DATE_TIME", "queryable": true, "sortable": true },
+        { "name": "updatedAt", "type": "DATE_TIME", "queryable": true, "sortable": true }
+      ],
+      "indexes": [
+        { "fields": ["workRef", "sourceKey"] },
+        { "fields": ["sourceKey", "value"] }
+      ]
+    },
+    {
+      "name": "Tag",
+      "fields": [
+        { "name": "id", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "name", "type": "STRING", "queryable": true, "sortable": true },
+        { "name": "lowercasedName", "type": "STRING", "queryable": true, "sortable": true },
+        { "name": "createdAt", "type": "DATE_TIME", "queryable": true, "sortable": true },
+        { "name": "updatedAt", "type": "DATE_TIME", "queryable": true, "sortable": true },
+        { "name": "isDeleted", "type": "INT64", "queryable": true, "sortable": false }
+      ],
+      "indexes": [
+        { "fields": ["lowercasedName"], "order": "ASC" },
+        { "fields": ["name"] }
+      ]
+    },
+    {
+      "name": "TagLink",
+      "fields": [
+        { "name": "id", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "tagRef", "type": "REFERENCE", "queryable": true, "sortable": false, "referenceType": "Tag" },
+        { "name": "targetType", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "targetId", "type": "STRING", "queryable": true, "sortable": false },
+        { "name": "createdAt", "type": "DATE_TIME", "queryable": true, "sortable": true },
+        { "name": "updatedAt", "type": "DATE_TIME", "queryable": true, "sortable": true }
+      ],
+      "indexes": [
+        { "fields": ["tagRef"] },
+        { "fields": ["targetType", "targetId"] },
+        { "fields": ["targetId"] }
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "description": "Geolore iOS 应用的 CloudKit 私有数据库 Schema（面向 M1；M0 不启用 CloudKit，仅作预置文档）",
+    "phase": "M1",
+    "totalRecordTypes": 16,
+    "createdAt": "2025-10-31",
+    "notes": [
+      "所有实体的 id 字段存储为 UUID 字符串",
+      "Bool 类型映射为 Int64 (0/1)",
+      "地理位置使用 LOCATION 类型存储 latitude + longitude",
+      "Reference 字段实现实体间关联",
+      "所有记录包含 createdAt 和 updatedAt 用于 LWW 冲突解决",
+      "核心实体、Creator、Tag、媒体资产包含 isDeleted 支持软删除",
+      "建议在应用层保证唯一性约束（如 Tag.name, ExternalId 的 workRef + sourceKey 等）"
+    ]
+  }
+}
+

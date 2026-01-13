@@ -1,2 +1,9 @@
+# 核心依赖
 urllib3>=2.0.0
 requests>=2.28.0
+
+# 异步 HTTP (用于 cleaner.py 批量清洗)
+aiohttp>=3.8.0
+
+# 可选：命令行美化
+rich>=13.0.0

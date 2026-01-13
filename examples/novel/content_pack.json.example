@@ -1,0 +1,39 @@
+{
+  "version": "2.0",
+  "metadata": {
+    "id": "example-novel",
+    "title": "示例小说地图",
+    "author": "故实巡礼",
+    "description": "示例内容包，展示数据格式",
+    "schemaVersion": 1
+  },
+  "places": [
+    {
+      "clientId": "p001",
+      "title": "大世界商城",
+      "latitude": 46.8121,
+      "longitude": 130.3594,
+      "synopsis": "主角在此与神秘人物会面获得关键线索，离开时遭遇追踪者。",
+      "locality": "前进区",
+      "countryCode": "CN"
+    },
+    {
+      "clientId": "p002",
+      "title": "鬼崽岭",
+      "latitude": 25.5176,
+      "longitude": 111.5976,
+      "synopsis": "众人深夜探访鬼崽岭，发现了神秘的石像群，据说是古代祭祀遗址。",
+      "locality": "道县",
+      "countryCode": "CN"
+    },
+    {
+      "clientId": "p003",
+      "title": "瓦泽",
+      "latitude": 30.0489,
+      "longitude": 101.9661,
+      "synopsis": "从康定乘拖拉机抵达瓦泽，恰逢晒佛节，目睹盛大的宗教仪式。",
+      "locality": "康定市",
+      "countryCode": "CN"
+    }
+  ]
+}

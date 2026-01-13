@@ -1,10 +1,30 @@
 # 小说场景处理示例
 
-本示例展示如何从小说文本中抽取地点信息并生成内容包。
+本目录包含从小说处理到内容包的完整数据流示例。
 
-## 示例数据
+## 数据流
 
-假设我们有一部小说 `novel.txt`，包含多个章节。
+```
+extracted.jsonl.example   # Stage 2: LLM 提取结果
+       ↓
+merged.json.example       # Stage 3a: 合并同名地点
+       ↓
+cleaned.json.example      # Stage 3b: LLM 凝练 synopsis
+       ↓
+geocoded.json.example     # Stage 4: 地理编码结果
+       ↓
+content_pack.json.example # Stage 5: 最终内容包
+```
+
+## 文件说明
+
+| 文件 | 阶段 | 说明 |
+|-----|------|------|
+| `extracted.jsonl.example` | Stage 2 | LLM 提取原始结果 |
+| `merged.json.example` | Stage 3a | 合并同名地点 |
+| `cleaned.json.example` | Stage 3b | synopsis 凝练 |
+| `geocoded.json.example` | Stage 4 | 地理编码结果 |
+| `content_pack.json.example` | Stage 5 | 最终内容包 |
 
 ## 处理流程
 

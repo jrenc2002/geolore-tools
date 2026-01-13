@@ -21,19 +21,19 @@ geolore-tools/
 │   ├── extraction.md            # 地点提取 prompt
 │   └── cleaning.md              # 数据清洗 prompt
 ├── src/                         # 核心工具代码
-│   ├── __init__.py
 │   ├── extraction/              # 文本信息抽取
-│   │   ├── __init__.py
 │   │   ├── splitter.py          # 文本分片（按章节）
 │   │   ├── prompt_generator.py  # LLM 提示词生成
 │   │   └── llm_runner.py        # LLM API 调用
+│   ├── processing/              # 数据处理 ⭐ NEW
+│   │   ├── merger.py            # 合并同名地点
+│   │   ├── cleaner.py           # LLM 批量清洗 synopsis
+│   │   └── filter.py            # 过滤无效数据
 │   ├── geocoding/               # 地理编码
-│   │   ├── __init__.py
 │   │   ├── nominatim.py         # OSM Nominatim 编码
-│   │   ├── amap.py              # 高德地图 API (可选)
+│   │   ├── amap.py              # 高德地图 API ⭐ NEW
 │   │   └── validator.py         # 结果验证与校正
 │   └── packing/                 # 内容包构建
-│       ├── __init__.py
 │       └── pack_builder.py      # ContentPack JSON 生成
 ├── scripts/                     # 命令行入口脚本
 │   ├── split_chapters.py        # 文本分片入口
@@ -46,7 +46,7 @@ geolore-tools/
 │   ├── beipai-novel/            # 北派盗墓笔记案例
 │   └── fanhua-novel/            # 繁花案例
 └── examples/                    # 使用示例
-    ├── novel/                   # 小说场景处理示例
+    ├── novel/                   # 小说场景处理示例（含数据样例）
     └── biography/               # 人物传记处理示例
 ```
 
@@ -58,99 +58,104 @@ geolore-tools/
 pip install -r requirements.txt
 ```
 
-### 2. 完整流程示例
+### 2. 完整流程（5 个阶段）
 
 ```bash
-# Step 1: 将小说文本分片
-python scripts/split_chapters.py \
-  --text data/novel.txt \
-  --out chunks/ \
+# Stage 1: 文本分片
+python src/extraction/splitter.py \
+  --input novel.txt \
+  --output chunks/ \
   --per-chunk 2
 
-# Step 2: 生成 LLM 提示词
-python scripts/generate_prompts.py \
+# Stage 2: LLM 提取地点
+python src/extraction/llm_runner.py \
   --chunks chunks/ \
-  --out prompts/prompts.jsonl
+  --system-file prompts/extraction.md \
+  --output extracted.jsonl
 
-# Step 3: 调用 LLM 抽取地点信息
-python scripts/run_extraction.py \
-  --prompts prompts/prompts.jsonl \
-  --out extracted/
+# Stage 3a: 合并同名地点
+python src/processing/merger.py \
+  --input extracted.jsonl \
+  --output merged.json
 
-# Step 4: 地理编码
-python scripts/geocode_places.py \
-  --extracted extracted/ \
-  --cache geocode_cache.json \
-  --out geocoded/
+# Stage 3b: LLM 清洗 synopsis
+python src/processing/cleaner.py \
+  --input merged.json \
+  --output cleaned.json \
+  --system-file prompts/cleaning.md \
+  --batch-jsonl batches.jsonl
 
-# Step 5: 生成内容包
-python scripts/build_pack.py \
-  --geocoded geocoded/ \
+# Stage 3c: 过滤无效数据
+python src/processing/filter.py \
+  --input cleaned.json \
+  --output filtered.json
+
+# Stage 4: 地理编码（高德 API）
+python src/geocoding/amap.py \
+  --input filtered.json \
+  --output geocoded.json \
+  --amap-key YOUR_AMAP_KEY \
+  --enable-validation
+
+# Stage 5: 生成内容包
+python src/packing/pack_builder.py \
+  --input geocoded.json \
+  --output pack.json \
   --pack-id my-novel \
-  --title "我的小说地图" \
-  --out pack.json
+  --title "我的小说地图"
 ```
 
 ## 📚 核心文档
 
-- **[内容包规范](docs/ContentPackSpec.md)** - Geolore iOS 应用使用的 JSON 内容包格式 v2
-- **[CloudKit Schema](docs/CloudKitSchema.json)** - iOS 端数据模型定义
-- **[地理编码规则](docs/GeocodingRules.md)** - 地址解析的最佳实践
-- **[验证机制](docs/ValidationMechanism.md)** - 地理编码结果验证
-- **[时间序列规范](docs/TimelineSpec.md)** - 支持按时间顺序浏览的内容包
-- **[问题排查](docs/TroubleshootingGuide.md)** - 常见问题与解决方案
+| 文档 | 说明 |
+|-----|------|
+| [ContentPackSpec.md](docs/ContentPackSpec.md) | 内容包 JSON v2 协议规范 |
+| [GeocodingRules.md](docs/GeocodingRules.md) | 地址解析规则与最佳实践 |
+| [ValidationMechanism.md](docs/ValidationMechanism.md) | 地理编码验证机制 |
+| [TimelineSpec.md](docs/TimelineSpec.md) | 时间序列内容包规范 |
+| [TroubleshootingGuide.md](docs/TroubleshootingGuide.md) | 常见问题与解决方案 |
+| [SOP.md](docs/SOP.md) | 标准操作流程 |
 
 ## 🎯 LLM Prompt 模板
 
 经过实战验证的提示词模板：
 
-- **[prompts/extraction.md](prompts/extraction.md)** - 地点提取 Chain-of-Thought prompt
-- **[prompts/cleaning.md](prompts/cleaning.md)** - 数据批量清洗 prompt
+| 模板 | 用途 | 阶段 |
+|-----|------|------|
+| [extraction.md](prompts/extraction.md) | 地点提取 Chain-of-Thought | Stage 2 |
+| [cleaning.md](prompts/cleaning.md) | 数据批量清洗 | Stage 3b |
 
-## 🔧 工具说明
+## 🔧 核心模块
 
-### 文本分片器 (Splitter)
+### src/processing/ ⭐ 数据处理
 
-将长篇文本按章节分割为便于 LLM 处理的小片段：
+| 模块 | 功能 |
+|-----|------|
+| `merger.py` | 合并同名地点，汇总 story 数组 |
+| `cleaner.py` | 调用 LLM 凝练 synopsis（支持并发、断点续传） |
+| `filter.py` | 过滤省级地址、未知标记等无效数据 |
 
-- 支持中文章节标题识别（第X章、第X回等）
-- 可配置每个分片包含的章节数
-- 自动生成索引文件
+### src/geocoding/ 地理编码
 
-### LLM 信息抽取
+| 模块 | 功能 |
+|-----|------|
+| `nominatim.py` | OSM Nominatim 免费 API |
+| `amap.py` | 高德地图 API（分级回退 + 验证机制） |
+| `validator.py` | 结果验证与校正 |
 
-从文本中抽取地点、人物、事件等结构化信息：
+### src/extraction/ 文本抽取
 
-- 生成标准化 JSONL 提示词
-- 支持多种 LLM API（OpenAI、Claude、自定义）
-- 输出结构化 JSON 结果
+| 模块 | 功能 |
+|-----|------|
+| `splitter.py` | 按章节分片 |
+| `prompt_generator.py` | 生成 LLM prompt |
+| `llm_runner.py` | 批量调用 LLM API |
 
-### 地理编码器 (Geocoder)
-
-将地名转换为经纬度坐标：
-
-- 支持 OSM Nominatim（免费）和高德地图 API
-- 分级回退查询策略
-- 结果验证与行政区校正
-- 本地缓存避免重复请求
-
-### 内容包构建器
-
-将抽取和编码结果打包为 Geolore 格式：
-
-- 符合 ContentPack v2 规范
-- 支持时间序列（Timeline）
-- 自动去重与合并
-
-## 📖 SOP 文档
-
-- **[标准操作流程 (SOP)](docs/SOP.md)** - 从小说文本到内容包的完整流程
-
-## 📂 实际案例
+## 📂 实战案例
 
 | 案例 | 类型 | 地点数 | 特点 |
 |------|------|--------|------|
-| [北派盗墓笔记](cases/beipai-novel/README.md) | 冒险小说 | 942 | 覆盖全国30+省份 |
+| [北派盗墓笔记](cases/beipai-novel/README.md) | 冒险小说 | 942 | 覆盖全国 30+ 省份 |
 | [繁花](cases/fanhua-novel/README.md) | 都市小说 | 66 | 聚焦上海，历史街道 |
 
 ## 🔗 相关链接

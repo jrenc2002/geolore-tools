@@ -1,0 +1,38 @@
+[
+  {
+    "title": "大世界商城",
+    "address": "黑龙江省-佳木斯市-前进区-大世界商城",
+    "synopsis": "主角在此与神秘人物会面获得关键线索，离开时遭遇追踪者。",
+    "latitude": 46.8121,
+    "longitude": 130.3594,
+    "locality": "前进区",
+    "countryCode": "CN",
+    "geocodeSource": "amap",
+    "matchLevel": 0,
+    "validationPassed": true
+  },
+  {
+    "title": "鬼崽岭",
+    "address": "湖南省-永州市-道县-鬼崽岭",
+    "synopsis": "众人深夜探访鬼崽岭，发现了神秘的石像群，据说是古代祭祀遗址。",
+    "latitude": 25.5176,
+    "longitude": 111.5976,
+    "locality": "道县",
+    "countryCode": "CN",
+    "geocodeSource": "amap",
+    "matchLevel": 0,
+    "validationPassed": true
+  },
+  {
+    "title": "瓦泽",
+    "address": "四川省-甘孜藏族自治州-康定市-瓦泽乡",
+    "synopsis": "从康定乘拖拉机抵达瓦泽，恰逢晒佛节，目睹盛大的宗教仪式。",
+    "latitude": 30.0489,
+    "longitude": 101.9661,
+    "locality": "康定市",
+    "countryCode": "CN",
+    "geocodeSource": "amap",
+    "matchLevel": 0,
+    "validationPassed": true
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "description": "示例输入数据 - 从文本中提取的地点原始结果",
+  "format": "jsonl",
+  "fields": {
+    "chunkFile": "源文件路径",
+    "output": "提取结果数组"
+  },
+  "sample_line": {"chunkFile": "chunk_001.txt", "output": [{"title": "大世界商城", "address": "黑龙江省-佳木斯市-前进区-大世界商城", "story": "主角在此与神秘人物会面..."}]}
+}

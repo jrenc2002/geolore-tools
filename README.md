@@ -39,6 +39,7 @@ geolore-tools/
 │   ├── split_chapters.py        # 文本分片入口
 │   ├── generate_prompts.py      # 提示词生成入口
 │   ├── run_extraction.py        # LLM 抽取入口
+│   ├── process_data.py          # 数据处理入口 (Merge -> Clean -> Filter)
 │   ├── geocode_places.py        # 地理编码入口
 │   ├── build_pack.py            # 内容包构建入口
 │   └── fix_geocode_template.py  # 地理编码修复模板
@@ -66,31 +67,19 @@ python src/extraction/splitter.py \
   --input novel.txt \
   --output chunks/ \
   --per-chunk 2
-
 # Stage 2: LLM 提取地点
-python src/extraction/llm_runner.py \
-  --chunks chunks/ \
-  --system-file prompts/extraction.md \
-  --output extracted.jsonl
+python scripts/run_extraction.py \
+  --prompts prompts.jsonl \
+  --out extracted/
 
-# Stage 3a: 合并同名地点
-python src/processing/merger.py \
+# Stage 3: 数据处理 (合并 -> 清洗 -> 过滤) NEW!
+python scripts/process_data.py \
   --input extracted.jsonl \
-  --output merged.json
-
-# Stage 3b: LLM 清洗 synopsis
-python src/processing/cleaner.py \
-  --input merged.json \
-  --output cleaned.json \
-  --system-file prompts/cleaning.md \
-  --batch-jsonl batches.jsonl
-
-# Stage 3c: 过滤无效数据
-python src/processing/filter.py \
-  --input cleaned.json \
-  --output filtered.json
+  --output ready_to_geocode.jsonl \
+  --api-key $OPENAI_API_KEY
 
 # Stage 4: 地理编码（高德 API）
+python scripts/geocode_places.py \
 python src/geocoding/amap.py \
   --input filtered.json \
   --output geocoded.json \

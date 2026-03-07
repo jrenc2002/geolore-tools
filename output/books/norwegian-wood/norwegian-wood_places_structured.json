@@ -1,0 +1,367 @@
+{
+  "book_info": {
+    "title": "Norwegian Wood",
+    "author": "Haruki Murakami",
+    "type": "novel",
+    "summary": "《挪威的森林》是村上春树的代表作，将读者带回1960年代末动荡而忧郁的东京。故事以渡边彻的第一视角展开，描绘了他在直子与小林绿两名性格迥异的女性之间徘徊的青春物语。这不仅是一部关于初恋与成长的长篇小说，更是一场关于丧失、孤独与自我救赎的深度探讨。全书地理版图从繁华的东京街头、静谧的大学校园，延伸至偏远的京都山间疗养院，在都市的喧嚣与自然的静谧交织中，勾勒出一代青年在时代洪流下寻找生命出口的迷茫与哀愁。文字如细雨般温润，触碰着每个人心中最柔软的孤独角落。"
+  },
+  "characters": [
+    {
+      "id": "watanabe_toru",
+      "name": "渡边彻",
+      "aliases": [
+        "渡边",
+        "我"
+      ],
+      "role": "故事的主角，一名在东京求学的大学生，性格内敛且孤独，在过去与未来间挣扎。",
+      "first_appearance": "Kobayashi Bookshop",
+      "importance": "protagonist"
+    },
+    {
+      "id": "kobayashi_midori",
+      "name": "小林绿",
+      "aliases": [
+        "绿子",
+        "阿绿"
+      ],
+      "role": "渡边的大学同学，性格活泼开朗、充满生命力，是渡边生命中温暖的亮色。",
+      "first_appearance": "Kobayashi Bookshop",
+      "importance": "major"
+    },
+    {
+      "id": "reiko",
+      "name": "玲子",
+      "aliases": [
+        "石田玲子",
+        "玲子小姐"
+      ],
+      "role": "直子在疗养院的室友，精通音乐，是渡边与直子之间的情感纽带及精神导师。",
+      "first_appearance": "Kichijoji",
+      "importance": "major"
+    },
+    {
+      "id": "ito",
+      "name": "伊藤",
+      "aliases": [],
+      "role": "渡边在吉祥寺居住期间的同事，曾与渡边分享孤独的时刻。",
+      "first_appearance": "Inokashira Park",
+      "importance": "minor"
+    }
+  ],
+  "parts": [
+    {
+      "part_id": "PART-1",
+      "title": "Norwegian Wood",
+      "synopsis": "渡边彻在东京的求学岁月中，经历了与小林绿的相识、对直子的思念以及与玲子的告别，最终在丧失中寻找生的意义。",
+      "place_count": 6,
+      "mood": "melancholic",
+      "key_characters": [
+        "渡边彻",
+        "小林绿",
+        "玲子"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "title": "Kobayashi Bookshop",
+      "address": "Japan-Tokyo-Toshima-Kita-Otsuka-2-chome",
+      "synopsis": "小林绿的家，渡边彻曾在此陪伴她并经历火灾，是两人情感升温的关键场所。",
+      "source_evidence": "Ten minutes’ walk down this street brought me to a corner petrol station, where I turned right into a small block of shops, in the middle of which hung the sign for the Kobayashi Bookshop.",
+      "original_chapter": "Chapter 4",
+      "part_id": "PART-1",
+      "part_title": "Norwegian Wood",
+      "temporal_context": {
+        "era": "1960s",
+        "historical_name": null,
+        "date_start": "1968",
+        "date_end": "1969"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "渡边彻",
+          "小林绿"
+        ],
+        "stay_duration": "多次访问"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "family",
+          "death",
+          "vitality"
+        ],
+        "significance": 0.95
+      },
+      "visitability": {
+        "status": "uncertain",
+        "note": "北大冢一带多为住宅区，书中原型书店已难寻觅",
+        "current_name": "北大塚周边"
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "1968",
+        "dateEnd": "1970"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·小林书店的呼唤",
+        "hook": "在死气沉沉的旧书店里，渡边彻听到了来自现实世界的、最真切的呼唤。",
+        "narrative_text": "位于北大冢的小林书店，是性格开朗的女孩小林绿生长的地方。这里充满了生活的气息：厨房里的油烟味、生病父亲的喘息声，以及绿子那永不枯竭的生命力。渡边彻曾在这里的屋顶上看火灾，在书店里吃绿子亲手做的饭菜。在故事的最后，当玲子离去，直子已成往事，渡边彻在电话亭里疯狂地呼唤着绿子。他意识到，无论世界多么荒诞和孤独，他必须回到绿子身边，回到这个充满了烟火气和真实情感的小书店所代表的现实世界中去。",
+        "transition_to": "在现实的羁绊中，渡边彻与绿子的关系在一次意外的重逢中迎来了转机。",
+        "mood": "hopeful",
+        "key_dialogue": "“我现在在哪里？”我拿着听筒抬起头，环视电话亭四周。我究竟在哪里？我不知道那是哪里。"
+      }
+    },
+    {
+      "title": "Takashimaya department store in Nihonbashi",
+      "address": "Japan-Tokyo-Chuo-Nihonbashi-2-4-1",
+      "synopsis": "渡边彻与小林绿在冷战两个月后重逢，在百货公司屋顶雨中拥抱，确认了彼此的感情。",
+      "source_evidence": "To the restaurant of the Takashimaya department store in Nihonbashi.",
+      "original_chapter": "Chapter 10",
+      "part_id": "PART-1",
+      "part_title": "Norwegian Wood",
+      "temporal_context": {
+        "era": "1960s",
+        "historical_name": null,
+        "date_start": "1969",
+        "date_end": "1969"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "渡边彻",
+          "小林绿"
+        ],
+        "stay_duration": "一个下午"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "reconciliation",
+          "romance",
+          "urban_life"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "历史悠久的百货公司，建筑本身被列为重要文化财",
+        "current_name": "日本橋高島屋S.C. 本館"
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "1969",
+        "dateEnd": "1969"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·雨中的屋顶花园",
+        "hook": "长达两个月的冷战后，两颗孤独的心在繁华百货公司的顶楼重新贴近。",
+        "narrative_text": "渡边彻与小林绿已经两个月没有联络，两人的关系因直子的阴影而陷入僵局。在日本桥高岛屋百货，他们终于重逢。在地下餐厅共进午餐后，两人来到了雨中的屋顶花园。在空旷的雨幕下，小林绿控诉着渡边彻对她的忽视，而渡边彻终于意识到自己对这个充满生命力的女孩的真实情感。他们在雨中紧紧拥抱，这一刻，现实的温暖暂时驱散了远方疗养院带来的忧郁。",
+        "transition_to": "确认心意后，渡边彻搬出了学生宿舍，在吉祥寺开始了独立生活。",
+        "mood": "bittersweet",
+        "key_dialogue": "“我可是个有血有肉的活生生的女子，”绿子把脸颊贴在我的衬衫上说，“而且现在就在你的怀抱里。”"
+      }
+    },
+    {
+      "title": "Inokashira Park",
+      "address": "Japan-Tokyo-Musashino-Gotenyama-1-18-3",
+      "synopsis": "渡边彻在吉祥寺居住期间，与同事伊藤在公园附近喝酒，分享孤独的时刻。",
+      "source_evidence": "We stared at the crescent moon hanging over Inokashira Park and drank our Chivas Regal to the last drop.",
+      "original_chapter": "Chapter 10",
+      "part_id": "PART-1",
+      "part_title": "Norwegian Wood",
+      "temporal_context": {
+        "era": "1970s",
+        "historical_name": null,
+        "date_start": "1970",
+        "date_end": "1970"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "渡边彻",
+          "伊藤"
+        ],
+        "stay_duration": "一个夜晚"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "solitude",
+          "friendship",
+          "youth"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": null,
+        "current_name": "井の頭恩賜公園"
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "1970",
+        "dateEnd": "1970"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·井之头的残月",
+        "hook": "在搬离宿舍后的新生活中，酒精与月色成了渡边彻排遣寂寞的慰藉。",
+        "narrative_text": "渡边彻在吉祥寺租下了一间小屋，试图在远离过去的环境中重新建立生活的秩序。他在意大利餐厅打工，结识了同样孤独的大学生伊藤。两人在井之头公园附近的公寓里，对着悬挂在公园上空的月牙，喝光了整瓶芝华士威士忌。这种平淡而略显颓废的社交，构成了渡边彻在动荡青春中的短暂间歇，他在这种疏离的友谊中寻找着与世界的微弱联系。",
+        "transition_to": "然而，平静的生活很快被来自阿美寮的意外访客打破。",
+        "mood": "melancholic",
+        "key_dialogue": "我们望着挂在井之头公园上空的月牙，把芝华士喝得一滴不剩。"
+      }
+    },
+    {
+      "title": "Kichijoji",
+      "address": "Japan-Tokyo-Musashino-Kichijoji-Honcho",
+      "synopsis": "渡边彻在吉祥寺租屋居住，并在此接待了离开疗养院的玲子，两人共度了最后的告别时光。",
+      "source_evidence": "After a week of searching, I came up with the right place way out in the suburbs of Kichijoji.",
+      "original_chapter": "Chapter 10",
+      "part_id": "PART-1",
+      "part_title": "Norwegian Wood",
+      "temporal_context": {
+        "era": "1970s",
+        "historical_name": null,
+        "date_start": "1970",
+        "date_end": "1970"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "渡边彻",
+          "玲子"
+        ],
+        "stay_duration": "数月"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "healing",
+          "new_beginning",
+          "music"
+        ],
+        "significance": 0.85
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "吉祥寺地区依然是东京最受欢迎的居住区之一",
+        "current_name": "吉祥寺"
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "1970",
+        "dateEnd": "1970"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·吉祥寺的避风港",
+        "hook": "直子去世后，玲子带着吉他出现在渡边彻的门前，两人用音乐举行了一场特殊的葬礼。",
+        "narrative_text": "直子在疗养院自杀的消息传来，渡边彻陷入了漫长的自我放逐。直到玲子——那位在阿美寮陪伴直子多年的室友，决定离开深山重返社会。她来到渡边彻在吉祥寺的小屋，两人在这里度过了几天奇妙的时光。玲子弹奏了五十多首曲子，包括那首《挪威的森林》，作为对直子的祭奠。在吉祥寺的这个小房间里，两个幸存者通过彼此的体温和音乐，完成了对死者的告别和对生者的救赎。",
+        "transition_to": "告别的时刻终究会到来，渡边彻送玲子前往开启新生活的车站。",
+        "mood": "nostalgic",
+        "key_dialogue": "“我们必须活下去，”玲子说，“为了那些死去的人，我们也得活下去。”"
+      }
+    },
+    {
+      "title": "Ueno Station",
+      "address": "Japan-Tokyo-Taito-Ueno-7-chome",
+      "synopsis": "渡边彻在上野车站送别玲子，两人在站台上吻别，象征着与过去彻底告别。",
+      "source_evidence": "I accompanied her to Ueno Station. She carried her guitar and I carried her suitcase.",
+      "original_chapter": "Chapter 11",
+      "part_id": "PART-1",
+      "part_title": "Norwegian Wood",
+      "temporal_context": {
+        "era": "1970s",
+        "historical_name": null,
+        "date_start": "1970",
+        "date_end": "1970"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "渡边彻",
+          "玲子"
+        ],
+        "stay_duration": "一小时"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "departure",
+          "farewell",
+          "hope"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "东京重要的交通枢纽，通往北日本的门户",
+        "current_name": "上野駅"
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "1970",
+        "dateEnd": "1970"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·上野站的吻别",
+        "hook": "在通往北方的列车旁，一个深情的吻为这段纠缠多年的往事画上了句点。",
+        "narrative_text": "渡边彻提着行李，陪同玲子来到上野车站。这里是通往日本北部的起点，也是玲子重获新生的起点。在嘈杂的站台上，玲子显得格外精神，她不再是那个被困在阿美寮的病人，而是一个准备去北海道教书的音乐家。临行前，两人在站台上深情接吻，这并非出于世俗的爱恋，而是两个在黑暗中并肩走过一段路的人，对彼此生命力的最后确认。随着列车缓缓启动，渡边彻目送着玲子消失在视野中。",
+        "transition_to": "玲子的目的地是遥远的北方，那是她选定的重生之地。",
+        "mood": "bittersweet",
+        "key_dialogue": "“写信给我，”她说，“保重。”"
+      }
+    },
+    {
+      "title": "Asahikawa",
+      "address": "Japan-Hokkaido-Asahikawa",
+      "synopsis": "玲子最终前往北海道旭川，在朋友的音乐学校开始新生活，象征着希望的延续。",
+      "source_evidence": "I’m going to Asahikawa,” she said. “Way up in the wilds of Hokkaido!",
+      "original_chapter": "Chapter 11",
+      "part_id": "PART-1",
+      "part_title": "Norwegian Wood",
+      "temporal_context": {
+        "era": "1970s",
+        "historical_name": null,
+        "date_start": "1970",
+        "date_end": "1970"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "玲子"
+        ],
+        "stay_duration": "永久"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "rebirth",
+          "distance",
+          "winter"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": null,
+        "current_name": "旭川市"
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "1970",
+        "dateEnd": "1970"
+      },
+      "story_mode": {
+        "chapter_title": "第6章·北方的回响",
+        "hook": "在遥远的北海道雪原，曾经破碎的灵魂正试图重新奏响生命的乐章。",
+        "narrative_text": "旭川，这个位于北海道腹地的寒冷城市，成为了玲子最终的归宿。在经历了精神崩溃、家庭破碎以及在阿美寮长达七年的隐居后，她选择在一位大学好友开办的音乐学校重新开始。虽然这个地点在书中仅作为玲子的目的地出现，但它代表了全书最明亮的一抹希望：即使经历了如直子般的毁灭，人依然可以选择像玲子一样，带着满身的伤痕，勇敢地走向广阔的世界，继续弹奏手中的吉他。",
+        "transition_to": "故事在无尽的呼唤中落下帷幕，渡边彻在现实与虚无的交界处，继续寻找着生存的意义。",
+        "mood": "peaceful",
+        "key_dialogue": "“我要去旭川了，”她说，“去北海道那片荒野之中！”"
+      }
+    }
+  ],
+  "suspects": []
+}

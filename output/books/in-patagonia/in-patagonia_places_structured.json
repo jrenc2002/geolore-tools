@@ -1,0 +1,86 @@
+{
+  "book_info": {
+    "title": "In Patagonia",
+    "author": "Bruce Chatwin",
+    "type": "travelogue",
+    "summary": "1970年代，英国作家布鲁斯·查特文辞去报社工作，只身前往南美洲最南端的巴塔哥尼亚。这本书不仅是一段地理意义上的远征，更是一场追寻家族记忆与流浪灵魂的文学巡礼。查特文受祖母橱柜中一块神秘“雷龙皮”的诱惑，深入那片被荒风吹拂的广袤高原。他以极简而富有诗意的笔触，勾勒出流亡者、孤独的定居者以及那些被历史遗忘的传奇人物。在荒原的尽头，他寻找的不只是史前生物的遗骸，更是人类内心深处对于“定居”与“流浪”永恒矛盾的答案。这是一部重新定义了现代旅行文学的经典之作。"
+  },
+  "characters": [
+    {
+      "id": "bruce_chatwin",
+      "name": "Bruce Chatwin",
+      "aliases": [
+        "布鲁斯·查特文",
+        "我"
+      ],
+      "role": "故事的叙述者与旅行者，追寻家族传说与流浪真谛的英国作家",
+      "first_appearance": "Patagonia",
+      "importance": "protagonist"
+    }
+  ],
+  "parts": [
+    {
+      "part_id": "PART-1",
+      "title": "In Patagonia",
+      "synopsis": "查特文从童年记忆出发，跨越半个地球抵达巴塔哥尼亚，开启对荒原、历史遗迹与边缘人物的探索之旅。",
+      "place_count": 1,
+      "mood": "contemplative",
+      "key_characters": [
+        "Bruce Chatwin"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "title": "Patagonia",
+      "address": "Argentina-Patagonia-Santa Cruz-Patagonia Region",
+      "synopsis": "布鲁斯·查特文受祖母橱柜中一块“雷龙皮”的启发，辞职前往南美洲南端的荒原，寻找家族记忆与流浪的真谛。",
+      "source_evidence": "The history of Patagonia is a history of people who have gone there and stayed there, and of people who have gone there and left.",
+      "original_chapter": "Introduction",
+      "part_id": "PART-1",
+      "part_title": "In Patagonia",
+      "temporal_context": {
+        "era": "1970s",
+        "historical_name": null,
+        "date_start": "1974",
+        "date_end": "1975"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Bruce Chatwin"
+        ],
+        "stay_duration": "Six months"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "nomadism",
+          "exile",
+          "exploration",
+          "mythology"
+        ],
+        "significance": 1.0
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "巴塔哥尼亚是一个广阔的地理区域，至今仍是著名的徒步与探险目的地。",
+        "current_name": "Patagonia"
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "1974",
+        "dateEnd": "1975"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·雷龙皮的召唤",
+        "hook": "一块珍藏在橱柜里的神秘“皮毛”，竟能勾勒出一张通往世界尽头的地图？",
+        "narrative_text": "在作家布鲁斯·查特文的童年记忆里，祖母的橱柜中藏着一块带有红色卷毛的“雷龙皮”。这块来自巴塔哥尼亚的遗物，在他心中种下了流浪的种子。1974年，查特文辞去了《星期日泰晤士报》的工作，只身前往这片位于南美洲南端的荒原。巴塔哥尼亚不仅是地理上的终点，更是无数流亡者、怪人和梦想家的避难所。查特文穿梭在狂风肆虐的平原与冰川之间，通过碎片化的叙事，将现实的旅程与历史的幻影交织在一起。他不仅是在寻找那头史前巨兽的真相，更是在探寻人类为何要四处流浪的终极哲学。这片土地的荒凉与孤独，成为了他笔下最迷人的文学底色。",
+        "transition_to": "查特文的足迹最终消失在巴塔哥尼亚的狂风中，而这段旅程也成为了现代旅行文学的永恒标杆。",
+        "mood": "mysterious",
+        "key_dialogue": "I am going to Patagonia."
+      }
+    }
+  ],
+  "suspects": []
+}

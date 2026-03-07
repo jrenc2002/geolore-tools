@@ -1,0 +1,2816 @@
+{
+  "book_info": {
+    "title": "The Beach",
+    "author": "Alex Garland",
+    "type": "novel",
+    "summary": "《海滩》是英国作家亚历克斯·加兰于1996年创作的经典小说，深刻捕捉了90年代背包客文化中那种狂热而又幻灭的精神特质。故事跟随年轻的英国旅行者理查德，从曼谷考山路的廉价旅馆出发，凭借一张神秘的遗物地图，在泰国湾的禁忌海域寻找传说中的世外桃源。这不仅是一场跨越苏梅岛、帕岸岛等热带岛屿的地理冒险，更是一次对乌托邦幻想的残酷解构。随着社群内部的权力斗争与外部威胁的逼近，理查德逐渐发现，在如画的泻湖与白沙滩背后，隐藏着人性最深处的偏执与暴力。加兰以冷峻的笔触，将热带天堂描绘成了一场感官过载的现代启示录。"
+  },
+  "characters": [
+    {
+      "id": "richard",
+      "name": "Richard",
+      "aliases": [
+        "理查德",
+        "我"
+      ],
+      "role": "故事的主角，一名沉迷于电子游戏和越战幻想的英国年轻背包客",
+      "first_appearance": "Mekong Delta",
+      "importance": "protagonist"
+    },
+    {
+      "id": "daffy",
+      "name": "Daffy",
+      "aliases": [
+        "Mister Duck",
+        "达菲"
+      ],
+      "role": "海滩的创始人之一，因精神崩溃在曼谷自杀并留下了地图",
+      "first_appearance": "Khao San Road",
+      "importance": "major"
+    },
+    {
+      "id": "sal",
+      "name": "Sal",
+      "aliases": [
+        "萨尔"
+      ],
+      "role": "海滩社群的女性领导者，极力维护营地的秘密与秩序",
+      "first_appearance": "Ko Pha-Ngan",
+      "importance": "major"
+    },
+    {
+      "id": "francoise",
+      "name": "Francoise",
+      "aliases": [
+        "弗朗索瓦丝"
+      ],
+      "role": "与理查德同行的法国女孩，理查德的情感寄托",
+      "first_appearance": "Ko Samui",
+      "importance": "major"
+    },
+    {
+      "id": "etienne",
+      "name": "Etienne",
+      "aliases": [
+        "艾蒂安"
+      ],
+      "role": "弗朗索瓦丝的男友，性格温和且具有理想主义色彩的法国青年",
+      "first_appearance": "Srinagar",
+      "importance": "major"
+    },
+    {
+      "id": "jed",
+      "name": "Jed",
+      "aliases": [
+        "杰德"
+      ],
+      "role": "海滩的守卫者，负责监视岛屿周边并独自在林中生活",
+      "first_appearance": "Hat Rin",
+      "importance": "major"
+    },
+    {
+      "id": "bugs",
+      "name": "Bugs",
+      "aliases": [
+        "巴格斯"
+      ],
+      "role": "Sal的男友，负责营地的木工与日常管理，性格自负",
+      "first_appearance": "Ko Pha-Ngan",
+      "importance": "supporting"
+    },
+    {
+      "id": "keaty",
+      "name": "Keaty",
+      "aliases": [
+        "基蒂"
+      ],
+      "role": "海滩成员，热爱潜水，是理查德在岛上的好友",
+      "first_appearance": "Ko Pha-Ngan",
+      "importance": "supporting"
+    },
+    {
+      "id": "zeph",
+      "name": "Zeph",
+      "aliases": [
+        "泽夫"
+      ],
+      "role": "理查德在苏梅岛遇到的美国背包客，试图寻找海滩",
+      "first_appearance": "Lamai",
+      "importance": "minor"
+    },
+    {
+      "id": "sammy",
+      "name": "Sammy",
+      "aliases": [
+        "萨米"
+      ],
+      "role": "与Zeph同行的美国人，性格轻浮且爱编造故事",
+      "first_appearance": "Lamai",
+      "importance": "minor"
+    },
+    {
+      "id": "christo",
+      "name": "Christo",
+      "aliases": [
+        "克里斯托"
+      ],
+      "role": "瑞典旅行者，在抵达海滩时受重伤，最终死于理查德之手",
+      "first_appearance": "The Beach",
+      "importance": "supporting"
+    },
+    {
+      "id": "cassie",
+      "name": "Cassie",
+      "aliases": [
+        "卡西"
+      ],
+      "role": "海滩成员，离开海滩后在马来西亚因贩毒被捕",
+      "first_appearance": "Patpong bar",
+      "importance": "minor"
+    }
+  ],
+  "parts": [
+    {
+      "part_id": "PART-1",
+      "title": "The Beach",
+      "synopsis": "理查德从曼谷出发，历经艰险抵达神秘海滩，在融入乌托邦社群后，目睹了天堂在暴力与偏执中走向崩塌。",
+      "place_count": 96,
+      "mood": "suspenseful",
+      "key_characters": [
+        "Richard",
+        "Sal",
+        "Jed",
+        "Francoise",
+        "Etienne",
+        "Daffy"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "title": "Mekong Delta",
+      "address": "Vietnam-Mekong Delta-Can Tho",
+      "synopsis": "Richard在梦境与幻觉中闪回越战场景，湄公河三角洲成为他潜意识中冒险与危险的象征。",
+      "source_evidence": "Dropping acid on the Mekong Delta, smoking grass through a rifle barrel, flying on a helicopter with opera blasting out of loudspeakers",
+      "original_chapter": "Boom-Boom",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Richard"
+        ],
+        "stay_duration": "Flashback/Dream"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "hallucination",
+          "war-imagery",
+          "subconscious"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "著名的旅游景区，但在书中仅作为主角的心理意象出现",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·战争的幻影",
+        "hook": "在踏上真正的旅程前，混乱的越战幻象预示了某种不安。",
+        "narrative_text": "年轻的英国背包客Richard，脑海中充斥着流行文化与战争电影的碎片。在前往泰国的旅途中，他的意识时常飘回那片潮湿的湄公河三角洲。在那里，直升机的轰鸣伴随着歌剧，大麻烟雾穿过枪管，迷幻药模糊了现实与虚构的边界。这并非他的真实经历，而是他这一代人对‘冒险’最激进的想象。这种对危险与未知的病态迷恋，正是驱使他深入东南亚丛林的最初动力。",
+        "transition_to": "从幻觉的硝烟中醒来，Richard发现自己已置身于喧嚣的曼谷。",
+        "mood": "mysterious",
+        "key_dialogue": "Dropping acid on the Mekong Delta, smoking grass through a rifle barrel..."
+      }
+    },
+    {
+      "title": "Khao San Road",
+      "address": "Thailand-Bangkok-Phra Nakhon-Khao San Road",
+      "synopsis": "在考山路的廉价旅馆，Richard遇到了神秘的Daffy，并得到了一张通往秘密海滩的地图。",
+      "source_evidence": "I'd worked this out on the walk down the Khao San Road to the police station. ... asking me not to leave Khao San within twenty-four hours.",
+      "original_chapter": "Bitch",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Richard",
+          "Daffy"
+        ],
+        "stay_duration": "2 days"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "subculture",
+          "madness",
+          "discovery"
+        ],
+        "significance": 1.0
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "至今仍是全球著名的背包客聚集地",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·考山路的遗物",
+        "hook": "隔壁房间传来的自言自语，竟是一场致命冒险的邀请函。",
+        "narrative_text": "考山路是背包客的圣地，也是混乱的中心。Richard住进了一间简陋的旅馆，隔壁住着一个自称Daffy Duck的苏格兰男人。Daffy神志不清，言语中充满了对‘海滩’的狂热与诅咒。当晚，Daffy透过防蚊网递给Richard一支大麻烟卷，仿佛某种入场仪式。第二天，Richard发现Daffy自杀身亡，而在他的房门上，钉着一张手绘地图，指引着那个传说中的世外桃源。这张血色的地图，彻底改变了Richard的命运。",
+        "transition_to": "为了寻找地图上的坐标，Richard决定向南出发，跨越泰国湾。",
+        "mood": "tense",
+        "key_dialogue": "He'd pinned it to my door. A map. The map."
+      }
+    },
+    {
+      "title": "Gulf of Thailand",
+      "address": "Thailand-Gulf of Thailand-Ang Thong Marine Park",
+      "synopsis": "Richard在曼谷旅馆门上发现了一张手绘地图，地图指向泰国湾中一片被禁忌环绕的神秘海滩。",
+      "source_evidence": "Sliding quickly and smoothly through the stars, tonight its orbit passing the Gulf of Thailand, and maybe later the skies of Dakar or Oxford.",
+      "original_chapter": "Geography",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Richard",
+          "Daffy"
+        ],
+        "stay_duration": "Passing mention"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "mystery",
+          "cartography",
+          "obsession"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "A large body of water bordering Thailand, Cambodia, and Vietnam.",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·星空下的坐标",
+        "hook": "一张沾着血迹的手绘地图，指向了地图上不存在的岛屿。",
+        "narrative_text": "Richard的目光转向了南方，转向了那片深蓝色的泰国湾。在他那间简陋的曼谷旅馆房间里，自杀身亡的邻居Daffy留下了一份诡异的遗产：一张钉在门上的手绘地图。地图的顶端草草写着“泰国湾”，线条勾勒出一群被海洋隔绝的岛屿。对于渴望逃离平庸背包客路径的Richard来说，这不仅仅是一张纸，而是一个通往纯粹荒野的邀请函。在那片广阔的海域中，隐藏着一个关于“海滩”的传说，那是所有旅行者梦寐以求却从未触及的乌托邦。",
+        "transition_to": "在出发前往那片海域前，Richard的思绪不由自主地飘回了更早的旅程。",
+        "mood": "mysterious",
+        "key_dialogue": "The map was a mess of blue and green ink, with 'Gulf of Thailand' written across the top in a shaky hand."
+      }
+    },
+    {
+      "title": "Srinagar",
+      "address": "India-Jammu and Kashmir-Srinagar-Dal Lake",
+      "synopsis": "Richard回忆起十七岁时在斯利那加的鲁莽往事，那是他作为旅行者最初的冒险与恐惧。",
+      "source_evidence": "me and one friend decided to take about an eighth of hash with us on a flight from Srinagar to Delhi.",
+      "original_chapter": "Etienne",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "Late 1980s",
+        "historical_name": null,
+        "date_start": "1987",
+        "date_end": "1987"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Richard"
+        ],
+        "stay_duration": "Flashback"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "memory",
+          "youth",
+          "risk"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Summer capital of Jammu and Kashmir.",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "1987",
+        "dateEnd": "1987"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·克什米尔的回声",
+        "hook": "十七岁那年的走私冒险，是他心中挥之不去的阴影。",
+        "narrative_text": "面对未知的泰国海滩，Richard想起了自己十七岁时的样子。那时他在印度的斯利那加，带着一种少年特有的无知与狂妄，和朋友决定携带大麻登机。斯利那加的寒冷空气和紧张的边境氛围曾让他战栗，那种在法律边缘试探的快感与恐惧交织在一起，塑造了他如今对冒险的病态迷恋。这段往事提醒着他，旅行从来不只是看风景，而是一场关于心理极限的博弈。",
+        "transition_to": "那次惊险的航程，最终降落在了一个闷热而混乱的城市。",
+        "mood": "tense",
+        "key_dialogue": "I was seventeen, and I was terrified. It was the first time I'd ever done anything like that."
+      }
+    },
+    {
+      "title": "Ko Samui",
+      "address": "Thailand-Surat Thani-Ko Samui-Chaweng",
+      "synopsis": "Richard与法国情侣Etienne、Francoise抵达苏梅岛，这里是通往禁忌之地的最后文明前哨。",
+      "source_evidence": "The lights of Ko Samui glowed on the horizon like a trace of sunset.",
+      "original_chapter": "KO SAMUI / R&R",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Richard",
+          "Etienne",
+          "Francoise"
+        ],
+        "stay_duration": "A few days"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "anticipation",
+          "tourism_vs_exploration"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "A major tourist island in the Gulf of Thailand.",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·苏梅岛的灯火",
+        "hook": "在文明的边缘，他们最后一次享受热水澡和冰啤酒。",
+        "narrative_text": "Richard不再是孤身一人，他结识了同样对地图着迷的法国情侣：温和的Etienne和美丽的Francoise。三人抵达了苏梅岛，这个已经被旅游业彻底开发的岛屿在他们眼中只是一个跳板。他们在查汶海滩的廉价旅馆里整顿装备，沉重的背包压在肩上，提醒着前方路途的艰辛。夜晚，苏梅岛的灯火在海平线上闪烁，像是一场永不落幕的派对，而他们却选择背过身去，划向那片黑暗中未被标注的领域。",
+        "transition_to": "在苏梅岛的谈话中，一个名字反复出现，那是关于海滩起源的传说。",
+        "mood": "ambitious",
+        "key_dialogue": "The lights of Ko Samui glowed on the horizon like a trace of sunset."
+      }
+    },
+    {
+      "title": "Ko Pha-Ngan",
+      "address": "Thailand-Surat Thani-Ko Pha-Ngan-Haad Rin",
+      "synopsis": "帕岸岛是海滩社群的补给站，也是一切疯狂计划与权力斗争的幕后延伸地。",
+      "source_evidence": "Obviously, this means a trip to Ko Pha-Ngan to get party supplies... Bugs and Keaty, as you two were the catalyst for the split, I want you to make the trip together.",
+      "original_chapter": "Zero",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1989",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Keaty",
+          "Bugs",
+          "Sal",
+          "Daffy"
+        ],
+        "stay_duration": "Periodic visits"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "logistics",
+          "secrecy",
+          "community_rules"
+        ],
+        "significance": 0.75
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Famous for the Full Moon Party.",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "1989",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第6章·帕岸岛的补给线",
+        "hook": "为了维持乌托邦的运转，他们必须定期潜回那个喧闹的世界。",
+        "narrative_text": "帕岸岛在海滩传说中扮演着双重角色。它是1989年最初的三人组——包括后来发疯的Daffy和严厉的领导者Sal——租船出发的起点。同时，它也是海滩社群维持生存的秘密补给站。每隔一段时间，成员们如Keaty和Bugs就必须伪装成普通游客，前往帕岸岛采购大米和“派对物资”。这里是现实世界与世外桃源的交汇点，充满了被发现的风险。对于海滩上的居民来说，帕岸岛那喧闹的满月派对是他们避之不及的瘟疫，却又是不得不依赖的生命线。",
+        "transition_to": "离开这些已知的岛屿，他们租下了一艘破旧的小船，驶向更遥远的Ko Phelong。",
+        "mood": "mysterious",
+        "key_dialogue": "I've been thinking about your suggestion to take Karl to Ko Pha-Ngan, but for the reasons we discussed I simply don't think it's possible."
+      }
+    },
+    {
+      "title": "Ko Phelong",
+      "address": "Thailand-Surat Thani-Ko Phelong-Ang Thong",
+      "synopsis": "离开喧嚣的旅游岛屿，Richard一行人租船抵达了国家公园边缘的Ko Phelong，这里是通往神秘海滩的最后跳板。",
+      "source_evidence": "Maybe first to Ko Phelong, because the tourists can go there for one day... We get back to Ko Phelong. We wait for a tourist boat.",
+      "original_chapter": "Francoise",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Richard",
+          "Etienne",
+          "Francoise"
+        ],
+        "stay_duration": "1 day"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "expedition",
+          "anticipation"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "位于安通国家海洋公园内",
+        "current_name": "Ko Phaluai"
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第7章·最后的跳板",
+        "hook": "在地图的边缘，Etienne指出了那个唯一允许游客停留的孤岛。",
+        "narrative_text": "离开这些已知的岛屿，Richard、Etienne与Francoise租下了一艘破旧的小船，驶向更遥远的Ko Phelong。这里是安通国家海洋公园的一部分，也是地图上标注的最后一片合法停留地。Etienne——这个严谨而充满热情的法国青年，在地图上反复确认着位置。他们在这里短暂停留，避开大批游客的视线，像潜伏的猎人一样观察着海平线。Richard能感觉到空气中紧绷的张力，他们正处于文明世界与那个传说中的‘伊甸园’之间的灰色地带，每一步都在背离常规的旅行路线。",
+        "transition_to": "为了掩盖真实的行踪，他们不得不折返陆地，在素叻他尼编造了一个谎言。",
+        "mood": "mysterious",
+        "key_dialogue": "“Maybe first to Ko Phelong, because the tourists can go there for one day.”"
+      }
+    },
+    {
+      "title": "Chaweng",
+      "address": "Thailand-Surat Thani-Ko Samui-Chaweng Beach",
+      "synopsis": "在查汶海滩，三人享受了最后的度假时光，Richard在海中遭遇了大量水母，预示着旅程的不安。",
+      "source_evidence": "The sun came out as I set off down Chaweng, but it did little to salvage my mood. ... After twenty minutes I'd counted seventeen, and they were still showing no signs of thinning out.",
+      "original_chapter": "R&R",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Richard",
+          "Etienne",
+          "Francoise"
+        ],
+        "stay_duration": "2-3 days"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "leisure",
+          "foreshadowing",
+          "nature"
+        ],
+        "significance": 0.7
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "苏梅岛最著名的旅游海滩",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第8章·查汶的水母",
+        "hook": "在看似平静的碧波下，潜伏着数不清的刺痛威胁。",
+        "narrative_text": "查汶海滩本该是背包客的天堂，Richard、Etienne和Francoise入住了一间海滨小屋，试图在最后的冒险前享受一段‘R&R’（休整）。然而，Richard的心境却无法平静。当他在清澈的海水中游泳时，发现自己被无数半透明的水母包围了。他一个接一个地数着，直到数到第十七个，那种被包围的压抑感让他感到窒息。这似乎是一个隐喻：在美丽的表象下，大自然隐藏着危险。尽管如此，三人还是在沙滩上度过了最后的轻松时刻，Francoise的笑声暂时冲淡了Richard对未知旅程的焦虑。他们知道，一旦离开这里，就再也没有回头路了。",
+        "transition_to": "随着最后一次日落，他们彻底告别了文明，向着地图上的终点游去。",
+        "mood": "bittersweet",
+        "key_dialogue": "“After twenty minutes I'd counted seventeen, and they were still showing no signs of thinning out.”"
+      }
+    },
+    {
+      "title": "Ko Mat Lang",
+      "address": "Thailand-Surat Thani-Ko Samui-Ko Mat Lang",
+      "synopsis": "Richard在苏梅岛北端尝试寻找愿意载他们前往神秘海域的渔民，目光锁定在近海的Ko Mat Lang岛。",
+      "source_evidence": "I went north, towards Ko Mat Lang, and the other two went south, aiming for a small town we'd passed on the jeep ride.",
+      "original_chapter": "Spaced Invaders",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Richard"
+        ],
+        "stay_duration": "A few hours"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "exploration",
+          "anticipation"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "位于查汶海滩北端，退潮时可步行到达",
+        "current_name": "Koh Mat Lang"
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·北望的试探",
+        "hook": "在查汶的尽头，跨海潜行的第一站就在眼前。",
+        "narrative_text": "清晨的查汶海滩还未被喧嚣占领，年轻的英国背包客Richard与同伴们分头行动。他独自向北走去，目标是那座离岸不远的小岛——Ko Mat Lang。阳光洒在浅滩上，他试图在那些修补渔网的当地人中找到一个愿意违背禁令、载他们深入禁区的渔民。这不仅是一场关于金钱的博弈，更是对那张手绘地图真实性的第一次肉身试探。尽管最终未能在此雇到船只，但那座近在咫尺的岛屿成了他心中冒险开始的坐标。",
+        "transition_to": "在寻找出路的间隙，Richard的思绪飘回了多年前听到的那些关于泰国旅游胜地的评价。",
+        "mood": "ambitious",
+        "key_dialogue": "I went north, towards Ko Mat Lang, and the other two went south."
+      }
+    },
+    {
+      "title": "Pattaya",
+      "address": "Thailand-Chon Buri-Pattaya-Pattaya Beach",
+      "synopsis": "Richard回忆起童年保姆对芭提雅的负面评价，将其视为过度开发的旅游地反面教材。",
+      "source_evidence": "Pattaya was a hell-hole.",
+      "original_chapter": "Spaced Invaders",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1980s (Memory)",
+        "historical_name": null,
+        "date_start": "1984",
+        "date_end": "1984"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Richard"
+        ],
+        "stay_duration": "Instantaneous (Memory)"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "anti-tourism",
+          "prejudice"
+        ],
+        "significance": 0.25
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "著名的国际旅游城市",
+        "current_name": "Pattaya"
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "1984",
+        "dateEnd": "1984"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·地狱的代名词",
+        "hook": "为什么真正的背包客对芭提雅嗤之以鼻？",
+        "narrative_text": "在Richard的认知地图里，芭提雅从未是一个目的地，而是一个警示。他想起1984年，家里的保姆从泰国旅行归来，带回的不是赞美，而是对那个“人间地狱”的厌恶。对于像Richard这样追求纯粹、原始体验的旅行者来说，芭提雅代表了所有被商业文明腐蚀的旅游陷阱：拥挤、肮脏、失去灵魂。这种对大众旅游地的排斥，更加坚定了他寻找那座传说中“海滩”的决心。",
+        "transition_to": "带着对商业化的厌恶，他与Jed踏上了前往帕岸岛的旅程，来到了传说中的哈林海滩。",
+        "mood": "desolate",
+        "key_dialogue": "Pattaya was a hell-hole."
+      }
+    },
+    {
+      "title": "Hat Rin",
+      "address": "Thailand-Surat Thani-Ko Pha-Ngan-Hat Rin Beach",
+      "synopsis": "Richard与Jed抵达帕岸岛哈林海滩，在喧闹的背包客聚落中穿行，感受着文明边缘的最后狂欢。",
+      "source_evidence": "Although I'd been told it was past its best, Hat Rin still had a slightly legendary reputation. ... An hour later we were walking past rows of busy beach huts and weaving between sunbathers and Frisbee games.",
+      "original_chapter": "West More Land / Re-entry",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Richard",
+          "Jed"
+        ],
+        "stay_duration": "Several hours"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "backpacker_culture",
+          "observation"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "著名的满月派对举办地",
+        "current_name": "Haad Rin"
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·哈林的余晖",
+        "hook": "在传奇的哈林海滩，Richard在镜子里看到了另一个自己。",
+        "narrative_text": "哈林海滩曾是背包客心中的圣地，尽管在Richard抵达时，人们都说它已风光不再。他和Jed——那个在曼谷旅馆里显得神秘莫测的男人，一起将船藏在隐秘的角落，步入这片充斥着飞盘、日光浴和廉价木屋的沙滩。在一家拥挤的咖啡馆里，Richard从镜子中瞥见了自己的脸：晒黑了，眼神中透着一种由于长期处于冒险边缘而产生的狂野。这里是他们进入真正荒野前的最后一站，文明的喧嚣在身后逐渐远去。",
+        "transition_to": "在哈林的谈话中，Richard想起了朋友曾提到的另一个替代方案。",
+        "mood": "mysterious",
+        "key_dialogue": "Although I'd been told it was past its best, Hat Rin still had a slightly legendary reputation."
+      }
+    },
+    {
+      "title": "Ko Tao",
+      "address": "Thailand-Surat Thani-Ko Tao",
+      "synopsis": "Richard提及涛岛作为新兴的背包客聚集地，正步帕岸岛和巴厘岛的后尘被大众发掘。",
+      "source_evidence": "Set up in Bali, Ko Pha-Ngan, Ko Tao, Borocay, and the hordes are bound to follow.",
+      "original_chapter": "Spaced Invaders",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Richard"
+        ],
+        "stay_duration": "Instantaneous (Mentioned)"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "tourism_evolution",
+          "discovery"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "著名的潜水胜地",
+        "current_name": "Koh Tao"
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·下一个牺牲品",
+        "hook": "当一个地方被冠以“值得一去”时，它的毁灭也就开始了。",
+        "narrative_text": "在Richard的逻辑里，涛岛是旅游业贪婪胃口的下一个目标。他冷眼看着这些岛屿如何从无人问津的秘境变成背包客手册上的必去之地。从巴厘岛到帕岸岛，再到涛岛，这种模式周而复始。这种对“被发现”的恐惧，正是他疯狂保守“海滩”秘密的心理根源——一旦地图流出，那片净土就会变成下一个涛岛，挤满寻找廉价刺激的平庸之辈。",
+        "transition_to": "然而，并不是所有人都在追求极致的孤独，有些人在拉迈海滩寻找的是更世俗的快乐。",
+        "mood": "bittersweet",
+        "key_dialogue": "Set up in Bali, Ko Pha-Ngan, Ko Tao, Borocay, and the hordes are bound to follow."
+      }
+    },
+    {
+      "title": "Lamai",
+      "address": "Thailand-Surat Thani-Ko Samui-Lamai Beach",
+      "synopsis": "Sammy和Zeph在拉迈海滩经历了一场寻找钥匙的小插曲，随后带着违禁品归来庆祝。",
+      "source_evidence": "They'd spent the day at Lamai hunting for their lost room key and found it hanging on a piece of driftwood, stuck into the sand.",
+      "original_chapter": "Eden",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Sammy",
+          "Zeph",
+          "Richard"
+        ],
+        "stay_duration": "One day"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "leisure",
+          "coincidence"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "苏梅岛第二大沙滩",
+        "current_name": "Lamai Beach"
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·拉迈的幸运钥匙",
+        "hook": "在广袤的沙滩上寻找一把丢失的钥匙，这概率如同寻找那座海滩。",
+        "narrative_text": "当Richard还在为生存和秘密焦虑时，Sammy和Zeph——这两个典型的美国背包客，正在拉迈海滩上演着他们的荒诞剧。他们弄丢了房间钥匙，在烈日下的沙滩上翻找了一整天，最后竟然奇迹般地发现钥匙被挂在一根插在沙里的漂流木上。这种随遇而安的幸运让他们兴奋不已，随即买了大麻回来与Richard分享。在拉迈的这一天，展现了旅行中另一种轻松而荒诞的面貌，与即将到来的残酷冒险形成了鲜明对比。",
+        "transition_to": "告别了拉迈的喧嚣，Richard的思绪跳跃到了遥远的美国爱达荷州。",
+        "mood": "joyful",
+        "key_dialogue": "They'd spent the day at Lamai hunting for their lost room key and found it hanging on a piece of driftwood."
+      }
+    },
+    {
+      "title": "Eden",
+      "address": "Thailand-Surat Thani-Ang Thong National Marine Park",
+      "synopsis": "Zeph向Richard展示了一张手绘地图，上面标注着一个被称为“伊甸园”的神秘海滩。",
+      "source_evidence": "It's paradise,' Sammy murmured. 'It's Eden.' ... The islands were rough circles, the curving shore line of Thailand a series of jagged lines, and there were only three labels. Ko Samui, Ko Phelong, and Eden.",
+      "original_chapter": "Leaving",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Zeph",
+          "Sammy",
+          "Richard"
+        ],
+        "stay_duration": "Short visit in conversation"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "paradise",
+          "discovery",
+          "obsession"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "原型通常被认为是安通国家海洋公园的某个海湾",
+        "current_name": "Ang Thong National Marine Park"
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第6章·标注伊甸园",
+        "hook": "在地图的边缘，隐藏着最后的乐土。",
+        "narrative_text": "在昏暗的灯光下，Zeph和Sammy向Richard展示了那张足以改变命运的地图。Sammy低声呢喃着那个名字——“伊甸园”。在泰国蜿蜒的海岸线和零星的岛屿之间，这个被标注为Eden的地方显得如此突兀而诱人。它不仅仅是一个地理坐标，更是所有背包客梦寐以求的终极避难所。Richard盯着地图上那三个简单的标注：苏梅岛、帕隆岛，以及那个神秘的伊甸园。这一刻，寻找“海滩”的渴望在他心中彻底点燃，他意识到自己正站在通往禁忌天堂的门槛上。",
+        "transition_to": "当Richard抬头仰望星空，他的思绪随着卫星飞向了更广阔的世界。",
+        "mood": "mysterious",
+        "key_dialogue": "“It's paradise,' Sammy murmured. 'It's Eden.”"
+      }
+    },
+    {
+      "title": "Swiss Cottage Odeon",
+      "address": "England-London-Camden-Swiss Cottage-96 Finchley Rd",
+      "synopsis": "Richard回忆起1986年与朋友Tom在伦敦观看电影《野战排》的情景。",
+      "source_evidence": "We went to see it that night at the Swiss Cottage Odeon, screen one, 1986.",
+      "original_chapter": "FNG",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1986",
+        "date_end": "1986"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Richard",
+          "Tom"
+        ],
+        "stay_duration": "A few hours"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "memory",
+          "cinema",
+          "war_influence"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "该电影院现仍作为Odeon影院运营",
+        "current_name": "Odeon Luxe Swiss Cottage"
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "1986",
+        "dateEnd": "1986"
+      },
+      "story_mode": {
+        "chapter_title": "第7章·一号厅的硝烟",
+        "hook": "1986年的那个夜晚，大银幕上的越战硝烟预示了他未来的命运。",
+        "narrative_text": "Richard的记忆闪回到1986年的伦敦。那时他还是个少年，和朋友Tom坐在瑞士小屋奥德翁电影院的一号厅里。银幕上正放映着奥利弗·斯通的《野战排》，丛林里的杀戮与混乱深深烙印在他的脑海中。当时的Richard并不知道，这种对战争电影的痴迷和对“丛林体验”的病态向往，将在多年后将他引向泰国那片看似天堂、实则残酷的海滩。电影院的冷气与爆米花味，成了他冒险基因中最早的催化剂。",
+        "transition_to": "电影里的越南是虚构的，但Daffy却告诉他，真正的“越南”就在这里。",
+        "mood": "nostalgic",
+        "key_dialogue": "We went to see it that night at the Swiss Cottage Odeon, screen one, 1986."
+      }
+    },
+    {
+      "title": "Vietnam",
+      "address": "Vietnam",
+      "synopsis": "Daffy将海滩的混乱比作越南战争，指出Richard已陷入了一场注定失败的斗争。",
+      "source_evidence": "My shoulders slumped as I got the gist.' …Vietnam.' 'Vietnam!' A great crowing grin spread across his features. 'You said it! You wanted it! And now these are the breaks! In Country, losing your shit comes with the territory!'",
+      "original_chapter": "Same-Same, But Different",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Richard",
+          "Daffy"
+        ],
+        "stay_duration": "Metaphorical presence"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "war_metaphor",
+          "madness",
+          "psychological_breakdown"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "作为国家存在，文中更多指代越战意象",
+        "current_name": "Vietnam"
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第8章·名为“越南”的疯狂",
+        "hook": "当乐园变成战场，Richard才意识到他一直追求的刺激究竟是什么。",
+        "narrative_text": "在幻觉与现实的交界处，自杀身亡的Daffy再次出现。他咧着嘴大笑，将海滩上日益紧张的局势和Richard逐渐崩溃的精神状态直接定义为“越南”。这不再是一个地理名词，而是一种状态：在不知情的情况下陷入一场注定失败的斗争，在热带丛林的湿热中失去理智。Richard终于明白，他所追求的冒险本质上是对战争创伤的拙劣模仿，而他现在正处于这场“战争”的中心。",
+        "transition_to": "从疯狂的边缘回望，Richard意识到这场旅程的终点或许只有回归平凡。",
+        "mood": "mysterious",
+        "key_dialogue": "Vietnam! You said it! You wanted it! And now these are the breaks!"
+      }
+    },
+    {
+      "title": "The Lagoon",
+      "address": "Thailand-Surat Thani-Ang Thong Marine National Park-The Lagoon",
+      "synopsis": "Richard、Etienne和Francoise跳下瀑布进入隐秘泻湖，在此遇见了负责守卫与狩猎的岛民Jed。",
+      "source_evidence": "The other strange thing is that beyond us I can see the lagoon and a white smear of sand over the treetops... It was as if a giant circle had been cut out of the island to enclose the lagoon in a wall of rock",
+      "original_chapter": "Falling Down",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Richard",
+          "Etienne",
+          "Francoise",
+          "Jed"
+        ],
+        "stay_duration": "Several hours"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "adventure",
+          "discovery",
+          "survival"
+        ],
+        "significance": 0.95
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Inspired by Maya Bay and Ang Thong Marine Park",
+        "current_name": "Emerald Lake (Talay Nai)"
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·跳入翡翠之梦",
+        "hook": "从百尺瀑布一跃而下，他们能否在封闭的岩壁中找到生机？",
+        "narrative_text": "Richard与法国情侣Etienne、Francoise终于站在了瀑布的顶端。眼前的潟湖如同一颗被巨型岩壁包裹的绿宝石，与世隔绝。为了进入这片禁地，他们不得不克服恐惧，从高耸的岩石上一跃而下，坠入深不见底的水潭。在这里，他们遇到了Jed——一个皮肤黝黑、神情警觉的年轻人，他是岛上社群的守卫者。Jed的出现标志着他们正式踏入了这片乌托邦的边缘，而这种极致的美丽之下，隐约透着一种被严密守护的压抑感。",
+        "transition_to": "在适应岛上生活的同时，Richard的思绪偶尔会飘回到过去那些失败的旅行中。",
+        "mood": "mysterious",
+        "key_dialogue": "“You’re the ones from the beach,” he said. It wasn’t a question."
+      }
+    },
+    {
+      "title": "The Island (Secret Beach)",
+      "address": "Thailand-Surat Thani-Ang Thong Marine National Park-The Beach",
+      "synopsis": "Richard正式进入海滩营地，与领导者Sal交谈并探索了这片隐藏在悬崖后的世外桃源。",
+      "source_evidence": "I left the toilet and began walking back across the clearing... By good luck, the path I chose led directly to the beach.",
+      "original_chapter": "Exploring",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Richard",
+          "Sal",
+          "Etienne",
+          "Francoise"
+        ],
+        "stay_duration": "Several weeks"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "utopia",
+          "community",
+          "secrecy"
+        ],
+        "significance": 1.0
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Maya Bay is the famous filming location, though the book suggests a more hidden spot.",
+        "current_name": "Maya Bay / Ko Phi Phi Leh"
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·秘密海滩的法则",
+        "hook": "穿过丛林，一片完美的白色沙滩展现眼前，但这里的规则由谁制定？",
+        "narrative_text": "Richard在营地中醒来，正式见到了这里的核心人物——Sal，一个果敢且极具领导力的女性。通过交谈，他得知了营地的基本运作模式：这里没有金钱，只有分工与共享。Richard独自穿过空地，偶然发现了一条通往海滩的小径。当他走出树荫，眼前的景象令他屏息：洁白的沙滩、碧绿的海水，以及四周如屏障般耸立的悬崖。这里就是传说中的秘密海滩，一个为了逃避大众旅游业而建立的最后堡垒。然而，在欣赏美景的同时，他也察觉到这种宁静是建立在极端的排外和秘密之上的。",
+        "transition_to": "在这片乐土上，新加入的成员们正努力忘记外面的世界，包括那些遥远的战火。",
+        "mood": "peaceful",
+        "key_dialogue": "“It’s a beach resort for people who don’t like beach resorts.”"
+      }
+    },
+    {
+      "title": "Ujung Kulon",
+      "address": "Indonesia-Banten-Ujung Kulon National Park",
+      "synopsis": "Keaty分享在乌戎库隆的潜水见闻，提到当地人使用简陋软管在水下长时间停留的奇观。",
+      "source_evidence": "I went to Ujung Kulon two years ago. You been there?... Well, in Ujung Kulon there were some corals and these guys there used a hose-pipe.",
+      "original_chapter": "Corals",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1993",
+        "date_end": "1993"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Keaty",
+          "Richard"
+        ],
+        "stay_duration": "Mentioned as past travel"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "diving",
+          "backpacking",
+          "adventure"
+        ],
+        "significance": 0.25
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "著名的国家公园，以爪哇犀牛和潜水闻名",
+        "current_name": "Ujung Kulon National Park"
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "1993",
+        "dateEnd": "1993"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·乌戎库隆的呼吸",
+        "hook": "一根简单的软管，竟能让人在印尼的海底停留数小时？",
+        "narrative_text": "Keaty——这个在营地里负责捕鱼、性格随和的伙伴，开始向Richard讲述他两年前在印尼乌戎库隆的冒险。那是一个原始而神秘的地方，Keaty描述了那里壮丽的珊瑚礁，以及当地渔民令人惊叹的潜水方式：他们不使用昂贵的氧气瓶，仅仅依靠一根长长的软管连接水面，就能在深海中长时间作业。这种原始而危险的生存智慧让Richard着迷，也让他意识到，在这个世界上，总有人在用最简陋的方式挑战自然的极限。",
+        "transition_to": "Richard对这个话题并不陌生，他立刻报出了进入该地的门户名称。",
+        "mood": "mysterious",
+        "key_dialogue": "Well, in Ujung Kulon there were some corals and these guys there used a hose-pipe."
+      }
+    },
+    {
+      "title": "Chiang Rai",
+      "address": "Thailand-Chiang Rai-Chiang Rai City",
+      "synopsis": "Keaty在清莱偶遇海滩社区的领导者Sal，两人结伴徒步后，Sal向他发出了前往秘密海滩的邀请。",
+      "source_evidence": "I met Sal in Chiang Rai and we got friendly. Hiked around a bit. Then she told me about this place and took me along.",
+      "original_chapter": "Corals",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Keaty",
+          "Sal"
+        ],
+        "stay_duration": "Several days"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "encounter",
+          "secret society"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "泰国北部城市",
+        "current_name": "Chiang Rai"
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·清莱的入场券",
+        "hook": "一次平凡的徒步，竟然成了进入世外桃源的面试。",
+        "narrative_text": "Keaty向Richard揭开了他来到这里的秘密。在泰北的清莱，他遇到了Sal——那个意志坚定、掌控着海滩社区一切秩序的女性领导者。两人当时只是普通的旅伴，一起在清莱的山间徒步。也许是Sal看中了Keaty身上某种随和且守规矩的特质，在相处一段时间后，她向他透露了那个关于“海滩”的传说，并最终决定带他一起加入这个隐秘的乌托邦。清莱，成了Keaty人生轨迹的转折点。",
+        "transition_to": "随着对社区成员背景的深入了解，Richard意识到每个人来到这里都带着一段不愿提及的过去。",
+        "mood": "mysterious",
+        "key_dialogue": "\"I met Sal in Chiang Rai and we got friendly... Then she told me about this place and took me along.\""
+      }
+    },
+    {
+      "title": "Ko Phalui",
+      "address": "Thailand-Surat Thani-Ko Phaluai",
+      "synopsis": "巴格斯从当地渔民口中得知了神秘泻湖的存在，开启了寻找世外桃源的序幕。",
+      "source_evidence": "Bugs said he'd heard about a hidden lagoon from some fisherman on Ko Phalui",
+      "original_chapter": "Zero",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Bugs",
+          "Richard"
+        ],
+        "stay_duration": "Mentioned in flashback"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "rumor",
+          "discovery",
+          "backpacker_lore"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "位于安通国家海洋公园附近，仍是原始的渔村岛屿",
+        "current_name": "Ko Phaluai"
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·渔民的传闻",
+        "hook": "一个关于隐藏泻湖的秘密，最初是从谁的口中流传出来的？",
+        "narrative_text": "随着对社区成员背景的深入了解，Richard的目光转向了更远方的岛屿边缘。在海滩社区的日常闲谈中，巴格斯（Bugs）——这个社区的共同创始人之一，也是萨尔（Sal）的男友——提到了这段往事。他声称，关于这个隐藏泻湖的最初线索，是他从帕卢伊岛的一名老渔民那里听来的。帕卢伊岛位于苏梅群岛的边缘，远离游客的喧嚣。正是这个偶然的传闻，像一颗种子落在巴格斯的心中，最终促成了他与萨尔、达菲（Daffy）寻找并建立这个秘密家园的冒险。对于Richard来说，这证明了“海滩”并非凭空产生的神话，而是由真实的地理坐标拼凑而成的现实。",
+        "transition_to": "然而，在定居这片海滩之前，最初的开拓者们曾有过一段放浪不羁的岁月。",
+        "mood": "mysterious",
+        "key_dialogue": "Bugs said he'd heard about a hidden lagoon from some fisherman on Ko Phalui."
+      }
+    },
+    {
+      "title": "Goa",
+      "address": "India-Goa-Anjuna Beach",
+      "synopsis": "海滩社区的创始三人组曾在果阿度过漫长时光，那是他们流浪生涯的重要一站。",
+      "source_evidence": "They spent the second half of eighty-nine doing the Goa thing, then came back to Ko Pha-Ngan for the new year.",
+      "original_chapter": "Zero",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1989",
+        "date_end": "1989"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Bugs",
+          "Sal",
+          "Daffy"
+        ],
+        "stay_duration": "6 months"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "hippie_trail",
+          "backpacker_culture",
+          "nostalgia"
+        ],
+        "significance": 0.35
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "著名的背包客圣地，以海滩和派对闻名",
+        "current_name": "Goa"
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "1989",
+        "dateEnd": "1989"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·果阿的旧梦",
+        "hook": "在发现“海滩”之前，这群理想主义者曾在哪里寻找慰藉？",
+        "narrative_text": "Richard逐渐拼凑出社区核心成员的过去。在1989年的下半年，萨尔（Sal）、巴格斯（Bugs）和达菲（Daffy）这最初的三人组正沉浸在印度果阿的背包客浪潮中。果阿是当时亚洲背包客路线上的终极圣地，充满了迷幻的派对和无尽的自由。他们在那里度过了半年的时光，体验着那种典型的“果阿式生活”。这段经历塑造了他们对理想社区的最初构想，但也让他们对那种逐渐被大众旅游业侵蚀的氛围感到疲倦。当新年的钟声即将敲响，他们决定离开印度回到泰国，而那个关于秘密海滩的计划也开始在达菲那逐渐失控的大脑中成形。",
+        "transition_to": "尽管他们热爱流浪，但并非所有的地方都能赢得达菲的青睐。",
+        "mood": "nostalgic",
+        "key_dialogue": "They spent the second half of eighty-nine doing the Goa thing."
+      }
+    },
+    {
+      "title": "Bali",
+      "address": "Indonesia-Bali-Kuta Beach",
+      "synopsis": "巴厘岛的商业化景象让达菲感到极度厌恶，促使他终身抵制印尼。",
+      "source_evidence": "Boycotted because of Bali. He went there only once, in the late eighties, and wouldn't ever go back.",
+      "original_chapter": "Zero",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1987",
+        "date_end": "1989"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Daffy"
+        ],
+        "stay_duration": "Short visit"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "commercialization",
+          "disillusionment",
+          "tourism_impact"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "世界著名旅游目的地，正如书中所述，商业化程度极高",
+        "current_name": "Bali"
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "1988",
+        "dateEnd": "1988"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·厌恶之源",
+        "hook": "一次旅行如何彻底改变一个人对一个国家的看法？",
+        "narrative_text": "达菲（Daffy）对印尼的仇视并非无缘无故。在80年代后期，他曾去过一次巴厘岛。在那里，他目睹了背包客文化如何迅速转变为廉价的商业奇观：成群的游客、千篇一律的纪念品商店、以及被金钱侵蚀的当地文化。那里的景象让他感到生理上的厌恶。对他而言，巴厘岛已经“死”了，成为了一个被大众消费榨干的空壳。这次旅行成为了他精神上的转折点，他意识到，一旦一个秘密地点被外界知晓，它的毁灭就不可避免。这种恐惧最终演变成了他在曼谷旅馆墙上留下的那份绝望。",
+        "transition_to": "Richard意识到，达菲所担心的这种“游客入侵”，正在东南亚的每一个角落上演。",
+        "mood": "desolate",
+        "key_dialogue": "He went there only once, in the late eighties, and wouldn't ever go back."
+      }
+    },
+    {
+      "title": "Boracay",
+      "address": "Philippines-Aklan-Boracay Island",
+      "synopsis": "理查德将长滩岛视为被大众旅游业摧毁的典型案例，反思秘密地点的脆弱性。",
+      "source_evidence": "Set up in Bali, Ko Pha-Ngan, Ko Tao, Borocay, and the hordes are bound to follow.",
+      "original_chapter": "Revelations",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Richard"
+        ],
+        "stay_duration": "Mentioned in thought"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "globalization",
+          "mass_tourism",
+          "inevitability"
+        ],
+        "significance": 0.25
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "菲律宾著名旅游胜地，曾因环境治理一度封岛",
+        "current_name": "Boracay"
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·沦陷的名单",
+        "hook": "当一个天堂被印在地图上，它的寿命还剩多久？",
+        "narrative_text": "在海滩社区的宁静生活中，Richard不时会陷入沉思。他列举了一系列曾经的“世外桃源”：巴厘岛、帕岸岛、涛岛，以及菲律宾的长滩岛（Boracay）。在背包客的圈子里，这些名字曾代表着未被触及的美丽，但Richard清醒地意识到，只要这些地方被建立起来，大批的“蝗虫”——那些普通游客——就必然会随之而来。长滩岛的命运与其它地方别无二致，一旦被发现，就会迅速被酒店和酒吧填满。这种对“天堂沦陷”的集体焦虑，正是海滩社区成员们愿意采取极端手段维持秘密的根本动力。",
+        "transition_to": "这种对东南亚海域的审视，让Richard想起了更多关于地理与秘密的思考。",
+        "mood": "ambitious",
+        "key_dialogue": "Set up in Bali, Ko Pha-Ngan, Ko Tao, Borocay, and the hordes are bound to follow."
+      }
+    },
+    {
+      "title": "Burmese border",
+      "address": "Myanmar-Border-Shan State",
+      "synopsis": "Keaty、Sal和Bugs曾在缅甸边境进行非法徒步，这段共同经历奠定了他们在海滩的领导地位。",
+      "source_evidence": "They'd gone on an illegal trek together over the Burmese border",
+      "original_chapter": "Jed",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1990",
+        "date_end": "1994"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Keaty",
+          "Sal",
+          "Bugs"
+        ],
+        "stay_duration": "Several days"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "backpacker history",
+          "illegal trek",
+          "friendship"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "缅甸边境地区，现仍有部分区域限制通行",
+        "current_name": "Myanmar Border"
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "1990",
+        "dateEnd": "1994"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·缅甸边境的旧影",
+        "hook": "在来到海滩之前，核心成员们早已是生死与共的战友。",
+        "narrative_text": "通过杰德（Jed）的讲述，Richard得知了海滩核心成员的一段往事。基蒂（Keaty）、萨尔（Sal）以及巴格斯（Bugs）曾在缅甸边境进行过一次危险的非法徒步旅行。那次越境冒险不仅考验了他们的胆量，更在他们之间建立了一种牢不可破的信任。正是这种在极端环境下磨练出的默契，让他们后来能够共同管理这个秘密海滩。对于他们来说，缅甸的丛林是海滩生活的前奏，也是他们冒险家身份的证明。",
+        "transition_to": "而另一位关键人物达菲，则在苏门答腊留下了他的足迹。",
+        "mood": "tense",
+        "key_dialogue": "They'd gone on an illegal trek together over the Burmese border"
+      }
+    },
+    {
+      "title": "Sumatra",
+      "address": "Indonesia-Sumatra-Medan",
+      "synopsis": "达菲在苏门答腊遭遇抢劫并目睹死亡，这段惨痛经历揭示了他对“海滩”的病态依赖。",
+      "source_evidence": "When Etienne and I were in Sumatra, someone died from eating bad shellfish.",
+      "original_chapter": "Jed",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1994",
+        "date_end": "1994"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Daffy",
+          "Etienne"
+        ],
+        "stay_duration": "Unknown"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "misfortune",
+          "travel danger",
+          "encounter"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "印尼大岛，以自然风光和原始丛林著称",
+        "current_name": "Sumatra"
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "1994",
+        "dateEnd": "1994"
+      },
+      "story_mode": {
+        "chapter_title": "第6章·苏门答腊的厄运",
+        "hook": "在热带天堂的阴影下，死亡与抢劫如影随形。",
+        "narrative_text": "关于达菲（Daffy）的过去在对话中逐渐清晰。在苏门答腊，达菲曾经历了一段极其糟糕的时光，他不仅遭到了抢劫，还亲眼目睹了有人因为误食有毒贝类而丧命。在那里，他遇到了艾蒂安（Etienne）。这些在东南亚各地的悲惨遭遇，或许正是促使达菲疯狂寻找并守护“海滩”这个避风港的原因。每一个来到海滩的人，背后都拖着一段疲惫的旅途，而苏门答腊的阴影始终笼罩在达菲的心头。",
+        "transition_to": "带着这些沉重的往事，故事的视线转向了曼谷喧闹的街头。",
+        "mood": "desolate",
+        "key_dialogue": "When Etienne and I were in Sumatra, someone died from eating bad shellfish."
+      }
+    },
+    {
+      "title": "Patpong bar",
+      "address": "Thailand-Bangkok-Bang Rak-Patpong",
+      "synopsis": "达菲在帕蓬街的一家酒吧偶遇正在找工作的卡西，将其引入了海滩圈子。",
+      "source_evidence": "Daffy had heard Cassie asking for a job in a Patpong bar.",
+      "original_chapter": "Jed",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Daffy",
+          "Cassie"
+        ],
+        "stay_duration": "One evening"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "nightlife",
+          "chance_encounter",
+          "urban_decay"
+        ],
+        "significance": 0.25
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "帕蓬街酒吧区至今仍是曼谷著名的红灯区",
+        "current_name": "Patpong Night Market Area"
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第7章·帕蓬街的低语",
+        "hook": "在曼谷最混乱的酒吧里，命运的齿轮悄然转动。",
+        "narrative_text": "曼谷帕蓬街，霓虹灯闪烁，音乐震耳欲聋。达菲（Daffy）坐在一间昏暗的酒吧里，冷眼看着周围的喧嚣。就在这里，他听到了卡西（Cassie）——一个急于在异国他乡寻找生计的年轻女子——正在四处询问是否需要雇员。达菲那双看透一切的眼睛锁定了她。对于这些在背包客天堂边缘挣扎的人来说，达菲口中的“海滩”就像是一根救命稻草，将他们从帕蓬街的浑浊空气中拉向那个未知的蓝色梦境。",
+        "transition_to": "而对于另一些人来说，远方的记忆则停留在更遥远、更清新的地方。",
+        "mood": "desolate",
+        "key_dialogue": "Daffy had heard Cassie asking for a job in a Patpong bar."
+      }
+    },
+    {
+      "title": "Blenheim",
+      "address": "New Zealand-Marlborough-Blenheim",
+      "synopsis": "巴格斯与让曾在新西兰布伦海姆的葡萄园劳作，那是他们相识的背景。",
+      "source_evidence": "Bugs had worked with Jean, grape-picking in Blenheim, New Zealand.",
+      "original_chapter": "Jed",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Bugs",
+          "Jean"
+        ],
+        "stay_duration": "A harvest season"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "labor",
+          "backpacker_lifestyle",
+          "pastoral"
+        ],
+        "significance": 0.15
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "著名的长相思葡萄酒产区",
+        "current_name": "Blenheim"
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第8章·布伦海姆的阳光",
+        "hook": "在前往海滩之前，他们也曾是普通的季节性劳工。",
+        "narrative_text": "画面从曼谷的潮湿转到了新西兰南岛的布伦海姆。这里阳光明媚，空气中弥漫着葡萄成熟的香气。巴格斯（Bugs）——那个后来在海滩社群中担任领导者、性格强硬的男人，曾在这里与让（Jean）一起并肩劳作。他们是典型的国际背包客，靠着在葡萄园采摘果实来赚取下一站的旅费。那段日子简单而充实，与后来在孤岛上建立的那个充满规则与秘密的微型社会形成了鲜明对比。",
+        "transition_to": "回到现实，Richard正站在曼谷的街头，审视着这些传奇地点的真实面目。",
+        "mood": "nostalgic",
+        "key_dialogue": "Bugs had worked with Jean, grape-picking in Blenheim, New Zealand."
+      }
+    },
+    {
+      "title": "Golden Triangle",
+      "address": "Thailand-Chiang Rai-Golden Triangle",
+      "synopsis": "理查德以金三角的鸦片徒步为例，讽刺背包客圈内对“危险体验”的盲目崇拜。",
+      "source_evidence": "Like Patpong Road or the opium treks in the Golden Triangle, I wanted to know what all the fuss was about.",
+      "original_chapter": "West More Land",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Richard"
+        ],
+        "stay_duration": "Mentioned as a concept"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "adventure",
+          "cliché",
+          "exploration"
+        ],
+        "significance": 0.2
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "泰、缅、老交界处，现为旅游区",
+        "current_name": "Golden Triangle"
+      },
+      "timeline": {
+        "orderIndex": 9,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第9章·金三角的幻象",
+        "hook": "鸦片烟雾中的徒步旅行，是冒险还是另一种陈词滥调？",
+        "narrative_text": "在理查德（Richard）的意识里，金三角的鸦片徒步旅行与帕蓬路一样，都是背包客文化中被神话了的标签。他嘲讽地看着那些自诩为“探险家”的同类，他们成群结队地前往泰北边境，试图在毒品与原始部落的边缘寻找某种廉价的刺激。Richard虽然对此感到不屑，但他内心深处那种寻找“真正独特体验”的渴望，却正一步步将他推向比金三角更危险、更隐秘的境地。他还没意识到，他所追求的“海滩”，将比任何徒步旅行都更加残酷。",
+        "transition_to": "这些地点的碎片拼凑出了一个关于逃离与寻找的宏大图景，而“海滩”则是所有故事的终点。",
+        "mood": "mysterious",
+        "key_dialogue": "Like Patpong Road or the opium treks in the Golden Triangle, I wanted to know what all the fuss was about."
+      }
+    },
+    {
+      "title": "Taj Mahal",
+      "address": "India-Uttar Pradesh-Agra-Taj Mahal",
+      "synopsis": "Richard回忆起最初的旅行清单，泰姬陵曾是他渴望打卡的平庸景点之一。",
+      "source_evidence": "I wanted to see the Taj Mahal, Borobudur, the Rice Terraces in Bagio, Angkor Wat.",
+      "original_chapter": "Chapter 1",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Richard"
+        ],
+        "stay_duration": "Brief memory"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "wanderlust",
+          "cliché",
+          "memory"
+        ],
+        "significance": 0.15
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "世界文化遗产，保存完好",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·清单上的平庸",
+        "hook": "在寻找世外桃源之前，Richard也曾是个追求大众景点的游客。",
+        "narrative_text": "在曼谷的廉价旅馆里，年轻的英国背包客Richard正审视着自己的旅行初衷。离开这些充满商业气息的“传奇”，故事的脚步将跨越国界，去往那座洁白的泰姬陵。Richard在脑海中翻阅着自己早期的旅行蓝图，那时候的他，还没有遇见Daffy，也没有听过关于那个神秘海滩的传说。泰姬陵，这座象征永恒爱情的白色大理石建筑，曾静静躺在他那份略显平庸的“必看清单”首位。那时的他，只是一个典型的西方背包客，渴望用这些举世闻名的地标来填满自己的护照和谈资。",
+        "transition_to": "从印度的白色陵墓转向印尼的佛塔，Richard的记忆在东南亚的版图上跳跃。",
+        "mood": "nostalgic",
+        "key_dialogue": "I wanted to see the Taj Mahal, Borobudur, the Rice Terraces in Bagio, Angkor Wat."
+      }
+    },
+    {
+      "title": "Borobudur",
+      "address": "Indonesia-Central Java-Magelang-Borobudur",
+      "synopsis": "Richard反思旅行者的虚荣心，提到婆罗浮屠的日出常被用来作为炫耀的资本。",
+      "source_evidence": "If you'd watched the sun rise over Borobudur, he'd tell you that you should have seen the sun set",
+      "original_chapter": "Chapter 1",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Richard"
+        ],
+        "stay_duration": "Brief memory"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "traveler_ego",
+          "one-upmanship"
+        ],
+        "significance": 0.15
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "著名的佛教遗迹，依然是热门旅游地",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·日出下的较量",
+        "hook": "在背包客的世界里，连看日出的方式都能成为一种优越感。",
+        "narrative_text": "Richard想起了婆罗浮屠，那座宏伟的印尼佛塔。在他看来，这里不仅是建筑奇迹，更是背包客们进行“旅行竞赛”的战场。他深知这种圈子里的潜规则：如果你炫耀自己在婆罗浮屠看过了绝美的日出，总会有人跳出来，用一种轻蔑而老练的口吻告诉你，你其实错过了那里更震撼的日落。这种无休止的攀比让他感到疲惫，也让他更加渴望寻找一个真正无人知晓、无需向任何人证明的纯净之地。",
+        "transition_to": "记忆的指针继续拨动，指向了菲律宾吕宋岛那层叠的绿色阶梯。",
+        "mood": "bittersweet",
+        "key_dialogue": "If you'd watched the sun rise over Borobudur, he'd tell you that you should have seen the sun set."
+      }
+    },
+    {
+      "title": "Banaue Rice Terraces",
+      "address": "Philippines-Luzon-Ifugao-Banaue Rice Terraces",
+      "synopsis": "碧瑶附近的梯田是Richard早期旅行愿望清单中的一部分，代表了他对异域风情的最初向往。",
+      "source_evidence": "I wanted to see the Taj Mahal, Borobudur, the Rice Terraces in Bagio, Angkor Wat.",
+      "original_chapter": "Chapter 1",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Richard"
+        ],
+        "stay_duration": "Brief memory"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "exploration",
+          "landscape"
+        ],
+        "significance": 0.1
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "原著中提到的Bagio Rice Terraces实指巴拿威梯田",
+        "current_name": "Banaue Rice Terraces"
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·绿色的阶梯",
+        "hook": "在那些尚未被鲜血染红的日子里，Richard的梦想只是看一眼碧瑶的梯田。",
+        "narrative_text": "碧瑶的梯田，那是Richard在出发前，对着地图和旅游手册勾勒出的另一个梦想。在那个还没有Google Earth的年代，这些位于菲律宾吕宋岛山间的绿色奇迹，对他而言意味着纯粹的异国情调。他曾想象自己站在那些层叠的稻田边，呼吸着高山上清新的空气。这些地点串联起了他最初的旅行逻辑——一种收集景观的逻辑。然而，当他真正陷入泰国丛林的生存游戏时，这些曾经向往的田园牧歌显得如此遥远且不切实际。",
+        "transition_to": "清单上的最后一站，是柬埔寨那座沉睡在丛林中的古老神庙。",
+        "mood": "peaceful",
+        "key_dialogue": "I wanted to see the Taj Mahal, Borobudur, the Rice Terraces in Bagio, Angkor Wat."
+      }
+    },
+    {
+      "title": "Angkor Wat",
+      "address": "Cambodia-Siem Reap-Angkor Wat",
+      "synopsis": "吴哥窟作为Richard早期旅行目标的终点，象征着他曾经对传统旅游路线的认同。",
+      "source_evidence": "I wanted to see the Taj Mahal, Borobudur, the Rice Terraces in Bagio, Angkor Wat.",
+      "original_chapter": "Chapter 1",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Richard"
+        ],
+        "stay_duration": "Brief memory"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "ruins",
+          "ambition"
+        ],
+        "significance": 0.15
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "柬埔寨国宝级景区",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·众神之城",
+        "hook": "吴哥窟的石脸曾是Richard旅行终点的象征，直到他发现了更隐秘的诱惑。",
+        "narrative_text": "吴哥窟，那是Richard旅行清单上的最后一项。在那个背包客文化盛行的90年代，没去过吴哥窟的亚洲之行是不完整的。他曾渴望在那些巨大的石雕面孔注视下，感受历史的厚重。但讽刺的是，当他真正踏上旅程，他却在曼谷的一间廉价旅馆里，被Daffy口中那个“秘密海滩”彻底勾走了魂魄。吴哥窟所代表的传统旅游路径，在那个瞬间被他抛诸脑后。他不再想做一个参观遗迹的游客，他想做一个发现新世界的探险家。",
+        "transition_to": "从这些宏大的遗迹中抽离，Richard的思绪回到了十八岁那年的香港。",
+        "mood": "ambitious",
+        "key_dialogue": "I wanted to see the Taj Mahal, Borobudur, the Rice Terraces in Bagio, Angkor Wat."
+      }
+    },
+    {
+      "title": "Hong Kong",
+      "address": "China-Hong Kong-Tsim Sha Tsui",
+      "synopsis": "十八岁时，Richard在香港遇到一位老亚洲通，听到了关于在死亡威胁下保持冷静的故事。",
+      "source_evidence": "In Hong Kong, aged eighteen, I'd met an Old-Asia hand who'd told me a story about having been held up at gunpoint in Vietnam.",
+      "original_chapter": "Chapter 1",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1992",
+        "date_end": "1992"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Richard"
+        ],
+        "stay_duration": "Short stay"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "mentorship",
+          "stoicism",
+          "foreshadowing"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "国际大都市，背包客常聚集于尖沙咀重庆大厦等地",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "1992",
+        "dateEnd": "1992"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·香港的老亚洲通",
+        "hook": "十八岁那年的一场偶遇，为Richard日后的冷酷埋下了伏笔。",
+        "narrative_text": "在香港，十八岁的Richard还是个青涩的少年。在那里，他遇到了一位所谓的“老亚洲通”——那些在东方混迹多年、满身故事的西方人。对方告诉他一个关于在越南被枪口指着头的故事，重点不在于危险，而在于那种近乎麻木的冷静。这个故事在Richard心中种下了一颗种子：真正的旅行者应该在极端环境下保持超然。多年后，当他在海滩上面对真正的死亡和血腥时，他才意识到，这种所谓的“冷静”其实是一种可怕的异化。",
+        "transition_to": "老亚洲通的故事将Richard的记忆引向了那个充满硝烟的西贡。",
+        "mood": "mysterious",
+        "key_dialogue": "In Hong Kong, aged eighteen, I'd met an Old-Asia hand who'd told me a story about having been held up at gunpoint in Vietnam."
+      }
+    },
+    {
+      "title": "Khao San Road",
+      "address": "Thailand-Bangkok-Phra Nakhon-Khao San Road",
+      "synopsis": "Richard在考山路初遇Francoise和Etienne，并从Daffy处得到了神秘海滩的地图。",
+      "source_evidence": "That road. The road we met you.' 'Khao San.'",
+      "original_chapter": "Chapter 1",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Richard",
+          "Francoise",
+          "Etienne",
+          "Daffy"
+        ],
+        "stay_duration": "A few days"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "backpacking",
+          "origins",
+          "chaos"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "著名的背包客聚集地，至今仍是曼谷地标",
+        "current_name": "Khao San Road"
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第6章·考山路的起点",
+        "hook": "三个月前的那个电话，是她与旧世界最后的联系。",
+        "narrative_text": "考山路，那是Richard与Francoise、Etienne最初相遇的地方。这条混乱、嘈杂、充满廉价旅馆和酒精的街道，是所有背包客的集散地。在这里，Richard遇到了疯狂的Daffy，并在他自杀后得到了一张通往“秘密海滩”的地图。Francoise记得在那条街上，她曾给远在法国的父母打过最后一通电话。考山路不仅是地理上的起点，更是心理上的分水岭。从那里开始，他们一步步走向了那个与世隔绝的海滩。",
+        "transition_to": "离开喧闹的曼谷，Richard的思绪偶尔会被死去的Daffy带回寒冷的英国。",
+        "mood": "tense",
+        "key_dialogue": "That road. The road we met you.' 'Khao San.'"
+      }
+    },
+    {
+      "title": "Yogyakarta",
+      "address": "Indonesia-Special Region of Yogyakarta-Yogyakarta",
+      "synopsis": "Keaty和Jed发现六年前曾在日惹同一晚遭遇火灾，这段巧合加深了海滩成员间的羁绊。",
+      "source_evidence": "Six years ago they'd both stayed at the same guesthouse in Yogyakarta, on the very same night.",
+      "original_chapter": "The Beach",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1989 (Flashback)",
+        "historical_name": null,
+        "date_start": "1989",
+        "date_end": "1989"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Keaty",
+          "Jed"
+        ],
+        "stay_duration": "One night"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "coincidence",
+          "disaster",
+          "friendship"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "日惹是印尼文化中心，文中提到的旅馆火灾为虚构情节",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "1989",
+        "dateEnd": "1989"
+      },
+      "story_mode": {
+        "chapter_title": "第7章·日惹的烈焰",
+        "hook": "一场六年前的火灾，竟是两个陌生人命运交织的起点。",
+        "narrative_text": "在海滩的闲聊中，Keaty和Jed惊奇地发现，六年前他们竟然住在印尼日惹的同一家旅馆。那晚，Keaty因为受不了蚊虫骚扰，试图用火熏蚊子，结果不慎点燃了整栋建筑。Jed回忆起自己当时不得不从三楼跳窗逃生，所有的财物都化为灰烬。这段荒诞而危险的往事在多年后成为了两人的笑谈。这种奇妙的缘分让海滩上的小团体显得更加紧密，仿佛他们注定要在这个秘密岛屿上相遇。",
+        "transition_to": "海滩上的生活并非只有和谐，随着补给短缺，Richard和Jed不得不前往新加坡。",
+        "mood": "dramatic",
+        "key_dialogue": "Six years ago they'd both stayed at the same guesthouse in Yogyakarta, on the very same night."
+      }
+    },
+    {
+      "title": "Singapore",
+      "address": "Singapore-Singapore City-Orchard Road",
+      "synopsis": "Richard通过Bugs对新加坡餐厅的挑剔评价，揭示了Bugs自负且好胜的性格特征。",
+      "source_evidence": "if you knew of a good place to eat in Singapore, he'd know of one better.",
+      "original_chapter": "The Beach",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Richard",
+          "Bugs"
+        ],
+        "stay_duration": "Mentioned in anecdote"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "personality",
+          "competition",
+          "traveler_ego"
+        ],
+        "significance": 0.2
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "作为一个城市国家，其餐饮文化依然繁荣",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第8章·挑剔的生存者",
+        "hook": "在海滩的微缩社会里，谁才是真正的“万事通”？",
+        "narrative_text": "随着补给短缺，Richard和Jed不得不离开海滩，前往新加坡执行任务。在旅途中，Richard不禁回想起海滩社群的领导者之一——Bugs。Bugs是Sal的男朋友，负责海滩的日常运作。Richard以此为例说明Bugs那种典型的资深背包客性格：无论你发现新加坡哪家餐厅好吃，Bugs总能漫不经心地指出一家更地道、更隐秘的去处。这种微妙的优越感是海滩权力结构的一部分，即便在远离文明的荒岛上，这种较量也从未停止。",
+        "transition_to": "从对新加坡餐厅的争论中抽离，Richard的思绪转向了同伴Francoise的内心世界。",
+        "mood": "ambitious",
+        "key_dialogue": "if you knew of a good place to eat in Singapore, he'd know of one better."
+      }
+    },
+    {
+      "title": "Paris",
+      "address": "France-Paris-Seine River",
+      "synopsis": "Richard询问Francoise是否怀念巴黎，Francoise冷淡的回应揭示了她对过去生活的决绝。",
+      "source_evidence": "Do you ever think about home, Francoise?' 'Paris?'",
+      "original_chapter": "Seeing Red",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Richard",
+          "Francoise"
+        ],
+        "stay_duration": "Mentioned in conversation"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "escapism",
+          "homesickness",
+          "detachment"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "法国首都，文中代表了Francoise试图逃离的文明世界",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 9,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第9章·被抛弃的故乡",
+        "hook": "对于寻找世外桃源的人来说，故乡是否只是一个遥远的符号？",
+        "narrative_text": "在执行任务的间隙，Richard与Francoise进行了一次深入的交谈。Francoise是那个与Richard一同发现海滩的法国女孩，她美丽而坚定。当Richard试探性地询问她是否会想念巴黎的家、家人和朋友时，Francoise的回答出奇地冷静。巴黎，那个充满浪漫气息的都市，在她的叙述中似乎已经完全剥离。对于这些逃离者而言，海滩才是唯一的现实，而曾经的欧洲生活不过是褪色的背景板，不值得一丝留恋。",
+        "transition_to": "这些关于遥远国度的讨论，最终引向了故事的终局。",
+        "mood": "melancholic",
+        "key_dialogue": "Do you ever think about home, Francoise?' 'Paris?' 'No.'"
+      }
+    },
+    {
+      "title": "Ladakh",
+      "address": "India-Ladakh-Leh",
+      "synopsis": "Sal经常向Richard提及拉达克，将其描述为一个既悠闲又充满硬朗气息的北方省份。",
+      "source_evidence": "Sal often talked about Ladakh – the northern province of India, laid-back in some ways and hard-edged in others.",
+      "original_chapter": "Seeing Red",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Sal",
+          "Richard"
+        ],
+        "stay_duration": "Mentioned in conversation"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "reminiscence",
+          "traveler_culture"
+        ],
+        "significance": 0.2
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "印度拉达克地区，著名的背包客目的地",
+        "current_name": "Ladakh"
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·荒凉的硬朗",
+        "hook": "在海滩的日常闲谈中，Sal口中的拉达克有着独特的魅力。",
+        "narrative_text": "在海滩社群的日常闲谈中，话题经常转向那些遥远的旅途。作为海滩的领导者，Sal不仅掌控着岛上的秩序，也拥有丰富的旅行阅历。她经常向Richard提起印度北部的拉达克省，在她的描述中，那里是一个矛盾的集合体——既有着背包客所追求的极致悠闲，又在自然环境和生存法则上显得格外硬朗。这种对远方荒原的怀念，在热带海岛的湿热空气中勾勒出这些流浪者们永无止境的探索欲。",
+        "transition_to": "而对于性格温和的Gregorio来说，他更倾向于那些气候宜人的南方。",
+        "mood": "nostalgic",
+        "key_dialogue": "Sal often talked about Ladakh – the northern province of India, laid-back in some ways and hard-edged in others."
+      }
+    },
+    {
+      "title": "Vientiane",
+      "address": "Laos-Vientiane-Vientiane City",
+      "synopsis": "Jed回忆起自己最初在万象听闻“海滩”传说的经历，开启了他的寻找之旅。",
+      "source_evidence": "Jed himself had heard it from a guy in Vientiane, and 'with nothing better to do' he'd decided to follow it up.",
+      "original_chapter": "Aspect One",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1994",
+        "date_end": "1994"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Jed"
+        ],
+        "stay_duration": "Short stay"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "rumor",
+          "origin",
+          "adventure"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "老挝首都万象",
+        "current_name": "Vientiane"
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "1994",
+        "dateEnd": "1994"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·万象的传闻",
+        "hook": "一个偶然的传闻，如何让Jed踏上寻找伊甸园的道路？",
+        "narrative_text": "Jed——那个在岛上负责放哨、性格孤僻却敏锐的英国青年，他的故事始于老挝的万象。在那里，他从一个陌生男人那里听到了关于“秘密海滩”的传言。当时的他正处于一种无所事事的游荡状态，抱着“反正也没别的事可做”的心态，他决定去追寻这个听起来像是背包客臆想出来的伊甸园。万象的街头见证了一个孤独旅者决心的诞生，而这个决定最终将他带向了那个隐藏在泰国湾深处的禁忌之地。",
+        "transition_to": "回到现实的岛屿，Richard和Jed正面临着丛林中的致命威胁。",
+        "mood": "mysterious",
+        "key_dialogue": "Jed himself had heard it from a guy in Vientiane, and 'with nothing better to do' he'd decided to follow it up."
+      }
+    },
+    {
+      "title": "The Island Waterfall",
+      "address": "Thailand-Surat Thani-Ang Thong-The Island Waterfall",
+      "synopsis": "Richard与Jed在岛上遭遇持枪守卫，惊险逃脱后跳下瀑布，最终返回海滩营地。",
+      "source_evidence": "We exchanged a glance, stepped gingerly over the man's legs and continued quietly down the island... It took us another forty-five minutes to reach the top of the waterfall... I dived off the waterfall that day.",
+      "original_chapter": "Credit / Phosphorescence",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Richard",
+          "Jed",
+          "Sal",
+          "Bugs"
+        ],
+        "stay_duration": "Several months"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "survival",
+          "adrenaline",
+          "secrecy"
+        ],
+        "significance": 1.0
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "原型为大皮皮岛（Ko Phi Phi Leh）的玛雅湾或安通国家公园",
+        "current_name": "Maya Bay / Ang Thong"
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·丛林惊魂与信仰之跃",
+        "hook": "在持枪守卫的脚边屏住呼吸，Richard体验到了真正的恐惧。",
+        "narrative_text": "岛屿的丛林不再是探险的乐园，而变成了致命的迷宫。Richard和Jed在穿行时，赫然发现一名持枪的泰国守卫正在打盹。他们交换了一个惊恐的眼神，小心翼翼地跨过那人的双腿，在死寂中继续潜行。经过四十五分钟的煎熬，他们终于到达了瀑布顶端。为了摆脱追踪并回到营地，Richard完成了那次著名的“信仰之跃”，从高耸的瀑布顶端纵身跃入水池。当他最终湿透地回到海滩，那种从死亡边缘回归的感觉让他对这个社群产生了更深的依赖。",
+        "transition_to": "但在Richard心中，始终牵挂着那些没能上岛的朋友，担心他们回到了平庸的旅游点。",
+        "mood": "tense",
+        "key_dialogue": "We exchanged a glance, stepped gingerly over the man's legs and continued quietly down the island."
+      }
+    },
+    {
+      "title": "Basra road",
+      "address": "Iraq-Basra-Highway 80",
+      "synopsis": "Jed回忆起电视画面中巴士拉公路的惨状，表达了对战争残酷性的深刻恐惧与反思。",
+      "source_evidence": "But when I saw the pictures of the Basra road and that civilian shelter that got hit, I felt pretty shit.",
+      "original_chapter": "The DMZ",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": "Highway 80",
+        "date_start": "1991",
+        "date_end": "1991"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Jed",
+          "Richard"
+        ],
+        "stay_duration": "Moments of memory"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "trauma",
+          "media",
+          "death"
+        ],
+        "significance": 0.25
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "即著名的“死亡公路”，现已重建",
+        "current_name": "Highway 80"
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·死亡公路的幻影",
+        "hook": "电视屏幕上的惨剧，如何改变了一个年轻人对世界的看法？",
+        "narrative_text": "Jed向Richard描述了他在电视上看到的巴士拉公路。那是一条铺满焦黑残骸的死亡之路，平民避难所被击中的画面让他感到一种生理上的不适。对于Jed来说，这种来自现代文明的毁灭力是他选择逃离、来到这座孤岛的原因之一。在海岛的翠绿掩映下，巴士拉公路的灰暗色调像是一道无法愈合的伤疤，提醒着他们，所谓的“海滩乐园”不过是建立在对现实世界残酷真相的暂时屏蔽之上。",
+        "transition_to": "然而，现实的威胁很快就在他们脚下的这片海滩上爆发了。",
+        "mood": "desolate",
+        "key_dialogue": "But when I saw the pictures of the Basra road and that civilian shelter that got hit, I felt pretty shit."
+      }
+    },
+    {
+      "title": "The Beach",
+      "address": "Thailand-Surat Thani-Ko Samui-The Beach",
+      "synopsis": "三名瑞典人的到来打破了海滩的平静，Richard目睹了守卫对不速之客的暴力驱逐。",
+      "source_evidence": "The guards flipped. I read it as a panicky reaction to the situation. They just waded in and began beating the shit out of what were now their uninvited guests",
+      "original_chapter": "Epitaph",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Richard",
+          "Sal",
+          "Bugs",
+          "Keaty",
+          "Sten",
+          "Karl",
+          "Christo"
+        ],
+        "stay_duration": "Several days"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "violence",
+          "intrusion",
+          "survival"
+        ],
+        "significance": 1.0
+      },
+      "visitability": {
+        "status": "uncertain",
+        "note": "基于小说虚构，原型多指Maya Bay",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·乐园的裂痕",
+        "hook": "当不速之客踏上禁忌的沙滩，迎接他们的是鲜血而非欢迎。",
+        "narrative_text": "海滩不再是纯净的避风港。Sten、Karl和Christo这三名瑞典旅行者的出现，像是一颗投入静水的炸弹。Richard惊恐地目睹了大麻守卫们歇斯底里的反应——他们不再仅仅是丛林里的隐形人，而是变成了挥舞棍棒的暴徒，将这些满怀憧憬的年轻人打得体无完肤。在这一片混乱中，Richard不得不面对乐园秩序的崩塌。每个人都被迫在暴力与生存之间做出选择，而Sal和Bugs则试图掩盖这一切。",
+        "transition_to": "为了弄清守卫的动向，Richard决定独自前往那片危险的禁区。",
+        "mood": "dramatic",
+        "key_dialogue": "The guards flipped. I read it as a panicky reaction to the situation."
+      }
+    },
+    {
+      "title": "The DMZ",
+      "address": "Thailand-Surat Thani-Ko Samui-The DMZ",
+      "synopsis": "Richard潜入大麻种植区的“非军事区”，近距离观察守卫并遭遇持枪威胁。",
+      "source_evidence": "I paused for a few minutes at the pass, looking down at the DMZ... I'd chosen to go there because it seemed logical that the best place to find a dope guard would be a dope field",
+      "original_chapter": "The VC, The DMZ And Me",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Richard",
+          "Zeph",
+          "Sammy"
+        ],
+        "stay_duration": "A few hours"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "paranoia",
+          "espionage",
+          "danger"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "uncertain",
+        "note": "虚构的地理分区",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第6章·潜入非军事区",
+        "hook": "在茂密的大麻叶下，黑漆漆的枪口正对着不速之客。",
+        "narrative_text": "Richard将大麻种植地边缘称为“DMZ”（非军事区），这不仅是地理上的划分，更是他内心战争游戏的延伸。他像一名越战士兵一样在草丛中匍匐，观察着Zeph和Sammy——这两个原本只是想来寻找乐土的美国青年，此刻却显得如此无助。突然，Richard与一名手持AK-47的守卫近距离遭遇。那一刻，虚幻的冒险变成了真实的死亡威胁。他意识到，这片土地的主人从未打算与他们分享任何东西。",
+        "transition_to": "带着满身的泥土与惊惧，Richard回到了营地，却发现内部也已四分五裂。",
+        "mood": "mysterious",
+        "key_dialogue": "I paused for a few minutes at the pass, looking down at the DMZ."
+      }
+    },
+    {
+      "title": "The Longhouse",
+      "address": "Thailand-Surat Thani-Ko Samui-The Longhouse",
+      "synopsis": "Richard回到长屋，发现营地成员因对瑞典人的处置意见不一而彻底分裂。",
+      "source_evidence": "My immediate impression inside the longhouse was that some kind of division had occurred while I was away. A tense silence greeted my arrival",
+      "original_chapter": "Split",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Richard",
+          "Sal",
+          "Bugs",
+          "Francoise",
+          "Etienne"
+        ],
+        "stay_duration": "Evening"
+      },
+      "cultural_tags": {
+        "category": "architectural",
+        "themes": [
+          "conflict",
+          "tribalism",
+          "betrayal"
+        ],
+        "significance": 0.85
+      },
+      "visitability": {
+        "status": "demolished",
+        "note": "虚构的临时建筑",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第7章·长屋的分裂",
+        "hook": "曾经共同筑梦的屋檐下，如今只剩下冰冷的对峙。",
+        "narrative_text": "当Richard推开长屋的大门，迎接他的不是往日的欢声笑语，而是令人窒息的沉默。长屋内部在视觉上被劈成了两半：Sal和Bugs——这对维持营地秩序的严酷领导者，带着他们最忠诚的追随者占据了一头；而Richard的朋友们，包括Francoise和Etienne，则缩在另一头。这种分裂源于对受伤瑞典人的处理方式。曾经的乌托邦实验在压力下露出了丑陋的本色，每个人都在被迫站队。",
+        "transition_to": "在这种压抑的氛围中，Richard的思绪飘向了更远、更险峻的边界。",
+        "mood": "tense",
+        "key_dialogue": "My immediate impression inside the longhouse was that some kind of division had occurred while I was away."
+      }
+    },
+    {
+      "title": "Khyber Pass",
+      "address": "Thailand-Surat Thani-Ko Samui-Khyber Pass",
+      "synopsis": "营地通往垃圾场的偏僻小径，Richard在此处理生活废弃物，感受着营地日常背后的压抑。",
+      "source_evidence": "Sal had been sitting in her usual spot outside the longhouse entrance, which, if you wanted to get to the beach, was unavoidable without an exhaustingly roundabout route via the Khyber Pass.",
+      "original_chapter": "Spiked",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Richard",
+          "Sal"
+        ],
+        "stay_duration": "A few hours"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "daily life",
+          "isolation",
+          "routine"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "uncertain",
+        "note": "基于虚构地理位置",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第8章·隐秘的垃圾径",
+        "hook": "在天堂般的营地里，连处理垃圾的路径都被冠以险峻之名。",
+        "narrative_text": "为了避开坐在长屋门口、目光锐利的营地首领Sal，Richard有时不得不选择走一条被称为“开伯尔山口”的远路。这条路径实际上是通往营地垃圾坑的小道。在这里，Richard不仅是在处理物质上的垃圾，更是在这种重复而枯燥的劳作中，感受着社群内部微妙的权力等级。Sal作为这里的掌控者，她的存在让每一条通往自由海滩的路都显得不再那么简单，而这条偏僻的小径成了Richard短暂逃避视线的隐秘角落。",
+        "transition_to": "然而，日常的琐碎很快被外部的威胁打破，Richard必须前往岛上最险要的屏障。",
+        "mood": "tense",
+        "key_dialogue": "“...an exhaustingly roundabout route via the Khyber Pass.”"
+      }
+    },
+    {
+      "title": "The Waterfall Defense",
+      "address": "Thailand-Surat Thani-Ko Samui-The Waterfall",
+      "synopsis": "海滩的天然屏障，Sal与Richard在此布防，试图拦截试图闯入的外部旅行者。",
+      "source_evidence": "Sal said not until they reached the top of the waterfall, putting some faith in the obstacle course.",
+      "original_chapter": "Fuckin' A",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Richard",
+          "Sal",
+          "Jed",
+          "Zeph",
+          "Sammy"
+        ],
+        "stay_duration": "Several days"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "defense",
+          "conflict",
+          "territory"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "原型被认为是安通国家海洋公园的瀑布",
+        "current_name": "Ang Thong Waterfall"
+      },
+      "timeline": {
+        "orderIndex": 9,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第9章·瀑布之巅的防线",
+        "hook": "当外来者逼近，这道壮丽的景观变成了致命的拦截点。",
+        "narrative_text": "瀑布不仅是岛上的水源，更是守卫海滩的最后一道防线。Sal带着Richard和负责巡逻的Jed守在瀑布顶端，冷酷地观察着下方试图攀爬的Zeph和Sammy。这两个美国背包客正是Richard在考山路时无意中透露消息的受害者。Sal坚持利用地形优势，将这里变成一个障碍赛场。Richard看着昔日的“熟人”在险峻的岩石间挣扎，内心充满了矛盾与罪恶感，但他已经深深卷入了Sal保护秘密的计划中。",
+        "transition_to": "在残酷的现实面前，Richard的意识开始逃避，提议彻底结束这一切。",
+        "mood": "dramatic",
+        "key_dialogue": "“Sal said not until they reached the top of the waterfall...”"
+      }
+    },
+    {
+      "title": "France",
+      "address": "France",
+      "synopsis": "Richard向Etienne和Francoise提议离开海滩各回故乡，预示着海滩梦幻的终结。",
+      "source_evidence": "Leaving the beach. France for you and Francoise, England for me.",
+      "original_chapter": "Efforts",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Richard",
+          "Etienne",
+          "Francoise"
+        ],
+        "stay_duration": "Mentioned as destination"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "homecoming",
+          "disillusionment",
+          "escape"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "法国国家全称",
+        "current_name": "France"
+      },
+      "timeline": {
+        "orderIndex": 10,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第10章·归途的提议",
+        "hook": "“回法国去吧，”Richard对他的同伴说，这听起来像是解脱。",
+        "narrative_text": "在经历了一系列流血事件和心理折磨后，Richard终于对这个所谓的“世外桃源”感到绝望。他找到了最初一起登岛的法国情侣Etienne和Francoise，提议大家彻底离开海滩。他建议他们回到法国，而他自己则回英国。这个提议标志着他们三人最初那种浪漫主义冒险精神的彻底破灭。曾经他们以为这里是永恒的家园，现在却只想逃回那个曾经急于摆脱的、平庸而安全的欧洲社会。海滩的梦，终究到了醒来的时候。",
+        "transition_to": "海滩的传说在血色中落幕，留下的只有幸存者永恒的梦魇。",
+        "mood": "bittersweet",
+        "key_dialogue": "“Leaving the beach. France for you and Francoise, England for me.”"
+      }
+    },
+    {
+      "title": "Hospital tent",
+      "address": "Thailand-Surat Thani-Ko Samui-The Island-Camp-Hospital tent",
+      "synopsis": "Richard 趁 Jed 熟睡之际，在医疗帐篷内亲手杀死了重伤昏迷的 Christo，以消除撤离计划的阻碍。",
+      "source_evidence": "I reached Christo's head by simply sliding around the left-hand side of the tent. Then, just as I'd suggested earlier, I pinched his nose and covered his mouth.",
+      "original_chapter": "A Loose End",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1996"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Richard",
+          "Jed",
+          "Christo"
+        ],
+        "stay_duration": "A few minutes"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "murder",
+          "survival",
+          "moral decay"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "uncertain",
+        "note": "Fictional location within Ang Thong National Marine Park",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "1996",
+        "dateEnd": "1996"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·最后的慈悲或残忍",
+        "hook": "在药水味弥漫的帐篷里，Richard 决定亲手终结一个生命。",
+        "narrative_text": "医疗帐篷内充斥着令人作呕的腐烂气息。瑞典青年 Christo 因严重的感染而陷入深度昏迷，负责看守的 Jed 终因体力不支在一旁沉沉睡去。Richard 站在床边，看着这个已经成为营地负担的“活死人”。为了确保接下来的撤离计划不被拖累，也为了终结 Christo 无尽的痛苦，Richard 伸出了双手。他冷静地捏住 Christo 的鼻子，捂住他的嘴。没有剧烈的挣扎，只有几分钟死一般的寂静，Christo 彻底停止了呼吸。Richard 走出帐篷，夜色依旧，但他知道自己已经跨过了那条无法回头的道德底线。",
+        "transition_to": "处理完这个“麻烦”后，Richard 走向了营地中央，那里正举行着最后的狂欢。",
+        "mood": "tense",
+        "key_dialogue": "“I reached Christo's head... I pinched his nose and covered his mouth.”"
+      }
+    },
+    {
+      "title": "The Marquee",
+      "address": "Thailand-Surat Thani-Ko Samui-The Island-Camp-The Marquee",
+      "synopsis": "营地成员在大帐篷下举行 Tet 节狂欢，在酒精与大麻的作用下，气氛逐渐变得诡异且失控。",
+      "source_evidence": "Concentric circles under the marquee, the first a ring of candles, the second our banana-leaf plates, the third our seated selves, and the fourth a final ring of candles.",
+      "original_chapter": "A Loose End",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1996"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Richard",
+          "Keaty",
+          "Francoise",
+          "Etienne",
+          "Sal",
+          "Bugs",
+          "Unhygienix",
+          "Moshe",
+          "Ella",
+          "Jesse",
+          "Cassie",
+          "Jean"
+        ],
+        "stay_duration": "One night"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "ritual",
+          "hallucination",
+          "chaos"
+        ],
+        "significance": 0.85
+      },
+      "visitability": {
+        "status": "uncertain",
+        "note": "Fictional camp structure",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "1996",
+        "dateEnd": "1996"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·大帐篷下的末世狂欢",
+        "hook": "烛光摇曳中，这群世外桃源的居民正陷入最后的疯狂。",
+        "narrative_text": "大帐篷下，Tet 节的庆祝活动正达到高潮。首领 Sal 和 Bugs 坐在圆圈的中心，周围环绕着香蕉叶盛放的食物和无数支蜡烛。随着自制的椰子酒和强效大麻的传递，原本温馨的聚会逐渐演变成一场诡异的仪式。Richard 看着身边的伙伴们：Keaty 眼神迷离，Francoise 和 Etienne 紧紧相依，而厨师 Unhygienix 还在不停地分发着烟卷。烟雾缭绕中，人们的笑声变得尖锐而失真，幻觉开始在每个人脑海中滋生。这不再是一个社区的聚餐，更像是一场在文明废墟上举行的末日祭典。",
+        "transition_to": "在混乱的意识中，Richard 脑海里浮现出之前在大麻田里的紧张时刻。",
+        "mood": "mysterious",
+        "key_dialogue": "“The atmosphere was heavy with the smell of ganja and the sweet, sickly scent of the fermented coconut milk.”"
+      }
+    },
+    {
+      "title": "Dope field",
+      "address": "Thailand-Surat Thani-Ko Samui-The Island-Dope field",
+      "synopsis": "Francoise 回忆起在紧张的逃亡计划中，Richard 曾在大麻田里为了让她保持安静而对她动粗。",
+      "source_evidence": "In the dope field, when I would not be quiet, you pushed me to the ground and held me tightly.",
+      "original_chapter": "Potchentong",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1996"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Richard",
+          "Francoise"
+        ],
+        "stay_duration": "A few hours"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "conflict",
+          "fear",
+          "memory"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "uncertain",
+        "note": "Fictional plantation area",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "1996",
+        "dateEnd": "1996"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·大麻田的阴影",
+        "hook": "一段被揭开的回忆，暴露了 Richard 隐藏的暴力倾向。",
+        "narrative_text": "在逃离海岛的最后博弈中，Francoise 提起了那段令她心悸的往事。当时他们正潜伏在岛上守卫严密的大麻田里，四周是随时可能出现的持枪农民。因为 Francoise 的情绪几近失控，Richard 为了不暴露位置，粗暴地将她按倒在泥土中，死死捂住她的嘴。那次经历让 Francoise 第一次意识到，眼前的 Richard 已经不再是那个初见时阳光的旅行者，而是一个为了生存可以变得冷酷无情的陌生人。大麻田里高耸的植株曾是他们的屏障，现在却成了这段扭曲关系的见证。",
+        "transition_to": "狂欢还在继续，醉醺醺的人们开始三三两两地离开帐篷。",
+        "mood": "dramatic",
+        "key_dialogue": "“You pushed me to the ground and held me tightly. I was scared of you, Richard.”"
+      }
+    },
+    {
+      "title": "Longhouse",
+      "address": "Thailand-Surat Thani-Ko Samui-The Island-Camp-Longhouse",
+      "synopsis": "Tet 节狂欢深夜，Jesse 抱着醉倒的 Cassie 回到长屋休息。",
+      "source_evidence": "Then he scooped her up in his arms and began staggering off towards the longhouse.",
+      "original_chapter": "Potchentong",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1995",
+        "date_end": "1996"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Jesse",
+          "Cassie"
+        ],
+        "stay_duration": "Overnight"
+      },
+      "cultural_tags": {
+        "category": "architectural",
+        "themes": [
+          "exhaustion",
+          "community"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "uncertain",
+        "note": "Fictional communal building",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "1996",
+        "dateEnd": "1996"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·长屋的余烬",
+        "hook": "狂欢后的疲惫笼罩了营地，人们纷纷寻找最后的避风港。",
+        "narrative_text": "长屋是营地里最主要的居住建筑，此刻它静静地矗立在月光下。Jesse 抱着已经神志不清的 Cassie，摇摇晃晃地穿过沙地。Cassie 曾是营地里活泼的一员，但在长期的压力和今晚过量的酒精作用下，她显得异常脆弱。Jesse 将她带回长屋，安置在简陋的铺位上。这里曾见证了这群年轻人最初的梦想和欢笑，但现在，空气中只剩下沉重的呼吸声和一种大难临头前的虚假安宁。长屋的木梁在海风中微微作响，仿佛在为这个即将瓦解的乌托邦哀悼。",
+        "transition_to": "然而，命运的转折远比他们预想的更加残酷，甚至延续到了多年以后。",
+        "mood": "desolate",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "Kuala Lumpur airport",
+      "address": "Malaysia-Selangor-Sepang-Kuala Lumpur International Airport",
+      "synopsis": "Cassie 在吉隆坡机场因携带海洛因被捕，这一悲剧成为背包客圈中关于贪婪与代价的警示。",
+      "source_evidence": "She'd been busted at Kuala Lumpur airport with over a pound of heroin",
+      "original_chapter": "Strange But True",
+      "part_id": "PART-1",
+      "part_title": "The Beach",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": "Subang International Airport",
+        "date_start": "1995",
+        "date_end": "1995"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Cassie",
+          "Richard"
+        ],
+        "stay_duration": "A few hours"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "tragedy",
+          "consequence",
+          "travel_lore"
+        ],
+        "significance": 0.45
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "The airport mentioned in the mid-90s context would likely be Subang (SZB) or the then-new KLIA.",
+        "current_name": "Kuala Lumpur International Airport"
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "1995",
+        "dateEnd": "1995"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·吉隆坡的阴影",
+        "hook": "一磅海洛因，足以让一个年轻的生命在异国他乡画上句点。",
+        "narrative_text": "海岛的生活已经过去了一年多，Richard 回到了英国。某天，他在浏览新闻快讯时，一行冰冷的文字跳入眼帘：一名英国公民在马来西亚因走私海洛因被捕。那个人正是 Cassie。回忆的碎片不断闪回，将 Richard 带回了那个决定命运的转机点——吉隆坡机场。在那个闷热的航站楼里，Cassie 因携带超过一磅的海洛因被海关截获。在马来西亚严苛的法律下，这意味着必然的死刑。这个故事在背包客的圈子里流传，成为了一个关于‘海滩’之外现实世界的残酷寓言。",
+        "transition_to": "海滩的故事在血色与幻觉中落幕，Richard 回到了文明世界，但那片蓝色的梦魇永远留在了他的灵魂深处。",
+        "mood": "desolate",
+        "key_dialogue": "“She'd been busted at Kuala Lumpur airport with over a pound of heroin. It was a Strange But True.”"
+      }
+    }
+  ],
+  "suspects": []
+}

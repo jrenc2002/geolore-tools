@@ -1,0 +1,996 @@
+{
+  "book_info": {
+    "title": "情人",
+    "author": "Marguerite Duras",
+    "type": "novel",
+    "summary": "《情人》是法国作家玛格丽特·杜拉斯带有自传色彩的经典杰作。故事发生在1920年代末法属印度支那的西贡，在那片湿热、颓靡且充满殖民色彩的土地上，一个十五岁半的法国贫穷少女在湄公河的渡轮上，邂逅了一位富有且忧郁的中国北方男子。这段跨越种族、阶级与年龄的禁忌之恋，在堤岸的单身公寓里疯狂滋长，又在家庭的贪婪与社会的偏见中走向幻灭。杜拉斯以其独特的意识流笔触，将西贡的喧嚣、湄公河的浑浊与那段刻骨铭心的欲望纠缠交织在一起，谱写了一曲关于孤独、衰老与永恒爱欲的哀歌。"
+  },
+  "characters": [
+    {
+      "id": "marguerite_duras",
+      "name": "玛格丽特·杜拉斯",
+      "aliases": [
+        "女孩",
+        "我",
+        "杜拉斯"
+      ],
+      "role": "故事的主人公，在法属印度支那生活的法国少女，正经历着早熟的情欲与家庭的破碎",
+      "first_appearance": "卡蒂纳大街",
+      "importance": "protagonist"
+    },
+    {
+      "id": "chinese_lover",
+      "name": "中国北方情人",
+      "aliases": [
+        "中国情人",
+        "中国人",
+        "他"
+      ],
+      "role": "来自抚顺的富有阔少，在西贡与少女坠入爱河，却受困于家族压力与文化隔阂",
+      "first_appearance": "堤岸",
+      "importance": "protagonist"
+    },
+    {
+      "id": "mother",
+      "name": "母亲",
+      "aliases": [
+        "她"
+      ],
+      "role": "一名在殖民地挣扎求生的教师，性格偏执且绝望，对子女有着扭曲的爱",
+      "first_appearance": "金边",
+      "importance": "major"
+    },
+    {
+      "id": "pierre",
+      "name": "皮埃尔",
+      "aliases": [
+        "大哥"
+      ],
+      "role": "杜拉斯的大哥，残忍、贪婪且沉溺于烟馆，是家庭痛苦的根源",
+      "first_appearance": "泉园",
+      "importance": "major"
+    },
+    {
+      "id": "paul",
+      "name": "保罗",
+      "aliases": [
+        "小哥哥"
+      ],
+      "role": "杜拉斯挚爱的小哥哥，性格懦弱善良，在压抑的家庭中与妹妹相依为命",
+      "first_appearance": "泉园",
+      "importance": "major"
+    },
+    {
+      "id": "qing",
+      "name": "清",
+      "aliases": [
+        "司机"
+      ],
+      "role": "中国情人的司机，也是女孩的倾慕者，见证了这段秘密恋情并最终消失在荒野",
+      "first_appearance": "伊甸电影院",
+      "importance": "supporting"
+    }
+  ],
+  "parts": [
+    {
+      "part_id": "PART-1",
+      "title": "情人",
+      "synopsis": "在西贡与堤岸的潮湿空气中，少女与中国情人开启了欲望之门，同时揭开了一个殖民地家庭的贫瘠与疯狂。",
+      "place_count": 25,
+      "mood": "melancholic",
+      "key_characters": [
+        "玛格丽特·杜拉斯",
+        "中国北方情人",
+        "母亲",
+        "皮埃尔",
+        "保罗"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "title": "卡蒂纳大街",
+      "address": "越南-胡志明市-第一区-同起街",
+      "synopsis": "在西贡繁华的卡蒂纳大街，少女玛格丽特·杜拉斯买下了那顶改变她气质的男式呢帽与金条带高跟鞋。",
+      "source_evidence": "我对她说：放心吧，一点不贵。她问在哪里卖。我说在卡蒂纳大街，大拍卖。",
+      "original_chapter": "情人",
+      "part_id": "PART-1",
+      "part_title": "情人",
+      "temporal_context": {
+        "era": "法属印度支那时期",
+        "historical_name": "Rue Catinat",
+        "date_start": "1929",
+        "date_end": "1930"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "玛格丽特·杜拉斯"
+        ],
+        "stay_duration": "一个下午"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "fashion",
+          "identity",
+          "colonial_life"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现更名为同起街（Dong Khoi Street）",
+        "current_name": "同起街"
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "1929",
+        "dateEnd": "1930"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·呢帽与金色的鞋",
+        "hook": "一顶男式呢帽，如何开启了一个少女的欲望边界？",
+        "narrative_text": "在西贡的卡蒂纳大街，玛格丽特·杜拉斯在百货公司大拍卖中挑选了一顶平檐男式呢帽和一对金条带的高跟鞋。这种古怪的搭配在当时的殖民地社会显得格格不入，却精准地捕捉到了她内心那种早熟而颓废的美感。她穿着这身装束，在西贡的街道上行走，仿佛在向世界宣告她不再是一个受母亲控制的小女孩，而是一个拥有独立欲望的个体。这顶帽子成为了她跨越阶级与种族界限的视觉符号。",
+        "transition_to": "然而，家族的阴影始终挥之不去，尤其是关于远在金边的父亲的记忆。",
+        "mood": "ambitious",
+        "key_dialogue": "这顶帽子，这顶男帽，使整个场面改观了，我整个人也改观了。"
+      }
+    },
+    {
+      "title": "金边王宫",
+      "address": "柬埔寨-金边-隆边区-金边王宫",
+      "synopsis": "玛格丽特·杜拉斯回忆起父亲在金边任职期间的暴卒，以及母亲在旧王宫住宅中接获死讯的绝望时刻。",
+      "source_evidence": "在此之前，他的工作有调动，派他到金边去任职。他在那里只住了几个星期。后来，不到一年，他就死了。……在金边。那是湄公河畔一座很好的住宅，原是柬埔寨国王的故宫",
+      "original_chapter": "情人",
+      "part_id": "PART-1",
+      "part_title": "情人",
+      "temporal_context": {
+        "era": "法属印度支那时期",
+        "historical_name": null,
+        "date_start": "1918",
+        "date_end": "1918"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "父亲",
+          "母亲"
+        ],
+        "stay_duration": "数周"
+      },
+      "cultural_tags": {
+        "category": "biographical",
+        "themes": [
+          "death",
+          "family_tragedy",
+          "memory"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为金边王宫景区的一部分",
+        "current_name": "金边王宫"
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "1918",
+        "dateEnd": "1918"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·故宫里的死讯",
+        "hook": "在湄公河畔最美的住宅里，死亡却如期而至。",
+        "narrative_text": "记忆回溯到更早的年份。玛格丽特·杜拉斯的父亲在调任金边后不久便撒手人寰。母亲带着孩子们住在曾属于柬埔寨国王的故宫住宅里，那里宽敞而华丽，却充满了死亡的阴冷。父亲的去世彻底打破了家庭的经济支柱，也让母亲陷入了长达数十年的精神压抑与对贫穷的恐惧中。金边，成了这个家庭走向崩解的转折点，也是母亲疯狂执念的起点。",
+        "transition_to": "贫穷与欲望交织，最终在西贡喧闹的堤岸区找到了出口。",
+        "mood": "desolate",
+        "key_dialogue": "他死的时候，我母亲不在他身边。他在金边。那是湄公河畔一座很好的住宅。"
+      }
+    },
+    {
+      "title": "堤岸",
+      "address": "越南-胡志明市-第五区-堤岸华埠",
+      "synopsis": "在堤岸的单身公寓里，玛格丽特·杜拉斯与中国北方情人发生了第一次关系，这里是他们情欲的秘密基地。",
+      "source_evidence": "事情起于堤岸，给本地人盖房子。……我在堤岸公寓里度过的时间使那个地方永远清晰可见，永远焕然一新。",
+      "original_chapter": "情人",
+      "part_id": "PART-1",
+      "part_title": "情人",
+      "temporal_context": {
+        "era": "1930年代",
+        "historical_name": "Cholon",
+        "date_start": "1930",
+        "date_end": "1932"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "玛格丽特·杜拉斯",
+          "中国北方情人"
+        ],
+        "stay_duration": "两年间多次幽会"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "desire",
+          "forbidden_love",
+          "urban_life"
+        ],
+        "significance": 1.0
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "胡志明市著名的华埠，具体公寓原址已难考证",
+        "current_name": "堤岸华埠"
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "1930",
+        "dateEnd": "1932"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·堤岸的蓝百叶窗",
+        "hook": "在喧嚣的华埠深处，藏着一段跨越种族与阶级的禁忌之恋。",
+        "narrative_text": "堤岸是西贡的华埠，充满了香料、烟草和金钱的味道。中国北方情人——一个富有却孤独的阔少爷，在这里租下了一间带有蓝色百叶窗的单身公寓。玛格丽特·杜拉斯随他来到这里，在午后闷热的空气中，两人完成了身体的初次交融。窗外是堤岸永不停歇的市声，窗内是两个孤独灵魂的相互慰藉。这里没有家庭的责难，只有纯粹的、带有毁灭气息的欲望。",
+        "transition_to": "情人的财富源自遥远的北方，那个他永远无法带她回去的故乡。",
+        "mood": "bittersweet",
+        "key_dialogue": "他带我走进那个房间。他显得很害怕。他看着我。他看我看了很久。"
+      }
+    },
+    {
+      "title": "抚顺",
+      "address": "中国-辽宁-抚顺-抚顺煤矿",
+      "synopsis": "中国北方情人的祖籍地，象征着他财富的来源以及他与玛格丽特·杜拉斯之间无法逾越的文化鸿沟。",
+      "source_evidence": "他说他是中国人，他家原在中国北方抚顺。",
+      "original_chapter": "情人",
+      "part_id": "PART-1",
+      "part_title": "情人",
+      "temporal_context": {
+        "era": "20世纪初",
+        "historical_name": null,
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "中国北方情人"
+        ],
+        "stay_duration": "仅在对话中提及"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "heritage",
+          "wealth",
+          "distance"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "中国辽宁省地级市",
+        "current_name": "抚顺市"
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "1930",
+        "dateEnd": "1930"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·遥远的北方之城",
+        "hook": "他的财富来自寒冷的北方，却在热带的西贡挥霍殆尽。",
+        "narrative_text": "在堤岸的幽会中，中国北方情人提到了他的家乡——抚顺。那是中国北方一个寒冷而遥远的地方，他的父亲在那里通过经营煤矿积累了巨额财富。对于玛格丽特·杜拉斯来说，抚顺是一个只存在于语言中的地理名词，代表了情人背后那个庞大、古老且保守的中国家族。这个家族赋予了他挥金如土的能力，也注定了他无法违抗父命去娶一个贫穷的法国女孩。",
+        "transition_to": "尽管如此，他依然每天开着那辆黑色拉共达轿车，穿梭在西贡的街道接送她。",
+        "mood": "mysterious",
+        "key_dialogue": "他的父亲在北方，在抚顺，很有钱。"
+      }
+    },
+    {
+      "title": "西贡",
+      "address": "越南-胡志明市-第一区-西贡",
+      "synopsis": "作为殖民地的中心，西贡见证了玛格丽特·杜拉斯寄宿生活的压抑与她与情人之间公开的秘密。",
+      "source_evidence": "我母亲两年前调到沙沥工作，我在西贡寄宿。……汽车驶上渡船的坡道，停在河岸上。乘客步行走向各自的车子。……他们向西贡驶去。",
+      "original_chapter": "情人",
+      "part_id": "PART-1",
+      "part_title": "情人",
+      "temporal_context": {
+        "era": "1930年代",
+        "historical_name": "Saigon",
+        "date_start": "1930",
+        "date_end": "1932"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "玛格丽特·杜拉斯",
+          "中国北方情人"
+        ],
+        "stay_duration": "数年"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "colonialism",
+          "urban_alienation",
+          "youth"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为胡志明市核心区",
+        "current_name": "胡志明市"
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "1930",
+        "dateEnd": "1932"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·西贡的黑色轿车",
+        "hook": "那辆黑色的拉共达轿车，是西贡街头最显眼的丑闻。",
+        "narrative_text": "西贡不仅是玛格丽特·杜拉斯求学的地方，更是她双重生活的舞台。白天，她是寄宿学校里贫穷的白人女孩；傍晚，她钻进那辆停在校门口的黑色拉共达轿车，消失在西贡的暮色中。整座城市都在注视着这段关系，母亲的默许、哥哥们的贪婪以及路人的侧目，都交织在西贡潮湿的空气里。这座城市承载了她青春期所有的羞耻与狂喜。",
+        "transition_to": "为了维持这段关系的表面和平，情人甚至不得不请她的家人去泉园吃饭。",
+        "mood": "tense",
+        "key_dialogue": "西贡的空气总是那么潮湿，充满了灰尘和茉莉花的香味。"
+      }
+    },
+    {
+      "title": "泉园",
+      "address": "越南-胡志明市-第五区-泉园餐厅",
+      "synopsis": "在泉园的餐厅里，玛格丽特·杜拉斯一家对中国情人表现出极端的无礼与贪婪，展现了家族关系的扭曲。",
+      "source_evidence": "饭后，我的两个哥哥对我说，他们想到泉园去喝酒跳舞……在泉园，仍然是谁也不去理睬他。",
+      "original_chapter": "情人",
+      "part_id": "PART-1",
+      "part_title": "情人",
+      "temporal_context": {
+        "era": "1930年代",
+        "historical_name": "Cascade",
+        "date_start": "1931",
+        "date_end": "1931"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "玛格丽特·杜拉斯",
+          "中国北方情人",
+          "母亲",
+          "大哥",
+          "小哥哥"
+        ],
+        "stay_duration": "一个夜晚"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "humiliation",
+          "family_conflict",
+          "racism"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "demolished",
+        "note": "原为堤岸著名的娱乐场所，现已不存",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "1931",
+        "dateEnd": "1931"
+      },
+      "story_mode": {
+        "chapter_title": "第6章·泉园的羞辱宴",
+        "hook": "一场昂贵的晚宴，却成了最卑劣的掠夺现场。",
+        "narrative_text": "在堤岸的泉园餐厅，玛格丽特·杜拉斯的大哥带着全家人敲诈中国北方情人。他们心安理得地享用着情人支付的高级料理和美酒，却在席间完全无视他的存在，甚至拒绝与他交谈。母亲在贫穷与自尊间挣扎，而小哥哥则在恐惧中沉默。杜拉斯看着这一切，内心充满了对家人的厌恶和对情人的怜悯。在这个华丽的社交场合，种族优越感与金钱欲望交织成一出丑陋的戏剧。",
+        "transition_to": "这种压抑的情绪最终将她推向了更远的山峦寻找慰藉。",
+        "mood": "melancholic",
+        "key_dialogue": "他们吃，他们不跟他说话。他们不看他。他们甚至不谢他。"
+      }
+    },
+    {
+      "title": "湄公烟馆",
+      "address": "越南-胡志明市-第五区-堤岸烟馆",
+      "synopsis": "大哥因赌博和鸦片欠下巨债，烟馆老板上门讨债，加剧了玛格丽特·杜拉斯家庭的崩塌。",
+      "source_evidence": "他们是湄公烟馆的老板。……“他们说他们将要起诉您。他们是湄公烟馆的老板。”",
+      "original_chapter": "情人",
+      "part_id": "PART-1",
+      "part_title": "情人",
+      "temporal_context": {
+        "era": "1920年代末",
+        "historical_name": null,
+        "date_start": "1929",
+        "date_end": "1930"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "大哥",
+          "母亲"
+        ],
+        "stay_duration": "多次出入"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "debt",
+          "addiction",
+          "family_crisis"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "demolished",
+        "note": "原址位于堤岸区，现已不存",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "1929",
+        "dateEnd": "1930"
+      },
+      "story_mode": {
+        "chapter_title": "第7章·讨债者的阴影",
+        "hook": "大哥欠下的债，成了全家人无法摆脱的梦魇。",
+        "narrative_text": "湄公烟馆的老板找上门来，打破了家庭脆弱的平静。大哥——那个暴戾、自私且深受母亲溺爱的长子，在烟馆里挥霍了本就不多的家产，并欠下了巨额债务。烟馆老板的威胁不仅是对金钱的追索，更是对这个法国家庭尊严的践踏。母亲在愤怒与绝望中挣扎，而玛格丽特·杜拉斯则冷眼旁观着这一切。湄公烟馆像一个巨大的黑洞，吞噬着这个家庭最后的希望。",
+        "transition_to": "在压抑的家庭氛围之外，电影院成了女孩短暂逃避现实的避难所。",
+        "mood": "tense",
+        "key_dialogue": "“他们说他们将要起诉您。他们是湄公烟馆的老板。”"
+      }
+    },
+    {
+      "title": "伊甸电影院",
+      "address": "越南-胡志明市-第一区-同起街-伊甸电影院",
+      "synopsis": "玛格丽特·杜拉斯与小哥哥及司机在此看电影，随后与中国北方情人秘密会合，享受片刻欢愉。",
+      "source_evidence": "从前，我母亲在西贡等待新的任命时，她在电影院弹钢琴。所以现在院方让我们免费入场……",
+      "original_chapter": "情人",
+      "part_id": "PART-1",
+      "part_title": "情人",
+      "temporal_context": {
+        "era": "1920年代末",
+        "historical_name": "Eden Cinema",
+        "date_start": "1929",
+        "date_end": "1930"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "玛格丽特·杜拉斯",
+          "小哥哥",
+          "中国北方情人"
+        ],
+        "stay_duration": "数小时"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "cinema",
+          "escape",
+          "secret_meeting"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "demolished",
+        "note": "原址位于胡志明市Eden Center，现已改建",
+        "current_name": "Eden Center (site)"
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": "1929",
+        "dateEnd": "1930"
+      },
+      "story_mode": {
+        "chapter_title": "第8章·伊甸园的幻影",
+        "hook": "在银幕的流光溢彩中，一场秘密的会合正在上演。",
+        "narrative_text": "伊甸电影院对玛格丽特·杜拉斯来说有着特殊的意义，母亲曾在这里弹钢琴维持生计。这一天，女孩带着她深爱的小哥哥来到这里。电影院的黑暗提供了完美的掩护，中国北方情人在放映中途悄然出现。在光影交错间，女孩感受到了某种超越现实的自由。这里没有母亲的歇斯底里，没有大哥的暴力，只有电影的梦幻和情人手心的温度。然而，走出电影院，现实的喧嚣依然在等待着他们。",
+        "transition_to": "最终，所有的欲望与挣扎都回到了那个堤岸的单身套间，走向终局。",
+        "mood": "bittersweet",
+        "key_dialogue": "“从前，我母亲在西贡等待新的任命时，她在电影院弹钢琴。”"
+      }
+    },
+    {
+      "title": "堤岸单身套间",
+      "address": "越南-胡志明市-第五区-堤岸单身套间",
+      "synopsis": "中国北方情人位于堤岸的秘密寓所，是两人欲望交织与最终诀别的核心空间。",
+      "source_evidence": "司机在单身套间前停车。他去开门。少女下车，悄悄走进单身套间。……单身套间里熄了灯。",
+      "original_chapter": "情人",
+      "part_id": "PART-1",
+      "part_title": "情人",
+      "temporal_context": {
+        "era": "1930年前后",
+        "historical_name": "L'appartement de Cholon",
+        "date_start": "1929",
+        "date_end": "1930"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "玛格丽特·杜拉斯",
+          "中国北方情人"
+        ],
+        "stay_duration": "一年左右的频繁往返"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "desire",
+          "secrecy",
+          "farewell"
+        ],
+        "significance": 1.0
+      },
+      "visitability": {
+        "status": "uncertain",
+        "note": "堤岸区旧建筑多已改建，具体门牌难以考证",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 9,
+        "dateStart": "1929",
+        "dateEnd": "1930"
+      },
+      "story_mode": {
+        "chapter_title": "第9章·最后的幽会",
+        "hook": "在这间熄了灯的套间里，金钱、欲望与绝望达成了一种危险的平衡。",
+        "narrative_text": "堤岸的单身套间是玛格丽特·杜拉斯与中国北方情人共同构建的孤岛。在这里，外界的种族偏见、家庭的贫困与压抑都被关在门外。随着时间的推移，这里从欲望的温床变成了告别的祭坛。在最后一次见面时，两人在黑暗中沉默，女孩意识到这段关系已如这房间里的空气般凝固。她即将启程前往法国，而他将留在他的家族与传统中，这段跨越堤岸的爱情终成绝响。",
+        "transition_to": "这段往事在多年后，化作了湄公河上永恒的汽笛声。",
+        "mood": "bittersweet",
+        "key_dialogue": "他去开门。少女下车，悄悄走进单身套间。……单身套间里熄了灯。"
+      }
+    },
+    {
+      "title": "湄公鸦片馆",
+      "address": "越南-胡志明市-西贡-湄公鸦片馆",
+      "synopsis": "大哥皮埃尔挥霍无度、赖账不还的场所，加深了家庭的经济危机与母亲的恐慌。",
+      "source_evidence": "上星期，皮埃尔又在湄公鸦片馆赖账。……我自己去给鸦片馆还钱。",
+      "original_chapter": "情人",
+      "part_id": "PART-1",
+      "part_title": "情人",
+      "temporal_context": {
+        "era": "1930年前后",
+        "historical_name": "Fumerie du Mékong",
+        "date_start": "1930",
+        "date_end": "1930"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "皮埃尔",
+          "玛格丽特·杜拉斯",
+          "母亲"
+        ],
+        "stay_duration": "多次出入"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "addiction",
+          "debt",
+          "family conflict"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "demolished",
+        "note": "鸦片馆在法属时期后被取缔，原址已不可考",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "1930",
+        "dateEnd": "1930"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·烟雾中的烂账",
+        "hook": "大哥皮埃尔的贪婪像一个黑洞，吞噬着母亲最后的尊严。",
+        "narrative_text": "湄公鸦片馆是西贡阴暗面的缩影，也是玛格丽特·杜拉斯的大哥皮埃尔——这个家庭中暴戾而堕落的长子——经常出没的地方。他在这里吸食鸦片，挥霍着家里本就拮据的钱财，甚至公然赖账。母亲对这个长子充满了盲目的溺爱与深深的恐惧，她不得不让玛格丽特去替皮埃尔偿还那些肮脏的债务。这个地点象征着家庭内部的腐烂，以及母亲在面对长子罪恶时的无力感。",
+        "transition_to": "为了摆脱这个泥潭，母亲决定送走皮埃尔，全家人在码头迎来了最后的告别。",
+        "mood": "tense",
+        "key_dialogue": "上星期，皮埃尔又在湄公鸦片馆赖账。……我自己去给鸦片馆还钱。"
+      }
+    },
+    {
+      "title": "邮船公司码头",
+      "address": "越南-胡志明市-西贡-西贡河码头",
+      "synopsis": "全家送别皮埃尔回法国的地点，母亲在此经历了情感的崩溃与对长子的绝望。",
+      "source_evidence": "司机应该把她送到邮船公司码头。……镜头在邮船公司的大铁栅门口又找到他们。",
+      "original_chapter": "情人",
+      "part_id": "PART-1",
+      "part_title": "情人",
+      "temporal_context": {
+        "era": "1930年前后",
+        "historical_name": "Quai des Messageries Maritimes",
+        "date_start": "1930",
+        "date_end": "1930"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "玛格丽特·杜拉斯",
+          "皮埃尔",
+          "母亲",
+          "保罗"
+        ],
+        "stay_duration": "一个下午"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "departure",
+          "despair",
+          "family collapse"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为胡志明市博物馆分馆（龙屋码头）附近",
+        "current_name": "Bến Nhà Rồng"
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "1930",
+        "dateEnd": "1930"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·铁栅栏后的离别",
+        "hook": "在西贡河的汽笛声中，母亲意识到她最爱的儿子已经彻底无可救药。",
+        "narrative_text": "邮船公司码头的大铁栅门，将这个支离破碎的家庭分成了两半。大哥皮埃尔即将登船返回法国，这本应是一个新的开始，但在母亲眼中却是一场生离死别。她在大雨中哭泣，甚至想冲破栅栏随他而去。玛格丽特·杜拉斯冷眼旁观着这一切，她看着母亲的崩溃，看着小哥哥保罗的沉默，以及皮埃尔那毫无悔意的背影。这个码头不仅是地理上的离散点，更是这个家庭情感彻底崩塌的标志。",
+        "transition_to": "皮埃尔离开后，玛格丽特也即将踏上前往法国的航程，去追寻另一种未知的命运。",
+        "mood": "dramatic",
+        "key_dialogue": "镜头在邮船公司的大铁栅门口又找到他们。"
+      }
+    },
+    {
+      "title": "法国",
+      "address": "法国-巴黎",
+      "synopsis": "玛格丽特·杜拉斯全家乘船离开法属印度支那，正式告别殖民地生活，返回祖国法国。",
+      "source_evidence": "假如我不想再回法国呢？……在你们回法国之后。……他是回法国去。",
+      "original_chapter": "情人",
+      "part_id": "PART-1",
+      "part_title": "情人",
+      "temporal_context": {
+        "era": "1930年代",
+        "historical_name": null,
+        "date_start": "1932",
+        "date_end": "1933"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "母亲",
+          "玛格丽特·杜拉斯",
+          "保罗",
+          "皮埃尔"
+        ],
+        "stay_duration": "永久定居"
+      },
+      "cultural_tags": {
+        "category": "biographical",
+        "themes": [
+          "homeland",
+          "departure",
+          "colonialism"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "指代整个国家，核心为巴黎",
+        "current_name": "France"
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "1932",
+        "dateEnd": "1933"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·终将抵达的彼岸",
+        "hook": "当邮船缓缓驶离码头，那个关于西贡的梦境是否就此终结？",
+        "narrative_text": "在邮船公司的码头告别了那个沉默的中国男人后，玛格丽特·杜拉斯随母亲及两个哥哥——暴戾的大哥皮埃尔和备受宠爱的小哥保罗，一同踏上了返回法国的航程。对于母亲而言，法国是逃离殖民地失败生活的避风港；而对于玛格丽特，那是她从未真正谋面却必须归属的祖国。航行途中，一个绝望的年轻人纵身跃入大海，仿佛预示着这段青春往事的惨烈切割。随着船只离亚洲海岸越来越远，那个关于堤岸、关于金钱与欲望的夏日故事，正逐渐沉入记忆的深处。",
+        "transition_to": "在航行的余温中，她想起那些未能同行的人，比如那个计划去往暹罗的清。",
+        "mood": "melancholic",
+        "key_dialogue": "“假如我不想再回法国呢？”"
+      }
+    },
+    {
+      "title": "暹罗",
+      "address": "泰国-暹罗森林",
+      "synopsis": "清计划在玛格丽特离开后前往暹罗森林寻找失散的亲人，却最终消失在茫茫荒野之中。",
+      "source_evidence": "她说他可以到暹罗或别的地方去……等你走了，我要回波雷诺，然后去暹罗。……不过不可能在暹罗的森林里找到几个小孩子的。……他必定迷了路，死在那里，那片森林里了。",
+      "original_chapter": "情人",
+      "part_id": "PART-1",
+      "part_title": "情人",
+      "temporal_context": {
+        "era": "1930年代",
+        "historical_name": "暹罗",
+        "date_start": "1932",
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "清",
+          "玛格丽特·杜拉斯"
+        ],
+        "stay_duration": "余生"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "disappearance",
+          "death",
+          "wilderness"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为泰国境内森林",
+        "current_name": "Thailand"
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "1932",
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第4章·森林里的迷途者",
+        "hook": "在茂密的暹罗森林里，真的能找回失散的血亲吗？",
+        "narrative_text": "清——那个曾陪伴在玛格丽特身边的女子，在女孩离开印度支那后，选择了一条通往未知的道路。她计划穿过边境前往暹罗，执着地想要在那些原始森林中寻找失踪的孩子。然而，那片森林吞噬了一切希望。玛格丽特在多年后回想起清，深信她已迷失在暹罗的绿意之中，死在了那个无人知晓的角落。这种消失与死亡，成为了那段殖民地岁月里又一个无声的注脚。",
+        "transition_to": "在清踏上暹罗的死途前，她曾想先回到那个宁静的起点：波雷诺。",
+        "mood": "desolate",
+        "key_dialogue": "“他必定迷了路，死在那里，那片森林里了。”"
+      }
+    },
+    {
+      "title": "波雷诺",
+      "address": "柬埔寨-白马市-波雷诺",
+      "synopsis": "清计划回归的故土，也是玛格丽特多年后在梦中反复重温的宁静小道。",
+      "source_evidence": "等你走了，我要回波雷诺……女孩离开后好多年，仍旧梦想重睹波雷诺和云壤的小道。",
+      "original_chapter": "情人",
+      "part_id": "PART-1",
+      "part_title": "情人",
+      "temporal_context": {
+        "era": "1930年代",
+        "historical_name": null,
+        "date_start": "1932",
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "清",
+          "玛格丽特·杜拉斯"
+        ],
+        "stay_duration": "短暂居留"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "nostalgia",
+          "dream",
+          "memory"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "位于柬埔寨沿海",
+        "current_name": "Prey Nob"
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "1932",
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第5章·梦回波雷诺",
+        "hook": "多年后的午夜梦回，那条通往海边的小道依然清晰可见。",
+        "narrative_text": "波雷诺是清在告别玛格丽特后打算短暂停留的地方。对于玛格丽特而言，这个地名在漫长的岁月里演变成了一种感官的记忆。即便身在法国，即便已步入晚年，她依然会梦见波雷诺那些蜿蜒的小道。那里没有西贡的喧嚣，也没有堤岸的沉沦，只有一种近乎永恒的宁静。这种梦境是对那段残酷青春的温柔补偿，是她心中法属印度支那最后的一抹亮色。",
+        "transition_to": "梦境并未止步于此，它顺着海岸线延伸到了云壤。",
+        "mood": "nostalgic",
+        "key_dialogue": "“女孩离开后好多年，仍旧梦想重睹波雷诺和云壤的小道。”"
+      }
+    },
+    {
+      "title": "云壤",
+      "address": "柬埔寨-西哈努克省-云壤",
+      "synopsis": "玛格丽特记忆中的海滨胜地，承载着港口食堂与舞会的欢愉残影。",
+      "source_evidence": "仍旧梦想重睹波雷诺和云壤的小道。……以及云壤港口的食堂和舞会",
+      "original_chapter": "情人",
+      "part_id": "PART-1",
+      "part_title": "情人",
+      "temporal_context": {
+        "era": "1930年代",
+        "historical_name": "Ream",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "玛格丽特·杜拉斯"
+        ],
+        "stay_duration": "不详"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "sensuality",
+          "pastoral",
+          "youth"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为云壤国家公园所在地",
+        "current_name": "Ream"
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第6章·云壤的舞会",
+        "hook": "港口食堂的灯火与舞会的乐声，在记忆的潮汐中起伏。",
+        "narrative_text": "云壤在玛格丽特的叙述中，是一幅由港口、食堂和舞会构成的动态画卷。那是她少女时代偶尔触及的社交场所，充满了热带海滨特有的慵懒与欢愉。多年后，这些场景在她的文字中复活，不再是具体的地理坐标，而是一种关于“活着”的质感。云壤的舞会象征着那种尚未被贫穷和家庭悲剧完全侵蚀的、纯粹的生命冲动。",
+        "transition_to": "从云壤出发，黑夜里的公路笔直地通向贡布。",
+        "mood": "bittersweet",
+        "key_dialogue": "“以及云壤港口的食堂和舞会。”"
+      }
+    },
+    {
+      "title": "贡布",
+      "address": "柬埔寨-贡布省-贡布市",
+      "synopsis": "黑夜中通往海边的公路起点，是玛格丽特梦境中关于自由与逃离的象征。",
+      "source_evidence": "也梦想黑夜里从贡布直达海边的公路。",
+      "original_chapter": "情人",
+      "part_id": "PART-1",
+      "part_title": "情人",
+      "temporal_context": {
+        "era": "1930年代",
+        "historical_name": "Kampot",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "玛格丽特·杜拉斯"
+        ],
+        "stay_duration": "瞬时"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "journey",
+          "night",
+          "freedom"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "著名的胡椒产地和海滨城市",
+        "current_name": "Kampot"
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第7章·贡布的夜路",
+        "hook": "在黑夜的尽头，那条直达海边的公路通向何方？",
+        "narrative_text": "贡布在小说结尾处以一种意象化的方式出现。玛格丽特写道，她梦想着那条从贡布直达海边的公路。在黑夜的笼罩下，这条路代表着一种绝对的延伸与逃离。它连接着内陆的压抑与海洋的广阔，正如她的一生，始终在试图从家庭的泥沼中挣脱，奔向文学与记忆的汪洋大海。贡布的夜路，是她精神世界里永恒的航线。",
+        "transition_to": "当现实的邮船越过稻田，它终于来到了亚洲大陆的尽头——金瓯角。",
+        "mood": "mysterious",
+        "key_dialogue": "“也梦想黑夜里从贡布直达海边的公路。”"
+      }
+    },
+    {
+      "title": "金瓯角",
+      "address": "越南-金瓯省-金瓯角",
+      "synopsis": "邮船绕过亚洲大陆的尽头，标志着玛格丽特正式告别了法属印度支那的土地。",
+      "source_evidence": "越过灯心草平原的最后一片稻田，然后绕过亚洲大陆尽头的金瓯角。",
+      "original_chapter": "情人",
+      "part_id": "PART-1",
+      "part_title": "情人",
+      "temporal_context": {
+        "era": "1930年代",
+        "historical_name": "Pointe de Ca Mau",
+        "date_start": "1932",
+        "date_end": "1932"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "玛格丽特·杜拉斯"
+        ],
+        "stay_duration": "航行经过"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "boundary",
+          "departure",
+          "geography"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "越南最南端，现为著名旅游景点",
+        "current_name": "Mũi Cà Mau"
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": "1932",
+        "dateEnd": "1932"
+      },
+      "story_mode": {
+        "chapter_title": "第8章·大陆的尽头",
+        "hook": "绕过这道海角，身后的一切便成了异乡。",
+        "narrative_text": "随着邮船越过灯心草平原的最后一片稻田，金瓯角——这个亚洲大陆最南端的地理标志出现在视野中。绕过它，就意味着真正进入了公海，进入了通往欧洲的漫长航道。玛格丽特站在甲板上，看着这片她出生并长大的土地逐渐缩减为一个点。金瓯角不仅是地理上的终点，也是她童年与少女时代的终点。从此以后，她将只能在文字中回望这片湿热的土地。",
+        "transition_to": "航程的终点虽是法国，但记忆的余波仍将带她回到边和。",
+        "mood": "melancholic",
+        "key_dialogue": "“越过灯心草平原的最后一片稻田，然后绕过亚洲大陆尽头的金瓯角。”"
+      }
+    },
+    {
+      "title": "边和",
+      "address": "越南-同奈省-边和市",
+      "synopsis": "在离开印度支那的邮船上，一名来自边和的年轻人跳海自杀，成为旅途中哀伤的插曲。",
+      "source_evidence": "才十七岁……是边和行政长官的儿子。他跳下去了。他跳到海里去了。",
+      "original_chapter": "情人",
+      "part_id": "PART-1",
+      "part_title": "情人",
+      "temporal_context": {
+        "era": "20世纪30年代",
+        "historical_name": "Biên Hòa",
+        "date_start": "1932",
+        "date_end": "1932"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "玛格丽特·杜拉斯"
+        ],
+        "stay_duration": "航行经过"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "death",
+          "youth",
+          "melancholy"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为越南同奈省省会",
+        "current_name": "Biên Hòa"
+      },
+      "timeline": {
+        "orderIndex": 9,
+        "dateStart": "1932",
+        "dateEnd": "1932"
+      },
+      "story_mode": {
+        "chapter_title": "第9章·深海里的青春",
+        "hook": "十七岁的生命，在驶向法兰西的波涛中戛然而止。",
+        "narrative_text": "邮船在海上平稳地航行，玛格丽特·杜拉斯正站在甲板上，任由海风吹乱发丝。这时，一个惊人的消息在乘客间传开：有人跳海了。那是一个年仅十七岁的年轻人，他是边和行政长官的儿子。没有人知道他为何选择在青春正盛时沉入深海，或许是因为无法承受的孤独，又或是对未来的某种绝望。这个来自边和的悲剧，在杜拉斯的记忆中与那段潮湿、压抑的西贡岁月重叠。死亡的阴影笼罩在航线上，仿佛在提醒着她，那个关于堤岸、关于中国情人、关于湄公河的旧梦，正随着航迹的延伸而逐渐破碎。",
+        "transition_to": "汽笛声中，西贡的堤岸已远在天边，这段关于欲望与哀伤的巡礼，在法兰西的海岸线上终成绝响。",
+        "mood": "desolate",
+        "key_dialogue": "他跳下去了。他跳到海里去了。在夜里。他才十七岁。"
+      }
+    }
+  ],
+  "suspects": []
+}

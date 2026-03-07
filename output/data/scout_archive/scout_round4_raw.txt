@@ -1,0 +1,158 @@
+google:search{queries:[
+<ctrl46>
+books with strong geographical setting South America
+<ctrl46>
+,
+<ctrl46>
+books set in specific locations Southeast Asia
+<ctrl46>
+,
+<ctrl46>
+best travelogues for literary pilgrimage
+<ctrl46>
+,
+<ctrl46>
+books with mapped locations non-fiction
+<ctrl46>
+,
+<ctrl46>
+literary map of Australia books
+<ctrl46>
+,
+<ctrl46>
+books set in Barcelona shadow of the wind locations
+<ctrl46>
+,
+<ctrl46>
+books set in Cairo literary map
+<ctrl46>
+,
+<ctrl46>
+Midnight's Children map locations
+<ctrl46>
+]}
+ppings{result:startIndex}
+
+为了给「故实巡礼」补充更多元、更具探索价值的地理书单，本轮推荐重点挖掘**南美洲的公路叙事**、**东南亚的城市折叠**、**土耳其的帝国记忆**、**爱尔兰的城市漫步**以及**印度的魔幻历史**。这些作品均具有极高的地理还原度和巡礼价值。
+
+以下是为您精选的 5 部作品：
+
+```json
+[
+  {
+    "rank": 1,
+    "title": "摩托日记",
+    "title_en": "The Motorcycle Diaries",
+    "author": "Ernesto Che Guevara",
+    "language": "es",
+    "type": "travelogue",
+    "era_setting": "1952",
+    "geo_region": "南美",
+    "geo_scope": "阿根廷/智利/秘鲁/哥伦比亚/委内瑞拉",
+    "word_count_estimate": 10,
+    "place_count_estimate": 45,
+    "density_index": 4.5,
+    "reachability_pct": 85,
+    "route_shape": "linear",
+    "pilgrimage_appeal": 10,
+    "audience_size": "massive",
+    "geo_added_value": "high",
+    "timeline_needed": true,
+    "grade": "S",
+    "reason": "南美大陆最经典的公路巡礼蓝本。从布宜诺斯艾利斯到加拉加斯，书中记录的不仅是切·格瓦拉的觉醒之路，更是一条串联起安第斯山脉、阿塔卡马沙漠与亚马逊雨林的绝美地理切片。",
+    "value_boundary": "route_trace"
+  },
+  {
+    "rank": 2,
+    "title": "疯狂的亚洲富豪",
+    "title_en": "Crazy Rich Asians",
+    "author": "Kevin Kwan",
+    "language": "en",
+    "type": "novel",
+    "era_setting": "2010s",
+    "geo_region": "东南亚",
+    "geo_scope": "新加坡",
+    "word_count_estimate": 12,
+    "place_count_estimate": 30,
+    "density_index": 2.5,
+    "reachability_pct": 95,
+    "route_shape": "network",
+    "pilgrimage_appeal": 9,
+    "audience_size": "massive",
+    "geo_added_value": "medium",
+    "timeline_needed": false,
+    "grade": "A",
+    "reason": "新加坡现代地理的完美导览。虽然故事浮夸，但作者对纽顿熟食中心、莱佛士酒店、滨海湾花园等真实地点的描绘极具空间感，是解锁新加坡富豪生活圈与平民美食地图的通俗入口。",
+    "value_boundary": "cultural_landmark"
+  },
+  {
+    "rank": 3,
+    "title": "伊斯坦布尔：一座城市的记忆",
+    "title_en": "Istanbul: Memories and the City",
+    "author": "Orhan Pamuk",
+    "language": "tr",
+    "type": "biography",
+    "era_setting": "1950s-1970s",
+    "geo_region": "中东",
+    "geo_scope": "土耳其伊斯坦布尔",
+    "word_count_estimate": 25,
+    "place_count_estimate": 60,
+    "density_index": 2.4,
+    "reachability_pct": 90,
+    "route_shape": "network",
+    "pilgrimage_appeal": 8,
+    "audience_size": "large",
+    "geo_added_value": "high",
+    "timeline_needed": true,
+    "grade": "S",
+    "reason": "帕慕克将“呼愁”（忧伤）的情绪与伊斯坦布尔的街道、废墟、博斯普鲁斯海峡紧密绑定。这本书不仅是回忆录，更是一份在黑白影像中穿梭于老城贝伊奥卢（Beyoğlu）和尼尚坦石（Nişantaşı）的忧郁地图。",
+    "value_boundary": "spatial_narrative"
+  },
+  {
+    "rank": 4,
+    "title": "都柏林人",
+    "title_en": "Dubliners",
+    "author": "James Joyce",
+    "language": "en",
+    "type": "novel",
+    "era_setting": "1900s",
+    "geo_region": "欧洲",
+    "geo_scope": "爱尔兰都柏林",
+    "word_count_estimate": 8,
+    "place_count_estimate": 55,
+    "density_index": 6.8,
+    "reachability_pct": 90,
+    "route_shape": "network",
+    "pilgrimage_appeal": 8,
+    "audience_size": "large",
+    "geo_added_value": "high",
+    "timeline_needed": false,
+    "grade": "S",
+    "reason": "乔伊斯曾言“如果都柏林被毁，可以凭此书重建”。相比《尤利西斯》的高门槛，此书更适合大众巡礼。从利菲河畔到凤凰公园，书中对街道、酒吧和教堂的精确落位，使其成为城市漫步的教科书。",
+    "value_boundary": "spatial_narrative"
+  },
+  {
+    "rank": 5,
+    "title": "午夜之子",
+    "title_en": "Midnight's Children",
+    "author": "Salman Rushdie",
+    "language": "en",
+    "type": "novel",
+    "era_setting": "1915-1978",
+    "geo_region": "南亚",
+    "geo_scope": "印度/巴基斯坦/孟加拉",
+    "word_count_estimate": 20,
+    "place_count_estimate": 40,
+    "density_index": 2.0,
+    "reachability_pct": 75,
+    "route_shape": "scattered",
+    "pilgrimage_appeal": 7,
+    "audience_size": "medium",
+    "geo_added_value": "high",
+    "timeline_needed": true,
+    "grade": "A",
+    "reason": "一部魔幻现实主义的南亚近代史地图。从克什米尔的达尔湖到孟买的贫民窟，再到卡拉奇和达卡，主角萨里姆的流离轨迹，精准对应了印巴分治后的地理与政治变迁，适合深度历史巡礼。",
+    "value_boundary": "spatial_narrative"
+  }
+]
+```

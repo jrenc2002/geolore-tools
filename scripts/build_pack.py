@@ -106,7 +106,8 @@ def main():
                 geocode_result=geocode,
                 client_id=item.get("clientId"),
                 synopsis=item.get("synopsis"),
-                timeline=item.get("timeline")
+                timeline=item.get("timeline"),
+                story_mode=item.get("story_mode") or item.get("storyMode")
             )
             
             if place:

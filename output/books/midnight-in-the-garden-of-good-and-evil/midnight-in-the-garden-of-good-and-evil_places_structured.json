@@ -1,0 +1,4270 @@
+{
+  "book_info": {
+    "title": "Midnight in the Garden of Good and Evil",
+    "author": "John Berendt",
+    "type": "biography",
+    "summary": "1980年代初，纽约记者约翰·勃兰特（John Berendt）被佐治亚州萨凡纳那遗世独立的南方风情所吸引，决定在这座被时光遗忘的古城定居。萨凡纳不仅拥有迷人的广场和哥特式建筑，更聚居着一群性格乖张、行事荒诞的奇人异士：从遛“隐形狗”的绅士到深夜在公墓施咒的巫师，从魅力四射的变装皇后到深陷命案的古董商。随着默瑟府邸的一声枪响，一场跨越八年的谋杀审判撕开了这座城市优雅的假面。作者以细腻的笔触勾勒出一幅充满南方哥特美学的众生相，带领读者穿梭在萨凡纳的繁花与阴影之间，探寻正义、阶级与超自然力量交织的真相。"
+  },
+  "characters": [
+    {
+      "id": "john_berendt",
+      "name": "John Berendt",
+      "aliases": [
+        "约翰·勃兰特",
+        "叙述者",
+        "作者"
+      ],
+      "role": "本书的叙述者，从纽约移居萨凡纳的记者，观察并记录了这座城市的奇闻异事",
+      "first_appearance": "Savannah",
+      "importance": "protagonist"
+    },
+    {
+      "id": "jim_williams",
+      "name": "Jim Williams",
+      "aliases": [
+        "吉姆·威廉姆斯",
+        "Jim"
+      ],
+      "role": "萨凡纳著名的古董商与修复专家，默瑟府邸的主人，因枪杀丹尼而陷入漫长的审判",
+      "first_appearance": "Monterey Square",
+      "importance": "major"
+    },
+    {
+      "id": "danny_hansford",
+      "name": "Danny Hansford",
+      "aliases": [
+        "丹尼·汉斯福德",
+        "丹尼"
+      ],
+      "role": "吉姆·威廉姆斯的助手，性格暴躁且极具魅力，在默瑟府邸被吉姆枪杀",
+      "first_appearance": "Abercorn Street",
+      "importance": "major"
+    },
+    {
+      "id": "joe_odom",
+      "name": "Joe Odom",
+      "aliases": [
+        "乔·奥多姆",
+        "Joe"
+      ],
+      "role": "充满魅力的萨凡纳社交达人、律师与钢琴酒吧经营者，以不拘小节和财务混乱著称",
+      "first_appearance": "16 East Jones Street",
+      "importance": "major"
+    },
+    {
+      "id": "the_lady_chablis",
+      "name": "The Lady Chablis",
+      "aliases": [
+        "夏布利小姐",
+        "Chablis"
+      ],
+      "role": "萨凡纳著名的变装皇后，性格泼辣、幽默，是城市边缘文化的代表人物",
+      "first_appearance": "Crawford Square",
+      "importance": "major"
+    },
+    {
+      "id": "sonny_seiler",
+      "name": "Sonny Seiler",
+      "aliases": [
+        "索尼·塞勒",
+        "Sonny"
+      ],
+      "role": "吉姆·威廉姆斯的辩护律师，同时也是佐治亚大学吉祥物斗牛犬的拥有者",
+      "first_appearance": "Armstrong House",
+      "importance": "major"
+    },
+    {
+      "id": "minerva",
+      "name": "Minerva",
+      "aliases": [
+        "密涅瓦"
+      ],
+      "role": "萨凡纳的巫术执业者，受雇于吉姆，试图通过超自然力量影响审判结果",
+      "first_appearance": "Friedman’s art supply shop",
+      "importance": "supporting"
+    },
+    {
+      "id": "lee_adler",
+      "name": "Lee Adler",
+      "aliases": [
+        "李·阿德勒"
+      ],
+      "role": "萨凡纳历史保护运动的领袖，吉姆·威廉姆斯的宿敌",
+      "first_appearance": "Monterey Square",
+      "importance": "supporting"
+    },
+    {
+      "id": "emma_kelly",
+      "name": "Emma Kelly",
+      "aliases": [
+        "埃玛·凯利",
+        "钢琴女王"
+      ],
+      "role": "被誉为“拥有六千首歌记忆”的钢琴家，萨凡纳社交场合的灵魂人物",
+      "first_appearance": "Emma’s",
+      "importance": "supporting"
+    },
+    {
+      "id": "william_simon_glover",
+      "name": "William Simon Glover",
+      "aliases": [
+        "Glover"
+      ],
+      "role": "萨凡纳的旧式绅士，以遛“隐形狗”和在广场歌唱而闻名",
+      "first_appearance": "Bull Street",
+      "importance": "minor"
+    },
+    {
+      "id": "luther_driggers",
+      "name": "Luther Driggers",
+      "aliases": [
+        "路德·德里格斯"
+      ],
+      "role": "落魄的发明家，传闻拥有一瓶足以毒死全城人的剧毒物质",
+      "first_appearance": "Clary’s drugstore",
+      "importance": "minor"
+    }
+  ],
+  "parts": [
+    {
+      "part_id": "PART-1",
+      "title": "Midnight in the Garden of Good and Evil",
+      "synopsis": "叙述者移居萨凡纳，结识当地奇人并卷入吉姆·威廉姆斯的谋杀审判，揭开城市优雅下的阴暗面。",
+      "place_count": 90,
+      "mood": "gothic",
+      "key_characters": [
+        "John Berendt",
+        "Jim Williams",
+        "Danny Hansford",
+        "Joe Odom",
+        "The Lady Chablis"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "title": "Savannah",
+      "address": "USA-Georgia-Savannah-Historic District",
+      "synopsis": "叙述者John Berendt被萨凡纳独特的广场布局与遗世独立的氛围吸引，决定离开纽约在此定居。",
+      "source_evidence": "I, too, had become enchanted by Savannah. But after having lived there for eight years, off and on, I had come to understand something of its self-imposed estrangement from the outside world.",
+      "original_chapter": "Chapter 2 DESTINATION UNKNOWN",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1982",
+        "date_end": "1990"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "John Berendt"
+        ],
+        "stay_duration": "8 years"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "discovery",
+          "urban_planning",
+          "isolation"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "萨凡纳历史街区保存完好",
+        "current_name": "Savannah Historic District"
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "1982",
+        "dateEnd": "1982"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·南方的诱惑",
+        "hook": "一座拒绝现代化的城市，究竟隐藏着怎样的魔力？",
+        "narrative_text": "1980年代初，身为杂志编辑的John Berendt初次踏入佐治亚州的萨凡纳。这座城市仿佛被时间遗忘，它以独特的二十多个广场为核心，构建出一种如迷宫般优雅的秩序。Berendt发现，萨凡纳人对外界的干预有着天然的抵触，他们甚至在50年代拒绝了大型保险公司的总部入驻，只为维持那份自给自足的宁静。这种‘自我隔离’的特质，让习惯了纽约喧嚣的Berendt感到一种莫名的魅力，他意识到这里不仅是一个居住地，更是一个充满故事的舞台。",
+        "transition_to": "在定居萨凡纳之前，Berendt必须先处理掉他在纽约那令人疲惫的生活。",
+        "mood": "mysterious",
+        "key_dialogue": "“It was a city that lived within itself, a city that was its own best-kept secret.”"
+      }
+    },
+    {
+      "title": "New York",
+      "address": "USA-New York-New York City-Manhattan",
+      "synopsis": "John Berendt在纽约度过了二十年的媒体生涯，最终因高昂的生活成本和精神内耗选择离开。",
+      "source_evidence": "I had lived in New York for twenty years, writing and editing for magazines. ... I had become a casualty of the city's relentless upward mobility.",
+      "original_chapter": "Chapter 2 DESTINATION UNKNOWN",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1962",
+        "date_end": "1982"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "John Berendt"
+        ],
+        "stay_duration": "20 years"
+      },
+      "cultural_tags": {
+        "category": "biographical",
+        "themes": [
+          "urban_burnout",
+          "lifestyle_change"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "叙述者的出发地",
+        "current_name": "New York City"
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "1982",
+        "dateEnd": "1982"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·逃离曼哈顿",
+        "hook": "二十年的繁华生活，为何抵不过一顿昂贵的午餐？",
+        "narrative_text": "在纽约的二十年里，John Berendt在杂志界混得风生水起，但曼哈顿的压力正悄然侵蚀他的热情。他厌倦了那些价格飞涨却平庸的餐厅，厌倦了永无止境的社交攀比。对他而言，纽约已经变成了一个只进不出的压力容器。一次偶然的南方之旅让他看到了另一种生活的可能性。他决定放下手中的编辑笔，带上行李，去寻找那个能让他重新呼吸的地方。纽约成为了他身后的背景板，而南方那湿润的空气正向他招手。",
+        "transition_to": "离开纽约后，他的第一站是充满贵族气息的查尔斯顿。",
+        "mood": "ambitious",
+        "key_dialogue": "“I was tired of the high cost of living and the low quality of life.”"
+      }
+    },
+    {
+      "title": "Charleston",
+      "address": "USA-South Carolina-Charleston-Historic District",
+      "synopsis": "Berendt在查尔斯顿短暂停留，随后决定独自驾车南下，正式开启萨凡纳的探索之旅。",
+      "source_evidence": "One of those weekend jaunts took us to Charleston, South Carolina. ... On Sunday, my traveling companions went back to New York, but I stayed on in Charleston.",
+      "original_chapter": "Chapter 2 DESTINATION UNKNOWN",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1982",
+        "date_end": "1982"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "John Berendt"
+        ],
+        "stay_duration": "A few days"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "journey",
+          "southern_charm"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "著名的历史旅游城市",
+        "current_name": "Charleston"
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "1982",
+        "dateEnd": "1982"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·南方的中转站",
+        "hook": "当同伴们返回纽约时，他选择独自走向未知的南方深处。",
+        "narrative_text": "查尔斯顿是典型的南方明珠，精致、古老且充满礼节。John Berendt在这里度过了一个周末，当他的朋友们纷纷买票返回纽约继续忙碌的生活时，他却感受到了一种前所未有的自由。他租了一辆车，决定沿着海岸线继续向南行驶。查尔斯顿的优雅只是序曲，他心中那个更具神秘色彩的目标——萨凡纳，正随着里程数的增加而变得清晰。这不仅是一次地理上的南下，更是一次心理上的冒险。",
+        "transition_to": "跨过州界，萨凡纳河的波光映入眼帘。",
+        "mood": "peaceful",
+        "key_dialogue": "“I rented a car and drove south.”"
+      }
+    },
+    {
+      "title": "Savannah River",
+      "address": "USA-Georgia-Savannah-Talmadge Memorial Bridge",
+      "synopsis": "跨越萨凡纳河大桥是进入城市的仪式，Berendt在此俯瞰到了萨凡纳的历史轮廓。",
+      "source_evidence": "From the top of the bridge, I looked down on the Savannah River and, on the far side, a row of old brick buildings fronted by a narrow esplanade.",
+      "original_chapter": "Chapter 2 DESTINATION UNKNOWN",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1982",
+        "date_end": "1982"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "John Berendt"
+        ],
+        "stay_duration": "Moments"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "threshold",
+          "scenic"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "指Talmadge Memorial Bridge",
+        "current_name": "Savannah River"
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "1982",
+        "dateEnd": "1982"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·跨越边界",
+        "hook": "从桥顶俯瞰，旧世界的砖墙在河对岸静静守候。",
+        "narrative_text": "当车轮滚过萨凡纳河大桥的最高点，John Berendt屏住了呼吸。下方的萨凡纳河缓缓流淌，对岸是一排排古老的红砖建筑，它们曾是棉花仓库，见证了这座城市作为港口的辉煌过去。河岸边的步行道在阳光下延伸，仿佛一条通往十九世纪的时光隧道。这一刻，地理上的跨越完成了，Berendt正式进入了这个被外界称为‘南方花园’的领地，而那些古老建筑背后的秘密，正等待着他去挖掘。",
+        "transition_to": "进入市区后，他踏上了萨凡纳的中轴线——布尔街。",
+        "mood": "nostalgic",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "Bull Street",
+      "address": "USA-Georgia-Savannah-Bull Street",
+      "synopsis": "萨凡纳的中轴线，Berendt在此目睹了怪人Glover遛“隐形狗”的奇观，领略了城市的怪诞色彩。",
+      "source_evidence": "The dog is dead twenty years now, but I still walk him. I walk up and down Bull Street and look over my shoulder and say, ‘Come on, Patrick!’",
+      "original_chapter": "Chapter 4 SETTLING IN",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1982",
+        "date_end": "1985"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "John Berendt",
+          "William Simon Glover"
+        ],
+        "stay_duration": "Frequent walks"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "eccentricity",
+          "folklore",
+          "urban_life"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "萨凡纳最著名的街道",
+        "current_name": "Bull Street"
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "1982",
+        "dateEnd": "1985"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·隐形狗的散步道",
+        "hook": "在萨凡纳，即使是死去了二十年的狗，依然每天准时散步。",
+        "narrative_text": "布尔街是萨凡纳的灵魂，串联起一个个绿意盎然的广场。在这里，John Berendt遇到了他定居后的第一个‘惊喜’——William Simon Glover。这位老先生每天牵着一条并不存在的狗‘帕特里克’在街上漫步，甚至还会对着空气呵斥。在纽约，这会被视为疯癫，但在萨凡纳，邻居们只是习以为常地打个招呼。Berendt意识到，这座城市的魅力就在于它对怪诞的包容。布尔街不仅是地理中心，更是萨凡纳式奇闻异事的汇聚地。",
+        "transition_to": "离开布尔街的喧嚣，他转向了更为幽静的巴纳德街。",
+        "mood": "mysterious",
+        "key_dialogue": "“He turned left and proceeded up Bull Street all the way to City Hall and back.”"
+      }
+    },
+    {
+      "title": "Abercorn Street",
+      "address": "USA-Georgia-Savannah-Abercorn Street",
+      "synopsis": "贯穿城市的交通要道，曾是禁酒令时期的私酒交易地，也是Danny Hansford飙车被捕的现场。",
+      "source_evidence": "During Prohibition, filling stations on Abercorn Street sold whiskey out of gas pumps!",
+      "original_chapter": "Chapter 9 A WALKING STREAK OF SEX",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1981"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Danny Hansford",
+          "Corinne"
+        ],
+        "stay_duration": "A few hours"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "rebellion",
+          "prohibition history"
+        ],
+        "significance": 0.45
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "萨凡纳南北向主干道",
+        "current_name": "Abercorn Street"
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "1981",
+        "dateEnd": "1981"
+      },
+      "story_mode": {
+        "chapter_title": "第6章·阿伯康街的狂飙",
+        "hook": "在禁酒令时期，这里的加油泵里流出的可不只是汽油。",
+        "narrative_text": "阿伯康街承载着萨凡纳狂野的一面。Mary Harty向John Berendt讲述着这里的往事，比如那些在禁酒令时期秘密售卖威士忌的加油站。而这种不安分的基因似乎延续到了年轻的Danny Hansford身上。Danny是古董商Jim Williams雇佣的帮工，一个充满魅力却情绪极度不稳定的年轻人。在一次与女友Corinne的争吵后，Danny在这条街上疯狂飙车，最终被警察拦截。这条街见证了这个被称为‘行走的情欲’的年轻人如何一步步滑向失控的边缘。",
+        "transition_to": "当城市的喧嚣逐渐远去，Mary Harty将车头转向了通往郊外的林荫大道。",
+        "mood": "tense",
+        "key_dialogue": "During Prohibition, filling stations on Abercorn Street sold whiskey out of gas pumps!"
+      }
+    },
+    {
+      "title": "Victory Drive",
+      "address": "USA-Georgia-Savannah-Victory Drive",
+      "synopsis": "被誉为世界上最长的棕榈林荫大道之一，是通往波拿文都安公墓的必经之路。",
+      "source_evidence": "We had just turned onto Victory Drive, a long parkway completely covered by an arch of live oaks dripping with Spanish moss.",
+      "original_chapter": "Chapter 2 DESTINATION UNKNOWN",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1981"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "John Berendt",
+          "Mary Harty"
+        ],
+        "stay_duration": "15 minutes"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "scenic drive",
+          "southern gothic"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "以杜鹃花和棕榈树闻名",
+        "current_name": "Victory Drive"
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "1981",
+        "dateEnd": "1981"
+      },
+      "story_mode": {
+        "chapter_title": "第7章·胜利大道的绿拱门",
+        "hook": "垂下的西班牙苔藓，如同这座城市挥之不去的忧郁倒影。",
+        "narrative_text": "Mary Harty载着John Berendt驶入了胜利大道。这是一条令人屏息的林荫路，巨大的活橡树在道路上方交织成绿色的拱顶，灰色的西班牙苔藓如流苏般垂落。这里曾是为了纪念一战阵亡将士而建，如今则是萨凡纳最引以为傲的景观。阳光穿透厚密的叶丛，在车窗上投下斑驳的影。Mary告诉John，这条路通向萨凡纳最美丽也最神秘的地方，那是死者的乐园，也是生者寻求慰藉的去处。",
+        "transition_to": "穿过这片绿色的隧道，他们抵达了此行的目的地：波拿文都安公墓。",
+        "mood": "nostalgic",
+        "key_dialogue": "It’s the longest avenue of palms in the world, or so they say."
+      }
+    },
+    {
+      "title": "Bonaventure Cemetery",
+      "address": "USA-Georgia-Savannah-330 Bonaventure Rd",
+      "synopsis": "萨凡纳最著名的公墓，充满了南方哥特式美学，安葬着词作家Johnny Mercer等名流。",
+      "source_evidence": "He would frequently go to Bonaventure Cemetery with friends and point to the grave markers and say that the small ones were for poor people, and the big ones were for rich people",
+      "original_chapter": "Chapter 2 DESTINATION UNKNOWN",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": "Bonaventure Plantation",
+        "date_start": "1981",
+        "date_end": "1981"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "John Berendt",
+          "Mary Harty"
+        ],
+        "stay_duration": "2 hours"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "death",
+          "southern gothic",
+          "celebrity history"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "萨凡纳必游景点",
+        "current_name": "Bonaventure Cemetery"
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": "1981",
+        "dateEnd": "1981"
+      },
+      "story_mode": {
+        "chapter_title": "第8章·死者的派对",
+        "hook": "在萨凡纳，死后的社会地位甚至比生前更受关注。",
+        "narrative_text": "波拿文都安公墓坐落在威尔明顿河畔，这里曾是一座繁荣的种植园，如今则是萨凡纳最迷人的墓地。John Berendt跟随Mary Harty漫步在雕像与墓碑之间。Mary指着那些宏伟的纪念碑，讲述着萨凡纳人对死亡的独特态度——这里不仅是安息之地，更是社交的延伸。他们来到了著名词作家Johnny Mercer的墓前，这位创作了《月亮河》的大师就躺在这些橡树的荫蔽下。在这里，生与死的界限变得模糊，死亡不再是禁忌，而是一种带着淡淡哀愁的优雅延续。",
+        "transition_to": "结束了墓地的漫步，Mary将John带回了她位于格温内特东街的家。",
+        "mood": "mysterious",
+        "key_dialogue": "The small ones were for poor people, and the big ones were for rich people."
+      }
+    },
+    {
+      "title": "222 East Gwinnett Street",
+      "address": "USA-Georgia-Savannah-222 East Gwinnett Street",
+      "synopsis": "Mary Harty的寓所，紧邻Johnny Mercer的故居，是她观察萨凡纳上流社会的据点。",
+      "source_evidence": "I lived at 222 East Gwinnett Street; he lived at 226.",
+      "original_chapter": "Chapter 2 DESTINATION UNKNOWN",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1981"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Mary Harty",
+          "John Berendt"
+        ],
+        "stay_duration": "Evening"
+      },
+      "cultural_tags": {
+        "category": "biographical",
+        "themes": [
+          "neighborhood",
+          "social status"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "私人住宅",
+        "current_name": "222 East Gwinnett Street"
+      },
+      "timeline": {
+        "orderIndex": 9,
+        "dateStart": "1981",
+        "dateEnd": "1981"
+      },
+      "story_mode": {
+        "chapter_title": "第9章·邻里的回响",
+        "hook": "住在传奇人物的隔壁，意味着你永远有讲不完的故事。",
+        "narrative_text": "格温内特东街222号是Mary Harty的家。这栋房子不仅是她的居所，更是她作为萨凡纳‘内部人士’的身份象征。最令她津津乐道的是，她的邻居——226号——正是Johnny Mercer的故居。在萨凡纳，邻里关系往往决定了你的社交圈层。Mary在这里向John Berendt展示了萨凡纳人如何珍视他们的历史与血统。每一个门牌号背后都隐藏着一段家族兴衰史，而Mary正是这些故事最忠实的守护者和讲述者。",
+        "transition_to": "而就在几步之遥的226号，那座房子里正藏着更多关于Mercer家族的秘密。",
+        "mood": "peaceful",
+        "key_dialogue": "I lived at 222 East Gwinnett Street; he lived at 226."
+      }
+    },
+    {
+      "title": "Monterey Square",
+      "address": "USA-Georgia-Savannah-Monterey Square",
+      "synopsis": "萨凡纳最美丽的广场之一，也是吉姆·威廉姆斯与李·阿德勒这对宿敌展开明争暗斗的舞台。",
+      "source_evidence": "On the whole, the thirty-odd residents of Monterey Square regarded their neighbor Jim Williams with a respectful friendliness. ... The Adlers lived in an elegant double townhouse that occupied the other of the two trust lots on the west side of Monterey Square.",
+      "original_chapter": "Chapter 10",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1985"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Jim Williams",
+          "Lee Adler",
+          "Emma Adler"
+        ],
+        "stay_duration": "Years"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "rivalry",
+          "social_status",
+          "eccentricity"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "被历史建筑环绕的公共广场",
+        "current_name": "Monterey Square"
+      },
+      "timeline": {
+        "orderIndex": 10,
+        "dateStart": "1981",
+        "dateEnd": "1985"
+      },
+      "story_mode": {
+        "chapter_title": "第10章·广场上的无声战争",
+        "hook": "在如画的风景下，两位萨凡纳巨头正隔着广场进行着长达数年的对峙。",
+        "narrative_text": "蒙特利广场是萨凡纳的明珠，但这里的空气中却弥漫着火药味。广场的一侧是吉姆·威廉姆斯那宏伟的梅瑟府邸，另一侧则是李·阿德勒夫妇的优雅住宅。吉姆是一位靠古董生意发家的暴发户，而李则是致力于城市保护的社会名流。两人因对城市发展的理念不同而水火不容。吉姆曾在窗外挂出巨大的纳粹旗帜，仅仅是为了破坏李组织的参观活动；而李则会拿着望远镜，在自家阳台上严密监视吉姆举办的每一场奢华派对。这个广场见证了萨凡纳上流社会最荒诞也最真实的权力游戏。",
+        "transition_to": "然而，萨凡纳的街道不仅记录着权贵的争斗，也刻下了诗人家族的血色悲剧。",
+        "mood": "tense",
+        "key_dialogue": "“The Adlers lived in an elegant double townhouse that occupied the other of the two trust lots on the west side of Monterey Square.”"
+      }
+    },
+    {
+      "title": "Oglethorpe Avenue",
+      "address": "USA-Georgia-Savannah-228 East Oglethorpe Avenue",
+      "synopsis": "诗人Conrad Aiken童年居住地，见证了他父亲枪杀母亲后自杀的惨剧。",
+      "source_evidence": "The Aikens were living on Oglethorpe Avenue in a big brick townhouse. ... Conrad ran barefoot across Oglethorpe Avenue to the police station",
+      "original_chapter": "Chapter 2 DESTINATION UNKNOWN",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "Early 20th Century",
+        "historical_name": null,
+        "date_start": "1901",
+        "date_end": "1901"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Conrad Aiken",
+          "William F. Aiken"
+        ],
+        "stay_duration": "Childhood"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "tragedy",
+          "trauma",
+          "poetry"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "228号建筑依然存在",
+        "current_name": "Oglethorpe Avenue"
+      },
+      "timeline": {
+        "orderIndex": 11,
+        "dateStart": "1901",
+        "dateEnd": "1901"
+      },
+      "story_mode": {
+        "chapter_title": "第11章·奥格尔索普大道的枪声",
+        "hook": "年幼的诗人赤脚跑过街道，身后是改变他一生的血色清晨。",
+        "narrative_text": "奥格尔索普大道宽阔而庄严，但在1901年的一个早晨，这里发生了一场震惊全城的惨案。年仅十一岁的Conrad Aiken——日后的普利策奖得主——在睡梦中被两声枪响惊醒。他走进父母的房间，发现父亲在杀害母亲后自杀身亡。年幼的他赤脚穿过这条大道跑向警察局报案。这段惨痛的记忆成为了他文学创作中挥之不去的阴影，也为萨凡纳这座城市增添了一抹挥之不去的忧郁色彩。John Berendt在漫步时，依然能感受到这条街道承载的沉重历史。",
+        "transition_to": "为了更深入地观察这座城市，John决定在东查尔顿巷寻找一个属于自己的落脚点。",
+        "mood": "melancholic",
+        "key_dialogue": "“Conrad ran barefoot across Oglethorpe Avenue to the police station”"
+      }
+    },
+    {
+      "title": "East Charlton Lane",
+      "address": "USA-Georgia-Savannah-East Charlton Lane",
+      "synopsis": "叙述者John Berendt在萨凡纳租住的马车房，是他观察这座城市奇闻异事的基地。",
+      "source_evidence": "The voice that spoke to me from “bedroom” led me to my new home in Savannah—the second floor of a carriage house on East Charlton Lane.",
+      "original_chapter": "Chapter 3 THE SENTIMENTAL GENTLEMAN",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1982",
+        "date_end": "1985"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "John Berendt"
+        ],
+        "stay_duration": "Several years"
+      },
+      "cultural_tags": {
+        "category": "biographical",
+        "themes": [
+          "observation",
+          "new_beginning",
+          "seclusion"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "私人马车房",
+        "current_name": "East Charlton Lane"
+      },
+      "timeline": {
+        "orderIndex": 12,
+        "dateStart": "1982",
+        "dateEnd": "1985"
+      },
+      "story_mode": {
+        "chapter_title": "第12章·巷弄里的观察哨",
+        "hook": "一间隐秘的马车房，成了John窥探萨凡纳秘密的绝佳窗口。",
+        "narrative_text": "John Berendt最终在东查尔顿巷租下了一栋马车房的二楼。这里虽然隐秘，却位于萨凡纳历史区的核心地带。从这里出发，他可以自由地穿梭在各个广场之间，结识那些性格迥异的居民。这个小小的公寓不仅是他的住所，更像是一个观察哨所，让他能够以一个局外人的身份，冷静地记录下这座城市在优雅外表下的荒诞与疯狂。在这里，他开始整理那些关于吉姆·威廉姆斯、乔·奥多姆以及萨凡纳每一个角落的奇闻轶事。",
+        "transition_to": "而在不远处的琼斯东街16号，另一场永不落幕的派对正等待着他的加入。",
+        "mood": "peaceful",
+        "key_dialogue": "“The voice that spoke to me from ‘bedroom’ led me to my new home in Savannah—the second floor of a carriage house on East Charlton Lane.”"
+      }
+    },
+    {
+      "title": "16 East Jones Street",
+      "address": "USA-Georgia-Savannah-16 East Jones Street",
+      "synopsis": "萨凡纳著名的“派对中心”，由魅力十足且不拘小节的乔·奥多姆经营，门从不落锁。",
+      "source_evidence": "Joe’s landlords asked him to vacate the premises at once, not so much because of the fire but because Joe had never paid them any rent.",
+      "original_chapter": "Chapter 3 THE SENTIMENTAL GENTLEMAN",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1982",
+        "date_end": "1983"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Joe Odom",
+          "Mandy Nichols",
+          "John Berendt"
+        ],
+        "stay_duration": "Frequent visits"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "hospitality",
+          "bohemian",
+          "scandal"
+        ],
+        "significance": 0.85
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "萨凡纳最美街道上的历史建筑",
+        "current_name": "16 East Jones Street"
+      },
+      "timeline": {
+        "orderIndex": 13,
+        "dateStart": "1982",
+        "dateEnd": "1983"
+      },
+      "story_mode": {
+        "chapter_title": "第13章·永不落锁的派对之屋",
+        "hook": "只要推开这扇门，你就能进入萨凡纳最放荡不羁的社交中心。",
+        "narrative_text": "琼斯东街16号是一栋漂亮的黄色灰泥房子，它的主人是乔·奥多姆——一个集律师、钢琴家、骗子和派对达人于一身的奇人。这里的门从不落锁，任何人都可以随时进来喝一杯。乔以一种近乎荒诞的慷慨经营着这里，尽管他经常拖欠房租，甚至面临被驱逐的窘境。John Berendt在这里见识到了萨凡纳最真实的一面：法律与道德的界限在这里变得模糊，取而代之的是无尽的爵士乐、波本威士忌和没完没了的闲聊。这里是萨凡纳灵魂的缩影，既迷人又危险。",
+        "transition_to": "萨凡纳的故事在这些街道与广场间流转，编织成一幅善恶交织的午夜画卷。",
+        "mood": "joyful",
+        "key_dialogue": "“Joe’s landlords asked him to vacate the premises at once, not so much because of the fire but because Joe had never paid them any rent.”"
+      }
+    },
+    {
+      "title": "Ardsley Park",
+      "address": "USA-Georgia-Savannah-Ardsley Park",
+      "synopsis": "萨凡纳的高级白人聚居区，Collier医生曾因种族歧视被拒之门外，而George Mercer在此经历了神秘的“神迹”。",
+      "source_evidence": "He had built his house in the 1950s when no one would sell him property in the exclusive white enclave of Ardsley Park. ... Mr. Mercer was leaving his house in Ardsley Park one evening",
+      "original_chapter": "Chapter 24 BLACK MINUET / Chapter 25 TALK OF THE TOWN",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1980",
+        "date_end": "1989"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Henry Collier",
+          "George Mercer III"
+        ],
+        "stay_duration": "Several decades"
+      },
+      "cultural_tags": {
+        "category": "architectural",
+        "themes": [
+          "segregation",
+          "supernatural",
+          "social_status"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Historic residential district",
+        "current_name": "Ardsley Park-Chatham Crescent Historic District"
+      },
+      "timeline": {
+        "orderIndex": 16,
+        "dateStart": "1980",
+        "dateEnd": "1989"
+      },
+      "story_mode": {
+        "chapter_title": "第16章·阿兹利公园的隐形边界",
+        "hook": "在萨凡纳最排外的白人社区，财富并非唯一的通行证。",
+        "narrative_text": "随着派对的喧嚣渐远，John的足迹延伸至绿意盎然的阿兹利公园。这里曾是萨凡纳阶级森严的缩影：尽管Henry Collier医生医术高明且富有，却在50年代因肤色被拒绝在此置业。而对于老牌家族的George Mercer III来说，这里则是奇迹发生之地——他在家门口目睹了如神迹般的异象。这个社区不仅代表着建筑的美学，更承载着这座城市关于血统、排外与超自然传说的复杂记忆。",
+        "transition_to": "离开这片静谧的住宅区，John决定前往佐治亚历史学会，去翻阅那些尘封的档案。",
+        "mood": "nostalgic",
+        "key_dialogue": "“He had built his house in the 1950s when no one would sell him property in the exclusive white enclave of Ardsley Park.”"
+      }
+    },
+    {
+      "title": "Georgia Historical Society",
+      "address": "USA-Georgia-Savannah-501 Whitaker St",
+      "synopsis": "John Berendt在此查阅资料，试图通过历史文献揭开萨凡纳神秘人物与城市往事的面纱。",
+      "source_evidence": "At the Georgia Historical Society, an obliging librarian clarified a few matters for me.",
+      "original_chapter": "Chapter 3 THE SENTIMENTAL GENTLEMAN",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": "Hodgson Hall",
+        "date_start": "1981",
+        "date_end": "1981"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "John Berendt"
+        ],
+        "stay_duration": "An afternoon"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "research",
+          "genealogy",
+          "civil_war"
+        ],
+        "significance": 0.45
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Open to the public for research",
+        "current_name": "Georgia Historical Society"
+      },
+      "timeline": {
+        "orderIndex": 17,
+        "dateStart": "1981",
+        "dateEnd": "1981"
+      },
+      "story_mode": {
+        "chapter_title": "第17章·档案室里的萨凡纳",
+        "hook": "在泛黄的纸页间，那些被遗忘的名字重新焕发生机。",
+        "narrative_text": "为了理解萨凡纳那些古怪居民的根源，John Berendt来到了佐治亚历史学会。在管理员的协助下，他沉浸在Hodgson Hall宏伟的阅览室中。他不仅查到了关于Sadie Jefferson——那个在街头游荡的神秘女人的身世，还读到了这座城市在内战期间的独特立场。这里的每一份剪报和家谱，都在向这位外来者低语：在萨凡纳，过去从未真正消失，它只是换了一种方式存在于当下。",
+        "transition_to": "走出图书馆，街道上的每一座建筑似乎都开始诉说自己的身世，比如不远处的德雷顿街。",
+        "mood": "mysterious",
+        "key_dialogue": "“At the Georgia Historical Society, an obliging librarian clarified a few matters for me.”"
+      }
+    },
+    {
+      "title": "Drayton Street",
+      "address": "USA-Georgia-Savannah-Drayton Street",
+      "synopsis": "美国女童军的诞生地，见证了Juliette Gordon Low在这条街的马车房里开启的历史性篇章。",
+      "source_evidence": "Or that Juliette Gordon Low had founded the Girl Scouts of America in a carriage house on Drayton Street?",
+      "original_chapter": "Chapter 3 THE SENTIMENTAL GENTLEMAN",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1912",
+        "date_end": "1980"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Juliette Gordon Low"
+        ],
+        "stay_duration": "Passing by"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "feminism",
+          "legacy",
+          "civic_pride"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "The carriage house is part of the Girl Scout First Headquarters",
+        "current_name": "Girl Scout First Headquarters"
+      },
+      "timeline": {
+        "orderIndex": 18,
+        "dateStart": "1981",
+        "dateEnd": "1981"
+      },
+      "story_mode": {
+        "chapter_title": "第18章·德雷顿街的先锋",
+        "hook": "一个伟大的女性运动，竟起源于一座不起眼的马车房。",
+        "narrative_text": "漫步在德雷顿街，John Berendt想起了萨凡纳引以为傲的一段历史。1912年，Juliette Gordon Low——一位充满活力的萨凡纳女性，就在这条街的一座马车房里创立了美国女童军。这个细节被萨凡纳人反复提及，作为这座城市不仅保守且具有开创精神的证明。街道两旁的建筑依旧保持着当年的轮廓，仿佛在向路人展示这座城市如何将传统与变革巧妙地缝合在一起。",
+        "transition_to": "历史的痕迹不仅在街道上，更在那些古老的教堂钟声里，比如著名的基督堂。",
+        "mood": "peaceful",
+        "key_dialogue": "“Or that Juliette Gordon Low had founded the Girl Scouts of America in a carriage house on Drayton Street?”"
+      }
+    },
+    {
+      "title": "Christ Church",
+      "address": "USA-Georgia-Savannah-28 Bull St",
+      "synopsis": "萨凡纳最古老的教堂，卫理公会创始人约翰·卫斯理曾在此编写了第一本赞美诗集。",
+      "source_evidence": "John Wesley, the founder of Methodism, had been the minister of Christ Church in Savannah in 1736",
+      "original_chapter": "Chapter 3 THE SENTIMENTAL GENTLEMAN",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": "The Mother Church of Georgia",
+        "date_start": "1736",
+        "date_end": "1980"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "John Wesley"
+        ],
+        "stay_duration": "Passing by"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "religion",
+          "history",
+          "hymns"
+        ],
+        "significance": 0.35
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Active Episcopal church",
+        "current_name": "Christ Church Episcopal"
+      },
+      "timeline": {
+        "orderIndex": 19,
+        "dateStart": "1981",
+        "dateEnd": "1981"
+      },
+      "story_mode": {
+        "chapter_title": "第19章·卫斯理的赞美诗",
+        "hook": "在卫理公会的摇篮，宗教的庄严与城市的历史交织。",
+        "narrative_text": "位于Bull街的基督堂是佐治亚州最古老的堂区。John Berendt了解到，早在1736年，卫理公会的创始人约翰·卫斯理就曾在这里担任牧师。正是在萨凡纳的这段时光里，卫斯理编写并出版了美国第一本赞美诗集。尽管卫斯理后来离开了这里，但这座教堂依然是萨凡纳精神生活的核心，其希腊复兴风格的立面在午后的阳光下显得格外神圣，见证了无数信徒的虔诚与岁月的更迭。",
+        "transition_to": "然而，在萨凡纳，宗教的虔诚与世俗的社交规则并存，而加斯顿街正是那道分界线。",
+        "mood": "peaceful",
+        "key_dialogue": "“John Wesley, the founder of Methodism, had been the minister of Christ Church in Savannah in 1736”"
+      }
+    },
+    {
+      "title": "Gaston Street",
+      "address": "USA-Georgia-Savannah-Gaston Street",
+      "synopsis": "萨凡纳社交圈的地理分界线，区分了“真正的萨凡纳人”与南部的现代扩张区。",
+      "source_evidence": "Rule number two: Never go south of Gaston Street. A true Savannahian is a NOG. NOG means ‘north of Gaston.’",
+      "original_chapter": "Chapter 3 THE SENTIMENTAL GENTLEMAN",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1981"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Joe Odom"
+        ],
+        "stay_duration": "Passing by"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "social_hierarchy",
+          "local_customs",
+          "urban_geography"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Major east-west street in the historic district",
+        "current_name": "Gaston Street"
+      },
+      "timeline": {
+        "orderIndex": 20,
+        "dateStart": "1981",
+        "dateEnd": "1981"
+      },
+      "story_mode": {
+        "chapter_title": "第20章·加斯顿街的隐形墙",
+        "hook": "在萨凡纳，你住在街的哪一边决定了你是谁。",
+        "narrative_text": "Joe Odom——那个总是能搞定一切、充满魅力的萨凡纳浪子，向John传授了当地的生存法则：永远不要去加斯顿街以南。在萨凡纳的社交词典里，真正的精英被称为“NOG”（North of Gaston），即住在加斯顿街以北的人。这条街不仅是地理上的分界，更是心理上的堡垒，守护着老派家族的骄傲。跨过这条街往南，在他们眼中便失去了萨凡纳那份纯正的韵味。John站在街口，感受着这种微妙而坚固的社会隔阂。",
+        "transition_to": "跨过这道社交分界线，前方就是萨凡纳最著名的绿肺——福赛斯公园。（待续）",
+        "mood": "mysterious",
+        "key_dialogue": "“Rule number two: Never go south of Gaston Street. A true Savannahian is a NOG. NOG means ‘north of Gaston.’”"
+      }
+    },
+    {
+      "title": "Forsyth Park",
+      "address": "USA-Georgia-Savannah-Forsyth Park",
+      "synopsis": "John Berendt在此开启晨跑日常，观察到一对神秘的跨种族男女，并偶遇从Armstrong House出发散步的绅士Glover。",
+      "source_evidence": "Before long, I found myself settling into a pattern of daily routines: an early-morning jog around Forsyth Park... Every day at the same time, the old man walked through the cast-iron gates of the grandiose Armstrong House at the north end of Forsyth Park.",
+      "original_chapter": "Chapter 4 SETTLING IN",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1981"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "John Berendt",
+          "William Simon Glover"
+        ],
+        "stay_duration": "Daily morning routine"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "routine",
+          "observation",
+          "social_stratification"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Savannah's largest and most famous park.",
+        "current_name": "Forsyth Park"
+      },
+      "timeline": {
+        "orderIndex": 21,
+        "dateStart": "1981",
+        "dateEnd": "1981"
+      },
+      "story_mode": {
+        "chapter_title": "第21章·绿肺里的晨间仪式",
+        "hook": "在萨凡纳最美的公园里，每个人都遵循着某种隐秘的节奏。",
+        "narrative_text": "跨过这道社交分界线，前方就是萨凡纳最著名的绿肺——福赛斯公园。John Berendt开始将这里作为他晨跑的固定路线。在西班牙苔藓垂挂的橡树林间，他注意到一对奇怪的组合：一名黑人男子和一名白人女子，他们总是保持着五十英尺的固定距离，既不交谈也不靠近，却又步调一致。与此同时，八十六岁的绅士William Simon Glover每天准时从公园北端的豪宅走出，开始他那充满仪式感的散步。这座公园不仅是自然的馈赠，更是萨凡纳众生相的露天剧场，每个人都在这里扮演着属于自己的、一成不变的角色。",
+        "transition_to": "跑累了的John Berendt决定去附近的克莱里药店寻找萨凡纳的灵魂。",
+        "mood": "peaceful",
+        "key_dialogue": "“Every day at the same time, the old man walked through the cast-iron gates...”"
+      }
+    },
+    {
+      "title": "Clary’s drugstore",
+      "address": "USA-Georgia-Savannah-Jones Street-Clary’s drugstore",
+      "synopsis": "萨凡纳的情报交换中心，John Berendt在此结识了落魄的发明家Luther Driggers，窥见了小城流言的威力。",
+      "source_evidence": "Before long, I found myself settling into a pattern of daily routines: ... breakfast at Clary’s drugstore... That was one of the main things about Clary’s drugstore. It was a clearinghouse of information, a bourse of gossip.",
+      "original_chapter": "Chapter 4 SETTLING IN",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1981"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "John Berendt",
+          "Luther Driggers"
+        ],
+        "stay_duration": "Breakfast hours"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "gossip",
+          "community",
+          "eccentricity"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Still a popular breakfast spot in Savannah.",
+        "current_name": "Clary's Cafe"
+      },
+      "timeline": {
+        "orderIndex": 22,
+        "dateStart": "1981",
+        "dateEnd": "1981"
+      },
+      "story_mode": {
+        "chapter_title": "第22章·流言蜚语的交易所",
+        "hook": "想知道萨凡纳昨晚发生了什么？来克莱里药店吃顿早餐就够了。",
+        "narrative_text": "克莱里药店不仅仅是一家餐厅，它是萨凡纳的情报交换中心。John Berendt在这里吃早餐时，总能听到各种真假难辨的八卦。在这里，他遇到了Luther Driggers——一个曾发明除蚤项圈却生活落魄的男人。Luther总是随身带着一瓶神秘的液体，传闻那足以毒死全城的供水系统。在克莱里，社会地位被暂时搁置，人们在咖啡和煎蛋的香气中交换着秘密，这种亲密而又危险的社区氛围，正是萨凡纳迷人又令人不安的缩影。",
+        "transition_to": "离开喧闹的药店，视线再次转向公园北端那座宏伟的阿姆斯特朗宅邸。",
+        "mood": "mysterious",
+        "key_dialogue": "“It was a clearinghouse of information, a bourse of gossip.”"
+      }
+    },
+    {
+      "title": "Armstrong House",
+      "address": "USA-Georgia-Savannah-Bull and Gaston-Armstrong House",
+      "synopsis": "这座宏伟的意大利式建筑曾由Jim Williams拥有，后成为律师Sonny Seiler的事务所，见证了审判策略的制定。",
+      "source_evidence": "Every day at the same time, the old man walked through the cast-iron gates of the grandiose Armstrong House at the north end of Forsyth Park.",
+      "original_chapter": "Chapter 20 SONNY",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1985"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "John Berendt",
+          "Sonny Seiler",
+          "William Simon Glover"
+        ],
+        "stay_duration": "Several meetings"
+      },
+      "cultural_tags": {
+        "category": "architectural",
+        "themes": [
+          "law",
+          "legacy",
+          "wealth"
+        ],
+        "significance": 0.85
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Currently houses a law firm.",
+        "current_name": "Armstrong House"
+      },
+      "timeline": {
+        "orderIndex": 23,
+        "dateStart": "1981",
+        "dateEnd": "1985"
+      },
+      "story_mode": {
+        "chapter_title": "第23章·豪宅里的法律博弈",
+        "hook": "在这座曾属于Jim Williams的豪宅里，新的审判风暴正在酝酿。",
+        "narrative_text": "阿姆斯特朗宅邸以其宏伟的铸铁大门和意大利文艺复兴风格矗立在公园一角。这里曾是Jim Williams的产业，如今则是萨凡纳著名律师Sonny Seiler的事务所。John Berendt在此与Sonny会面，讨论Jim Williams二审的辩护策略。Sonny不仅是法律界的权威，还是佐治亚大学吉祥物斗牛犬Uga的主人。在厚重的书架和古董家具之间，法律的严谨与萨凡纳式的社交礼仪交织在一起，决定着那个被困在监狱里的古董商的命运。",
+        "transition_to": "从法律的严肃中抽身，John Berendt在麦迪逊广场再次偶遇了那位老绅士。",
+        "mood": "ambitious",
+        "key_dialogue": "“The grandiose Armstrong House at the north end of Forsyth Park.”"
+      }
+    },
+    {
+      "title": "Madison Square",
+      "address": "USA-Georgia-Savannah-Madison Square",
+      "synopsis": "John Berendt在此目睹了William Simon Glover为游客演唱的动人一幕，展现了萨凡纳旧式绅士的落魄与尊严。",
+      "source_evidence": "One day, as I came through Madison Square, I saw him standing by the monument facing a semicircle of tourists. He was singing.",
+      "original_chapter": "Chapter 4 SETTLING IN",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1981"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "John Berendt",
+          "William Simon Glover"
+        ],
+        "stay_duration": "Passing by"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "performance",
+          "dignity",
+          "tourism"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "One of the 22 squares of Savannah.",
+        "current_name": "Madison Square"
+      },
+      "timeline": {
+        "orderIndex": 24,
+        "dateStart": "1981",
+        "dateEnd": "1981"
+      },
+      "story_mode": {
+        "chapter_title": "第24章·广场上的咏叹调",
+        "hook": "那位每天散步的老绅士，竟然在纪念碑前引吭高歌？",
+        "narrative_text": "麦迪逊广场的中心矗立着威廉·贾斯珀中士的纪念碑。某天下午，John Berendt路过此处，惊讶地发现那位总是衣着整洁、步履蹒跚的老绅士William Simon Glover正站在纪念碑旁，面对着一群游客深情演唱。他的歌声虽然苍老，却带着一种旧时代的优雅。演唱结束后，一名女导游礼貌地递给他小费，他则像接受勋章一样自然地收下。这一幕让Berendt意识到，在萨凡纳，贫穷与高贵往往以一种极其微妙且体面的方式共存着。",
+        "transition_to": "然而，并不是广场上的所有故事都如此优雅，赖特广场就记录了另一番景象。",
+        "mood": "nostalgic",
+        "key_dialogue": "“He was singing... He took the money with a slight, gracious bow.”"
+      }
+    },
+    {
+      "title": "Wright Square",
+      "address": "USA-Georgia-Savannah-Wright Square",
+      "synopsis": "这里见证了Luther Driggers因在邮局称量大麻而被捕的荒诞往事，以及那名神秘黑人男子的行踪。",
+      "source_evidence": "Another time I caught sight of him getting into a late-model green Lincoln on Wright Square... Luther went one afternoon to the Wright Square post office to check the weight of a pound of marijuana he was about to buy.",
+      "original_chapter": "Chapter 4 & 5",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1981"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "John Berendt",
+          "Luther Driggers"
+        ],
+        "stay_duration": "Passing by"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "absurdity",
+          "crime",
+          "mystery"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Location of the historic post office and courthouse.",
+        "current_name": "Wright Square"
+      },
+      "timeline": {
+        "orderIndex": 25,
+        "dateStart": "1981",
+        "dateEnd": "1981"
+      },
+      "story_mode": {
+        "chapter_title": "第25章·邮局里的荒诞剧",
+        "hook": "谁会去邮局称量大麻？只有萨凡纳的怪人做得出来。",
+        "narrative_text": "赖特广场不仅是法院的所在地，也见证了萨凡纳最荒诞的时刻。John Berendt在这里再次看到了那个在公园慢跑的神秘黑人男子钻进了一辆豪华林肯轿车，身份愈发扑朔迷离。而关于Luther Driggers的传说也在这里流传：他曾大摇大摆地走进广场邮局，要求工作人员帮他称量一磅大麻的重量，结果自然是当场被捕。这种介于天才与疯子、守法与狂放之间的模糊地带，正是萨凡纳这座城市最真实的底色。",
+        "transition_to": "夜幕降临，萨凡纳的另一面在名为Purple Tree的酒吧里悄然开启。（待续）",
+        "mood": "mysterious",
+        "key_dialogue": "“Luther went one afternoon to the Wright Square post office to check the weight of a pound of marijuana...”"
+      }
+    },
+    {
+      "title": "Purple Tree",
+      "address": "USA-Georgia-Savannah-Johnson Square-Purple Tree",
+      "synopsis": "在约翰逊广场的这家酒吧里，发明家Luther Driggers展示了他那令人毛骨悚然的实验成果：一群内脏散发着荧光、在黑暗中游动的金鱼。",
+      "source_evidence": "The Purple Tree down on Johnson Square does. I got to thinking what a shame it was that goldfish didn’t glow in the dark... When we finally reached the Purple Tree, it was two-thirty.",
+      "original_chapter": "Chapter 5 THE INVENTOR",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1981"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "John Berendt",
+          "Luther Driggers",
+          "Serena Dawes"
+        ],
+        "stay_duration": "A late night session until 2:30 AM"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "eccentricity",
+          "invention",
+          "nightlife"
+        ],
+        "significance": 0.75
+      },
+      "visitability": {
+        "status": "demolished",
+        "note": "The bar no longer exists at Johnson Square.",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 26,
+        "dateStart": "1981",
+        "dateEnd": "1981"
+      },
+      "story_mode": {
+        "chapter_title": "第26章·发光的金鱼",
+        "hook": "深夜的酒吧里，鱼缸中游动的竟是透明且发光的内脏。",
+        "narrative_text": "夜幕降临，萨凡纳的另一面在名为Purple Tree的酒吧里悄然开启。John Berendt跟随这位被当地人视为怪才的发明家Luther Driggers来到此处。Luther是个沉迷于奇思妙想的人物，他向众人展示了自己的杰作：一群被喂食了特殊荧光染料的金鱼。在昏暗的酒吧光线下，这些金鱼的肉体仿佛消失了，只剩下发光的内脏在水中漂浮律动。这种诡异而迷人的景象，正是萨凡纳式荒诞的缩影。同行的Serena Dawes——一位过气的女继承人，对此早已习以为常，而Luther则在酒精的催化下，继续吹嘘着他那些游走在天才与疯子边缘的计划。",
+        "transition_to": "在酒精与荧光的幻影中，Serena坚持要在回家前再去另一家老牌酒吧转转。",
+        "mood": "mysterious",
+        "key_dialogue": "“I got to thinking what a shame it was that goldfish didn’t glow in the dark.”"
+      }
+    },
+    {
+      "title": "Pinkie Master’s",
+      "address": "USA-Georgia-Savannah-Pinkie Master’s",
+      "synopsis": "萨凡纳著名的潜水酒吧，Serena Dawes在深夜游荡中坚持要停靠的一站，Luther在此继续他的喂鱼实验。",
+      "source_evidence": "After the pirates’ Cove, Serena insisted on a stop at Pinkie Master’s. Luther added more fish food.",
+      "original_chapter": "Chapter 5 THE INVENTOR",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1981"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Serena Dawes",
+          "Luther Driggers"
+        ],
+        "stay_duration": "A quick stop during a bar crawl"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "nightlife",
+          "local_landmark"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "A legendary Savannah dive bar still in operation.",
+        "current_name": "Pinkie Master's Lounge"
+      },
+      "timeline": {
+        "orderIndex": 27,
+        "dateStart": "1981",
+        "dateEnd": "1981"
+      },
+      "story_mode": {
+        "chapter_title": "第27章·深夜的停靠站",
+        "hook": "在萨凡纳，没有去过Pinkie Master’s的夜晚是不完整的。",
+        "narrative_text": "离开Purple Tree后，Serena Dawes执意要在Pinkie Master’s停靠。这家酒吧是萨凡纳社交版图中不可或缺的一块，充满了烟草味和廉价啤酒的气息。Luther Driggers随身带着他的金鱼，甚至在吧台上也不忘给它们喂食那种特制的荧光饲料。对于这群萨凡纳的边缘人来说，夜晚不是用来睡眠的，而是用来在一家又一家酒吧之间编织他们那永无止境的、带有哥特色彩的闲聊与幻想。",
+        "transition_to": "然而，Luther Driggers随身携带的不仅仅是发光的鱼，还有足以毁灭整座城市的毒药。",
+        "mood": "nostalgic",
+        "key_dialogue": "“Serena insisted on a stop at Pinkie Master’s. Luther added more fish food.”"
+      }
+    },
+    {
+      "title": "Oatland Island",
+      "address": "USA-Georgia-Savannah-Oatland Island",
+      "synopsis": "Luther Driggers曾在此处理实验室废料，但他私藏了一瓶足以毒死全城人的剧毒物质，成为了萨凡纳都市传说的一部分。",
+      "source_evidence": "I was in charge of burying a lot of this stuff out on Oatland Island where we closed down a laboratory years ago. I kept some of it for myself, though.",
+      "original_chapter": "Chapter 5 THE INVENTOR",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1981"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Luther Driggers"
+        ],
+        "stay_duration": "Mentioned in flashback/conversation"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "danger",
+          "secrets",
+          "urban_legend"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Now the Oatland Island Wildlife Center.",
+        "current_name": "Oatland Island Wildlife Center"
+      },
+      "timeline": {
+        "orderIndex": 28,
+        "dateStart": "1981",
+        "dateEnd": "1981"
+      },
+      "story_mode": {
+        "chapter_title": "第28章·致命的遗产",
+        "hook": "一瓶足以让全城水源变成毒药的粉末，就藏在某个人的口袋里。",
+        "narrative_text": "在闲谈中，Luther Driggers透露了一个令人胆寒的秘密。多年前，他负责在奥特兰岛（Oatland Island）掩埋废弃实验室的剧毒化学品。然而，他并没有完成任务，而是私自留下了一瓶氟乙酸钠。他声称，只要把这瓶东西倒进萨凡纳的水库，全城的人都会没命。这个细节让Luther的形象从一个滑稽的发明家瞬间变成了一个危险的潜在威胁，也为萨凡纳那优雅的外表下增添了一抹不安的阴影。",
+        "transition_to": "离开这些危险的幻想，萨凡纳的另一面在古老的教堂钟声中显得庄重而平和。",
+        "mood": "tense",
+        "key_dialogue": "“I kept some of it for myself, though. Enough to kill every man, woman, and child in Savannah.”"
+      }
+    },
+    {
+      "title": "First African Baptist Church",
+      "address": "USA-Georgia-Savannah-First African Baptist Church",
+      "synopsis": "这座历史悠久的黑人教堂见证了William Simon Glover的音乐传奇，他曾在此为罗斯福总统指挥合唱。",
+      "source_evidence": "And I’ve been musical director of the First African Baptist Church since 1916. I directed a chorus of five hundred voices for Franklin D. Roosevelt when he visited Savannah on November 18, 1933.",
+      "original_chapter": "Chapter 4 SETTLING IN",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1916",
+        "date_end": "1981"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "William Simon Glover"
+        ],
+        "stay_duration": "Decades of service"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "history",
+          "music",
+          "african_american_heritage"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "One of the oldest African American churches in the US.",
+        "current_name": "First African Baptist Church"
+      },
+      "timeline": {
+        "orderIndex": 29,
+        "dateStart": "1916",
+        "dateEnd": "1981"
+      },
+      "story_mode": {
+        "chapter_title": "第29章·圣歌的回响",
+        "hook": "五百人的合唱团曾在此为总统献唱，指挥者是一位萨凡纳的传奇老人。",
+        "narrative_text": "在萨凡纳的社会图景中，William Simon Glover是一位受人尊敬的长者。自1916年起，他便担任第一非洲浸信会教堂的音乐总监。他向John Berendt回忆起1933年富兰克林·罗斯福总统访问萨凡纳时的盛况，那时他指挥着五百人的合唱团，歌声响彻云霄。这座教堂不仅是宗教场所，更是萨凡纳黑人社区历史与尊严的象征，承载着跨越半个世纪的记忆与旋律。",
+        "transition_to": "从庄严的教堂转向喧嚣的河边，Joe Odom又开启了他的新生意。",
+        "mood": "peaceful",
+        "key_dialogue": "“I directed a chorus of five hundred voices for Franklin D. Roosevelt when he visited Savannah.”"
+      }
+    },
+    {
+      "title": "Emma’s",
+      "address": "USA-Georgia-Savannah-River Street-Emma’s",
+      "synopsis": "Joe Odom与“钢琴女王”Emma Kelly合开的钢琴酒吧，位于河边旧仓库，是萨凡纳夜生活的核心，却也发生了不光彩的盗窃案。",
+      "source_evidence": "Six months later, she and Joe opened a piano bar in an old cotton warehouse overlooking the river. They called it Emma’s.",
+      "original_chapter": "Chapter 6",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1981"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Joe Odom",
+          "Emma Kelly",
+          "John Berendt",
+          "Moon Tompkins",
+          "Wanda Brooks"
+        ],
+        "stay_duration": "Several months of operation"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "music",
+          "betrayal",
+          "social_hub"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "demolished",
+        "note": "The specific bar 'Emma's' no longer exists, though River Street remains a tourist hub.",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 30,
+        "dateStart": "1981",
+        "dateEnd": "1981"
+      },
+      "story_mode": {
+        "chapter_title": "第30章·河畔的琴声",
+        "hook": "“钢琴女王”的指尖流淌着旋律，而阴影里的酒保正盯着钱箱。",
+        "narrative_text": "Joe Odom——这位永远在策划新生意的萨凡纳浪子，与被誉为“拥有六千首歌记忆”的钢琴家Emma Kelly合作，在河边街的一个旧棉花仓库里开设了名为“Emma’s”的酒吧。这里迅速成为了萨凡纳最热门的去处，Emma的琴声吸引了无数名流与游客。然而，好景不长，Joe雇佣的酒保Moon Tompkins在某个夜晚卷走了所有的营业款逃之夭夭。尽管如此，Emma依然优雅地坐在琴凳上，用音乐维系着这个摇摇欲坠的社交中心，而John Berendt则在一旁冷眼旁观着这场充满萨凡纳特色的闹剧。",
+        "transition_to": "离开河边的喧嚣，故事的触角延伸到了萨凡纳之外的斯泰茨伯勒。（待续）",
+        "mood": "dramatic",
+        "key_dialogue": "“They called it Emma’s.”"
+      }
+    },
+    {
+      "title": "First Baptist Church in Statesboro",
+      "address": "USA-Georgia-Statesboro-108 North Main Street",
+      "synopsis": "Emma Kelly每周日固定演奏的教堂，John Berendt随她一同前往，见证了南方小镇紧密的宗教与社区纽带。",
+      "source_evidence": "Emma pulled into the parking lot of the First Baptist Church in Statesboro Sunday morning at twenty minutes past eight.",
+      "original_chapter": "Chapter 6",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1981"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Emma Kelly",
+          "John Berendt"
+        ],
+        "stay_duration": "A Sunday morning"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "community",
+          "tradition",
+          "music"
+        ],
+        "significance": 0.75
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "该教堂至今仍是当地活跃的宗教场所",
+        "current_name": "First Baptist Church"
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "1981",
+        "dateEnd": "1981"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·琴键上的主日礼拜",
+        "hook": "在“千曲之女”的指尖下，宗教仪式变成了一场充满活力的音乐会。",
+        "narrative_text": "离开河边的喧嚣，John Berendt随同被誉为“千曲之女”的钢琴家Emma Kelly来到了斯泰茨伯勒。在这座典型的南方小镇教堂里，Emma不仅是伴奏者，更是社区灵魂的粘合剂。她熟练地穿梭于主日学校和礼拜堂之间，用琴声引导着信众的情绪。Berendt观察到，这里的宗教生活并非枯燥的教条，而是一种深植于血缘与邻里间的温情纽带。Emma对每一首赞美诗的精准把握，正如她对这个小镇每个人生老病死的了如指掌。",
+        "transition_to": "礼拜结束后，音乐并未停歇，Emma马不停蹄地赶往下一个社交中心。",
+        "mood": "peaceful",
+        "key_dialogue": "“I’ve played for more than a thousand weddings and more than a thousand funerals,” Emma said."
+      }
+    },
+    {
+      "title": "Forest Heights Country Club",
+      "address": "USA-Georgia-Statesboro-Country Club Road",
+      "synopsis": "Emma Kelly在乡村俱乐部的自助餐厅演奏背景音乐，展现了她作为职业音乐家在世俗社交场合的另一面。",
+      "source_evidence": "we drove directly to the Forest Heights Country Club, where Emma went to the buffet, put two fried chicken legs on her plate, and sat down at the piano in the dining room.",
+      "original_chapter": "Chapter 6",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1981"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Emma Kelly",
+          "John Berendt"
+        ],
+        "stay_duration": "A few hours"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "socializing",
+          "southern_lifestyle"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "私人俱乐部，通常仅限会员进入",
+        "current_name": "Forest Heights Country Club"
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "1981",
+        "dateEnd": "1981"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·炸鸡腿与钢琴曲",
+        "hook": "谁能想到，优雅的钢琴曲竟是伴随着炸鸡的香气流淌出来的？",
+        "narrative_text": "从庄严的教堂转场到Forest Heights乡村俱乐部，Emma Kelly展现了她惊人的活力。在自助餐厅里，她一边往盘子里夹着炸鸡腿，一边在钢琴前坐下，指尖流淌出轻快的旋律。这里是当地中产阶级的社交场，人们在用餐间隙与她亲昵地打招呼。John Berendt坐在一旁，看着这位老妇人如何游刃有余地在神圣与世俗之间切换，她的琴声仿佛是这个小镇午后不可或缺的背景音。",
+        "transition_to": "然而，Emma的周日行程远未结束，更远的旅程在维代利亚等待着她。",
+        "mood": "joyful",
+        "key_dialogue": "“I’m just a working girl,” she said, taking a bite of a chicken leg."
+      }
+    },
+    {
+      "title": "Serendipity Health and Racquet Club",
+      "address": "USA-Georgia-Vidalia-Serendipity Health and Racquet Club",
+      "synopsis": "Emma在维代利亚的一场婚礼招待会上演奏，John Berendt见证了她如何用音乐点燃全场气氛。",
+      "source_evidence": "Emma had been hired to play for a wedding reception at the Serendipity Health and Racquet Club.",
+      "original_chapter": "Chapter 6",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1981"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Emma Kelly",
+          "John Berendt"
+        ],
+        "stay_duration": "An evening"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "celebration",
+          "performance"
+        ],
+        "significance": 0.45
+      },
+      "visitability": {
+        "status": "uncertain",
+        "note": "该俱乐部可能已更名或停止营业",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "1981",
+        "dateEnd": "1981"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·维代利亚的婚礼狂欢",
+        "hook": "一首《Big Bad Bill》，让原本拘谨的婚礼现场瞬间沸腾。",
+        "narrative_text": "在维代利亚的这家健身俱乐部里，一场婚礼招待会正在举行。Emma Kelly受雇在此演奏，她那百科全书般的曲库再次让John Berendt惊叹。当她唱起《Big Bad Bill》时，全场的气氛达到了顶点。尽管长途奔波，Emma依然精神抖擞，她不仅是在完成一份工作，更是在享受与人群的互动。这种永不疲倦的社交能量，正是萨凡纳及其周边地区人物性格的缩影。",
+        "transition_to": "结束了漫长的周日之旅，镜头转回萨凡纳，Joe Odom正面临着新的居所变迁。",
+        "mood": "joyful",
+        "key_dialogue": "“Big Bad Bill is sweet William now!” Emma sang, her voice robust and clear."
+      }
+    },
+    {
+      "title": "101 East Oglethorpe Avenue",
+      "address": "USA-Georgia-Savannah-101 East Oglethorpe Avenue",
+      "synopsis": "Joe Odom在火灾后搬入的新家，尽管身处名流邻居之间，他依然维持着混乱而迷人的社交生活。",
+      "source_evidence": "Joe took what furnishings he could salvage and moved into a large Federal-style brick townhouse at 101 East Oglethorpe Avenue, a few blocks away.",
+      "original_chapter": "Chapter 6",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1981"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Joe Odom",
+          "Malcolm Bell",
+          "Mandy Nichols"
+        ],
+        "stay_duration": "Several months"
+      },
+      "cultural_tags": {
+        "category": "architectural",
+        "themes": [
+          "resilience",
+          "social_climbing",
+          "scandal"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "私人住宅，仅限外观参观",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "1981",
+        "dateEnd": "1981"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·奥格尔索普大道的避难所",
+        "hook": "在一场毁灭性的火灾后，Joe Odom总能奇迹般地在更显赫的地方重新开始。",
+        "narrative_text": "Jones Street的火灾并没能击垮Joe Odom。这位萨凡纳著名的“职业派对家”带着残存的家具，搬进了奥格尔索普大道101号——一栋宏伟的联邦风格砖房。他的邻居是严谨的Malcolm Bell夫妇，这让Joe那永不停歇的深夜派对显得格外突兀。在这里，Joe继续着他那游走在法律边缘的房产管理生意，并与女友Mandy Nichols维持着一种充满张力又极具魅力的生活方式。这栋房子见证了Joe如何在逆境中保持那份萨凡纳式的体面与荒诞。",
+        "transition_to": "离开Joe的社交圈，John Berendt深入到了萨凡纳更具异域色彩的角落。",
+        "mood": "dramatic",
+        "key_dialogue": "“It’s a bit of a step up, don’t you think?” Joe said, gesturing to the high ceilings."
+      }
+    },
+    {
+      "title": "Crawford Square",
+      "address": "USA-Georgia-Savannah-Crawford Square",
+      "synopsis": "变装皇后The Lady Chablis居住的广场，John Berendt在此听她讲述了充满戏剧性的个人往事。",
+      "source_evidence": "I live downtown by Crawford Square... We pulled into Crawford Square, one of the two squares in Savannah that fell within the black section of town.",
+      "original_chapter": "Chapter 7",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1981"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "The Lady Chablis",
+          "John Berendt"
+        ],
+        "stay_duration": "An afternoon"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "identity",
+          "subculture",
+          "storytelling"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "萨凡纳著名的历史广场之一",
+        "current_name": "Crawford Square"
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "1981",
+        "dateEnd": "1981"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·克劳福德广场的秘密",
+        "hook": "在黑人区的广场边缘，萨凡纳最耀眼的变装皇后揭开了她的面具。",
+        "narrative_text": "克劳福德广场位于萨凡纳黑人社区的中心，这里是The Lady Chablis的领地。这位魅力四射、言语犀利的变装皇后邀请John Berendt来到她的公寓。在廉价的装饰与浓重的香水味中，Chablis卸下了舞台上的光环，讲述了她与男友Jeff的纠葛，以及她如何利用机智在充满偏见的社会中生存。Berendt意识到，Chablis不仅是一个表演者，她本身就是萨凡纳那复杂、多面且永不服输的生命力的化身。",
+        "transition_to": "故事的阴影开始在这些色彩斑斓的人物背后蔓延，下一个地点是 The Pickup。",
+        "mood": "mysterious",
+        "key_dialogue": "“My mama always told me, ‘Chablis, you are a grand Duchess, and don’t you ever forget it.’”"
+      }
+    },
+    {
+      "title": "The Pickup",
+      "address": "USA-Georgia-Savannah-Congress Street-The Pickup",
+      "synopsis": "变装皇后The Lady Chablis在国会街的同性恋酒吧进行表演，却因薪水纠纷与老板爆发激烈争吵并愤而辞职。",
+      "source_evidence": "I’m at the Pickup, honey. That’s a gay bar on Congress Street. ... The Pickup occupied a loft building on Congress Street.",
+      "original_chapter": "Chapter 7",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1981"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "The Lady Chablis",
+          "John Berendt"
+        ],
+        "stay_duration": "A single night"
+      },
+      "cultural_tags": {
+        "category": "biographical",
+        "themes": [
+          "drag culture",
+          "confrontation",
+          "nightlife"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "demolished",
+        "note": "原酒吧已不再运营",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "1981",
+        "dateEnd": "1981"
+      },
+      "story_mode": {
+        "chapter_title": "第6章·聚光灯下的反叛",
+        "hook": "在色彩斑斓的人物背后，一场关于尊严与金钱的闹剧正在上演。",
+        "narrative_text": "John Berendt随同魅力四射的变装皇后The Lady Chablis来到国会街的一家阁楼酒吧——The Pickup。这里是Chablis的舞台，她以辛辣的幽默和大胆的表演统治着观众。然而，华丽的羽毛扇背后隐藏着现实的龃龉。因为老板Burt克扣了应得的报酬，Chablis在众目睽睽之下卸下舞台面具，爆发出一场充满戏剧性的争吵。她不仅当众宣布辞职，更以一种决绝的姿态宣告了自己的不可侵犯。这场冲突揭示了萨凡纳光鲜夜生活下，边缘人物生存的韧性与辛酸。",
+        "transition_to": "离开喧闹的酒吧，故事的触角延伸到了城外的军事基地，那里有另一段趣闻。",
+        "mood": "dramatic",
+        "key_dialogue": "\"I’m a lady, Burt! And a lady does not work for peanuts!\""
+      }
+    },
+    {
+      "title": "Sweet Georgia Brown’s",
+      "address": "USA-Georgia-Savannah-Bay Street-Sweet Georgia Brown’s",
+      "synopsis": "Joe Odom在湾街对面的仓库筹建1890年代风格的钢琴酒吧，他在乱局中指挥装修。",
+      "source_evidence": "Joe was seated at a table in a huge warehouse space that was soon to open its doors as Sweet Georgia Brown’s, a piano bar with an 1890s atmosphere...",
+      "original_chapter": "Chapter 8",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1981"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Joe Odom",
+          "Mandy Nichols",
+          "John Berendt"
+        ],
+        "stay_duration": "Several months during renovation"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "entrepreneurship",
+          "social hub",
+          "jazz"
+        ],
+        "significance": 0.75
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "建筑仍位于湾街，但经营内容已变更",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "1981",
+        "dateEnd": "1981"
+      },
+      "story_mode": {
+        "chapter_title": "第7章·湾街的爵士梦",
+        "hook": "在废弃仓库的尘土中，Joe Odom正试图复刻一个世纪前的繁华。",
+        "narrative_text": "Joe Odom，这位萨凡纳最著名的“职业房客”和派对主人，正投身于他的新事业——Sweet Georgia Brown’s。在湾街对面巨大的仓库空间里，到处是施工的噪音和飞扬的尘土。Joe坐在一张临时桌子旁，一边给工人们发工资，一边向John Berendt描绘着这里的蓝图：这将会是一家充满1890年代风情的钢琴酒吧。他的女友Mandy Nichols也在一旁协助。尽管资金链总是显得捉襟见肘，但Joe总能凭借其不可思议的个人魅力，在混乱中维持着一种即将成功的假象。",
+        "transition_to": "Joe的魅力不仅体现在生意上，他甚至在自由街找到了一种“免费”的居住方式。",
+        "mood": "ambitious",
+        "key_dialogue": "“It’s going to be the most authentic place in town, John. Just wait and see.”"
+      }
+    },
+    {
+      "title": "Liberty Street",
+      "address": "USA-Georgia-Savannah-Liberty Street",
+      "synopsis": "Joe Odom和Mandy搬入自由街的一栋白色木屋，他利用法律漏洞非法占屋。",
+      "source_evidence": "They had taken up residence a few blocks away in a handsome white frame house on Liberty Street.",
+      "original_chapter": "Chapter 8",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1981"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Joe Odom",
+          "Mandy Nichols"
+        ],
+        "stay_duration": "Several months"
+      },
+      "cultural_tags": {
+        "category": "architectural",
+        "themes": [
+          "squatting",
+          "eccentricity",
+          "legal loopholes"
+        ],
+        "significance": 0.7
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "自由街上的私人住宅",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": "1981",
+        "dateEnd": "1981"
+      },
+      "story_mode": {
+        "chapter_title": "第8章·自由街的“占领者”",
+        "hook": "他住着最漂亮的房子，却从未付过一分钱房租。",
+        "narrative_text": "Joe Odom将他的“生存艺术”在自由街发挥到了极致。他和Mandy搬进了一栋漂亮的白色木架房，但这并非通过正常的租赁程序。利用萨凡纳复杂的房产法律漏洞，Joe堂而皇之地成为了这栋房子的非法占有者。更令人称奇的是，他不仅不付房租，还利用这栋房子的历史美感，向不明真相的游客收取参观费用。在这里，Joe展示了他作为萨凡纳头号“无赖绅士”的本色：他能一边优雅地弹奏钢琴，一边面不改色地应对上门讨债的人。",
+        "transition_to": "然而，萨凡纳真正的权力中心并不在这些临时居所，而是在宏伟的梅瑟府邸。",
+        "mood": "dramatic",
+        "key_dialogue": "“If you act like you own the place, eventually people believe you do.”"
+      }
+    },
+    {
+      "title": "Mercer House",
+      "address": "USA-Georgia-Savannah-Bull Street-429",
+      "synopsis": "Jim Williams的豪宅，不仅是权力的象征，也是欲望与冲突的温床，最终成为命案现场。",
+      "source_evidence": "General Hugh Mercer had built the house during the Civil War... It says James A. Williams shot Danny Lewis Hansford, twenty-one. It happened inside Mercer House.",
+      "original_chapter": "Chapter 8, 9 & 11",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1981"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Jim Williams",
+          "Danny Hansford",
+          "John Berendt",
+          "The Lady Chablis"
+        ],
+        "stay_duration": "Continuous throughout the narrative"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "power",
+          "scandal",
+          "murder"
+        ],
+        "significance": 1.0
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为博物馆，对公众开放",
+        "current_name": "Mercer-Williams House Museum"
+      },
+      "timeline": {
+        "orderIndex": 9,
+        "dateStart": "1981",
+        "dateEnd": "1981"
+      },
+      "story_mode": {
+        "chapter_title": "第9章·梅瑟府邸的午夜枪声",
+        "hook": "在这座萨凡纳最宏伟的建筑里，美丽与危险正并肩而行。",
+        "narrative_text": "梅瑟府邸坐落在蒙特利广场，是古董商Jim Williams权力的图腾。John Berendt频繁出入此地，见证了这里的奢华与压抑。年轻而暴躁的Danny Hansford作为Jim的助手和情人，在这些昂贵的古董间穿梭，像是一头随时可能失控的野兽。1981年5月的一个清晨，震惊全城的消息传开：Jim Williams在府邸内开枪杀死了Danny。曾经的奢华社交场瞬间变成了扑朔迷离的命案现场。这座豪宅不再仅仅是财富的象征，它成了萨凡纳历史上最旷日持久审判的舞台。",
+        "transition_to": "当法律的阴云笼罩豪宅时，城市的另一端，老派家族的生活仍在以一种荒诞的方式继续。",
+        "mood": "tense",
+        "key_dialogue": "“This house has a way of making everything feel more important than it really is.”"
+      }
+    },
+    {
+      "title": "Savannah Bank (Johnson Square)",
+      "address": "USA-Georgia-Savannah-Johnson Square-Savannah Bank",
+      "synopsis": "“大艾玛”在银行门口上演了一场独特的“移动办公”，展现了老派权力的任性。",
+      "source_evidence": "Big Emma glided along at eight or ten miles an hour, scribbling on papers and handing them back, one by one.",
+      "original_chapter": "Chapter 10",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1981"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Emma Walthour Morel"
+        ],
+        "stay_duration": "30 minutes"
+      },
+      "cultural_tags": {
+        "category": "architectural",
+        "themes": [
+          "power",
+          "eccentricity",
+          "tradition"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为商业银行办公楼",
+        "current_name": "Johnson Square Bank Building"
+      },
+      "timeline": {
+        "orderIndex": 10,
+        "dateStart": "1981",
+        "dateEnd": "1981"
+      },
+      "story_mode": {
+        "chapter_title": "第10章·广场上的圆舞曲",
+        "hook": "银行官员们正满头大汗地追着一辆缓慢行驶的奔驰车。",
+        "narrative_text": "在约翰逊广场的萨凡纳银行总部前，上演着萨凡纳特有的荒诞一幕。“大艾玛”——艾玛·阿德勒那位富有且极具个性的母亲，正开着她的奔驰车以极慢的速度绕着广场转圈。作为银行的大股东，她拒绝下车，而是让那些西装革履的信托官员们小跑着跟在车窗边，递进需要签字的文件。这种对规则的蔑视和对权力的随性挥洒，正是萨凡纳老派贵族血脉中流淌的特质。无论城里发生了多大的命案，这些家族的秩序依然稳如磐石。",
+        "transition_to": "萨凡纳的故事在权力的傲慢与午夜的枪声中交织，揭开了这座南方古城更深层的秘密。",
+        "mood": "peaceful",
+        "key_dialogue": "“Big Emma glided along at eight or ten miles an hour, scribbling on papers.”"
+      }
+    },
+    {
+      "title": "Hyatt Regency Hotel",
+      "address": "USA-Georgia-Savannah-2 W Bay St-Hyatt Regency Savannah",
+      "synopsis": "坐落于湾街的现代主义酒店，因其破坏了萨凡纳的历史天际线而备受争议，也见证了李·阿德勒与保护组织的决裂。",
+      "source_evidence": "That monstrosity over there, for instance, was one of our biggest losses. The Hyatt Regency Hotel. ... We were riding along Bay Street, passing in front of the Hyatt—a squat, modernist building next to City Hall.",
+      "original_chapter": "Chapter 10",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1980",
+        "date_end": "1985"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Lee Adler",
+          "John Berendt"
+        ],
+        "stay_duration": "A drive-by conversation"
+      },
+      "cultural_tags": {
+        "category": "architectural",
+        "themes": [
+          "preservation",
+          "controversy",
+          "modernism"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Still operating as a major hotel in Savannah.",
+        "current_name": "Hyatt Regency Savannah"
+      },
+      "timeline": {
+        "orderIndex": 46,
+        "dateStart": "1980",
+        "dateEnd": "1985"
+      },
+      "story_mode": {
+        "chapter_title": "第46章·河畔的“怪物”",
+        "hook": "一座酒店如何能让一个保护主义者被自己创立的组织扫地出门？",
+        "narrative_text": "离开那场荒诞的街头剧，John Berendt 坐上了李·阿德勒的轿车。李·阿德勒是萨凡纳著名的历史保护斗士，但他此刻正指着湾街上一座矮胖的现代主义建筑——凯悦酒店，称其为“怪物”。这座酒店的兴建曾是萨凡纳保护运动最大的败笔，因为它挡住了河岸的视线。更具讽刺意味的是，正是因为在对待这类现代开发的态度上过于激进或独断，李·阿德勒最终被他亲手参与创建的历史萨凡纳基金会投票驱逐。车窗外，这座玻璃与混凝土的建筑与周围的古老砖墙格格不入，象征着这座城市在进步与守旧之间的惨烈拉锯。",
+        "transition_to": "虽然凯悦酒店是个遗憾，但李·阿德勒更急于展示他最初的胜利——玛丽·马歇尔排屋。",
+        "mood": "dramatic",
+        "key_dialogue": "“That monstrosity over there, for instance, was one of our biggest losses.”"
+      }
+    },
+    {
+      "title": "Mary Marshall Row",
+      "address": "USA-Georgia-Savannah-Oglethorpe Avenue-Mary Marshall Row",
+      "synopsis": "萨凡纳历史保护运动的里程碑，李·阿德勒通过“周转基金”模式成功挽救了这四栋1855年的联排别墅。",
+      "source_evidence": "I read in the newspaper that a row of four townhouses on Oglethorpe Avenue was about to be torn down. They were lovely. Built in 1855. They were known as the Mary Marshall Row.",
+      "original_chapter": "Chapter 10",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1950s-1980s",
+        "historical_name": null,
+        "date_start": "1959",
+        "date_end": "1985"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Lee Adler"
+        ],
+        "stay_duration": "A brief stop during a tour"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "restoration",
+          "activism",
+          "heritage"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Private residences, can be viewed from the street.",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 47,
+        "dateStart": "1959",
+        "dateEnd": "1985"
+      },
+      "story_mode": {
+        "chapter_title": "第47章·周转基金的奇迹",
+        "hook": "四栋即将被拆除卖砖的旧房子，开启了一场改变城市的运动。",
+        "narrative_text": "李·阿德勒将车停在奥格尔索普大道。他向 John Berendt 讲述起1959年的往事：当时这四栋建于1855年的精美砖制联排别墅——玛丽·马歇尔排屋，正面临被拆毁并变卖旧砖的命运。李·阿德勒当时发起了著名的“周转基金”模式，筹款买下建筑，修复后再转售，所得资金再投入下一个项目。这不仅救下了这排房子，更确立了萨凡纳历史保护的商业逻辑。看着这些如今依然优雅挺立的红砖建筑，很难想象它们曾离废墟只有一步之遥。",
+        "transition_to": "然而，李·阿德勒的野心不止于此，他将目光投向了更南边的维多利亚区。",
+        "mood": "ambitious",
+        "key_dialogue": "“I launched a revolving fund. We bought the houses, put restrictive covenants on the deeds, and resold them.”"
+      }
+    },
+    {
+      "title": "Victorian District",
+      "address": "USA-Georgia-Savannah-Victorian District",
+      "synopsis": "李·阿德勒在此推行针对低收入人群的住房翻新计划，却引发了关于绅士化与种族阶级的激烈争议。",
+      "source_evidence": "The Victorian district was Savannah’s first streetcar suburb. ... I launched a nonprofit organization called the Savannah Landmark Rehabilitation Project, which has been a triumph",
+      "original_chapter": "Chapter 10",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1980",
+        "date_end": "1985"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Lee Adler",
+          "John Berendt",
+          "Ruby Moore"
+        ],
+        "stay_duration": "Afternoon tour"
+      },
+      "cultural_tags": {
+        "category": "architectural",
+        "themes": [
+          "gentrification",
+          "social_class",
+          "philanthropy"
+        ],
+        "significance": 0.65
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "A large residential district south of the historic center.",
+        "current_name": "Victorian District"
+      },
+      "timeline": {
+        "orderIndex": 48,
+        "dateStart": "1980",
+        "dateEnd": "1985"
+      },
+      "story_mode": {
+        "chapter_title": "第48章·维多利亚区的博弈",
+        "hook": "当历史保护遇上贫民窟改造，是慈善还是另一种形式的驱逐？",
+        "narrative_text": "李·阿德勒带着 John Berendt 驶入维多利亚区，这里曾是萨凡纳第一个有轨电车郊区，布满了装饰华丽的木制房屋。李在这里推行了一项宏伟的计划：翻新破旧房屋供低收入黑人居住，而非将他们赶走。然而，这项举动在萨凡纳的上流社会引发了震动。像 Ruby Moore 这样的当地人对此嗤之以鼻，认为李是在“有组织地建立黑人贫民窟”。在李的眼中，这是社会正义与建筑保护的结合；但在他的政敌眼中，这不过是他沽名钓誉、对抗传统势力的又一局棋。",
+        "transition_to": "为了追溯这一切保护热情的源头，李提到了他母亲曾经救下的一座房子。",
+        "mood": "tense",
+        "key_dialogue": "“The Victorian district was Savannah’s first streetcar suburb... we’ve renovated six hundred units of housing for the poor.”"
+      }
+    },
+    {
+      "title": "Davenport House",
+      "address": "USA-Georgia-Savannah-324 E State St-Davenport House Museum",
+      "synopsis": "萨凡纳历史保护运动的发源地。1954年，七位女性为了保护这座联邦式建筑而成立了历史萨凡纳基金会。",
+      "source_evidence": "The tenement happened to be Davenport House, one of the finest examples of Federal architecture in America. ... Seven ladies got together, Lee Adler’s mother being one of them, and saved Davenport House and restored it.",
+      "original_chapter": "Chapter 10",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1950s",
+        "historical_name": null,
+        "date_start": "1954",
+        "date_end": "1954"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Lee Adler"
+        ],
+        "stay_duration": "Mentioned in conversation"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "heritage",
+          "founding",
+          "feminism"
+        ],
+        "significance": 0.7
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Now a museum open to the public.",
+        "current_name": "Davenport House Museum"
+      },
+      "timeline": {
+        "orderIndex": 49,
+        "dateStart": "1954",
+        "dateEnd": "1954"
+      },
+      "story_mode": {
+        "chapter_title": "第49章·七位夫人的遗产",
+        "hook": "萨凡纳的救赎，始于七位不愿看到老房子变成停车场的女性。",
+        "narrative_text": "在李·阿德勒的叙述中，达文波特住宅不仅是一座精美的联邦式建筑，更是萨凡纳灵魂的转折点。1954年，这座房子几乎沦为废墟，计划被拆除以建造停车场。包括李的母亲在内的七位萨凡纳夫人挺身而出，筹集资金将其买下。这一举动促成了历史萨凡纳基金会的诞生。虽然李后来与该组织决裂，但他无法否认，正是这些女性的坚持，才让萨凡纳没有变成一个平庸的现代城市。这里是所有保护神话的起点。",
+        "transition_to": "车子继续前行，停在了一片静谧的墓地边缘。",
+        "mood": "nostalgic",
+        "key_dialogue": "“Seven ladies got together, Lee Adler’s mother being one of them, and saved Davenport House.”"
+      }
+    },
+    {
+      "title": "Colonial Cemetery",
+      "address": "USA-Georgia-Savannah-201 E Oglethorpe Ave-Colonial Park Cemetery",
+      "synopsis": "位于市中心的古老墓地。李·阿德勒在此停车，向作者展示他引以为傲的城市修复成果。",
+      "source_evidence": "Adler pulled over to the curb on Oglethorpe Avenue in front of Colonial Cemetery.",
+      "original_chapter": "Chapter 10",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": "Colonial Park Cemetery",
+        "date_start": "1980",
+        "date_end": "1985"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Lee Adler",
+          "John Berendt"
+        ],
+        "stay_duration": "A few minutes"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "observation",
+          "legacy",
+          "urban_landscape"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "A historic park and cemetery in downtown Savannah.",
+        "current_name": "Colonial Park Cemetery"
+      },
+      "timeline": {
+        "orderIndex": 50,
+        "dateStart": "1980",
+        "dateEnd": "1985"
+      },
+      "story_mode": {
+        "chapter_title": "第50章·墓地旁的巡礼",
+        "hook": "在死者的安息之地旁，李·阿德勒审视着他为生者夺回的城市。",
+        "narrative_text": "李·阿德勒将车靠在殖民地墓地旁的马路牙子上。透过车窗，奥格尔索普大道的古老树木与墓地斑驳的石碑构成了一幅典型的萨凡纳画卷。李指着街道对面那些被修复得焕然一新的联排别墅，向 John Berendt 展示他的战利品。对他而言，这座城市是一块巨大的画布，而他既是保护者也是开发者。墓地的静谧与李谈论城市规划时的狂热形成鲜明对比，仿佛在这座城市，过去与现在从未真正分开，只是在不断地被重新定义。",
+        "transition_to": "结束了这场关于建筑与权力的巡礼，下一站我们将前往古老的杰克逊堡。（待续）",
+        "mood": "peaceful",
+        "key_dialogue": "“Adler pulled over to the curb on Oglethorpe Avenue in front of Colonial Cemetery.”"
+      }
+    },
+    {
+      "title": "Fort Jackson",
+      "address": "USA-Georgia-Savannah-Fort Jackson",
+      "synopsis": "作者原计划前往杰克逊堡观看苏格兰运动会，却在出发前接到了关于吉姆·威廉姆斯枪击案的惊人消息。",
+      "source_evidence": "One Saturday morning in early May, I was preparing to drive out to Fort Jackson to watch one of Savannah’s traditional annual sporting events, the Scottish games",
+      "original_chapter": "Chapter 11",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": "Old Fort Jackson",
+        "date_start": "1981",
+        "date_end": "1981"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "John Berendt",
+          "The Lady Chablis"
+        ],
+        "stay_duration": "A planned morning visit"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "tradition",
+          "interruption",
+          "scandal"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现作为国家历史地标对公众开放",
+        "current_name": "Old Fort Jackson"
+      },
+      "timeline": {
+        "orderIndex": 51,
+        "dateStart": "1981",
+        "dateEnd": "1981"
+      },
+      "story_mode": {
+        "chapter_title": "第51章·未成行的运动会",
+        "hook": "在古老堡垒的欢庆前夕，一通电话打破了萨凡纳的宁静。",
+        "narrative_text": "五月初的一个周六早晨，John Berendt 正准备驱车前往杰克逊堡。这座俯瞰萨凡纳河的古老防御工事，本该是苏格兰运动会的举办地，充满了风笛声与传统的竞技氛围。然而，就在出发前，变装皇后 The Lady Chablis 打来了一通急促的电话，语带惊恐地透露了一个足以震动整个萨凡纳社交圈的消息：古董商 Jim Williams 在他的梅瑟府邸开枪杀人了。杰克逊堡的硝烟早已散去，但一场关于法律与道德的现代战争才刚刚拉开序幕。",
+        "transition_to": "当枪声在梅瑟府邸响起，奥格尔索普大道的茶余饭后便有了新的谈资。",
+        "mood": "tense",
+        "key_dialogue": "“Honey, you aren't going to believe this, but Jim Williams just shot somebody.”"
+      }
+    },
+    {
+      "title": "Cynthia Collins's House",
+      "address": "USA-Georgia-Savannah-Oglethorpe Avenue-Cynthia Collins's House",
+      "synopsis": "在奥格尔索普大道的联排别墅里，卡片俱乐部的成员们热议着阿德勒夫妇被逐出基金会的丑闻。",
+      "source_evidence": "Mrs. Cameron Collins was the hostess for the evening. She and her husband lived with their three children in a townhouse on Oglethorpe Avenue.",
+      "original_chapter": "Chapter 10",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1981"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Cynthia Collins",
+          "John Berendt",
+          "Lee Adler",
+          "Emma Adler"
+        ],
+        "stay_duration": "An evening party"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "gossip",
+          "social_hierarchy",
+          "conflict"
+        ],
+        "significance": 0.45
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "私人住宅，仅限外观查看",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 52,
+        "dateStart": "1981",
+        "dateEnd": "1981"
+      },
+      "story_mode": {
+        "chapter_title": "第52章·客厅里的流言蜚语",
+        "hook": "在精致的晚宴与纸牌游戏背后，隐藏着萨凡纳权力的裂痕。",
+        "narrative_text": "Cynthia Collins 的家中正举行着已婚妇女卡片俱乐部的聚会。John Berendt 作为宾客，置身于这栋位于奥格尔索普大道的优雅联排别墅中。这里的空气中弥漫着昂贵的香水味和刻薄的低语。话题的核心是 Lee Adler 和 Emma Adler 夫妇——这对曾经在历史保护领域呼风唤雨的夫妇，如今却因为激进的作风被踢出了基金会。在萨凡纳，客厅就是战场，而流言则是最致命的武器，精准地解构着每一个名流的体面。",
+        "transition_to": "随着审判的阴影笼罩，Jim Williams 暂时离开了萨凡纳，前往大洋彼岸。",
+        "mood": "mysterious",
+        "key_dialogue": "“The Adlers have been read out of the party. It’s official.”"
+      }
+    },
+    {
+      "title": "The Ritz",
+      "address": "England-London-Piccadilly-The Ritz",
+      "synopsis": "获准保释的吉姆·威廉姆斯在伦敦丽兹酒店避世，继续他奢华的古董采购之旅。",
+      "source_evidence": "In London, Williams stayed in his favorite suite at the Ritz",
+      "original_chapter": "Chapter 12 GUNPLAY",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1981"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Jim Williams"
+        ],
+        "stay_duration": "Several weeks"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "luxury",
+          "escape",
+          "antiques"
+        ],
+        "significance": 0.2
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "世界著名的豪华酒店",
+        "current_name": "The Ritz London"
+      },
+      "timeline": {
+        "orderIndex": 53,
+        "dateStart": "1981",
+        "dateEnd": "1981"
+      },
+      "story_mode": {
+        "chapter_title": "第53章·伦敦的避风港",
+        "hook": "即便身陷谋杀指控，这位古董商依然维持着他那令人咋舌的贵族生活。",
+        "narrative_text": "在枪杀 Danny Hansford 后，Jim Williams 奇迹般地获得了保释，并获准前往欧洲进行古董贸易。他来到了伦敦，住进了皮卡迪利大街上著名的丽兹酒店。在他最钟爱的套房里，窗外是繁华的伦敦街景，室内是极致的奢华。对于 Williams 而言，这里不仅是采购古董的据点，更是一个暂时的避风港，让他能从萨凡纳那令人窒息的审判压力中喘息片刻，继续扮演他那优雅收藏家的角色。",
+        "transition_to": "在伦敦的夜晚，除了古董，还有另一种诱惑在等待着他。",
+        "mood": "ambitious",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "Crockford’s Club",
+      "address": "England-London-Mayfair-Crockford’s Club",
+      "synopsis": "威廉姆斯在伦敦期间频繁出入克罗克福德俱乐部，在轮盘赌桌上挥霍金钱与焦虑。",
+      "source_evidence": "and played roulette at Crockford’s Club.",
+      "original_chapter": "Chapter 12 GUNPLAY",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1981"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Jim Williams"
+        ],
+        "stay_duration": "Evenings"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "gambling",
+          "risk",
+          "high_society"
+        ],
+        "significance": 0.2
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "伦敦著名的私人博彩俱乐部",
+        "current_name": "Crockfords"
+      },
+      "timeline": {
+        "orderIndex": 54,
+        "dateStart": "1981",
+        "dateEnd": "1981"
+      },
+      "story_mode": {
+        "chapter_title": "第54章·轮盘上的豪赌",
+        "hook": "他在赌桌上掷下的筹码，是否也在预示着他即将面临的命运审判？",
+        "narrative_text": "伦敦梅费尔区的克罗克福德俱乐部，是权贵与豪赌客的聚集地。Jim Williams 频繁出现在这里的轮盘赌桌旁。旋转的圆球与跳动的数字，似乎能暂时掩盖他内心深处对即将到来的谋杀案审判的恐惧。他在萨凡纳的命运就像这轮盘上的赌局，生死未卜。这种在法律边缘游走、在赌桌上挥霍的姿态，正是 Williams 性格中那种狂妄与冷静交织的真实写照。",
+        "transition_to": "然而，无论他在伦敦如何逍遥，萨凡纳的社交圈从未停止对他的审判。",
+        "mood": "dramatic",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "Oglethorpe Club",
+      "address": "USA-Georgia-Savannah-Oglethorpe Club",
+      "synopsis": "萨凡纳最排外的私人俱乐部，会员们在此严厉抨击威廉姆斯的行为，并坚守着陈旧的传统。",
+      "source_evidence": "Joe Webster ... walking stiffly with the aid of a cane from his office in the C&S Bank building to the Oglethorpe Club for lunch. ... The no-trousers rule for women had never been lifted before and the board dared not do it now.",
+      "original_chapter": "Chapter 12 GUNPLAY",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1981"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Sonny Clarke",
+          "Jim Williams"
+        ],
+        "stay_duration": "Lunch hours"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "elitism",
+          "tradition",
+          "judgment"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "私人俱乐部，不对外开放",
+        "current_name": "Oglethorpe Club"
+      },
+      "timeline": {
+        "orderIndex": 55,
+        "dateStart": "1981",
+        "dateEnd": "1981"
+      },
+      "story_mode": {
+        "chapter_title": "第55章·绅士们的判决",
+        "hook": "在禁止女性穿长裤的古老俱乐部里，男人们正忙着给一名杀人犯定罪。",
+        "narrative_text": "奥格尔索普俱乐部是萨凡纳保守势力的堡垒。在这里，像 Sonny Clarke 这样的社会名流们在午餐时分聚在一起，严厉地讨论着 Jim Williams 的罪行。对于这些坚守着“女性不得穿长裤”等陈腐规矩的绅士来说，Williams 不仅仅是杀了一个人，更是破坏了萨凡纳上流社会那层虚伪但必须维持的体面。尽管 Williams 曾是他们中的一员，但现在，他已成了这座城市最显眼的污点。",
+        "transition_to": "离开这些充满敌意的目光，下一站我们将前往著名的 Elizabeth on 37th 餐厅。（待续）",
+        "mood": "desolate",
+        "key_dialogue": "“The no-trousers rule for women had never been lifted before and the board dared not do it now.”"
+      }
+    },
+    {
+      "title": "Elizabeth on 37th",
+      "address": "USA-Georgia-Savannah-East 37th Street-Elizabeth on 37th",
+      "synopsis": "在谋杀案审判的阴影下，吉姆·威廉姆斯依然坚持前往这家顶级餐厅用餐，维持其上流社会的体面。",
+      "source_evidence": "he ate dinner at Elizabeth on 37th.",
+      "original_chapter": "Chapter 12 GUNPLAY",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1981"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Jim Williams"
+        ],
+        "stay_duration": "A few hours"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "social_status",
+          "defiance",
+          "high_society"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Still a renowned fine-dining restaurant in Savannah.",
+        "current_name": "Elizabeth on 37th"
+      },
+      "timeline": {
+        "orderIndex": 56,
+        "dateStart": "1981",
+        "dateEnd": "1981"
+      },
+      "story_mode": {
+        "chapter_title": "第56章·最后的晚餐仪式",
+        "hook": "即便背负着谋杀指控，他依然不愿放弃那份精致的晚餐。",
+        "narrative_text": "离开那些充满敌意的目光，吉姆·威廉姆斯来到了著名的 Elizabeth on 37th 餐厅。对于这位萨凡纳最成功的古董商来说，生活方式本身就是一种防御。尽管丹尼·汉斯福德的死让他深陷法律泥潭，但他拒绝表现出任何畏缩。在这座由维多利亚式豪宅改建的餐厅里，他在精致的灯光与考究的餐具间穿梭，仿佛审判只是一场无关痛痒的插曲。这种近乎傲慢的镇定，正是萨凡纳上流社会对他既敬畏又排斥的原因。",
+        "transition_to": "然而，并不是每个人都能像吉姆一样游刃有余，乔·奥多姆正忙着寻找他的下一个落脚点。",
+        "mood": "tense",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "Hamilton-Turner House",
+      "address": "USA-Georgia-Savannah-Lafayette Square-Hamilton-Turner House",
+      "synopsis": "乔·奥多姆在离开自由街后搬入这座宏伟的豪宅，其引发的争议再次搅动了萨凡纳的社交圈。",
+      "source_evidence": "the controversy over Joe Odom and the Hamilton-Turner House continued unabated. ... the Hamilton-Turner House stood within one hundred yards of a school.",
+      "original_chapter": "Chapter 13 CHECKS AND BALANCES",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1982",
+        "date_end": "1982"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Joe Odom"
+        ],
+        "stay_duration": "Several months"
+      },
+      "cultural_tags": {
+        "category": "architectural",
+        "themes": [
+          "scandal",
+          "gentrification",
+          "legal_dispute"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Now operating as a luxury Inn.",
+        "current_name": "Hamilton-Turner Inn"
+      },
+      "timeline": {
+        "orderIndex": 57,
+        "dateStart": "1982",
+        "dateEnd": "1982"
+      },
+      "story_mode": {
+        "chapter_title": "第57章·不速之客的豪宅",
+        "hook": "乔·奥多姆搬进了新家，但邻居们却并不打算欢迎这位麻烦制造者。",
+        "narrative_text": "乔·奥多姆——那个永远在法律边缘游走、充满魅力的破产律师兼钢琴手，在离开自由街后，竟然搬进了拉法叶广场上最宏伟的汉密尔顿-特纳故居。他租下了这里宽敞优雅的客厅层，试图重整旗鼓。然而，由于这座房子距离学校不到一百码，他在这里经营非法酒吧和派对的行为立刻引发了轩然大波。邻居们的抗议声此起彼伏，乔却依然在华丽的吊灯下弹奏着爵士乐，仿佛争议只是他生活的背景音。",
+        "transition_to": "乔的闹剧在拉法叶广场上演，而整座城市关注的焦点正转向那座庄严的广场。",
+        "mood": "dramatic",
+        "key_dialogue": "the controversy over Joe Odom and the Hamilton-Turner House continued unabated."
+      }
+    },
+    {
+      "title": "Lafayette Square",
+      "address": "USA-Georgia-Savannah-Lafayette Square",
+      "synopsis": "萨凡纳最美丽的广场之一，见证了乔·奥多姆新一轮的社交风波与邻里冲突。",
+      "source_evidence": "Joe had found another house to move into on Lafayette Square.",
+      "original_chapter": "Chapter 13 CHECKS AND BALANCES",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1982",
+        "date_end": "1982"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Joe Odom"
+        ],
+        "stay_duration": "Passing"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "urban_life",
+          "community_conflict"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": null,
+        "current_name": "Lafayette Square"
+      },
+      "timeline": {
+        "orderIndex": 58,
+        "dateStart": "1982",
+        "dateEnd": "1982"
+      },
+      "story_mode": {
+        "chapter_title": "第58章·广场上的暗流",
+        "hook": "在拉法叶广场的橡树影下，一场关于体面与规则的较量正在展开。",
+        "narrative_text": "拉法叶广场是萨凡纳历史区的核心，周围环绕着精美的建筑。当乔·奥多姆搬到这里时，他打破了广场长久以来的宁静。这里的居民们习惯了低调的奢华，而不是乔带来的那种喧闹的、半公开的社交聚会。广场上的长椅见证了邻居们愤怒的耳语，他们试图通过法律手段将这个不守规矩的租客赶走。对于萨凡纳人来说，广场不仅是地理中心，更是维护社会秩序的战场。",
+        "transition_to": "私人的纷争终究要让位于法律的裁决，审判的时刻终于在县法院到来了。",
+        "mood": "nostalgic",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "Chatham County Courthouse",
+      "address": "USA-Georgia-Savannah-Downtown-Chatham County Courthouse",
+      "synopsis": "吉姆·威廉姆斯谋杀案的首场审判地，这座现代建筑与萨凡纳的历史氛围格格不入。",
+      "source_evidence": "The Chatham County Courthouse was one of a half dozen modern buildings in downtown Savannah. It was made of precast concrete. Flat, blockish, and bland, it sat at the western edge of the historic district.",
+      "original_chapter": "Chapter 16 TRIAL",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1982",
+        "historical_name": null,
+        "date_start": "1982",
+        "date_end": "1982"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Jim Williams",
+          "George Oliver",
+          "Bobby Lee Cook",
+          "Spencer Lawton",
+          "Emily Bannister",
+          "John Berendt"
+        ],
+        "stay_duration": "Several weeks"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "justice",
+          "murder_mystery",
+          "legal_drama"
+        ],
+        "significance": 1.0
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "The building still serves as the county courthouse.",
+        "current_name": "Chatham County Courthouse"
+      },
+      "timeline": {
+        "orderIndex": 59,
+        "dateStart": "1982",
+        "dateEnd": "1982"
+      },
+      "story_mode": {
+        "chapter_title": "第59章·混凝土里的审判",
+        "hook": "在历史区的边缘，一座冰冷的现代建筑将决定吉姆·威廉姆斯的命运。",
+        "narrative_text": "查塔姆县法院是一座平坦、块状且乏味的预制混凝土建筑，与萨凡纳那些精美的古建筑形成了鲜明对比。在这里，吉姆·威廉姆斯谋杀案的第一场审判正式拉开帷幕。约翰·贝伦特作为观察者，记录下了法庭内的紧张气氛：辩护律师鲍比·李·库克的雄辩、检察官斯宾塞·劳顿的步步紧逼，以及死者丹尼·汉斯福德的母亲艾米莉·班尼斯特那充满悲伤与愤怒的目光。这座建筑虽然平庸，却承载了整座城市对正义与真相的渴望。",
+        "transition_to": "当法官宣读有罪判决的那一刻，吉姆的自由被剥夺了，他被带往了隔壁的阴影中。",
+        "mood": "tense",
+        "key_dialogue": "It was made of precast concrete. Flat, blockish, and bland, it sat at the western edge of the historic district."
+      }
+    },
+    {
+      "title": "Chatham County Jail",
+      "address": "USA-Georgia-Savannah-Downtown-Chatham County Jail",
+      "synopsis": "紧邻法院的监狱，吉姆·威廉姆斯在被判有罪后，从豪宅的奢华跌入了这里的冰冷禁锢。",
+      "source_evidence": "This other building, also made of concrete, was a vaultlike cube with vertical slits for windows—the Chatham County Jail. ... Jim Williams had begun the day in the spacious grandeur of Mercer House and ended it in the cold confines of the Chatham County Jail.",
+      "original_chapter": "Chapter 16 TRIAL, Chapter 17 A HOLE IN THE FLOOR",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1982",
+        "historical_name": null,
+        "date_start": "1982",
+        "date_end": "1983"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Jim Williams"
+        ],
+        "stay_duration": "Several months"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "imprisonment",
+          "fall_from_grace",
+          "isolation"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "The old jail building remains part of the judicial complex.",
+        "current_name": "Chatham County Jail"
+      },
+      "timeline": {
+        "orderIndex": 60,
+        "dateStart": "1982",
+        "dateEnd": "1983"
+      },
+      "story_mode": {
+        "chapter_title": "第60章·高墙内的坠落",
+        "hook": "从梅瑟府邸的舞厅到监狱的狭窄囚室，吉姆经历了人生最剧烈的转折。",
+        "narrative_text": "查塔姆县监狱是一个像保险库一样的混凝土立方体，窗户只是窄窄的缝隙。对于吉姆·威廉姆斯来说，这里是地狱。就在同一天早晨，他还在梅瑟府邸的宏伟客厅里享受着自由，而夜晚降临时，他已身处冰冷的禁锢之中。他在狱中依然试图保持尊严，甚至在囚室里安排古董生意的运作。然而，这种环境的剧变不仅是对他身体的囚禁，更是对他社会地位的毁灭性打击。他在等待上诉的过程中，在这座混凝土方块里度过了漫长的日夜。",
+        "transition_to": "在铁窗之后，吉姆开始寻求精神与法律的双重救赎，而下一站我们将前往卫斯理纪念教堂。（待续）",
+        "mood": "desolate",
+        "key_dialogue": "Jim Williams had begun the day in the spacious grandeur of Mercer House and ended it in the cold confines of the Chatham County Jail."
+      }
+    },
+    {
+      "title": "Wesley Monumental Church",
+      "address": "USA-Georgia-Savannah-429 Abercorn Street-Wesley Monumental Church",
+      "synopsis": "审判法官 George Oliver 作为该教堂干事，其宗教背景为审判增添了萨凡纳特有的保守色彩。",
+      "source_evidence": "He was a steward of the Wesley Monumental Church and had been in Mercer House many times, but never as a guest of Jim Williams.",
+      "original_chapter": "Chapter 16 TRIAL",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1981"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "George Oliver",
+          "Jim Williams"
+        ],
+        "stay_duration": "Passing mention"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "social status",
+          "religion",
+          "justice"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "萨凡纳著名的卫斯理纪念教堂，至今仍在使用。",
+        "current_name": "Wesley Monumental United Methodist Church"
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "1981",
+        "dateEnd": "1981"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·铁窗外的圣徒",
+        "hook": "审判席上的法官，竟是这座宏伟教堂的虔诚干事？",
+        "narrative_text": "在铁窗之后，吉姆·威廉姆斯开始寻求救赎。而负责审理此案的法官乔治·奥利弗，其身份在萨凡纳社交圈中极具代表性。他是卫斯理纪念教堂的干事，这不仅意味着他在法律界的权威，更象征着他在传统宗教社会中的核心地位。尽管他曾多次出入穆塞尔府邸，却从未作为吉姆的私人宾客。这种微妙的距离感，预示着法律的严苛将不会因社交往来而有所动摇，神圣的教堂与冰冷的法庭在此刻产生了奇妙的交集。",
+        "transition_to": "然而，并非所有人都能在信仰中找到平静，死者丹尼的过去正从医院的档案中浮现。",
+        "mood": "tense",
+        "key_dialogue": "He was a steward of the Wesley Monumental Church and had been in Mercer House many times, but never as a guest of Jim Williams."
+      }
+    },
+    {
+      "title": "Georgia Regional Hospital",
+      "address": "USA-Georgia-Savannah-1915 Eisenhower Drive-Georgia Regional Hospital",
+      "synopsis": "法庭证词揭露了丹尼·汉斯福德曾在此接受精神治疗，其暴力倾向成为辩方突破口。",
+      "source_evidence": "A psychiatrist at Georgia Regional Hospital told of treating Hansford after he had broken furniture in his mother’s house and “threatened to kill someone.”",
+      "original_chapter": "Chapter 16 TRIAL",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1980",
+        "date_end": "1981"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Danny Hansford"
+        ],
+        "stay_duration": "Medical treatment period"
+      },
+      "cultural_tags": {
+        "category": "biographical",
+        "themes": [
+          "mental health",
+          "violence",
+          "evidence"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为佐治亚州立精神科医院。",
+        "current_name": "Georgia Regional Hospital at Savannah"
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "1980",
+        "dateEnd": "1981"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·失控的灵魂",
+        "hook": "一份来自精神病院的报告，揭开了死者疯狂的另一面。",
+        "narrative_text": "随着审判的深入，丹尼·汉斯福德——那个死在吉姆枪下的年轻人，其生前的暴戾形象通过佐治亚州立医院的记录被还原。精神科医生在证人席上描述了丹尼如何砸碎母亲家的家具，并疯狂地威胁要杀人。这座医院见证了丹尼无法自控的愤怒与毁灭倾向，这些证词成为了辩方律师博比·李·库克手中的利刃，试图向陪审团证明：吉姆的开枪并非谋杀，而是面对一个危险疯子的正当防卫。",
+        "transition_to": "法庭上的博弈如火如荼，而城郊的桑德波特镇却发生了一场荒诞的插曲。",
+        "mood": "mysterious",
+        "key_dialogue": "A psychiatrist at Georgia Regional Hospital told of treating Hansford after he had broken furniture in his mother’s house and “threatened to kill someone.”"
+      }
+    },
+    {
+      "title": "Thunderbolt",
+      "address": "USA-Georgia-Chatham County-Thunderbolt",
+      "synopsis": "乔·奥多姆因积压的交通罚单被带往此地警局，展现了萨凡纳周边小镇的执法日常。",
+      "source_evidence": "We’re from Thunderbolt. You got six unpaid speedin’ tickets and a U-turn violation. ... We’ll have to take you to Thunderbolt in the squad car",
+      "original_chapter": "ANOTHER STORY",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1982",
+        "date_end": "1982"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Joe Odom",
+          "John Berendt"
+        ],
+        "stay_duration": "A few hours"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "law enforcement",
+          "absurdity",
+          "local life"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "桑德波特是萨凡纳东侧的一个滨水小镇。",
+        "current_name": "Thunderbolt, Georgia"
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "1982",
+        "dateEnd": "1982"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·雷霆镇的罚单",
+        "hook": "六张超速罚单，让萨凡纳的派对之王跌进了警车。",
+        "narrative_text": "在萨凡纳的喧嚣之外，桑德波特镇的警察突然造访。乔·奥多姆，这位永远能化险为夷的社交达人，这次却栽在了六张未付的超速罚单和一次违规掉头上。约翰·贝伦特目睹了这一幕：警察坚持要将乔带回桑德波特的警察局办理登记。尽管乔试图用他那标志性的魅力化解尴尬，但在这个宁静的滨水小镇，法律以一种近乎滑稽的方式彰显了它的存在感，也为沉重的审判阴影增添了一抹荒诞的色彩。",
+        "transition_to": "小镇的闹剧终会落幕，但吉姆即将面临的却是全州最阴森的重刑犯监狱。",
+        "mood": "dramatic",
+        "key_dialogue": "“We’re from Thunderbolt. You got six unpaid speedin’ tickets and a U-turn violation.”"
+      }
+    },
+    {
+      "title": "Reidsville State Penitentiary",
+      "address": "USA-Georgia-Reidsville-3001 GA-147-Georgia State Prison",
+      "synopsis": "吉姆·威廉姆斯被判刑后可能面临的服刑地，当时因暴乱和谋杀而臭名昭著。",
+      "source_evidence": "Even more ominous, however, was the possible fate that awaited him at the Reidsville State Penitentiary, where he was likely to be transferred to serve out his term.",
+      "original_chapter": "Chapter 17 A HOLE IN THE FLOOR",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": "Reidsville State Penitentiary",
+        "date_start": "1982",
+        "date_end": "1982"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Jim Williams"
+        ],
+        "stay_duration": "Anticipated imprisonment"
+      },
+      "cultural_tags": {
+        "category": "biographical",
+        "themes": [
+          "fear",
+          "prison",
+          "danger"
+        ],
+        "significance": 0.45
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "即佐治亚州立监狱，现已部分关闭或转型。",
+        "current_name": "Georgia State Prison"
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "1982",
+        "dateEnd": "1982"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·深渊的阴影",
+        "hook": "对于吉姆来说，死刑或许并不可怕，可怕的是里兹维尔监狱。",
+        "narrative_text": "随着有罪判决的下达，吉姆·威廉姆斯面临着一个比死亡更阴森的去处——里兹维尔州立监狱。那里当时正处于极度的混乱中，暴乱与囚犯间的谋杀频发，是佐治亚州最令人生畏的重刑犯禁区。对于习惯了古董、名酒和精致生活的吉姆来说，这个名字就像一个挥之不去的噩梦。萨凡纳的优雅在这一刻被彻底撕碎，取而代之的是对暴力与生存最原始的恐惧，他必须动用一切力量来逃离这个即将吞噬他的深渊。",
+        "transition_to": "为了让狱中生活不那么难熬，萨凡纳的社交圈开始了一场奇特的“外卖行动”。",
+        "mood": "desolate",
+        "key_dialogue": "Even more ominous, however, was the possible fate that awaited him at the Reidsville State Penitentiary."
+      }
+    },
+    {
+      "title": "Mrs. Wilkes’s boarding house",
+      "address": "USA-Georgia-Savannah-107 West Jones Street-Mrs. Wilkes’s Dining Room",
+      "synopsis": "萨凡纳著名的寄宿房，在吉姆入狱期间为其提供高标准的午餐外送。",
+      "source_evidence": "His lunches will be catered by Mrs. Wilkes’s boarding house, and he’ll be getting supper from Johnny Harris one night and Elizabeth’s the next.",
+      "original_chapter": "Chapter 17 A HOLE IN THE FLOOR",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1982",
+        "date_end": "1982"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Jim Williams",
+          "Prentiss Crowe"
+        ],
+        "stay_duration": "Meal delivery service"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "southern hospitality",
+          "privilege",
+          "irony"
+        ],
+        "significance": 0.35
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "萨凡纳极负盛名的南部美食餐厅，至今仍需排长队。",
+        "current_name": "Mrs. Wilkes' Dining Room"
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "1982",
+        "dateEnd": "1982"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·铁窗里的盛宴",
+        "hook": "即便身陷囹圄，吉姆的午餐也要保持萨凡纳的最高水准。",
+        "narrative_text": "萨凡纳的阶级感即便在监狱里也不会消失。普伦蒂斯·克罗向人们透露，吉姆在狱中的生活并非想象中那样凄惨。威尔克斯夫人的寄宿房——那座以地道南部美食闻名全城的圣地，竟然成为了吉姆的午餐供应商。这种极具讽刺意味的特权，展现了萨凡纳社会对“自己人”的某种温情与固执。当其他囚犯在啃食标准口粮时，吉姆依然能品尝到来自琼斯街的精致风味，仿佛他只是换了一个地方继续他的社交生活。",
+        "transition_to": "而晚餐的菜单则更加丰富，下一站我们将跟随送餐车的轨迹前往 Johnny Harris。",
+        "mood": "bittersweet",
+        "key_dialogue": "“His lunches will be catered by Mrs. Wilkes’s boarding house...”"
+      }
+    },
+    {
+      "title": "Johnny Harris",
+      "address": "USA-Georgia-Savannah-1651 East Victory Drive-Johnny Harris Restaurant",
+      "synopsis": "萨凡纳著名的老牌餐厅，在吉姆·威廉姆斯入狱期间为其提供晚餐。",
+      "source_evidence": "and he’ll be getting supper from Johnny Harris one night and Elizabeth’s the next.",
+      "original_chapter": "Chapter 17 A HOLE IN THE FLOOR",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1984"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Jim Williams",
+          "Prentiss Crowe"
+        ],
+        "stay_duration": "A few hours (delivery)"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "social_status",
+          "prison_life",
+          "privilege"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "demolished",
+        "note": "该餐厅已于2016年关闭并拆除",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "1981",
+        "dateEnd": "1984"
+      },
+      "story_mode": {
+        "chapter_title": "第6章·高墙内的珍馐",
+        "hook": "即便身陷囹圄，萨凡纳的权贵依然能享受到整座城市最顶级的滋味。",
+        "narrative_text": "在萨凡纳，阶级与特权并不会因为铁窗而消失。当吉姆·威廉姆斯入狱后，他的生活水准并未彻底崩塌。普伦蒂斯·克罗透露，监狱的伙食绝不会出现在吉姆的餐桌上。相反，每天傍晚都会有专门的送餐车驶向监狱。今晚，菜单来自于维克多大道上的老牌名店 Johnny Harris。这里的烧烤和炸鸡是萨凡纳人的集体记忆，而对于狱中的吉姆来说，这不仅是晚餐，更是他维持尊严与身份的最后防线。",
+        "transition_to": "而到了明晚，送餐车的方向将转向另一家同样负有盛名的餐厅：Elizabeth’s on 37th。",
+        "mood": "dramatic",
+        "key_dialogue": "“...and he’ll be getting supper from Johnny Harris one night and Elizabeth’s the next.”"
+      }
+    },
+    {
+      "title": "Elizabeth’s on 37th",
+      "address": "USA-Georgia-Savannah-105 East 37th Street-Elizabeth’s on 37th",
+      "synopsis": "萨凡纳顶级高级餐厅，与 Johnny Harris 轮流为狱中的吉姆提供晚餐。",
+      "source_evidence": "and he’ll be getting supper from Johnny Harris one night and Elizabeth’s the next.",
+      "original_chapter": "Chapter 17 A HOLE IN THE FLOOR",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1984"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Jim Williams",
+          "Prentiss Crowe"
+        ],
+        "stay_duration": "A few hours (delivery)"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "luxury",
+          "irony",
+          "legal_battle"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "至今仍是萨凡纳最著名的餐厅之一",
+        "current_name": "Elizabeth on 37th"
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "1981",
+        "dateEnd": "1984"
+      },
+      "story_mode": {
+        "chapter_title": "第7章·轮换的食谱",
+        "hook": "从烧烤到高级法式料理，监狱的铁门挡不住萨凡纳名流的胃口。",
+        "narrative_text": "如果说 Johnny Harris 代表了萨凡纳的传统，那么位于37街的 Elizabeth’s 则代表了这座城市在80年代兴起的高级餐饮文化。普伦蒂斯·克罗描述着吉姆·威廉姆斯在狱中的奢靡生活。每隔一天，Elizabeth’s 的精致料理就会被送入牢房。这种极度的反差让法律的威严显得有些滑稽，也折射出萨凡纳社会对这位古董商复杂而暧昧的态度：即便他是个可能的杀人犯，他依然是那个懂得享受生活的吉姆。",
+        "transition_to": "然而，这种狱中的优待终究只是暂时的，吉姆必须走出牢房，回到他的古董店去面对新的审判。",
+        "mood": "bittersweet",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "Jim Williams's antiques shop",
+      "address": "USA-Georgia-Savannah-429 Bull Street-Jim Williams's antiques shop",
+      "synopsis": "吉姆·威廉姆斯的古董店，他在二审前夕在此监督昂贵家具的装卸。",
+      "source_evidence": "Two weeks before his second trial was to begin, Jim Williams stood in the street outside his antiques shop watching three men unload a heavy piece of furniture from a large van.",
+      "original_chapter": "Chapter 20 SONNY",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1982",
+        "date_end": "1982"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Jim Williams",
+          "John Berendt"
+        ],
+        "stay_duration": "Afternoon"
+      },
+      "cultural_tags": {
+        "category": "biographical",
+        "themes": [
+          "business",
+          "resilience",
+          "aesthetics"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为梅瑟府邸的一部分，作为博物馆和礼品店开放",
+        "current_name": "Mercer House Shop"
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": "1982",
+        "dateEnd": "1982"
+      },
+      "story_mode": {
+        "chapter_title": "第8章·审判前的生意",
+        "hook": "在第二次谋杀审判开始前两周，吉姆依然在街头指挥着他的古董生意。",
+        "narrative_text": "第二次审判的阴云已经笼罩在萨凡纳上空，但吉姆·威廉姆斯似乎更关心他的生意。在蒙特雷广场的古董店外，约翰·贝伦特看到吉姆正气定神闲地指挥工人从货车上卸下一件沉重的乔治亚风格家具。他看起来不像是一个面临终身监禁的被告，更像是一个对美学有着偏执追求的商人。这种近乎冷酷的冷静让周围的人感到不安，也让人们意识到，吉姆从未打算向命运低头。他雇佣了萨凡纳最强悍的律师索尼·塞勒，准备迎接下一场法律搏杀。",
+        "transition_to": "而此时，他的律师索尼·塞勒正带着萨凡纳的另一位“明星”——斗牛犬Uga，前往雅典城的球场。",
+        "mood": "ambitious",
+        "key_dialogue": "“It’s a very fine piece,” Williams said. “English, about 1760.”"
+      }
+    },
+    {
+      "title": "Sanford Stadium",
+      "address": "USA-Georgia-Athens-100 Sanford Drive-Sanford Stadium",
+      "synopsis": "佐治亚大学主体育场，索尼·塞勒在此展示吉祥物Uga IV并祭奠前任吉祥物。",
+      "source_evidence": "In the parking lot outside Sanford Stadium, Seiler lifted Uga onto the roof of his red station wagon",
+      "original_chapter": "Chapter 20 SONNY",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1982",
+        "date_end": "1982"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Sonny Seiler",
+          "Swann Seiler"
+        ],
+        "stay_duration": "A full day"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "tradition",
+          "fame",
+          "southern_culture"
+        ],
+        "significance": 0.7
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "佐治亚大学橄榄球队主场",
+        "current_name": "Sanford Stadium"
+      },
+      "timeline": {
+        "orderIndex": 9,
+        "dateStart": "1982",
+        "dateEnd": "1982"
+      },
+      "story_mode": {
+        "chapter_title": "第9章·斗牛犬的荣耀",
+        "hook": "在法律之外，索尼·塞勒是佐治亚州最受尊敬的人，因为他拥有Uga。",
+        "narrative_text": "离开萨凡纳的法庭，索尼·塞勒在桑福德体育场找到了另一种权力。作为佐治亚大学吉祥物英国斗牛犬Uga的拥有者，他在橄榄球赛场上享受着英雄般的待遇。在与UCLA的比赛前，索尼将穿着红色球衣的Uga IV举上车顶，接受成千上万球迷的欢呼。随后，他带着家人来到球场一角的墓地，祭奠那些已经离世的Uga先辈。这种对传统的狂热崇拜，正是索尼在法庭上能够左右萨凡纳陪审团情感的根源——他不仅是律师，更是南方精神的守护者。",
+        "transition_to": "当索尼在球场享受荣光时，萨凡纳的阴暗角落里，一场关于超自然的交易正在美术用品店悄然进行。",
+        "mood": "joyful",
+        "key_dialogue": "“Go, Dawgs! Sic ’em! Woof! Woof! Woof!”"
+      }
+    },
+    {
+      "title": "Friedman’s art supply shop",
+      "address": "USA-Georgia-Savannah-Friedman’s art supply shop",
+      "synopsis": "巴里·托马斯在此购买巫术仪式所需的红色毡尖笔和羊皮纸。",
+      "source_evidence": "At Friedman’s art supply shop, Thomas buys a red felt-tip pen and a package of heavy vellum tracing paper",
+      "original_chapter": "Chapter 21 NOTES ON A RERUN",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1982",
+        "date_end": "1982"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Minerva",
+          "Barry Thomas"
+        ],
+        "stay_duration": "30 minutes"
+      },
+      "cultural_tags": {
+        "category": "folklore",
+        "themes": [
+          "voodoo",
+          "superstition",
+          "conspiracy"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "uncertain",
+        "note": "该店可能已结业或更名",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 10,
+        "dateStart": "1982",
+        "dateEnd": "1982"
+      },
+      "story_mode": {
+        "chapter_title": "第10章·巫术的文具",
+        "hook": "谁能想到，决定审判走向的咒语，竟始于几件普通的美术用品？",
+        "narrative_text": "在第二次审判的筹备过程中，吉姆·威廉姆斯不仅依靠索尼·塞勒的法律才华，还求助于密涅瓦的“根源魔法”。巴里·托马斯——吉姆的忠实助手，受命来到弗里德曼美术用品店。他并没有购买绘画颜料，而是挑选了一支红色的毡尖笔和一包厚重的羊皮纸。这些看似平凡的物品，在密涅瓦的手中将变成写满咒语的符纸，用来干扰证人的记忆或平息法官的怒火。在萨凡纳，现代法律与古老巫术就这样在一家普通的文具店里交汇了。",
+        "transition_to": "准备工作已经就绪，无论是法律的还是超自然的。下一站，我们将前往河街，感受萨凡纳夜晚的另一面。",
+        "mood": "mysterious",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "River Street",
+      "address": "USA-Georgia-Savannah-River Street",
+      "synopsis": "密涅瓦在河滨大道进行深夜仪式，通过焚烧经文试图为吉姆寻求超自然力量庇护。",
+      "source_evidence": "Thomas drives down the steep cobblestone street leading from Factors’ Walk to River Street. We move slowly along the River Street esplanade",
+      "original_chapter": "Chapter 21 NOTES ON A RERUN",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1984",
+        "date_end": "1984"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Minerva",
+          "John Berendt"
+        ],
+        "stay_duration": "A few hours at night"
+      },
+      "cultural_tags": {
+        "category": "folklore",
+        "themes": [
+          "voodoo",
+          "ritual",
+          "superstition"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Savannah's famous waterfront district",
+        "current_name": "River Street"
+      },
+      "timeline": {
+        "orderIndex": 11,
+        "dateStart": "1984",
+        "dateEnd": "1984"
+      },
+      "story_mode": {
+        "chapter_title": "第11章·河畔的灰烬",
+        "hook": "在深夜的萨凡纳河畔，古老的咒语能否扭转法律的审判？",
+        "narrative_text": "约翰·贝伦特跟随密涅瓦——那位声称能与亡灵沟通的巫术女祭司，来到了深夜的河街。河水在月光下泛着冷光，密涅瓦要求在靠近流动水的地方进行仪式。他们停在一艘旧帆船旁，密涅瓦神情肃穆，点燃了写有圣经经文的纸片。随着灰烬飘入萨凡纳河，她低声吟诵着祈祷词，试图通过这种古老而神秘的方式，为即将再次面临审判的吉姆·威廉姆斯驱散厄运。在这座城市，法律的逻辑与超自然的信仰总是如此诡异地交织在一起。",
+        "transition_to": "然而，法律的战场不仅在河边，也在那些看似平凡的日常角落，比如一家餐厅。",
+        "mood": "mysterious",
+        "key_dialogue": "“The water carries the message,” Minerva whispered as the charred paper touched the surface."
+      }
+    },
+    {
+      "title": "1790 restaurant and bar",
+      "address": "USA-Georgia-Savannah-1790 restaurant and bar",
+      "synopsis": "塞勒的助手在此发现关键证人瓦妮莎，她曾目睹丹尼在案发前曾对吉姆开枪。",
+      "source_evidence": "Vanessa Blanton, a brunette in her mid-twenties, is a waitress at the 1790 restaurant and bar.",
+      "original_chapter": "Chapter 21 NOTES ON A RERUN",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1984",
+        "date_end": "1984"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Sonny Seiler",
+          "Vanessa Blanton"
+        ],
+        "stay_duration": "Incidental discovery"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "investigation",
+          "discovery",
+          "legal_strategy"
+        ],
+        "significance": 0.45
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "A historic inn and restaurant still in operation",
+        "current_name": "The 1790 Inn & Restaurant"
+      },
+      "timeline": {
+        "orderIndex": 12,
+        "dateStart": "1984",
+        "dateEnd": "1984"
+      },
+      "story_mode": {
+        "chapter_title": "第12章·餐厅里的流言",
+        "hook": "服务员随口提起的一段往事，竟成了辩方律师梦寐以求的突破口。",
+        "narrative_text": "在萨凡纳，秘密往往藏在酒杯和餐盘之间。1790餐厅的一名女服务员瓦妮莎·布兰顿，在忙碌的间隙向索尼·塞勒的助手透露了一个惊人的消息。她声称在丹尼·汉斯福德丧命的一个月前，曾亲眼目睹丹尼在梅瑟府邸对吉姆·威廉姆斯开枪。这个细节至关重要，因为它能证明丹尼具有先前的暴力倾向和杀人动机。塞勒敏锐地意识到，这个偶然发现的证人，或许能彻底改变第二次审判的走向，将吉姆从“蓄意谋杀”的指控中解救出来。",
+        "transition_to": "当萨凡纳的法律机器重新运转时，身陷囹圄的吉姆却将目光投向了遥远的欧洲。",
+        "mood": "dramatic",
+        "key_dialogue": "“I saw him do it,” Vanessa said, wiping the table. “He shot at Mr. Williams right there in the study.”"
+      }
+    },
+    {
+      "title": "Christie’s in Geneva",
+      "address": "Switzerland-Geneva-Geneva-Christie’s",
+      "synopsis": "即便身处狱中，吉姆依然通过电话竞拍日内瓦佳士得的法贝热烟盒，展现其对艺术品的狂热。",
+      "source_evidence": "When the bad news reached Williams, he picked up the telephone and called Christie’s in Geneva to place a bid on a Fabergé cigarette case that had once belonged to Edward VII.",
+      "original_chapter": "Chapter 24 BLACK MINUET",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1985",
+        "date_end": "1985"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Jim Williams"
+        ],
+        "stay_duration": "Duration of a phone call"
+      },
+      "cultural_tags": {
+        "category": "biographical",
+        "themes": [
+          "obsession",
+          "antiques",
+          "resilience"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "International auction house branch",
+        "current_name": "Christie's Geneva"
+      },
+      "timeline": {
+        "orderIndex": 13,
+        "dateStart": "1985",
+        "dateEnd": "1985"
+      },
+      "story_mode": {
+        "chapter_title": "第13章·铁窗后的竞拍",
+        "hook": "即使身陷囹圄，也无法阻挡一个古董商对绝世珍宝的渴望。",
+        "narrative_text": "吉姆·威廉姆斯即便在监狱中，也从未停止过他作为顶级古董商的运作。当第二次审判的阴云笼罩时，他却拿起电话，拨通了远在瑞士日内瓦的佳士得拍卖行。他的目标是一个曾属于英国国王爱德华七世的法贝热烟盒。这种近乎荒诞的冷静与对美的执着，正是吉姆性格中最令人费解的部分。对他而言，法律的审判或许只是暂时的干扰，而那些流传百年的艺术品才是永恒的追求。他在狭窄的牢房里，指挥着跨越重洋的豪赌。",
+        "transition_to": "而在萨凡纳的另一端，黑人社区正准备着一场完全不同风格的华丽盛宴。",
+        "mood": "ambitious",
+        "key_dialogue": "“I want that Fabergé case,” Williams said into the prison phone, his voice as calm as if he were in his own library."
+      }
+    },
+    {
+      "title": "Savannah State College",
+      "address": "USA-Georgia-Savannah-Savannah State College",
+      "synopsis": "萨凡纳州立学院的黑人兄弟会赞助了年度名媛舞会，展现了黑人上层社会的传统。",
+      "source_evidence": "The ball was sponsored by the graduate chapter of Alpha Phi Alpha, a black fraternity at Savannah State College.",
+      "original_chapter": "Chapter 24 BLACK MINUET",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": "Savannah State College",
+        "date_start": "1985",
+        "date_end": "1985"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Henry Collier"
+        ],
+        "stay_duration": "Incidental mention"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "African American culture",
+          "tradition",
+          "social class"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Now known as Savannah State University",
+        "current_name": "Savannah State University"
+      },
+      "timeline": {
+        "orderIndex": 14,
+        "dateStart": "1985",
+        "dateEnd": "1985"
+      },
+      "story_mode": {
+        "chapter_title": "第14章·黑人名媛的摇篮",
+        "hook": "在萨凡纳的阶级版图中，这里是黑人精英力量的汇聚地。",
+        "narrative_text": "萨凡纳州立学院不仅是学术的殿堂，更是这座城市黑人社交生活的核心。这里的Alpha Phi Alpha兄弟会赞助了著名的黑人名媛舞会。亨利·科利尔——这位在黑人社区极具影响力的律师，正是这种传统的守护者之一。舞会不仅是年轻女性步入社会的仪式，更是萨凡纳黑人中产阶级展示其尊严、财富与文化传承的舞台。与吉姆·威廉姆斯那充满争议的白人上流社会相比，这里的热闹与庄重展现了萨凡纳另一半灵魂的跳动。",
+        "transition_to": "然而，无论社交场如何喧嚣，案件的真相始终隐藏在那些冰冷的医疗记录中。",
+        "mood": "joyful",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "Candler Hospital",
+      "address": "USA-Georgia-Savannah-Candler Hospital",
+      "synopsis": "索尼·塞勒在此发现关键入院记录，证明警方在处理丹尼尸体时存在严重失误。",
+      "source_evidence": "I went out to the hospital yesterday and asked for the file on Hansford. They gave me the autopsy report. ... It was a green hospital admitting form filled out by the nurse in charge of the emergency room—Marilyn Case.",
+      "original_chapter": "Chapter 26 ANOTHER STORY",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1986"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Sonny Seiler",
+          "Danny Hansford"
+        ],
+        "stay_duration": "Several hours of investigation"
+      },
+      "cultural_tags": {
+        "category": "biographical",
+        "themes": [
+          "investigation",
+          "legal_twist",
+          "evidence"
+        ],
+        "significance": 0.85
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "One of the oldest hospitals in the US, still operational",
+        "current_name": "St. Joseph's/Candler Hospital"
+      },
+      "timeline": {
+        "orderIndex": 15,
+        "dateStart": "1986",
+        "dateEnd": "1986"
+      },
+      "story_mode": {
+        "chapter_title": "第15章·绿色的入院单",
+        "hook": "一张被遗忘在医院档案室的绿色表格，竟成了翻案的关键。",
+        "narrative_text": "索尼·塞勒在坎德勒医院的档案中挖掘到了金子。他找到了一份由急诊室护士玛丽琳·凯斯填写的绿色入院单。这份记录证明，当丹尼·汉斯福德的尸体被送达时，他的双手并没有按规定被纸袋包裹以保护火药残留证据。这意味着，控方一直用来指控吉姆“擦拭过丹尼双手”的证据链彻底断裂——因为在运送过程中，任何残留物都可能被蹭掉。这个发现如同一枚重磅炸弹，为吉姆的第三次审判带来了前所未有的转机。",
+        "transition_to": "萨凡纳的午夜花园里，善恶的界限依然模糊，但真相的碎片已逐渐拼凑完整。",
+        "mood": "tense",
+        "key_dialogue": "“The police didn't bag his hands,” Seiler said, tapping the green form. “The whole forensic case just went out the window.”"
+      }
+    },
+    {
+      "title": "Mills B. Lane Boulevard",
+      "address": "USA-Georgia-Savannah-Mills B. Lane Boulevard",
+      "synopsis": "Henry Collier医生的住所，因种族隔阂他无法在白人区置业，此处展现了萨凡纳隐形的阶级与种族边界。",
+      "source_evidence": "Dr. Collier lived on Mills B. Lane Boulevard, several miles to the west of downtown. It was a handsome, modern, one-story brick house... He had tried to buy a house in Ardsley Park, but the real estate agents had told him, quite bluntly, that the neighbors would not have him.",
+      "original_chapter": "Chapter 24: BLACK MINUET",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1980",
+        "date_end": "1989"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Henry Collier",
+          "John Berendt"
+        ],
+        "stay_duration": "An afternoon"
+      },
+      "cultural_tags": {
+        "category": "biographical",
+        "themes": [
+          "racial segregation",
+          "social status",
+          "civil rights"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "A residential thoroughfare in Savannah",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 76,
+        "dateStart": "1980",
+        "dateEnd": "1989"
+      },
+      "story_mode": {
+        "chapter_title": "第76章·隐形的边界",
+        "hook": "一位受人尊敬的医生，为何无法在自己心仪的社区买下一栋房子？",
+        "narrative_text": "带着从医院得到的线索，John Berendt来到了米尔斯·B·莱恩大道。这里住着Henry Collier医生，他是萨凡纳黑人上层社会的精英。尽管Collier医生医术精湛且富有，但他却无法在白人聚居的Ardsley Park买房——中介曾直白地告诉他，那里的邻居不会接纳他。在这栋现代化的砖房里，Collier医生向作者展示了萨凡纳黑人社会那套严谨、保守且自成体系的社交规则，这与Jim Williams所在的白人古董商圈子截然不同，却同样充满了对传统和名望的执着。",
+        "transition_to": "为了理解这种独特的社交文化，Collier医生将话题带回了那个时代的起点：椰子林舞厅。",
+        "mood": "reflective",
+        "key_dialogue": "“The real estate agents had told him, quite bluntly, that the neighbors would not have him.”"
+      }
+    },
+    {
+      "title": "Coconut Grove",
+      "address": "USA-Georgia-Savannah-Coconut Grove",
+      "synopsis": "1945年首届黑人名媛舞会的举办地，曾是萨凡纳黑人社交生活的核心舞厅。",
+      "source_evidence": "We had it at the Coconut Grove, which was a black dance hall. It was very simple, but we made it as elegant as we could.",
+      "original_chapter": "Chapter 24: BLACK MINUET",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1940s",
+        "historical_name": null,
+        "date_start": "1945",
+        "date_end": "1945"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Henry Collier"
+        ],
+        "stay_duration": "One evening (historical)"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "debutante ball",
+          "black history",
+          "social tradition"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "demolished",
+        "note": "Former dance hall, no longer exists in its original form",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 77,
+        "dateStart": "1945",
+        "dateEnd": "1945"
+      },
+      "story_mode": {
+        "chapter_title": "第77章·椰子林的旧梦",
+        "hook": "在那个隔离的年代，黑人精英们如何定义自己的“优雅”？",
+        "narrative_text": "Henry Collier医生回忆起1945年的往事。那时，萨凡纳的黑人社会决定举办自己的名媛舞会（Debutante Ball）。由于种族隔离，他们无法进入市中心的豪华酒店，于是选择了“椰子林”——一个当时著名的黑人舞厅。尽管环境简陋，但参与者们倾其所有，用鲜花和礼服搭建起了一个尊严与美学的避风港。这不仅是一场舞会，更是黑人中产阶级在受限的环境中，对文明与社会地位的庄重宣言。",
+        "transition_to": "随着时代的变迁，这份优雅终于跨越了种族的门槛，迈向了曾经封闭的德索托酒店。",
+        "mood": "nostalgic",
+        "key_dialogue": "“We had it at the Coconut Grove, which was a black dance hall.”"
+      }
+    },
+    {
+      "title": "DeSoto Hotel",
+      "address": "USA-Georgia-Savannah-15 East Liberty Street",
+      "synopsis": "1965年黑人名媛舞会首次进入白人传统酒店举办，标志着萨凡纳社会变革的里程碑。",
+      "source_evidence": "In 1965, for the first time ever, we presented our debutantes in the ballroom of the old DeSoto Hotel. It was a breakthrough.",
+      "original_chapter": "Chapter 24: BLACK MINUET",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1960s",
+        "historical_name": "Old DeSoto Hotel",
+        "date_start": "1965",
+        "date_end": "1965"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Henry Collier"
+        ],
+        "stay_duration": "One evening (historical)"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "integration",
+          "civil rights",
+          "high society"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "The original building was replaced by the current Hilton DeSoto in 1968",
+        "current_name": "The DeSoto Savannah"
+      },
+      "timeline": {
+        "orderIndex": 78,
+        "dateStart": "1965",
+        "dateEnd": "1965"
+      },
+      "story_mode": {
+        "chapter_title": "第78章·破冰的舞厅",
+        "hook": "1965年的那个夜晚，萨凡纳的社会版图悄然发生了位移。",
+        "narrative_text": "对于Henry Collier医生和他的同伴们来说，1965年是一个转折点。在那一年，黑人名媛舞会首次获准在老德索托酒店的宴会厅举行。这座酒店曾是萨凡纳白人权贵的堡垒，如今却向黑人精英敞开了大门。这不仅是地理位置的迁移，更是社会地位的某种“破冰”。虽然外面的世界依然动荡，但在德索托的水晶灯下，黑人少女们身着白纱，在父亲的陪伴下缓缓步入社交界，宣告着一个新时代的到来。",
+        "transition_to": "时光流转到80年代，新一代的名媛们在Quality Inn开始了她们的“战前”动员。",
+        "mood": "ambitious",
+        "key_dialogue": "“In 1965, for the first time ever, we presented our debutantes in the ballroom of the old DeSoto Hotel.”"
+      }
+    },
+    {
+      "title": "Quality Inn",
+      "address": "USA-Georgia-Savannah-Quality Inn",
+      "synopsis": "准名媛们接受礼仪培训与舞会说明的地点，体现了黑人社交界严苛的准入标准。",
+      "source_evidence": "The prospective debutantes were invited to a meeting at the Quality Inn, where they were welcomed by members of the Alphabette Debutante Committee... They were told what would be expected of them.",
+      "original_chapter": "Chapter 24: BLACK MINUET",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1980",
+        "date_end": "1989"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [],
+        "stay_duration": "A few hours"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "etiquette",
+          "discipline",
+          "social climbing"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Likely the Quality Inn Savannah Historic District",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 79,
+        "dateStart": "1980",
+        "dateEnd": "1989"
+      },
+      "story_mode": {
+        "chapter_title": "第79章·名媛的试炼",
+        "hook": "想要成为萨凡纳公认的“名媛”，仅仅有钱和美貌是远远不够的。",
+        "narrative_text": "在Quality Inn的会议室里，气氛严肃得如同军事简报。二十五名被选中的年轻黑人女性聚集在此，听取Alphabette名媛委员会的教导。这里没有欢声笑语，只有严苛的规矩：从走路的姿态到说话的语气，从护花使者的选择到家庭背景的审查。这不仅是一场舞会的筹备，更是一场关于阶级认同的洗礼。只有通过这些考验，她们才能在凯悦酒店的聚光灯下获得那个梦寐以求的身份。",
+        "transition_to": "终于，所有的准备都指向了那个辉煌的夜晚——凯悦酒店的大中庭。",
+        "mood": "tense",
+        "key_dialogue": "“They were told what would be expected of them.”"
+      }
+    },
+    {
+      "title": "Hyatt Regency",
+      "address": "USA-Georgia-Savannah-2 West Bay Street",
+      "synopsis": "黑人名媛舞会的高潮所在地，Chablis在此上演了一场精彩的“不请自来”戏码。",
+      "source_evidence": "At noon on the day of the ball, the twenty-five debutantes arrived at the Hyatt Regency for a dress rehearsal... Toward nine o’clock, the Hyatt’s vast atrium lobby began to fill with guests... Chablis was there, of course, though she hadn't been invited.",
+      "original_chapter": "Chapter 24: BLACK MINUET",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1980",
+        "date_end": "1989"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "The Lady Chablis",
+          "John Berendt",
+          "Philip",
+          "LaVella"
+        ],
+        "stay_duration": "One night"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "extravagance",
+          "identity",
+          "scandal"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "A prominent hotel on the Savannah riverfront",
+        "current_name": "Hyatt Regency Savannah"
+      },
+      "timeline": {
+        "orderIndex": 80,
+        "dateStart": "1980",
+        "dateEnd": "1989"
+      },
+      "story_mode": {
+        "chapter_title": "第80章·凯悦的变奏曲",
+        "hook": "在最保守、最庄重的黑人名媛舞会上，谁敢打破那份完美的宁静？",
+        "narrative_text": "凯悦酒店巨大的中庭被装饰得金碧辉煌，萨凡纳黑人社会的精英悉数到场。二十五位名媛在交响乐中优雅旋转，展示着家族的荣耀。然而，这种秩序感很快被一个不速之客打破了——The Lady Chablis，这位变性表演者穿着一身惊艳的礼服，在没有邀请函的情况下堂而皇之地闯入。她不仅没有被驱逐，反而凭借其无与伦比的魅力，勾搭上了年轻的护花使者Philip，在众目睽睽之下跳起了舞。John Berendt在一旁目睹了这一切，Chablis用她的存在，给这场刻板的传统仪式注入了一抹狂野而真实的色彩。",
+        "transition_to": "舞会的喧嚣逐渐散去，但萨凡纳的宗教与社会生活依然紧密交织，下一站我们将前往圣马太圣公会教堂。",
+        "mood": "dramatic",
+        "key_dialogue": "“Chablis was there, of course, though she hadn't been invited.”"
+      }
+    },
+    {
+      "title": "Saint Matthew’s Episcopal Church",
+      "address": "USA-Georgia-Savannah-West Broad Street-Saint Matthew’s Episcopal Church",
+      "synopsis": "圣马太圣公会教堂是萨凡纳黑人精英的聚集地，反映了当时黑人内部基于肤色深浅的社会阶级划分。",
+      "source_evidence": "You oughta see em at Saint Matthew’s Episcopal Church on West Broad Street. That’s the black status church here in Savannah.",
+      "original_chapter": "Chapter 24: BLACK MINUET",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1980",
+        "date_end": "1989"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "The Lady Chablis"
+        ],
+        "stay_duration": "A brief mention during a conversation"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "social hierarchy",
+          "racial identity",
+          "classism"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Still an active Episcopal church serving the community.",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 81,
+        "dateStart": "1980",
+        "dateEnd": "1989"
+      },
+      "story_mode": {
+        "chapter_title": "第81章·肤色的阶梯",
+        "hook": "在萨凡纳的黑人社会中，教堂不仅是信仰的场所，更是身份的标签。",
+        "narrative_text": "舞会的喧嚣逐渐散去，但萨凡纳的宗教与社会生活依然紧密交织。变装皇后 The Lady Chablis 向 John Berendt 揭示了这座城市隐藏的社会规则。她提到了位于西百老汇大街的圣马太圣公会教堂，称其为“地位的象征”。在这里，肤色的深浅竟成了无形的准入门槛，浅肤色的黑人精英们在此聚集，维持着一种微妙而严苛的内部等级制度。这不仅是宗教的聚会，更是一场关于阶级与认同的无声演出。",
+        "transition_to": "然而，这种对传统的执着并非黑人社区所独有，在萨凡纳最古老的白人教堂里，一场关于信仰形式的冲突也正在酝酿。",
+        "mood": "mysterious",
+        "key_dialogue": "“That’s the black status church here in Savannah. If you’re not light-skinned, you’re nothin’ at Saint Matthew’s.”"
+      }
+    },
+    {
+      "title": "Christ Episcopal Church",
+      "address": "USA-Georgia-Savannah-Christ Episcopal Church",
+      "synopsis": "萨凡纳最古老的教堂因引入灵恩派礼拜而引发争议，传统与现代宗教形式在此发生激烈碰撞。",
+      "source_evidence": "How else could one explain the charismatic services Thursday nights at Christ Episcopal Church? Christ Church was Savannah’s oldest and most tradition-bound house of worship.",
+      "original_chapter": "Chapter 25: TALK OF THE TOWN",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1980",
+        "date_end": "1989"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "John Berendt"
+        ],
+        "stay_duration": "An evening service"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "tradition vs modernity",
+          "charismatic movement",
+          "social tension"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Known as the Mother Church of Georgia.",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 82,
+        "dateStart": "1980",
+        "dateEnd": "1989"
+      },
+      "story_mode": {
+        "chapter_title": "第82章·古老殿堂的灵恩",
+        "hook": "当最保守的教堂开始出现“说方言”的狂热，萨凡纳的根基似乎动摇了。",
+        "narrative_text": "基督圣公会教堂是萨凡纳历史最悠久、最守旧的礼拜场所。然而，在1980年代的周四晚上，这里却上演着令保守教友瞠目结舌的一幕：灵恩派礼拜。信徒们举手欢呼，甚至陷入宗教狂热。这种现代宗教形式的侵入，让那些视传统为生命的萨凡纳老派家族感到不安。John Berendt 观察到，这座城市正处于一种微妙的焦虑中，古老的秩序正受到来自内部和外部的双重挑战。",
+        "transition_to": "这种不安不仅存在于精神世界，物理世界的连接——那座跨越河流的老桥，也正面临着现实的危机。",
+        "mood": "tense",
+        "key_dialogue": "“Christ Church was Savannah’s oldest and most tradition-bound house of worship. It was the ‘Mother Church of Georgia.’”"
+      }
+    },
+    {
+      "title": "Talmadge Bridge",
+      "address": "USA-Georgia-Savannah-Talmadge Bridge",
+      "synopsis": "老塔尔梅奇大桥因高度限制阻碍了大货轮通行，象征着萨凡纳在现代化贸易中的尴尬处境。",
+      "source_evidence": "More ominous yet, it seemed that Savannah’s most lucrative source of income—the shipping business—was on the verge of being choked off by, of all things, the old Talmadge Bridge.",
+      "original_chapter": "Chapter 25: TALK OF THE TOWN",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1980",
+        "date_end": "1989"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [],
+        "stay_duration": "Passing by"
+      },
+      "cultural_tags": {
+        "category": "architectural",
+        "themes": [
+          "modernization",
+          "economic threat",
+          "urban development"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "demolished",
+        "note": "The old cantilever bridge was replaced by a new cable-stayed bridge in 1991.",
+        "current_name": "Talmadge Memorial Bridge (New)"
+      },
+      "timeline": {
+        "orderIndex": 83,
+        "dateStart": "1980",
+        "dateEnd": "1989"
+      },
+      "story_mode": {
+        "chapter_title": "第83章·航道的枷锁",
+        "hook": "一座桥，竟成了这座港口城市繁荣之路上的“绞索”。",
+        "narrative_text": "萨凡纳的经济命脉——航运业，正面临着一个尴尬的障碍：老塔尔梅奇大桥。随着国际贸易中货轮体积的不断增大，这座低矮的悬臂桥限制了大型船只进入上游码头。对于这座依赖历史也依赖贸易的城市来说，大桥不仅是交通要道，更成了一个迫在眉睫的威胁。它象征着萨凡纳在保留旧日风貌与追求现代发展之间的痛苦抉择，如果不做出改变，整座城市可能会在经济上窒息。",
+        "transition_to": "在经济焦虑的阴影下，一股新兴的文化力量——萨凡纳艺术设计学院，正悄然改变着城市的街区面貌。",
+        "mood": "ambitious",
+        "key_dialogue": "“The bridge was too low. The new generation of container ships... could not get under it.”"
+      }
+    },
+    {
+      "title": "Savannah College of Art and Design (SCAD)",
+      "address": "USA-Georgia-Savannah-Madison Square-Guard Armory",
+      "synopsis": "SCAD的崛起通过修复旧建筑改变了萨凡纳，但也因学生文化与当地保守传统的冲突引发了摩擦。",
+      "source_evidence": "The Savannah College of Art and Design—known familiarly as SCAD—had opened its doors in 1979 ... The school had taken over the boarded-up Guard Armory on Madison Square",
+      "original_chapter": "Chapter 25: TALK OF THE TOWN",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1979",
+        "date_end": "1989"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Richard Rowan",
+          "Joe Webster"
+        ],
+        "stay_duration": "Ongoing institutional presence"
+      },
+      "cultural_tags": {
+        "category": "architectural",
+        "themes": [
+          "gentrification",
+          "preservation",
+          "cultural clash"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "The Guard Armory is now Poetter Hall, SCAD's flagship building.",
+        "current_name": "Poetter Hall"
+      },
+      "timeline": {
+        "orderIndex": 84,
+        "dateStart": "1979",
+        "dateEnd": "1989"
+      },
+      "story_mode": {
+        "chapter_title": "第84章·艺术的入侵",
+        "hook": "一群穿着奇装异服的艺术生，正接管萨凡纳那些尘封已久的古老军械库。",
+        "narrative_text": "自1979年成立以来，萨凡纳艺术设计学院（SCAD）以惊人的速度扩张。在 Richard Rowan 等人的领导下，学院买下了麦迪逊广场上废弃的卫队军械库，将其转化为充满活力的教学楼。虽然 SCAD 在保护古建筑方面功不可没，但大量艺术生的涌入也让萨凡纳的保守居民感到不适。这些年轻人骑着自行车穿梭在历史街区，他们的生活方式与这座城市缓慢、优雅且排外的传统格格不入，冲突在所难免。",
+        "transition_to": "尽管新势力在扩张，萨凡纳的上流社会依然在那些神圣的殿堂里，固守着属于他们的社交仪式。",
+        "mood": "dramatic",
+        "key_dialogue": "“The school had taken over the boarded-up Guard Armory on Madison Square and turned it into its first classroom building.”"
+      }
+    },
+    {
+      "title": "Telfair Museum",
+      "address": "USA-Georgia-Savannah-Telfair Museum",
+      "synopsis": "特尔费尔博物馆曾破例举办了一场名媛出道派对，成为萨凡纳社交史上的一段独特记忆。",
+      "source_evidence": "Dutton’s debutante party was the only one ever held at the Telfair museum",
+      "original_chapter": "Chapter 25: TALK OF THE TOWN",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1980",
+        "date_end": "1989"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Vera Dutton Strong"
+        ],
+        "stay_duration": "One night event"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "high society",
+          "debutante ball",
+          "exclusivity"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "The oldest public art museum in the South.",
+        "current_name": "Telfair Academy"
+      },
+      "timeline": {
+        "orderIndex": 85,
+        "dateStart": "1980",
+        "dateEnd": "1989"
+      },
+      "story_mode": {
+        "chapter_title": "第85章·博物馆的华尔兹",
+        "hook": "在严禁喧哗的艺术殿堂里，曾有过一场绝无仅有的名媛盛宴。",
+        "narrative_text": "特尔费尔博物馆是南方的艺术瑰宝，通常只接待静默的参观者。但在萨凡纳的社交传说中，这里曾为 Vera Dutton Strong 的女儿 Dutton 破例。那是一场空前绝后的名媛出道派对，也是博物馆历史上唯一一次允许此类社交活动。在古典雕塑与名画的注视下，萨凡纳的精英们翩翩起舞。这一细节再次证明了在这座城市，血统与地位有时可以凌驾于任何规则之上。",
+        "transition_to": "然而，并非所有萨凡纳的权势人物都热衷于这种张扬的社交，Lee Adler 和 Emma Adler 夫妇正忙于他们更具野心的城市改造计划。",
+        "mood": "nostalgic",
+        "key_dialogue": "“Dutton’s debutante party was the only one ever held at the Telfair museum.”"
+      }
+    },
+    {
+      "title": "Lee and Emma Adler's house",
+      "address": "USA-Georgia-Savannah-Monterey Square-Adler House",
+      "synopsis": "位于默瑟府邸对面，在房屋参观周期间，米内娃受吉姆·威廉姆斯指使，在阿德勒夫妇家门口撒下“坟场土”施咒。",
+      "source_evidence": "As usual, Williams had refused to open Mercer House to the tourists, but Lee and Emma Adler had happily thrown open their doors. ... Minerva was right behind them, carrying her trademark shopping bag. At the top of the steps, she paused while the others went inside; then, after looking around in all directions, she reached into the bag and flung what appeared to be a handful of dirt into the little garden below.",
+      "original_chapter": "Chapter 26",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1989"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Lee Adler",
+          "Emma Adler",
+          "Minerva",
+          "Jim Williams"
+        ],
+        "stay_duration": "A few minutes"
+      },
+      "cultural_tags": {
+        "category": "folklore",
+        "themes": [
+          "voodoo",
+          "rivalry",
+          "superstition"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Private residence on Monterey Square",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 86,
+        "dateStart": "1981",
+        "dateEnd": "1989"
+      },
+      "story_mode": {
+        "chapter_title": "第86章·门阶上的坟场土",
+        "hook": "当游客涌入这座豪宅时，谁也没注意到台阶上撒下的致命诅咒。",
+        "narrative_text": "然而，并非所有萨凡纳的权势人物都热衷于这种张扬的社交，Lee Adler 和 Emma Adler 夫妇正忙于他们更具野心的城市改造计划。在萨凡纳一年一度的房屋参观周里，吉姆·威廉姆斯固执地紧闭默瑟府邸的大门，而他的死对头阿德勒夫妇却慷慨地向公众开放了他们的家。威廉姆斯对此心怀愤恨，他带着巫师米内娃混在游客中。趁着众人进屋的间隙，米内娃从她那标志性的购物袋里抓出一把从墓地带回的“坟场土”，悄无声息地撒在了阿德勒家的花园和台阶上。这种古老的巫术仪式，在萨凡纳精致的社交外壳下，显得既荒诞又令人毛骨悚然。",
+        "transition_to": "米内娃的脚步并未停歇，她的“清理”工作延伸到了萨凡纳更偏远的郊区。",
+        "mood": "mysterious",
+        "key_dialogue": "“She’s been out at Vernonburg several times to dress down Spencer Lawton’s house,” Williams said."
+      }
+    },
+    {
+      "title": "Vernonburg",
+      "address": "USA-Georgia-Savannah-Vernonburg",
+      "synopsis": "巫师米内娃多次前往该地区，对地方检察官斯宾塞·劳顿的住所进行巫术“整理”，试图干扰审判。",
+      "source_evidence": "She’s been out at Vernonburg several times to dress down Spencer Lawton’s house",
+      "original_chapter": "Chapter 26",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1989"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Minerva",
+          "Spencer Lawton"
+        ],
+        "stay_duration": "Multiple short visits"
+      },
+      "cultural_tags": {
+        "category": "folklore",
+        "themes": [
+          "voodoo",
+          "legal_battle",
+          "curse"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "A historic village near Savannah",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 87,
+        "dateStart": "1981",
+        "dateEnd": "1989"
+      },
+      "story_mode": {
+        "chapter_title": "第87章·郊外的暗影",
+        "hook": "检察官在法庭上步步紧逼，却不知自家的后院已被巫术入侵。",
+        "narrative_text": "为了确保吉姆·威廉姆斯能从谋杀指控中脱身，米内娃的行动愈发频繁。她多次驱车前往萨凡纳郊外的弗农堡（Vernonburg），目标直指地方检察官斯宾塞·劳顿的私宅。劳顿是威廉姆斯在法庭上最强大的对手，而米内娃则试图通过“整理”他的房子——即施放某种削弱意志或制造厄运的咒语——来干扰法律的进程。在这些静谧的郊外住宅区，古老的非裔巫术与现代法律体系展开了一场看不见的较量。",
+        "transition_to": "除了检察官，连审理案件的法官也成了米内娃施法的对象。",
+        "mood": "tense",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "Tybee",
+      "address": "USA-Georgia-Savannah-Tybee Island",
+      "synopsis": "米内娃前往泰碧岛，对奥利弗法官的度假小屋施咒，试图通过超自然力量影响司法公正。",
+      "source_evidence": "yesterday she paid a call on Judge Oliver’s cottage in Tybee.",
+      "original_chapter": "Chapter 26",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1989"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Minerva",
+          "Judge Oliver"
+        ],
+        "stay_duration": "One afternoon"
+      },
+      "cultural_tags": {
+        "category": "folklore",
+        "themes": [
+          "voodoo",
+          "justice",
+          "coastal"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Tybee Island remains a popular beach destination",
+        "current_name": "Tybee Island"
+      },
+      "timeline": {
+        "orderIndex": 88,
+        "dateStart": "1981",
+        "dateEnd": "1989"
+      },
+      "story_mode": {
+        "chapter_title": "第88章·海滨的小屋",
+        "hook": "在泰碧岛的浪潮声中，米内娃正对着法官的门槛低声吟诵。",
+        "narrative_text": "米内娃的足迹延伸到了泰碧岛的海滩。这一次，她的目标是奥利弗法官的小屋。在萨凡纳，法律与超自然力量的界限变得模糊不清。吉姆·威廉姆斯支付给米内娃大笔费用，让她在法官的度假居所周围施法，希望以此改变审判的走向。尽管法庭上的辩论依然严谨，但在这些隐秘的角落，威廉姆斯更愿意相信米内娃手中那些来自坟墓的泥土和古老的咒语。",
+        "transition_to": "然而，最终在法庭上扭转乾坤的，并非只有巫术，还有律师精湛的辩护。",
+        "mood": "mysterious",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "1790 restaurant",
+      "address": "USA-Georgia-Savannah-1790 Restaurant",
+      "synopsis": "在揭露了警方证词的矛盾后，律师索尼·塞勒在此用餐时受到了萨凡纳民众英雄般的礼遇。",
+      "source_evidence": "Later that night, Sonny Seiler arrived at the 1790 restaurant for dinner and received a standing ovation.",
+      "original_chapter": "Chapter 27",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1980s",
+        "historical_name": null,
+        "date_start": "1981",
+        "date_end": "1989"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Sonny Seiler"
+        ],
+        "stay_duration": "A few hours"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "triumph",
+          "celebration",
+          "social_status"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Still operating as a restaurant and inn",
+        "current_name": "1790 Restaurant & Inn"
+      },
+      "timeline": {
+        "orderIndex": 89,
+        "dateStart": "1981",
+        "dateEnd": "1989"
+      },
+      "story_mode": {
+        "chapter_title": "第89章·起立鼓掌",
+        "hook": "当索尼·塞勒走进餐厅时，全场食客自发地站了起来。",
+        "narrative_text": "在经历了漫长而艰辛的法庭辩论后，吉姆·威廉姆斯的辩护律师索尼·塞勒（Sonny Seiler）在审判中成功揭露了警方证词中的致命谎言。当晚，他来到著名的1790餐厅用餐。当他步入餐厅的那一刻，原本嘈杂的用餐区瞬间安静，随后爆发出了雷鸣般的掌声。在萨凡纳，这场审判不仅是法律的较量，更是一场全民参与的戏剧，而塞勒此刻就是这座城市的英雄。这种礼遇象征着民意的微妙转向，也预示着威廉姆斯命运的转机。",
+        "transition_to": "萨凡纳的骄傲与固执，有时会改变一个人的命运，有时也会改变一座城市的未来。",
+        "mood": "joyful",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "Jacksonville",
+      "address": "USA-Florida-Jacksonville",
+      "synopsis": "由于萨凡纳保守势力拒绝大型企业的入驻，保德信保险公司最终选择了杰克逊维尔作为总部。",
+      "source_evidence": "It was for this reason that Savannah had discouraged Prudential from establishing its regional headquarters in the city in the 1950s (and why Prudential ended up in Jacksonville instead).",
+      "original_chapter": "Chapter 30",
+      "part_id": "PART-1",
+      "part_title": "Midnight in the Garden of Good and Evil",
+      "temporal_context": {
+        "era": "1950s-1980s",
+        "historical_name": null,
+        "date_start": "1950",
+        "date_end": "1990"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [],
+        "stay_duration": "N/A"
+      },
+      "cultural_tags": {
+        "category": "biographical",
+        "themes": [
+          "urban_development",
+          "conservatism",
+          "history"
+        ],
+        "significance": 0.2
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Major city in Florida",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 90,
+        "dateStart": "1950",
+        "dateEnd": "1990"
+      },
+      "story_mode": {
+        "chapter_title": "第90章·萨凡纳的余韵",
+        "hook": "一座城市的拒绝，成就了另一座城市的繁荣。",
+        "narrative_text": "在故事的终章，约翰·贝伦特反思了萨凡纳那独特而封闭的性格。为了保持城市的古老风貌和阶级纯粹，萨凡纳的权势阶层曾在50年代拒绝了保德信保险公司设立区域总部的请求，导致这家巨头最终落户杰克逊维尔。这种对改变的抗拒，既保护了萨凡纳免受现代化的侵蚀，也让它成为了一个时间停滞的奇观。在这里，善恶的界限如同午夜的花园般模糊，而那些关于谋杀、巫术与名流的往事，将永远在这座城市的西班牙苔藓间回荡。",
+        "transition_to": "萨凡纳的故事在午夜的钟声里落下帷幕，但那座善恶交织的花园，依然在每个读者的心中静静绽放。",
+        "mood": "nostalgic",
+        "key_dialogue": null
+      }
+    }
+  ],
+  "suspects": []
+}

@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>故实巡礼 · 地点数据查看器</title>
+  <style>
+    /* ── 全局重置 ─────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg:        #0e1117;
+      --bg2:       #161b22;
+      --bg3:       #1c2230;
+      --border:    #30363d;
+      --accent:    #58a6ff;
+      --accent2:   #3fb950;
+      --warn:      #d29922;
+      --danger:    #f85149;
+      --text:      #e6edf3;
+      --text2:     #8b949e;
+      --text3:     #6e7681;
+      --tag-bg:    #21262d;
+      --radius:    8px;
+      --radius-lg: 12px;
+      --sidebar-w: 280px;
+      --header-h:  60px;
+    }
+    html, body { height: 100%; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif; background: var(--bg); color: var(--text); font-size: 14px; line-height: 1.5; }
+
+    /* ── 顶部 Header ──────────────────────────────── */
+    #header {
+      position: fixed; top: 0; left: 0; right: 0; height: var(--header-h);
+      background: var(--bg2); border-bottom: 1px solid var(--border);
+      display: flex; align-items: center; padding: 0 20px; gap: 16px; z-index: 100;
+    }
+    #header .logo { font-size: 18px; font-weight: 700; color: var(--accent); white-space: nowrap; }
+    #header .logo span { color: var(--text2); font-weight: 400; font-size: 13px; margin-left: 8px; }
+    #header .spacer { flex: 1; }
+    #header .stats-bar { display: flex; gap: 20px; align-items: center; }
+    .stat-item { text-align: center; }
+    .stat-item .num { font-size: 20px; font-weight: 700; color: var(--accent); }
+    .stat-item .lbl { font-size: 11px; color: var(--text3); }
+    #load-btn {
+      padding: 8px 16px; background: var(--accent); color: #000; border: none;
+      border-radius: var(--radius); cursor: pointer; font-weight: 600; font-size: 13px;
+      transition: opacity .2s;
+    }
+    #load-btn:hover { opacity: .85; }
+    #load-btn:disabled { opacity: .4; cursor: default; }
+
+    /* ── 布局 ──────────────────────────────────────── */
+    #app { display: flex; height: 100%; padding-top: var(--header-h); }
+
+    /* ── 左侧书目列表 ──────────────────────────────── */
+    #sidebar {
+      width: var(--sidebar-w); flex-shrink: 0;
+      background: var(--bg2); border-right: 1px solid var(--border);
+      display: flex; flex-direction: column; overflow: hidden; height: 100%;
+    }
+    #sidebar-header { padding: 14px 16px 10px; border-bottom: 1px solid var(--border); }
+    #sidebar-header h3 { font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: var(--text3); margin-bottom: 8px; }
+    #book-search {
+      width: 100%; background: var(--bg3); border: 1px solid var(--border);
+      border-radius: 6px; padding: 6px 10px; color: var(--text); font-size: 13px; outline: none;
+    }
+    #book-search:focus { border-color: var(--accent); }
+    #book-list { flex: 1; overflow-y: auto; padding: 6px 0; }
+    .book-item {
+      display: flex; align-items: center; padding: 9px 16px; cursor: pointer;
+      border-left: 3px solid transparent; transition: background .12s, border-color .12s;
+    }
+    .book-item:hover { background: var(--bg3); }
+    .book-item.active { background: rgba(88,166,255,.08); border-left-color: var(--accent); }
+    .book-item .book-title { flex: 1; font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .book-item .book-count {
+      background: var(--tag-bg); border-radius: 10px; padding: 1px 8px;
+      font-size: 11px; color: var(--text2); flex-shrink: 0;
+    }
+    .book-item.active .book-count { background: rgba(88,166,255,.2); color: var(--accent); }
+
+    /* ── 主内容区 ──────────────────────────────────── */
+    #main { flex: 1; display: flex; flex-direction: column; overflow: hidden; }
+
+    /* ── 书籍详情 Header ───────────────────────────── */
+    #book-header {
+      padding: 16px 24px; border-bottom: 1px solid var(--border);
+      background: var(--bg2); display: flex; align-items: center; gap: 20px; flex-wrap: wrap;
+    }
+    #book-header .book-meta h2 { font-size: 18px; font-weight: 700; }
+    #book-header .book-meta .author { color: var(--text2); font-size: 13px; margin-top: 2px; }
+    #book-header .badge-row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 6px; }
+    .badge {
+      padding: 2px 10px; border-radius: 10px; font-size: 11px; font-weight: 600;
+      border: 1px solid;
+    }
+    .badge-major  { color: #f0883e; border-color: #f0883e; background: rgba(240,136,62,.1); }
+    .badge-minor  { color: var(--accent2); border-color: var(--accent2); background: rgba(63,185,80,.1); }
+    .badge-pass   { color: var(--text2); border-color: var(--border); background: var(--tag-bg); }
+    .badge-type   { color: var(--accent); border-color: var(--accent); background: rgba(88,166,255,.1); }
+    .badge-warn   { color: var(--warn); border-color: var(--warn); background: rgba(210,153,34,.1); }
+
+    /* ── 搜索 & 过滤栏 ─────────────────────────────── */
+    #filter-bar {
+      padding: 10px 24px; border-bottom: 1px solid var(--border); background: var(--bg);
+      display: flex; gap: 10px; align-items: center; flex-wrap: wrap;
+    }
+    #place-search {
+      flex: 1; min-width: 200px; background: var(--bg2); border: 1px solid var(--border);
+      border-radius: 6px; padding: 7px 12px; color: var(--text); font-size: 13px; outline: none;
+    }
+    #place-search:focus { border-color: var(--accent); }
+    .filter-group { display: flex; gap: 6px; }
+    .filter-btn {
+      padding: 5px 12px; border-radius: 6px; border: 1px solid var(--border);
+      background: var(--bg2); color: var(--text2); cursor: pointer; font-size: 12px;
+      transition: all .15s;
+    }
+    .filter-btn:hover { border-color: var(--text2); color: var(--text); }
+    .filter-btn.active { border-color: var(--accent); color: var(--accent); background: rgba(88,166,255,.1); }
+    #sort-sel {
+      background: var(--bg2); border: 1px solid var(--border); border-radius: 6px;
+      padding: 5px 10px; color: var(--text); font-size: 12px; cursor: pointer; outline: none;
+    }
+    #result-count { font-size: 12px; color: var(--text3); white-space: nowrap; }
+
+    /* ── 地点列表 ──────────────────────────────────── */
+    #places-container { flex: 1; overflow-y: auto; padding: 16px 24px; }
+    #places-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 12px; }
+
+    .place-card {
+      background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius-lg);
+      padding: 16px; cursor: pointer; transition: border-color .15s, transform .1s;
+      display: flex; flex-direction: column; gap: 8px;
+    }
+    .place-card:hover { border-color: var(--accent); transform: translateY(-1px); }
+    .place-card.expanded { border-color: var(--accent); background: var(--bg3); grid-column: span 2; }
+
+    .card-top { display: flex; align-items: flex-start; gap: 10px; }
+    .card-icon { font-size: 22px; flex-shrink: 0; margin-top: 1px; }
+    .card-title-block { flex: 1; min-width: 0; }
+    .card-title { font-size: 15px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .card-address { font-size: 11px; color: var(--text3); margin-top: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .card-level { flex-shrink: 0; }
+
+    .card-story { font-size: 13px; color: var(--text2); line-height: 1.6; }
+    .place-card:not(.expanded) .card-story {
+      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+    }
+
+    .card-evidence {
+      background: var(--bg); border-left: 3px solid var(--border);
+      padding: 8px 12px; border-radius: 0 6px 6px 0;
+      font-size: 12px; color: var(--text3); font-style: italic; line-height: 1.6;
+    }
+
+    .card-meta { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+    .tag {
+      background: var(--tag-bg); border: 1px solid var(--border);
+      border-radius: 6px; padding: 2px 8px; font-size: 11px; color: var(--text2);
+    }
+    .tag-chapter { border-color: #58a6ff44; color: var(--accent); background: rgba(88,166,255,.06); }
+    .tag-char    { border-color: #3fb95044; color: var(--accent2); background: rgba(63,185,80,.06); }
+    .tag-fictional { border-color: #f8514944; color: var(--danger); background: rgba(248,81,73,.06); }
+
+    .card-expand-hint { font-size: 11px; color: var(--text3); text-align: right; margin-top: 2px; }
+
+    /* ── 空状态 / 加载状态 ─────────────────────────── */
+    #empty-state {
+      flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center;
+      color: var(--text3); gap: 12px;
+    }
+    #empty-state .icon { font-size: 56px; }
+    #empty-state h3 { font-size: 18px; color: var(--text2); }
+    #empty-state p { font-size: 13px; max-width: 400px; text-align: center; }
+    #empty-state code {
+      background: var(--bg2); border: 1px solid var(--border); border-radius: 4px;
+      padding: 2px 6px; font-family: monospace; font-size: 12px; color: var(--accent);
+    }
+
+    #loading {
+      display: none; flex: 1; align-items: center; justify-content: center; flex-direction: column; gap: 12px;
+    }
+    #loading.show { display: flex; }
+    .spinner {
+      width: 36px; height: 36px; border: 3px solid var(--border);
+      border-top-color: var(--accent); border-radius: 50%;
+      animation: spin .7s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── 滚动条 ────────────────────────────────────── */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: var(--text3); }
+
+    /* ── Toast ─────────────────────────────────────── */
+    #toast {
+      position: fixed; bottom: 24px; right: 24px;
+      background: var(--bg3); border: 1px solid var(--border); border-radius: var(--radius);
+      padding: 10px 16px; font-size: 13px; color: var(--text);
+      opacity: 0; transform: translateY(8px); transition: all .25s; pointer-events: none; z-index: 999;
+    }
+    #toast.show { opacity: 1; transform: translateY(0); }
+
+    /* ── 响应式 ────────────────────────────────────── */
+    @media (max-width: 768px) {
+      :root { --sidebar-w: 220px; }
+      #places-grid { grid-template-columns: 1fr; }
+      .place-card.expanded { grid-column: span 1; }
+      #header .stats-bar { display: none; }
+    }
+    @media (max-width: 560px) {
+      #sidebar { display: none; }
+      #book-header { flex-wrap: wrap; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── Header ──────────────────────────────────────────────── -->
+<div id="header">
+  <div class="logo">故实巡礼 <span>地点数据查看器</span></div>
+  <div class="spacer"></div>
+  <div class="stats-bar" id="stats-bar" style="display:none">
+    <div class="stat-item"><div class="num" id="stat-books">0</div><div class="lbl">书目</div></div>
+    <div class="stat-item"><div class="num" id="stat-places">0</div><div class="lbl">地点</div></div>
+    <div class="stat-item"><div class="num" id="stat-major">0</div><div class="lbl">主要</div></div>
+  </div>
+  <label id="load-btn" style="cursor:pointer">
+    📂 加载 JSON 文件
+    <input type="file" id="file-input" accept=".json" multiple style="display:none" />
+  </label>
+</div>
+
+<!-- ── 主体布局 ─────────────────────────────────────────────── -->
+<div id="app">
+
+  <!-- 左侧书目列表 -->
+  <aside id="sidebar">
+    <div id="sidebar-header">
+      <h3>书目列表</h3>
+      <input type="text" id="book-search" placeholder="搜索书目…" />
+    </div>
+    <div id="book-list">
+      <div style="padding:20px 16px; color:var(--text3); font-size:12px; text-align:center;">
+        请先加载 JSON 文件
+      </div>
+    </div>
+  </aside>
+
+  <!-- 右侧内容 -->
+  <div id="main">
+
+    <!-- 书籍信息 Header -->
+    <div id="book-header" style="display:none"></div>
+
+    <!-- 过滤栏 -->
+    <div id="filter-bar" style="display:none">
+      <input type="text" id="place-search" placeholder="🔍 搜索地点名称、故事内容、原文证据…" />
+      <div class="filter-group">
+        <button class="filter-btn active" data-level="all">全部</button>
+        <button class="filter-btn" data-level="major">⭐ 主要</button>
+        <button class="filter-btn" data-level="minor">● 次要</button>
+        <button class="filter-btn" data-level="passing">· 路过</button>
+      </div>
+      <select id="sort-sel">
+        <option value="default">默认排序</option>
+        <option value="alpha">名称 A→Z</option>
+        <option value="level">重要性</option>
+        <option value="chapter">按章节</option>
+      </select>
+      <span id="result-count"></span>
+    </div>
+
+    <!-- 空状态 -->
+    <div id="empty-state">
+      <div class="icon">🗺️</div>
+      <h3>尚未加载数据</h3>
+      <p>点击右上角 <strong>加载 JSON 文件</strong>，选择 <code>*_places_structured.json</code> 文件（支持同时加载多本书）</p>
+    </div>
+
+    <!-- 加载中 -->
+    <div id="loading">
+      <div class="spinner"></div>
+      <span style="color:var(--text2)">解析数据中…</span>
+    </div>
+
+    <!-- 地点网格 -->
+    <div id="places-container" style="display:none">
+      <div id="places-grid"></div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Toast -->
+<div id="toast" id="toast"></div>
+
+<script>
+// ══════════════════════════════════════════════════
+//  数据状态
+// ══════════════════════════════════════════════════
+const state = {
+  books: {},          // { bookId: { meta, places } }
+  activeBook: null,
+  filterLevel: 'all',
+  searchQuery: '',
+  sortMode: 'default',
+  expandedCard: null,
+};
+
+// ══════════════════════════════════════════════════
+//  工具函数
+// ══════════════════════════════════════════════════
+function esc(s) {
+  if (!s) return '';
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function levelIcon(level) {
+  return level === 'major' ? '⭐' : level === 'minor' ? '📍' : '🔸';
+}
+
+function levelBadge(level) {
+  if (level === 'major')   return '<span class="badge badge-major">主要地点</span>';
+  if (level === 'minor')   return '<span class="badge badge-minor">次要地点</span>';
+  return '<span class="badge badge-pass">路过提及</span>';
+}
+
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  clearTimeout(t._timer);
+  t._timer = setTimeout(() => t.classList.remove('show'), 2500);
+}
+
+// ══════════════════════════════════════════════════
+//  文件加载
+// ══════════════════════════════════════════════════
+document.getElementById('file-input').addEventListener('change', async (e) => {
+  const files = Array.from(e.target.files);
+  if (!files.length) return;
+
+  document.getElementById('empty-state').style.display = 'none';
+  document.getElementById('loading').classList.add('show');
+  document.getElementById('places-container').style.display = 'none';
+  document.getElementById('book-header').style.display = 'none';
+  document.getElementById('filter-bar').style.display = 'none';
+
+  let loaded = 0, failed = 0;
+
+  for (const file of files) {
+    try {
+      const text = await file.text();
+      const data = JSON.parse(text);
+      const bookInfo = data.book_info || data.work || {};
+      const places   = data.places || [];
+
+      // 生成唯一 bookId
+      const title  = bookInfo.title || file.name.replace(/_places_structured\.json$/, '');
+      const author = bookInfo.author || bookInfo.author_en || '';
+      const bookId = title + (author ? ` · ${author}` : '');
+
+      state.books[bookId] = {
+        title,
+        author,
+        type: bookInfo.type || bookInfo.work_type || '',
+        summary: bookInfo.summary || '',
+        pipeline: data.pipeline || {},
+        places,
+        fileName: file.name,
+      };
+      loaded++;
+    } catch (err) {
+      failed++;
+      console.error('解析失败:', file.name, err);
+    }
+  }
+
+  // 重置文件输入（允许重复选择同文件）
+  e.target.value = '';
+
+  document.getElementById('loading').classList.remove('show');
+
+  if (Object.keys(state.books).length === 0) {
+    document.getElementById('empty-state').style.display = 'flex';
+    showToast(`❌ 解析失败 ${failed} 个文件`);
+    return;
+  }
+
+  updateGlobalStats();
+  renderBookList();
+
+  // 自动选中第一本（或保持当前选中）
+  if (!state.activeBook || !state.books[state.activeBook]) {
+    state.activeBook = Object.keys(state.books)[0];
+  }
+  renderBook(state.activeBook);
+
+  if (failed > 0) showToast(`✅ 加载 ${loaded} 本，❌ 失败 ${failed} 个`);
+  else showToast(`✅ 成功加载 ${loaded} 本书`);
+});
+
+// ══════════════════════════════════════════════════
+//  全局统计
+// ══════════════════════════════════════════════════
+function updateGlobalStats() {
+  const allBooks = Object.values(state.books);
+  const totalPlaces = allBooks.reduce((s, b) => s + b.places.length, 0);
+  const totalMajor  = allBooks.reduce((s, b) => s + b.places.filter(p => p.event_level === 'major').length, 0);
+
+  document.getElementById('stat-books').textContent  = allBooks.length;
+  document.getElementById('stat-places').textContent = totalPlaces;
+  document.getElementById('stat-major').textContent  = totalMajor;
+  document.getElementById('stats-bar').style.display = 'flex';
+}
+
+// ══════════════════════════════════════════════════
+//  书目列表渲染
+// ══════════════════════════════════════════════════
+function renderBookList(filter = '') {
+  const list = document.getElementById('book-list');
+  const keys = Object.keys(state.books).filter(k =>
+    !filter || k.toLowerCase().includes(filter.toLowerCase())
+  );
+
+  if (keys.length === 0) {
+    list.innerHTML = '<div style="padding:16px;color:var(--text3);font-size:12px;text-align:center">无匹配书目</div>';
+    return;
+  }
+
+  list.innerHTML = keys.map(k => {
+    const b = state.books[k];
+    const isActive = k === state.activeBook;
+    return `<div class="book-item${isActive ? ' active' : ''}" data-id="${esc(k)}">
+      <span class="book-title" title="${esc(k)}">${esc(b.title)}<br><small style="color:var(--text3);font-size:11px">${esc(b.author)}</small></span>
+      <span class="book-count">${b.places.length}</span>
+    </div>`;
+  }).join('');
+
+  list.querySelectorAll('.book-item').forEach(el => {
+    el.addEventListener('click', () => {
+      state.activeBook = el.dataset.id;
+      renderBook(state.activeBook);
+      renderBookList(document.getElementById('book-search').value);
+    });
+  });
+}
+
+document.getElementById('book-search').addEventListener('input', e => {
+  renderBookList(e.target.value);
+});
+
+// ══════════════════════════════════════════════════
+//  渲染选中书籍
+// ══════════════════════════════════════════════════
+function renderBook(bookId) {
+  const book = state.books[bookId];
+  if (!book) return;
+
+  state.searchQuery = '';
+  state.filterLevel = 'all';
+  document.getElementById('place-search').value = '';
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.toggle('active', b.dataset.level === 'all'));
+
+  // Book Header
+  const pl = book.pipeline;
+  const majorN   = book.places.filter(p => p.event_level === 'major').length;
+  const minorN   = book.places.filter(p => p.event_level === 'minor').length;
+  const passingN = book.places.filter(p => p.event_level === 'passing').length;
+  const fictN    = book.places.filter(p => p.fictional_suspect).length;
+
+  const header = document.getElementById('book-header');
+  header.style.display = 'flex';
+  header.innerHTML = `
+    <div class="book-meta" style="flex:1">
+      <h2>${esc(book.title)}</h2>
+      <div class="author">${esc(book.author)}${book.type ? ' · ' + esc(book.type) : ''}</div>
+      <div class="badge-row">
+        <span class="badge badge-type">总计 ${book.places.length} 个地点</span>
+        <span class="badge badge-major">⭐ 主要 ${majorN}</span>
+        <span class="badge badge-minor">📍 次要 ${minorN}</span>
+        <span class="badge badge-pass">🔸 路过 ${passingN}</span>
+        ${fictN > 0 ? `<span class="badge badge-warn">⚠️ 疑似虚构 ${fictN}</span>` : ''}
+        ${pl.address_completeness ? `<span class="badge" style="color:var(--text2);border-color:var(--border)">地址完整率 ${Math.round(pl.address_completeness * 100)}%</span>` : ''}
+      </div>
+    </div>
+    <div style="font-size:11px;color:var(--text3);text-align:right;white-space:nowrap">
+      ${pl.model_extract ? `<div>提取模型: ${esc(pl.model_extract)}</div>` : ''}
+      ${pl.generated_at ? `<div>生成时间: ${pl.generated_at.slice(0,10)}</div>` : ''}
+      <div style="margin-top:4px;color:var(--text3)">${esc(book.fileName)}</div>
+    </div>`;
+
+  document.getElementById('filter-bar').style.display = 'flex';
+  document.getElementById('places-container').style.display = 'block';
+
+  renderPlaces();
+}
+
+// ══════════════════════════════════════════════════
+//  地点渲染
+// ══════════════════════════════════════════════════
+function getFilteredPlaces() {
+  const book = state.books[state.activeBook];
+  if (!book) return [];
+
+  let list = book.places;
+
+  // 级别过滤
+  if (state.filterLevel !== 'all') {
+    list = list.filter(p => p.event_level === state.filterLevel);
+  }
+
+  // 关键词搜索
+  if (state.searchQuery) {
+    const q = state.searchQuery.toLowerCase();
+    list = list.filter(p => {
+      const name  = (p.title || p.name || '').toLowerCase();
+      const story = (p.story || p.synopsis || '').toLowerCase();
+      const evid  = (p.source_evidence || '').toLowerCase();
+      const addr  = (p.address || '').toLowerCase();
+      const chap  = (p.original_chapter || p.chapter_hint || '').toLowerCase();
+      return name.includes(q) || story.includes(q) || evid.includes(q) || addr.includes(q) || chap.includes(q);
+    });
+  }
+
+  // 排序
+  if (state.sortMode === 'alpha') {
+    list = [...list].sort((a, b) => (a.title || a.name || '').localeCompare(b.title || b.name || ''));
+  } else if (state.sortMode === 'level') {
+    const lvlOrder = { major: 0, minor: 1, passing: 2 };
+    list = [...list].sort((a, b) => (lvlOrder[a.event_level] || 2) - (lvlOrder[b.event_level] || 2));
+  } else if (state.sortMode === 'chapter') {
+    list = [...list].sort((a, b) =>
+      (a.original_chapter || a.chapter_hint || '').localeCompare(b.original_chapter || b.chapter_hint || '')
+    );
+  }
+
+  return list;
+}
+
+function renderPlaces() {
+  const places = getFilteredPlaces();
+  const grid = document.getElementById('places-grid');
+
+  document.getElementById('result-count').textContent = `显示 ${places.length} 个地点`;
+
+  if (places.length === 0) {
+    grid.innerHTML = `<div style="grid-column:1/-1;padding:40px;text-align:center;color:var(--text3)">
+      <div style="font-size:32px;margin-bottom:8px">🔍</div>
+      <div>没有找到匹配的地点</div>
+    </div>`;
+    return;
+  }
+
+  grid.innerHTML = places.map((p, idx) => {
+    const name    = esc(p.title || p.name || '（无名称）');
+    const address = esc(p.address || '');
+    const story   = esc(p.story || p.synopsis || '');
+    const evid    = esc(p.source_evidence || '');
+    const chapter = esc(p.original_chapter || p.chapter_hint || '');
+    const chars   = (p.characters || []).slice(0, 4);
+    const isExpanded = state.expandedCard === idx;
+    const fictional  = p.fictional_suspect;
+
+    return `<div class="place-card${isExpanded ? ' expanded' : ''}" data-idx="${idx}">
+      <div class="card-top">
+        <div class="card-icon">${levelIcon(p.event_level)}</div>
+        <div class="card-title-block">
+          <div class="card-title">${name}</div>
+          ${address ? `<div class="card-address">📌 ${address}</div>` : ''}
+        </div>
+        <div class="card-level">${levelBadge(p.event_level)}</div>
+      </div>
+      ${story ? `<div class="card-story">${story}</div>` : ''}
+      ${isExpanded && evid ? `<div class="card-evidence">"${evid}"</div>` : ''}
+      <div class="card-meta">
+        ${chapter ? `<span class="tag tag-chapter">📖 ${chapter}</span>` : ''}
+        ${chars.map(c => `<span class="tag tag-char">👤 ${esc(c)}</span>`).join('')}
+        ${fictional ? `<span class="tag tag-fictional">⚠️ 疑似虚构</span>` : ''}
+        ${p.coordinates != null ? `<span class="tag" style="color:#58a6ff">🌐 有坐标</span>` : ''}
+      </div>
+      ${!isExpanded ? `<div class="card-expand-hint">点击展开原文证据 ↓</div>` : `<div class="card-expand-hint">点击收起 ↑</div>`}
+    </div>`;
+  }).join('');
+
+  grid.querySelectorAll('.place-card').forEach(card => {
+    card.addEventListener('click', () => {
+      const idx = parseInt(card.dataset.idx);
+      state.expandedCard = state.expandedCard === idx ? null : idx;
+      renderPlaces();
+      if (state.expandedCard === idx) {
+        setTimeout(() => card.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 50);
+      }
+    });
+  });
+}
+
+// ══════════════════════════════════════════════════
+//  过滤 & 搜索事件绑定
+// ══════════════════════════════════════════════════
+document.getElementById('place-search').addEventListener('input', e => {
+  state.searchQuery = e.target.value;
+  state.expandedCard = null;
+  renderPlaces();
+});
+
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    state.filterLevel = btn.dataset.level;
+    state.expandedCard = null;
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    renderPlaces();
+  });
+});
+
+document.getElementById('sort-sel').addEventListener('change', e => {
+  state.sortMode = e.target.value;
+  state.expandedCard = null;
+  renderPlaces();
+});
+
+// ══════════════════════════════════════════════════
+//  键盘快捷键
+// ══════════════════════════════════════════════════
+document.addEventListener('keydown', e => {
+  // Escape 收起展开卡片
+  if (e.key === 'Escape' && state.expandedCard !== null) {
+    state.expandedCard = null;
+    renderPlaces();
+    return;
+  }
+  // Ctrl/Cmd+F 聚焦搜索框
+  if ((e.ctrlKey || e.metaKey) && e.key === 'f') {
+    e.preventDefault();
+    document.getElementById('place-search').focus();
+  }
+});
+
+// ══════════════════════════════════════════════════
+//  书目切换快捷键（方向键）
+// ══════════════════════════════════════════════════
+document.addEventListener('keydown', e => {
+  if (document.activeElement.tagName === 'INPUT') return;
+  const books = Object.keys(state.books);
+  if (!books.length) return;
+  const cur = books.indexOf(state.activeBook);
+  if (e.key === 'ArrowUp' && cur > 0) {
+    state.activeBook = books[cur - 1];
+    renderBook(state.activeBook);
+    renderBookList(document.getElementById('book-search').value);
+  } else if (e.key === 'ArrowDown' && cur < books.length - 1) {
+    state.activeBook = books[cur + 1];
+    renderBook(state.activeBook);
+    renderBookList(document.getElementById('book-search').value);
+  }
+});
+</script>
+</body>
+</html>

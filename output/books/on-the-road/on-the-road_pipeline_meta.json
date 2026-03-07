@@ -1,0 +1,30 @@
+{
+  "work": {
+    "title": "On the Road",
+    "author": "Jack Kerouac",
+    "type": "novel",
+    "locale": "zh-Hans"
+  },
+  "pipeline": {
+    "generated_by": "geolore-auto-pipeline-v1",
+    "generated_at": "2026-02-27T16:47:32.631188+00:00",
+    "model_select": "gemini-3.1-pro-preview-search",
+    "model_extract": "gemini-3-flash-preview-search",
+    "total_places": 16,
+    "major_places": 5,
+    "minor_places": 8,
+    "passing_places": 3,
+    "fictional_suspects": 0,
+    "address_completeness": 1.0,
+    "timeline_enabled": false,
+    "story_mode_enabled": false,
+    "story_mode_stats": null,
+    "suggested_pack_id": "on-the-road",
+    "suggested_map_title": "《On the Road》巡礼地图"
+  },
+  "review": {},
+  "next_steps": [
+    "python scripts/geocode_places.py --input output/on-the-road_places_structured.json --output output/on-the-road_geocoded.json --amap-key $AMAP_KEY --enable-validation",
+    "python scripts/build_pack.py --input output/on-the-road_geocoded.json --output output/on-the-road_pack.json --pack-id on-the-road --title \"《On the Road》巡礼地图\""
+  ]
+}

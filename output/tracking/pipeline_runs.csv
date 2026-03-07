@@ -1,0 +1,2 @@
+﻿run_id,mode,started_at,finished_at,status,total_books,books_succeeded,books_failed,config_json
+run_1772388564_99155,specify,2026-03-01 18:09:24,2026-03-01 18:09:24,completed,1,1,0,"{""books"": 1}"

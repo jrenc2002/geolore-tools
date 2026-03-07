@@ -1,0 +1,1084 @@
+{
+  "book_info": {
+    "title": "江城",
+    "author": "Peter Hessler (何伟)",
+    "type": "novel",
+    "summary": "1996年，年轻的美国作家何伟（Peter Hessler）作为和平队志愿者来到长江边的四川涪陵，在这座当时尚未通高速公路的“江城”开始了为期两年的支教生活。本书以细腻的笔触记录了他在三峡大坝动工初期，对中国基层社会的深度观察。从乌江口的晨雾到学生之家的米粉香，从古老的传统习俗到剧烈的时代变迁，何伟不仅是在书写一座城市的地理，更是在描绘一个处于转型阵痛中的中国。这不仅是一部关于异乡人的回忆录，更是一首献给长江、献给那些在时代洪流中坚韧生活的普通人的赞歌，充满了人文关怀与冷静的洞察。"
+  },
+  "characters": [
+    {
+      "id": "peter_hessler",
+      "name": "何伟",
+      "aliases": [
+        "Peter Hessler",
+        "我"
+      ],
+      "role": "本书作者及叙述者，在涪陵师范学院任教的美国志愿者",
+      "first_appearance": "新华路",
+      "importance": "protagonist"
+    },
+    {
+      "id": "teacher_kong",
+      "name": "孔老师",
+      "aliases": [
+        "孔祥明"
+      ],
+      "role": "何伟在涪陵师范学院的同事与好友，为何伟开启了了解中国社会的窗口",
+      "first_appearance": "丰都",
+      "importance": "major"
+    },
+    {
+      "id": "adam",
+      "name": "亚当",
+      "aliases": [
+        "Adam Meier"
+      ],
+      "role": "与何伟一同在涪陵支教的美国同伴",
+      "first_appearance": "河东区",
+      "importance": "major"
+    },
+    {
+      "id": "huang_xiaoqiang",
+      "name": "黄小强",
+      "aliases": [],
+      "role": "“学生之家”米粉店的老板，为何伟提供观察基层生活的视角",
+      "first_appearance": "学生之家",
+      "importance": "supporting"
+    },
+    {
+      "id": "priest_li",
+      "name": "李神父",
+      "aliases": [],
+      "role": "涪陵天主教堂的神职人员，见证了宗教在当地的变迁",
+      "first_appearance": "涪陵天主教堂",
+      "importance": "supporting"
+    },
+    {
+      "id": "gao_ming",
+      "name": "高明",
+      "aliases": [],
+      "role": "富有艺术气质的教师，为何伟展示了中国知识分子的情感与困境",
+      "first_appearance": "重庆",
+      "importance": "supporting"
+    },
+    {
+      "id": "tina",
+      "name": "蒂娜",
+      "aliases": [],
+      "role": "何伟的学生，通过诗作表达对家族历史与现代生活的思考",
+      "first_appearance": "上海",
+      "importance": "minor"
+    }
+  ],
+  "parts": [
+    {
+      "part_id": "PART-1",
+      "title": "江城",
+      "synopsis": "何伟在涪陵支教期间，通过跑步、社交与旅行，深度观察三峡工程背景下这座山城的社会脉络、历史记忆与民众心态。",
+      "place_count": 30,
+      "mood": "observational",
+      "key_characters": [
+        "何伟",
+        "孔老师",
+        "亚当",
+        "黄小强",
+        "李神父"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "title": "新华路",
+      "address": "中国-重庆-涪陵-新华路",
+      "synopsis": "何伟参加涪陵迎春长跑，冲过第二个转角进入新华路，在此路段逐渐取得领先。",
+      "source_evidence": "我们如一群狂野的暴民般飞下街道，冲过第二个转角，在新华路上朝西奔去。",
+      "original_chapter": "第三章 跑步",
+      "part_id": "PART-1",
+      "part_title": "江城",
+      "temporal_context": {
+        "era": "1990年代",
+        "historical_name": null,
+        "date_start": "1997",
+        "date_end": "1997"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "数分钟"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "competition",
+          "observation",
+          "integration"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "涪陵老城区主要街道之一",
+        "current_name": "新华路"
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "1997",
+        "dateEnd": "1997"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·街道上的狂奔",
+        "hook": "在一场看似普通的迎春长跑中，何伟发现自己成了全城注目的焦点。",
+        "narrative_text": "从学校诊所出发后，何伟——这位来自美国的和平队员，正身处涪陵一年一度的迎春长跑洪流中。当他冲过第二个转角进入新华路时，周围的空气仿佛凝固了。作为一个在当地极度罕见的外国人，他的奔跑不仅是体力的角逐，更像是一场突如其来的文化闯入。新华路两旁挤满了围观的市民，他们惊讶地看着这个高大的异乡人如狂野的暴民般飞下街道。在这条通往城市深处的路上，何伟逐渐加速，将大多数参赛者甩在身后，他在汗水与喘息中感受着这座山城最直接的脉动。",
+        "transition_to": "随着海拔的升高，比赛的路线开始向城市的制高点延伸。",
+        "mood": "ambitious",
+        "key_dialogue": "我们如一群狂野的暴民般飞下街道，冲过第二个转角，在新华路上朝西奔去。"
+      }
+    },
+    {
+      "title": "革命烈士墓",
+      "address": "中国-重庆-涪陵-北岩-革命烈士墓",
+      "synopsis": "长跑路线的高点，何伟在此俯瞰涪陵城延伸至天际线的灰色建筑群。",
+      "source_evidence": "灰色的建筑群一堆一堆，伸向远远的天际线，越过远处针一般的纪念碑，到达革命烈士墓。",
+      "original_chapter": "第三章 跑步",
+      "part_id": "PART-1",
+      "part_title": "江城",
+      "temporal_context": {
+        "era": "1990年代",
+        "historical_name": null,
+        "date_start": "1997",
+        "date_end": "1997"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "瞬间"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "landscape",
+          "reflection"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "位于涪陵北岩附近的山上",
+        "current_name": "涪陵烈士陵园"
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "1997",
+        "dateEnd": "1997"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·山巅的俯瞰",
+        "hook": "在剧烈的喘息中，整座城市的轮廓在烈士墓前一览无余。",
+        "narrative_text": "长跑的路线最终将何伟带到了革命烈士墓附近的高地。这里是涪陵的制高点之一，针尖般的纪念碑肃穆地立在灰色建筑群的尽头。当他跑向此处时，视线越过了那些层层叠叠、伸向天际线的民居。对于何伟而言，这不仅是一个地理上的坐标，更是一个观察这座江城宏观结构的窗口。在烈士墓的静谧与长跑的喧嚣之间，他看到了一个在贫瘠与活力中挣扎、扩张的中国内陆城镇缩影。",
+        "transition_to": "这种对历史坐标的凝视，让何伟联想到了更远方的大渡河畔。",
+        "mood": "desolate",
+        "key_dialogue": "灰色的建筑群一堆一堆，伸向远远的天际线，越过远处针一般的纪念碑，到达革命烈士墓。"
+      }
+    },
+    {
+      "title": "泸定桥",
+      "address": "中国-四川-甘孜-泸定-泸定桥",
+      "synopsis": "何伟在思考历史时提及的地点，对比了红军长征的胜利与石达开的失败。",
+      "source_evidence": "直到他们到达了泸定桥，一座古老的铁索桥，由国民党的军队严密防守。整个共产党部队成功越过了大河，挺过了长征中最关键的一战。",
+      "original_chapter": "第二章 插旗山",
+      "part_id": "PART-1",
+      "part_title": "江城",
+      "temporal_context": {
+        "era": "1935年（历史背景）",
+        "historical_name": null,
+        "date_start": "1935",
+        "date_end": "1935"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "毛泽东"
+        ],
+        "stay_duration": "无（文学联想）"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "history",
+          "revolution",
+          "contrast"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "著名红色旅游景点",
+        "current_name": "泸定桥"
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第3章·铁索桥上的幽灵",
+        "hook": "同样的激流，为何石达开全军覆没，而毛泽东却能绝处逢生？",
+        "narrative_text": "在涪陵的日常生活中，何伟经常陷入对中国历史的沉思。他提到了泸定桥——那座横跨大渡河、由十三根铁链组成的古桥。他对比了历史上的两个瞬间：太平天国的将领石达开在此走投无路，而几十年后的毛泽东及其率领的红军却在严密防守下奇迹般夺桥成功。这种历史的偶然与必然，在何伟笔下不仅是教科书上的文字，更是理解他脚下这片土地韧性的关键。泸定桥作为一个象征，连接着过去与现在，也连接着涪陵与更广阔的中国叙事。",
+        "transition_to": "离开宏大的历史叙事，何伟在春节期间走进了一个真实的中国家庭。",
+        "mood": "mysterious",
+        "key_dialogue": "整个共产党部队成功越过了大河，挺过了长征中最关键的一战。"
+      }
+    },
+    {
+      "title": "丰都",
+      "address": "中国-重庆-丰都-丰都老县城",
+      "synopsis": "何伟在春节期间拜访孔老师的岳父家，深入了解三峡移民困境与家族创伤。",
+      "source_evidence": "二月里的第一周，我沿江而下去了丰都，去见孔老师和他的家人。……这是一个老旧的江城，在它的不便利，它的脏兮兮中，有一定的魅力。",
+      "original_chapter": "第十章 中国新年",
+      "part_id": "PART-1",
+      "part_title": "江城",
+      "temporal_context": {
+        "era": "1997年春节",
+        "historical_name": "鬼城",
+        "date_start": "1997",
+        "date_end": "1997"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟",
+          "孔老师",
+          "徐先生"
+        ],
+        "stay_duration": "数日"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "family",
+          "tradition",
+          "trauma",
+          "migration"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "relocated",
+        "note": "老县城已淹没，现为丰都新县城",
+        "current_name": "丰都县"
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "1997",
+        "dateEnd": "1997"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·鬼城的年夜饭",
+        "hook": "在传说中的“鬼城”，何伟听到了比鬼神更令人唏嘘的家族往事。",
+        "narrative_text": "1997年2月，何伟受邀前往丰都。在这里，他见到了孔老师——他在涪陵师专的同事，以及孔老师的岳父徐先生。丰都这座老城在何伟眼中既脏乱又充满魅力。在酒精和节日的氛围中，徐先生向这个外国人敞开了心扉，讲述了家族因为台湾亲属而在文革中遭受的苦难。同时，三峡大坝的阴影笼罩着这里，人们讨论着即将到来的搬迁。丰都不仅是传说中的死后归宿，更是一个活生生的、正在被时代洪流推着走的社会切片。",
+        "transition_to": "从丰都回到涪陵，何伟开始更严肃地审视那座改变一切的宏伟工程。",
+        "mood": "bittersweet",
+        "key_dialogue": "这是一个老旧的江城，在它的不便利，它的脏兮兮中，有一定的魅力。"
+      }
+    },
+    {
+      "title": "三峡大坝",
+      "address": "中国-湖北-宜昌-三斗坪",
+      "synopsis": "文中探讨了大坝建设的政治意义、生态影响以及对长江沿岸文明的重塑。",
+      "source_evidence": "三峡大坝的二十六只涡轮机将发出180亿瓦的电力——相当于十个核反应堆",
+      "original_chapter": "第四章 三峡大坝",
+      "part_id": "PART-1",
+      "part_title": "江城",
+      "temporal_context": {
+        "era": "1990年代",
+        "historical_name": null,
+        "date_start": "1994",
+        "date_end": "2009"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "无（作为议题贯穿）"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "politics",
+          "environment",
+          "modernization"
+        ],
+        "significance": 0.95
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为大型水利枢纽及景区",
+        "current_name": "三峡大坝"
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "1994",
+        "dateEnd": "2009"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·巨轮下的阴影",
+        "hook": "一个相当于十个核反应堆的工程，将如何改变数百万人的命运？",
+        "narrative_text": "三峡大坝在《江城》中不仅是一个建筑，更是一个巨大的隐喻。何伟详细描述了这个工程的宏伟数据：二十六只涡轮机，180亿瓦的电力。然而，在这些令人振奋的数字背后，是无数被淹没的古迹、被破坏的生态系统，以及必须离开故土的百万移民。何伟通过对大坝的观察，揭示了当时中国政府推动现代化的决心与代价。对于涪陵的居民来说，大坝是远方的承诺，也是近在眼前的威胁，它像一个无法逆转的倒计时，定义了江边生活的最后期限。",
+        "transition_to": "目光回到涪陵城内，乌江大桥上的喧嚣依然在继续。",
+        "mood": "tense",
+        "key_dialogue": "三峡大坝的二十六只涡轮机将发出180亿瓦的电力——相当于十个核反应堆"
+      }
+    },
+    {
+      "title": "乌江大桥",
+      "address": "中国-重庆-涪陵-乌江大桥",
+      "synopsis": "连接涪陵新老城区的要道，何伟在此观察江水交汇，感受山城的地理脉络。",
+      "source_evidence": "我来到了乌江大桥，这儿河东路向西跨过江水，我穿过马路，踏上跨在江面之上的石级。",
+      "original_chapter": "第五章 鸦片战争",
+      "part_id": "PART-1",
+      "part_title": "江城",
+      "temporal_context": {
+        "era": "1990年代后期",
+        "historical_name": null,
+        "date_start": "1996",
+        "date_end": "1998"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "数小时"
+      },
+      "cultural_tags": {
+        "category": "architectural",
+        "themes": [
+          "exploration",
+          "geography",
+          "urban_landscape"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为涪陵乌江一桥",
+        "current_name": "乌江一桥"
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "1996",
+        "dateEnd": "1998"
+      },
+      "story_mode": {
+        "chapter_title": "第6章·跨越乌江的石级",
+        "hook": "站在连接新旧世界的桥梁上，俯瞰两条大江的博弈。",
+        "narrative_text": "离开涪陵师专的校园，何伟开始用双脚丈量这座山城的深度。乌江大桥不仅是连接河东区与西岸的物理通道，更是他观察涪陵的绝佳看台。桥下的乌江水色深沉，与长江的浑黄形成鲜明对比。他踏上石级，穿梭在往来的力夫与小贩之间，感受着这座城市在鸦片战争历史阴影与现代工业化进程之间的剧烈摇摆。对他而言，每一次过桥都是一次对涪陵复杂地貌的重新发现。",
+        "transition_to": "走过喧嚣的大桥，街对面那家飘着香气的米粉店成了他最常驻足的港湾。",
+        "mood": "peaceful",
+        "key_dialogue": "我来到了乌江大桥，这儿河东路向西跨过江水，我穿过马路，踏上跨在江面之上的石级。"
+      }
+    },
+    {
+      "title": "学生之家",
+      "address": "中国-重庆-涪陵-河东区-师专大门对面",
+      "synopsis": "黄小强经营的米粉店，是何伟观察中国基层社会生活的窗口。",
+      "source_evidence": "他有的只是一家米粉店，叫做学生之家，而他尽力把它做好。这家米粉店有的，是一个好位置。它多少算是在河东区的中心，街对面就是师专的大门",
+      "original_chapter": "第八章 中国生活",
+      "part_id": "PART-1",
+      "part_title": "江城",
+      "temporal_context": {
+        "era": "1990年代后期",
+        "historical_name": null,
+        "date_start": "1996",
+        "date_end": "1998"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟",
+          "黄小强",
+          "冯小芹"
+        ],
+        "stay_duration": "两年间频繁造访"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "daily_life",
+          "friendship",
+          "social_observation"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "demolished",
+        "note": "原址随旧城改造已发生巨大变化",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "1996",
+        "dateEnd": "1998"
+      },
+      "story_mode": {
+        "chapter_title": "第7章·米粉店里的中国",
+        "hook": "在热气腾腾的米粉背后，藏着一个家庭的奋斗与挣扎。",
+        "narrative_text": "“学生之家”不仅仅是一家米粉店，它是何伟在涪陵的非官方“办公室”。店主黄小强是个精明而勤奋的生意人，他与妻子冯小芹共同经营着这块小小的阵地。在这里，何伟不仅品尝到了地道的麻辣，更观察到了中国社会的缩影：从羞涩的学生到疲惫的民工，再到浓妆艳抹的卡拉OK小姐。黄小强对生活的热情与对成功的渴望，让何伟深刻理解了那个时代普通中国人改变命运的决心。",
+        "transition_to": "饱餐一顿后，他喜欢在清晨跑向高处，去迎接城市的苏醒。",
+        "mood": "joyful",
+        "key_dialogue": "他有的只是一家米粉店，叫做学生之家，而他尽力把它做好。"
+      }
+    },
+    {
+      "title": "南天门",
+      "address": "中国-重庆-涪陵-南天门公园",
+      "synopsis": "何伟晨跑的终点，他在此静坐，俯瞰整座城市从晨雾中苏醒的宁静时刻。",
+      "source_evidence": "有些上午，我跑去南天门，坐在公园里，看着城市苏醒过来。",
+      "original_chapter": "第八章 中国生活",
+      "part_id": "PART-1",
+      "part_title": "江城",
+      "temporal_context": {
+        "era": "1990年代后期",
+        "historical_name": null,
+        "date_start": "1996",
+        "date_end": "1998"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "清晨的一两个小时"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "solitude",
+          "observation",
+          "routine"
+        ],
+        "significance": 0.45
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为南天门公园",
+        "current_name": "南天门公园"
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": "1996",
+        "dateEnd": "1998"
+      },
+      "story_mode": {
+        "chapter_title": "第8章·南天门的晨曦",
+        "hook": "当第一缕阳光穿透江雾，涪陵展现出它最温柔的一面。",
+        "narrative_text": "南天门是何伟晨跑路线上的一个重要节点。在那些空气清冷的上午，他会一路慢跑至此，坐在公园的石凳上，静静等待整座城市苏醒。从这个高度望去，涪陵的杂乱与喧嚣被距离过滤，只剩下江水的流转和远山的身影。这种例行公事般的独处，让他能够从繁重的教学任务和文化冲击中暂时抽离，以一个旁观者的视角，审视这个他正逐渐融入的异国社会。",
+        "transition_to": "除了清晨的南天门，老城区那座隐藏的天主教堂也是他寻找宁静的去处。",
+        "mood": "peaceful",
+        "key_dialogue": "有些上午，我跑去南天门，坐在公园里，看着城市苏醒过来。"
+      }
+    },
+    {
+      "title": "涪陵天主教堂",
+      "address": "中国-重庆-涪陵-老城区-天主堂",
+      "synopsis": "何伟每周参加弥撒的地方，他在此结识了李神父，见证了宗教在当地的变迁。",
+      "source_evidence": "在礼拜天，我会去教堂，在那之后，我坐下来，和李神父聊天，他会给我喝点味道糟糕的咖啡。",
+      "original_chapter": "第八章 中国生活",
+      "part_id": "PART-1",
+      "part_title": "江城",
+      "temporal_context": {
+        "era": "1990年代后期",
+        "historical_name": null,
+        "date_start": "1996",
+        "date_end": "1998"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟",
+          "李神父"
+        ],
+        "stay_duration": "每周日定期造访"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "faith",
+          "history",
+          "community"
+        ],
+        "significance": 0.85
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "涪陵天主堂，位于老城区",
+        "current_name": "涪陵天主堂"
+      },
+      "timeline": {
+        "orderIndex": 9,
+        "dateStart": "1996",
+        "dateEnd": "1998"
+      },
+      "story_mode": {
+        "chapter_title": "第9章·老城的弥撒与苦咖啡",
+        "hook": "在偏远的江城，一段跨越国界的信仰纽带悄然建立。",
+        "narrative_text": "每个礼拜天，何伟都会穿过老城区的狭窄街道，前往那座古老的天主教堂。在这里，他遇到了李神父——一位历经沧桑、守护着微弱信仰火种的老人。弥撒结束后，两人常坐在一起，喝着李神父那味道糟糕却充满诚意的咖啡，聊着关于信仰、历史和涪陵的往事。这里不仅是宗教场所，更是何伟精神上的避风港。他曾在这里目睹了一场庄重而忧伤的葬礼，感受着生老病死在信仰照耀下的模样。",
+        "transition_to": "当冬日的宁静被打破，一场突如其来的冲突在高顺堂爆发。",
+        "mood": "bittersweet",
+        "key_dialogue": "在礼拜天，我会去教堂，在那之后，我坐下来，和李神父聊天，他会给我喝点味道糟糕的咖啡。"
+      }
+    },
+    {
+      "title": "高顺堂",
+      "address": "中国-重庆-涪陵-高顺堂",
+      "synopsis": "春节末期的涪陵街头，何伟在此与一名言语挑衅的刷鞋匠发生激烈冲突。",
+      "source_evidence": "在假日快结束时，我被卷入了一次公众场合下的争吵中，在高顺堂，涪陵上城区的要道。",
+      "original_chapter": "第十章 中国新年",
+      "part_id": "PART-1",
+      "part_title": "江城",
+      "temporal_context": {
+        "era": "1990年代后期",
+        "historical_name": null,
+        "date_start": "1997",
+        "date_end": "1997"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "数小时"
+      },
+      "cultural_tags": {
+        "category": "biographical",
+        "themes": [
+          "conflict",
+          "cultural_clash",
+          "urban_life"
+        ],
+        "significance": 0.85
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "涪陵老城区核心商业街区",
+        "current_name": "高顺堂"
+      },
+      "timeline": {
+        "orderIndex": 10,
+        "dateStart": "1997",
+        "dateEnd": "1997"
+      },
+      "story_mode": {
+        "chapter_title": "第10章·高顺堂的对峙",
+        "hook": "一声“哈啰”背后的恶意，点燃了异乡人积压已久的怒火。",
+        "narrative_text": "高顺堂是涪陵上城区的交通要道。在春节将尽的一天，这里的气氛变得剑拔弩张。一名刷鞋匠用带有侮辱性的语气不断挑衅路过的何伟。长期作为“洋鬼子”被围观的压力在这一刻爆发，何伟没有像往常一样隐忍，而是用流利的中文与其激烈对质。围观的群众层层叠叠，这场街头冲突成了何伟融入当地社会过程中最剧烈的一次文化碰撞，也让他看到了小城生活中粗粝的一面。",
+        "transition_to": "冲突平息后，春天的重庆机场迎来了一位特殊的客人。",
+        "mood": "tense",
+        "key_dialogue": "你刚才说什么？我停下来，盯着那个刷鞋匠问道。"
+      }
+    },
+    {
+      "title": "金佛山",
+      "address": "中国-重庆-南川-金佛山",
+      "synopsis": "何伟带父亲在金佛山露营，穿过废弃军工厂遗址和巨大的山体溶洞。",
+      "source_evidence": "我们去了涪陵南边的高山上露营，在那儿，金佛山的海拔超过了七千英尺。",
+      "original_chapter": "第十一章 第二春",
+      "part_id": "PART-1",
+      "part_title": "江城",
+      "temporal_context": {
+        "era": "1990年代后期",
+        "historical_name": null,
+        "date_start": "1997",
+        "date_end": "1997"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟",
+          "何伟的父亲"
+        ],
+        "stay_duration": "两天一夜"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "adventure",
+          "nature",
+          "exploration"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为世界自然遗产、国家5A级旅游景区",
+        "current_name": "金佛山风景区"
+      },
+      "timeline": {
+        "orderIndex": 11,
+        "dateStart": "1997",
+        "dateEnd": "1997"
+      },
+      "story_mode": {
+        "chapter_title": "第11章·金佛山的深洞",
+        "hook": "在海拔七千英尺的高山上，藏着废弃的军工厂和贯穿山体的巨洞。",
+        "narrative_text": "何伟带着父亲前往涪陵南部的金佛山。这里远离尘嚣，山谷中散落着三线建设时期留下的废弃军工厂，透着一种荒凉的工业美感。父子俩在山上露营，徒步穿过一个巨大的天然溶洞，手电筒的光束在漆黑的岩壁上晃动。对于何伟的父亲来说，这种未经开发的原始体验充满了惊险与新奇。在篝火与星光下，父子间的交流在巴蜀的崇山岭间变得深沉而真挚。",
+        "transition_to": "这段旅程最终在江城的雾气中落下帷幕，留下了对这片土地永恒的记忆。",
+        "mood": "peaceful",
+        "key_dialogue": "我们去了涪陵南边的高山上露营，在那儿，金佛山的海拔超过了七千英尺。"
+      }
+    },
+    {
+      "title": "加州牛肉面大王",
+      "address": "中国-重庆-涪陵-高笋塘路-加州牛肉面大王",
+      "synopsis": "在涪陵唯一的连锁快餐店，何伟偶遇两名因语言不通而陷入困境的丹麦女游客，并充当了翻译。",
+      "source_evidence": "我在加州牛肉面大王馆子里撞到了她们，那是涪陵最近似于连锁快餐的店面。",
+      "original_chapter": "第十一章 第二春",
+      "part_id": "PART-1",
+      "part_title": "江城",
+      "temporal_context": {
+        "era": "1990年代后期",
+        "historical_name": null,
+        "date_start": "1997",
+        "date_end": "1997"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "1小时"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "globalization",
+          "encounter",
+          "hospitality"
+        ],
+        "significance": 0.45
+      },
+      "visitability": {
+        "status": "uncertain",
+        "note": "该品牌在涪陵仍有分店，但原址可能已变迁",
+        "current_name": "李先生加州牛肉面大王"
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "1997",
+        "dateEnd": "1997"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·快餐店里的翻译",
+        "hook": "在涪陵最现代化的面馆里，两个迷路的丹麦女孩成了全场的焦点。",
+        "narrative_text": "加州牛肉面大王是当时涪陵最时髦的连锁快餐店。何伟在这里意外撞见了两个年轻的丹麦女游客，她们在没有导游的情况下闯入了这座极少有外宾停留的小城。面对菜单和热情的围观群众，她们显得手足无措。何伟主动上前用中文和英文为她们解围，充当了临时翻译。这次偶遇让何伟意识到，尽管涪陵在改变，但对于大多数西方人来说，这里依然是一个难以逾越的文化孤岛。",
+        "transition_to": "离开涪陵的快餐店，何伟来到重庆的门户朝天门，见证了码头上的众生百态。",
+        "mood": "bittersweet",
+        "key_dialogue": "“你们需要帮忙吗？”我用英语问道，她们看起来像是抓住了救命稻草。"
+      }
+    },
+    {
+      "title": "朝天门",
+      "address": "中国-重庆-渝中-朝天门码头",
+      "synopsis": "在两江交汇的朝天门码头，何伟目睹了游客与票贩、船员之间的争执，感受码头文化的粗犷。",
+      "source_evidence": "他从朝天门的一个票贩手中买了票，说是给他一艘好船。",
+      "original_chapter": "第十一章 第二春",
+      "part_id": "PART-1",
+      "part_title": "江城",
+      "temporal_context": {
+        "era": "1990年代后期",
+        "historical_name": null,
+        "date_start": "1997",
+        "date_end": "1997"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "数小时"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "transportation",
+          "chaos",
+          "river_life"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为朝天门广场及来福士购物中心所在地",
+        "current_name": "朝天门广场"
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "1997",
+        "dateEnd": "1997"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·朝天门的喧嚣",
+        "hook": "两江交汇处，不仅有壮丽的景色，还有永无休止的争吵与生计。",
+        "narrative_text": "朝天门是重庆的咽喉，长江与嘉陵江在此汇流，清浊分明。这里也是三峡航运的起点，充满了混乱与活力。何伟在码头观察着往来的旅客，看到一名游客因为被票贩欺骗买到了劣质船票，正与粗鲁的船员发生激烈的争吵。这种混乱、欺诈与生命力并存的场景，正是当时中国内陆交通枢纽的缩影。朝天门的江水依旧流淌，而岸上的人们正为了生存和前行而不断博弈。",
+        "transition_to": "顺流而下，何伟在学生蒂娜的诗作中，读到了关于祖辈革命岁月的记忆。",
+        "mood": "dramatic",
+        "key_dialogue": "他从朝天门的一个票贩手中买了票，说是给他一艘好船。"
+      }
+    },
+    {
+      "title": "重庆",
+      "address": "中国-重庆-渝中区-解放碑",
+      "synopsis": "作为区域中心，重庆是艺术家高明的故乡，也是学生戏剧团巡演并获得官方认可的终点站。",
+      "source_evidence": "我的祖母出去革命，去上海，去重庆；她是一个以重庆为基地的艺术家；这时，他们抵达了重庆，那儿的人们已经听说了他们的故事。",
+      "original_chapter": "第十二章 逆流而上",
+      "part_id": "PART-1",
+      "part_title": "江城",
+      "temporal_context": {
+        "era": "1990年代",
+        "historical_name": null,
+        "date_start": "1997",
+        "date_end": "1998"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "蒂娜",
+          "高明",
+          "莫金钱",
+          "罗杰"
+        ],
+        "stay_duration": "数日"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "art",
+          "recognition",
+          "urbanization"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "重庆直辖市核心区",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "1997",
+        "dateEnd": "1998"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·山城的荣光",
+        "hook": "当涪陵的“唐吉诃德”来到大城市，他们会收获怎样的目光？",
+        "narrative_text": "重庆在《江城》中始终扮演着某种“彼岸”的角色。它是高明——那位充满艺术气息的涪陵老师——妻子的家乡，也是他艺术梦想的寄托地。更具戏剧性的是，莫金钱和罗杰带领的《唐吉诃德》剧组在经历了一路艰辛后，终于抵达了这座山城。在这里，他们不再是乡间的草台班子，而是受到了“重庆市长”的接见与颁奖。重庆的繁华与官方的认可，为这场荒诞而真诚的文学远征画上了一个充满讽刺却又温情的句号。",
+        "transition_to": "离开喧嚣的直辖市中心，何伟回到了他在涪陵的周日生活圈。",
+        "mood": "ambitious",
+        "key_dialogue": "By this time they had reached Chongqing, and people there had heard of their story."
+      }
+    },
+    {
+      "title": "南山门公园",
+      "address": "中国-重庆-涪陵-南山门路-南山门公园",
+      "synopsis": "何伟周日生活的固定坐标，他在公园对面的餐馆吃饺子，在铜管乐队的乐声中观察涪陵的日常。",
+      "source_evidence": "然后我会去南山门公园对面的餐馆里吃饺子。",
+      "original_chapter": "第十二章 逆流而上",
+      "part_id": "PART-1",
+      "part_title": "江城",
+      "temporal_context": {
+        "era": "1990年代",
+        "historical_name": null,
+        "date_start": "1997",
+        "date_end": "1998"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "每个周日上午"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "routine",
+          "observation",
+          "leisure"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为涪陵南山公园",
+        "current_name": "南山公园"
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "1997",
+        "dateEnd": "1998"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·周日的饺子与铜管乐",
+        "hook": "在南山门公园的喧闹声中，何伟找到了他在涪陵最安稳的节奏。",
+        "narrative_text": "每个周日的上午，何伟都会遵循一套近乎仪式感的路线。他会穿过涪陵的老街，来到南山门公园。公园里总是回荡着业余铜管乐队那略显刺耳却充满活力的排练声，老人们在树荫下打牌、聊天。何伟习惯坐在公园对面的一家小餐馆里，点上一盘热气腾腾的饺子。在这个平凡的角落，他不再是一个外来的观察者，而是一个沉浸在当地生活节奏中的普通居民，享受着山城特有的那份嘈杂与安详。",
+        "transition_to": "在公园的闲暇之余，何伟也听闻了同事高明那段与艺术名校相关的往事。",
+        "mood": "peaceful",
+        "key_dialogue": "Then I would go to the restaurant across from Nanshanmen Park for dumplings."
+      }
+    },
+    {
+      "title": "四川美术学院",
+      "address": "中国-重庆-九龙坡区-黄桷坪正街108号",
+      "synopsis": "高明的母校，这所艺术殿堂赋予了他不同于普通涪陵教师的独特气质与才华。",
+      "source_evidence": "高明是个艺术家；他二十六岁，几年前从四川美术学院毕业。",
+      "original_chapter": "第十二章 逆流而上",
+      "part_id": "PART-1",
+      "part_title": "江城",
+      "temporal_context": {
+        "era": "1990年代",
+        "historical_name": null,
+        "date_start": "1990",
+        "date_end": "1994"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "高明"
+        ],
+        "stay_duration": "四年（大学期间）"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "art",
+          "education",
+          "talent"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "黄桷坪老校区依然是艺术地标",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "1997",
+        "dateEnd": "1998"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·象牙塔的余晖",
+        "hook": "高明身上的艺术家气质，源于那座位于重庆九龙坡的艺术殿堂。",
+        "narrative_text": "高明是何伟在涪陵师专最有趣的同事之一。他二十六岁，几年前毕业于著名的四川美术学院。那段在黄桷坪度过的时光，在高明身上留下了不可磨灭的印记——他不仅擅长绘画，更有着一种敏锐的审美和对自由生活的向往。尽管现在他只是涪陵一名普通的老师，但每当提起母校，那种作为艺术家的自豪感总会从他那略显忧郁的眼神中流露出来。四川美院，是他精神世界里的一座灯塔。",
+        "transition_to": "然而，艺术家的浪漫情怀在现实面前遭遇了重创，他的家庭危机爆发了。",
+        "mood": "nostalgic",
+        "key_dialogue": "He was twenty-six years old, and a few years earlier he had graduated from the Sichuan Fine Arts Institute."
+      }
+    },
+    {
+      "title": "河东区",
+      "address": "中国-重庆-涪陵-江东街道",
+      "synopsis": "乌江对岸的河东区是涪陵的另一面，这里既是学生劳动的场所，也是戏剧中唐吉诃德的“故乡”。",
+      "source_evidence": "唐吉诃德成了河东区的一家米粉店老板；三月的事件之一，就是由干部带领清洁河东区的活动。",
+      "original_chapter": "第十二章 逆流而上",
+      "part_id": "PART-1",
+      "part_title": "江城",
+      "temporal_context": {
+        "era": "1990年代",
+        "historical_name": null,
+        "date_start": "1997",
+        "date_end": "1998"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "高明",
+          "何伟",
+          "亚当",
+          "莫金钱"
+        ],
+        "stay_duration": "多次短期停留"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "labor",
+          "satire",
+          "community"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为涪陵江东街道，已大规模开发",
+        "current_name": "江东街道"
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "1997",
+        "dateEnd": "1998"
+      },
+      "story_mode": {
+        "chapter_title": "第6章·江东的米粉店老板",
+        "hook": "在乌江对岸，现实的清扫活动与虚构的骑士精神交织在一起。",
+        "narrative_text": "河东区与涪陵老城隔乌江相望，在何伟眼中，这里充满了某种荒诞的戏剧感。三月的一天，他看着学校的干部们带领学生跨过大桥，去清扫河东区的街道，这是一种典型的集体主义仪式。而在莫金钱改编的戏剧中，那位伟大的理想主义者唐吉诃德，竟然被设定成了河东区一家米粉店的老板。这种将西方经典与涪陵本土市井生活的强行嫁接，让河东区在何伟的叙述中既显得土气十足，又带有一种令人忍俊不禁的魔幻现实主义色彩。",
+        "transition_to": "离开这片充满生活气息的河东区，故事的视角转向了遥远的学术殿堂——北京大学。",
+        "mood": "dramatic",
+        "key_dialogue": "Don Quixote became the owner of a rice-noodle shop in Hedong."
+      }
+    },
+    {
+      "title": "北京大学",
+      "address": "中国-北京-海淀区-颐和园路5号北京大学",
+      "synopsis": "何伟在涪陵的课堂上与学生讨论五四运动，提及北京大学百年校庆的全国性盛况。",
+      "source_evidence": "那个春天乃是北京大学的一百周年，跟五四运动的七十九周年结合起来，有全国性的庆典。",
+      "original_chapter": "第十二章 逆流而上",
+      "part_id": "PART-1",
+      "part_title": "江城",
+      "temporal_context": {
+        "era": "1990年代后期",
+        "historical_name": "京师大学堂",
+        "date_start": "1998",
+        "date_end": "1998"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "提及"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "education",
+          "nationalism",
+          "history"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "中国顶尖学府，需预约参观",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "1998",
+        "dateEnd": "1998"
+      },
+      "story_mode": {
+        "chapter_title": "第7章·百年的回响",
+        "hook": "在遥远的北方，一场关于青春与变革的庆典正在上演。",
+        "narrative_text": "1998年的春天，北京大学迎来了建校一百周年。何伟在涪陵的教室里，试图向学生们解释五四运动的深远意义。对于这些生活在长江边上的年轻人来说，北大的红楼与游行似乎很遥远，但那种由知识分子激发的爱国热情却在课堂讨论中隐隐共鸣。何伟意识到，尽管地理上相隔千里，但北京的政治风向与历史纪念，始终通过教材和广播，无形地塑造着涪陵学生们的价值观。",
+        "transition_to": "历史的转折往往源于领土的割让，这便引出了另一座海滨城市青岛。",
+        "mood": "ambitious",
+        "key_dialogue": "那个春天乃是北京大学的一百周年，跟五四运动的七十九周年结合起来，有全国性的庆典。"
+      }
+    },
+    {
+      "title": "南京大桥",
+      "address": "中国-江苏-南京-鼓楼区下关南京长江大桥",
+      "synopsis": "何伟提及安东尼奥尼拍摄大桥时的争议，反思中国对外界审视的敏感反应。",
+      "source_evidence": "最著名的一例是，江青指出，他拍南京大桥的一段，在前景处有一条工人的晾衣绳。",
+      "original_chapter": "第十二章 逆流而上",
+      "part_id": "PART-1",
+      "part_title": "江城",
+      "temporal_context": {
+        "era": "1970年代（背景提及）",
+        "historical_name": null,
+        "date_start": "1972",
+        "date_end": "1972"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "提及"
+      },
+      "cultural_tags": {
+        "category": "architectural",
+        "themes": [
+          "propaganda",
+          "perception",
+          "censorship"
+        ],
+        "significance": 0.2
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "南京标志性建筑，仍在使用",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": "1972",
+        "dateEnd": "1972"
+      },
+      "story_mode": {
+        "chapter_title": "第8章·镜头下的真实",
+        "hook": "一根晾衣绳，为何会成为冒犯国家尊严的罪证？",
+        "narrative_text": "何伟在思考中国如何看待外来观察者时，提到了南京大桥。20世纪70年代，意大利导演安东尼奥尼受邀拍摄纪录片，却因镜头中出现了一根晾衣绳而遭到严厉批判。在当时的中国官员看来，宏伟的大桥不应被生活琐碎所玷污。这个例子深刻地揭示了何伟在涪陵所感受到的那种张力：在宏大叙事与真实生活之间，中国社会始终在寻找一种平衡，而外来者的目光往往会触碰到最敏感的神经。",
+        "transition_to": "两年的时光如江水流逝，最后的离别终究到来了。",
+        "mood": "desolate",
+        "key_dialogue": "最著名的一例是，江青指出，他拍南京大桥的一段，在前景处有一条工人的晾衣绳。"
+      }
+    },
+    {
+      "title": "乌江口",
+      "address": "中国-重庆-涪陵-乌江口",
+      "synopsis": "何伟乘船离开涪陵，在宽阔的乌江口最后一次凝望这座改变他生活的江城。",
+      "source_evidence": "因为夏季的雨水，乌江口很宽阔。",
+      "original_chapter": "第十二章 逆流而上",
+      "part_id": "PART-1",
+      "part_title": "江城",
+      "temporal_context": {
+        "era": "1990年代后期",
+        "historical_name": null,
+        "date_start": "1998",
+        "date_end": "1998"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "离别瞬间"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "departure",
+          "reflection",
+          "river"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "乌江与长江汇合处，现受三峡蓄水影响水位升高",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 9,
+        "dateStart": "1998",
+        "dateEnd": "1998"
+      },
+      "story_mode": {
+        "chapter_title": "第9章·逆流而上的终点",
+        "hook": "江水依旧奔流，而那个曾经的异乡人已不再是过客。",
+        "narrative_text": "1998年的夏天，何伟登上了离开涪陵的客轮。夏季的暴雨让乌江口变得异常宽阔，浑浊的江水在这里汇入长江。两年的支教生涯，无数次在江边的漫步，与学生、小贩、官员的交锋与温情，都在这一刻凝结成身后的剪影。涪陵，这座曾经让他感到孤独与困惑的江城，已经深刻地改变了他。随着轮船发动，乌江口渐渐远去，但他知道，这段关于江城的故事，将永远留在他和那些学生们的生命里。",
+        "transition_to": "两年的江城岁月在此画下句点，但何伟对中国的观察才刚刚开始。全书完。",
+        "mood": "nostalgic",
+        "key_dialogue": "因为夏季的雨水，乌江口很宽阔。"
+      }
+    }
+  ],
+  "suspects": []
+}

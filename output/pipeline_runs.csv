@@ -1,0 +1,6 @@
+﻿run_id,mode,started_at,finished_at,status,total_books,books_succeeded,books_failed,config_json
+run_1772451961_69202,specify,2026-03-02 11:46:01,,running,0,0,0,"{""api_key"": ""***"", ""base_url"": ""https://api-k.devdove.site/v1"", ""mode"": ""specify"", ""count"": 5, ""work"": ""城南旧事""}"
+run_1772452089_71938,specify,2026-03-02 11:48:09,2026-03-02 12:00:29,completed,1,1,0,"{""api_key"": ""***"", ""base_url"": ""https://api-k.devdove.site/v1"", ""mode"": ""specify"", ""count"": 5, ""work"": ""城南旧事""}"
+run_1772452108_73236,specify,2026-03-02 11:48:28,2026-03-02 12:03:03,completed,1,1,0,"{""api_key"": ""***"", ""base_url"": ""https://api-k.devdove.site/v1"", ""mode"": ""specify"", ""count"": 5, ""work"": ""城南旧事""}"
+run_1772454041_14075,specify,2026-03-02 12:20:41,,running,0,0,0,"{""api_key"": ""***"", ""base_url"": ""https://api-k.devdove.site/v1"", ""mode"": ""specify"", ""count"": 5, ""work"": ""城南旧事""}"
+run_1772454449_29055,specify,2026-03-02 12:27:29,2026-03-02 12:37:32,completed,1,1,0,"{""api_key"": ""***"", ""base_url"": ""https://api-k.devdove.site/v1"", ""mode"": ""specify"", ""count"": 5, ""work"": ""城南旧事""}"

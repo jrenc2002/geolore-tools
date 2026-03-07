@@ -94,16 +94,26 @@ python src/packing/pack_builder.py \
   --title "我的小说地图"
 ```
 
-## 📚 核心文档
+## 📚 文档导航
 
-| 文档 | 说明 |
-|-----|------|
-| [ContentPackSpec.md](docs/ContentPackSpec.md) | 内容包 JSON v2 协议规范 |
-| [GeocodingRules.md](docs/GeocodingRules.md) | 地址解析规则与最佳实践 |
-| [ValidationMechanism.md](docs/ValidationMechanism.md) | 地理编码验证机制 |
-| [TimelineSpec.md](docs/TimelineSpec.md) | 时间序列内容包规范 |
-| [TroubleshootingGuide.md](docs/TroubleshootingGuide.md) | 常见问题与解决方案 |
-| [SOP.md](docs/SOP.md) | 标准操作流程 |
+文档已按用途分类，方便查找：
+
+### 📘 [用户文档](docs/user/) - 给人类看的操作指南
+
+- [PROJECT_OVERVIEW.md](docs/user/PROJECT_OVERVIEW.md) - 📌 项目全景（必读）
+- [scripts_guide.md](docs/user/scripts_guide.md) - 脚本命令速查手册
+- [SOP.md](docs/user/SOP.md) - 标准操作流程
+- [TroubleshootingGuide.md](docs/user/TroubleshootingGuide.md) - 故障排查指南
+
+### 🤖 [AI文档](docs/ai/) - 给AI看的技术规范
+
+- [ContentPackSpec.md](docs/ai/ContentPackSpec.md) - 内容包JSON v2协议
+- [GeocodingRules.md](docs/ai/GeocodingRules.md) - 地理编码规则与验证
+- [PointSchema.md](docs/ai/PointSchema.md) - 地点数据Schema
+- [TimelineSpec.md](docs/ai/TimelineSpec.md) - 时间序列规范
+- [ValidationMechanism.md](docs/ai/ValidationMechanism.md) - 验证机制
+
+**快速开始**：先读 [PROJECT_OVERVIEW.md](docs/user/PROJECT_OVERVIEW.md) 了解项目全貌
 
 ## 🎯 LLM Prompt 模板
 

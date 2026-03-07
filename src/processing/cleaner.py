@@ -22,7 +22,7 @@
 
 环境变量:
   OPENAI_API_KEY: API 密钥
-  OPENAI_BASE_URL: API 基础 URL (默认 https://api.openai.com/v1)
+  GEOLORE_BASE_URL: API 基础 URL (默认 https://tokenmax.vip/v1)
   OPENAI_MODEL: 模型名称 (默认 gpt-4o-mini)
 """
 
@@ -35,6 +35,8 @@ import os
 import time
 from dataclasses import dataclass
 from typing import Any, Dict, List, Optional, Tuple
+
+from src.common.json_utils import strip_code_fences, extract_json_array
 
 
 def read_text(path: str) -> str:
@@ -88,52 +90,6 @@ class RateLimiter:
             if elapsed < self.interval:
                 await asyncio.sleep(self.interval - elapsed)
             self._last = time.monotonic()
-
-
-def strip_code_fences(s: str) -> str:
-    """移除 Markdown 代码块标记"""
-    s = s.strip()
-    if s.startswith("```"):
-        lines = s.splitlines()
-        if len(lines) >= 2 and lines[-1].strip() == "```":
-            return "\n".join(lines[1:-1]).strip()
-    return s
-
-
-def extract_json_array(s: str) -> Optional[str]:
-    """从文本中提取 JSON 数组"""
-    s = strip_code_fences(s)
-    first = s.find("[")
-    last = s.rfind("]")
-    
-    if first == -1 or last == -1 or last <= first:
-        return None
-        
-    candidate = s[first:last + 1]
-    try:
-        json.loads(candidate)
-        return candidate
-    except json.JSONDecodeError:
-        pass
-        
-    # 尝试逐字符匹配
-    depth = 0
-    start = -1
-    for i, ch in enumerate(s):
-        if ch == "[":
-            if depth == 0:
-                start = i
-            depth += 1
-        elif ch == "]":
-            depth -= 1
-            if depth == 0 and start != -1:
-                segment = s[start:i + 1]
-                try:
-                    json.loads(segment)
-                    return segment
-                except json.JSONDecodeError:
-                    continue
-    return None
 
 
 def sanitize_items(obj: Any) -> List[Dict[str, Any]]:
@@ -221,12 +177,13 @@ async def call_api(
         "Authorization": f"Bearer {config.api_key}",
         "Content-Type": "application/json",
     }
-    payload = {
+    payload: Dict[str, Any] = {
         "model": config.model,
         "messages": messages,
         "temperature": 0,
+        "max_tokens": 4096,
     }
-    
+
     async with session.post(url, headers=headers, json=payload) as resp:
         body = await resp.text()
         if resp.status != 200:
@@ -357,15 +314,15 @@ def main() -> None:
     )
     parser.add_argument(
         "--base-url",
-        default=os.environ.get("OPENAI_BASE_URL", "https://api.openai.com/v1")
+        default=os.environ.get("GEOLORE_BASE_URL", "https://tokenmax.vip/v1")
     )
     parser.add_argument(
         "--model",
-        default=os.environ.get("OPENAI_MODEL", "gpt-4o-mini")
+        default=os.environ.get("GEOLORE_MODEL", "claude-sonnet-4-20250514")
     )
     parser.add_argument(
         "--api-key",
-        default=os.environ.get("OPENAI_API_KEY", "")
+        default=os.environ.get("GEOLORE_API_KEY", "")
     )
     parser.add_argument(
         "--system-file",

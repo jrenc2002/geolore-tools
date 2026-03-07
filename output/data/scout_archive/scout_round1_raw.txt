@@ -1,0 +1,158 @@
+google:search{queries:[
+<ctrl46>
+books set in South America with specific locations
+<ctrl46>
+,
+<ctrl46>
+books set in Southeast Asia with specific locations
+<ctrl46>
+,
+<ctrl46>
+books set in Africa with specific locations
+<ctrl46>
+,
+<ctrl46>
+books set in Australia with specific locations
+<ctrl46>
+,
+<ctrl46>
+books set in Sichuan or Chongqing with specific locations
+<ctrl46>
+,
+<ctrl46>
+books set in Guangdong or Hong Kong with specific locations
+<ctrl46>
+,
+<ctrl46>
+books set in Beijing with specific locations not Rickshaw Boy
+<ctrl46>
+,
+<ctrl46>
+books set in Shanghai with specific locations not Blossoms
+<ctrl46>
+,
+<ctrl46>
+books set in New York with specific locations
+<ctrl46>
+,
+<ctrl46>
+books set in London with specific locations not Sherlock Holmes
+<ctrl46>
+]}
+[
+  {
+    "rank": 1,
+    "title": "檀香刑",
+    "title_en": "Sandalwood Death",
+    "author": "莫言 (Mo Yan)",
+    "language": "zh",
+    "type": "novel",
+    "era_setting": "Late Qing Dynasty (1900s)",
+    "geo_region": "华东",
+    "geo_scope": "山东高密 (Gaomi, Shandong)",
+    "word_count_estimate": 34,
+    "place_count_estimate": 120,
+    "density_index": 3.5,
+    "reachability_pct": 85,
+    "route_shape": "network",
+    "pilgrimage_appeal": 8,
+    "audience_size": "large",
+    "geo_added_value": "high",
+    "timeline_needed": true,
+    "grade": "S",
+    "reason": "莫言构建的‘高密东北乡’是魔幻现实主义的地理标本。本书对胶济铁路沿线及高密县城的地理描绘极为细致，将晚清历史与真实地理紧密咬合，是文学地标巡礼的绝佳样本。",
+    "value_boundary": "cultural_landmark"
+  },
+  {
+    "rank": 2,
+    "title": "The Beach",
+    "title_en": "The Beach",
+    "author": "Alex Garland",
+    "language": "en",
+    "type": "novel",
+    "era_setting": "1990s",
+    "geo_region": "东南亚",
+    "geo_scope": "Bangkok to Southern Thailand Islands",
+    "word_count_estimate": 10,
+    "place_count_estimate": 45,
+    "density_index": 4.5,
+    "reachability_pct": 90,
+    "route_shape": "linear",
+    "pilgrimage_appeal": 9,
+    "audience_size": "massive",
+    "geo_added_value": "high",
+    "timeline_needed": false,
+    "grade": "S",
+    "reason": "背包客文化的圣经。从曼谷考山路到泰国南部海岛，精确描绘了一条经典的东南亚流浪路线，虽‘海滩’本身为虚构，但其路径和曼谷场景高度真实，极具巡礼价值。",
+    "value_boundary": "route_trace"
+  },
+  {
+    "rank": 3,
+    "title": "城南旧事",
+    "title_en": "Memories of Peking: South Side Stories",
+    "author": "林海音 (Lin Haiyin)",
+    "language": "zh",
+    "type": "novel",
+    "era_setting": "1920s",
+    "geo_region": "华北",
+    "geo_scope": "北京宣武门一带 (South Beijing)",
+    "word_count_estimate": 10,
+    "place_count_estimate": 60,
+    "density_index": 6.0,
+    "reachability_pct": 75,
+    "route_shape": "network",
+    "pilgrimage_appeal": 8,
+    "audience_size": "massive",
+    "geo_added_value": "high",
+    "timeline_needed": false,
+    "grade": "A",
+    "reason": "老北京胡同地理的温情档案。以英子的视角记录了惠安馆、椿树胡同、新帘子胡同等具体点位，虽然部分胡同已拆改，但核心地标依然是北京南城文化巡礼的必经之路。",
+    "value_boundary": "spatial_narrative"
+  },
+  {
+    "rank": 4,
+    "title": "The Shadow of the Wind",
+    "title_en": "The Shadow of the Wind",
+    "author": "Carlos Ruiz Zafón",
+    "language": "es",
+    "type": "novel",
+    "era_setting": "1945-1955",
+    "geo_region": "欧洲",
+    "geo_scope": "Barcelona, Spain",
+    "word_count_estimate": 18,
+    "place_count_estimate": 90,
+    "density_index": 5.0,
+    "reachability_pct": 95,
+    "route_shape": "network",
+    "pilgrimage_appeal": 10,
+    "audience_size": "massive",
+    "geo_added_value": "high",
+    "timeline_needed": true,
+    "grade": "S",
+    "reason": "巴塞罗那的哥特式导游图。书中构建的‘遗忘书之墓’虽为虚构，但故事发生的兰布拉大道、圣凯瑟琳广场等地点均真实存在且氛围浓厚，已成为全球读者游览巴塞罗那的隐形地图。",
+    "value_boundary": "cultural_landmark"
+  },
+  {
+    "rank": 5,
+    "title": "蜀道难",
+    "title_en": "Hard Roads in Shu",
+    "author": "李白 (Li Bai)",
+    "language": "zh",
+    "type": "poetry",
+    "era_setting": "Tang Dynasty",
+    "geo_region": "西南",
+    "geo_scope": "秦岭至成都 (Qinling Mountains to Chengdu)",
+    "word_count_estimate": 0.03,
+    "place_count_estimate": 12,
+    "density_index": 400,
+    "reachability_pct": 80,
+    "route_shape": "linear",
+    "pilgrimage_appeal": 7,
+    "audience_size": "massive",
+    "geo_added_value": "medium",
+    "timeline_needed": false,
+    "grade": "B",
+    "reason": "中国古代地理诗歌的巅峰。虽篇幅极短，但精确勾勒了从长安入蜀的险峻路线（太白鸟道、剑阁等），是‘行程轨迹型’的极简样本，适合开发为特定主题的古蜀道徒步挑战。",
+    "value_boundary": "route_trace"
+  }
+]

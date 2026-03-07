@@ -1,0 +1,15 @@
+{
+  "gemini": {
+    "api_key": "sk-YOWIYOnEr1m0LwfM7kODaQ8WPNiKIq60yKZY8IDbA4KWjQIr",
+    "base_url": "https://api-k.devdove.site/v1",
+    "models": {
+      "pro": "gemini-3.1-pro-preview",
+      "flash": "gemini-3-flash-preview"
+    }
+  },
+  "claude": {
+    "api_key": "sk-e5b927ff33923bf34ce094329a1db18e8d280392b80d1e332113f054b588d3c4",
+    "base_url": "https://tokenmax.vip",
+    "model": "claude-sonnet-4-6"
+  }
+}

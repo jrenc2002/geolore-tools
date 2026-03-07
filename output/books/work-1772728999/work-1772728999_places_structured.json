@@ -1,0 +1,1212 @@
+{
+  "book_info": {
+    "title": "长安十二时辰",
+    "author": "马伯庸",
+    "type": "novel",
+    "summary": "《长安十二时辰》是马伯庸笔下的一部盛世奇书。故事聚焦于唐天宝三年的上元节，在繁华如梦的长安城内，一场足以毁灭帝国的恐怖阴谋正悄然潜伏。死囚张小敬临危受命，与天才少年李泌携手，在短短十二个时辰内穿梭于长安的一百零八坊，展开一场惊心动魄的生死竞速。全书以极其考究的地理细节还原了盛唐长安的市井烟火与宏大格局，从西市的喧嚣到靖安司的紧迫，每一处坊墙都见证了英雄的孤独与热血。这不仅是一场反恐行动，更是一曲关于守护家园、人性抉择与盛世挽歌的文学巡礼。"
+  },
+  "characters": [
+    {
+      "id": "zhang_xiaojing",
+      "name": "张小敬",
+      "aliases": [
+        "五尊阎罗",
+        "张头儿"
+      ],
+      "role": "前万年县不良帅，身负重罪的死囚，为守护长安百姓重返街头",
+      "first_appearance": "西府金银器铺",
+      "importance": "protagonist"
+    },
+    {
+      "id": "li_bi",
+      "name": "李泌",
+      "aliases": [
+        "李源直",
+        "小狐狸"
+      ],
+      "role": "靖安司实际主脑，天才少年道士，一心报效国家并辅佐太子",
+      "first_appearance": "靖安司",
+      "importance": "protagonist"
+    },
+    {
+      "id": "long_bo",
+      "name": "萧规",
+      "aliases": [
+        "龙波"
+      ],
+      "role": "蚍蜉首领，曾是安西第八团战士，因家仇对大唐怀有极深恨意",
+      "first_appearance": "拨换城",
+      "importance": "major"
+    },
+    {
+      "id": "wen_ran",
+      "name": "闻染",
+      "aliases": [],
+      "role": "闻记香铺店主之女，张小敬战友的遗孤，是张小敬心中最后的温柔",
+      "first_appearance": "闻记香铺",
+      "importance": "major"
+    },
+    {
+      "id": "li_heng",
+      "name": "李亨",
+      "aliases": [
+        "太子"
+      ],
+      "role": "大唐太子，身处政治漩涡中心，在权力与理想间艰难权衡",
+      "first_appearance": "金明门",
+      "importance": "major"
+    },
+    {
+      "id": "he_zhizhang",
+      "name": "贺知章",
+      "aliases": [
+        "贺监"
+      ],
+      "role": "靖安司长官，朝中老臣，在政治风暴中试图保护李泌",
+      "first_appearance": "靖安司",
+      "importance": "supporting"
+    },
+    {
+      "id": "xu_bin",
+      "name": "徐宾",
+      "aliases": [],
+      "role": "靖安司主事，精通大案牍术，对数据有着近乎痴迷的执着",
+      "first_appearance": "靖安司",
+      "importance": "supporting"
+    },
+    {
+      "id": "tan_qi",
+      "name": "檀棋",
+      "aliases": [],
+      "role": "李泌的贴身女婢，精明干练，在行动中逐渐对张小敬产生敬意",
+      "first_appearance": "靖安司",
+      "importance": "supporting"
+    },
+    {
+      "id": "li_linfu",
+      "name": "李林甫",
+      "aliases": [
+        "右相"
+      ],
+      "role": "大唐权相，老谋深算，与靖安司及太子势力针锋相对",
+      "first_appearance": "安业坊",
+      "importance": "major"
+    },
+    {
+      "id": "yuan_zai",
+      "name": "元载",
+      "aliases": [],
+      "role": "大理寺评事，极具野心的投机者，在各方势力间寻找上位机会",
+      "first_appearance": "春明门",
+      "importance": "supporting"
+    }
+  ],
+  "parts": [
+    {
+      "part_id": "PART-1",
+      "title": "长安十二时辰",
+      "synopsis": "上元节当日，死囚张小敬受命出狱，在靖安司指挥下于长安坊市间追缉狼卫，揭开了一场针对帝都的巨大阴谋。",
+      "place_count": 31,
+      "mood": "tense",
+      "key_characters": [
+        "张小敬",
+        "李泌",
+        "萧规",
+        "闻染",
+        "李亨"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "title": "靖安司",
+      "address": "中国-陕西省-西安市-雁塔区-光德坊",
+      "synopsis": "长安城的临时情报中心，李泌坐镇于此，利用大案牍术指挥全局，是反恐行动的神经中枢。",
+      "source_evidence": "李泌此时已经返回靖安司，他召集了徐宾等人，在沙盘前低声商议着事情。……整个靖安司的大殿里熙熙攘攘，一片繁忙景象。",
+      "original_chapter": "第二章 午初",
+      "part_id": "PART-1",
+      "part_title": "长安十二时辰",
+      "temporal_context": {
+        "era": "唐朝天宝三年",
+        "historical_name": "光德坊",
+        "date_start": "0744",
+        "date_end": "0744"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "李泌",
+          "檀棋",
+          "徐宾",
+          "贺知章"
+        ],
+        "stay_duration": "全天"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "intelligence",
+          "strategy",
+          "crisis"
+        ],
+        "significance": 1.0
+      },
+      "visitability": {
+        "status": "demolished",
+        "note": "原址位于今西安市委党校附近，现为城市建筑",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "0744",
+        "dateEnd": "0744"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·权力与数据的中枢",
+        "hook": "在繁华的长安城下，一个秘密官署正试图用纸笔算筹拦截毁灭。",
+        "narrative_text": "光德坊内的靖安司是长安城的‘大脑’，由年仅二十六岁的天才少年李泌坐镇。大殿内，无数书吏在徐宾的指挥下翻阅着堆积如山的卷宗，这便是所谓的‘大案牍术’。李泌的贴身女官檀棋在一旁冷眼观察着局势。然而，内部的权力斗争从未停止，老臣贺知章的到来不仅带来了朝廷的压力，更一度宣布夺去死囚张小敬的办案职权，让这场与时间的赛跑陷入僵局。",
+        "transition_to": "当靖安司在推演全局时，一名少女正推开自家香铺的大门。",
+        "mood": "tense",
+        "key_dialogue": "“靖安司要做的，是把长安城的每一滴水、每一粒尘土都纳入掌控。”"
+      }
+    },
+    {
+      "title": "闻记香铺",
+      "address": "中国-陕西省-西安市-雁塔区-敦义坊",
+      "synopsis": "闻染经营的香铺，是她与张小敬情感纽带的象征，也是她卷入长安危机的起点。",
+      "source_evidence": "自从父亲死后，她毅然接过这间香铺的招牌，一个人咬着牙惨淡经营。",
+      "original_chapter": "第二章 午初",
+      "part_id": "PART-1",
+      "part_title": "长安十二时辰",
+      "temporal_context": {
+        "era": "唐朝天宝三年",
+        "historical_name": "敦义坊",
+        "date_start": "0744",
+        "date_end": "0744"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "闻染"
+        ],
+        "stay_duration": "清晨至午初"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "family",
+          "business",
+          "loyalty"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "demolished",
+        "note": "原址位于今西安市雁塔区，现已无存",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "0744",
+        "dateEnd": "0744"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·香气中的离别",
+        "hook": "一封神秘的口信，打破了香铺少女平静的生活。",
+        "narrative_text": "敦义坊的闻记香铺里，弥漫着淡淡的草木香。闻染——张小敬战友闻无忌的女儿，正独自支撑着这间铺子。她接到了恩公的口信，要求她立刻离开长安。闻染虽有不舍，但深知局势险恶。在收拾行囊之际，她决定先去安仁坊送最后一批货。她并不知道，自己早已成为各方势力博弈的筹码，这间小小的香铺，竟是她最后的一片净土。",
+        "transition_to": "带着香料，闻染踏上了前往安仁坊的路，却在玄都观前遭遇了意外。",
+        "mood": "nostalgic",
+        "key_dialogue": "“这间铺子是爹留下的，可长安城，已经留不下我了。”"
+      }
+    },
+    {
+      "title": "玄都观",
+      "address": "中国-陕西省-西安市-雁塔区-崇业坊",
+      "synopsis": "著名的道教宫观，因进香人潮拥堵，闻染在此被熊火帮众盯上并陷入危险。",
+      "source_evidence": "这里有一处玄都观，达官贵人多来此进香，各色牛马大车停在坊口，将道路堵得水泄不通。",
+      "original_chapter": "第二章 午初",
+      "part_id": "PART-1",
+      "part_title": "长安十二时辰",
+      "temporal_context": {
+        "era": "唐朝天宝三年",
+        "historical_name": "玄都观",
+        "date_start": "0744",
+        "date_end": "0744"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "闻染",
+          "封大伦"
+        ],
+        "stay_duration": "短暂堵塞"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "religion",
+          "crowd",
+          "danger"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "demolished",
+        "note": "原址在今西安市长安路与小寨之间，现为商业区",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "0744",
+        "dateEnd": "0744"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·玄都观前的阴影",
+        "hook": "繁华的进香人潮中，几双贪婪的眼睛锁定了孤身一人的少女。",
+        "narrative_text": "崇业坊的玄都观是长安名胜，今日更是游人如织。闻染的马车被堵在坊口，进退不得。就在这喧闹的间隙，受雇于封大伦的熊火帮众悄然靠近。封大伦——一个心狠手辣的投机者，意图通过绑架闻染来要挟张小敬。在众目睽睽之下，闻染被强行拖入另一辆马车，消失在玄都观缭绕的香烟之中。",
+        "transition_to": "被囚禁在黑暗车厢里的闻染，只能靠听觉辨别方向。",
+        "mood": "mysterious",
+        "key_dialogue": "“玄都观的桃花再红，也遮不住这长安城里的血腥气。”"
+      }
+    },
+    {
+      "title": "济度尼寺",
+      "address": "中国-陕西省-西安市-雁塔区-安业坊",
+      "synopsis": "闻染通过该寺特有的钟声，在被绑架途中精准判断出自己的地理位置。",
+      "source_evidence": "济度尼寺位于安业坊内，闻染常来这里送香，对附近路径非常熟悉。",
+      "original_chapter": "第二章 午初",
+      "part_id": "PART-1",
+      "part_title": "长安十二时辰",
+      "temporal_context": {
+        "era": "唐朝天宝三年",
+        "historical_name": "济度尼寺",
+        "date_start": "0744",
+        "date_end": "0744"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "闻染"
+        ],
+        "stay_duration": "路过"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "observation",
+          "survival"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "demolished",
+        "note": "原址位于安业坊，现已不存",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "0744",
+        "dateEnd": "0744"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·钟声里的坐标",
+        "hook": "黑暗中，一声熟悉的钟响成为了唯一的救命稻草。",
+        "narrative_text": "闻染被蒙住双眼，蜷缩在颠簸的马车底板上。作为香铺老板，她对长安的每一寸土地都了如指掌。当耳边响起那沉闷而带有余韵的紫金佛恩钟声时，她立刻意识到这是安业坊济度尼寺的钟。她常来此送香，对这里的环境再熟悉不过。这一刻，恐惧被冷静取代，她在心中默默勾勒出绑匪的行进路线，寻找着逃脱的契机。",
+        "transition_to": "与此同时，张小敬在西市的搜捕也进入了关键时刻。",
+        "mood": "tense",
+        "key_dialogue": "“这是济度尼寺的钟声……我在安业坊西侧。”"
+      }
+    },
+    {
+      "title": "西府金银器铺",
+      "address": "中国-陕西省-西安市-莲湖区-西市第三个十字街西北角",
+      "synopsis": "张小敬在此发现狼卫留下的血迹与密道，揭开了狼卫在西市潜伏的真相。",
+      "source_evidence": "西府店位于西市第三个十字街的西北角，这是个黄金地段，诸路交会之所，最为繁盛。",
+      "original_chapter": "第二章 午初",
+      "part_id": "PART-1",
+      "part_title": "长安十二时辰",
+      "temporal_context": {
+        "era": "唐朝天宝三年",
+        "historical_name": "西府店",
+        "date_start": "0744",
+        "date_end": "0744"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "张小敬"
+        ],
+        "stay_duration": "约半个时辰"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "investigation",
+          "action",
+          "urban_warfare"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "demolished",
+        "note": "原址位于唐西市遗址范围内，现为大唐西市博物馆周边",
+        "current_name": "大唐西市"
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "0744",
+        "dateEnd": "0744"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·金银背后的血腥",
+        "hook": "繁华的金银铺地窖里，藏着通往毁灭的秘密通道。",
+        "narrative_text": "张小敬重回西市，直奔位于黄金地段的西府金银器铺。店内琳琅满目，却透着一股死寂。他敏锐地嗅到了血腥味，在柜台后发现了店主冰冷的尸体。通过细致的勘察，张小敬在地窖深处发现了一条隐秘的暗道，直通坊外。这证明狼卫并非盲目乱窜，而是有着极其周密的撤退计划。张小敬意识到，自己面对的是一群受过专业训练的死士。",
+        "transition_to": "顺着线索，张小敬一路追击到了怀远坊的祆祠。",
+        "mood": "dramatic",
+        "key_dialogue": "“金银能买命，也能送命。这地道挖得可真够深的。”"
+      }
+    },
+    {
+      "title": "怀远坊祆祠",
+      "address": "中国-陕西省-西安市-莲湖区-怀远坊",
+      "synopsis": "张小敬与狼卫的激烈对峙地，狼卫在此被信众殴毙，导致关键线索坊图失踪。",
+      "source_evidence": "这条巷子走到尽头，视野突然开阔，形成一个宽约两百步的广场。在广场正中立着一座两层大祠。",
+      "original_chapter": "第二章 午初",
+      "part_id": "PART-1",
+      "part_title": "长安十二时辰",
+      "temporal_context": {
+        "era": "唐朝天宝三年",
+        "historical_name": "怀远坊祆祠",
+        "date_start": "0744",
+        "date_end": "0744"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "张小敬",
+          "姚汝能",
+          "岑参"
+        ],
+        "stay_duration": "约一个时辰"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "conflict",
+          "religion",
+          "chaos"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "demolished",
+        "note": "原址位于今西安市莲湖区，现已无存",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "0744",
+        "dateEnd": "0744"
+      },
+      "story_mode": {
+        "chapter_title": "第6章·祆火与狂热",
+        "hook": "愤怒的信众比狼卫更可怕，他们亲手撕碎了唯一的活口。",
+        "narrative_text": "怀远坊是胡人聚居之地，祆祠内圣火熊熊。张小敬追击狼卫至此，双方在广场上展开殊死搏斗。狼卫穷途末路，竟挟持了祆正作为人质。这一举动彻底激怒了在场的祆教信众，狂热的民众一拥而上，竟将狼卫活活殴毙。随行的姚汝能试图阻止却无济于事，诗人岑参也在此目睹了这血腥的一幕。狼卫虽死，但他身上携带的长安坊图却不翼而飞，线索再次中断。",
+        "transition_to": "线索的断裂让张小敬陷入沉思，他开始回忆起长安那些值得守护的烟火气。",
+        "mood": "tense",
+        "key_dialogue": "“在长安，最不能惹的就是这些信了邪的疯子！”"
+      }
+    },
+    {
+      "title": "东市",
+      "address": "中国-陕西省-西安市-碑林区-东市",
+      "synopsis": "张小敬劫持许合子的凤尾车疾驰经过东市，这里不仅是商贸中心，也藏着普通人的梦想。",
+      "source_evidence": "东市的阿罗约是个驯骆驼的好手，他的毕生梦想是在安邑坊置个产业",
+      "original_chapter": "第十四章 子初",
+      "part_id": "PART-1",
+      "part_title": "长安十二时辰",
+      "temporal_context": {
+        "era": "唐朝天宝三年",
+        "historical_name": "东市",
+        "date_start": "0744",
+        "date_end": "0744"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "张小敬",
+          "许合子"
+        ],
+        "stay_duration": "30分钟"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "commerce",
+          "action",
+          "urban_life"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为西安东市遗址景区",
+        "current_name": "唐长安城东市遗址"
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "0744",
+        "dateEnd": "0744"
+      },
+      "story_mode": {
+        "chapter_title": "第7章·东市的疾驰",
+        "hook": "在繁华的商贸中心，一场惊心动魄的劫持正在上演。",
+        "narrative_text": "夜色渐深，东市的喧嚣并未完全散去。张小敬劫持了名动京城的歌者许合子的凤尾车，如一道闪电般穿过东市密集的货栈与店铺。这里曾是他最熟悉的地方，他甚至记得东市那个叫阿罗约的胡人驯驼手。此时的东市在车轮下飞速后退，张小敬无暇顾及那些琳琅满目的舶来品，他的目标是兴庆宫，而东市只是这趟生死时速中的一个中转站。",
+        "transition_to": "阿罗约那个关于安邑坊的梦想，在张小敬脑海中一闪而过。",
+        "mood": "tense",
+        "key_dialogue": "“东市的阿罗约是个驯骆驼的好手，他的毕生梦想是在安邑坊置个产业。”"
+      }
+    },
+    {
+      "title": "拨换城",
+      "address": "中国-新疆维吾尔自治区-阿克苏地区-阿克苏市-拨换城遗址",
+      "synopsis": "安西都护府边陲重镇，烽燧堡之战的后方依托，见证了第八团最后的惨烈坚守。",
+      "source_evidence": "安西都护府，拨换城北三十里，烽燧堡。",
+      "original_chapter": "第十五章 子正",
+      "part_id": "PART-1",
+      "part_title": "长安十二时辰",
+      "temporal_context": {
+        "era": "唐朝天宝三载",
+        "historical_name": "姑墨州",
+        "date_start": "0744",
+        "date_end": "0744"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "张小敬",
+          "萧规",
+          "闻无忌"
+        ],
+        "stay_duration": "数年"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "war",
+          "brotherhood",
+          "sacrifice"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为阿克苏境内古城遗址",
+        "current_name": "阿克苏古城遗址"
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": "0744",
+        "dateEnd": "0744"
+      },
+      "story_mode": {
+        "chapter_title": "第8章·大漠孤烟拨换城",
+        "hook": "在烽燧堡那场绝望的围城战之前，这里曾是他们唯一的依靠。",
+        "narrative_text": "拨换城是安西都护府治下的边陲重镇。对于张小敬、萧规和闻无忌所在的安西军第八团来说，这里是他们补给的终点。烽燧堡就矗立在城北三十里外，像一颗钉子扎在荒原上。在那个惨烈的冬天，两百名袍泽在孤立无援中逐一倒下，最终只剩下他们三人。拨换城的轮廓在风沙中若隐若现，承载着张小敬最沉痛的军旅记忆，也埋下了萧规心中仇恨的种子。",
+        "transition_to": "重伤的幸存者被送往更远的地方，在那里，命运将他们彻底拆散。",
+        "mood": "desolate",
+        "key_dialogue": "“第八团，九死无悔！”"
+      }
+    },
+    {
+      "title": "龟兹",
+      "address": "中国-新疆维吾尔自治区-阿克苏地区-库车市-龟兹故城",
+      "synopsis": "安西都护府治所，第八团幸存者在此接受救治并最终各奔东西。",
+      "source_evidence": "转送安西都护府的治所龟兹进行治疗。……当年咱们在龟兹分别以后",
+      "original_chapter": "第十五章 子正",
+      "part_id": "PART-1",
+      "part_title": "长安十二时辰",
+      "temporal_context": {
+        "era": "唐朝天宝三载",
+        "historical_name": "安西都护府",
+        "date_start": "0744",
+        "date_end": "0744"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "张小敬",
+          "萧规",
+          "闻无忌"
+        ],
+        "stay_duration": "数月"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "healing",
+          "parting",
+          "memory"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为库车市龟兹故城遗址",
+        "current_name": "库车故城"
+      },
+      "timeline": {
+        "orderIndex": 9,
+        "dateStart": "0744",
+        "dateEnd": "0744"
+      },
+      "story_mode": {
+        "chapter_title": "第9章·龟兹城的生与别",
+        "hook": "从死人堆里爬出来的三个人，在繁华的治所迎来了各自的归宿。",
+        "narrative_text": "龟兹是安西都护府的权力中心，也是张小敬等人在烽燧堡血战后唯一的生机。在龟兹的医馆里，他们褪去了满身血污，却褪不去灵魂深处的创伤。伤愈之后，张小敬选择了留在军中，闻无忌打算去长安开一家香铺，而萧规——那个曾经最坚韧的旗手，却拒绝了所有邀请。在龟兹城门前的分别，是他们三人最后一次并肩而立。从此，有人入世守卫长安，有人隐世寻求公道。",
+        "transition_to": "萧规背起行囊，独自踏上了回乡的路，却不知家乡已成炼狱。",
+        "mood": "bittersweet",
+        "key_dialogue": "“当年咱们在龟兹分别以后，我就再没见过你。”"
+      }
+    },
+    {
+      "title": "广武",
+      "address": "中国-甘肃省-兰州市-永登县-广武镇",
+      "synopsis": "萧规的家乡，因姐姐一家的悲剧，成为他化身“龙波”复仇的起点。",
+      "source_evidence": "至于萧规，他并没接受张小敬和闻无忌的邀请，而是解甲前往广武。……我在广武的时候，确实为了一己私仇",
+      "original_chapter": "第十五章 子正",
+      "part_id": "PART-1",
+      "part_title": "长安十二时辰",
+      "temporal_context": {
+        "era": "唐朝天宝三载",
+        "historical_name": null,
+        "date_start": "0744",
+        "date_end": "0744"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "萧规"
+        ],
+        "stay_duration": "不确定"
+      },
+      "cultural_tags": {
+        "category": "biographical",
+        "themes": [
+          "revenge",
+          "tragedy",
+          "injustice"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为兰州市永登县广武镇",
+        "current_name": "广武镇"
+      },
+      "timeline": {
+        "orderIndex": 10,
+        "dateStart": "0744",
+        "dateEnd": "0744"
+      },
+      "story_mode": {
+        "chapter_title": "第10章·广武的血色黄昏",
+        "hook": "解甲归田的英雄没有等到安宁，只等到了亲人的尸骨。",
+        "narrative_text": "萧规回到了广武，他本想在这里平静地度过余生。然而，等待他的是姐姐一家被当地豪强凌虐致死的噩耗。他曾为大唐流干鲜血，大唐的律法却未能保护他的至亲。在广武的废墟上，那个忠诚的旗手萧规死去了，取而代之的是冷酷的复仇者龙波。他杀尽了仇人，却发现这世道的黑暗远非杀几个人能解决，于是他将目光投向了那个万家灯火的长安。",
+        "transition_to": "视线回到长安，兴庆宫外的灯火已近巅峰，元载正计算着他的前程。",
+        "mood": "dramatic",
+        "key_dialogue": "“我在广武的时候，确实为了一己私仇，杀了不少人。”"
+      }
+    },
+    {
+      "title": "春明门",
+      "address": "中国-陕西省-西安市-碑林区-春明门遗址",
+      "synopsis": "长安城东门，元载在此观察灯楼动向，权衡各方势力的博弈。",
+      "source_evidence": "这里是广场、道政坊和春名门之间的夹角",
+      "original_chapter": "第十六章 丑初",
+      "part_id": "PART-1",
+      "part_title": "长安十二时辰",
+      "temporal_context": {
+        "era": "唐朝天宝三载",
+        "historical_name": "东门",
+        "date_start": "0744",
+        "date_end": "0744"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "元载"
+        ],
+        "stay_duration": "短暂"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "observation",
+          "politics"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "demolished",
+        "note": "原址位于今西安东二环附近，仅存遗址标志",
+        "current_name": "春明门遗址"
+      },
+      "timeline": {
+        "orderIndex": 11,
+        "dateStart": "0744",
+        "dateEnd": "0744"
+      },
+      "story_mode": {
+        "chapter_title": "第11章·春明门的窥探",
+        "hook": "在繁华的东门之下，野心家正通过灯楼的阴影预判大唐的未来。",
+        "narrative_text": "春明门是长安连接东方的咽喉，此时却成了元载——这个精于算计的小官——观察局势的瞭望塔。他站在春明门与道政坊的夹角处，目光穿过喧闹的人群，死死盯着那座巍峨的太上玄元灯楼。对他而言，这场即将到来的灾难不是危机，而是他平步青云的阶梯。春明门的风带着兴庆宫的脂粉味，也带着一丝不易察觉的硝烟气息。",
+        "transition_to": "长安的十二时辰即将耗尽，英雄与枭雄的博弈终将在灯火阑珊处落幕。",
+        "mood": "ambitious",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "金明门",
+      "address": "中国-陕西省-西安市-碑林区-兴庆宫公园西南角",
+      "synopsis": "兴庆宫西南门，陈玄礼坐镇于此，李泌在此目睹了太子李亨的秘密离去。",
+      "source_evidence": "此时陈玄礼作为禁军主帅，正在金明门前坐镇。……他瞪大了眼睛，看到金明门的重门半开，一辆华贵的四望车从里面匆忙驶出。",
+      "original_chapter": "第十七章 丑正",
+      "part_id": "PART-1",
+      "part_title": "长安十二时辰",
+      "temporal_context": {
+        "era": "唐朝天宝三载",
+        "historical_name": null,
+        "date_start": "0744",
+        "date_end": "0744"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "陈玄礼",
+          "李泌",
+          "李亨"
+        ],
+        "stay_duration": "一刻钟"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "conspiracy",
+          "escape",
+          "tension"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "位于兴庆宫公园内，遗址尚存",
+        "current_name": "兴庆宫金明门址"
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "0744",
+        "dateEnd": "0744"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·金明门的惊变",
+        "hook": "禁军统帅坐镇门前，却挡不住一辆载着大唐未来的马车匆匆逃离。",
+        "narrative_text": "金明门前，禁军大将军陈玄礼甲胄鲜明，气氛肃杀。靖安司司丞李泌正焦急地寻找转机，却意外目睹了令他心碎的一幕：金明门重门半开，太子李亨的四望车竟在此时匆忙驶出宫外。在最危险的时刻，储君的撤离意味着权力的真空与信任的崩塌。李泌站在冷风中，看着那辆消失在夜色中的马车，意识到长安的命运现在全系于张小敬一人之手。",
+        "transition_to": "与金明门的肃杀不同，正南方的通阳门正准备迎接礼仪的巅峰。",
+        "mood": "tense",
+        "key_dialogue": "“他瞪大了眼睛，看到金明门的重门半开，一辆华贵的四望车从里面匆忙驶出。”"
+      }
+    },
+    {
+      "title": "通阳门",
+      "address": "中国-陕西省-西安市-碑林区-兴庆宫公园南侧",
+      "synopsis": "兴庆宫正南门，礼仪性通道，是拔灯红筹进入勤政务本楼的关键路径。",
+      "source_evidence": "正南通阳门，东南初阳门，合称“三阳”。勤政务本楼正对广场的位置，是通阳门。",
+      "original_chapter": "第十七章 丑正",
+      "part_id": "PART-1",
+      "part_title": "长安十二时辰",
+      "temporal_context": {
+        "era": "唐朝天宝三载",
+        "historical_name": null,
+        "date_start": "0744",
+        "date_end": "0744"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [],
+        "stay_duration": "持续中"
+      },
+      "cultural_tags": {
+        "category": "architectural",
+        "themes": [
+          "ceremony",
+          "grandeur"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "兴庆宫公园南门附近",
+        "current_name": "兴庆宫通阳门址"
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "0744",
+        "dateEnd": "0744"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·通阳门的礼赞",
+        "hook": "作为“三阳”之首，它是通往大唐盛世巅峰的必经之路。",
+        "narrative_text": "通阳门矗立在兴庆宫的正南方，正对着宽阔的广场。它是礼仪的化身，今夜所有的荣光都将穿过这道门。拔灯仪式中象征最高荣誉的红筹，正是在万众瞩目下穿过通阳门，送往勤政务本楼。门内是天子的威严，门外是万民的欢腾。然而，在这金碧辉煌的门洞之下，谁也未曾察觉，毁灭性的危机正随着节日的狂欢一同潜入。",
+        "transition_to": "李泌顾不得欣赏礼仪，他必须追上那辆反常的马车，首先来到了安邑常乐路口。",
+        "mood": "peaceful",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "安邑常乐路口",
+      "address": "中国-陕西省-西安市-碑林区-安邑坊与常乐坊交汇处",
+      "synopsis": "李泌追踪东宫四望车至此，发现太子并未返回长乐坊居所，而是反常地向南行驶。",
+      "source_evidence": "长安，万年县，安邑常乐路口。……这一辆四望马车离开兴庆宫后，通过安邑常乐路口，一路朝南走去。",
+      "original_chapter": "第十八章 寅初",
+      "part_id": "PART-1",
+      "part_title": "长安十二时辰",
+      "temporal_context": {
+        "era": "唐朝天宝三年",
+        "historical_name": "安邑坊、常乐坊路口",
+        "date_start": "0744",
+        "date_end": "0744"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "李泌",
+          "李亨"
+        ],
+        "stay_duration": "片刻"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "suspense",
+          "tracking"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "demolished",
+        "note": "原址位于今西安交通大学西侧区域",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "0744",
+        "dateEnd": "0744"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·南下的马车",
+        "hook": "本该回家的太子，为何在深夜突然转向南方？",
+        "narrative_text": "在太上玄元灯楼的火光映照下，长安城的局势愈发诡谲。李泌紧紧盯着那辆代表东宫身份的四望车。按照常理，太子李亨在离开兴庆宫后，应当直接返回位于长乐坊的居所。然而，当马车行驶到安邑坊与常乐坊的交汇路口时，却并未转弯，而是径直向南驶去。这个细微的动作在李泌眼中无异于惊雷，他意识到，在这场针对皇权的博弈中，太子或许另有隐秘的安排。",
+        "transition_to": "要理解太子的反常，必须先审视他平日的居所——长乐坊。",
+        "mood": "tense",
+        "key_dialogue": "“这一辆四望马车离开兴庆宫后，通过安邑常乐路口，一路朝南走去。”"
+      }
+    },
+    {
+      "title": "长乐坊",
+      "address": "中国-陕西省-西安市-碑林区-长乐坊街道",
+      "synopsis": "太子李亨的法定居所所在地，位于长安城东侧，是皇室成员聚居的敏感区域。",
+      "source_evidence": "因为太子居所是在长乐坊，位于安国寺东附苑城的十王宅内",
+      "original_chapter": "第十八章 寅初",
+      "part_id": "PART-1",
+      "part_title": "长安十二时辰",
+      "temporal_context": {
+        "era": "唐朝天宝三年",
+        "historical_name": "长乐坊",
+        "date_start": "0744",
+        "date_end": "0744"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "李亨"
+        ],
+        "stay_duration": "无"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "royalty",
+          "politics"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现仍保留长乐坊街道名称",
+        "current_name": "长乐坊街道"
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "0744",
+        "dateEnd": "0744"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·东宫的樊笼",
+        "hook": "长乐坊的深宅大院，是太子的家还是囚笼？",
+        "narrative_text": "长乐坊紧邻大明宫与兴庆宫，是长安城中权力的边缘地带。对于当朝太子李亨而言，这里不仅是他的居所，更是他谨言慎行的避风港。在政治斗争激烈的时刻，长乐坊的每一道坊门都象征着皇权的约束。今夜，当所有人的目光都集中在灯楼时，长乐坊却显得格外冷清，因为它的主人正坐在那辆南下的马车里，试图逃离某种宿命。",
+        "transition_to": "在长乐坊的深处，十王宅才是真正的权力核心。",
+        "mood": "desolate",
+        "key_dialogue": "“因为太子居所是在长乐坊，位于安国寺东附苑城的十王宅内。”"
+      }
+    },
+    {
+      "title": "十王宅",
+      "address": "中国-陕西省-西安市-碑林区-长乐坊-十王宅遗址",
+      "synopsis": "唐代专门安置成年皇子的居所，太子李亨亦居住于此，受到严格的监视与保护。",
+      "source_evidence": "位于安国寺东附苑城的十王宅内",
+      "original_chapter": "第十八章 寅初",
+      "part_id": "PART-1",
+      "part_title": "长安十二时辰",
+      "temporal_context": {
+        "era": "唐朝天宝三年",
+        "historical_name": "十王宅",
+        "date_start": "0744",
+        "date_end": "0744"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "李亨"
+        ],
+        "stay_duration": "无"
+      },
+      "cultural_tags": {
+        "category": "architectural",
+        "themes": [
+          "confinement",
+          "royalty"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "demolished",
+        "note": "原址位于今西安交通大学北侧区域",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "0744",
+        "dateEnd": "0744"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·禁锢的皇子",
+        "hook": "十王宅的围墙，隔绝了亲情，只剩下权力的冰冷。",
+        "narrative_text": "十王宅是唐玄宗为了集中管理皇子而设立的特殊区域。这里虽然锦衣玉食，但对于李亨来说，每一寸土地都布满了眼线。作为太子，他在这里的一举一动都会被呈报给圣人。这种高度集中的居住模式，既是为了防止皇子勾结外臣，也是一种变相的软禁。今夜，十王宅的空虚正映衬出长安城暗流涌动的危机。",
+        "transition_to": "马车掠过十王宅，加速驶入了常乐坊的街道。",
+        "mood": "mysterious",
+        "key_dialogue": "“位于安国寺东附苑城的十王宅内”"
+      }
+    },
+    {
+      "title": "修行坊",
+      "address": "中国-陕西省-西安市-雁塔区-修行坊遗址",
+      "synopsis": "李泌追踪太子马车至修行坊路口，远眺通法寺塔，确认了太子的行踪方向。",
+      "source_evidence": "当它抵达修行升平道路口时，并没有向西拐入朱雀大街，而是继续向南。……那是修行坊中的通法寺塔。",
+      "original_chapter": "第十八章 寅初",
+      "part_id": "PART-1",
+      "part_title": "长安十二时辰",
+      "temporal_context": {
+        "era": "唐朝天宝三年",
+        "historical_name": "修行坊",
+        "date_start": "0744",
+        "date_end": "0744"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "李泌",
+          "李亨"
+        ],
+        "stay_duration": "一刻钟"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "pursuit",
+          "suspicion"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "demolished",
+        "note": "原址位于今西安交通大学雁塔校区附近",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "0744",
+        "dateEnd": "0744"
+      },
+      "story_mode": {
+        "chapter_title": "第6章·路口的抉择",
+        "hook": "太子马车并未驶向皇城，他究竟要去哪里？",
+        "narrative_text": "李泌一路紧随太子的马车。当马车抵达修行坊与升平坊交界的十字路口时，李泌屏住呼吸观察。这位年轻的靖安司实际掌权者，此刻心中充满了矛盾：他既希望太子与此案无关，又恐惧真相指向最坏的可能。修行坊内静谧肃穆，南边的通法寺塔在夜色中勾勒出模糊的轮廓。马车没有转向象征权力的朱雀大街，而是径直向南，驶入了更为隐秘的区域。",
+        "transition_to": "马车最终停在了升平坊的一处幽静所在。",
+        "mood": "tense",
+        "key_dialogue": "“那是修行坊中的通法寺塔。”"
+      }
+    },
+    {
+      "title": "升平坊",
+      "address": "中国-陕西省-西安市-雁塔区-升平坊遗址",
+      "synopsis": "李泌在升平坊药圃追上太子李亨，通过对谈排除了太子作为幕后主使的嫌疑。",
+      "source_evidence": "这里是升平坊，里面有一个药圃，专为东宫培植各类草药。……李泌终于追上了太子，两人在药香中相对而立。",
+      "original_chapter": "第十八章 寅初",
+      "part_id": "PART-1",
+      "part_title": "长安十二时辰",
+      "temporal_context": {
+        "era": "唐朝天宝三年",
+        "historical_name": "升平坊",
+        "date_start": "0744",
+        "date_end": "0744"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "李亨",
+          "李泌"
+        ],
+        "stay_duration": "半个时辰"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "loyalty",
+          "clarification"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "demolished",
+        "note": "原址位于今西安市青龙寺周边区域",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "0744",
+        "dateEnd": "0744"
+      },
+      "story_mode": {
+        "chapter_title": "第7章·药圃清白辩",
+        "hook": "在东宫药圃的幽香中，李泌要向大唐储君讨一个真相。",
+        "narrative_text": "升平坊内有一处专为东宫培育草药的药圃，空气中弥漫着淡淡的苦涩药味。李泌在这里截住了太子李亨。面对李泌的质疑，这位如履薄冰的储君展现出了他的无奈与坚守。在这场深夜的密谈中，李泌通过观察与试探，终于确认太子并非策划长安危机的元凶，他只是在试图用自己的方式保全东宫。这一发现让李泌松了一口气，但也意味着真正的敌人依然隐藏在更深的阴影里。",
+        "transition_to": "画面转回万年县，揭开张小敬的一段血色往事。",
+        "mood": "mysterious",
+        "key_dialogue": "“泌臣，你觉得孤会是那种人吗？”"
+      }
+    },
+    {
+      "title": "万年县",
+      "address": "中国-陕西省-西安市-碑林区-东关正街附近",
+      "synopsis": "张小敬在万年县马球场挟持永王，揭开了他为战友闻无忌报仇的惨烈往事。",
+      "source_evidence": "长安，万年县，靖恭坊。……张小敬站在球场中央，喘着粗气，那一只独眼赤红如疯兽。",
+      "original_chapter": "第二十章 卯初",
+      "part_id": "PART-1",
+      "part_title": "长安十二时辰",
+      "temporal_context": {
+        "era": "唐朝天宝三载",
+        "historical_name": "万年县",
+        "date_start": "0744",
+        "date_end": "0744"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "张小敬",
+          "李璘",
+          "闻无忌"
+        ],
+        "stay_duration": "一个时辰"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "revenge",
+          "justice",
+          "flashback"
+        ],
+        "significance": 0.95
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "唐万年县衙原址位于今西安市东关正街附近",
+        "current_name": "西安市东关区域"
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": "0744",
+        "dateEnd": "0744"
+      },
+      "story_mode": {
+        "chapter_title": "第8章·十年陇右兵",
+        "hook": "“五尊阎罗”张小敬，为何会从万年县尉沦为死囚？",
+        "narrative_text": "万年县的马球场上，气氛降至冰点。张小敬——这位曾经的万年县不良帅，此刻正挟持着永王李璘。随着对峙的深入，一段尘封的惨烈往事被揭开：为了给惨死的战友闻无忌讨回公道，张小敬不惜违反大唐律令，单枪匹马血洗了背景深厚的熊火帮，甚至亲手杀死了包庇罪恶的县尉。这一刻，人们才明白，他眼中的疯狂并非源于邪恶，而是源于一种近乎偏执的、对底层同袍的守护。",
+        "transition_to": "挟持着永王，张小敬退向了坊内的观音寺。",
+        "mood": "dramatic",
+        "key_dialogue": "“我办案，从来不看对方是什么身份。”"
+      }
+    },
+    {
+      "title": "观音寺",
+      "address": "中国-陕西省-西安市-碑林区-靖恭坊-观音寺遗址",
+      "synopsis": "张小敬在观音寺逼迫永王在郭氏牌位前起誓，随后坦然向不良人自首。",
+      "source_evidence": "这座位于靖恭坊内的观音寺……张小敬松开手，一脚把永王踢翻在地，让他跪在观音像前。",
+      "original_chapter": "第二十章 卯初",
+      "part_id": "PART-1",
+      "part_title": "长安十二时辰",
+      "temporal_context": {
+        "era": "唐朝天宝三载",
+        "historical_name": "观音寺",
+        "date_start": "0744",
+        "date_end": "0744"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "张小敬",
+          "李璘"
+        ],
+        "stay_duration": "半个时辰"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "oath",
+          "sacrifice"
+        ],
+        "significance": 0.85
+      },
+      "visitability": {
+        "status": "demolished",
+        "note": "原址位于今西安市碑林区靖恭坊遗址内",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 9,
+        "dateStart": "0744",
+        "dateEnd": "0744"
+      },
+      "story_mode": {
+        "chapter_title": "第9章·神前终结",
+        "hook": "在慈悲的观音像前，张小敬完成了最后的审判。",
+        "narrative_text": "靖恭坊内的观音寺规模不大，却因供奉着永王生母郭氏的牌位而显得特殊。张小敬将永王拖至观音像前，逼迫这位养尊处优的皇子为自己的罪行忏悔并起誓。在神灵与亡魂的注视下，张小敬完成了他认为的正义。随后，他扔下横刀，在赶来的不良人面前缓缓举起双手。这一幕，标志着他从一名执法者彻底转变为死囚，也为他后来被李泌从狱中提拔埋下了伏笔。",
+        "transition_to": "视线回到当下，李泌根据新线索来到了安业坊。",
+        "mood": "bittersweet",
+        "key_dialogue": "“跪下！在神灵面前，你我都一样。”"
+      }
+    },
+    {
+      "title": "安业坊",
+      "address": "中国-陕西省-西安市-雁塔区-安业坊遗址",
+      "synopsis": "李泌查出蚍蜉老巢位于安业坊，却在此意外遭遇大唐权相李林甫。",
+      "source_evidence": "安业坊位于朱雀大街西侧第四坊……李泌一行径直来到宅邸门前，这里的大门前既无列戟，也没乌头，看起来十分朴素低调。",
+      "original_chapter": "第二十一章 卯正",
+      "part_id": "PART-1",
+      "part_title": "长安十二时辰",
+      "temporal_context": {
+        "era": "唐朝天宝三载",
+        "historical_name": "安业坊",
+        "date_start": "0744",
+        "date_end": "0744"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "李泌",
+          "李林甫"
+        ],
+        "stay_duration": "一个时辰"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "confrontation",
+          "political_struggle"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "demolished",
+        "note": "原址位于今西安市小寨商业区附近",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 10,
+        "dateStart": "0744",
+        "dateEnd": "0744"
+      },
+      "story_mode": {
+        "chapter_title": "第10章·相府的阴影",
+        "hook": "蚍蜉的老巢，竟然就在当朝宰相的秘密宅邸中？",
+        "narrative_text": "李泌通过一份隐秘的契约书，一路追查到了安业坊。这里地处朱雀大街西侧，本应是权贵云集之地，但这处宅邸却异常低调。当李泌破门而入时，迎接他的并非穷凶极恶的蚍蜉，而是大唐最有权势的男人——右相李林甫。在这座看似朴素的宅院里，李泌意识到自己卷入了一场比恐怖袭击更可怕的政治漩涡。李林甫的出现，让原本清晰的追凶之路再次变得扑朔迷离。",
+        "transition_to": "长安的十二时辰终将结束，但历史的齿轮在马嵬坡再次转动。",
+        "mood": "tense",
+        "key_dialogue": "“李长源，你可知这门后是谁？”"
+      }
+    },
+    {
+      "title": "马嵬坡",
+      "address": "中国-陕西-咸阳-兴平市-马嵬驿",
+      "synopsis": "天宝十四载安史之乱爆发，张小敬在马嵬坡兵变中射杀杨国忠。",
+      "source_evidence": "行至马嵬坡时，太子李亨、龙武大将军陈玄礼等人密谋发动兵变……在队伍中冲出一位叫张小敬的骑士，先一箭把杨国忠射下马。",
+      "original_chapter": "后记一",
+      "part_id": "PART-1",
+      "part_title": "长安十二时辰",
+      "temporal_context": {
+        "era": "唐朝天宝十四载",
+        "historical_name": "马嵬驿",
+        "date_start": "0756",
+        "date_end": "0756"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "张小敬",
+          "杨国忠",
+          "李隆基",
+          "陈玄礼"
+        ],
+        "stay_duration": "数小时"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "mutiny",
+          "destiny",
+          "end_of_era"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为马嵬驿民俗文化体验园及杨贵妃墓所在地",
+        "current_name": "马嵬坡"
+      },
+      "timeline": {
+        "orderIndex": 11,
+        "dateStart": "0756",
+        "dateEnd": "0756"
+      },
+      "story_mode": {
+        "chapter_title": "第11章·终局的余响",
+        "hook": "那场长安大火后的第十一年，张小敬再次扣响了历史的扳机。",
+        "narrative_text": "在宣平坊贺宅的那个清晨之后，长安的硝烟终究散去，但大唐的颓势已不可逆转。天宝十四载，安史之乱爆发，曾经繁华的长安沦为废墟。在随李隆基西逃的队伍中，已是白发老兵的张小敬再次出现在历史的转折点。马嵬坡前，禁军将士的愤怒达到了顶点。张小敬——这位曾经在长安十二时辰内孤身救城的孤胆英雄，在乱军之中冷静地拉开长弓，一箭将祸国权臣杨国忠射落马下。这一箭，不仅是为死去的战友复仇，更是为那个他曾拼死守护却最终崩塌的盛世大唐，划下了一个血色的句号。",
+        "transition_to": "长安的十二时辰已成绝响，而张小敬的身影最终消失在历史的烟尘之中。",
+        "mood": "desolate",
+        "key_dialogue": "“在队伍中冲出一位叫张小敬的骑士，先一箭把杨国忠射下马。”"
+      }
+    }
+  ],
+  "suspects": []
+}

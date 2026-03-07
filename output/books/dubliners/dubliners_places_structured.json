@@ -1,0 +1,2147 @@
+{
+  "book_info": {
+    "title": "Dubliners",
+    "author": "James Joyce",
+    "type": "novel",
+    "summary": ""
+  },
+  "characters": [],
+  "parts": [],
+  "places": [
+    {
+      "title": "Great Britain Street",
+      "address": "Ireland-Leinster-Dublin-Great Britain Street",
+      "story": "叙述者在神父去世后的次日早晨前往此处，观察神父生前居住的杂货铺，门上挂着丧礼花束和讣告。",
+      "source_evidence": "The next morning after breakfast I went down to look at the little house in Great Britain Street. It was an unassuming shop, registered under the vague name of Drapery .",
+      "chapter_hint": "THE SISTERS",
+      "original_chapter": "THE SISTERS",
+      "event_level": "major",
+      "characters": [
+        "Narrator"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "S. Catherine's Church, Meath Street",
+      "address": "Ireland-Leinster-Dublin-Meath Street-S. Catherine's Church",
+      "story": "詹姆斯·弗林神父生前曾在此教堂任职，这一信息记录在挂在门上的讣告卡片中。",
+      "source_evidence": "July 1st, 1895 The Rev. James Flynn (formerly of S. Catherine's Church, Meath Street), aged sixty-five years. R. I. P.",
+      "chapter_hint": "THE SISTERS",
+      "original_chapter": "THE SISTERS",
+      "event_level": "passing",
+      "characters": [
+        "James Flynn"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Irish college in Rome",
+      "address": "Italy-Lazio-Rome-Irish College",
+      "story": "弗林神父曾在罗马的爱尔兰学院学习，并在此期间教导叙述者如何正确发音拉丁语。",
+      "source_evidence": "He had studied in the Irish college in Rome and he had taught me to pronounce Latin properly.",
+      "chapter_hint": "THE SISTERS",
+      "original_chapter": "THE SISTERS",
+      "event_level": "passing",
+      "characters": [
+        "James Flynn",
+        "Narrator"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Irishtown",
+      "address": "Ireland-Leinster-Dublin-Irishtown",
+      "story": "弗林神父生前曾计划在夏天结束前，带他的姐妹们回他们出生的老房子看看。",
+      "source_evidence": "he'd go out for a drive one fine day just to see the old house again where we were all born down in Irishtown and take me and Nannie with him.",
+      "chapter_hint": "THE SISTERS",
+      "original_chapter": "THE SISTERS",
+      "event_level": "passing",
+      "characters": [
+        "James Flynn",
+        "Eliza Flynn",
+        "Nannie Flynn"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Gardiner Street",
+      "address": "Ireland-Leinster-Dublin-Gardiner Street",
+      "story": "乔·狄龙的父母每天早晨八点都会去加德纳街参加弥撒。",
+      "source_evidence": "His parents went to eight- o'clock mass every morning in Gardiner Street and the peaceful odour of Mrs. Dillon was prevalent in the hall of the house.",
+      "chapter_hint": "AN ENCOUNTER",
+      "original_chapter": "AN ENCOUNTER",
+      "event_level": "passing",
+      "characters": [
+        "Joe Dillon",
+        "Mrs. Dillon"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Persia",
+      "address": "Iran-Persia",
+      "story": "叙述者在梦中感觉自己身处一个习俗奇异的遥远国度，他认为那是波斯。",
+      "source_evidence": "I felt that I had been very far away, in some land where the customs were strange--in Persia, I thought....",
+      "chapter_hint": "THE SISTERS",
+      "original_chapter": "THE SISTERS",
+      "event_level": "passing",
+      "characters": [
+        "Narrator"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Canal Bridge",
+      "address": "Ireland-Dublin-Canal Bridge",
+      "story": "叙述者与Mahony、Leo Dillon约定上午十点在此会合，开始他们的逃学计划。叙述者最先到达，坐在桥边观察电车和风景。",
+      "source_evidence": "We were to meet at ten in the morning on the Canal Bridge. ... In the morning I was firstcomer to the bridge as I lived nearest.",
+      "chapter_hint": "An Encounter",
+      "original_chapter": "An Encounter",
+      "event_level": "major",
+      "characters": [
+        "Narrator",
+        "Mahony"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Wharf Road",
+      "address": "Ireland-Dublin-Wharf Road",
+      "story": "叙述者与Mahony在逃学途中沿着这条路行走，前往码头看船。",
+      "source_evidence": "We arranged to go along the Wharf Road until we came to the ships... We walked along the North Strand Road till we came to the Vitriol Works and then turned to the right along the Wharf Road.",
+      "chapter_hint": "An Encounter",
+      "original_chapter": "An Encounter",
+      "event_level": "minor",
+      "characters": [
+        "Narrator",
+        "Mahony"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Pigeon House",
+      "address": "Ireland-Dublin-Pigeon House Road-Pigeon House",
+      "story": "孩子们计划去参观的地方，但最终因为太累且时间太晚而未能成行。",
+      "source_evidence": "walk out to see the Pigeon House. ... It was too late and we were too tired to carry out our project of visiting the Pigeon House.",
+      "chapter_hint": "An Encounter",
+      "original_chapter": "An Encounter",
+      "event_level": "minor",
+      "characters": [
+        "Narrator",
+        "Mahony"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "North Strand Road",
+      "address": "Ireland-Dublin-North Strand Road",
+      "story": "叙述者和Mahony在前往码头的路上经过了这条街道。",
+      "source_evidence": "We walked along the North Strand Road till we came to the Vitriol Works",
+      "chapter_hint": "An Encounter",
+      "original_chapter": "An Encounter",
+      "event_level": "minor",
+      "characters": [
+        "Narrator",
+        "Mahony"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Vitriol Works",
+      "address": "Ireland-Dublin-North Strand-Vitriol Works",
+      "story": "孩子们步行经过的地标，随后在此右转进入Wharf Road。",
+      "source_evidence": "We walked along the North Strand Road till we came to the Vitriol Works and then turned to the right along the Wharf Road.",
+      "chapter_hint": "An Encounter",
+      "original_chapter": "An Encounter",
+      "event_level": "minor",
+      "characters": [
+        "Narrator",
+        "Mahony"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Smoothing Iron",
+      "address": "Ireland-Dublin-Dublin Bay-Smoothing Iron",
+      "story": "孩子们到达这个海滨地点并试图组织一场“围攻”游戏，但因人数不足而失败。",
+      "source_evidence": "When we came to the Smoothing Iron we arranged a siege; but it was a failure because you must have at least three.",
+      "chapter_hint": "An Encounter",
+      "original_chapter": "An Encounter",
+      "event_level": "minor",
+      "characters": [
+        "Narrator",
+        "Mahony"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Ringsend",
+      "address": "Ireland-Dublin-Ringsend",
+      "story": "孩子们在河对岸观察到Ringsend的渔船队，随后穿过利菲河进入该区，在贫民区街道漫步并购买零食。",
+      "source_evidence": "the brown fishing fleet beyond Ringsend... When we were tired of this sight we wandered slowly into Ringsend.",
+      "chapter_hint": "An Encounter",
+      "original_chapter": "An Encounter",
+      "event_level": "major",
+      "characters": [
+        "Narrator",
+        "Mahony"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "River Liffey",
+      "address": "Ireland-Dublin-River Liffey",
+      "story": "叙述者和Mahony乘坐渡轮穿过这条河流，观察码头上的挪威船只。",
+      "source_evidence": "We crossed the Liffey in the ferryboat, paying our toll to be transported in the company of two labourers and a little Jew with a bag.",
+      "chapter_hint": "An Encounter",
+      "original_chapter": "An Encounter",
+      "event_level": "minor",
+      "characters": [
+        "Narrator",
+        "Mahony"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "River Dodder",
+      "address": "Ireland-Dublin-River Dodder",
+      "story": "孩子们在Ringsend的一块田地休息时，可以从斜坡上看到这条河。",
+      "source_evidence": "when we reached the field we made at once for a sloping bank over the ridge of which we could see the Dodder.",
+      "chapter_hint": "An Encounter",
+      "original_chapter": "An Encounter",
+      "event_level": "minor",
+      "characters": [
+        "Narrator",
+        "Mahony"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "North Richmond Street",
+      "address": "Ireland-Dublin-North Richmond Street",
+      "story": "一条死胡同，叙述者居住的地方。这里环境安静，除了基督兄弟学校放学的时候。",
+      "source_evidence": "NORTH RICHMOND STREET being blind, was a quiet street except at the hour when the Christian Brothers' School set the boys free.",
+      "chapter_hint": "Araby",
+      "original_chapter": "Araby",
+      "event_level": "major",
+      "characters": [
+        "Narrator"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Christian Brothers' School",
+      "address": "Ireland-Dublin-North Richmond Street-Christian Brothers' School",
+      "story": "位于北里士满街的学校，放学时男孩们会涌入街道。",
+      "source_evidence": "NORTH RICHMOND STREET being blind, was a quiet street except at the hour when the Christian Brothers' School set the boys free.",
+      "chapter_hint": "Araby",
+      "original_chapter": "Araby",
+      "event_level": "passing",
+      "characters": [
+        "Narrator"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Araby",
+      "address": "Ireland-Dublin-Araby Bazaar",
+      "story": "曼根的姐姐提到的一个大型集市。叙述者承诺如果他去的话会给她带礼物。",
+      "source_evidence": "The syllables of the word Araby were called to me through the silence... I walked into the centre of the bazaar timidly.",
+      "chapter_hint": "Araby",
+      "original_chapter": "Araby",
+      "event_level": "major",
+      "characters": [
+        "Narrator",
+        "Mangan's sister"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Buckingham Street",
+      "address": "Ireland-Dublin-Buckingham Street",
+      "story": "叙述者（小男孩）手握两先令硬币，穿过白金汉街走向火车站，准备前往阿拉比集市。",
+      "source_evidence": "I held a florin tightly in my hand as I strode down Buckingham Street towards the station.",
+      "chapter_hint": "ARABY",
+      "original_chapter": "Araby",
+      "event_level": "minor",
+      "characters": [
+        "The Narrator"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Westland Row Station",
+      "address": "Ireland-Dublin-Westland Row",
+      "story": "火车在威斯特兰行火车站停靠，一群人挤向车门，但被乘务员挡住，因为这是前往集市的专列。",
+      "source_evidence": "At Westland Row Station a crowd of people pressed to the carriage doors; but the porters moved them back, saying that it was a special train for the bazaar.",
+      "chapter_hint": "ARABY",
+      "original_chapter": "Araby",
+      "event_level": "minor",
+      "characters": [
+        "The Narrator"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Melbourne",
+      "address": "Australia-Victoria-Melbourne",
+      "story": "伊芙琳家墙上挂着一张神父的照片，他是她父亲的校友，据说现在在墨尔本。",
+      "source_evidence": "Whenever he showed the photograph to a visitor her father used to pass it with a casual word: 'He is in Melbourne now.'",
+      "chapter_hint": "EVELINE",
+      "original_chapter": "Eveline",
+      "event_level": "passing",
+      "characters": [
+        "Eveline",
+        "Eveline's father"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Buenos Ayres",
+      "address": "Argentina-Buenos Aires-Buenos Aires",
+      "story": "弗兰克在布宜诺斯艾利斯定居并有了家，他希望伊芙琳能随他乘船前往那里开始新生活。",
+      "source_evidence": "She was to go away with him by the night-boat to be his wife and to live with him in Buenos Ayres where he had a home waiting for her.",
+      "chapter_hint": "EVELINE",
+      "original_chapter": "Eveline",
+      "event_level": "major",
+      "characters": [
+        "Eveline",
+        "Frank"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Straits of Magellan",
+      "address": "Chile-Straits of Magellan",
+      "story": "弗兰克向伊芙琳讲述他当海员时的冒险经历，提到他曾航行经过麦哲伦海峡。",
+      "source_evidence": "He had sailed through the Straits of Magellan and he told her stories of the terrible Patagonians.",
+      "chapter_hint": "EVELINE",
+      "original_chapter": "Eveline",
+      "event_level": "passing",
+      "characters": [
+        "Frank",
+        "Eveline"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Hill of Howth",
+      "address": "Ireland-Dublin-Howth-Hill of Howth",
+      "story": "伊芙琳回忆起母亲还在世时，全家人曾一起去霍斯山野餐的快乐时光。",
+      "source_evidence": "Another day, when their mother was alive, they had all gone for a picnic to the Hill of Howth.",
+      "chapter_hint": "EVELINE",
+      "original_chapter": "Eveline",
+      "event_level": "minor",
+      "characters": [
+        "Eveline",
+        "Eveline's father",
+        "Eveline's mother"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "North Wall",
+      "address": "Ireland-Dublin-North Wall",
+      "story": "伊芙琳与弗兰克准备私奔的码头车站。在最后一刻，伊芙琳因恐惧和责任感拒绝登船，留在了岸边。",
+      "source_evidence": "EIGHT years before he had seen his friend off at the North Wall and wished him godspeed.",
+      "chapter_hint": "EVELINE",
+      "original_chapter": "Eveline",
+      "event_level": "major",
+      "characters": [
+        "Eveline",
+        "Frank"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Naas Road",
+      "address": "Ireland-Dublin-Naas Road",
+      "story": "赛车沿着纳斯路平稳地驶向都柏林，围观群众聚集在路边观看。",
+      "source_evidence": "The cars came scudding in towards Dublin, running evenly like pellets in the groove of the Naas Road.",
+      "chapter_hint": "AFTER THE RACE",
+      "original_chapter": "After the Race",
+      "event_level": "minor",
+      "characters": [
+        "Charles Segouin",
+        "André Rivière",
+        "Villona",
+        "Jimmy Doyle"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Inchicore",
+      "address": "Ireland-Dublin-Inchicore",
+      "story": "在英奇科尔的山顶，观光者成群结队地观看赛车驶回都柏林。",
+      "source_evidence": "At the crest of the hill at Inchicore sightseers had gathered in clumps to watch the cars careering homeward",
+      "chapter_hint": "AFTER THE RACE",
+      "original_chapter": "After the Race",
+      "event_level": "minor",
+      "characters": [
+        "Charles Segouin",
+        "André Rivière",
+        "Villona",
+        "Jimmy Doyle"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Kingstown",
+      "address": "Ireland-Dublin-Dún Laoghaire",
+      "story": "吉米·多伊尔的父亲最初在金斯敦（现称邓莱里）当屠夫发迹，随后在都柏林开设了多家店铺。",
+      "source_evidence": "His father... had made his money as a butcher in Kingstown and by opening shops in Dublin and in the suburbs he had made his money many times over.",
+      "chapter_hint": "AFTER THE RACE",
+      "original_chapter": "After the Race",
+      "event_level": "passing",
+      "characters": [
+        "Jimmy Doyle's father"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Dame Street",
+      "address": "Ireland-Leinster-Dublin-Dame Street",
+      "story": "吉米与匈牙利朋友维罗纳随赛贡的车驶过繁忙的丹姆街，并在银行附近下车。后来科利提到他曾在这条街上搭讪过一个女孩。",
+      "source_evidence": "They drove down Dame Street. The street was busy with unusual traffic... One night, man,\" he said, \"I was going along Dame Street and I spotted a fine tart under Waterhouse's clock",
+      "chapter_hint": "AFTER THE RACE / TWO GALLANTS",
+      "original_chapter": "After the Race / Two Gallants",
+      "event_level": "major",
+      "characters": [
+        "Jimmy Doyle",
+        "Villona",
+        "Segouin",
+        "Corley"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Grafton Street",
+      "address": "Ireland-Leinster-Dublin-Grafton Street",
+      "story": "赛贡的车向格拉夫顿街驶去；当晚吉米一行人散步时，在格拉夫顿街拐角遇到了美国人法利。",
+      "source_evidence": "The car steered out slowly for Grafton Street while the two young men pushed their way through the knot of gazers... At the corner of Grafton Street a short fat man was putting two handsome ladies on a car",
+      "chapter_hint": "AFTER THE RACE",
+      "original_chapter": "After the Race",
+      "event_level": "minor",
+      "characters": [
+        "Jimmy Doyle",
+        "Segouin",
+        "Farley"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Stephen's Green",
+      "address": "Ireland-Leinster-Dublin-Stephen's Green",
+      "story": "吉米与朋友们在圣斯蒂芬绿地散步抽烟；在另一故事中，连尼汉与科利穿过马路到达此处，随后见到了那个女孩。",
+      "source_evidence": "The five young men strolled along Stephen's Green in a faint cloud of aromatic smoke... When they reached Stephen's Green they crossed the road.",
+      "chapter_hint": "AFTER THE RACE / TWO GALLANTS",
+      "original_chapter": "After the Race / Two Gallants",
+      "event_level": "minor",
+      "characters": [
+        "Jimmy Doyle",
+        "Villona",
+        "Segouin",
+        "Routh",
+        "Rivière",
+        "Lenehan",
+        "Corley"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Westland Row",
+      "address": "Ireland-Leinster-Dublin-Westland Row",
+      "story": "吉米一行人在威斯特兰行火车站乘车前往金斯敦。",
+      "source_evidence": "They took the train at Westland Row and in a few seconds, as it seemed to Jimmy, they were walking out of Kingstown Station.",
+      "chapter_hint": "AFTER THE RACE",
+      "original_chapter": "After the Race",
+      "event_level": "minor",
+      "characters": [
+        "Jimmy Doyle",
+        "Villona",
+        "Segouin",
+        "Routh",
+        "Rivière",
+        "Farley"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Kingstown Station",
+      "address": "Ireland-Leinster-Dublin-Dún Laoghaire-Kingstown Station",
+      "story": "吉米一行人抵达金斯敦车站，检票员向吉米打招呼，随后他们前往港口登上游艇。",
+      "source_evidence": "they were walking out of Kingstown Station. The ticket-collector saluted Jimmy",
+      "chapter_hint": "AFTER THE RACE",
+      "original_chapter": "After the Race",
+      "event_level": "major",
+      "characters": [
+        "Jimmy Doyle",
+        "Villona",
+        "Segouin",
+        "Routh",
+        "Rivière",
+        "Farley"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Rutland Square",
+      "address": "Ireland-Leinster-Dublin-Rutland Square",
+      "story": "连尼汉与科利走下拉特兰广场的山丘，科利在途中讲述他如何欺骗一名女仆。",
+      "source_evidence": "He turned to the left when he came to the corner of Rutland Square and felt more at ease in the dark quiet street",
+      "chapter_hint": "TWO GALLANTS",
+      "original_chapter": "Two Gallants",
+      "event_level": "minor",
+      "characters": [
+        "Lenehan",
+        "Corley"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Dorset Street",
+      "address": "Ireland-Leinster-Dublin-Dorset Street",
+      "story": "连尼汉整个下午都在多塞特街的一家酒馆里聊天。",
+      "source_evidence": "His tongue was tired for he had been talking all the afternoon in a public-house in Dorset Street.",
+      "chapter_hint": "TWO GALLANTS",
+      "original_chapter": "Two Gallants",
+      "event_level": "passing",
+      "characters": [
+        "Lenehan"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Baggot Street",
+      "address": "Ireland-Leinster-Dublin-Baggot Street",
+      "story": "科利和女子转入巴戈特街，兰尼汉在对面人行道尾随。",
+      "source_evidence": "They turned down Baggot Street and he followed them at once, taking the other footpath.",
+      "chapter_hint": "Two Gallants",
+      "original_chapter": "Two Gallants",
+      "event_level": "minor",
+      "characters": [
+        "Lenehan",
+        "Corley"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Donnybrook",
+      "address": "Ireland-Leinster-Dublin-Donnybrook",
+      "story": "科利曾带那个女孩去多尼布鲁克的一处田地。",
+      "source_evidence": "Then next Sunday, man, I met her by appointment. We vent out to Donnybrook and I brought her into a field there.",
+      "chapter_hint": "TWO GALLANTS",
+      "original_chapter": "Two Gallants",
+      "event_level": "passing",
+      "characters": [
+        "Corley"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "South Circular",
+      "address": "Ireland-Leinster-Dublin-South Circular Road",
+      "story": "科利提到他以前经常和南环路附近的女孩交往。",
+      "source_evidence": "First I used to go with girls, you know,\" said Corley, unbosoming; \"girls off the South Circular.",
+      "chapter_hint": "TWO GALLANTS",
+      "original_chapter": "Two Gallants",
+      "event_level": "passing",
+      "characters": [
+        "Corley"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Earl Street",
+      "address": "Ireland-Leinster-Dublin-Earl Street",
+      "story": "科利曾在伯爵街看到他以前的一个约会对象坐在车里。",
+      "source_evidence": "I saw her driving down Earl Street one night with two fellows with her on a car.",
+      "chapter_hint": "TWO GALLANTS",
+      "original_chapter": "Two Gallants",
+      "event_level": "passing",
+      "characters": [
+        "Corley"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Trinity College",
+      "address": "Ireland-Leinster-Dublin-Trinity College",
+      "story": "连尼汉与科利经过三一学院的围栏，连尼汉查看了学院的时钟。",
+      "source_evidence": "As they passed along the railings of Trinity College, Lenehan skipped out into the road and peered up at the clock.",
+      "chapter_hint": "TWO GALLANTS",
+      "original_chapter": "Two Gallants",
+      "event_level": "minor",
+      "characters": [
+        "Lenehan",
+        "Corley"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Nassau Street",
+      "address": "Ireland-Leinster-Dublin-Nassau Street",
+      "story": "连尼汉与科利走过拿骚街，随后转入基尔代尔街。",
+      "source_evidence": "They walked along Nassau Street and then turned into Kildare Street.",
+      "chapter_hint": "TWO GALLANTS",
+      "original_chapter": "Two Gallants",
+      "event_level": "minor",
+      "characters": [
+        "Lenehan",
+        "Corley"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Kildare Street",
+      "address": "Ireland-Leinster-Dublin-Kildare Street",
+      "story": "两人走在基尔代尔街上，听到一名竖琴手在俱乐部走廊附近演奏。",
+      "source_evidence": "They walked along Nassau Street and then turned into Kildare Street. Not far from the porch of the club a harpist stood in the roadway",
+      "chapter_hint": "TWO GALLANTS",
+      "original_chapter": "Two Gallants",
+      "event_level": "minor",
+      "characters": [
+        "Lenehan",
+        "Corley"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Hume Street",
+      "address": "Ireland-Leinster-Dublin-Hume Street",
+      "story": "科利约见的年轻女子站在休姆街的拐角处。",
+      "source_evidence": "As he approached Hume Street corner he found the air heavily scented and his eyes made a swift anxious scrutiny of the young woman's appearance.",
+      "chapter_hint": "TWO GALLANTS",
+      "original_chapter": "Two Gallants",
+      "event_level": "major",
+      "characters": [
+        "Corley",
+        "Lenehan"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Merrion Street",
+      "address": "Ireland-Leinster-Dublin-Merrion Street",
+      "story": "科利与连尼汉约定十点半在梅里恩街拐角再次碰头。",
+      "source_evidence": "When he reached the corner of Merrion Street he took his stand in the shadow of a lamp",
+      "chapter_hint": "TWO GALLANTS",
+      "original_chapter": "Two Gallants",
+      "event_level": "minor",
+      "characters": [
+        "Corley",
+        "Lenehan"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Shelbourne Hotel",
+      "address": "Ireland-Leinster-Dublin-27 St Stephen's Green-Shelbourne Hotel",
+      "story": "兰尼汉走到谢尔本酒店停下等待，随后跟踪科利和那名女子。",
+      "source_evidence": "Lenehan walked as far as the Shelbourne Hotel where he halted and waited.",
+      "chapter_hint": "Two Gallants",
+      "original_chapter": "Two Gallants",
+      "event_level": "minor",
+      "characters": [
+        "Lenehan",
+        "Corley"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Merrion Square",
+      "address": "Ireland-Leinster-Dublin-Merrion Square",
+      "story": "兰尼汉尾随科利和女子走过梅林广场的一侧，观察他们的互动。",
+      "source_evidence": "he followed them, stepping lightly in his white shoes, down one side of Merrion Square.",
+      "chapter_hint": "Two Gallants",
+      "original_chapter": "Two Gallants",
+      "event_level": "minor",
+      "characters": [
+        "Lenehan",
+        "Corley"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Duke's Lawn",
+      "address": "Ireland-Leinster-Dublin-Merrion Square-Duke's Lawn",
+      "story": "兰尼汉独自走过公爵草坪的栏杆，心情变得落寞，手指划过栏杆。",
+      "source_evidence": "as he came by the railings of the Duke's Lawn, he allowed his hand to run along them.",
+      "chapter_hint": "Two Gallants",
+      "original_chapter": "Two Gallants",
+      "event_level": "minor",
+      "characters": [
+        "Lenehan"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Capel Street",
+      "address": "Ireland-Leinster-Dublin-Capel Street",
+      "story": "兰尼汉吃完饭后继续游荡，走入卡佩尔街并向市政厅方向走去。",
+      "source_evidence": "He turned to the right towards Capel Street. ... For the first time his soul revolted against the dull inelegance of Capel Street.",
+      "chapter_hint": "Two Gallants",
+      "original_chapter": "Two Gallants",
+      "event_level": "minor",
+      "characters": [
+        "Lenehan"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "City Hall",
+      "address": "Ireland-Leinster-Dublin-Dame Street-City Hall",
+      "story": "兰尼汉沿着卡佩尔街向市政厅方向走去。",
+      "source_evidence": "He went into Capel Street and walked along towards the City Hall.",
+      "chapter_hint": "Two Gallants",
+      "original_chapter": "Two Gallants",
+      "event_level": "passing",
+      "characters": [
+        "Lenehan"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "George's Street",
+      "address": "Ireland-Leinster-Dublin-South Great George's Street",
+      "story": "兰尼汉在乔治街拐角遇到朋友并交谈，随后又沿着这条街往上走。",
+      "source_evidence": "every evening walked home from the city after having dined moderately in George's Street and read the evening paper for dessert.",
+      "chapter_hint": "Two Gallants",
+      "original_chapter": "Two Gallants",
+      "event_level": "minor",
+      "characters": [
+        "Lenehan"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Westmoreland Street",
+      "address": "Ireland-Leinster-Dublin-Westmoreland Street",
+      "story": "朋友提到一小时前在威斯特摩兰街见过麦克。",
+      "source_evidence": "In Westmoreland Street the footpaths were crowded with young men and women returning from business and ragged urchins ran here and there yelling out the names of the evening editions.",
+      "chapter_hint": "Two Gallants",
+      "original_chapter": "Two Gallants",
+      "event_level": "passing",
+      "characters": [
+        "Lenehan"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Egan's",
+      "address": "Ireland-Leinster-Dublin-Egan's",
+      "story": "兰尼汉提到前一晚和麦克在伊根酒吧，霍洛汉在那里请客。",
+      "source_evidence": "At this Lenehan said that he had been with Mac the night before in Egan's.",
+      "chapter_hint": "Two Gallants",
+      "original_chapter": "Two Gallants",
+      "event_level": "passing",
+      "characters": [
+        "Lenehan",
+        "Holohan"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "City Markets",
+      "address": "Ireland-Leinster-Dublin-South Great George's Street-City Markets",
+      "story": "兰尼汉在城市市场处左转，再次走向格拉夫顿街。",
+      "source_evidence": "He turned to the left at the City Markets and walked on into Grafton Street.",
+      "chapter_hint": "Two Gallants",
+      "original_chapter": "Two Gallants",
+      "event_level": "minor",
+      "characters": [
+        "Lenehan"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "College of Surgeons",
+      "address": "Ireland-Leinster-Dublin-St Stephen's Green-Royal College of Surgeons",
+      "story": "兰尼汉走到外科医学院的钟下，当时正是十点整。",
+      "source_evidence": "He went as far as the clock of the College of Surgeons: it was on the stroke of ten.",
+      "chapter_hint": "Two Gallants",
+      "original_chapter": "Two Gallants",
+      "event_level": "minor",
+      "characters": [
+        "Lenehan"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Ely Place",
+      "address": "Ireland-Leinster-Dublin-Ely Place",
+      "story": "科利在伊利广场拐角突然转向侧街，最后向兰尼汉展示他得到的金币。",
+      "source_evidence": "They had reached the corner of Ely Place. Still without answering, Corley swerved to the left and went up the side street.",
+      "chapter_hint": "Two Gallants",
+      "original_chapter": "Two Gallants",
+      "event_level": "major",
+      "characters": [
+        "Lenehan",
+        "Corley"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Spring Gardens",
+      "address": "Ireland-Leinster-Dublin-Spring Gardens",
+      "story": "穆尼夫人在春园附近开了一家肉铺，那是她婚姻悲剧的开始。",
+      "source_evidence": "She had married her father's foreman and opened a butcher's shop near Spring Gardens.",
+      "chapter_hint": "The Boarding House",
+      "original_chapter": "The Boarding House",
+      "event_level": "passing",
+      "characters": [
+        "Mrs. Mooney"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Hardwicke Street",
+      "address": "Ireland-Leinster-Dublin-Hardwicke Street",
+      "story": "穆尼夫人在哈德威克街经营着一家寄宿家庭，住客多为城市职员和游客。",
+      "source_evidence": "Mrs. Mooney, who had taken what remained of her money out of the butcher business and set up a boarding house in Hardwicke Street",
+      "chapter_hint": "The Boarding House",
+      "original_chapter": "The Boarding House",
+      "event_level": "major",
+      "characters": [
+        "Mrs. Mooney",
+        "Polly Mooney",
+        "Mr. Doran"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Fleet Street",
+      "address": "Ireland-Dublin-Fleet Street",
+      "story": "法林顿在去喝酒前，想起位于弗利特街的特里·凯利当铺，决定去那里典当手表换钱。",
+      "source_evidence": "Suddenly, as he was fingering his watch-chain, he thought of Terry Kelly's pawn-office in Fleet Street.",
+      "chapter_hint": "COUNTERPARTS",
+      "original_chapter": "Counterparts",
+      "event_level": "minor",
+      "characters": [
+        "Farrington"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "George's Church",
+      "address": "Ireland-Leinster-Dublin-Hardwicke Place-St. George's Church",
+      "story": "周日上午，乔治教堂的钟声响起，信徒们穿过教堂前的广场。",
+      "source_evidence": "The belfry of George's Church sent out constant peals and worshippers, singly or in groups, traversed the little circus before the church",
+      "chapter_hint": "The Boarding House",
+      "original_chapter": "The Boarding House",
+      "event_level": "minor",
+      "characters": [
+        "Mrs. Mooney"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Marlborough Street",
+      "address": "Ireland-Leinster-Dublin-Marlborough Street",
+      "story": "穆尼夫人计划在处理完多兰先生的事情后，赶去马尔伯勒街参加十二点的弥撒。",
+      "source_evidence": "she would have lots of time to have the matter out with Mr. Doran and then catch short twelve at Marlborough Street.",
+      "chapter_hint": "The Boarding House",
+      "original_chapter": "The Boarding House",
+      "event_level": "minor",
+      "characters": [
+        "Mrs. Mooney"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Dublin",
+      "address": "Ireland-Leinster-Dublin",
+      "story": "都柏林被描述为一个狭小的城市，人尽皆知他人的私事。多兰先生担心丑闻传开，而小钱德勒则认为在都柏林无法出人头地，必须离开这里才能成功。",
+      "source_evidence": "Miss Kathleen Kearney's musical career was ended in Dublin after that, he said. ... Mr. Power, a much younger man, was employed in the Royal Irish Constabulary Office in Dublin Castle.",
+      "chapter_hint": "The Boarding House / A Little Cloud",
+      "original_chapter": "The Boarding House",
+      "event_level": "major",
+      "characters": [
+        "Mr. Doran",
+        "Little Chandler",
+        "Ignatius Gallaher"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "London",
+      "address": "England-London",
+      "story": "加拉赫居住和工作的城市。小钱德勒将其视为伟大的都市，并认为加拉赫在伦敦新闻界取得了辉煌的成就。",
+      "source_evidence": "the great city London where Gallaher lived. ... The friend whom he had known under a shabby and necessitous guise had become a brilliant figure on the London Press.",
+      "chapter_hint": "A Little Cloud",
+      "original_chapter": "A Little Cloud",
+      "event_level": "minor",
+      "characters": [
+        "Little Chandler",
+        "Ignatius Gallaher"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "King's Inns",
+      "address": "Ireland-Leinster-Dublin-Constitution Hill-King's Inns",
+      "story": "小钱德勒工作的地方。他坐在办公室的桌子前，望着窗外的夕阳，感叹生活的忧郁和命运的无奈。",
+      "source_evidence": "As he sat at his desk in the King's Inns he thought what changes those eight years had brought. ... He emerged from under the feudal arch of the King's Inns",
+      "chapter_hint": "A Little Cloud",
+      "original_chapter": "A Little Cloud",
+      "event_level": "major",
+      "characters": [
+        "Little Chandler"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Henrietta Street",
+      "address": "Ireland-Leinster-Dublin-Henrietta Street",
+      "story": "小钱德勒下班后走过的街道。他穿过成群的肮脏小孩，走在曾经属于都柏林旧贵族的宏伟宅邸阴影下。",
+      "source_evidence": "He emerged from under the feudal arch of the King's Inns, a neat modest figure, and walked swiftly down Henrietta Street.",
+      "chapter_hint": "A Little Cloud",
+      "original_chapter": "A Little Cloud",
+      "event_level": "minor",
+      "characters": [
+        "Little Chandler"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Corless's",
+      "address": "Ireland-Leinster-Dublin-Andrew Street-Corless's",
+      "story": "都柏林著名的餐厅和酒吧。小钱德勒在这里与多年未见的加拉赫重逢，并对这里的氛围和加拉赫的俗气感到一丝局促和幻灭。",
+      "source_evidence": "He had never been in Corless's but he knew the value of the name. ... As he came near Corless's his former agitation began to overmaster him and he halted before the door in indecision.",
+      "chapter_hint": "A Little Cloud",
+      "original_chapter": "A Little Cloud",
+      "event_level": "major",
+      "characters": [
+        "Little Chandler",
+        "Ignatius Gallaher"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Grattan Bridge",
+      "address": "Ireland-Leinster-Dublin-Grattan Bridge",
+      "story": "小钱德勒穿过这座桥时，俯瞰河流下游的码头，并对岸边那些像流浪汉一样破旧的房屋产生了怜悯之情。",
+      "source_evidence": "There were so many things he wanted to describe: his sensation of a few hours before on Grattan Bridge, for example.",
+      "chapter_hint": "A Little Cloud",
+      "original_chapter": "A Little Cloud",
+      "event_level": "minor",
+      "characters": [
+        "Little Chandler"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Isle of Man",
+      "address": "Isle of Man",
+      "story": "小钱德勒唯一去过的旅行地，当他向加拉赫提起时，遭到了对方的嘲笑。",
+      "source_evidence": "\"I've been to the Isle of Man,\" said Little Chandler. Ignatius Gallaher laughed.",
+      "chapter_hint": "A Little Cloud",
+      "original_chapter": "A Little Cloud",
+      "event_level": "passing",
+      "characters": [
+        "Little Chandler",
+        "Ignatius Gallaher"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Paris",
+      "address": "France-Île-de-France-Paris",
+      "story": "加拉赫向小钱德勒极力推荐的城市，称其充满了快乐、运动和刺激，是享受生活的最佳去处。",
+      "source_evidence": "Go to London or Paris: Paris, for choice. ... Ah, there's no city like Paris for gaiety, movement, excitement....",
+      "chapter_hint": "A Little Cloud",
+      "original_chapter": "A Little Cloud",
+      "event_level": "minor",
+      "characters": [
+        "Ignatius Gallaher",
+        "Little Chandler"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Moulin Rouge",
+      "address": "France-Île-de-France-Paris-Moulin Rouge",
+      "story": "加拉赫声称自己去过红磨坊，并以此向小钱德勒炫耀巴黎的波希米亚式生活。",
+      "source_evidence": "\"I've been to the Moulin Rouge,\" Ignatius Gallaher continued when the barman had removed their glasses",
+      "chapter_hint": "A Little Cloud",
+      "original_chapter": "A Little Cloud",
+      "event_level": "passing",
+      "characters": [
+        "Ignatius Gallaher"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Berlin",
+      "address": "Germany-Berlin-Berlin-Berlin",
+      "story": "加拉赫在描述欧洲各大首都的堕落时，认为柏林的恶习最为严重。",
+      "source_evidence": "He summarised the vices of many capitals and seemed inclined to award the palm to Berlin.",
+      "chapter_hint": "A Little Cloud",
+      "original_chapter": "A Little Cloud",
+      "event_level": "passing",
+      "characters": [
+        "Ignatius Gallaher"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Bewley's",
+      "address": "Ireland-Leinster-Dublin-Grafton Street-Bewley's",
+      "story": "小钱德勒回家晚了，且忘记给妻子安妮买回这家店的咖啡，导致妻子心情不佳。",
+      "source_evidence": "he had forgotten to bring Annie home the parcel of coffee from Bewley's.",
+      "chapter_hint": "A Little Cloud",
+      "original_chapter": "A Little Cloud",
+      "event_level": "minor",
+      "characters": [
+        "Little Chandler",
+        "Annie"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Crosbie & Alleyne",
+      "address": "Ireland-Leinster-Dublin-Eustace Street-Crosbie & Alleyne",
+      "story": "法灵顿工作的法律事务所，他在这里受到老板艾伦先生的严厉斥责和催促。",
+      "source_evidence": "The man stared fixedly at the polished skull which directed the affairs of Crosbie & Alleyne",
+      "chapter_hint": "Counterparts",
+      "original_chapter": "Counterparts",
+      "event_level": "major",
+      "characters": [
+        "Farrington",
+        "Mr. Alleyne",
+        "Miss Parker",
+        "Mr. Shelley"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "O'Neill's shop",
+      "address": "Ireland-Leinster-Dublin-Eustace Street-O'Neill's",
+      "story": "法灵顿偷偷溜出办公室，躲进这家店的雅座里迅速喝了一杯波特啤酒以解渴。",
+      "source_evidence": "He was now safe in the dark snug of O'Neill's shop, and filling up the little window that looked into the bar with his inflamed face",
+      "chapter_hint": "Counterparts",
+      "original_chapter": "Counterparts",
+      "event_level": "minor",
+      "characters": [
+        "Farrington",
+        "Pat"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Eustace Street",
+      "address": "Ireland-Leinster-Dublin-Temple Bar-Eustace Street",
+      "story": "法灵顿工作的办公室所在地，二月的黄昏中街道上的路灯已经点亮。",
+      "source_evidence": "Darkness, accompanied by a thick fog, was gaining upon the dusk of February and the lamps in Eustace Street had been lit.",
+      "chapter_hint": "Counterparts",
+      "original_chapter": "Counterparts",
+      "event_level": "minor",
+      "characters": [
+        "Farrington"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Temple Bar",
+      "address": "Ireland-Dublin-Temple Bar",
+      "story": "法林顿穿过圣殿酒吧区的狭窄小巷，急匆匆地赶往当铺。",
+      "source_evidence": "He went through the narrow alley of Temple Bar quickly, muttering to himself that they could all go to hell because he was going to have a good night of it.",
+      "chapter_hint": "COUNTERPARTS",
+      "original_chapter": "Counterparts",
+      "event_level": "passing",
+      "characters": [
+        "Farrington"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Davy Byrne's",
+      "address": "Ireland-Dublin-Duke Street-Davy Byrne's",
+      "story": "法林顿在戴维·伯恩酒吧遇到了诺西·弗林，并向朋友们吹嘘自己顶撞老板的经历。",
+      "source_evidence": "Nosey Flynn was sitting up in his usual corner of Davy Byrne's and, when he heard the story, he stood Farrington a half-one",
+      "chapter_hint": "COUNTERPARTS",
+      "original_chapter": "Counterparts",
+      "event_level": "major",
+      "characters": [
+        "Farrington",
+        "Nosey Flynn",
+        "Paddy Leonard",
+        "O'Halloran"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Fownes's Street",
+      "address": "Ireland-Dublin-Fownes's Street",
+      "story": "奥哈洛伦提到他以前在福恩斯街的卡兰书店工作时，也曾反驳过首席店员。",
+      "source_evidence": "O'Halloran stood tailors of malt, hot, all round and told the story of the retort he had made to the chief clerk when he was in Callan's of Fownes's Street",
+      "chapter_hint": "COUNTERPARTS",
+      "original_chapter": "Counterparts",
+      "event_level": "passing",
+      "characters": [
+        "O'Halloran"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Duke Street",
+      "address": "Ireland-Dublin-Duke Street",
+      "story": "一行人离开酒吧后，在公爵街拐角处分道扬镳。",
+      "source_evidence": "At the corner of Duke Street Higgins and Nosey Flynn bevelled off to the left while the other three turned back towards the city.",
+      "chapter_hint": "COUNTERPARTS",
+      "original_chapter": "Counterparts",
+      "event_level": "passing",
+      "characters": [
+        "Higgins",
+        "Nosey Flynn",
+        "Farrington",
+        "Paddy Leonard",
+        "O'Halloran"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Ballast Office",
+      "address": "Ireland-Dublin-Westmoreland Street-Ballast Office",
+      "story": "当他们走到压舱局大楼时，法林顿提议去苏格兰酒馆喝酒。",
+      "source_evidence": "Rain was drizzling down on the cold streets and, when they reached the Ballast Office, Farrington suggested the Scotch House.",
+      "chapter_hint": "COUNTERPARTS",
+      "original_chapter": "Counterparts",
+      "event_level": "passing",
+      "characters": [
+        "Farrington",
+        "Paddy Leonard",
+        "O'Halloran"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Scotch House",
+      "address": "Ireland-Dublin-Burgh Quay-Scotch House",
+      "story": "法林顿等人在苏格兰酒馆喝酒，结识了杂技演员韦瑟斯，并不断请客。 ",
+      "source_evidence": "The bar was full of men and loud with the noise of tongues and glasses. The three men pushed past the whining matchsellers at the door and formed a little party at the corner of the counter.",
+      "chapter_hint": "COUNTERPARTS",
+      "original_chapter": "Counterparts",
+      "event_level": "major",
+      "characters": [
+        "Farrington",
+        "Paddy Leonard",
+        "O'Halloran",
+        "Weathers"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Tivoli",
+      "address": "Ireland-Dublin-Burgh Quay-Tivoli Theatre",
+      "story": "韦瑟斯提到自己在蒂沃利剧院表演，随后法林顿在另一家酒吧也遇到了该剧院的演员。",
+      "source_evidence": "Leonard introduced them to a young fellow named Weathers who was performing at the Tivoli as an acrobat and knockabout artiste.",
+      "chapter_hint": "COUNTERPARTS",
+      "original_chapter": "Counterparts",
+      "event_level": "passing",
+      "characters": [
+        "Weathers"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Mulligan's",
+      "address": "Ireland-Dublin-Poolbeg Street-Mulligan's",
+      "story": "众人在穆里根酒吧继续喝酒。法林顿在这里与韦瑟斯比试力气却两次落败，感到极度羞辱。",
+      "source_evidence": "When the Scotch House closed they went round to Mulligan's. They went into the parlour at the back and O'Halloran ordered small hot specials all round.",
+      "chapter_hint": "COUNTERPARTS",
+      "original_chapter": "Counterparts",
+      "event_level": "major",
+      "characters": [
+        "Farrington",
+        "O'Halloran",
+        "Weathers",
+        "Paddy Leonard"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "O'Connell Bridge",
+      "address": "Ireland-Dublin-O'Connell Bridge",
+      "story": "法林顿满心愤怒地站在奥康内尔桥头，等待回家的电车。",
+      "source_evidence": "A very sullen-faced man stood at the corner of O'Connell Bridge waiting for the little Sandymount tram to take him home.",
+      "chapter_hint": "COUNTERPARTS",
+      "original_chapter": "Counterparts",
+      "event_level": "minor",
+      "characters": [
+        "Farrington"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Shelbourne Road",
+      "address": "Ireland-Dublin-Shelbourne Road",
+      "story": "法林顿在谢尔本路下车，沿着军营围墙的阴影走回家。",
+      "source_evidence": "His tram let him down at Shelbourne Road and he steered his great body along in the shadow of the wall of the barracks.",
+      "chapter_hint": "COUNTERPARTS",
+      "original_chapter": "Counterparts",
+      "event_level": "minor",
+      "characters": [
+        "Farrington"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Ballsbridge",
+      "address": "Ireland-Dublin-Ballsbridge",
+      "story": "玛丽亚计算着从波尔斯桥坐电车出发的时间。",
+      "source_evidence": "From Ballsbridge to the Pillar, twenty minutes; from the Pillar to Drumcondra, twenty minutes",
+      "chapter_hint": "CLAY",
+      "original_chapter": "Clay",
+      "event_level": "passing",
+      "characters": [
+        "Maria"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "the Pillar",
+      "address": "Ireland-Dublin-O'Connell Street-Nelson's Pillar",
+      "story": "玛丽亚乘电车在柱子（纳尔逊纪念柱）处下车，随后在人群中穿行去买蛋糕。",
+      "source_evidence": "From Ballsbridge to the Pillar, twenty minutes; from the Pillar to Drumcondra, twenty minutes",
+      "chapter_hint": "CLAY",
+      "original_chapter": "CLAY",
+      "event_level": "minor",
+      "characters": [
+        "Maria"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Drumcondra",
+      "address": "Ireland-Dublin-Drumcondra",
+      "story": "玛丽亚计划前往多姆康德拉看望乔一家。",
+      "source_evidence": "from the Pillar to Drumcondra, twenty minutes; and twenty minutes to buy the things.",
+      "chapter_hint": "CLAY",
+      "original_chapter": "Clay",
+      "event_level": "passing",
+      "characters": [
+        "Maria"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Belfast",
+      "address": "United Kingdom-Northern Ireland-Belfast",
+      "story": "玛丽亚的钱包是乔五年前去贝尔法斯特旅行时带给她的礼物。",
+      "source_evidence": "She was very fond of that purse because Joe had brought it to her five years before when he and Alphy had gone to Belfast on a Whit-Monday trip.",
+      "chapter_hint": "CLAY",
+      "original_chapter": "Clay",
+      "event_level": "passing",
+      "characters": [
+        "Maria",
+        "Joe",
+        "Alphy"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Dublin by Lamplight laundry",
+      "address": "Ireland-Dublin-Ballsbridge-Dublin by Lamplight laundry",
+      "story": "玛丽亚在“灯光下的都柏林”洗衣房工作，她很喜欢这里的生活和那里的新教徒。",
+      "source_evidence": "After the break-up at home the boys had got her that position in the Dublin by Lamplight laundry, and she liked it.",
+      "chapter_hint": "CLAY",
+      "original_chapter": "Clay",
+      "event_level": "major",
+      "characters": [
+        "Maria"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Downes's cake-shop",
+      "address": "Ireland-Dublin-Henry Street-Downes's cake-shop",
+      "story": "玛丽亚走进唐斯蛋糕店，由于人多等了很久才买到一打混合便士蛋糕。",
+      "source_evidence": "She went into Downes's cake-shop but the shop was so full of people that it was a long time before she could get herself attended to.",
+      "chapter_hint": "CLAY",
+      "original_chapter": "CLAY",
+      "event_level": "minor",
+      "characters": [
+        "Maria"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Henry Street",
+      "address": "Ireland-Dublin-Henry Street",
+      "story": "因为觉得唐斯店里的李子蛋糕糖霜不够，玛丽亚穿过马路来到亨利街的一家商店购买蛋糕。",
+      "source_evidence": "so she went over to a shop in Henry Street.",
+      "chapter_hint": "CLAY",
+      "original_chapter": "CLAY",
+      "event_level": "minor",
+      "characters": [
+        "Maria"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Joe's house",
+      "address": "Ireland-Dublin-Drumcondra-Joe's house",
+      "story": "玛丽亚来到乔的家参加万圣节聚会，分发蛋糕并和孩子们玩游戏，却发现弄丢了李子蛋糕。",
+      "source_evidence": "Everybody said: \"0, here's Maria!\" when she came to Joe's house.",
+      "chapter_hint": "CLAY",
+      "original_chapter": "CLAY",
+      "event_level": "major",
+      "characters": [
+        "Maria",
+        "Joe Donnelly",
+        "Mrs. Donnelly",
+        "Alphy"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Chapelizod",
+      "address": "Ireland-Dublin-Chapelizod",
+      "story": "詹姆斯·达菲先生为了远离喧嚣的市区，选择住在都柏林郊区的查普利佐德。",
+      "source_evidence": "On the lonely road which leads from the Parkgate to Chapelizod he slackened his pace. ... When he came to the public-house at Chapelizod Bridge he went in and ordered a hot punch.",
+      "chapter_hint": "A PAINFUL CASE",
+      "original_chapter": "A PAINFUL CASE",
+      "event_level": "major",
+      "characters": [
+        "James Duffy"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Dan Burke's",
+      "address": "Ireland-Dublin-Dan Burke's",
+      "story": "达菲先生中午会去丹·伯克馆吃午饭，通常是喝一瓶拉格啤酒和吃些饼干。",
+      "source_evidence": "At midday he went to Dan Burke's and took his lunch",
+      "chapter_hint": "A PAINFUL CASE",
+      "original_chapter": "A PAINFUL CASE",
+      "event_level": "passing",
+      "characters": [
+        "James Duffy"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Rotunda",
+      "address": "Ireland-Dublin-Parnell Street-Rotunda",
+      "story": "达菲先生在罗通达音乐厅偶遇了西尼科夫人，两人开始了第一次交谈。",
+      "source_evidence": "One evening he found himself sitting beside two ladies in the Rotunda.",
+      "chapter_hint": "A PAINFUL CASE",
+      "original_chapter": "A PAINFUL CASE",
+      "event_level": "major",
+      "characters": [
+        "James Duffy",
+        "Mrs. Sinico"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Earlsfort Terrace",
+      "address": "Ireland-Dublin-Earlsfort Terrace",
+      "story": "几周后，达菲先生在厄尔斯福特台的一场音乐会上再次见到了西尼科夫人并变得亲近。",
+      "source_evidence": "He met her again a few weeks afterwards at a concert in Earlsfort Terrace",
+      "chapter_hint": "A PAINFUL CASE",
+      "original_chapter": "A PAINFUL CASE",
+      "event_level": "minor",
+      "characters": [
+        "James Duffy",
+        "Mrs. Sinico"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Parkgate",
+      "address": "Ireland-Leinster-Dublin-Parkgate Street",
+      "story": "杜菲先生与希尼科夫人在靠近 Parkgate 的一家小蛋糕店见面，随后在公园内的道路上徘徊了近三个小时并决定分手。后来他走在从 Parkgate 通往 Chapelizod 的路上。",
+      "source_evidence": "they meet in a little cakeshop near the Parkgate. ... On the lonely road which leads from the Parkgate to Chapelizod he slackened his pace.",
+      "chapter_hint": "A Painful Case",
+      "original_chapter": "A Painful Case",
+      "event_level": "major",
+      "characters": [
+        "Mr. Duffy",
+        "Mrs. Sinico"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "City of Dublin Hospital",
+      "address": "Ireland-Leinster-Dublin-Baggot Street-City of Dublin Hospital",
+      "story": "副验尸官在都柏林市医院对在悉尼大道站遇难的希尼科夫人的遗体进行了验尸调查。",
+      "source_evidence": "Today at the City of Dublin Hospital the Deputy Coroner (in the absence of Mr. Leverett) held an inquest on the body of Mrs. Emily Sinico",
+      "chapter_hint": "A Painful Case",
+      "original_chapter": "A Painful Case",
+      "event_level": "minor",
+      "characters": [
+        "Mrs. Sinico",
+        "Dr. Halpin"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Sydney Parade Station",
+      "address": "Ireland-Leinster-Dublin-Sydney Parade-Sydney Parade Station",
+      "story": "希尼科夫人在试图穿过铁轨时，被从金斯敦开来的慢车撞倒身亡。",
+      "source_evidence": "who was killed at Sydney Parade Station yesterday evening. The evidence showed that the deceased lady, while attempting to cross the line, was knocked down by the engine of the ten o'clock slow train from Kingstown",
+      "chapter_hint": "A Painful Case",
+      "original_chapter": "A Painful Case",
+      "event_level": "major",
+      "characters": [
+        "Mrs. Sinico",
+        "James Lennon",
+        "P. Dunne"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Leoville",
+      "address": "Ireland-Leinster-Dublin-Sydney Parade-Leoville",
+      "story": "希尼科船长与其已故妻子的住址，位于悉尼大道。",
+      "source_evidence": "Captain Sinico, of Leoville, Sydney Parade, husband of the deceased, also gave evidence.",
+      "chapter_hint": "A Painful Case",
+      "original_chapter": "A Painful Case",
+      "event_level": "minor",
+      "characters": [
+        "Captain Sinico",
+        "Mrs. Sinico"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Lucan road",
+      "address": "Ireland-Leinster-Dublin-Lucan Road",
+      "story": "杜菲先生从窗户望出去，看到卢肯路上的房屋偶尔透出灯光。",
+      "source_evidence": "from time to time a light appeared in some house on the Lucan road.",
+      "chapter_hint": "A Painful Case",
+      "original_chapter": "A Painful Case",
+      "event_level": "passing",
+      "characters": [
+        "Mr. Duffy"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "County Kildare",
+      "address": "Ireland-Leinster-Kildare",
+      "story": "在 Chapelizod 的酒馆里，几名工人在讨论基尔代尔郡一个绅士庄园的价值。",
+      "source_evidence": "There were five or six workingmen in the shop discussing the value of a gentleman's estate in County Kildare",
+      "chapter_hint": "A Painful Case",
+      "original_chapter": "A Painful Case",
+      "event_level": "passing",
+      "characters": [
+        "Mr. Duffy"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Magazine Hill",
+      "address": "Ireland-Leinster-Dublin-Phoenix Park-Magazine Hill",
+      "story": "杜菲先生爬上杂志山顶，停下来望向都柏林，看到河对岸从金斯布里奇站开出的货运列车。",
+      "source_evidence": "When he gained the crest of the Magazine Hill he halted and looked along the river towards Dublin ... Beyond the river he saw a goods train winding out of Kingsbridge Station",
+      "chapter_hint": "A Painful Case",
+      "original_chapter": "A Painful Case",
+      "event_level": "major",
+      "characters": [
+        "Mr. Duffy"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Kingsbridge Station",
+      "address": "Ireland-Leinster-Dublin-Heuston Station",
+      "story": "杜菲先生在杂志山上看到一列货运列车正从金斯布里奇站缓缓开出。",
+      "source_evidence": "Beyond the river he saw a goods train winding out of Kingsbridge Station, like a worm with a fiery head winding through the darkness",
+      "chapter_hint": "A Painful Case",
+      "original_chapter": "A Painful Case",
+      "event_level": "minor",
+      "characters": [
+        "Mr. Duffy"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Wicklow Street",
+      "address": "Ireland-Leinster-Dublin-Wicklow Street",
+      "story": "奥康纳先生和老杰克坐在威克洛街委员会室的火炉旁，这里是蒂尔尼竞选活动的据点。",
+      "source_evidence": "he spent a great part of the day sitting by the fire in the Committee Room in Wicklow Street with Jack, the old caretaker.",
+      "chapter_hint": "Ivy Day in the Committee Room",
+      "original_chapter": "Ivy Day in the Committee Room",
+      "event_level": "major",
+      "characters": [
+        "Mr. O'Connor",
+        "Old Jack"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Royal Exchange Ward",
+      "address": "Ireland-Leinster-Dublin-Royal Exchange Ward",
+      "story": "理查德·J·蒂尔尼先生在此选区竞选市政选举席位。",
+      "source_evidence": "Mr. Richard J. Tierney, P.L.G., respectfully solicits the favour of your vote and influence at the coming election in the Royal Exchange Ward.",
+      "chapter_hint": "Ivy Day in the Committee Room",
+      "original_chapter": "Ivy Day in the Committee Room",
+      "event_level": "minor",
+      "characters": [
+        "Mr. O'Connor",
+        "Richard J. Tierney"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Aungier Street",
+      "address": "Ireland-Leinster-Dublin-Aungier Street",
+      "story": "亨奇先生询问奥康纳先生是否已经去昂吉尔街为竞选活动服务（拉票）。",
+      "source_evidence": "\"Did you serve Aungier Street?\" he asked Mr. O'Connor.",
+      "chapter_hint": "Ivy Day in the Committee Room",
+      "original_chapter": "Ivy Day in the Committee Room",
+      "event_level": "minor",
+      "characters": [
+        "Mr. Henchy",
+        "Mr. O'Connor"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Mary's Lane",
+      "address": "Ireland-Leinster-Dublin-Mary's Lane",
+      "story": "Mr. Henchy 提到 Tricky Dicky 的父亲曾在 Mary's Lane 经营一家旧衣铺。",
+      "source_evidence": "I suppose he forgets the time his little old father kept the hand-medown shop in Mary's Lane.",
+      "chapter_hint": "Ivy Day in the Committee Room",
+      "original_chapter": "Ivy Day in the Committee Room",
+      "event_level": "passing",
+      "characters": [
+        "Mr. Henchy"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "The Castle",
+      "address": "Ireland-Leinster-Dublin-Dublin Castle",
+      "story": "Mr. Henchy 怀疑一些政治煽动者实际上是受都柏林城堡（英国殖民政府行政中心）资助的间谍。",
+      "source_evidence": "I believe half of them are in the pay of the Castle.",
+      "chapter_hint": "Ivy Day in the Committee Room",
+      "original_chapter": "Ivy Day in the Committee Room",
+      "event_level": "passing",
+      "characters": [
+        "Mr. Henchy"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Black Eagle",
+      "address": "Ireland-Leinster-Dublin-Black Eagle",
+      "story": "Mr. Henchy 提到 Fanning 先生在 Black Eagle 酒馆；随后一名男孩从该酒馆送来了黑啤酒。",
+      "source_evidence": "He's round at the Black Eagle... From the Black Eagle, said the boy, walking in sideways and depositing a basket on the floor with a noise of shaken bottles.",
+      "chapter_hint": "Ivy Day in the Committee Room",
+      "original_chapter": "Ivy Day in the Committee Room",
+      "event_level": "minor",
+      "characters": [
+        "Mr. Henchy",
+        "Father Keon"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Kavanagh's",
+      "address": "Ireland-Leinster-Dublin-Kavanagh's",
+      "story": "Mr. O'Connor 提到 Fanning 和 Keon 神父经常一起出现在 Kavanagh's 酒馆。",
+      "source_evidence": "Fanning and himself seem to me very thick. They're often in Kavanagh's together.",
+      "chapter_hint": "Ivy Day in the Committee Room",
+      "original_chapter": "Ivy Day in the Committee Room",
+      "event_level": "passing",
+      "characters": [
+        "Mr. O'Connor",
+        "Father Keon",
+        "Mr. Fanning"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Suffolk Street",
+      "address": "Ireland-Leinster-Dublin-Suffolk Street",
+      "story": "Mr. O'Connor 提到昨天在 Suffolk Street 拐角处看到 Fanning 等人在商量事情。",
+      "source_evidence": "I saw the three of them hard at it yesterday at Suffolk Street corner.",
+      "chapter_hint": "Ivy Day in the Committee Room",
+      "original_chapter": "Ivy Day in the Committee Room",
+      "event_level": "passing",
+      "characters": [
+        "Mr. O'Connor"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Mansion House",
+      "address": "Ireland-Leinster-Dublin-Dawson Street-Mansion House",
+      "story": "Mr. Henchy 幻想自己当上市长后从市长官邸（Mansion House）乘车出来的场景；老杰克提到现任市长往官邸送廉价排骨。",
+      "source_evidence": "Driving out of the Mansion House, said Mr. Henchy... A pound of chops, says he, coming into the Mansion House.",
+      "chapter_hint": "Ivy Day in the Committee Room",
+      "original_chapter": "Ivy Day in the Committee Room",
+      "event_level": "minor",
+      "characters": [
+        "Mr. Henchy",
+        "Jack"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "O'Farrell's",
+      "address": "Ireland-Leinster-Dublin-O'Farrell's",
+      "story": "Mr. Henchy 让男孩去 O'Farrell's 借一把开瓶器。",
+      "source_evidence": "will you run over to O'Farrell's and ask him to lend us a corkscrew--for Mr. Henchy, say.",
+      "chapter_hint": "Ivy Day in the Committee Room",
+      "original_chapter": "Ivy Day in the Committee Room",
+      "event_level": "minor",
+      "characters": [
+        "Mr. Henchy"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Dawson Street",
+      "address": "Ireland-Leinster-Dublin-Dawson Street",
+      "story": "Mr. Henchy 提到他和 Crofton 在 Dawson Street 成功拉到了几张选票。",
+      "source_evidence": "I got him one or two sure things in Dawson Street, Crofton and myself... and I got Ward of Dawson Street.",
+      "chapter_hint": "Ivy Day in the Committee Room",
+      "original_chapter": "Ivy Day in the Committee Room",
+      "event_level": "minor",
+      "characters": [
+        "Mr. Henchy",
+        "Mr. Crofton"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Ormond Quay",
+      "address": "Ireland-Leinster-Dublin-Ormond Quay",
+      "story": "卡尼先生是一位在奥蒙德码头开店的靴匠，卡尼夫人为了平息流言而嫁给了他。",
+      "source_evidence": "she silenced them by marrying Mr. Kearney, who was a bootmaker on Ormond Quay.",
+      "chapter_hint": "A MOTHER",
+      "original_chapter": "A MOTHER",
+      "event_level": "minor",
+      "characters": [
+        "Mr. Kearney",
+        "Mrs. Kearney"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Skerries",
+      "address": "Ireland-Leinster-Dublin-Skerries",
+      "story": "每年七月，卡尼先生都会送家人去斯凯里夫度假几周。",
+      "source_evidence": "My good man is packing us off to Skerries for a few weeks.",
+      "chapter_hint": "A MOTHER",
+      "original_chapter": "A MOTHER",
+      "event_level": "passing",
+      "characters": [
+        "Mr. Kearney",
+        "Mrs. Kearney"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Howth",
+      "address": "Ireland-Leinster-Dublin-Howth",
+      "story": "卡尼一家度假的选择地之一，若不去斯凯里夫，便去霍斯或格雷斯通斯。",
+      "source_evidence": "If it was not Skerries it was Howth or Greystones.",
+      "chapter_hint": "A MOTHER",
+      "original_chapter": "A MOTHER",
+      "event_level": "passing",
+      "characters": [
+        "Mr. Kearney",
+        "Mrs. Kearney"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Greystones",
+      "address": "Ireland-Leinster-Wicklow-Greystones",
+      "story": "卡尼一家度假的选择地之一。",
+      "source_evidence": "If it was not Skerries it was Howth or Greystones.",
+      "chapter_hint": "A MOTHER",
+      "original_chapter": "A MOTHER",
+      "event_level": "passing",
+      "characters": [
+        "Mr. Kearney",
+        "Mrs. Kearney"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Cathedral Street",
+      "address": "Ireland-Leinster-Dublin-Cathedral Street",
+      "story": "周日弥撒后，卡尼一家的朋友们常在座堂街转角处聚集聊天。",
+      "source_evidence": "a little crowd of people would assemble after mass at the corner of Cathedral Street.",
+      "chapter_hint": "A MOTHER",
+      "original_chapter": "A MOTHER",
+      "event_level": "minor",
+      "characters": [
+        "Mr. Kearney",
+        "Kathleen Kearney"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Antient Concert Rooms",
+      "address": "Ireland-Leinster-Dublin-Great Brunswick Street-Antient Concert Rooms",
+      "story": "爱尔兰阿布协会在此举办系列音乐会，凯瑟琳担任伴奏，但因酬金纠纷引发了矛盾。",
+      "source_evidence": "proposed that her daughter should be the accompanist at a series of four grand concerts which his Society was going to give in the Antient Concert Rooms.",
+      "chapter_hint": "A MOTHER",
+      "original_chapter": "A MOTHER",
+      "event_level": "major",
+      "characters": [
+        "Mrs. Kearney",
+        "Kathleen Kearney",
+        "Mr. Holohan",
+        "Mr. Fitzpatrick"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Brown Thomas's",
+      "address": "Ireland-Leinster-Dublin-Grafton Street-Brown Thomas",
+      "story": "卡尼夫人在这里为女儿的演出服购买了昂贵的粉色绸缎。",
+      "source_evidence": "Mrs. Kearney bought some lovely blush-pink charmeuse in Brown Thomas's to let into the front of Kathleen's dress.",
+      "chapter_hint": "A MOTHER",
+      "original_chapter": "A MOTHER",
+      "event_level": "minor",
+      "characters": [
+        "Mrs. Kearney"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Queen's Theatre",
+      "address": "Ireland-Leinster-Dublin-Pearse Street-Queen's Theatre",
+      "story": "男低音杜根先生曾在这里代替生病的艺人出演歌剧《玛里塔纳》中的国王。",
+      "source_evidence": "he had undertaken the part of the king in the opera of Maritana at the Queen's Theatre.",
+      "chapter_hint": "A MOTHER",
+      "original_chapter": "A MOTHER",
+      "event_level": "passing",
+      "characters": [
+        "Mr. Duggan"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Crowe Street",
+      "address": "Ireland-Leinster-Dublin-Crowe Street",
+      "story": "柯南先生在克罗街有一间小办公室，他在那里从事茶叶品鉴和贸易工作。",
+      "source_evidence": "Modern business methods had spared him only so far as to allow him a little office in Crowe Street",
+      "chapter_hint": "Grace",
+      "original_chapter": "Grace",
+      "event_level": "minor",
+      "characters": [
+        "Mr. Kernan"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "London, E. C.",
+      "address": "England-London-EC",
+      "story": "柯南先生办公室窗帘上写着他所属公司的地址——伦敦东中区。",
+      "source_evidence": "on the window blind of which was written the name of his firm with the address--London, E. C.",
+      "chapter_hint": "Grace",
+      "original_chapter": "Grace",
+      "event_level": "passing",
+      "characters": [
+        "Mr. Kernan"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Dublin Castle",
+      "address": "Ireland-Leinster-Dublin-Dublin Castle",
+      "story": "鲍尔先生在都柏林城堡内的皇家爱尔兰警队办公室任职。",
+      "source_evidence": "Mr. Power, a much younger man, was employed in the Royal Irish Constabulary Office in Dublin Castle.",
+      "chapter_hint": "Grace",
+      "original_chapter": "Grace",
+      "event_level": "minor",
+      "characters": [
+        "Mr. Power"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Glasnevin road",
+      "address": "Ireland-Leinster-Dublin-Glasnevin road",
+      "story": "马车停在格拉斯内文路的一栋小房子前，这里是柯南先生的家。",
+      "source_evidence": "He had opened a small shop on Glasnevin Road where, he flattered himself, his manners would ingratiate him with the housewives of the district.",
+      "chapter_hint": "Grace",
+      "original_chapter": "Grace",
+      "event_level": "major",
+      "characters": [
+        "Mr. Kernan",
+        "Mr. Power",
+        "Mrs. Kernan"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Star of the Sea Church",
+      "address": "Ireland-Leinster-Dublin-Sandymount-Star of the Sea Church",
+      "story": "柯南夫人在回忆中想起自己当年挽着丈夫的手走出桑迪芒特的海洋之星教堂。",
+      "source_evidence": "recalled with vivid pleasure how she had passed out of the Star of the Sea Church in Sandymount",
+      "chapter_hint": "Grace",
+      "original_chapter": "Grace",
+      "event_level": "minor",
+      "characters": [
+        "Mrs. Kernan",
+        "Mr. Kernan"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Sandymount",
+      "address": "Ireland-Leinster-Dublin-Sandymount",
+      "story": "柯南夫人回忆起在桑迪芒特的教堂举行婚礼的情景。",
+      "source_evidence": "how she had passed out of the Star of the Sea Church in Sandymount",
+      "chapter_hint": "Grace",
+      "original_chapter": "Grace",
+      "event_level": "passing",
+      "characters": [
+        "Mrs. Kernan"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Glasgow",
+      "address": "Scotland-Glasgow",
+      "story": "柯南夫人的大儿子在格拉斯哥的一家男装店工作。",
+      "source_evidence": "She lived with her married daughter in Glasgow and came to Dublin on a visit once a year.",
+      "chapter_hint": "Grace",
+      "original_chapter": "Grace",
+      "event_level": "passing",
+      "characters": [
+        "Mrs. Kernan"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Thomas Street",
+      "address": "Ireland-Leinster-Dublin-Thomas Street",
+      "story": "柯南夫人评价丈夫虽然爱喝酒，但工作还算勤恳，愿意为了哪怕一小笔订单走到托马斯街的尽头。",
+      "source_evidence": "she knew that he would walk to the end of Thomas Street and back again to book even a small order.",
+      "chapter_hint": "Grace",
+      "original_chapter": "Grace",
+      "event_level": "passing",
+      "characters": [
+        "Mr. Kernan",
+        "Mrs. Kernan"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Midland Railway",
+      "address": "Ireland-Leinster-Dublin-Midland Great Western Railway",
+      "story": "M'Coy曾在这家铁路公司担任文员。",
+      "source_evidence": "He had been a clerk in the Midland Railway",
+      "chapter_hint": "Grace",
+      "original_chapter": "Grace",
+      "event_level": "passing",
+      "characters": [
+        "M'Coy"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "The Irish Times",
+      "address": "Ireland-Leinster-Dublin-D'Olier Street-The Irish Times Office",
+      "story": "M'Coy曾为《爱尔兰时报》征集广告。",
+      "source_evidence": "a canvasser for advertisements for The Irish Times",
+      "chapter_hint": "Grace",
+      "original_chapter": "Grace",
+      "event_level": "passing",
+      "characters": [
+        "M'Coy"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "The Freeman's Journal",
+      "address": "Ireland-Leinster-Dublin-Princes Street-The Freeman's Journal Office",
+      "story": "M'Coy曾为《自由人报》征集广告。",
+      "source_evidence": "a canvasser for advertisements for The Irish Times and for The Freeman's Journal",
+      "chapter_hint": "Grace",
+      "original_chapter": "Grace",
+      "event_level": "passing",
+      "characters": [
+        "M'Coy"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Liffey Loan Bank",
+      "address": "Ireland-Leinster-Dublin-Liffey Loan Bank",
+      "story": "Harford与Goldberg先生合伙经营的银行。",
+      "source_evidence": "Later on he had become the partner of a very fat, short gentleman, Mr. Goldberg, in the Liffey Loan Bank.",
+      "chapter_hint": "Grace",
+      "original_chapter": "Grace",
+      "event_level": "minor",
+      "characters": [
+        "Harford",
+        "Goldberg"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "M'Auley's",
+      "address": "Ireland-Leinster-Dublin-M'Auley's Public House",
+      "story": "Cunningham、Power和M'Coy约定周四晚上在此见面，准备参加宗教退修活动。",
+      "source_evidence": "We can meet in M'Auley's,\" said Mr. M'Coy. \"That'll be the most convenient place.\"",
+      "chapter_hint": "Grace",
+      "original_chapter": "Grace",
+      "event_level": "minor",
+      "characters": [
+        "Cunningham",
+        "Power",
+        "M'Coy"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Butler's in Moore Street",
+      "address": "Ireland-Leinster-Dublin-Moore Street-Butler's",
+      "story": "Kernan回忆起他曾和Crofton在听完神父演讲后去过这家店。",
+      "source_evidence": "We went into Butler's in Moore Street--faith, was genuinely moved, tell you the God's truth",
+      "chapter_hint": "Grace",
+      "original_chapter": "Grace",
+      "event_level": "minor",
+      "characters": [
+        "Kernan",
+        "Crofton"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Tuam",
+      "address": "Ireland-Connacht-Galway-Tuam",
+      "story": "对话中提到了著名的“图阿姆的约翰”（John MacHale大主教）。",
+      "source_evidence": "Is it John of Tuam?",
+      "chapter_hint": "Grace",
+      "original_chapter": "Grace",
+      "event_level": "passing",
+      "characters": [
+        "Kernan",
+        "John MacHale"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Jesuit Church in Gardiner Street",
+      "address": "Ireland-Leinster-Dublin-Gardiner Street-Saint Francis Xavier Church",
+      "story": "康宁汉先生、克南先生等人在加德纳街的耶稣会教堂参加静修活动，听珀登神父讲道。教堂内坐满了穿着整齐的绅士，气氛庄严肃穆。",
+      "source_evidence": "The transept of the Jesuit Church in Gardiner Street was almost full; and still at every moment gentlemen entered from the side door and, directed by the lay-brother, walked on tiptoe along the aisles until they found seating accommodation.",
+      "chapter_hint": "Grace",
+      "original_chapter": "Grace",
+      "event_level": "major",
+      "characters": [
+        "Mr. Cunningham",
+        "Mr. Kernan",
+        "Mr. M'Coy",
+        "Mr. Power",
+        "Mr. Fogarty",
+        "Mr. Harford",
+        "Mr. Fanning",
+        "Michael Grimes",
+        "Mr. Hendrick",
+        "O'Carroll",
+        "Father Purdon"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Stoney Batter",
+      "address": "Ireland-Leinster-Dublin-Stoneybatter",
+      "story": "凯特和朱莉娅在搬到阿瑟岛之前，曾与其兄弟帕特一起住在斯通尼巴特的一所房子里。",
+      "source_evidence": "ever since Kate and Julia, after the death of their brother Pat, had left the house in Stoney Batter and taken Mary Jane, their only niece, to live with them in the dark, gaunt house on Usher's Island",
+      "chapter_hint": "The Dead",
+      "original_chapter": "The Dead",
+      "event_level": "passing",
+      "characters": [
+        "Kate Morkan",
+        "Julia Morkan",
+        "Pat Morkan",
+        "Mary Jane Morkan"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Usher's Island",
+      "address": "Ireland-Leinster-Dublin-Usher's Island",
+      "story": "莫肯姐妹租下了阿瑟岛上一座阴暗、荒凉房子的楼上部分，并在此举办一年一度的盛大舞会。加布里埃尔夫妇冒雪前来参加。",
+      "source_evidence": "taken Mary Jane, their only niece, to live with them in the dark, gaunt house on Usher's Island, the upper part of which they had rented from Mr. Fulham, the corn-factor on the ground floor.",
+      "chapter_hint": "The Dead",
+      "original_chapter": "The Dead",
+      "event_level": "major",
+      "characters": [
+        "Kate Morkan",
+        "Julia Morkan",
+        "Mary Jane Morkan",
+        "Lily",
+        "Gabriel Conroy",
+        "Gretta Conroy"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Haddington Road",
+      "address": "Ireland-Leinster-Dublin-Haddington Road",
+      "story": "玛丽·简在哈丁顿路的教堂担任风琴手，她是家里的经济支柱。",
+      "source_evidence": "Mary Jane, who was then a little girl in short clothes, was now the main prop of the household, for she had the organ in Haddington Road.",
+      "chapter_hint": "The Dead",
+      "original_chapter": "The Dead",
+      "event_level": "minor",
+      "characters": [
+        "Mary Jane Morkan"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Adam and Eve's",
+      "address": "Ireland-Leinster-Dublin-Merchant's Quay-Church of the Immaculate Conception",
+      "story": "尽管朱莉娅年事已高，她仍然是“亚当与夏娃”教堂的首席女高音。",
+      "source_evidence": "Julia, though she was quite grey, was still the leading soprano in Adam and Eve's",
+      "chapter_hint": "The Dead",
+      "original_chapter": "The Dead",
+      "event_level": "minor",
+      "characters": [
+        "Julia Morkan"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Monkstown",
+      "address": "Ireland-Leinster-Dublin-Monkstown",
+      "story": "加布里埃尔夫妇住在蒙克斯顿，凯特阿姨询问他们今晚是否不打算乘出租车回去了。",
+      "source_evidence": "It was Gretta who had nursed her during all her last long illness in their house at Monkstown.",
+      "chapter_hint": "The Dead",
+      "original_chapter": "The Dead",
+      "event_level": "minor",
+      "characters": [
+        "Gabriel Conroy",
+        "Gretta Conroy",
+        "Kate Morkan"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Merrion",
+      "address": "Ireland-Leinster-Dublin-Merrion",
+      "story": "加布里埃尔回忆去年坐车经过梅里恩后，东风吹进车窗，导致格蕾塔患了重感冒。",
+      "source_evidence": "Don't you remember, Aunt Kate, what a cold Gretta got out of it? Cab windows rattling all the way, and the east wind blowing in after we passed Merrion.",
+      "chapter_hint": "The Dead",
+      "original_chapter": "The Dead",
+      "event_level": "passing",
+      "characters": [
+        "Gabriel Conroy",
+        "Gretta Conroy"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Gresham",
+      "address": "Ireland-Leinster-Dublin-O'Connell Street-Gresham Hotel",
+      "story": "Gabriel告诉Aunt Kate他已经在Gresham酒店订了房间，以便舞会后下榻。",
+      "source_evidence": "0, the room is all right,\" replied Gabriel. \"I've taken one in the Gresham.",
+      "chapter_hint": "The Dead",
+      "original_chapter": "The Dead",
+      "event_level": "minor",
+      "characters": [
+        "Gabriel Conroy"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Balbrigan",
+      "address": "Ireland-Leinster-Dublin-Balbriggan",
+      "story": "Gabriel的兄弟Constantine目前在Balbrigan担任高级副牧师。",
+      "source_evidence": "Thanks to her, Constantine was now senior curate in Balbrigan",
+      "chapter_hint": "The Dead",
+      "original_chapter": "The Dead",
+      "event_level": "passing",
+      "characters": [
+        "Constantine Conroy"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Royal University",
+      "address": "Ireland-Leinster-Dublin-Royal University of Ireland",
+      "story": "Gabriel在皇家大学获得了学位。",
+      "source_evidence": "thanks to her, Gabriel himself had taken his degree in the Royal University.",
+      "chapter_hint": "The Dead",
+      "original_chapter": "The Dead",
+      "event_level": "passing",
+      "characters": [
+        "Gabriel Conroy"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Bachelor's Walk",
+      "address": "Ireland-Leinster-Dublin-Bachelor's Walk",
+      "story": "Gabriel下课后经常去Bachelor's Walk的Hickey's二手书店闲逛。",
+      "source_evidence": "Nearly every day when his teaching in the college was ended he used to wander down the quays to the second-hand booksellers, to Hickey's on Bachelor's Walk",
+      "chapter_hint": "The Dead",
+      "original_chapter": "The Dead",
+      "event_level": "passing",
+      "characters": [
+        "Gabriel Conroy"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Aston's Quay",
+      "address": "Ireland-Leinster-Dublin-Aston's Quay",
+      "story": "Gabriel经常去Aston's Quay上的Web's或Massey's书店。",
+      "source_evidence": "to Web's or Massey's on Aston's Quay",
+      "chapter_hint": "The Dead",
+      "original_chapter": "The Dead",
+      "event_level": "passing",
+      "characters": [
+        "Gabriel Conroy"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Aran Isles",
+      "address": "Ireland-Connacht-Galway-Aran Islands",
+      "story": "Miss Ivors邀请Gabriel夏天去阿兰群岛远足旅行，但被Gabriel拒绝了。",
+      "source_evidence": "O, Mr. Conroy, will you come for an excursion to the Aran Isles this summer?",
+      "chapter_hint": "The Dead",
+      "original_chapter": "The Dead",
+      "event_level": "minor",
+      "characters": [
+        "Gabriel Conroy",
+        "Molly Ivors"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Galway",
+      "address": "Ireland-Connacht-Galway",
+      "story": "Gretta听说去西部的提议后，表示非常想再次见到高威。",
+      "source_evidence": "I'd love to see Galway again.",
+      "chapter_hint": "The Dead",
+      "original_chapter": "The Dead",
+      "event_level": "passing",
+      "characters": [
+        "Gretta Conroy"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "Wellington Monument",
+      "address": "Ireland-Leinster-Dublin-Phoenix Park-Wellington Monument",
+      "story": "Gabriel望着窗外，想象着积雪覆盖在凤凰公园威灵顿纪念碑顶端的情景。",
+      "source_evidence": "The snow would be lying on the branches of the trees and forming a bright cap on the top of the Wellington Monument.",
+      "chapter_hint": "The Dead",
+      "original_chapter": "The Dead",
+      "event_level": "passing",
+      "characters": [
+        "Gabriel Conroy"
+      ],
+      "fictional_suspect": false
+    }
+  ],
+  "suspects": []
+}

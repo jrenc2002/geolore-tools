@@ -1,0 +1,4070 @@
+{
+  "book_info": {
+    "title": "The Old Capital",
+    "author": "川端康成 (Yasunari Kawabata)",
+    "type": "novel",
+    "summary": "《古都》是诺贝尔文学奖得主川端康成的代表作，背景设定在战后昭和时代的京都。故事围绕着绸缎庄千金佐田千重子展开，她在京都四季流转的古寺、祭典与自然美景中，偶然邂逅了与自己长相惊人相似的贫苦少女苗子，从而揭开了自己作为“弃儿”的身世之谜。作品以北野天满宫、平安神宫、祇园祭等京都地标为舞台，将少女细腻的哀愁与古都传统手工艺的式微交织在一起。川端康成用如诗般的笔触，在展现京都极致物哀之美的同时，探讨了血缘羁绊、身份认同以及在现代化冲击下，传统美学那令人心碎的坚守与消逝。"
+  },
+  "characters": [
+    {
+      "id": "sada_chieko",
+      "name": "佐田千重子",
+      "aliases": [
+        "千重子"
+      ],
+      "role": "故事的主角，中京区绸缎庄的养女，性格优雅且多愁善感",
+      "first_appearance": "Heian Shrine",
+      "importance": "protagonist"
+    },
+    {
+      "id": "naoko",
+      "name": "苗子",
+      "aliases": [
+        "北山苗子"
+      ],
+      "role": "千重子的双胞胎姐妹，生活在北山中川的贫苦劳作者",
+      "first_appearance": "Gion",
+      "importance": "protagonist"
+    },
+    {
+      "id": "sada_takichiro",
+      "name": "佐田太吉郎",
+      "aliases": [
+        "太吉郎"
+      ],
+      "role": "千重子的养父，一位追求艺术理想却在时代中迷失的绸缎设计师",
+      "first_appearance": "Kitano Tenjin shrine",
+      "importance": "major"
+    },
+    {
+      "id": "mizuki_shinichi",
+      "name": "水木真一",
+      "aliases": [
+        "真一"
+      ],
+      "role": "千重子的青梅竹马，出身于富裕家庭，性格直率",
+      "first_appearance": "Heian Shrine",
+      "importance": "major"
+    },
+    {
+      "id": "otomo_hideo",
+      "name": "大友秀男",
+      "aliases": [
+        "大伴秀男",
+        "秀男"
+      ],
+      "role": "西阵织工，对千重子怀有倾慕之情，后与苗子产生情感纠葛",
+      "first_appearance": "Nishijin",
+      "importance": "major"
+    },
+    {
+      "id": "sada_shige",
+      "name": "佐田繁",
+      "aliases": [
+        "阿繁",
+        "繁"
+      ],
+      "role": "千重子的养母，温柔体贴，深爱着千重子并守护着家庭秘密",
+      "first_appearance": "Kamo River",
+      "importance": "major"
+    },
+    {
+      "id": "mizuki_ryosuke",
+      "name": "水木龙助",
+      "aliases": [
+        "龙助"
+      ],
+      "role": "真一的哥哥，精明能干的商人，对佐田家的生意和千重子都有意向",
+      "first_appearance": "Shijo Grand Bridge",
+      "importance": "supporting"
+    },
+    {
+      "id": "masako",
+      "name": "政子",
+      "aliases": [],
+      "role": "千重子的友人，在平安神宫茶室帮忙的女孩",
+      "first_appearance": "Choshintei",
+      "importance": "minor"
+    },
+    {
+      "id": "masago",
+      "name": "真砂子",
+      "aliases": [],
+      "role": "千重子的好友，常陪同千重子前往北山或高雄游玩",
+      "first_appearance": "Takao",
+      "importance": "supporting"
+    }
+  ],
+  "parts": [
+    {
+      "part_id": "PART-1",
+      "title": "The Old Capital",
+      "synopsis": "描绘京都四季与祭典，千重子在繁华与古朴间探寻身世，并与苗子在祇园祭奇迹相遇。",
+      "place_count": 86,
+      "mood": "lyrical",
+      "key_characters": [
+        "佐田千重子",
+        "苗子",
+        "佐田太吉郎",
+        "大友秀男"
+      ]
+    },
+    {
+      "part_id": "PART-2",
+      "title": "THE FLOWERS OF SPRING",
+      "synopsis": "春日樱花盛开，千重子与真一在平安神宫漫步，青春的情愫与弃儿的阴影交织。",
+      "place_count": 1,
+      "mood": "melancholy",
+      "key_characters": [
+        "佐田千重子",
+        "水木真一"
+      ]
+    },
+    {
+      "part_id": "PART-3",
+      "title": "THE CONVENT TEMPLE AND THE LATTICE DOOR",
+      "synopsis": "深入京都的古寺与街巷，探讨艺术、自然与孤独，千重子在清水寺坦露身世秘密。",
+      "place_count": 12,
+      "mood": "contemplative",
+      "key_characters": [
+        "佐田千重子",
+        "水木真一",
+        "佐田太吉郎"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "title": "Kitano Tenjin shrine",
+      "address": "日本-京都府-京都市-上京区-马喰町-北野天满宫",
+      "synopsis": "太吉郎在茶屋女主人的引导下前往北野天满宫参拜，拉开了京都四季流转下的家族往事。",
+      "source_evidence": "This girl has lured you into coming with us to Kitano Tenjin shrine, hasn’t she? ... Takichiro followed the proprietress as she walked directly to the altar of Kitano Shrine.",
+      "original_chapter": "THE COLOR OF AUTUMN",
+      "part_id": "PART-1",
+      "part_title": "THE COLOR OF AUTUMN",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "佐田太吉郎"
+        ],
+        "stay_duration": "一个下午"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "tradition",
+          "shrine",
+          "family_legacy"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "京都著名的求学问之神，保存完好",
+        "current_name": "北野天满宫"
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "1960",
+        "dateEnd": "1960"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·秋色中的神谕",
+        "hook": "在京都古老的北野神社，一个关于血脉与传统的秘密正悄然萌动。",
+        "narrative_text": "战后的京都，古老的传统依然在窄巷与神社间流淌。佐田太吉郎，一位经营着传统绸缎庄、对和服花色有着近乎执着追求的设计者，在茶屋女主人的半推半就下，踏入了北野天满宫的境地。秋日的阳光洒在石灯笼上，太吉郎的心思却不在祈福上，他正为绸缎庄的未来和女儿佐田千重子的婚事暗自忧虑。作为这篇京都物语的开端，北野神社见证了老一辈京都人对神灵的敬畏，以及在时代变迁中试图守住传统的挣扎。",
+        "transition_to": "从秋日的肃穆转入春日的繁华，平安神宫的樱花正等待着另一场邂逅。",
+        "mood": "nostalgic",
+        "key_dialogue": "“This girl has lured you into coming with us to Kitano Tenjin shrine, hasn’t she?”"
+      }
+    },
+    {
+      "title": "Heian Shrine",
+      "address": "日本-京都府-京都市-左京区-冈崎西天王町-平安神宫",
+      "synopsis": "佐田千重子与水木真一在平安神宫的红色垂樱下漫步，真一的直言不讳让千重子对自己“弃儿”的身份产生了微妙的情绪。",
+      "source_evidence": "At Heian Shrine Shin’ichi had said three times that Chieko was “happy.” ... Shin’ichi walked ahead, crossing the stepping-stones in the pond, which were known as “marsh-crossing” stones.",
+      "original_chapter": "THE FLOWERS OF SPRING",
+      "part_id": "PART-2",
+      "part_title": "THE FLOWERS OF SPRING",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1961",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "佐田千重子",
+          "水木真一"
+        ],
+        "stay_duration": "半日"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "cherry_blossom",
+          "youthful_romance",
+          "identity"
+        ],
+        "significance": 0.95
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "京都赏樱名所，神苑景观与书中描述一致",
+        "current_name": "平安神宫"
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "1961",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·垂樱下的秘密",
+        "hook": "当真一三次赞叹她的“幸福”时，千重子心中却泛起了身为弃儿的苦涩。",
+        "narrative_text": "春天是京都最动人的季节，平安神宫神苑内的红色垂樱如云霞般绽放。佐田千重子——绸缎庄老板佐田太吉郎那优雅却略带忧郁的女儿，接受了青梅竹马的水木真一的邀请。真一是个性格直率的青年，他躺在草坪上，望着满园春色，由衷地感叹千重子是个幸福的女孩。然而，这句话却触动了千重子内心最深处的伤痕：她一直怀疑自己是被父母捡回来的弃儿。两人走过神苑的卧龙桥踏脚石，樱花瓣落在水面，也落在他们各怀心事的心头。",
+        "transition_to": "在神苑的深处，一座静谧的茶室正等待着他们的造访。",
+        "mood": "bittersweet",
+        "key_dialogue": "“You’re a happy girl, aren’t you?”"
+      }
+    },
+    {
+      "title": "Choshintei",
+      "address": "日本-京都府-京都市-左京区-平安神宫神苑-澄心亭",
+      "synopsis": "在神苑内的茶室澄心亭，佐田千重子偶遇了正在帮忙的友人政子，短暂的社交打破了她与水木真一间的沉闷。",
+      "source_evidence": "Dressed in a formal, long-sleeved kimono, Masako came out of the tearoom, Choshintei, which stood in the shadow of the trees.",
+      "original_chapter": "THE FLOWERS OF SPRING",
+      "part_id": "PART-2",
+      "part_title": "THE FLOWERS OF SPRING",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1961",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "佐田千重子",
+          "水木真一",
+          "政子"
+        ],
+        "stay_duration": "一小时"
+      },
+      "cultural_tags": {
+        "category": "architectural",
+        "themes": [
+          "tea_culture",
+          "friendship",
+          "kimono"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "位于平安神宫神苑内，通常在特定茶会期间开放",
+        "current_name": "澄心亭"
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "1961",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·茶室的偶遇",
+        "hook": "华丽的长袖和服背后，是京都少女们恪守的礼仪与日常。",
+        "narrative_text": "穿过平安神宫繁茂的树影，佐田千重子与水木真一来到了名为“澄心亭”的茶室。这里正举行着茶会，千重子的好友政子身着华丽的长袖和服，正忙碌地接待客人。政子的出现为千重子和真一之间略显凝重的气氛带来了一丝活泼。在这方寸之间的茶室里，京都的社交礼仪被完美地呈现：即便是在赏花的闲暇，年轻女性们依然承担着传承茶道文化的责任。千重子看着忙碌的政子，心中对自己的身份认同又多了一层复杂的对比。",
+        "transition_to": "离开静谧的茶室，水木真一的话题转向了远方的古寺与山峦。",
+        "mood": "peaceful",
+        "key_dialogue": "“Masako came out of the tearoom, Choshintei, which stood in the shadow of the trees.”"
+      }
+    },
+    {
+      "title": "Kiyomizu Temple",
+      "address": "日本-京都府-京都市-东山区-清水寺",
+      "synopsis": "佐田千重子与水木真一在清水寺奥之院舞台俯瞰落日，千重子在此坦露了自己作为弃儿的身世秘密。",
+      "source_evidence": "As they passed through the gate Chieko said, “I want to go to Kiyomizu now.” ... Chieko passed by without stopping, continuing on from the Amida Hall to the rear sanctuary. The veranda of the rear sanctuary was built overhanging a cliff.",
+      "original_chapter": "THE CONVENT TEMPLE AND THE LATTICE DOOR",
+      "part_id": "PART-3",
+      "part_title": "THE CONVENT TEMPLE AND THE LATTICE DOOR",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1961",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "佐田千重子",
+          "水木真一"
+        ],
+        "stay_duration": "一个黄昏"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "identity",
+          "confession",
+          "sunset"
+        ],
+        "significance": 1.0
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "世界文化遗产，京都标志性寺院",
+        "current_name": "清水寺"
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "1961",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·舞台上的身世告白",
+        "hook": "在俯瞰京都的悬空舞台上，她亲口承认自己是个“弃儿”。",
+        "narrative_text": "春日的游历仍在继续，佐田千重子与青梅竹马的水木真一从平安神宫步行来到了清水寺。真一是织物批发商的儿子，性格诚实稳重。两人避开喧嚣，径直走向奥之院那座悬空的木造舞台。夕阳西下，京都的街道在晚霞中若隐若现。在这静谧而略显凄清的氛围中，千重子终于向真一吐露了深藏心底的秘密：她并非佐田夫妇亲生，而是一个在祇园祭深夜被遗弃在店门口的孩子。尽管养父母对她视如己出，但“弃儿”的阴影始终笼罩着这位纤弱少女的心头。",
+        "transition_to": "告别了沉重的告白，盛夏的祭典即将揭开命运的另一面。",
+        "mood": "bittersweet",
+        "key_dialogue": "“I’m an abandoned child,” Chieko said. “A foundling.”"
+      }
+    },
+    {
+      "title": "Gion",
+      "address": "日本-京都府-京都市-东山区-祇园",
+      "synopsis": "在热闹的祇园祭中，佐田千重子意外邂逅了与自己长相惊人相似的苗子，命运的齿轮开始转动。",
+      "source_evidence": "The dance of Kamishichiken was of the Hanayagi School, unlike Gion, which was of the Inoue. ... Naturally, the places where this custom was observed most faithfully were the gay quarters like Gion.",
+      "original_chapter": "THE GREEN OF PINES",
+      "part_id": "PART-4",
+      "part_title": "THE GREEN OF PINES",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1961",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "佐田千重子",
+          "苗子"
+        ],
+        "stay_duration": "数小时（祭典期间）"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "festival",
+          "encounter",
+          "tradition"
+        ],
+        "significance": 1.0
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "京都著名的花街与传统建筑保存区",
+        "current_name": "祇園"
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "1961",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·祇园祭的奇迹",
+        "hook": "在人潮汹涌的祭典中，她看见了另一个“自己”。",
+        "narrative_text": "盛夏的祇园祭，京都沉浸在神舆巡游与宵山的狂欢中。佐田千重子身着华丽的和服，在人群中穿梭。就在这喧闹的街头，她偶遇了一位名叫苗子的乡村姑娘。令千重子震惊的是，苗子竟然拥有与她几乎一模一样的面容。苗子——这个在北山杉林中劳作的坚韧女孩，在看到千重子的那一刻，眼中流露出了难以言喻的激动。这次在祇园的邂逅，彻底打破了千重子平静的生活，她开始意识到，那个关于“弃儿”的谜团背后，连接着一个血脉相连的孪生姐妹。",
+        "transition_to": "命运的相遇后，清澈的鸭川见证了更多关于思念与寻找的故事。",
+        "mood": "dramatic",
+        "key_dialogue": "“You are my sister!”"
+      }
+    },
+    {
+      "title": "Kamo River",
+      "address": "日本-京都府-京都市-中京区-若松町-鸭川河滩",
+      "synopsis": "佐田太吉郎一家在鸭川河滩散步，太吉郎向妻子佐田繁提议招赘秀男为婿。",
+      "source_evidence": "“If there are crowds at the Botanical Garden, we’ll take a walk by the Kamo River instead,” Takichiro said to Shige. ... The dry bed of the Kamo was like a long narrow field of young grass.",
+      "original_chapter": "KITAYAMA CEDARS",
+      "part_id": "PART-5",
+      "part_title": "KITAYAMA CEDARS",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1961",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "佐田太吉郎",
+          "佐田千重子",
+          "佐田繁"
+        ],
+        "stay_duration": "一个下午"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "family_legacy",
+          "contemplation",
+          "nature"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "京都著名的景观河流，河滩常年开放",
+        "current_name": "鸭川"
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "1961",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·鸭川河滩的远虑",
+        "hook": "在波光粼粼的鸭川边，一个关于家族继承的提议悄然浮现。",
+        "narrative_text": "离开拥挤的植物园，佐田太吉郎带着妻子佐田繁和女儿佐田千重子来到鸭川河滩。这片狭长的草地在春日下显得格外宁静。太吉郎看着渐渐长大的千重子，心中盘算着绸缎庄的未来，他向阿繁低声提议，或许可以考虑让织工大友宗助的儿子秀男入赘，以继承家业。然而，此时的千重子正沉浸在自己的思绪中，河水的流逝让她想起了水木真一，以及那些关于自己身世的朦胧不安。她并不知道，父母已经在为她的终身大事做着现实的打算。",
+        "transition_to": "为了寻找艺术的宁静，太吉郎选择隐居在嵯峨的古寺中。",
+        "mood": "peaceful",
+        "key_dialogue": "“The dry bed of the Kamo was like a long narrow field of young grass.”"
+      }
+    },
+    {
+      "title": "Saga",
+      "address": "日本-京都府-京都市-右京区-嵯峨",
+      "synopsis": "佐田太吉郎为寻找和服设计的灵感隐居在嵯峨的尼姑庵，佐田千重子特意前往探望。",
+      "source_evidence": "Chieko wondered if her father had come to the temple to forget about the business at the shop... I’m going to take a walk around Saga, then go home.",
+      "original_chapter": "THE CONVENT TEMPLE AND THE LATTICE DOOR",
+      "part_id": "PART-3",
+      "part_title": "THE CONVENT TEMPLE AND THE LATTICE DOOR",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1961",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "佐田太吉郎",
+          "佐田千重子"
+        ],
+        "stay_duration": "半日"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "artistic_creation",
+          "solitude",
+          "paternal_love"
+        ],
+        "significance": 0.85
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "嵯峨野地区至今保留大量古寺名胜",
+        "current_name": "嵯峨野"
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "1961",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·嵯峨的隐逸",
+        "hook": "在远离尘嚣的尼姑庵，父亲正试图捕捉那抹转瞬即逝的灵感。",
+        "narrative_text": "佐田太吉郎为了逃避繁琐的生意和寻找和服图案的新灵感，独自隐居在嵯峨深处的一座尼姑庵中。佐田千重子带着体贴与关怀来到这里，父女二人在清幽的环境中漫步。太吉郎向女儿展示他那些受保罗·克利启发、却又根植于京都传统的构思。嵯峨的竹林与古寺见证了这对父女之间深厚却含蓄的情感，也映衬出太吉郎在时代变迁中守护传统的孤独身影。千重子在这里感受到了父亲对艺术的执着，也暂时忘却了身世的烦恼。",
+        "transition_to": "在探望父亲的途中，一份简单的京都美食连接着日常的温情。",
+        "mood": "peaceful",
+        "key_dialogue": "“I’m going to take a walk around Saga, then go home.”"
+      }
+    },
+    {
+      "title": "Morika",
+      "address": "日本-京都府-京都市-右京区-嵯峨鸟居本佛饷谷町-森嘉豆腐店",
+      "synopsis": "佐田千重子在探望父亲途中购买了著名的森嘉豆腐，这份简单的食物承载着京都生活的细腻与温情。",
+      "source_evidence": "“Father, would you like some Morika boiled tofu? I bought some for you.”",
+      "original_chapter": "THE CONVENT TEMPLE AND THE LATTICE DOOR",
+      "part_id": "PART-3",
+      "part_title": "THE CONVENT TEMPLE AND THE LATTICE DOOR",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1961",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "佐田千重子",
+          "佐田太吉郎"
+        ],
+        "stay_duration": "15分钟"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "food_culture",
+          "filial_piety",
+          "local_specialty"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "著名的嵯峨豆腐老店，至今仍在营业",
+        "current_name": "嵯峨豆腐 森嘉"
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": "1961",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·森嘉的豆腐",
+        "hook": "一份温热的煮豆腐，是女儿对隐居父亲最质朴的关怀。",
+        "narrative_text": "佐田千重子深知父亲佐田太吉郎的喜好，在前往嵯峨尼姑庵的途中，她特意绕道去了著名的“森嘉”豆腐店。这家老店的豆腐以口感细腻、豆香浓郁闻名全京都。当千重子将这份还带着余温的豆腐递给父亲时，原本沉浸在艺术苦思中的太吉郎露出了欣慰的笑容。在简朴的僧房里，热气腾腾的煮豆腐不仅慰藉了胃口，更在父女之间传递着一种无需多言的默契。这种对生活细节的精致追求，正是京都人优雅生活的缩影。",
+        "transition_to": "无论游历何方，中京区的绸缎庄始终是这个家族故事的归宿。",
+        "mood": "bittersweet",
+        "key_dialogue": "“Father, would you like some Morika boiled tofu? I bought some for you.”"
+      }
+    },
+    {
+      "title": "Nakagyo Ward",
+      "address": "日本-京都府-京都市-中京区-室町通",
+      "synopsis": "佐田家的批发绸缎庄所在地，是京都传统商业精神的象征，也是佐田千重子成长的地方。",
+      "source_evidence": "Sada’s business was a wholesale dry goods shop in the Nakagyo Ward of Kyoto.",
+      "original_chapter": "THE CONVENT TEMPLE AND THE LATTICE DOOR",
+      "part_id": "PART-3",
+      "part_title": "THE CONVENT TEMPLE AND THE LATTICE DOOR",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "佐田太吉郎",
+          "佐田千重子"
+        ],
+        "stay_duration": "长期居住"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "tradition",
+          "commerce",
+          "urban_life"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "中京区仍是京都的商业核心区，保留有许多老铺",
+        "current_name": "中京区"
+      },
+      "timeline": {
+        "orderIndex": 9,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·中京的老铺",
+        "hook": "在京都的心脏地带，古老的绸缎庄守护着百年的优雅与严谨。",
+        "narrative_text": "中京区是京都的老批发商街区，也是佐田家绸缎庄的根基所在。这里的街道整齐划一，空气中仿佛都弥漫着丝绸与染料的气息。作为绸缎庄的继承人，佐田千重子在这里度过了她的少女时代。虽然父亲佐田太吉郎时常外出寻找灵感，但这座位于中京的大宅始终是全家人的精神支柱。它不仅代表了佐田家的社会地位，更象征着一种在现代冲击下依然固守的京都式生活美学。格子门后的世界，既是安稳的港湾，也是千重子身世之谜的起点。随着冬日初雪落下，千重子与苗子的命运也在此交汇。",
+        "transition_to": "当京都被冬雪覆盖，所有的秘密与思念都化作了北山杉林间的静谧。",
+        "mood": "nostalgic",
+        "key_dialogue": "“Sada’s business was a wholesale dry goods shop in the Nakagyo Ward of Kyoto.”"
+      }
+    },
+    {
+      "title": "Arashiyama",
+      "address": "日本-京都府-京都市-右京区-岚山",
+      "synopsis": "千重子为避开岚山熙攘的春季游客，选择绕行前往更幽静的野宫与化野，在自然中寻求片刻宁静。",
+      "source_evidence": "There are probably crowds of people at Arashiyama now... Even if her reason for going to Adashino was merely to avoid the spring tourists at Arashiyama",
+      "original_chapter": "The Old Capital",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "佐田千重子"
+        ],
+        "stay_duration": "数小时"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "solitude",
+          "nature",
+          "seasonal_beauty"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "著名的观光胜地",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "1961",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·避世的春行",
+        "hook": "在繁花似锦的季节，千重子为何避开热闹的岚山？",
+        "narrative_text": "告别了父亲，绸缎庄老板佐田太吉郎的养女佐田千重子，其足迹继续向岚山的深处延伸。此时正值春季，岚山漫山遍野的樱花吸引了无数游客，喧嚣打破了古都原有的静谧。千重子生性敏感而内敛，她并不愿投身于那片人潮之中。她站在岚山的边缘，望着远处的渡月桥和攒动的人头，心中涌起一种淡淡的疏离感。为了寻找那份属于自己的宁静，她决定避开主流的游览路线，转而走向那些藏在竹林深处、更为幽静的古迹。这份对孤独的偏爱，也映照出她对自己身世那若隐若现的忧虑。",
+        "transition_to": "穿过幽暗的竹林，她来到了那座承载着《源氏物语》哀愁的神社。",
+        "mood": "peaceful",
+        "key_dialogue": "There are probably crowds of people at Arashiyama now."
+      }
+    },
+    {
+      "title": "Nonomiya Shrine",
+      "address": "日本-京都府-京都市-右京区-野宫神社",
+      "synopsis": "千重子漫步至野宫神社，在黑木鸟居与小柴垣间，回味《源氏物语》中斋王净身的古典哀愁。",
+      "source_evidence": "I also like Nonomiya... The small shrine, however, had not changed. It was described even in The Tale of Genji... The shrine was known for its small brushwood fence and its Shinto gate made of logs with the bark still on them.",
+      "original_chapter": "The Old Capital",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "佐田千重子"
+        ],
+        "stay_duration": "短暂驻足"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "literature",
+          "tradition",
+          "melancholy"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "以黑木鸟居闻名",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "1961",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·古籍里的黑木鸟居",
+        "hook": "千年未变的柴篱，是否还留着平安时代的余温？",
+        "narrative_text": "佐田千重子步入野宫神社，这里依旧保持着古朴的模样。她注视着那座用带皮木材制成的黑木鸟居，以及环绕四周的小柴垣，脑海中浮现出《源氏物语》中的画面。这里曾是前往伊势神宫侍奉的斋王沐浴净身之地，充满了离别的哀愁与神圣的静谧。对于千重子而言，这些古典的意象不仅是京都的底色，更是她精神的寄托。在这一刻，现代的喧嚣彻底消失了，她仿佛与千年前的文学世界产生了一种奇妙的共鸣，这种美感虽然纤弱，却有着支撑她内心的力量。",
+        "transition_to": "离开这片文学的幻境，她继续向北，走向那片祭奠无名灵魂的荒原。",
+        "mood": "nostalgic",
+        "key_dialogue": "The small shrine, however, had not changed. It was described even in The Tale of Genji."
+      }
+    },
+    {
+      "title": "Adashino Nenbutsu-ji Temple",
+      "address": "日本-京都府-京都市-右京区-化野念佛寺",
+      "synopsis": "千重子在化野念佛寺的石塔群前，回忆起曾与养母佐田繁一同撞钟的往事，感悟生命无常。",
+      "source_evidence": "To visit Nembutsu Temple in Adashino, Chieko climbed the ancient steps... Then she turned her thoughts to the time when she and her mother struck the bell at Nembutsu Temple together.",
+      "original_chapter": "The Old Capital",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "佐田千重子",
+          "佐田繁"
+        ],
+        "stay_duration": "一小时"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "memory",
+          "impermanence",
+          "maternal_love"
+        ],
+        "significance": 0.7
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "以西院之河原的石塔群著称",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "1961",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·化野的钟声",
+        "hook": "漫山遍野的无名石塔，藏着母女间怎样的温情回忆？",
+        "narrative_text": "佐田千重子登上了化野念佛寺那古老的石阶。眼前是漫山遍野的石塔，它们祭奠着那些死后无人供养的“无缘佛”。在这片略显荒凉的景象中，千重子的思绪飘回了过去。她想起多年前，养母佐田繁曾带着她来到这里，母女俩合力撞响了寺院的大钟。那沉稳的钟声似乎至今仍在山谷间回荡。尽管佐田繁并非千重子的生母，但多年来的悉心照料与这份共同的记忆，让千重子在面对这些象征死亡与孤独的石塔时，感受到了一丝来自家庭的暖意。这种暖意与眼前的荒凉交织，构成了一种典型的京都式物哀。",
+        "transition_to": "在感怀过往后，她顺着山路，向着二尊院的方向缓缓走去。",
+        "mood": "bittersweet",
+        "key_dialogue": "Then she turned her thoughts to the time when she and her mother struck the bell at Nembutsu Temple together."
+      }
+    },
+    {
+      "title": "Nison-in Temple",
+      "address": "日本-京都府-京都市-右京区-二尊院",
+      "synopsis": "千重子在散步途中经过二尊院，这是她心中京都宁静路线的重要一环。",
+      "source_evidence": "I also like Nonomiya, Adashino, and the path to Nison’in Temple, so I’ll go there.",
+      "original_chapter": "The Old Capital",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "佐田千重子"
+        ],
+        "stay_duration": "路过"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "solitude",
+          "walking"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "以红叶闻名的天台宗寺院",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "1961",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·幽径的终点",
+        "hook": "在通往二尊院的小径上，千重子在寻找什么？",
+        "narrative_text": "二尊院是佐田千重子今日散步计划中的一站。相比于岚山核心区的喧闹，通往二尊院的小径显得格外清幽。千重子漫步其间，享受着这份不被打扰的自由。作为绸缎庄的大小姐，她的生活往往被传统礼节和家庭期待所包围，唯有在这样的独自远足中，她才能暂时放下身份的束缚。虽然只是匆匆路过，但这里的古木与静谧的氛围，为她这一整天的避世之旅画上了一个圆满的句号。她在这片古老的土地上，通过脚步丈量着自己对这座城市的热爱。",
+        "transition_to": "天色渐晚，她开始向山下走去，准备结束这段短暂的逃离。",
+        "mood": "peaceful",
+        "key_dialogue": "I also like Nonomiya, Adashino, and the path to Nison’in Temple."
+      }
+    },
+    {
+      "title": "Togetsu Bridge",
+      "address": "日本-京都府-京都市-右京区-渡月桥",
+      "synopsis": "千重子在渡月桥畔的松林边登上巴士，告别了岚山的春色，准备回到位于中京区的家。",
+      "source_evidence": "Chieko boarded a bus by a row of pines on the near side of Togetsu Bridge.",
+      "original_chapter": "The Old Capital",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "佐田千重子"
+        ],
+        "stay_duration": "15分钟"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "departure",
+          "urban_life"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "岚山的标志性桥梁",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "1961",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·桥畔的归途",
+        "hook": "当夕阳染红渡月桥，千重子的心情是否也随之沉静？",
+        "narrative_text": "佐田千重子回到了渡月桥附近。此时的游客已渐渐散去，桥边的松树林在夕阳下投射出长长的影子。她站在路边，等待着返回市区的巴士。渡月桥横跨在大堰川上，见证了京都千年的兴衰，而对于此时的千重子来说，它只是一个连接自然荒野与世俗生活的节点。随着巴士的到来，她最后望了一眼这片让她获得片刻安宁的山水，随后登车离去。她即将回到那个充满织机声和商业气息的中京区，回到她作为佐田家女儿的现实生活中去。",
+        "transition_to": "巴士缓缓驶入市区，向着繁华的中京区进发。",
+        "mood": "peaceful",
+        "key_dialogue": "Chieko boarded a bus by a row of pines on the near side of Togetsu Bridge."
+      }
+    },
+    {
+      "title": "Nakagyo",
+      "address": "日本-京都府-京都市-中京区-室町通",
+      "synopsis": "佐田千重子家经营的绸缎庄所在地，见证了京都老街区的历史变迁与家族传承。",
+      "source_evidence": "Many of the houses in Nakagyo were lost in the Teppo Fire and the Dondon Fire, before the Meiji Restoration in 1868. Takichiro’s shop had not escaped damage.",
+      "original_chapter": "THE KIMONO TOWN",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": "中京",
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "佐田千重子",
+          "佐田太吉郎",
+          "佐田繁"
+        ],
+        "stay_duration": "长期居住"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "tradition",
+          "heritage",
+          "urban_history"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "京都传统商业核心区，仍保留大量町屋",
+        "current_name": "中京区"
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第6章·老铺的余烬",
+        "hook": "在繁华的中京区，一座幸存的仓库诉说着家族的秘密。",
+        "narrative_text": "巴士缓缓驶入市区，向着繁华的中京区进发。这里是京都的心脏，也是佐田千重子成长的地方。千重子的养父佐田太吉郎经营着一家历史悠久的绸缎庄。中京区的街道见证过明治维新前的熊熊大火，许多古老的木造建筑在那时化为灰烬，唯独佐田家坚固的仓库奇迹般地幸存了下来。千重子站在这座充满历史厚重感的宅邸前，感受着传统织物文化的脉动。尽管时代在变迁，太吉郎依然固执地坚守着对和服花色的艺术追求，而千重子作为这个家庭的一员，也在这份宁静的古意中体悟着生活的真谛。",
+        "transition_to": "放下行囊，千重子决定为家人准备一顿丰盛的晚餐。",
+        "mood": "nostalgic",
+        "key_dialogue": "Many of the houses in Nakagyo were lost in the Teppo Fire and the Dondon Fire... Takichiro’s shop had not escaped damage."
+      }
+    },
+    {
+      "title": "Nishiki Market",
+      "address": "日本-京都府-京都市-中京区-锦小路通",
+      "synopsis": "千重子在充满生活气息的“京都厨房”锦市场采购，感受市井的喧嚣与活力。",
+      "source_evidence": "Shall I go to Nishiki market to get something for dinner?... Shoppers thronged the market street at Nishiki, as always.",
+      "original_chapter": "THE KIMONO TOWN",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": "锦小路",
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "佐田千重子"
+        ],
+        "stay_duration": "1小时"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "daily_life",
+          "market_culture"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "著名的锦市场，被称为京都的厨房",
+        "current_name": "锦市场"
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第7章·锦市场的烟火",
+        "hook": "在拥挤的人潮中，千重子寻找着属于京都的味道。",
+        "narrative_text": "从嵯峨野归来后，佐田千重子并没有立即休息，而是提着篮子走向了锦市场。这条被誉为“京都厨房”的狭窄街道一如既往地挤满了购物的人群。空气中弥漫着渍物、鲜鱼和各种京都特产的香气。千重子穿梭在叫卖声不断的摊位间，挑选着晚餐所需的食材。这里的喧嚣与她内心的孤独形成了鲜明的对比。作为绸缎庄的大小姐，她在这种极其平民化的烟火气中，寻找着一种踏实的生活感。每一个摊位、每一声问候，都是京都最真实、最鲜活的底色。",
+        "transition_to": "回到家中，灶神龛上的布袋和尚像勾起了家人的回忆。",
+        "mood": "peaceful",
+        "key_dialogue": "Shoppers thronged the market street at Nishiki, as always."
+      }
+    },
+    {
+      "title": "Fushimi Inari Shrine",
+      "address": "日本-京都府-京都市-伏见区-深草薮之内町68",
+      "synopsis": "佐田家每年都会前往伏见稻荷大社祈福，购买布袋和尚像以求家宅平安。",
+      "source_evidence": "The number had increased each year when the Sadas bought one at the Inari Shrine in Fushimi on the Hatsuuma in February.",
+      "original_chapter": "THE KIMONO TOWN",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "佐田太吉郎",
+          "佐田繁",
+          "佐田千重子"
+        ],
+        "stay_duration": "数小时"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "tradition",
+          "ritual",
+          "blessing"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "以千本鸟居闻名的著名神社",
+        "current_name": "伏见稻荷大社"
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第8章·稻荷神的守护",
+        "hook": "每年二月的初午之日，佐田家都有一个雷打不动的约定。",
+        "narrative_text": "在佐田家的灶神龛上，整齐地排列着一排布袋和尚的小塑像。这些塑像是佐田家每年二月初午之日，专门前往伏见稻荷大社求回来的。伏见稻荷大社以其绵延不绝的朱红鸟居闻名，是祈求商业繁盛和家宅平安的圣地。对于经营绸缎庄的佐田家来说，这不仅是一种宗教仪式，更是一种家族传统的延续。每增加一个塑像，就代表着家里又平安度过了一年。佐田千重子看着这些憨态可掬的塑像，心中涌动着对养父母多年悉心照料的感激之情。",
+        "transition_to": "然而，关于千重子身世的真相，却隐藏在另一个神社的樱花树下。",
+        "mood": "peaceful",
+        "key_dialogue": "The number had increased each year when the Sadas bought one at the Inari Shrine in Fushimi..."
+      }
+    },
+    {
+      "title": "Gion Shrine",
+      "address": "日本-京都府-京都市-东山区-祇园町北侧625",
+      "synopsis": "养母佐田繁向千重子坦白，二十年前的樱花之夜，她是在祇园社的长椅上抱走了千重子。",
+      "source_evidence": "“Under the cherry blossoms at night at Gion Shrine,” her mother responded without hesitation. “I may have told you before, but there beneath the blossoms a lovely baby had been laid on a bench to sleep.”",
+      "original_chapter": "THE KIMONO TOWN",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": "祇园社",
+        "date_start": "1940",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "佐田繁",
+          "佐田太吉郎",
+          "佐田千重子"
+        ],
+        "stay_duration": "数小时"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "origin",
+          "secret",
+          "motherhood"
+        ],
+        "significance": 1.0
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "即现在的八坂神社",
+        "current_name": "八坂神社"
+      },
+      "timeline": {
+        "orderIndex": 9,
+        "dateStart": "1940",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第9章·樱花下的弃儿",
+        "hook": "二十年前的那个夜晚，祇园的樱花见证了一个谎言的诞生。",
+        "narrative_text": "在一次深谈中，养母佐田繁终于向佐田千重子揭开了那个尘封已久的秘密。二十年前的一个春夜，祇园社（现八坂神社）的樱花正盛。佐田繁与丈夫佐田太吉郎在赏樱时，发现长椅上躺着一个熟睡的婴儿。出于对孩子的怜爱和对子嗣的渴望，佐田繁在那个花影摇曳的夜晚抱走了婴儿——那就是千重子。多年来，他们一直告诉千重子她是“被偷来的孩子”，试图以此掩盖她是被遗弃的事实。这个真相如同一阵冷风，吹散了千重子心中对亲生父母的最后一点幻想，却也让她更加深刻地感受到了养父母那份沉重而复杂的爱。",
+        "transition_to": "抱着婴儿的夫妻俩，匆忙消失在平野屋前的夜色中。",
+        "mood": "bittersweet",
+        "key_dialogue": "Under the cherry blossoms at night at Gion Shrine... a lovely baby had been laid on a bench to sleep."
+      }
+    },
+    {
+      "title": "Hiranoya",
+      "address": "日本-京都府-京都市-东山区-祇园町北侧",
+      "synopsis": "佐田繁回忆起当年抱走千重子后，与太吉郎在平野屋餐厅前匆忙乘车逃离的情景。",
+      "source_evidence": "I think we jumped into the car in front of the restaurant Hiranoya.",
+      "original_chapter": "THE KIMONO TOWN",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1940",
+        "date_end": "1940"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "佐田繁",
+          "佐田太吉郎"
+        ],
+        "stay_duration": "短暂瞬间"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "memory",
+          "escape"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "祇园著名的老牌餐厅",
+        "current_name": "平野屋"
+      },
+      "timeline": {
+        "orderIndex": 10,
+        "dateStart": "1940",
+        "dateEnd": "1940"
+      },
+      "story_mode": {
+        "chapter_title": "第10章·逃离现场",
+        "hook": "那一刻的慌乱与决绝，定格在了平野屋前的灯火里。",
+        "narrative_text": "佐田繁的思绪回到了那个改变命运的瞬间。在祇园社抱起佐田千重子后，她和佐田太吉郎的心跳得飞快。他们穿过赏樱的人群，快步走向位于神社附近的平野屋餐厅。在餐厅门前，他们匆忙拦下了一辆汽车，带着那个还在襁褓中的孩子消失在京都的夜色里。平野屋的灯光在车窗后飞速倒退，那一刻的惊心动魄成为了佐田繁心中永远无法抹去的记忆。这个细节让千重子意识到，自己的到来并非偶然，而是养父母在那一瞬间做出的、带有罪恶感却又充满温情的抉择。",
+        "transition_to": "身世的迷雾尚未散尽，京都御所的宁静又在前方等待着她。",
+        "mood": "tense",
+        "key_dialogue": "I think we jumped into the car in front of the restaurant Hiranoya."
+      }
+    },
+    {
+      "title": "Gosho",
+      "address": "日本-京都府-京都市-上京区-京都御所",
+      "synopsis": "京都御所的松树林在秋日里展现出静谧的苍翠，成为佐田太吉郎眼中比时代祭游行更动人的风景。",
+      "source_evidence": "The groves of pines in Gosho and the imperial villa of Shugakuin and the trees in the expansive gardens of the old temples all caught the eye of the traveler",
+      "original_chapter": "THE KIMONO TOWN",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": "京都御所",
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "佐田太吉郎"
+        ],
+        "stay_duration": "短暂游览"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "nature",
+          "tradition",
+          "aesthetic"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现作为京都御苑对外开放",
+        "current_name": "京都御苑"
+      },
+      "timeline": {
+        "orderIndex": 11,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第11章·御所的松涛",
+        "hook": "在繁华的时代祭中，为何他只钟情于那片静止的松林？",
+        "narrative_text": "身世的迷雾尚未散尽，京都御所的宁静又在前方等待着佐田千重子。对于佐田太吉郎——这位经营绸缎庄、对传统美学近乎执着的父亲来说，御所的松树林有着比节日游行更深邃的魅力。当京都步入秋季，游人如织地涌向时代祭的队列时，太吉郎却常常将目光投向那些苍劲的古松。在他眼中，这些松树不仅是自然的造物，更是京都千年风华的守护者，其色泽与姿态中蕴含着和服纹样无法穷尽的灵感。这种对静谧之美的偏爱，也潜移默化地影响着他的养女千重子，让她在面对身世的波澜时，总能在这座古城的草木间寻得一丝慰藉。",
+        "transition_to": "离开御所的松林，那抹秋色在修学院离宫的庭园里得到了延续。",
+        "mood": "peaceful",
+        "key_dialogue": "When he invited me to the Festival of Ages, he was watching the changing colors on Higashiyama and the green pines at Gosho more than he was watching the parades of period costumes."
+      }
+    },
+    {
+      "title": "Shugakuin",
+      "address": "日本-京都府-京都市-左京区-修学院离宫",
+      "synopsis": "修学院离宫的园林树木在秋色中交织，与御所的松林共同构成了京都深秋的视觉盛宴。",
+      "source_evidence": "The groves of pines in Gosho and the imperial villa of Shugakuin and the trees in the expansive gardens of the old temples all caught the eye of the traveler",
+      "original_chapter": "THE KIMONO TOWN",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "佐田千重子"
+        ],
+        "stay_duration": "远眺或短暂停留"
+      },
+      "cultural_tags": {
+        "category": "architectural",
+        "themes": [
+          "landscape",
+          "seasonal_beauty"
+        ],
+        "significance": 0.2
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "需提前向宫内厅预约参观",
+        "current_name": "修学院离宫"
+      },
+      "timeline": {
+        "orderIndex": 12,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第12章·离宫的秋意",
+        "hook": "皇室离宫的树木，如何勾勒出京都最精致的季节轮廓？",
+        "narrative_text": "修学院离宫的树木在秋风中悄然换妆，与御所的松林遥相呼应。在川端康成的笔下，这里的每一株草木都是京都整体美学的一部分。对于生活在京都的人们，尤其是像佐田家这样与传统手工艺息息相关的家庭，离宫的自然景观不仅是游览的去处，更是审美生活的基准。这里的树木在广阔的庭园中舒展，色彩斑斓，捕捉着每一位过往旅人的目光，也映衬着佐田千重子心中那份如京都季节般流转、却又带着淡淡哀愁的情绪。",
+        "transition_to": "从离宫的开阔转向市中心的喧嚣，高濑川的柳树正低垂着枝条。",
+        "mood": "nostalgic",
+        "key_dialogue": "The groves of pines in Gosho and the imperial villa of Shugakuin and the trees in the expansive gardens of the old temples all caught the eye of the traveler"
+      }
+    },
+    {
+      "title": "Takase River",
+      "address": "日本-京都府-京都市-中京区-高濑川",
+      "synopsis": "高濑川两岸的垂柳是京都中心地带的标志性景观，见证了这座古城的日常律动。",
+      "source_evidence": "as did the rows of willows in the center of the city, along the banks of the Takase River.",
+      "original_chapter": "THE KIMONO TOWN",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "佐田千重子"
+        ],
+        "stay_duration": "路过"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "urban_nature",
+          "willows"
+        ],
+        "significance": 0.2
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "位于木屋町通旁，是著名的散步道",
+        "current_name": "高濑川"
+      },
+      "timeline": {
+        "orderIndex": 13,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第13章·高濑川的垂柳",
+        "hook": "市中心的流水与柳影，藏着京都怎样的市井温情？",
+        "narrative_text": "高濑川静静流经京都市中心，岸边成排的垂柳随风摇曳，为这片繁华的绸缎商区增添了一抹柔和。这里是佐田千重子日常生活中最熟悉的风景之一。不同于御所的庄严或离宫的辽阔，高濑川的柳树更具生活气息，它们见证了京都人的往来奔忙。在千重子为了家业和身世而奔走于中京区的街道时，这些柳树就像是沉默的陪伴者，以其不变的姿态，安抚着她那颗因偶遇双胞胎妹妹苗子而泛起涟漪的心。",
+        "transition_to": "视线越过市区的柳树，远方的东山已披上了春日的嫩绿。",
+        "mood": "peaceful",
+        "key_dialogue": "as did the rows of willows in the center of the city, along the banks of the Takase River."
+      }
+    },
+    {
+      "title": "Higashiyama",
+      "address": "日本-京都府-京都市-东山区-东山",
+      "synopsis": "春日里，东山的群山被嫩叶染成深浅不一的绿色，是京都春季最动人的背景。",
+      "source_evidence": "When he invited me to the Festival of Ages, he was watching the changing colors on Higashiyama and the green pines at Gosho more than he was watching the parades of period costumes.",
+      "original_chapter": "THE KIMONO TOWN",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": "东山三十六峰",
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "佐田太吉郎",
+          "佐田千重子"
+        ],
+        "stay_duration": "远眺"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "spring",
+          "mountains",
+          "colors"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "京都东侧的连绵山峦",
+        "current_name": "东山"
+      },
+      "timeline": {
+        "orderIndex": 14,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第14章·东山的嫩绿",
+        "hook": "当群山换上新装，千重子的命运是否也将迎来转机？",
+        "narrative_text": "春天降临古都，东山的群山呈现出一种令人心醉的嫩叶色泽。佐田太吉郎对这片山色的痴迷甚至超过了对时代祭游行的关注。对他而言，东山的色彩变化就是京都生命的律动。佐田千重子站在窗前或走在街头，总能看见这片连绵的翠绿。这色彩如此鲜活，却也映衬出她内心深处关于“弃儿”身份的孤独。尽管她深受养父母的疼爱，但每当看到东山那如织的春色，她总会想起那个在祇园祭喧嚣中偶遇的、有着相同面孔的女孩苗子。",
+        "transition_to": "与东山并肩而立的比叡山，同样在春光中闪耀着生命的光泽。",
+        "mood": "bittersweet",
+        "key_dialogue": "Now it was spring in the old capital. The masses of young leaves formed patterns of color on the mountainsides of Higashiyama and Hieizan."
+      }
+    },
+    {
+      "title": "Hieizan",
+      "address": "日本-滋贺县-大津市-比叡山",
+      "synopsis": "比叡山与东山共同构成了京都的天然屏障，其春日的色彩是古都季节更迭的象征。",
+      "source_evidence": "Now it was spring in the old capital. The masses of young leaves formed patterns of color on the mountainsides of Higashiyama and Hieizan.",
+      "original_chapter": "THE KIMONO TOWN",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "佐田千重子"
+        ],
+        "stay_duration": "远眺"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "sacred_mountain",
+          "nature",
+          "spring"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "天台宗总本山延历寺所在地",
+        "current_name": "比叡山"
+      },
+      "timeline": {
+        "orderIndex": 15,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第15章·比叡山的远影",
+        "hook": "圣山之巅的春色，如何抚平少女心中的波澜？",
+        "narrative_text": "比叡山巍峨耸立，在春日阳光下，漫山遍野的新绿交织成错落有致的图案。作为京都的守护之山，它在佐田千重子的视野中始终占据着一角。这种宏大的自然景观与她细腻、敏感的内心世界形成了鲜明对比。此时的千重子，正处在情感与身份认同的十字路口：一边是养育她多年、视如己出的佐田夫妇，另一边是血脉相连、却生活在贫苦山村的妹妹苗子。比叡山的春色虽美，却也提醒着她，在这座古老的城市里，每个生命都有其注定的位置。",
+        "transition_to": "古都的四季流转不息，千重子的故事也在这片山水间继续书写。",
+        "mood": "peaceful",
+        "key_dialogue": "Now it was spring in the old capital. The masses of young leaves formed patterns of color on the mountainsides of Higashiyama and Hieizan."
+      }
+    },
+    {
+      "title": "Nishijin",
+      "address": "日本-京都府-京都市-上京区-西阵",
+      "synopsis": "京都传统织造业的核心区，大友宗助的织造坊便设于此，佐田太吉郎常带着新设计的图案来此探讨工艺。",
+      "source_evidence": "The Nishijin Fabric Weavers Trade Association took an unprecedented measure by stopping all loom work ... As one could see from a glance at the streets in Nishijin, the weaving houses were mostly small family businesses.",
+      "original_chapter": "THE KIMONO TOWN",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "佐田太吉郎",
+          "大友宗助",
+          "大友秀男"
+        ],
+        "stay_duration": "数小时"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "craftsmanship",
+          "tradition",
+          "textile"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "至今仍是京都著名的传统织造区",
+        "current_name": "西阵"
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·织机声中的古都魂",
+        "hook": "山色的美景虽好，但现实的生计与传统，终究要回到西阵的织机声中。",
+        "narrative_text": "在京都绸缎庄老板佐田太吉郎的眼中，西阵是这座城市的脉搏。狭窄的街道两旁挤满了小型的家族织造坊，空气中终日回荡着节奏单调而坚韧的织机声。太吉郎带着他那带有抽象美感的腰带设计图，拜访了老友大友宗助。宗助是位固守传统的织匠，而他的儿子大友秀男则展现出过人的才华。在这充满生丝气息的作坊里，太吉郎不仅在探讨艺术的商业化可能，也在暗暗观察秀男——这个年轻人或许会成为他女儿佐田千重子未来的归宿。西阵的经纬线，不仅织就了华美的和服，也编织着京都世家的命运纽带。",
+        "transition_to": "当春意渐浓，严肃的作坊讨论暂告一段落，人们纷纷走向户外寻找花影。",
+        "mood": "nostalgic",
+        "key_dialogue": "“The Nishijin Fabric Weavers Trade Association took an unprecedented measure by stopping all loom work.”"
+      }
+    },
+    {
+      "title": "Botanical Garden",
+      "address": "日本-京都府-京都市-左京区-下鸭半木町-京都府立植物园",
+      "synopsis": "太吉郎一家在植物园赏花时偶遇大友父子，在郁金香与雪松间，含蓄地触及了千重子的婚事。",
+      "source_evidence": "Chieko recalled her mother reproving her father for asking what she would think of Hideo as a son-in-law when they were returning from the Botanical Garden along the bank of the Kamo River. The tulips had been in full bloom.",
+      "original_chapter": "KITAYAMA CEDARS",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "佐田太吉郎",
+          "佐田千重子",
+          "佐田繁",
+          "大友宗助",
+          "大友秀男"
+        ],
+        "stay_duration": "一个下午"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "romance",
+          "nature",
+          "family_expectations"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "日本最早的公立植物园",
+        "current_name": "京都府立植物园"
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·郁金香下的试探",
+        "hook": "盛开的郁金香旁，父亲的一句玩笑话让千重子陷入了沉思。",
+        "narrative_text": "京都府立植物园内，郁金香正开得烂漫，高大的喜马拉雅雪松投下阴凉。佐田太吉郎带着妻子佐田繁和女儿佐田千重子在此散步，不期而遇了大友宗助父子。在花卉与绿意的掩映下，长辈们的交谈显得轻松却意有所指。太吉郎半开玩笑地询问千重子对秀男的看法，暗示着招赘的意图。千重子保持着京都少女特有的矜持与沉默，而母亲佐田繁则轻声责备丈夫的唐突。在这片充满现代气息的园林里，传统的家族联姻话题如同花香般微妙地流转，秀男那专注而略显局促的神情，在千重子心中泛起了一丝涟漪。",
+        "transition_to": "春天的脚步并未停歇，太吉郎又约家人前往那处以迟开樱花闻名的古寺。",
+        "mood": "peaceful",
+        "key_dialogue": "“The tulips had been in full bloom.”"
+      }
+    },
+    {
+      "title": "Ninnaji Temple",
+      "address": "日本-京都府-京都市-右京区-御室大内-仁和寺",
+      "synopsis": "太吉郎约妻女在仁和寺赏樱，却因大门内樱花林游客过于嘈杂而感到扫兴。",
+      "source_evidence": "Wait for us at the tearoom in front of Ninnaji Temple. ... The grove of cherries to the left inside the main gate of Ninnaji was overflowing with blossoms.",
+      "original_chapter": "KITAYAMA CEDARS",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "佐田太吉郎",
+          "佐田千重子",
+          "佐田繁"
+        ],
+        "stay_duration": "短暂逗留"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "cherry_blossom",
+          "aesthetic_disappointment"
+        ],
+        "significance": 0.7
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "世界文化遗产，以御室樱闻名",
+        "current_name": "仁和寺"
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·被惊扰的御室樱",
+        "hook": "满园樱花虽美，却无法抚平太吉郎对喧嚣世界的厌恶。",
+        "narrative_text": "仁和寺巨大的二王门内，左侧的樱花林正值盛放，如云似霞。佐田太吉郎约了佐田繁和千重子在寺前的茶屋会合。作为一名追求极致纯粹的艺术家，太吉郎本想在此领略京都最后的春色，然而现实却令他失望。战后的旅游热潮让古寺失去了往日的静谧，成群结队的游客和嘈杂的声浪充斥着花影之间。太吉郎看着那些被惊扰的樱花，心中涌起一种对时代变迁的无力感。他甚至不愿进入花林深处，便匆匆带着家人离开，去寻找更符合他心中理想的宁静之地。",
+        "transition_to": "虽然仁和寺令人失望，但御室这一带的春意，仍有值得留恋的残影。",
+        "mood": "melancholic",
+        "key_dialogue": "“The grove of cherries to the left inside the main gate of Ninnaji was overflowing with blossoms.”"
+      }
+    },
+    {
+      "title": "Koryuji Temple",
+      "address": "日本-京都府-京都市-右京区-太秦东蜂冈町-广隆寺",
+      "synopsis": "大友秀男在心中将千重子的清丽之美，与广隆寺著名的弥勒菩萨半跏思惟像相媲美。",
+      "source_evidence": "were your daughter Chieko to stand before the celebrated statues of Miroku at Koryuji Temple and Chuguji Temple, how much more beautiful would she be in comparison.",
+      "original_chapter": "KITAYAMA CEDARS",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "大友秀男",
+          "佐田千重子"
+        ],
+        "stay_duration": "无（意念提及）"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "artistic_comparison",
+          "ideal_beauty"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "京都最古老的寺院之一",
+        "current_name": "广隆寺"
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·菩萨的倒影",
+        "hook": "在年轻织匠的眼中，千重子的美已超越了凡尘，直抵神性。",
+        "narrative_text": "广隆寺内供奉着那尊著名的弥勒菩萨半跏思惟像，那永恒的微笑与静谧的姿态是京都艺术的巅峰。大友秀男——这位对美有着近乎狂热追求的年轻织匠，在心中完成了一次神圣的类比。他认为，如果让佐田千重子站在广隆寺的菩萨像前，她的清丽与高洁绝不会逊色于那尊国宝。这种赞美不仅是对千重子外貌的认可，更是秀男将自己对织造艺术的理想投射到了这个少女身上。对他而言，千重子就是活着的京都之魂，是需要他用一生去守护和织就的绝美图案。",
+        "transition_to": "这种对极致之美的追寻，又将秀男的思绪引向了另一座古寺的佛影。下一站，中宫寺。",
+        "mood": "mysterious",
+        "key_dialogue": "“...were your daughter Chieko to stand before the celebrated statues of Miroku at Koryuji Temple...”"
+      }
+    },
+    {
+      "title": "Chuguji Temple",
+      "address": "日本-奈良县-生驹郡-斑鸠町-中宫寺",
+      "synopsis": "大友秀男在赞美千重子的美貌时，将其与中宫寺那尊著名的弥勒菩萨像相类比。",
+      "source_evidence": "were your daughter Chieko to stand before the celebrated statues of Miroku at Koryuji Temple and Chuguji Temple, how much more beautiful would she be in comparison.",
+      "original_chapter": "KITAYAMA CEDARS",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "大友秀男",
+          "佐田千重子"
+        ],
+        "stay_duration": "瞬时的思绪联想"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "aestheticism",
+          "buddhism",
+          "comparison"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为圣德太子相关的著名尼寺",
+        "current_name": "中宫寺"
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·佛影中的少女",
+        "hook": "在织工秀男眼中，千重子的美竟能与国宝级的佛像并肩？",
+        "narrative_text": "这种对极致之美的追寻，又将秀男的思绪引向了另一座古寺的佛影。中宫寺内，那尊半跏趺坐的弥勒菩萨像正散发着永恒的慈悲与静谧。大友秀男，这位对美有着近乎偏执追求的年轻织工，在面对佐田太吉郎时，由衷地赞叹千重子。在他看来，若让千重子伫立于广隆寺与中宫寺的弥勒像前，少女那鲜活而清丽的生命力，甚至会让这些传世的木雕佛像也显得黯然失色。这种赞美不仅是对千重子外貌的肯定，更是秀男心中将她神圣化、艺术化的体现。",
+        "transition_to": "从佛像的静谧联想中回神，京都郊外的自然山色再次映入眼帘。",
+        "mood": "peaceful",
+        "key_dialogue": "“were your daughter Chieko to stand before the celebrated statues of Miroku at Koryuji Temple and Chuguji Temple, how much more beautiful would she be in comparison.”"
+      }
+    },
+    {
+      "title": "Mount Hieizan",
+      "address": "日本-滋贺县-大津市-比叡山",
+      "synopsis": "佐田太吉郎与大友宗助在植物园漫步时，远眺被春雾笼罩的比叡山，感叹时移世易。",
+      "source_evidence": "But they could see Mount Hieizan to the east. ... One could see the mountains Hieizan, Kitayama, and Higashiyama from almost anywhere in the Botanical Garden",
+      "original_chapter": "KITAYAMA CEDARS",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "佐田太吉郎",
+          "大友宗助"
+        ],
+        "stay_duration": "一个下午"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "landscape",
+          "nostalgia",
+          "friendship"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "天台宗总本山延历寺所在地",
+        "current_name": "比叡山"
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第6章·远山的薄雾",
+        "hook": "东方的比叡山在雾中若隐若现，正如老辈匠人迷茫的未来。",
+        "narrative_text": "在京都植物园的芍药园中，佐田太吉郎与老友大友宗助并肩而行。尽管园内部分区域仍被占领军征用，但向东望去，比叡山那雄伟的轮廓依然矗立。春天的薄雾如轻纱般笼罩着山峦，使其显得柔和而略带忧伤。两位老人谈论着传统和服设计的没落，比叡山就像是一个沉默的见证者，注视着京都这座古城在战后阵痛中的变迁。对于太吉郎来说，这山影不仅是地理的坐标，更是他心中那份无法割舍的古都情怀的寄托。",
+        "transition_to": "离开静谧的植物园，沿着贺茂川南下，生活的气息扑面而来。",
+        "mood": "melancholic",
+        "key_dialogue": "“One could see the mountains Hieizan, Kitayama, and Higashiyama from almost anywhere in the Botanical Garden.”"
+      }
+    },
+    {
+      "title": "Kitaoji Bridge",
+      "address": "日本-京都府-京都市-北区-北大路桥",
+      "synopsis": "佐田一家在北大路桥附近目睹了贺茂川边晾晒友禅绸的京都日常美景。",
+      "source_evidence": "Beyond Kitaoji Bridge they could glimpse yuzen silk spread out to dry on the grassy river plain.",
+      "original_chapter": "KITAYAMA CEDARS",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "佐田太吉郎",
+          "佐田千重子",
+          "佐田繁"
+        ],
+        "stay_duration": "路过"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "craftsmanship",
+          "daily_life",
+          "tradition"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "横跨贺茂川的重要桥梁",
+        "current_name": "北大路桥"
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第7章·贺茂川的彩虹",
+        "hook": "河滩上铺展开的不仅是绸缎，更是京都流动的色彩。",
+        "narrative_text": "佐田太吉郎带着妻子繁和女儿千重子走过北大路桥。桥下的贺茂川河滩上，五颜六色的友禅绸正铺在草地上晾晒，远远望去宛如在大地上绘出的彩虹。这是京都特有的风景，也是佐田家绸缎庄生意的根基。太吉郎看着这些绸缎，心中既有对传统工艺的自豪，也有一丝对现代工业冲击的忧虑。千重子静静地看着这些色彩，她那如友禅绸般绚烂却又脆弱的身世，在这一刻仿佛与这座城市的脉动重叠在了一起。",
+        "transition_to": "京都的绿意不仅在河边，更在深山。千重子受邀前往一处避暑胜地。",
+        "mood": "peaceful",
+        "key_dialogue": "“Beyond Kitaoji Bridge they could glimpse yuzen silk spread out to dry on the grassy river plain.”"
+      }
+    },
+    {
+      "title": "Takao",
+      "address": "日本-京都府-京都市-右京区-梅畑高雄町",
+      "synopsis": "千重子与好友真砂子前往高雄观赏新绿，在清幽的山间享受片刻的宁静。",
+      "source_evidence": "Chieko received a telephone call from her friend Masako. “Chieko, would you like to go to Takao to see the new maple leaves?”",
+      "original_chapter": "The Old Capital",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "佐田千重子",
+          "真砂子"
+        ],
+        "stay_duration": "半日"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "friendship",
+          "nature",
+          "seasonal_beauty"
+        ],
+        "significance": 0.7
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "著名的红叶胜地，新绿时期也极美",
+        "current_name": "高雄"
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第8章·高雄的新绿",
+        "hook": "避开喧嚣的市区，山间的清风能否吹散千重子心头的愁绪？",
+        "narrative_text": "接到好友真砂子的电话后，千重子欣然前往高雄。此时并非红叶季，高雄的山间满是沁人心脾的新绿。真砂子是千重子亲密的朋友，性格开朗，她的陪伴让总是带着淡淡忧郁的千重子感到放松。两人走在清泷川边的山路上，这里的空气比京都市区凉爽许多，游客稀少，只有溪水声和鸟鸣。在这片纯净的自然中，千重子暂时忘记了关于自己身世的种种猜测，只是单纯地沉浸在与好友共处的时光和初夏的生机中。",
+        "transition_to": "山间的远足结束了，但千重子对京都角落的探索并未停止。",
+        "mood": "joyful",
+        "key_dialogue": "“Chieko, would you like to go to Takao to see the new maple leaves?”"
+      }
+    },
+    {
+      "title": "Nyakuoji Temple",
+      "address": "日本-京都府-京都市-左京区-若王子町2",
+      "synopsis": "千重子平日里钟爱在若王子神社附近散步，这里是她寻找内心平静的秘密角落。",
+      "source_evidence": "She also enjoyed the area around Nyakuoji Temple.",
+      "original_chapter": "The Old Capital",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": "若王子神社",
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "佐田千重子"
+        ],
+        "stay_duration": "日常散步"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "solitude",
+          "contemplation",
+          "urban_nature"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "哲学之道的起点/终点附近",
+        "current_name": "熊野若王子神社"
+      },
+      "timeline": {
+        "orderIndex": 9,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第9章·若王子的漫步",
+        "hook": "在哲学之道的尽头，少女独自徘徊，她在寻找什么？",
+        "narrative_text": "若王子神社一带是千重子极爱去的地方。这里位于东山脚下，环境幽静，是她独自沉思的最佳去处。作为绸缎庄的千金，千重子虽然生活优渥，但内心深处始终笼罩着一层关于自己是被弃养孤儿的阴影。在若王子的古树与石阶间漫步时，她能感受到一种超越世俗的宁静。这种对特定地点的偏爱，折射出她内敛、敏感且富有诗意的性格。她在这里观察四季的细微变化，也将自己的少女心事默默埋藏在这些古老的建筑与草木之间。",
+        "transition_to": "然而，平静的生活即将被打破，一段关于远方与血缘的旅程即将开启。下一站，宇治。",
+        "mood": "peaceful",
+        "key_dialogue": "“She also enjoyed the area around Nyakuoji Temple.”"
+      }
+    },
+    {
+      "title": "Uji",
+      "address": "日本-京都府-宇治市",
+      "synopsis": "千重子在家中冲泡宇治新茶，因错过今年的采茶季而心生遗憾，流露出对自然时序的敏感。",
+      "source_evidence": "As she began to brew some new tea she had received from Uji, Chieko said, “Mother, I forgot to go see the gathering of the new tea this year.”",
+      "original_chapter": "The Young Maples",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1962"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "佐田千重子",
+          "佐田繁"
+        ],
+        "stay_duration": "一个下午"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "tea_culture",
+          "seasonal_regret",
+          "domestic_life"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "著名的宇治茶产地，拥有平等院等古迹",
+        "current_name": "宇治市"
+      },
+      "timeline": {
+        "orderIndex": 10,
+        "dateStart": "1961",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第10章·错过的宇治茶香",
+        "hook": "一杯新茶的香气，为何勾起了千重子淡淡的哀愁？",
+        "narrative_text": "在若王子神社的宁静之后，生活回归了京都日常的琐碎。佐田千重子正细心地冲泡着从宇治送来的新茶。茶香袅袅升起，却让她想起自己竟错过了今年的采茶季。她对母亲佐田繁感叹着时光的流逝，这种对季节细微变化的执着，正是她内心敏感而多情的体现。虽然身处繁华，她的心却总是在那些古老的传统与自然的律动中寻找归宿。",
+        "transition_to": "除了宇治的茶，京都府立植物园的樟树也留下了她的遗憾。",
+        "mood": "melancholic",
+        "key_dialogue": "“Mother, I forgot to go see the gathering of the new tea this year.”"
+      }
+    },
+    {
+      "title": "Kitayama",
+      "address": "日本-京都府-京都市-北区-北山",
+      "synopsis": "千重子邀请真砂子前往北山欣赏笔直的杉树林，试图通过大自然的挺拔姿态振奋精神。",
+      "source_evidence": "The cherry blossoms are gone, but I would like to see the cedars at Kitayama. That’s near Takao, isn’t it? Whenever I see the lovely straight cedars at Kitayama, it makes my spirit feel refreshed.",
+      "original_chapter": "The Young Maples",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1962"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "佐田千重子",
+          "真砂子"
+        ],
+        "stay_duration": "半日"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "cedar_forest",
+          "refreshment",
+          "friendship"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "以北山杉闻名，是京都重要的林业区",
+        "current_name": "北山"
+      },
+      "timeline": {
+        "orderIndex": 11,
+        "dateStart": "1961",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第11章·北山杉的洗礼",
+        "hook": "笔直向天的杉树，能否抚平少女心中的褶皱？",
+        "narrative_text": "为了摆脱连日来的阴郁，千重子约上好友真砂子一同前往北山。北山以出产优质的杉木闻名，漫山遍野的北山杉笔直挺拔，直插云霄。千重子告诉真砂子，每当看到这些充满生命力的树木，她的精神就会感到振奋。在这里，大自然的秩序感给予了她暂时的安慰，让她忘却了关于自己是“弃儿”的传闻。然而，这片杉树林也隐藏着她未曾察觉的血缘秘密。",
+        "transition_to": "穿过杉林，她们来到了山间的古刹神护寺。",
+        "mood": "peaceful",
+        "key_dialogue": "“Whenever I see the lovely straight cedars at Kitayama, it makes my spirit feel refreshed.”"
+      }
+    },
+    {
+      "title": "Jingoji Temple",
+      "address": "日本-京都府-京都市-右京区-梅畑高雄町5-神护寺",
+      "synopsis": "千重子与真砂子登上高雄山参观神护寺，欣赏新绿的枫叶并谈论寺内珍藏的著名肖像画。",
+      "source_evidence": "Chieko and Masako decided to see the young maple leaves at Jingoji Temple in Takao... The portraits of Taira no Shigemori and Minamoto no Yoritomo in Jingoji Temple had been made world-famous by Andre Malraux.",
+      "original_chapter": "The Young Maples",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1962"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "佐田千重子",
+          "真砂子"
+        ],
+        "stay_duration": "数小时"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "art_history",
+          "maple_leaves",
+          "pilgrimage"
+        ],
+        "significance": 0.85
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "高雄名刹，以红叶和国宝肖像画著称",
+        "current_name": "神护寺"
+      },
+      "timeline": {
+        "orderIndex": 12,
+        "dateStart": "1961",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第12章·高雄山的古画与新绿",
+        "hook": "在古老的肖像画前，千重子是否预感到命运的重逢？",
+        "narrative_text": "千重子与真砂子费力地登上了高雄山的陡峭石阶，来到了神护寺。此时并非红叶季，而是满目清新的“青红叶”。她们谈论起寺中珍藏的平重盛与源赖朝的肖像画，这些被安德烈·马尔罗盛赞的艺术品，在古刹的幽静中散发着历史的厚重感。真砂子的陪伴让旅程充满了轻快的谈笑，但千重子在欣赏这些传世之作时，内心深处依然回荡着对自身存在意义的追问。这趟山间之行，正悄然将她引向那个与她长相一模一样的女孩。京都的故事，在山川与古刹间继续流转。",
+        "transition_to": "京都的四季流转，正如这古都的命运，在传统与现代间寻找着平衡。",
+        "mood": "peaceful",
+        "key_dialogue": "The portraits of Taira no Shigemori and Minamoto no Yoritomo in Jingoji Temple had been made world-famous by Andre Malraux."
+      }
+    },
+    {
+      "title": "Saimyoji Temple",
+      "address": "日本-京都府-京都市-右京区-梅畑槙尾町-西明寺",
+      "synopsis": "千重子与真砂子在前往北山的途中，顺道游览了位于槙尾的西明寺，欣赏初秋微红的枫叶。",
+      "source_evidence": "Chieko and Masako decided to see the young maple leaves at Jingoji Temple in Takao, Saimyoji Temple at Makinoo, and Kozanji Temple at Toganoo before they went on.",
+      "original_chapter": "The Old Capital",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "佐田千重子",
+          "真砂子"
+        ],
+        "stay_duration": "一个下午"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "nature",
+          "scenery",
+          "sisterhood"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "真言宗大觉寺派寺院",
+        "current_name": "西明寺"
+      },
+      "timeline": {
+        "orderIndex": 46,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第46章·槙尾的红叶预感",
+        "hook": "在前往深山的路上，那一抹初红的枫叶预示着季节的更迭。",
+        "narrative_text": "离开神护寺后，佐田千重子与好友真砂子继续在高雄的山间漫步。她们来到了位于槙尾的西明寺，这里比神护寺更为幽静。千重子——这位在京都绸缎庄长大的优雅少女，心中总是带着一丝淡淡的忧郁。两人在寺院中穿行，看着那些尚未完全转红、却已透出秋意的枫叶。真砂子性格活泼，总是试图用轻快的言语化解千重子的沉思。在这静谧的古刹中，时间仿佛放慢了脚步，只有山风吹过林间的沙沙声，陪伴着两位少女对未来的隐约期许。",
+        "transition_to": "告别了西明寺的幽静，她们向着更高处的栂尾高山寺走去。",
+        "mood": "peaceful",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "Kozanji Temple",
+      "address": "日本-京都府-京都市-右京区-梅畑栂尾町-高山寺",
+      "synopsis": "千重子与真砂子在高山寺石水院回廊品茗，观赏明惠上人像与《鸟兽戏画》，感受古寺禅意。",
+      "source_evidence": "At Kozanji Temple Chieko enjoyed viewing the mountains from the veranda of Sekisuiin. She was also fond of the portrait that hung there of the founder of the sect of the temple, the priest Myoe",
+      "original_chapter": "The Old Capital",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "佐田千重子",
+          "真砂子"
+        ],
+        "stay_duration": "半日"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "art",
+          "zen",
+          "tradition"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "世界文化遗产，以《鸟兽戏画》闻名",
+        "current_name": "高山寺"
+      },
+      "timeline": {
+        "orderIndex": 47,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第47章·石水院的茶香",
+        "hook": "在古老的画卷与僧侣的肖像前，千重子寻找着内心的宁静。",
+        "narrative_text": "抵达栂尾的高山寺后，千重子和真砂子走进了著名的石水院。她们坐在开阔的回廊上，面前是绵延的群山。千重子凝视着明惠上人的肖像画，那位坐在树上修行的僧侣让她感到一种超脱尘世的安详。随后，她们一同欣赏了著名的《鸟兽戏画》复制品，那些跃然纸上的兔子与青蛙让真砂子发出了由衷的赞叹。在这远离京都闹市的山中，千重子暂时忘记了关于自己身世的困惑，沉浸在古老艺术与自然美景交织的氛围中，茶香袅袅，思绪万千。",
+        "transition_to": "山间的流水声渐响，故事的视线转向了清澈的清泷川。",
+        "mood": "nostalgic",
+        "key_dialogue": "“这里的山色，真叫人百看不厌。”"
+      }
+    },
+    {
+      "title": "Kiyotaki River",
+      "address": "日本-京都府-京都市-右京区-清滝",
+      "synopsis": "苗子与秀男在清泷川边谈心，秀男将亲手织造的杉纹腰带赠予苗子，两人情感在流水声中升温。",
+      "source_evidence": "Naeko led Hideo to some flat stones in the plain of the Kiyotaki River. Even in the river bottom as many cedars as could be planted there were being raised among the small stones.",
+      "original_chapter": "DEEP AUTUMN SISTERS",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "苗子",
+          "大友秀男"
+        ],
+        "stay_duration": "一个黄昏"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "romance",
+          "craftsmanship",
+          "nature"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "著名的徒步与赏枫胜地",
+        "current_name": "清滝川"
+      },
+      "timeline": {
+        "orderIndex": 48,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第48章·清泷川的赠礼",
+        "hook": "一条织入北山杉纹样的腰带，承载着青年织工未曾言说的深情。",
+        "narrative_text": "深秋时节，苗子——那位在北山杉林中劳作、有着坚韧性格的村姑，带着大友秀男来到了清泷川平坦的河床边。秀男是京都优秀的年轻织工，他一直倾慕着长相酷似千重子的苗子。两人坐在河边的岩石上，周围是密密麻麻的杉木幼苗。秀男郑重地拿出一份礼物：那是他亲手织造的、带有北山杉纹样的腰带。苗子抚摸着那熟悉的纹路，心中涌起复杂的情绪。清泷川的流水声在山谷间回荡，见证了这份纯粹而略带羞涩的情感交流，也映照出两人截然不同却又紧密相连的命运。",
+        "transition_to": "离开溪流，千重子的足迹踏入了那片梦幻般的北山杉产地——中川。",
+        "mood": "bittersweet",
+        "key_dialogue": "“这是我为你织的，用了北山杉的图案。”"
+      }
+    },
+    {
+      "title": "Nakagawa",
+      "address": "日本-京都府-京都市-北区-中川",
+      "synopsis": "千重子造访北山杉产地中川村，在挺拔的杉林间，她第一次见到了与自己容貌完全相同的苗子。",
+      "source_evidence": "Actually, the village had been annexed by the city and was properly called Nakagawa Kitayama District of Kita Ward, but there were no more than 130 houses, so “village” seemed a more appropriate term.",
+      "original_chapter": "The Old Capital",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": "中川村",
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "佐田千重子",
+          "真砂子",
+          "苗子"
+        ],
+        "stay_duration": "一日"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "identity",
+          "nature",
+          "destiny"
+        ],
+        "significance": 1.0
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为北山杉之里，保留着传统的林业景观",
+        "current_name": "中川北山町"
+      },
+      "timeline": {
+        "orderIndex": 49,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第49章·杉林中的幻影",
+        "hook": "在笔直入云的北山杉林中，千重子遇见了另一个“自己”。",
+        "narrative_text": "千重子终于来到了中川，这个以出产笔直、洁白的北山杉而闻名的村落。这里的杉木挺拔如剑，直插云霄。就在这片充满神性的森林中，千重子经历了一生中最震撼的时刻：她偶遇了一个正在劳作的村姑。那个女孩有着和她一模一样的面孔，只是皮肤被山风吹得略显粗糙。这个女孩正是苗子。两人在翠绿的杉林间对视，仿佛在照一面跨越阶级与命运的镜子。这一刻，千重子心中关于自己是“弃儿”的阴影被彻底照亮，血缘的羁绊在北山杉的清香中悄然觉醒。",
+        "transition_to": "命运的齿轮开始转动，苗子在约定的地点等待着下一次重逢。",
+        "mood": "dramatic",
+        "key_dialogue": "“你……你是谁？”"
+      }
+    },
+    {
+      "title": "Bodai Falls",
+      "address": "日本-京都府-京都市-北区-杉阪道風町-菩提の滝",
+      "synopsis": "苗子在菩提瀑布附近的巴士站等候千重子，这里是中川村磨光杉木所需细砂的来源地。",
+      "source_evidence": "The sand, which resembled reddish-yellow clay, was brought from the base of Bodai Falls.",
+      "original_chapter": "WINTER FLOWERS",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "佐田千重子",
+          "苗子"
+        ],
+        "stay_duration": "短暂等待"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "reunion",
+          "tradition",
+          "winter"
+        ],
+        "significance": 0.7
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "位于北山深处，是当地林业文化的重要地标",
+        "current_name": "菩提の滝"
+      },
+      "timeline": {
+        "orderIndex": 50,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第50章·菩提瀑布的守候",
+        "hook": "在磨砺杉木的细砂源头，姐妹俩的命运再次交汇。",
+        "narrative_text": "冬日将至，菩提瀑布的水声显得格外清冽。这里不仅是风景名胜，更是中川村人的生活支柱——人们从瀑布脚下采集红黄色的细砂，用来摩擦洗净北山杉，使其呈现出如丝绸般的光泽。苗子站在瀑布附近的巴士站，焦急而又期待地等待着千重子的到来。对于苗子来说，千重子不仅是长相相似的“小姐”，更是她失散多年的双胞胎姐姐。在水汽氤氲的瀑布旁，这种血浓于水的联系变得愈发清晰。两人的每一次见面，都像是在修补被岁月撕裂的亲情画卷。",
+        "transition_to": "随着冬意渐浓，故事的舞台将移向京都繁华的木屋町。（待续）",
+        "mood": "melancholic",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "Kiyamachi",
+      "address": "日本-京都府-京都市-中京区-木屋町",
+      "synopsis": "真砂子与水木真一在木屋町河滩漫步，提及为了躲避纳凉床游客的目光，他们习惯背对灯火而坐。",
+      "source_evidence": "“Recently, there have been more visitors coming to the river plain at Kiyamachi, so now they turn the lights on at night. To keep from being seen by the people on the platforms, we always sit with our backs to the light.”",
+      "original_chapter": "The Old Capital",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "真砂子",
+          "水木真一"
+        ],
+        "stay_duration": "一个夜晚"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "romance",
+          "urban_life",
+          "tradition"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "著名的纳凉床文化区，鸭川旁的繁华街道",
+        "current_name": "木屋町通"
+      },
+      "timeline": {
+        "orderIndex": 51,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第51章·灯影下的河滩",
+        "hook": "在繁华的纳凉床灯火下，恋人们为何要背光而坐？",
+        "narrative_text": "随着冬意渐浓，京都的繁华并未减退。真砂子——水木真一的恋人，与他在木屋町的河滩边漫步。这里是京都著名的烟火之地，夏日的纳凉床延伸至河畔，即便入冬，夜晚的灯火依然明亮。真砂子轻声抱怨着如今游客渐多，为了不被那些在高处纳凉床上饮宴的人认出来，她和真一总是习惯背对着灯光，在阴影中享受属于两人的静谧。这种微妙的躲避，既是京都式含蓄的恋爱，也透着一丝对都市喧嚣的无奈。",
+        "transition_to": "从喧嚣的河滩抽身，千重子的身世传闻再次在圆山的樱花树下泛起涟漪。",
+        "mood": "bittersweet",
+        "key_dialogue": "“Recently, there have been more visitors coming to the river plain at Kiyamachi, so now they turn the lights on at night.”"
+      }
+    },
+    {
+      "title": "Maruyama",
+      "address": "日本-京都府-京都市-东山区-圆山公园",
+      "synopsis": "文中澄清了关于千重子身世的流言，否认了她是在圆山公园夜晚的樱花树下被偷走的传闻。",
+      "source_evidence": "Shige and Takichiro had not stolen her as an infant from beneath the cherry blossoms of Maruyama at night.",
+      "original_chapter": "The Old Capital",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "佐田千重子",
+          "佐田繁",
+          "佐田太吉郎"
+        ],
+        "stay_duration": "瞬时回忆"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "identity",
+          "rumor",
+          "family"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "京都最古老的公园，以“祇园枝垂樱”闻名",
+        "current_name": "圆山公园"
+      },
+      "timeline": {
+        "orderIndex": 52,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第52章·樱花下的流言",
+        "hook": "弃儿的身份如影随形，圆山的樱花见证了真相吗？",
+        "narrative_text": "圆山公园的樱花在京都人的记忆中总是带着梦幻的色彩。坊间曾有传言，说佐田千重子是佐田太吉郎与佐田繁夫妇在某个夜晚，从圆山那如云霞般的樱花树下偷偷抱走的。然而，这个浪漫却略显凄凉的说法被文中否定了。千重子并非圆山的“樱花之子”，她的真实身世远比这流言更加深沉。尽管如此，圆山的樱花依然作为一种身世的隐喻，在千重子寻找自我的旅途中反复出现。",
+        "transition_to": "告别身世的迷雾，太吉郎将目光投向了充满阳刚之气的鞍马寺祭典。",
+        "mood": "melancholic",
+        "key_dialogue": "Shige and Takichiro had not stolen her as an infant from beneath the cherry blossoms of Maruyama at night."
+      }
+    },
+    {
+      "title": "Kurama Temple",
+      "address": "日本-京都府-京都市-左京区-鞍马本町-鞍马寺",
+      "synopsis": "太吉郎钟爱鞍马寺的伐竹祭，文中详尽描绘了这项充满阳刚之气的传统祭典仪式与历史。",
+      "source_evidence": "The Bamboo Cutting Ceremony at Kurama Temple was one of Takichiro’s favorite events. He enjoyed its masculine air.",
+      "original_chapter": "THE GION FESTIVAL",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "佐田太吉郎",
+          "佐田千重子"
+        ],
+        "stay_duration": "一天"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "festival",
+          "tradition",
+          "masculinity"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "每年6月20日举行伐竹祭",
+        "current_name": "鞍马寺"
+      },
+      "timeline": {
+        "orderIndex": 53,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第53章·鞍马的伐竹祭",
+        "hook": "在柔美的京都，哪种祭典能让太吉郎感受到罕见的阳刚？",
+        "narrative_text": "进入《祇园祭》篇章，京都的空气变得躁动而庄重。佐田太吉郎——千重子的养父，一位沉浸在传统织物设计中的职人，对鞍马寺的“伐竹祭”情有独钟。他向千重子描述那充满力量感的仪式：僧兵装束的男子们分成两组，竞相砍断粗壮的青竹，以此祈求丰收。这种“阳刚之气”与京都平日的阴柔婉约形成鲜明对比，也反映了太吉郎内心深处对生命力的渴望。他原计划带千重子同往，去感受那份跨越千年的古老震撼。",
+        "transition_to": "祭典的喧嚣尚在远方，千重子已独自走在御池通的晚霞中。",
+        "mood": "ambitious",
+        "key_dialogue": "The Bamboo Cutting Ceremony at Kurama Temple was one of Takichiro’s favorite events. He enjoyed its masculine air."
+      }
+    },
+    {
+      "title": "Oike Street",
+      "address": "日本-京都府-京都市-中京区-御池通",
+      "synopsis": "千重子在前往购买祭典食材的途中，于御池通驻足，欣赏横跨比叡山与北山的壮丽晚霞。",
+      "source_evidence": "She was to cross Oike Street to the north and go on to the shop Yubahan in Fuyamachi, but she stood for a moment on Oike Street gazing at the sky, which blazed from Hieizan across to Kitayama.",
+      "original_chapter": "THE GION FESTIVAL",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "佐田千重子"
+        ],
+        "stay_duration": "片刻"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "sunset",
+          "solitude",
+          "observation"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "京都市中心的主干道",
+        "current_name": "御池通"
+      },
+      "timeline": {
+        "orderIndex": 54,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第54章·御池通的晚霞",
+        "hook": "在繁忙的十字路口，是什么让千重子忘却了行路？",
+        "narrative_text": "祇园祭前夕，千重子受母亲之托出门办事。当她穿过宽阔的御池通向北行进时，不经意间抬起头，被眼前的景象震慑住了。夕阳如火，将天空染成一片灿烂的红，从东边的比叡山一直横跨到北山。在这座被群山环抱的古都，晚霞仿佛是自然赐予祭典的序幕。千重子提着篮子，在现代化的街道上驻足良久，那一刻，她仿佛与这座城市的古老灵魂融为一体，感受着季节更迭带来的静谧美感。",
+        "transition_to": "收回远眺的目光，她步入了那间承载了两百年历史的豆腐老店。",
+        "mood": "peaceful",
+        "key_dialogue": "she stood for a moment on Oike Street gazing at the sky, which blazed from Hieizan across to Kitayama."
+      }
+    },
+    {
+      "title": "Yubahan",
+      "address": "日本-京都府-京都市-中京区-麸屋町通-汤波半",
+      "synopsis": "千重子来到拥有两百年历史的豆腐老店“汤波半”，购买祭典用的汤叶，感触店内的历史痕迹。",
+      "source_evidence": "This shop was over two hundred years old, having survived the Dondon Fire. ... Chieko put her hand on the pillar. It was a thick, dark, polished pillar.",
+      "original_chapter": "THE GION FESTIVAL",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "佐田千重子"
+        ],
+        "stay_duration": "15分钟"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "tradition",
+          "craftsmanship",
+          "history"
+        ],
+        "significance": 0.75
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "至今仍在营业的汤波（腐皮）名店",
+        "current_name": "汤波半 (Yubahan)"
+      },
+      "timeline": {
+        "orderIndex": 55,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第55章·两百年的汤波店",
+        "hook": "一根被磨得发亮的黑柱，藏着多少代京都人的祭典记忆？",
+        "narrative_text": "千重子走进麸屋町通的“汤波半”，这是一家历经两百年风霜、甚至在“元治大火”中幸存下来的豆腐老店。为了准备祇园祭的餐食，她来此购买新鲜的汤叶（腐皮）。店内的空气中弥漫着豆制品的清香，千重子伸手抚摸那根粗壮、漆黑且被岁月磨得发亮的木柱。这根柱子见证了无数次祭典的轮回，也见证了京都职人对品质的固执坚守。在这里，时间仿佛是静止的，千重子在买卖的琐碎中，触摸到了京都最坚韧的传统根基。",
+        "transition_to": "带着祭典的食材，千重子的脚步将引向八坂神社的钟声。（待续）",
+        "mood": "nostalgic",
+        "key_dialogue": "Chieko put her hand on the pillar. It was a thick, dark, polished pillar."
+      }
+    },
+    {
+      "title": "Yasaka Shrine",
+      "address": "日本-京都府-京都市-东山区-祇园町北侧-八坂神社",
+      "synopsis": "作为祇园祭的核心，神社承载着真一童年担任稚儿的神圣回忆，也是千重子感受祭典律动的起点。",
+      "source_evidence": "In the various districts in the parish of Yasaka Shrine, each of which had its own Gion float, the festival bands began to perform and the amulet rituals commenced on the first of July.",
+      "original_chapter": "THE GION FESTIVAL",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": "祇园社",
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "佐田千重子",
+          "水木真一"
+        ],
+        "stay_duration": "数小时"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "tradition",
+          "festival",
+          "memory"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "京都著名的地标，祇园祭的中心",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 56,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第56章·祭典的钟声",
+        "hook": "在祇园祭的喧嚣中，古老的仪式唤醒了谁的童年记忆？",
+        "narrative_text": "带着从“汤波半”备好的祭典食材，佐田千重子的脚步被引向了八坂神社。作为祇园祭的核心，这里正沉浸在一种神圣而热烈的氛围中。千重子想起了水木真一——那个与她青梅竹马、出身世家的青年。真一曾向她提起，自己年幼时曾被选为“稚儿”，在八坂神社接受官职，那是京都少年至高无上的荣耀。此时的神社教区内，各色山鉾的乐音交织，神舆洗仪式的准备工作正在紧锣密鼓地进行。对于千重子而言，这不仅是季节的更迭，更是京都灵魂的律动，在这古老的仪式感中，她感受到了身为“京都之子”的归属感。",
+        "transition_to": "随着祭典进入高潮，净化的神舆被抬向了横跨鸭川的四条大桥。",
+        "mood": "nostalgic",
+        "key_dialogue": "“在八坂神社的各个教区，每个教区都有自己的祇园彩车，祭典乐队开始演奏，护身符仪式在七月一日开始。”"
+      }
+    },
+    {
+      "title": "Great Bridge at Shijo",
+      "address": "日本-京都府-京都市-下京区-四条大桥",
+      "synopsis": "祇园祭期间，神舆在此进行神圣的“神舆洗”净化仪式，鸭川之水洗去尘埃。",
+      "source_evidence": "The palanquins were purified at the Great Bridge at Shijo over the Kamo River.",
+      "original_chapter": "THE GION FESTIVAL",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "佐田千重子"
+        ],
+        "stay_duration": "短暂逗留"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "purification",
+          "ritual",
+          "river"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "连接祇园与四条繁华区的交通要道",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 57,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第57章·鸭川的净水",
+        "hook": "当神舆掠过水面，古老的城市在清冷的水汽中焕然一新。",
+        "narrative_text": "四条大桥横跨在清澈的鸭川之上，这里是祇园祭中不可或缺的仪式场所。在“神舆洗”这一天，巨大的神舆被抬到桥上，用汲取的鸭川水进行净化。千重子站在人群中，看着水花在阳光下飞溅，仿佛整座京都的忧虑都随着这流水远去。这座桥不仅连接着东山的静谧与市中心的繁华，更像是一座连接神域与凡尘的纽带。虽然仪式短暂，但那种肃穆的气氛却在空气中久久停留，预示着宵山之夜的临近。",
+        "transition_to": "仪式结束后，千重子转身步入了京都最繁忙的四条通。",
+        "mood": "peaceful",
+        "key_dialogue": "“神轿在鸭川上的四条大桥上进行了净化。”"
+      }
+    },
+    {
+      "title": "Shijo Avenue",
+      "address": "日本-京都府-京都市-下京区-四条通",
+      "synopsis": "宵山之夜，千重子在拥挤的四条通穿行，寻找那些承载着历史记忆的山鉾。 ",
+      "source_evidence": "It was difficult to pass through the crowds of people at Shijo. But Chieko knew where along Shijo Avenue and in which alleys to find the various floats",
+      "original_chapter": "THE GION FESTIVAL",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "佐田千重子"
+        ],
+        "stay_duration": "一整个夜晚"
+      },
+      "cultural_tags": {
+        "category": "folklore",
+        "themes": [
+          "crowd",
+          "tradition",
+          "urban_life"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "京都最主要的商业街之一",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 58,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第58章·宵山的灯火",
+        "hook": "在摩肩接踵的人潮中，千重子为何能精准地找到每一座山鉾？",
+        "narrative_text": "宵山之夜，四条通变成了人的海洋。作为八坂神社的氏子，佐田千重子对这条街道再熟悉不过。尽管人潮汹涌，她依然能轻车熟路地穿梭在四条通及其周边的巷弄中，寻找那些装饰华丽的山鉾。每一座彩车都像是一个古老的故事，在灯火映照下显得既庄严又神秘。千重子家就在这附近，她从小听着祭典的乐音长大，这种喧嚣对她而言是一种亲切的慰藉。然而，在热闹的表象下，她的内心深处仍藏着一丝关于自己身世的淡淡落寞。",
+        "transition_to": "为了祈求神灵的庇佑，她避开喧嚣，走向了神灵临时驻扎的御旅所。",
+        "mood": "joyful",
+        "key_dialogue": "“在四条通拥挤的人群中穿行是很困难的。但千重子知道在四条通的什么地方以及在哪条小巷里可以找到各种彩车。”"
+      }
+    },
+    {
+      "title": "Otabisho",
+      "address": "日本-京都府-京都市-下京区-四条通寺町东入-八坂神社四条御旅所",
+      "synopsis": "在“七度参拜”的虔诚仪式中，千重子与长相一模一样的苗子奇迹般重逢。",
+      "source_evidence": "Chieko walked to the front of Otabisho and bought a candle, lighting it to offer to the deity of the shrine. For the duration of the festival the god of Yasaka was temporarily enshrined in Otabisho",
+      "original_chapter": "THE GION FESTIVAL",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "佐田千重子",
+          "苗子"
+        ],
+        "stay_duration": "一小时"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "reunion",
+          "destiny",
+          "twins"
+        ],
+        "significance": 1.0
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "位于四条寺町，祭典期间非常热闹",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 59,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第59章·御旅所的奇迹",
+        "hook": "七次往返的祈祷，真的能唤回失散多年的血脉吗？",
+        "narrative_text": "八坂神社的神灵在祭典期间临时移驾至四条御旅所。千重子怀着虔诚的心情，在这里进行“七度参拜”。她买下蜡烛，在神前默默祈祷。就在这神圣的时刻，命运降临了——她遇见了一个少女。那少女穿着朴素的劳动服，却拥有一张与千重子几乎完全相同的脸。那是苗子，来自北山杉村的贫苦少女。在摇曳的烛光中，两人四目相对，血缘的直觉击中了她们。苗子颤抖着确认了千重子的身份，这对失散多年的双胞胎姐妹，在神灵的注视下，终于在祭典的夜晚找回了彼此。",
+        "transition_to": "带着满心的震撼与复杂的情绪，两人并肩走向了四条大桥。",
+        "mood": "dramatic",
+        "key_dialogue": "“你是我的姐姐……你一定是我的姐姐。”"
+      }
+    },
+    {
+      "title": "Shijo Grand Bridge",
+      "address": "日本-京都府-京都市-下京区/东山区-四条大桥",
+      "synopsis": "桥上的误认与偶遇：秀男错认了苗子，而千重子则在此遇到了水木兄弟。",
+      "source_evidence": "The two of them found themselves threading their way toward Shijo Grand Bridge through the crowds. ... Chieko had been crossing Shijo Bridge in a daze when Shin’ichi called to her",
+      "original_chapter": "THE GION FESTIVAL",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "佐田千重子",
+          "苗子",
+          "大伴秀男",
+          "水木真一",
+          "水木龙助"
+        ],
+        "stay_duration": "三十分钟"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "identity",
+          "encounter",
+          "misunderstanding"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "京都最具代表性的桥梁",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 60,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第60章·桥上的错位人生",
+        "hook": "同一张脸孔，不同的命运，在桥中央交织成错乱的旋律。",
+        "narrative_text": "千重子与苗子穿过人群走向四条大桥，两人的命运在此刻产生了奇妙的重叠。织工大伴秀男在桥上偶遇了苗子，竟将她误认为千重子，并急切地谈论起那条为她织造的腰带。苗子默默承受着这份误解，感受着姐姐所处世界的繁华。随后，千重子在桥中间遇到了水木真一和他的哥哥龙助。真一的呼唤让恍惚中的千重子回过神来。在这座桥上，身份的错位、阶级的差异以及萌动的爱意交织在一起。苗子意识到自己与姐姐虽然面貌相同，生活却如云泥之别，她选择悄然退回到属于自己的阴影中。",
+        "transition_to": "祭典的余韵尚未消散，千重子的思绪已随苗子飘向了遥远的中川村。（待续）",
+        "mood": "bittersweet",
+        "key_dialogue": "“千重子在恍惚中穿过四条桥，这时真一叫住了她。”"
+      }
+    },
+    {
+      "title": "Nakagawa Village",
+      "address": "日本-京都府-京都市-北区-中川",
+      "synopsis": "千重子在祭典喧嚣中闭上双眼，思绪飞向故乡北山中川村，那里有她魂牵梦绕的笔直杉林。",
+      "source_evidence": "When she closed her eyes she could see the beautiful cedar mountains of Nakagawa Village.",
+      "original_chapter": "THE COLOR OF AUTUMN",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": "中川村",
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "佐田千重子"
+        ],
+        "stay_duration": "瞬时的思念"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "nostalgia",
+          "origin",
+          "nature"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为京都市北区中川地区，以北山杉闻名",
+        "current_name": "中川"
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·杉林的幻影",
+        "hook": "在京都最繁华的祭典中心，千重子的心却飞向了深山。",
+        "narrative_text": "祭典的余韵尚未消散，佐田千重子的思绪已随苗子飘向了遥远的中川村。作为京都市中心绸缎庄的千金，千重子一直过着优雅的生活，直到她在祭典中偶遇了与自己长相一模一样的山村姑娘苗子。此刻，她闭上双眼，脑海中浮现出北山中川村那漫山遍野、笔直挺拔的杉林。那是她真正的出生地，是她生命最初的摇篮。尽管身处繁华，那份来自深山的静谧与血缘的牵绊，却如同杉树的清香一般，在她的意识中挥之不去。",
+        "transition_to": "然而，现实的嘈杂很快将她拉回，绸缎庄里的客人正对现代化的祭典发着牢骚。",
+        "mood": "nostalgic",
+        "key_dialogue": "When she closed her eyes she could see the beautiful cedar mountains of Nakagawa Village."
+      }
+    },
+    {
+      "title": "Kawaramachi",
+      "address": "日本-京都府-京都市-中京区-河原町通",
+      "synopsis": "绸缎庄客人抱怨祇园祭巡游为了迎合旅游业而改道宽阔的河原町，失去了古朴韵味。",
+      "source_evidence": "The guest stubbornly insisted that it was for the sake of tourism that the float procession now began at Shijo, went down the broad, very modern Kawaramachi",
+      "original_chapter": "THE COLOR OF AUTUMN",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "佐田太吉郎"
+        ],
+        "stay_duration": "对话瞬间"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "tradition_vs_modernity",
+          "urban_change"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "京都最繁华的商业街之一",
+        "current_name": "河原町通"
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·消失的古意",
+        "hook": "宽阔的现代街道，真的能承载千年的祭典之魂吗？",
+        "narrative_text": "在佐田家的绸缎庄里，一位老派的客人正对着店主佐田太吉郎抱怨。他固执地认为，现在的祇园祭山鉾巡游已经变了味。为了方便观光客，巡游路线竟然改道经过了宽阔而现代的河原町。在这些坚守传统的老京都人眼中，这种改变不仅是为了旅游业的妥协，更是对祭典神圣性的一种消解。太吉郎静静听着，作为一名对传统花纹有着近乎偏执追求的织物艺人，他深知时代变迁对美的侵蚀。",
+        "transition_to": "客人的抱怨并未停止，他继续指责巡游路线转向了另一条宽马路御池通。",
+        "mood": "bittersweet",
+        "key_dialogue": "The guest stubbornly insisted that it was for the sake of tourism that the float procession now began at Shijo, went down the broad, very modern Kawaramachi"
+      }
+    },
+    {
+      "title": "Nanzenji",
+      "address": "日本-京都府-京都市-左京区-南禅寺",
+      "synopsis": "太吉郎设想卖掉店铺后，与千重子搬到南禅寺附近过上清幽的隐居生活。",
+      "source_evidence": "how would it be if we moved to a small, quiet house near Nanzenji or Okazaki",
+      "original_chapter": "THE COLOR OF AUTUMN",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "佐田太吉郎",
+          "佐田千重子"
+        ],
+        "stay_duration": "心理设想"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "retirement",
+          "peace",
+          "father-daughter_bond"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "临济宗南禅寺派大本山",
+        "current_name": "南禅寺"
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·南禅寺的退路",
+        "hook": "如果放弃繁华的绸缎庄，生活是否能回归最初的宁静？",
+        "narrative_text": "随着秋意渐浓，佐田太吉郎的心境也变得愈发沉静。他开始认真考虑店铺的未来，甚至对千重子吐露了一个大胆的想法：如果有一天卖掉了这间祖传的绸缎庄，他们可以搬到南禅寺附近。那里远离商业街的喧嚣，有着古朴的寺院和深幽的林径。他设想在那附近找一间小巧而安静的房子，和千重子一起过上与世无争的生活。这不仅是对现实压力的逃避，更是他作为父亲，想要给千重子寻找的一片心灵净土。",
+        "transition_to": "除了南禅寺，他心中还有另一个理想的去处——冈崎。",
+        "mood": "peaceful",
+        "key_dialogue": "how would it be if we moved to a small, quiet house near Nanzenji or Okazaki"
+      }
+    },
+    {
+      "title": "Okazaki",
+      "address": "日本-京都府-京都市-左京区-冈崎",
+      "synopsis": "太吉郎考虑将家搬迁至宁静的冈崎，以寻求更纯粹的艺术创作环境。",
+      "source_evidence": "“...how would it be if we moved to a small, quiet house near Nanzenji or Okazaki?”",
+      "original_chapter": "THE COLOR OF AUTUMN",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "佐田太吉郎",
+          "佐田千重子"
+        ],
+        "stay_duration": "数小时"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "contemplation",
+          "lifestyle",
+          "tranquility"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为冈崎公园及文化区周边",
+        "current_name": "冈崎"
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·冈崎的静谧构想",
+        "hook": "在繁华的京都，哪里才是艺术灵魂真正的栖息地？",
+        "narrative_text": "离开南禅寺后，佐田太吉郎的心中依然回荡着对宁静生活的渴望。他带着女儿千重子漫步向冈崎走去。作为一名和服图案设计师，太吉郎对周遭环境的色彩与氛围极度敏感。他向千重子吐露心声，提议或许可以搬到南禅寺或冈崎附近的一间小巧而安静的房子里居住。对他而言，冈崎不仅是一个地理位置，更代表着一种远离商业喧嚣、回归京都古朴韵味的理想生活方式。千重子静静地听着父亲的畅想，感受着这位老艺人对传统美学近乎执着的守护。",
+        "transition_to": "而在这座古城的另一端，盛大的祭典正穿过古老的街道寺町通。",
+        "mood": "peaceful",
+        "key_dialogue": "“...how would it be if we moved to a small, quiet house near Nanzenji or Okazaki?”"
+      }
+    },
+    {
+      "title": "Teramachi",
+      "address": "日本-京都府-京都市-中京区-寺町通",
+      "synopsis": "祇园祭期间，数座华丽的山鉾巡游经过寺町通，展现了京都深厚的宗教与民俗传统。",
+      "source_evidence": "Several of the floats passed through Teramachi.",
+      "original_chapter": "THE COLOR OF AUTUMN",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [],
+        "stay_duration": "巡游期间"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "festival",
+          "tradition",
+          "procession"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "著名的寺町通商店街",
+        "current_name": "寺町通"
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·寺町的山鉾巡行",
+        "hook": "当巨大的山鉾缓缓驶入狭窄的街道，古都的魂魄随之苏醒。",
+        "narrative_text": "寺町通见证了京都最盛大的节日——祇园祭。随着祭典进入高潮，装饰华丽、重达数吨的山鉾在人群的簇拥下缓缓行进。这些被称为“移动美术馆”的木质结构，承载着精美的织物和古老的传说，依次经过寺町。街道两旁挤满了虔诚的信徒与好奇的游客，空气中弥漫着囃子乐器的节奏声。虽然这只是祭典路线的一环，但寺町特有的古朴氛围与山鉾的绚烂交相辉映，勾勒出一幅跨越时空的昭和祭典图卷。",
+        "transition_to": "祭典的热闹尚未散去，太吉郎却在另一条即将消失的线路上偶遇故人。",
+        "mood": "joyful",
+        "key_dialogue": "Several of the floats passed through Teramachi."
+      }
+    },
+    {
+      "title": "Horikawa Kitano line",
+      "address": "日本-京都府-京都市-堀川通-北野线",
+      "synopsis": "太吉郎搭乘即将废弃的日本最古老电车，在装点一新的“花电车”上感受时代的更迭。",
+      "source_evidence": "the streetcar that ran along the Horikawa Kitano line, the oldest electric train in Japan.",
+      "original_chapter": "THE COLOR OF AUTUMN",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": "北野线",
+        "date_start": "1961",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "佐田太吉郎"
+        ],
+        "stay_duration": "电车行驶全程"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "nostalgia",
+          "modernization",
+          "transportation"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "demolished",
+        "note": "该电车线路于1961年废除，现为普通道路",
+        "current_name": "堀川通"
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "1961",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第6章·最后的堀川花电车",
+        "hook": "在它彻底消失前，人们用鲜花为这辆古老的电车送行。",
+        "narrative_text": "堀川北野线是日本最古老的电车线路，但在现代化的浪潮下，它即将迎来终点。为了纪念这段历史，电车被装饰成了绚丽的“花电车”。佐田太吉郎登上了这辆充满怀旧气息的车厢。木质的内饰、缓慢的节奏，仿佛能带人回到明治时代。对他这样一位生活在传统中的手工艺人来说，这辆电车的废除不仅是交通工具的更替，更是一种生活方式的消亡。在摇晃的车厢里，太吉郎凝视着窗外熟悉的京都街景，心中充满了对旧日时光的无限眷恋。",
+        "transition_to": "这场怀旧之旅的起点，始于京都站前的一次意外重逢。",
+        "mood": "nostalgic",
+        "key_dialogue": "“It’s the oldest electric train in Japan, and it’s being taken off the tracks.”"
+      }
+    },
+    {
+      "title": "Kyoto Station",
+      "address": "日本-京都府-京都市-下京区-京都站",
+      "synopsis": "太吉郎在京都站前准备搭乘花电车时，巧遇了上七轩茶屋的女主人。",
+      "source_evidence": "As Takichiro was preparing to board the “flower train” in front of Kyoto Station",
+      "original_chapter": "THE COLOR OF AUTUMN",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1961",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "佐田太吉郎"
+        ],
+        "stay_duration": "短暂停留"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "encounter",
+          "urban_life"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为现代化的京都站大楼",
+        "current_name": "京都駅"
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "1961",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第7章·站前的偶遇",
+        "hook": "在熙攘的车站前，一个熟悉的身影打断了太吉郎的沉思。",
+        "narrative_text": "京都站前总是人潮涌动，现代建筑与古老传统在这里交汇。佐田太吉郎正站在站台前，等待着那辆特殊的“花电车”。就在他准备登车之际，一位气质高雅的女性叫住了他——那是上七轩一家茶屋的女主人。在京都这个狭小的社交圈里，熟人间的偶遇总带着几分亲切。女主人同样是为了体验这最后的电车之旅而来。这次不期而遇，让原本孤独的怀旧之旅多了一份陪伴，也引出了随后前往花街的一段插曲。",
+        "transition_to": "随着电车的叮当声，他们一同前往了那片名为“上七轩”的古老街区。",
+        "mood": "bittersweet",
+        "key_dialogue": "As Takichiro was preparing to board the “flower train” in front of Kyoto Station, he was addressed by a woman."
+      }
+    },
+    {
+      "title": "Kamishichiken",
+      "address": "日本-京都府-京都市-上京区-上七轩",
+      "synopsis": "太吉郎随茶屋女主人来到京都最古老的花街上七轩，在静谧的午后与年轻艺妓探讨艺术。",
+      "source_evidence": "The woman was the proprietress of a tearoom at Kamishi-chiken. ... Kamishichiken, or the “Upper Seven Houses,” was so named because originally there had been only seven teahouses there.",
+      "original_chapter": "THE COLOR OF AUTUMN",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": "上七轩",
+        "date_start": "1961",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "佐田太吉郎"
+        ],
+        "stay_duration": "一个下午"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "geisha_culture",
+          "tradition",
+          "artistic_inspiration"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "京都五花街之一，保留了大量古建筑",
+        "current_name": "上七轩"
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": "1961",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第8章·上七轩的午后谈话",
+        "hook": "在京都最古老的花街，艺术家的灵感往往藏在茶屋的深处。",
+        "narrative_text": "上七轩，意为“七间茶屋”，是京都历史最悠久的花街。太吉郎随女主人的脚步踏入这片静谧的街区。相比祇园的繁华，这里更显幽静与高雅。在茶屋里，太吉郎遇到了一位年轻的艺妓。他们避开了世俗的应酬，进行了一场关于美、关于和服图案、关于京都未来的深入交谈。对于太吉郎而言，这里的每一扇格子门、每一块石板路都散发着创作的灵感。在这充满传统气息的空间里，他暂时忘却了外界时代的剧变，沉浸在纯粹的京都美学之中。",
+        "transition_to": "离开上七轩后，太吉郎的思绪又转向了中里。",
+        "mood": "peaceful",
+        "key_dialogue": "“Kamishichiken, or the ‘Upper Seven Houses,’ was so named because originally there had been only seven teahouses there.”"
+      }
+    },
+    {
+      "title": "Shijo Bridge",
+      "address": "日本-京都府-京都市-下京区-四条大桥",
+      "synopsis": "织工秀男在桥上误将苗子认作千重子。事后他独自回到桥边，陷入对双胞胎姐妹的复杂思绪。",
+      "source_evidence": "It wasn’t me you promised the obi to on the bridge at Shijo at the festival. ... Hideo turned his steps toward the bridge at Shijo",
+      "original_chapter": "THE COLOR OF AUTUMN",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "大伴秀男",
+          "佐田千重子",
+          "苗子"
+        ],
+        "stay_duration": "数小时"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "mistaken identity",
+          "longing",
+          "romance"
+        ],
+        "significance": 0.85
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "横跨鸭川的标志性桥梁",
+        "current_name": "四条大桥"
+      },
+      "timeline": {
+        "orderIndex": 9,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第9章·四条大桥的错位",
+        "hook": "桥上的惊鸿一瞥，究竟是命运的重逢还是美丽的误会？",
+        "narrative_text": "四条大桥横跨鸭川，是京都最繁华的枢纽。在喧嚣的祇园祭之夜，年轻的织工大伴秀男曾在这里拦住一位少女，许下赠送腰带的诺言，却不曾想他认错的人并非绸缎庄的大小姐佐田千重子，而是长相如出一辙的贫苦女孩苗子。当真相大白后，秀男再次独自来到桥边，靠在冰冷的栏杆上。桥下川水奔流，仿佛在诉说着千重子与苗子这对双胞胎姐妹截然不同的命运。秀男心中充满了矛盾：他倾慕千重子的高雅，却又被苗子那份纯粹而坚韧的生命力所震撼。",
+        "transition_to": "为了确认那份牵挂，秀男向千重子打听起那个叫中川的地方。",
+        "mood": "bittersweet",
+        "key_dialogue": "It wasn’t me you promised the obi to on the bridge at Shijo at the festival."
+      }
+    },
+    {
+      "title": "Kiya Nijo",
+      "address": "日本-京都府-京都市-中京区-木屋町二条",
+      "synopsis": "佐田夫妇在木屋町二条的茶屋预订了房间，准备在此观赏五山送火仪式。",
+      "source_evidence": "Her parents reserved a whole room at a teahouse in Kiya Nijo",
+      "original_chapter": "THE COLOR OF AUTUMN",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "佐田太吉郎",
+          "佐田繁"
+        ],
+        "stay_duration": "一个夜晚"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "festival",
+          "family",
+          "tradition"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "传统的茶屋与料亭聚集区",
+        "current_name": "木屋町二条"
+      },
+      "timeline": {
+        "orderIndex": 10,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第10章·木屋町的观礼席",
+        "hook": "为了观赏那场送别亡灵的火焰，佐田家做出了最体面的安排。",
+        "narrative_text": "随着孟兰盆节接近尾声，京都即将迎来震撼人心的“五山送火”。佐田太吉郎与妻子佐田繁早早便在木屋町二条的一家高级茶屋预订了整间和室。这里紧邻鸭川，视野开阔，是观赏东山火光的绝佳位置。作为京都传统商户的代表，佐田夫妇即便在私生活中也维持着一种克制而优雅的仪式感。他们坐在这间充满历史感的房间里，等待着夜幕降临，等待着那些巨大的汉字在山间燃烧。这不仅是一场视觉盛宴，更是京都人与祖先灵魂对话的神圣时刻。",
+        "transition_to": "夜幕终于降临，所有人的目光都投向了如意岳的顶端。",
+        "mood": "peaceful",
+        "key_dialogue": "Her parents reserved a whole room at a teahouse in Kiya Nijo"
+      }
+    },
+    {
+      "title": "Niyoigatake Peak",
+      "address": "日本-京都府-京都市-左京区-如意岳",
+      "synopsis": "如意岳上的“大文字”火光是五山送火中最著名的景观，象征着京都夏季的结束。",
+      "source_evidence": "The Daimonji on Niyoigatake Peak on Higashiyama was the best known",
+      "original_chapter": "THE COLOR OF AUTUMN",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [],
+        "stay_duration": "仪式持续期间"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "ritual",
+          "fire",
+          "spirituality"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "大文字山，可徒步到达火床",
+        "current_name": "大文字山 (Mount Daimonji)"
+      },
+      "timeline": {
+        "orderIndex": 11,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第11章·如意岳的火文字",
+        "hook": "当巨大的“大”字在黑夜中燃起，整座古都都陷入了沉默。",
+        "narrative_text": "东山如意岳，又被称为大文字山。当八月十六日晚间的钟声敲响，山脊上巨大的“大”字形火床被依次点燃。那是京都五山送火中最具代表性的一处，熊熊烈火在漆黑的山影中勾勒出苍劲的笔画。对于城中的千重子、太吉郎，以及远在北山的苗子来说，这火光是共同的记忆。它象征着夏季的终结，也象征着对逝去亲人的缅怀。火光映红了半边天，也映照在每个人的心头，让那些关于身世、爱情与传统的纠葛，在这一刻都消融在古老仪式的庄严感中。",
+        "transition_to": "随着火光渐熄，京都的秋意渐浓，古都的故事在四季轮回中继续流转。",
+        "mood": "mysterious",
+        "key_dialogue": "The Daimonji on Niyoigatake Peak on Higashiyama was the best known"
+      }
+    },
+    {
+      "title": "Shimogamo Shrine",
+      "address": "日本-京都府-京都市-左京区-下鸭泉川町59",
+      "synopsis": "立秋前夕，千重子在下鸭神社参加“夏越祓”仪式，感受季节交替时的清冷与神圣。",
+      "source_evidence": "About two weeks earlier than the Daimonji, on the evening before the beginning of autumn, the ceremonies of the “summer passing” were held at the Shimogamo Shrine.",
+      "original_chapter": "THE GREEN OF PINES",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1961",
+        "date_end": "1962"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "佐田千重子"
+        ],
+        "stay_duration": "一个傍晚"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "purification",
+          "seasonal_change",
+          "shrine"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "世界文化遗产，御手洗池是夏越祓仪式的核心地点",
+        "current_name": "下鴨神社（賀茂御祖神社）"
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "1961",
+        "dateEnd": "1962"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·下鸭神社的夏越祓",
+        "hook": "在立秋的门槛上，千重子试图洗去夏日的疲惫。",
+        "narrative_text": "立秋前夕，京都的气候依然闷热，但下鸭神社的林荫间已透出几分凉意。绸缎庄千金佐田千重子来到了这里参加“夏越祓”仪式。人们穿过茅轮，祈求洗净半年来身上的秽气。千重子站在御手洗池边，看着清澈的泉水，心中却浮现出自己复杂的身世。她是弃儿，却在养父母的宠爱下成长。在这神圣的仪式中，她感受到了季节交替的微妙，也感受到了命运那无法言说的沉重。",
+        "transition_to": "仪式结束后，千重子随父亲前往南禅寺附近查看一处房产。",
+        "mood": "peaceful",
+        "key_dialogue": "About two weeks earlier than the Daimonji, on the evening before the beginning of autumn, the ceremonies of the “summer passing” were held at the Shimogamo Shrine."
+      }
+    },
+    {
+      "title": "Nanzenji Temple",
+      "address": "日本-京都府-京都市-左京区-南禅寺福地町",
+      "synopsis": "佐田太吉郎听说南禅寺附近有房产出售，带着妻子繁和女儿千重子前往看房。",
+      "source_evidence": "Having heard of a house for sale at a reasonable price near Nanzenji Temple, Takichiro invited his wife and daughter to go with him to see it.",
+      "original_chapter": "THE GREEN OF PINES",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "佐田太吉郎",
+          "佐田繁",
+          "佐田千重子"
+        ],
+        "stay_duration": "一个下午"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "family_outing",
+          "tranquility",
+          "real_estate"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "临济宗南禅寺派大本山",
+        "current_name": "南禅寺"
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·南禅寺的松涛",
+        "hook": "在繁华的京都寻找一处静谧的居所，太吉郎的心思究竟何在？",
+        "narrative_text": "绸缎商佐田太吉郎听闻南禅寺附近有一处价格合理的宅院待售，便带着妻子繁和女儿千重子一同前往。南禅寺的松林苍翠，古刹的静谧与市中心的喧嚣形成鲜明对比。太吉郎虽然经营着传统的绸缎庄，但内心深处总渴望着一种脱离世俗的雅致生活。在看房的过程中，一家人漫步在古老的寺院周边，感受着京都深厚的文化底蕴。千重子看着父母在商量未来的居所，心中虽有对现状的眷恋，也对这种宁静的变迁抱有一丝期待。",
+        "transition_to": "在前往南禅寺的途中，千重子突然想起了一处令她魂牵梦绕的自然奇观。",
+        "mood": "peaceful",
+        "key_dialogue": "“既然离得这么近，我们顺便去看看青莲院的大樟树好吗？”"
+      }
+    },
+    {
+      "title": "Shoren’in Temple",
+      "address": "日本-京都府-京都市-东山区-粟田口三条坊町",
+      "synopsis": "千重子提议绕道青莲院观赏巨大的樟树，感叹自然生命的壮丽。",
+      "source_evidence": "“Father, as long as we’ll be walking near there, could we go over toward Shoren’in Temple?” Chieko asked in the car. “Just in front of the entrance.” “The camphor trees.”",
+      "original_chapter": "THE GREEN OF PINES",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "佐田千重子",
+          "佐田太吉郎",
+          "佐田繁"
+        ],
+        "stay_duration": "短暂驻足"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "nature_worship",
+          "memory",
+          "aesthetic_appreciation"
+        ],
+        "significance": 0.75
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "天台宗三门迹之一",
+        "current_name": "青莲院门迹"
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·青莲院的巨樟",
+        "hook": "那几棵遮天蔽日的樟树，为何让千重子如此念念不忘？",
+        "narrative_text": "在去南禅寺的路上，千重子提议去看青莲院的巨大樟树。当车子停在青莲院门前，那几棵拥有数百年树龄、枝干横跨街道的巨大樟树映入眼帘，其磅礴的生命力令三人肃然起敬。千重子回忆起在树影下品茗的时光，那种被古老自然包裹的安全感，让她在身份迷茫的阴影中获得了一丝慰藉。这些树木见证了京都的兴衰，也默默守护着像千重子这样多愁善感的灵魂。",
+        "transition_to": "从古树的震撼中回神，千重子的思绪飘向了京都另一处充满传统韵味的地方。",
+        "mood": "nostalgic",
+        "key_dialogue": "“那些樟树，真的很大，很大。”"
+      }
+    },
+    {
+      "title": "Sumiya at Shimabara",
+      "address": "日本-京都府-京都市-下京区-西新屋敷扬屋町",
+      "synopsis": "千重子向父母讲述在岛原角屋见到的太夫道中，赞叹传统服饰的真实美感。",
+      "source_evidence": "“Then we went to see the maiko at Gion... From Gion we went to Sumiya at Shimabara to see the grand courtesans.”",
+      "original_chapter": "THE GREEN OF PINES",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": "岛原角屋",
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "佐田千重子"
+        ],
+        "stay_duration": "回忆片段"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "tradition",
+          "costume",
+          "geisha_culture"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为角屋产业文化保存会，作为“角屋MOTENASHI文化美术馆”开放",
+        "current_name": "角屋"
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·岛原的余晖",
+        "hook": "在古老的角屋，千重子看到了怎样一种令人屏息的传统之美？",
+        "narrative_text": "千重子在与父母的交谈中，提到了她在岛原的角屋看到的“太夫道中”表演。岛原曾是京都著名的花街，而角屋则是其中最高等级的扬屋。千重子描述着那些身着华丽和服、脚踩高木屐的太夫，她们的一举一动都仿佛从古画中走出来一般。对于出身绸缎世家的千重子来说，那里的服饰不仅仅是衣物，更是活生生的历史。这种对“真物”的追求，也反映了她对自己血缘真相的渴望与纠结。",
+        "transition_to": "季节流转，深秋的京都迎来了盛大的时代祭，而一场约定也在悄悄酝酿。",
+        "mood": "nostalgic",
+        "key_dialogue": "“那里的太夫，她们的衣服是真的，那种美也是真的。”"
+      }
+    },
+    {
+      "title": "Hamaguri Gate",
+      "address": "日本-京都府-京都市-上京区-京都御苑-蛤御门",
+      "synopsis": "时代祭当天，苗子身着千重子赠送的绸缎，在蛤御门与大伴秀男会合。",
+      "source_evidence": "“The festival parade begins at Gosho, so I’ll wait for you at Hamaguri Gate on the west side. Is that all right?”",
+      "original_chapter": "DEEP AUTUMN SISTERS",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "苗子",
+          "大伴秀男"
+        ],
+        "stay_duration": "数小时"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "festival",
+          "romance",
+          "identity"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "京都御苑西侧著名的城门",
+        "current_name": "蛤御门"
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·蛤御门的约定",
+        "hook": "穿着双胞胎姐姐赠送的和服，苗子在人群中等待着那个为她织腰带的人。",
+        "narrative_text": "深秋的京都迎来了时代祭。织工大伴秀男与苗子约定在京都御所西侧的蛤御门会面。苗子是千重子失散多年的双胞胎妹妹，此刻她正穿着千重子送给她的昂贵绸缎，腰间系着秀男亲手为她织就的腰带。在熙熙攘攘的人群中，苗子显得既局促又美丽。当秀男在蛤御门前找到她时，他几乎被苗子的气质所震慑。这个地点曾是历史上的激战之地，而此刻却见证了两个年轻人之间微妙而纯粹的情感流动。",
+        "transition_to": "随着游行队伍的出发，两人的目光转向了御所内部更广阔的广场。",
+        "mood": "bittersweet",
+        "key_dialogue": "“我会在西边的蛤御门等你，好吗？”"
+      }
+    },
+    {
+      "title": "Kyoto Gosho",
+      "address": "日本-京都府-京都市-上京区-京都御苑",
+      "synopsis": "秀男与苗子在京都御所观看时代祭游行，两人的情感在传统氛围中升温。",
+      "source_evidence": "The Festival of Ages was a celebration of the Heian Shrine, but the procession began at Kyoto’s Gosho.",
+      "original_chapter": "DEEP AUTUMN SISTERS",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1960",
+        "date_end": "1961"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "苗子",
+          "大伴秀男"
+        ],
+        "stay_duration": "一个下午"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "tradition",
+          "spectacle",
+          "unspoken_love"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "原皇室居所，现为皇室相关设施",
+        "current_name": "京都御所"
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "1960",
+        "dateEnd": "1961"
+      },
+      "story_mode": {
+        "chapter_title": "第6章·御所的时代祭",
+        "hook": "当千年的历史在眼前缓缓流过，苗子是否能找到属于自己的位置？",
+        "narrative_text": "时代祭的游行队伍从京都御所浩浩荡荡地出发。秀男和苗子并肩站在御所宽阔的广场上，欣赏着背景中苍劲的黑松与身着各朝代古装的游行队伍。秀男作为一名织工，敏锐地观察着游行者身上的织物纹样，而苗子则沉浸在这种宏大的历史感中。尽管身边热闹非凡，苗子心中却始终牵挂着千重子，她觉得自己仿佛是姐姐的影子。秀男对苗子的关怀溢于言表，但在京都御所这片象征着永恒传统的土地上，两人的未来依然难以捉摸。",
+        "transition_to": "祭典的喧嚣逐渐散去，而另一处幽静的寺院正等待着故事的延续。",
+        "mood": "dramatic",
+        "key_dialogue": "“看，那是平安时代的装束，织法非常讲究。”"
+      }
+    },
+    {
+      "title": "Kamigamo Shrine",
+      "address": "日本-京都府-京都市-北区-上贺茂本山339-上贺茂神社",
+      "synopsis": "上贺茂神社园林溪流边恢复的“曲水流觞”宴，重现了平安时代的雅致。",
+      "source_evidence": "the feast held on the banks of the meandering stream in the garden of Kamigamo Shrine.",
+      "original_chapter": "DEEP AUTUMN SISTERS",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": "贺茂别雷神社",
+        "date_start": "1961",
+        "date_end": "1962"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "佐田千重子"
+        ],
+        "stay_duration": "半日"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "aristocratic_culture",
+          "garden",
+          "tradition"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "世界文化遗产，每年四月举行曲水之宴",
+        "current_name": "贺茂别雷神社"
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "1961",
+        "dateEnd": "1962"
+      },
+      "story_mode": {
+        "chapter_title": "第7章·上贺茂的曲水流觞",
+        "hook": "在流动的溪水边，古老的文人雅兴正在悄然复苏。",
+        "narrative_text": "上贺茂神社的园林中，清澈的溪流蜿蜒而过。这里不仅是宏大葵祭的终点，更是文雅之气的聚集地。近期恢复的“曲水流觞”宴，让千重子仿佛穿越回了平安时代的贵族梦境。身着古装的文人们顺着溪流吟咏，酒杯随波逐流，这种极致的优雅与京都的古朴相得益彰。千重子漫步其间，感受着这种被精心保存下来的美。这种美虽然脆弱，却在京都人的坚持下，在战后的新生中，重新焕发出如溪水般绵延不绝的生命力。",
+        "transition_to": "当冬日的寒意渐浓，一场关于秘密与坦白的聚会在热气腾腾的火锅店展开。",
+        "mood": "nostalgic",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "Daiichi",
+      "address": "日本-京都府-京都市-上京区-下长者町通千本西入ル六番町-大市",
+      "synopsis": "千重子与龙助、真一在老字号“大市”品尝鳖肉火锅，吐露了自己身世的秘密。",
+      "source_evidence": "The three of them went to Daiichi, a turtle soup shop at Kitano Rokuban, in Ryusuke’s shop car. Daiichi was a venerable establishment, well known among tourists.",
+      "original_chapter": "WINTER FLOWERS",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1961",
+        "date_end": "1962"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "佐田千重子",
+          "水木龙助",
+          "水木真一"
+        ],
+        "stay_duration": "2小时"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "confession",
+          "winter",
+          "gourmet"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "创业于元禄年间的鳖料理名店，至今仍在营业",
+        "current_name": "すっぽん料理 大市"
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": "1961",
+        "dateEnd": "1962"
+      },
+      "story_mode": {
+        "chapter_title": "第8章·大市的微醺告白",
+        "hook": "热气腾腾的鳖肉汤中，隐藏着一个守了二十年的秘密。",
+        "narrative_text": "冬夜寒峭，水木龙助开车载着千重子和弟弟水木真一来到了北野六番町的老字号“大市”。这家以鳖肉火锅闻名的百年老店，屋内炭火正旺。千重子在热气的熏蒸和酒精的作用下，脸颊泛起红晕。面对着一直爱慕自己的真一，她终于压抑不住内心的波澜，轻声吐露了那个沉重的真相：她是一个弃儿，且在北山找到了自己的孪生姐妹苗子。这个秘密在热汤的雾气中散开，让原本轻松的聚会染上了一层忧伤而真挚的色彩。",
+        "transition_to": "带着微醺的余味与告白后的释然，千重子回到了那条承载着家族事业的街道。",
+        "mood": "bittersweet",
+        "key_dialogue": "“Actually, I’m a foundling,” Chieko said. “And I’ve found my twin sister.”"
+      }
+    },
+    {
+      "title": "Muromachi",
+      "address": "日本-京都府-京都市-上京区-室町通",
+      "synopsis": "室町通是京都著名的批发商街，千重子的家与水木家的批发店均坐落于此。",
+      "source_evidence": "When Chieko returned home to Muromachi, the weather was only cloudy there. ... Mizuki Ryusuke’s father was a strong, dependable personality, being the owner of a large Muromachi wholesale house",
+      "original_chapter": "WINTER FLOWERS",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1961",
+        "date_end": "1962"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "佐田千重子",
+          "佐田繁",
+          "佐田太吉郎",
+          "水木龙助"
+        ],
+        "stay_duration": "长期"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "commerce",
+          "family_business",
+          "tradition"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "至今仍是京都著名的和服批发街",
+        "current_name": "室町通"
+      },
+      "timeline": {
+        "orderIndex": 9,
+        "dateStart": "1961",
+        "dateEnd": "1962"
+      },
+      "story_mode": {
+        "chapter_title": "第9章·室町的深宅大院",
+        "hook": "在京都最繁忙的批发街，商业的严谨与家族的温情交织在一起。",
+        "narrative_text": "千重子回到室町的家中，这里的空气总是带着一种陈年绸缎的干燥香气。室町通是京都和服批发商的聚集地，佐田家的绸缎庄便坐落于此。与此同时，水木龙助的父亲也在这里经营着规模宏大的批发店。在这条街道上，商业竞争与家族联姻的考量交织在一起。对于千重子来说，室町不仅是她的家，更是一个由传统规矩构建的世界。无论她在外面经历了怎样的身世冲击，回到室町，她依然是那个被父母宠爱、背负着家族期待的绸缎庄千金。",
+        "transition_to": "京都的四季轮转，在这些古老的街道与仪式中，故事缓缓落下帷幕。",
+        "mood": "peaceful",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "Daiichi",
+      "address": "日本-京都府-京都市-上京区-北野六番町-大市",
+      "synopsis": "水木龙助带着千重子与真一前往北野六番町的“大市”品尝甲壳类料理，席间谈论起京都的传统与未来。",
+      "source_evidence": "The three of them went to Daiichi, a turtle soup shop at Kitano Rokuban, in Ryusuke’s shop car.",
+      "original_chapter": "WINTER FLOWERS",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "佐田千重子",
+          "水木龙助",
+          "水木真一"
+        ],
+        "stay_duration": "一顿晚餐的时间"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "tradition",
+          "gastronomy",
+          "socializing"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "即著名的鳖料理店“大市”，创业于元禄年间",
+        "current_name": "大市 (Daiichi)"
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第1章·北野的冬味",
+        "hook": "在古老的鳖料理店中，热气腾腾的锅气掩不住年轻人对未来的试探。",
+        "narrative_text": "故事的脚步并未停歇，下一站转向北野六番町的深处。绸缎商之子水木龙助开着店里的车载着佐田千重子和他的弟弟水木真一，来到了创业数百年的鳖料理老铺“大市”。在这间充满历史厚重感的店内，龙助展现出了他作为商人家长子的稳重与干练。千重子看着这对性格迥异的兄弟，真一依然保持着那份纯粹的感性，而龙助则更务实地思考着如何经营未来。在冬日的严寒中，这一顿昂贵的料理不仅是味蕾的享受，更是几位年轻人关系微妙流转的见证。席间，关于京都传统的坚守与变革，在杯盏交错间无声地铺陈开来。",
+        "transition_to": "席间的谈话勾起了真一的回忆，他想起在御所花园那个认错人的瞬间。",
+        "mood": "peaceful",
+        "key_dialogue": "“It’s a famous shop. It’s been here since the Genroku era.”"
+      }
+    },
+    {
+      "title": "Garden of Gosho",
+      "address": "日本-京都府-京都市-上京区-京都御苑",
+      "synopsis": "真一在时代祭期间于御所花园误将苗子认作千重子，揭开了双胞胎姐妹身份错位的序幕。",
+      "source_evidence": "The person you saw at the Festival of Ages at the garden of Gosho wasn’t me. You were mistaken. ... When Hideo invited Naeko to see the Festival of Ages, the reason he was more taken by the green of the pines in spacious Gosho",
+      "original_chapter": "WINTER FLOWERS",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": "京都御苑",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "佐田千重子",
+          "水木真一",
+          "苗子",
+          "大伴秀男"
+        ],
+        "stay_duration": "祭典期间"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "mistaken identity",
+          "festival",
+          "nature"
+        ],
+        "significance": 0.7
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为面向公众开放的京都御苑公园",
+        "current_name": "京都御苑"
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第2章·御所的幻影",
+        "hook": "在盛大的时代祭中，一个相似的身影让真一陷入了长久的困惑。",
+        "narrative_text": "京都御所那广阔的草坪与苍劲的松树，是时代祭最庄严的背景。水木真一向千重子提起，他曾在祭典的人群中看到了她，然而千重子却温柔而坚定地否认了。原来，那天出现在御所花园的是苗子——那个与千重子长得一模一样的山村姑娘。当时，织物艺人大伴秀男正陪伴在苗子身边，比起喧闹的游行队伍，秀男似乎更沉醉于御所那深邃的松绿与苗子身上那条由他亲手编织的腰带。这种身份的错位在皇室园林的静谧中显得格外凄美，两个女孩的命运如同交织的经纬线，在不经意间重叠。",
+        "transition_to": "当年轻人的情感在御所交织时，长辈佐田太吉郎则独自走向了北野的歌舞场。",
+        "mood": "melancholic",
+        "key_dialogue": "“The person you saw at the Festival of Ages at the garden of Gosho wasn’t me. You were mistaken.”"
+      }
+    },
+    {
+      "title": "Kitano Hall",
+      "address": "日本-京都府-京都市-上京区-上七轩-北野歌舞练场",
+      "synopsis": "佐田太吉郎独自观看北野舞，在舞剧中寻找艺术灵感，并偶遇了一位令他心动的年轻女孩。",
+      "source_evidence": "The autumn festival of the Kitano Dance lasted for two weeks. The day before it ended Sada Takichiro went there alone. ... After Takichiro left the Kitano Hall, he dropped in at the old-fashioned teahouse",
+      "original_chapter": "WINTER FLOWERS",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": "北野歌舞練場",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "佐田太吉郎"
+        ],
+        "stay_duration": "一个下午"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "art",
+          "performance",
+          "solitude"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "上七轩歌舞练场，至今仍有季节性公演",
+        "current_name": "上七軒歌舞練場"
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第3章·北野舞的余韵",
+        "hook": "在华丽的舞台与哀婉的曲调中，太吉郎看到了艺术与青春的重影。",
+        "narrative_text": "深秋的北野歌舞练场，正举行着为期两周的“北野舞”公演。佐田太吉郎，这位对传统艺术有着近乎偏执追求的绸缎商，独自坐在观众席中。舞台上正上演着关于平敦盛与熊谷直实的悲剧，那关于虞美人的舞蹈幻境让太吉郎沉醉不已。对他而言，这不仅是视觉的享受，更是设计和服图案的灵感源泉。演出结束后，他在附近的茶屋再次见到了那个曾在电车上偶遇的年轻女孩。女孩清纯的气息与舞台上的古典美交织在一起，让这位步入中年的艺术家在萧瑟的秋日里感受到了一丝久违的悸动。",
+        "transition_to": "舞剧中的台词提到了一处古寺，那是亡灵寻求安息的归宿。",
+        "mood": "nostalgic",
+        "key_dialogue": "“The autumn festival of the Kitano Dance lasted for two weeks. The day before it ended Sada Takichiro went there alone.”"
+      }
+    },
+    {
+      "title": "Kurodani",
+      "address": "日本-京都府-京都市-左京区-黑谷町-金戒光明寺",
+      "synopsis": "北野舞剧的情节延伸，提及敦盛的亡灵希望将名笛“青叶”供奉于黑谷的寺庙。",
+      "source_evidence": "Atsumori’s ghost appears to tell Kumagai that he wishes his favorite flute, “Greenleaf,” to be placed as an offering in the temple at Kurodani.",
+      "original_chapter": "WINTER FLOWERS",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": "黒谷",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "佐田太吉郎"
+        ],
+        "stay_duration": "瞬间（意象提及）"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "legend",
+          "redemption",
+          "tradition"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "即金戒光明寺，通称“黑谷先生”",
+        "current_name": "金戒光明寺"
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第4章·黑谷的笛声",
+        "hook": "一支名为“青叶”的笛子，承载着武士亡灵最后的夙愿。",
+        "narrative_text": "在太吉郎观看的舞剧中，黑谷（金戒光明寺）作为一个神圣的符号出现。剧情讲述了年轻的平敦盛在战场上殒命后，其亡灵现身，请求曾经的对手熊谷直实将他心爱的名笛“青叶”供奉在黑谷的寺庙中。这个情节在太吉郎的脑海中挥之不去，黑谷不仅是京都的一处古迹，更是古典文学中关于救赎与慈悲的象征。这种虚实交织的叙事，反映了京都这座城市深厚的文化底蕴——每一个地名背后都拖曳着长长的历史阴影与文学传说，让现实中的太吉郎也仿佛置身于古老的梦境之中。",
+        "transition_to": "从古老的传说回到现实，茶屋里的女孩谈起了她未来的去向。",
+        "mood": "mysterious",
+        "key_dialogue": "“Atsumori’s ghost appears to tell Kumagai that he wishes his favorite flute, ‘Greenleaf,’ to be placed as an offering in the temple at Kurodani.”"
+      }
+    },
+    {
+      "title": "Pontocho",
+      "address": "日本-京都府-京都市-中京区-先斗町",
+      "synopsis": "太吉郎在茶屋得知，他所关注的年轻女孩计划明年春天前往先斗町成为舞妓。",
+      "source_evidence": "Besides, she’s going to Pontocho next spring. ... She wants to be a maiko. ... Her aunt lives in Pontocho. That’s why she’s going there.",
+      "original_chapter": "WINTER FLOWERS",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "佐田太吉郎"
+        ],
+        "stay_duration": "对话提及"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "aspiration",
+          "geisha culture",
+          "youth"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "京都著名的花街之一，保留着大量茶屋建筑",
+        "current_name": "先斗町"
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第5章·先斗町的憧憬",
+        "hook": "鸭川边的狭窄小巷，即将迎来一位追逐舞妓梦想的新人。",
+        "narrative_text": "在北野的茶屋里，太吉郎从女主人那里听到了关于那个女孩的消息。原来，女孩计划在明年春天前往先斗町，投奔在那里的姨妈，并正式开始舞妓的修行。先斗町，这条紧邻鸭川的狭长街道，是京都最负盛名的花街之一。对于太吉郎来说，这既意味着一个纯真灵魂即将步入繁华而复杂的艺伎世界，也象征着京都传统生活方式的延续。他默默地听着，心中五味杂陈，既有对美的欣赏，也有对这种古老职业背后艰辛的体察。先斗町的灯火，似乎已经在那个女孩的眼中提前点亮。",
+        "transition_to": "京都的故事在冬日里延伸，千重子乘坐巴士，望向窗外荒凉的山野。",
+        "mood": "bittersweet",
+        "key_dialogue": "“She wants to be a maiko. ... Her aunt lives in Pontocho. That’s why she’s going there.”"
+      }
+    },
+    {
+      "title": "Toganoo",
+      "address": "日本-京都府-京都市-右京区-梅畑栂尾町-高山寺",
+      "synopsis": "冬季寂静的栂尾停车场，见证了千重子在寒冷季节里孤独的旅程。",
+      "source_evidence": "The parking lot below Toganoo was empty.",
+      "original_chapter": "WINTER FLOWERS",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1961",
+        "date_end": "1962"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "佐田千重子"
+        ],
+        "stay_duration": "巴士经过瞬间"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "winter",
+          "emptiness"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "高山寺附近的停车场至今仍在使用",
+        "current_name": "栂尾"
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "1961",
+        "dateEnd": "1962"
+      },
+      "story_mode": {
+        "chapter_title": "第6章·空旷的冬日停车场",
+        "hook": "曾经热闹的赏枫胜地，在严冬里只剩下无声的空旷。",
+        "narrative_text": "巴士缓缓驶过栂尾，千重子望向窗外。这里曾是京都著名的赏枫胜地，但在此时的“冬之花”季节，下方的停车场空空如也，没有了往日游客的喧嚣。这种空旷感与千重子此时的心境不谋而合。作为绸缎庄老板佐田太吉郎的养女，她在繁华的京都长大，却在这一刻感受到了如冬日栂尾般的寂寥。大自然的季节更替与人间的冷暖交织在一起，栂尾的荒凉成为了她内心孤独的视觉延伸。",
+        "transition_to": "视线从荒凉的山谷收回，京都城内的生活仍在继续，一场关于未来的商谈正在圆山公园展开。",
+        "mood": "melancholic",
+        "key_dialogue": "The parking lot below Toganoo was empty."
+      }
+    },
+    {
+      "title": "Saami in Maruyama Park",
+      "address": "日本-京都府-京都市-东山区-圆山公园-左阿弥",
+      "synopsis": "太吉郎与水木在圆山公园的左阿弥餐厅共进晚餐，商讨千重子的婚事与店面未来。",
+      "source_evidence": "Takichiro was invited to dinner by the father of the brothers Ryusuke and Shin’ichi at Saami in Maruyama Park.",
+      "original_chapter": "The Old Capital",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": null,
+        "date_start": "1961",
+        "date_end": "1962"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "佐田太吉郎",
+          "水木龙助"
+        ],
+        "stay_duration": "一晚"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "marriage",
+          "tradition",
+          "business"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "左阿弥（Saami）是京都著名的老牌料亭，至今仍在营业",
+        "current_name": "左阿弥"
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "1961",
+        "dateEnd": "1962"
+      },
+      "story_mode": {
+        "chapter_title": "第7章·左阿弥的晚宴",
+        "hook": "在精致的怀石料理背后，两个家族的命运正悄然绑定。",
+        "narrative_text": "圆山公园深处的左阿弥餐厅，环境幽雅，是京都名流商谈要事的首选。佐田太吉郎应水木先生之邀来到此处。席间，话题围绕着水木的长子龙助与千重子的婚事展开。水木家希望龙助能进入佐田家的绸缎庄帮忙，这不仅是一场联姻，更是传统商业模式下的家族扶持。太吉郎虽然对艺术有着执着的追求，但在现实的经营与女儿的幸福面前，他必须做出审慎的考量。窗外是圆山公园的夜色，室内则是关乎家族传承的沉重话题。",
+        "transition_to": "然而，所有的安排最终都要回归到千重子自己的选择，以及她与那个在北山杉林中重逢的姐妹之间。",
+        "mood": "dramatic",
+        "key_dialogue": "Takichiro was invited to dinner by the father of the brothers Ryusuke and Shin’ichi at Saami in Maruyama Park."
+      }
+    },
+    {
+      "title": "Cedar mountains",
+      "address": "日本-京都府-京都市-北区-北山",
+      "synopsis": "北山杉林见证了千重子与苗子最后的告别，象征着两人无法逾越的身份鸿沟。",
+      "source_evidence": "Maybe the cedar mountains are a pleasant place, but…. And you were kind enough to come visit me twice in the cedar mountains.",
+      "original_chapter": "WINTER FLOWERS",
+      "part_id": "PART-1",
+      "part_title": "The Old Capital",
+      "temporal_context": {
+        "era": "战后昭和时代",
+        "historical_name": "北山杉",
+        "date_start": "1961",
+        "date_end": "1962"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "佐田千重子",
+          "苗子"
+        ],
+        "stay_duration": "永久的牵绊"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "sisterhood",
+          "identity",
+          "separation"
+        ],
+        "significance": 1.0
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "北山杉林至今仍是京都北部的标志性景观",
+        "current_name": "北山杉の里"
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": "1961",
+        "dateEnd": "1962"
+      },
+      "story_mode": {
+        "chapter_title": "第8章·北山杉下的幻影",
+        "hook": "双胞胎姐妹的重逢与永别，都消融在这一片笔直挺拔的杉木林中。",
+        "narrative_text": "故事在北山杉林的静谧中走向终结。千重子曾两次前往这片杉林看望她的孪生姐妹苗子，而苗子也曾来到京都的绸缎庄短暂留宿。尽管两人流着相同的血，但一个是京都名门的千金，一个是山野间的劳作女工。千重子曾真诚地邀请苗子留下，但苗子深知两人身份的差异会给千重子带来困扰，最终选择回到那片属于她的、笔直而孤独的北山杉林。当苗子在雪中离去，千重子站在门口目送，两人的命运如同北山杉一般，虽然根植于同一片土地，却只能各自挺拔，永不交汇。京都的四季轮回，带走了少女的哀愁，留下了永恒的古都余韵。",
+        "transition_to": "至此，《古都》的巡礼画上了句点。千重子与苗子的身影，永远留在了京都的烟雨与霜雪之中。",
+        "mood": "bittersweet",
+        "key_dialogue": "Maybe the cedar mountains are a pleasant place, but…. And you were kind enough to come visit me twice in the cedar mountains."
+      }
+    }
+  ],
+  "suspects": []
+}

@@ -1,0 +1,270 @@
+{
+  "places": [
+    {
+      "title": "Bohemia",
+      "address": "Czech Republic-Bohemia",
+      "synopsis": "波希米亚国王因一张可能毁掉其婚约的合照而向福尔摩斯求助，引出了福尔摩斯唯一敬佩的女性艾琳·艾德勒。",
+      "source_evidence": "To Sherlock Holmes she is always THE woman. I have seldom heard him mention her under any other name.",
+      "temporal_context": {
+        "era": "Late Victorian Era",
+        "historical_name": "Kingdom of Bohemia",
+        "date_start": "1888",
+        "date_end": "1888"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Sherlock Holmes",
+          "Irene Adler",
+          "King of Bohemia",
+          "Dr. Watson"
+        ],
+        "stay_duration": "Several days of investigation"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "scandal",
+          "royalty",
+          "intellectual_rivalry"
+        ],
+        "significance": 0.9
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "1888",
+        "dateEnd": "1888"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·波希米亚的阴影",
+        "hook": "一位蒙面国王的深夜造访，揭开了一段足以动摇王室的旧情往事。",
+        "narrative_text": "在贝克街的迷雾中，波希米亚国王隐姓埋名而来，只为寻回那张足以让他身败名裂的照片。福尔摩斯面对的不仅是一桩勒索案，更是他职业生涯中最为强劲的对手——艾琳·艾德勒。通过精巧的伪装与一场精心策划的火警，福尔摩斯终于窥见了照片的藏匿处，却未曾料到，这位女性的智慧竟能反将他一军。虽然照片最终随她远去，但福尔摩斯对女性的偏见从此烟消云散，他的书桌上永远留下了一张属于‘那位女性’的照片。",
+        "transition_to": "告别了波希米亚的纷扰，福尔摩斯的目光转向了赫里福德郡那片宁静却暗藏杀机的湖畔。",
+        "mood": "mysterious",
+        "key_dialogue": "You see, but you do not observe. The distinction is clear."
+      }
+    },
+    {
+      "title": "Boscombe Valley",
+      "address": "England-Herefordshire-Boscombe Valley",
+      "synopsis": "在波斯库姆湖畔，一名青年被控杀害其父。福尔摩斯通过现场微小的足迹证据，揭开了澳洲往事的血色秘密。",
+      "source_evidence": "The Boscombe Valley Mystery is one of the most remarkable cases in which I have ever been engaged.",
+      "temporal_context": {
+        "era": "Late Victorian Era",
+        "historical_name": null,
+        "date_start": "1889",
+        "date_end": "1889"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Sherlock Holmes",
+          "Dr. Watson",
+          "James McCarthy",
+          "John Turner"
+        ],
+        "stay_duration": "Two days"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "murder",
+          "past_secrets",
+          "injustice"
+        ],
+        "significance": 0.6
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "1889",
+        "dateEnd": "1889"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·湖畔的血色秘密",
+        "hook": "当所有证据都指向那个满身血迹的儿子时，真相却藏在泥土的纹路里。",
+        "narrative_text": "波斯库姆湖畔的草地上，老麦卡锡的尸体冰冷僵硬。尽管所有的目击证词都对年轻的詹姆斯极为不利，福尔摩斯却在潮湿的地面上读出了完全不同的故事。他敏锐地察觉到，这并非一桩简单的父子冲突，而是跨越重洋、从澳洲金矿区追索而来的宿命审判。在真相与法律之间，福尔摩斯选择了宽恕那个垂死的老人，让一段罪恶的往事随着死亡一同埋葬在赫里福德郡的泥土中。",
+        "transition_to": "离开潮湿的湖畔，福尔摩斯受邀前往瑞盖特，试图在静养中寻找片刻安宁。",
+        "mood": "tense",
+        "key_dialogue": "There is nothing more deceptive than an obvious fact."
+      }
+    },
+    {
+      "title": "Reigate",
+      "address": "England-Surrey-Reigate",
+      "synopsis": "福尔摩斯在瑞盖特乡间疗养期间，卷入了一场看似入室盗窃实则精心策划的谋杀案，并识破了遗嘱背后的谎言。",
+      "source_evidence": "It was in the spring of the year 1887 that the health of Mr. Sherlock Holmes showed some signs of giving way.",
+      "temporal_context": {
+        "era": "Late Victorian Era",
+        "historical_name": null,
+        "date_start": "1887",
+        "date_end": "1887"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Sherlock Holmes",
+          "Dr. Watson",
+          "Colonel Hayter",
+          "The Cunninghams"
+        ],
+        "stay_duration": "A few days"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "deception",
+          "conspiracy",
+          "deduction"
+        ],
+        "significance": 0.5
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "1887",
+        "dateEnd": "1887"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·瑞盖特的病中奇案",
+        "hook": "原本是为了疗养而来的宁静乡村，却被一张撕碎的纸条打破了平静。",
+        "narrative_text": "精疲力竭的福尔摩斯本应在萨里郡的乡间静养，但康宁汉父子的古怪行径却勾起了他的职业本能。一名马夫的意外身亡，被伪装成入室抢劫，然而那张残缺不全的纸条却成了致命的破绽。福尔摩斯假装病发倒地，以此为掩护观察对手的反应，最终在众目睽睽之下揭穿了这对乡绅父子的伪善面具。这场智斗证明了，即便是在最虚弱的时刻，福尔摩斯的思维依然如手术刀般精准。",
+        "transition_to": "随着瑞盖特案的了结，福尔摩斯回到了伦敦，在诺伍德的建筑工地旁迎接新的挑战。",
+        "mood": "dramatic",
+        "key_dialogue": "I have no doubt that I shall find it very much more interesting than the rest of the case."
+      }
+    },
+    {
+      "title": "Norwood",
+      "address": "England-London-Norwood",
+      "synopsis": "一名年轻律师被控在诺伍德杀害并焚尸一名建筑师，福尔摩斯利用一处‘凭空出现’的血指印反转了局势。",
+      "source_evidence": "The Adventure of the Norwood Builder",
+      "temporal_context": {
+        "era": "Edwardian Era",
+        "historical_name": null,
+        "date_start": "1894",
+        "date_end": "1894"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Sherlock Holmes",
+          "Dr. Watson",
+          "Inspector Lestrade",
+          "Jonas Oldacre"
+        ],
+        "stay_duration": "Two days"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "framing",
+          "revenge",
+          "forensics"
+        ],
+        "significance": 0.6
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "1894",
+        "dateEnd": "1894"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·诺伍德的焦灼陷阱",
+        "hook": "当雷斯垂德探长欢呼抓到现行犯时，福尔摩斯却在墙壁的夹缝中听到了呼吸声。",
+        "narrative_text": "诺伍德的建筑师老艾克里离奇失踪，现场留下的焦黑残骸和血指印似乎将年轻的麦克法兰送上了绞刑架。然而，福尔摩斯敏锐地察觉到，那个血指印出现得太过于‘完美’，以至于显得虚假。通过一场虚张声势的‘火警’演习，他成功逼出了躲藏在密室中的‘死者’。这不仅是一场关于证据的博弈，更是一次对人性阴暗面——那种跨越二十年的报复心的深刻揭露。",
+        "transition_to": "诺伍德的密室真相大白，但另一座位于奇斯尔赫斯特的庄园正笼罩在暴力的阴影下。",
+        "mood": "tense",
+        "key_dialogue": "It is an old maxim of mine that when you have excluded the impossible, whatever remains, however improbable, must be the truth."
+      }
+    },
+    {
+      "title": "Abbey Grange",
+      "address": "England-London-Chislehurst-Abbey Grange",
+      "synopsis": "格兰其庄园发生了一起残忍的谋杀案，福尔摩斯通过三只酒杯的细节，识破了关于入室抢劫的谎言。",
+      "source_evidence": "The Adventure of the Abbey Grange",
+      "temporal_context": {
+        "era": "Edwardian Era",
+        "historical_name": null,
+        "date_start": "1897",
+        "date_end": "1897"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Sherlock Holmes",
+          "Dr. Watson",
+          "Lady Brackenstall",
+          "Captain Crocker"
+        ],
+        "stay_duration": "One day"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "domestic_violence",
+          "justice",
+          "moral_dilemma"
+        ],
+        "significance": 0.6
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "1897",
+        "dateEnd": "1897"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·格兰其庄园的审判",
+        "hook": "三只酒杯，两份沉渣，揭开了一场关于爱与解脱的致命谎言。",
+        "narrative_text": "在格兰其庄园的餐厅里，布拉肯斯托尔爵士倒在血泊中。女主人声称是三名强盗所为，但桌上那只没有沉渣的酒杯却向福尔摩斯诉说着另一个故事。这并非一桩冷酷的谋杀，而是一个男人为了保护心爱的女人免受暴虐丈夫伤害的绝望反击。在贝克街的临时法庭上，福尔摩斯扮演了法官的角色，他决定听从内心的正义而非冰冷的法律，放走了那位充满荣誉感的船长。",
+        "transition_to": "从庄园的审判抽身，福尔摩斯的思绪飞向了更遥远的东方，追溯那段跨越重洋的罪恶源头。",
+        "mood": "bittersweet",
+        "key_dialogue": "I had rather play tricks with English law than with my own conscience."
+      }
+    },
+    {
+      "title": "Andaman Islands",
+      "address": "India-Andaman Islands",
+      "synopsis": "作为《四签名》案件的罪恶源头，这里见证了宝藏的诅咒、囚犯的背叛以及土著人童格与乔纳森·斯莫尔的畸形忠诚。",
+      "source_evidence": "“He is a Hindoo,” said I. “No, no,” said Holmes; “he is a little Andaman Islander.”",
+      "temporal_context": {
+        "era": "Late Victorian Era",
+        "historical_name": "Penal Settlement of the Andaman Islands",
+        "date_start": "1888",
+        "date_end": "1888"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Jonathan Small",
+          "Tonga",
+          "Major Sholto",
+          "Captain Morstan"
+        ],
+        "stay_duration": "Several years (backstory)"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "colonialism",
+          "betrayal",
+          "treasure",
+          "revenge"
+        ],
+        "significance": 0.35
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "1888",
+        "dateEnd": "1888"
+      },
+      "story_mode": {
+        "chapter_title": "第6章·遥远群岛的罪恶回响",
+        "hook": "在伦敦迷雾的尽头，竟隐藏着来自热带群岛的致命毒箭与古老诅咒。",
+        "narrative_text": "安达曼群岛，这片被印度洋环绕的流放之地，是《四签名》悲剧的真正起点。在这里，乔纳森·斯莫尔在绝望的囚禁中与土著人童格结下了诡异的盟约。那份沾满鲜血的阿格拉宝藏，不仅引发了军官间的背叛，更让毒箭的阴影跨越重洋，笼罩了伦敦的深夜。虽然福尔摩斯未曾亲临此地，但通过他的演绎法，这片充满异域色彩的罪恶温床被精准地勾勒出来。每一个关于吹矢管和畸形足迹的细节，都指向了那段在热带丛林中滋生的贪婪与复仇，最终在泰晤士河的追逐战中画上了句号。",
+        "transition_to": "从波希米亚的丑闻到安达曼的诅咒，贝克街的传奇在此暂告一段落，但真相的探寻永不停歇。",
+        "mood": "mysterious",
+        "key_dialogue": "It is a romance! An injured lady, half a million in treasure, a black cannibal, and a wooden-legged ruffian."
+      }
+    }
+  ],
+  "suspects": []
+}

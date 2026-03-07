@@ -1,0 +1,565 @@
+{
+  "book_info": {
+    "title": "The Yacoubian Building",
+    "author": "Alaa Al Aswany",
+    "type": "novel",
+    "summary": "《雅库比安大楼》是埃及作家阿拉·阿斯瓦尼的代表作，以20世纪90年代海湾战争时期的开罗为背景。故事围绕着坐落在卡斯尔·尼尔街的一座曾极尽辉煌的装饰艺术风格大楼展开。这座大楼如同埃及社会的缩影，上层住着没落的贵族和投机的政客，楼顶简陋的铁皮房则挤满了挣扎求生的底层平民。通过扎基·贝的怀旧忧郁、塔哈的理想幻灭以及阿扎姆的权力贪欲，小说深刻勾勒出当代埃及在现代化冲击下，传统与激进、优雅与腐败、希望与绝望交织的复杂图景，是一部关于开罗灵魂的宏大叙事。"
+  },
+  "characters": [
+    {
+      "id": "zaki_bey",
+      "name": "Zaki Bey el Dessouki",
+      "aliases": [
+        "Zaki Bey",
+        "扎基·贝"
+      ],
+      "role": "雅库比安大楼的老住客，代表着1952年革命前那个优雅、亲法且充满情调的旧时代精英。",
+      "first_appearance": "Garden City",
+      "importance": "protagonist"
+    },
+    {
+      "id": "taha_shazli",
+      "name": "Taha el Shazli",
+      "aliases": [
+        "Taha",
+        "塔哈·沙兹里"
+      ],
+      "role": "大楼看门人的儿子，因出身贫寒被警察学院拒绝后，在大学期间逐渐走上宗教激进之路。",
+      "first_appearance": "Cairo University",
+      "importance": "protagonist"
+    },
+    {
+      "id": "hagg_azzam",
+      "name": "Hagg Muhammad Azzam",
+      "aliases": [
+        "Hagg Azzam",
+        "哈吉·阿扎姆"
+      ],
+      "role": "从擦鞋匠起家的暴发户，通过非法勾当和政治献金试图跻身上流社会并获取议员席位。",
+      "first_appearance": "À l’Américaine",
+      "importance": "major"
+    },
+    {
+      "id": "hatim_rasheed",
+      "name": "Hatim Rasheed",
+      "aliases": [
+        "Hatim",
+        "哈廷·拉希德"
+      ],
+      "role": "法文报纸主编，出身名门却过着危险的双重生活，在雅库比安大楼内维持着脆弱的体面。",
+      "first_appearance": "Galaa Street",
+      "importance": "major"
+    },
+    {
+      "id": "kamal_fouli",
+      "name": "Kamal el Fouli",
+      "aliases": [
+        "Kamal",
+        "卡迈勒·福里"
+      ],
+      "role": "权势显赫的爱国党秘书，掌控着全国的政治选举与肮脏的权力交易。",
+      "first_appearance": "Shibin el Kom",
+      "importance": "major"
+    },
+    {
+      "id": "souad_gaber",
+      "name": "Souad Gaber",
+      "aliases": [
+        "Souad",
+        "苏阿德"
+      ],
+      "role": "来自亚历山大的贫穷寡妇，为了生存秘密嫁给阿扎姆作为他的二房妻子。",
+      "first_appearance": "Hannaux department store",
+      "importance": "supporting"
+    },
+    {
+      "id": "malak_khilla",
+      "name": "Malak",
+      "aliases": [
+        "Malak Khilla",
+        "马拉克"
+      ],
+      "role": "狡黠的衬衫裁缝，通过贿赂和敲诈在大楼楼顶扩张势力，是底层生存法则的代表。",
+      "first_appearance": "Kasr el Nil Street",
+      "importance": "supporting"
+    },
+    {
+      "id": "sheikh_shakir",
+      "name": "Sheikh Muhammad Shakir",
+      "aliases": [
+        "Sheikh Shakir",
+        "谢赫·沙基尔"
+      ],
+      "role": "激进的宗教领袖，在清真寺布道并引导塔哈等年轻人走向极端主义。",
+      "first_appearance": "Anas ibn Malik Mosque",
+      "importance": "supporting"
+    }
+  ],
+  "parts": [
+    {
+      "part_id": "PART-1",
+      "title": "The Yacoubian Building",
+      "synopsis": "通过大楼内不同阶层人物的交织生活，展现开罗在社会转型期的腐败、阶级鸿沟以及宗教激进主义的萌芽。",
+      "place_count": 47,
+      "mood": "cynical",
+      "key_characters": [
+        "Zaki Bey el Dessouki",
+        "Taha el Shazli",
+        "Hagg Muhammad Azzam",
+        "Hatim Rasheed"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "title": "Port Said",
+      "address": "Egypt-Port Said-Port Said",
+      "synopsis": "阿扎姆的竞选对手阿布·希梅达的故乡，他曾是这里的普通劳工。",
+      "source_evidence": "Abu Himeida, like Azzam, had originally been a simple laborer in Port Said.",
+      "original_chapter": "Chapter 6",
+      "part_id": "PART-1",
+      "part_title": "The Yacoubian Building",
+      "temporal_context": {
+        "era": "Modern Egypt",
+        "historical_name": null,
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Hagg Abu Himeida"
+        ],
+        "stay_duration": "Early life"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "parallel_lives",
+          "labor_class"
+        ],
+        "significance": 0.25
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Major port city at the entrance of Suez Canal.",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第1章·塞得港的旧梦",
+        "hook": "两个同样出身底层的劳工，在权力的天平两端相遇。",
+        "narrative_text": "塞得港的码头曾是阿布·希梅达挥洒汗水的地方。和哈吉·阿扎姆一样，他最初也只是个卑微的体力劳动者。这座港口城市见证了他的起步，也塑造了他坚韧的性格。然而，在开罗的政治博弈中，仅仅拥有劳工背景是不够的。当他在卡斯尔尼罗选区面对阿扎姆时，他输掉的不仅是选票，更是对这个系统公平性的最后一点幻想。塞得港的劳工身份，最终成了他政治生涯中一个讽刺的注脚。",
+        "transition_to": "而对于另一个女人苏阿德来说，亚历山大港才是她一切痛苦与希望的源头。",
+        "mood": "desolate",
+        "key_dialogue": "Abu Himeida, like Azzam, had originally been a simple laborer in Port Said."
+      }
+    },
+    {
+      "title": "Alexandria",
+      "address": "Egypt-Alexandria-Alexandria",
+      "synopsis": "苏阿德曾在此艰难抚养儿子，为了生计她最终选择离开这里，前往开罗成为阿扎姆的秘密妻子。",
+      "source_evidence": "It had happened like that to many families that she knew in Alexandria. ... Her job at Hannaux’s was exhausting. ... She would sleep with this old man for two hours everyday, leave her son in Alexandria, and collect her wages.",
+      "original_chapter": "Chapter 7",
+      "part_id": "PART-1",
+      "part_title": "The Yacoubian Building",
+      "temporal_context": {
+        "era": "Modern Egypt",
+        "historical_name": null,
+        "date_start": "1980",
+        "date_end": "1990"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Souad",
+          "Tamir",
+          "Hagg Azzam"
+        ],
+        "stay_duration": "Many years"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "sacrifice",
+          "motherhood",
+          "poverty"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Egypt's second largest city.",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "1980",
+        "dateEnd": "1990"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·亚历山大的抉择",
+        "hook": "为了给儿子一个未来，她必须抛弃他在身边的现在。",
+        "narrative_text": "在海风吹拂的亚历山大港，苏阿德——一个美丽却贫穷的寡妇，曾在Hannaux百货公司辛苦工作。她的生活围绕着年幼的儿子塔米尔转动，但微薄的薪水难以支撑未来。当哈吉·阿扎姆提出要娶她为二房（尽管是秘密的）时，她陷入了巨大的痛苦。留在亚历山大意味着清贫，而前往开罗则意味着能给儿子寄回大笔生活费。最终，她选择了后者，将儿子留在亚历山大的亲戚家，独自踏上了前往雅库比安大楼的列车。",
+        "transition_to": "而在开罗的核心选区，一场关于席位的明争暗斗正进入白热化。",
+        "mood": "melancholic",
+        "key_dialogue": "She would sleep with this old man for two hours everyday, leave her son in Alexandria, and collect her wages."
+      }
+    },
+    {
+      "title": "Kasr el Nil constituency",
+      "address": "Egypt-Cairo-Downtown-Kasr el Nil",
+      "synopsis": "阿布·希梅达在失去党内提名后，以独立候选人身份在尼罗河宫选区与哈吉·阿扎姆展开激烈竞争。",
+      "source_evidence": "Abu Himeida had expended enormous effort to get the Patriotic Party nomination for the Kasr el Nil constituency... flooding the Kasr el Nil constituency with hundreds of election posters bearing his name",
+      "original_chapter": "Chapter 11",
+      "part_id": "PART-1",
+      "part_title": "The Yacoubian Building",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1990",
+        "date_end": "1991"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Hagg Abu Himeida",
+          "Hagg Azzam",
+          "Kamal el Fouli"
+        ],
+        "stay_duration": "Several weeks during election"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "election",
+          "rivalry",
+          "ambition"
+        ],
+        "significance": 0.75
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "开罗市中心核心行政与商业区",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "1990",
+        "dateEnd": "1991"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·选战的硝烟",
+        "hook": "当金钱撞上权力，街道变成了贴满诺言与敌意的战场。",
+        "narrative_text": "尼罗河宫选区（Kasr el Nil）的街道一夜之间变了样。阿布·希梅达，这位因未能获得爱国党提名而愤愤不平的政客，正动用一切资源进行反击。他在这里张贴了成百上千张海报，搭建起巨大的选举帐篷，试图从哈吉·阿扎姆手中夺回选民。哈吉·阿扎姆——这位从雅库比安大楼走出的暴发户商人，正面临着步入政坛的第一场硬仗。空气中弥漫着廉价香烟和政治口号的味道，每一张选票背后都隐藏着利益的交换。",
+        "transition_to": "当上层阶级在为权力博弈时，年轻人塔哈正怀着敬畏之心步入知识的殿堂。",
+        "mood": "dramatic",
+        "key_dialogue": "“Abu Himeida had expended enormous effort to get the Patriotic Party nomination for the Kasr el Nil constituency.”"
+      }
+    },
+    {
+      "title": "Cairo University",
+      "address": "Egypt-Cairo-Giza-Cairo University",
+      "synopsis": "塔哈·沙兹里进入开罗大学，在钟楼的钟声中感受到神圣与敬畏，开启了大学生活。",
+      "source_evidence": "On the first day of studies, when he passed beneath the university clock and listened to its celebrated chimes, he was seized by that certain sense of awe and majesty",
+      "original_chapter": "Chapter 12",
+      "part_id": "PART-1",
+      "part_title": "The Yacoubian Building",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1990",
+        "date_end": "1991"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Taha el Shazli",
+          "Khalid Abd el Rahim",
+          "Tahir"
+        ],
+        "stay_duration": "Academic year"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "education",
+          "aspiration",
+          "religion"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "埃及最高学府，钟楼为标志性建筑",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "1990",
+        "dateEnd": "1991"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·钟楼下的敬畏",
+        "hook": "被警官学校拒绝的痛苦尚未痊愈，大学的钟声能否为他指引新的人生？",
+        "narrative_text": "塔哈·沙兹里——雅库比安大楼看门人的儿子，带着被警官学校羞辱后的自卑与不甘，踏入了开罗大学经济与政治学院。当他穿过校门，听见那著名的钟楼发出庄严的轰鸣时，一种前所未有的神圣感油然而生。在这里，他不再是那个因为父亲职业而被嘲笑的少年，而是一名追求真理的学生。在讲堂里，他遇到了哈立德，一个同样出身贫寒却异常虔诚的青年。大学不仅是知识的海洋，也成为了塔哈寻找精神慰藉和归属感的起点。",
+        "transition_to": "周五的清晨，塔哈按照约定前往市中心，准备参加一场改变他思想的聚会。",
+        "mood": "ambitious",
+        "key_dialogue": "“For some reason, the Faculty of Economics and Political Sciences of Cairo University is associated in people’s minds with affluence and chic.”"
+      }
+    },
+    {
+      "title": "Tahrir Square",
+      "address": "Egypt-Cairo-Downtown-Tahrir Square",
+      "synopsis": "解放广场作为开罗的心脏，是塔哈与哈立德约好周五见面并前往清真寺的集合点。",
+      "source_evidence": "Tahrir Square: “Liberation Square,” the main square in Cairo’s downtown area.",
+      "original_chapter": "Chapter 13",
+      "part_id": "PART-1",
+      "part_title": "The Yacoubian Building",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1990",
+        "date_end": "1991"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Taha el Shazli",
+          "Khalid Abd el Rahim"
+        ],
+        "stay_duration": "Short wait"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "urban_life",
+          "gathering"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "开罗最著名的公共广场",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "1990",
+        "dateEnd": "1991"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·心脏地带的汇合",
+        "hook": "在开罗最繁忙的十字路口，一场通往信仰深处的旅程即将开始。",
+        "narrative_text": "解放广场（Tahrir Square）永远是开罗跳动的脉搏。周五的上午，这里的车流稍显稀疏，但空气中依然带着大都市特有的喧嚣。塔哈·沙兹里准时到达这里，他在寻找那个约定的坐标。对于塔哈来说，这个广场不仅是地理上的中心，更是他从雅库比安大楼的狭窄屋顶走向广阔社会的必经之路。他在这里等待着哈立德，准备一同去接受某种能让他内心平静——或者更加激荡的力量。",
+        "transition_to": "他的目光锁定了广场一角的咖啡馆，那是他们约定的具体位置。",
+        "mood": "peaceful",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "Ali Baba café",
+      "address": "Egypt-Cairo-Downtown-Tahrir Square-Ali Baba café",
+      "synopsis": "位于解放广场的阿里巴巴咖啡馆，是塔哈与哈立德汇合的具体地点。",
+      "source_evidence": "Wait for me tomorrow at ten in Tahrir Square in front of the Ali Baba café.",
+      "original_chapter": "Chapter 13",
+      "part_id": "PART-1",
+      "part_title": "The Yacoubian Building",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1990",
+        "date_end": "1991"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Taha el Shazli",
+          "Khalid Abd el Rahim"
+        ],
+        "stay_duration": "A few minutes"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "meeting_point",
+          "urban_culture"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "俯瞰解放广场的著名老牌咖啡馆",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "1990",
+        "dateEnd": "1991"
+      },
+      "story_mode": {
+        "chapter_title": "第6章·咖啡馆前的约定",
+        "hook": "在阿里巴巴咖啡馆的招牌下，两个年轻人的命运交织在一起。",
+        "narrative_text": "阿里巴巴咖啡馆（Ali Baba café）静静地坐落在解放广场的一侧，它的窗户俯瞰着开罗最核心的景观。塔哈站在咖啡馆前，看着进进出出的茶客和游客，心中却在想着哈立德前一天的叮嘱。这个平凡的咖啡馆成为了一个中转站，将他从世俗的迷茫引向宗教的狂热。当哈立德的身影终于出现时，塔哈感到一种莫名的踏实，仿佛找到了某种能够对抗外界不公的盟友。",
+        "transition_to": "两人穿过街道，向着那座能容纳数千人、充满激进氛围的清真寺走去。",
+        "mood": "mysterious",
+        "key_dialogue": "“Wait for me tomorrow at ten in Tahrir Square in front of the Ali Baba café.”"
+      }
+    },
+    {
+      "title": "Anas ibn Malik Mosque",
+      "address": "Egypt-Cairo-Anas ibn Malik Mosque",
+      "synopsis": "塔哈在阿纳斯·伊本·马利克清真寺听取谢赫·沙基尔的布道，深受激进思想影响。",
+      "source_evidence": "Two hours before the Friday call to prayer, the mosque of Anas ibn Malik filled to capacity with worshippers.",
+      "original_chapter": "Chapter 14",
+      "part_id": "PART-1",
+      "part_title": "The Yacoubian Building",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": null,
+        "date_start": "1990",
+        "date_end": "1991"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Taha el Shazli",
+          "Khalid Abd el Rahim",
+          "Sheikh Muhammad Shakir"
+        ],
+        "stay_duration": "Several hours"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "radicalization",
+          "faith",
+          "community"
+        ],
+        "significance": 0.95
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "位于开罗，是当时激进派活动的真实缩影",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "1990",
+        "dateEnd": "1991"
+      },
+      "story_mode": {
+        "chapter_title": "第7章·激荡的布道",
+        "hook": "当数千名信徒的呼吸汇聚在一起，谢赫的声音如同雷鸣般在塔哈心中炸响。",
+        "narrative_text": "阿纳斯·伊本·马利克清真寺内挤得水泄不通，甚至连周边的交通都因此瘫痪。塔哈·沙兹里坐在冰冷的地毯上，周围全是和他一样年轻、贫穷且充满愤怒的脸庞。谢赫·沙基尔——这位极具煽动力的宗教领袖，正站在讲坛上抨击社会的腐败与不公。他的每一句话都精准地击中了塔哈的痛处：那些权贵的贪婪、警察的残暴以及穷人被践踏的尊严。在这里，塔哈第一次感觉到自己不再是孤单的受害者，而是一个伟大事业的一部分。",
+        "transition_to": "离开充满理想与狂热的清真寺，开罗的老派绅士正步入他怀旧的避风港。",
+        "mood": "dramatic",
+        "key_dialogue": "“We’ll pray together at the Anas ibn Malik Mosque and I’ll introduce you to Sheikh Shakir, God willing.”"
+      }
+    },
+    {
+      "title": "Suleiman Basha Square",
+      "address": "Egypt-Cairo-Downtown-Suleiman Basha Square",
+      "synopsis": "扎基穿过广场进入马克西姆餐厅，体验到一种穿越回50年代的怀旧感。",
+      "source_evidence": "No sooner has he crossed Suleiman Basha Square to the small passage opposite the Automobile Club... than he feels as though a magic time machine has carried him back to the beautiful years of the 1950s.",
+      "original_chapter": "Chapter 2",
+      "part_id": "PART-1",
+      "part_title": "The Yacoubian Building",
+      "temporal_context": {
+        "era": "1990s",
+        "historical_name": "Midan Talaat Harb",
+        "date_start": "1990",
+        "date_end": "1991"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Zaki Bey el Dessouki"
+        ],
+        "stay_duration": "Passing"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "nostalgia",
+          "urban change",
+          "aristocracy"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现名塔拉特·哈尔卜广场，开罗市中心地标",
+        "current_name": "Talaat Harb Square"
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": "1990",
+        "dateEnd": "1991"
+      },
+      "story_mode": {
+        "chapter_title": "第8章·时光倒流的广场",
+        "hook": "穿过这片喧嚣的广场，他仿佛能听见五十年前的爵士乐。",
+        "narrative_text": "扎基·贝，这位雅库比安大楼最后的贵族遗老，步履蹒跚地穿过苏莱曼巴夏广场。对他而言，这个广场不仅是地理中心，更是记忆的交汇点。当他推开马克西姆餐厅那扇带有玻璃嵌板的小木门时，现代开罗的嘈杂被瞬间隔绝。他仿佛踏入了一台时光机，回到了那个充满法式优雅、香槟与礼仪的1950年代。在这个日益变得拥挤和激进的城市里，这片广场周边的老式建筑是他最后的精神堡垒，守护着他那已经破碎的阶级梦想。",
+        "transition_to": "当塔哈在底层寻找信仰的慰藉时，开罗的权贵们正在豪华酒店里进行着另一场交易。",
+        "mood": "nostalgic",
+        "key_dialogue": "“...he feels as though a magic time machine has carried him back to the beautiful years of the 1950s.”"
+      }
+    },
+    {
+      "title": "Gezira Sheraton",
+      "address": "Egypt-Cairo-Gezira-Gezira Sheraton Hotel",
+      "synopsis": "权力经纪人卡迈勒·福里在此约见阿扎姆哈吉，代表“大人物”强行索要商业利润分成。",
+      "source_evidence": "Of the dozens of customers who fill the Oriental Restaurant of the Gezira Sheraton... Kamal el Fouli had asked for a meeting with Hagg Azzam at the Sheraton kebab restaurant.",
+      "original_chapter": "The Yacoubian Building",
+      "part_id": "PART-1",
+      "part_title": "The Yacoubian Building",
+      "temporal_context": {
+        "era": "Early 1990s",
+        "historical_name": null,
+        "date_start": "1990",
+        "date_end": "1991"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Kamal el Fouli",
+          "Hagg Azzam"
+        ],
+        "stay_duration": "An evening"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "corruption",
+          "power struggle",
+          "politics"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Now known as the Sheraton Cairo Hotel & Casino.",
+        "current_name": "Sheraton Cairo Hotel & Casino"
+      },
+      "timeline": {
+        "orderIndex": 9,
+        "dateStart": "1990",
+        "dateEnd": "1991"
+      },
+      "story_mode": {
+        "chapter_title": "第9章·东方餐厅的勒索",
+        "hook": "一顿丰盛的烤肉晚餐背后，隐藏着令人胆寒的政治敲诈。",
+        "narrative_text": "在基齐拉喜来登酒店的东方餐厅里，香气扑鼻的烤肉并不能缓解阿扎姆哈吉内心的焦虑。作为从药贩子爬升到亿万富翁的投机商，阿扎姆深知权力的代价。坐在他对面的是卡迈勒·福里——执政党的实权人物，代表着幕后那位神秘的“大人物”。福里以一种近乎礼貌的残忍，要求分享阿扎姆新代理业务四分之一的利润。这不仅是商业的分成，更是阿扎姆进入议会、获得政治庇护的“入场券”。在开罗的权力顶端，法律只是点缀，利益交换才是唯一的真理。",
+        "transition_to": "雅库比安大楼的故事，就在这金钱、权力和信仰的交织中，缓缓落下帷幕。",
+        "mood": "dramatic",
+        "key_dialogue": "“The Big Man is asking for twenty-five percent of the profits from the new agency.”"
+      }
+    }
+  ],
+  "suspects": []
+}

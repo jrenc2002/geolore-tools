@@ -1,0 +1,143 @@
+google:search{queries:[
+<ctrl46>
+books set in Chengdu novel
+<ctrl46>
+,
+<ctrl46>
+books set in Beijing Hutong novel
+<ctrl46>
+,
+<ctrl46>
+books set in Hong Kong novel famous
+<ctrl46>
+,
+<ctrl46>
+books set in Tibet travelogue
+<ctrl46>
+,
+<ctrl46>
+books set in Yunnan novel
+<ctrl46>
+]}
+➜google:search{queries:[<ctrl46>best travelogues about South America<ctrl46>,<ctrl46>famous novels set in Russia<ctrl46>,<ctrl46>books set in Barcelona<ctrl46>,<ctrl46>books set in New York City novel<ctrl46>,<ctrl46>books set in London novel<ctrl46>]}➜google:search{queries:[<ctrl46>books set in Southeast Asia novel<ctrl46>,<ctrl46>books set in India novel<ctrl46>,<ctrl46>books set in Australia novel<ctrl46>,<ctrl46>books set in Africa novel<ctrl46>]}➜google:search{queries:[<ctrl46>River Town Peter Hessler locations<ctrl46>,<ctrl46>The Shadow of the Wind Barcelona locations<ctrl46>,<ctrl46>Midnight's Children Mumbai locations<ctrl46>,<ctrl46>Dream of the Red Chamber Beijing locations<ctrl46>,<ctrl46>Notes of a Crocodile Taipei locations<ctrl46>]}➜
+基于您的选题价值边界与库存覆盖情况，本轮为您甄选 5 部填补空白的地理化作品。重点补充了**西南非虚构叙事**、**南亚魔幻现实主义**、**台北城市地标**、**欧洲哥特悬疑**以及**中国古典园林美学**。
+
+```json
+[
+  {
+    "rank": 1,
+    "title": "江城",
+    "title_en": "River Town: Two Years on the Yangtze",
+    "author": "Peter Hessler (何伟)",
+    "language": "en",
+    "type": "memoir",
+    "era_setting": "1996-1998",
+    "geo_region": "西南",
+    "geo_scope": "重庆市涪陵区 (Fuling)",
+    "word_count_estimate": 25,
+    "place_count_estimate": 45,
+    "density_index": 1.8,
+    "reachability_pct": 90,
+    "route_shape": "network",
+    "pilgrimage_appeal": 9,
+    "audience_size": "large",
+    "geo_added_value": "high",
+    "timeline_needed": true,
+    "grade": "S",
+    "reason": "非虚构地理写作的巅峰。不同于《寻路中国》的流线性，本书是对一座江边小城（涪陵）的深描。从乌江插旗山到师专校园，何伟构建了极高密度的城市坐标系，是理解90年代中国县域生态的最佳地理切片。",
+    "value_boundary": "spatial_narrative"
+  },
+  {
+    "rank": 2,
+    "title": "午夜之子",
+    "title_en": "Midnight's Children",
+    "author": "Salman Rushdie",
+    "language": "en",
+    "type": "novel",
+    "era_setting": "1915-1978",
+    "geo_region": "南亚",
+    "geo_scope": "孟买 / 克什米尔 / 德里 / 达卡",
+    "word_count_estimate": 40,
+    "place_count_estimate": 60,
+    "density_index": 1.5,
+    "reachability_pct": 75,
+    "route_shape": "scattered",
+    "pilgrimage_appeal": 7,
+    "audience_size": "large",
+    "geo_added_value": "medium",
+    "timeline_needed": true,
+    "grade": "A",
+    "reason": "将印度次大陆的历史进程投射在具体地理坐标上。从克什米尔的达尔湖到孟买的Methwold庄园，拉什迪用魔幻现实主义重塑了南亚地标。相比《项塔兰》的游客视角，本书提供了更深层的后殖民地理阅读体验。",
+    "value_boundary": "spatial_narrative"
+  },
+  {
+    "rank": 3,
+    "title": "鳄鱼手记",
+    "title_en": "Notes of a Crocodile",
+    "author": "邱妙津",
+    "language": "zh",
+    "type": "novel",
+    "era_setting": "1980s-1990s",
+    "geo_region": "港澳台",
+    "geo_scope": "台北 (公馆/温州街/阳明山)",
+    "word_count_estimate": 12,
+    "place_count_estimate": 25,
+    "density_index": 2.1,
+    "reachability_pct": 95,
+    "route_shape": "network",
+    "pilgrimage_appeal": 8,
+    "audience_size": "medium",
+    "geo_added_value": "high",
+    "timeline_needed": false,
+    "grade": "A",
+    "reason": "台北文学地景的必读之作。书中对台大周边的温州街、公馆商圈、阳明山等地标有极具私人情感色彩的刻画。它不仅是酷儿文学经典，更是一份90年代台北文艺青年的生活地图，适合进行城市微观巡礼。",
+    "value_boundary": "cultural_landmark"
+  },
+  {
+    "rank": 4,
+    "title": "风之影",
+    "title_en": "The Shadow of the Wind",
+    "author": "Carlos Ruiz Zafón",
+    "language": "es",
+    "type": "novel",
+    "era_setting": "1945-1955",
+    "geo_region": "欧洲",
+    "geo_scope": "巴塞罗那 (Barcelona)",
+    "word_count_estimate": 28,
+    "place_count_estimate": 50,
+    "density_index": 1.7,
+    "reachability_pct": 98,
+    "route_shape": "network",
+    "pilgrimage_appeal": 10,
+    "audience_size": "massive",
+    "geo_added_value": "high",
+    "timeline_needed": false,
+    "grade": "S",
+    "reason": "完美符合“行程轨迹型”定义。作者将哥特式悬疑与巴塞罗那真实街道无缝融合（如兰布拉大道、四只猫咖啡馆）。该书已在现实中催生了成熟的“风之影导览路线”，是虚构文学重塑城市旅游的教科书级案例。",
+    "value_boundary": "route_trace"
+  },
+  {
+    "rank": 5,
+    "title": "红楼梦",
+    "title_en": "Dream of the Red Chamber",
+    "author": "曹雪芹",
+    "language": "zh",
+    "type": "novel",
+    "era_setting": "清代",
+    "geo_region": "华北",
+    "geo_scope": "北京 (恭王府/大观园)",
+    "word_count_estimate": 73,
+    "place_count_estimate": 120,
+    "density_index": 1.6,
+    "reachability_pct": 85,
+    "route_shape": "network",
+    "pilgrimage_appeal": 10,
+    "audience_size": "massive",
+    "geo_added_value": "high",
+    "timeline_needed": false,
+    "grade": "S",
+    "reason": "虽然大观园是虚构园林，但其原型（恭王府、江宁织造署）与北京/南京的地理关联极强。作为中国空间叙事的巅峰，将其“地理化”不仅是还原路线，更是解析中国古典园林与建筑方位美学的绝佳样本。",
+    "value_boundary": "cultural_landmark"
+  }
+]
+```

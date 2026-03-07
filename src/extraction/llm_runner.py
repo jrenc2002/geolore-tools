@@ -5,10 +5,13 @@
 LLM 抽取执行器 - 调用 LLM API 执行文本信息抽取
 
 功能：
- - 支持多种 LLM API（OpenAI 兼容、Claude 等）
+ - 支持多种 LLM API（OpenAI 兼容）
  - 自动重试和错误处理
  - 支持断点续传
  - 结果缓存
+
+底层调用已统一到 src.common.llm_client，此模块仅保留面向
+"JSONL 批量抽取" 的上层逻辑。
 
 注意：API Key 应通过环境变量或配置文件提供，不要硬编码
 """
@@ -18,119 +21,26 @@ from __future__ import annotations
 import json
 import os
 import time
-import urllib.request
-import urllib.error
 from typing import Dict, List, Optional, Any
-from dataclasses import dataclass
+
+# ── 统一导入 ──
+from src.common.config import LLMConfig
+from src.common.llm_client import call_llm_for_extraction
+from src.common.json_utils import strip_code_fences  # 向后兼容别名
 
 
-@dataclass
-class LLMConfig:
-    """LLM 配置"""
-    api_key: str
-    base_url: str = "https://api.openai.com/v1/chat/completions"
-    model: str = "gpt-4"
-    temperature: float = 0.1
-    timeout: int = 60
-    retry_count: int = 3
-    retry_delay: float = 2.0
-
-
-def clean_json_response(content: str) -> str:
-    """清理 LLM 返回的 JSON 内容（移除 markdown 代码块标记）"""
-    content = content.strip()
-    
-    # 移除开头的 markdown 代码块标记
-    if content.startswith("```json"):
-        content = content[7:]
-    elif content.startswith("```"):
-        content = content[3:]
-    
-    # 移除结尾的 markdown 代码块标记
-    if content.endswith("```"):
-        content = content[:-3]
-    
-    return content.strip()
+# ── 向后兼容：保留 clean_json_response 作为别名 ──
+clean_json_response = strip_code_fences
 
 
 def call_llm(
-    text: str, 
-    instructions: str, 
+    text: str,
+    instructions: str,
     schema: dict,
-    config: LLMConfig
+    config: LLMConfig,
 ) -> Optional[Dict]:
-    """
-    调用 LLM API
-    
-    Args:
-        text: 输入文本
-        instructions: 抽取指令
-        schema: 输出 schema
-        config: LLM 配置
-    
-    Returns:
-        解析后的 JSON 结果，失败返回 None
-    """
-    headers = {
-        "Content-Type": "application/json",
-        "Authorization": f"Bearer {config.api_key}"
-    }
-    
-    # 构建系统提示词
-    system_prompt = (
-        f"{instructions}\n\n"
-        "IMPORTANT: You must output ONLY valid JSON. No markdown code blocks, no explanations.\n"
-        f"Strictly follow this schema:\n{json.dumps(schema, ensure_ascii=False, indent=2)}"
-    )
-    
-    data = {
-        "model": config.model,
-        "messages": [
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": text}
-        ],
-        "temperature": config.temperature
-    }
-    
-    for attempt in range(config.retry_count):
-        try:
-            req = urllib.request.Request(
-                config.base_url, 
-                data=json.dumps(data).encode('utf-8'), 
-                headers=headers
-            )
-            
-            with urllib.request.urlopen(req, timeout=config.timeout) as response:
-                result = json.loads(response.read().decode('utf-8'))
-                content = result['choices'][0]['message']['content']
-                content = clean_json_response(content)
-                return json.loads(content)
-                
-        except urllib.error.HTTPError as e:
-            error_body = e.read().decode('utf-8')
-            print(f"HTTP Error {e.code} (attempt {attempt + 1}): {error_body}")
-            
-            # 429 或 5xx 错误时重试
-            if e.code in (429, 500, 502, 503, 504):
-                time.sleep(config.retry_delay * (attempt + 1))
-                continue
-            return None
-            
-        except json.JSONDecodeError as e:
-            print(f"JSON decode error (attempt {attempt + 1}): {e}")
-            if attempt < config.retry_count - 1:
-                time.sleep(config.retry_delay)
-                continue
-            return None
-            
-        except Exception as e:
-            print(f"Error calling API (attempt {attempt + 1}): {e}")
-            if attempt < config.retry_count - 1:
-                time.sleep(config.retry_delay)
-                continue
-            return None
-    
-    return None
+    """向后兼容的 call_llm 包装器，内部委托给统一实现。"""
+    return call_llm_for_extraction(text, instructions, schema, config)
 
 
 def run_extraction(

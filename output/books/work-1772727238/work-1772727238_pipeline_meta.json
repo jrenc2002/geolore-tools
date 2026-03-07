@@ -1,0 +1,76 @@
+{
+  "work": {
+    "title": "江城",
+    "author": "Peter Hessler (何伟)",
+    "type": "novel",
+    "locale": "zh-Hans"
+  },
+  "pipeline": {
+    "generated_by": "geolore-auto-pipeline-v1",
+    "generated_at": "2026-03-05T16:18:24.921267+00:00",
+    "data_source_mode": "full_text",
+    "data_source_warning": null,
+    "model_select": "gemini-3.1-pro-preview-search",
+    "model_extract": "gemini-3-flash-preview-search",
+    "total_places": 20,
+    "major_places": 6,
+    "minor_places": 8,
+    "passing_places": 6,
+    "fictional_suspects": 0,
+    "address_completeness": 1.0,
+    "timeline_enabled": false,
+    "story_mode_enabled": true,
+    "story_mode_stats": {
+      "total_chapters": 20,
+      "avg_narrative_length": 175,
+      "mood_arc": [
+        "ambitious",
+        "bittersweet",
+        "desolate",
+        "dramatic",
+        "mysterious",
+        "ambitious",
+        "bittersweet",
+        "peaceful",
+        "tense",
+        "nostalgic",
+        "peaceful",
+        "dramatic",
+        "joyful",
+        "ambitious",
+        "peaceful",
+        "desolate",
+        "bittersweet",
+        "nostalgic",
+        "tense",
+        "peaceful"
+      ],
+      "transition_coverage": 1.05
+    },
+    "suggested_pack_id": "work-1772727238",
+    "suggested_map_title": "《江城》巡礼地图"
+  },
+  "review": {
+    "fixed_address": 13,
+    "removed_fictional": 0,
+    "removed_not_in_original": 0,
+    "merged_duplicates": 0,
+    "fixed_synopsis": 11,
+    "removed_names": [
+      "涪陵",
+      "望周公园",
+      "海陵工厂",
+      "双桂山",
+      "重庆机场",
+      "上海",
+      "河南",
+      "青岛",
+      "海南岛",
+      "广安"
+    ]
+  },
+  "next_steps": [
+    "python scripts/geocode_places.py --input /Users/jrenc/Downloads/JrencsProject/geolore-tools/output/books/work-1772727238/work-1772727238_places_structured.json --output /Users/jrenc/Downloads/JrencsProject/geolore-tools/output/books/work-1772727238/work-1772727238_geocoded.json --amap-key $AMAP_KEY --enable-validation",
+    "python scripts/build_pack.py --input /Users/jrenc/Downloads/JrencsProject/geolore-tools/output/books/work-1772727238/work-1772727238_geocoded.json --output /Users/jrenc/Downloads/JrencsProject/geolore-tools/output/books/work-1772727238/work-1772727238_pack.json --pack-id work-1772727238 --title \"《江城》巡礼地图\""
+  ]
+}

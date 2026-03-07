@@ -1,0 +1,1671 @@
+{
+  "book_info": {
+    "title": "Love in the Time of Cholera",
+    "author": "Gabriel García Márquez",
+    "type": "novel",
+    "summary": "《霍乱时期的爱情》是诺贝尔文学奖得主加西亚·马尔克斯的巅峰之作。故事背景设定在19世纪末至20世纪初的哥伦比亚加勒比沿海小城，那是一个霍乱横行、内战频仍却又充满魔幻色彩的时代。小说通过医生胡韦纳尔·乌尔比诺、名媛费尔米纳·达萨以及穷尽一生等待的弗洛伦蒂诺·阿里萨之间跨越半个世纪的三角纠葛，探讨了爱情作为一种“病症”的多种形态。从热烈的书信往来到暮年的河船航行，马尔克斯以其瑰丽的笔触，将一段长达五十年的孤独守望编织进加勒比海的潮汐与丛林中，展现了人类情感在时间冲刷下的永恒与脆弱。"
+  },
+  "characters": [
+    {
+      "id": "florentino_ariza",
+      "name": "Florentino Ariza",
+      "aliases": [
+        "弗洛伦蒂诺·阿里萨",
+        "弗洛伦蒂诺"
+      ],
+      "role": "痴情的守望者，穷尽一生等待初恋，最终在晚年重启追求。",
+      "first_appearance": "Boca Chica",
+      "importance": "protagonist"
+    },
+    {
+      "id": "fermina_daza",
+      "name": "Fermina Daza",
+      "aliases": [
+        "费尔米纳·达萨",
+        "费尔米纳",
+        "费尔明娜"
+      ],
+      "role": "优雅且倔强的女性，在现实的婚姻与虚幻的初恋之间徘徊一生。",
+      "first_appearance": "Cathedral",
+      "importance": "protagonist"
+    },
+    {
+      "id": "juvenal_urbino",
+      "name": "Juvenal Urbino",
+      "aliases": [
+        "胡韦纳尔·乌尔比诺",
+        "乌尔比诺医生"
+      ],
+      "role": "享有盛誉的医生，费尔米纳的丈夫，代表了城市的秩序与文明。",
+      "first_appearance": "Colombia",
+      "importance": "major"
+    },
+    {
+      "id": "lorenzo_daza",
+      "name": "Lorenzo Daza",
+      "aliases": [
+        "洛伦索·达萨"
+      ],
+      "role": "费尔米纳的父亲，严厉且功利，试图通过女儿的婚姻实现阶级跨越。",
+      "first_appearance": "Cathedral",
+      "importance": "supporting"
+    },
+    {
+      "id": "transito_ariza",
+      "name": "Tránsito Ariza",
+      "aliases": [
+        "特兰西托·阿里萨"
+      ],
+      "role": "弗洛伦蒂诺的母亲，经营当铺，始终支持儿子的情感追求。",
+      "first_appearance": "Street of Windows",
+      "importance": "supporting"
+    },
+    {
+      "id": "america_vicuna",
+      "name": "América Vicuña",
+      "aliases": [
+        "阿美利加·维库尼亚",
+        "阿美莉卡"
+      ],
+      "role": "弗洛伦蒂诺晚年的小情人，也是他情感债单中最悲剧的牺牲品。",
+      "first_appearance": "Puerto Padre",
+      "importance": "supporting"
+    },
+    {
+      "id": "hildebranda_sanchez",
+      "name": "Hildebranda Sánchez",
+      "aliases": [
+        "希尔德布兰达·桑切斯"
+      ],
+      "role": "费尔米纳的堂姐，她的牧场是费尔米纳情感的避风港。",
+      "first_appearance": "Caribbean",
+      "importance": "supporting"
+    },
+    {
+      "id": "diego_samaritano",
+      "name": "Diego Samaritano",
+      "aliases": [
+        "萨马里塔诺船长"
+      ],
+      "role": "“新忠诚号”的船长，见证了两位主角最后的航行。",
+      "first_appearance": "North Carolina",
+      "importance": "minor"
+    }
+  ],
+  "parts": [
+    {
+      "part_id": "PART-1",
+      "title": "Love in the Time of Cholera",
+      "synopsis": "介绍乌尔比诺医生的意外去世，以及弗洛伦蒂诺在葬礼后向费尔米纳重申那等待了半个世纪的爱。",
+      "place_count": 35,
+      "mood": "melancholic",
+      "key_characters": [
+        "Juvenal Urbino",
+        "Fermina Daza",
+        "Florentino Ariza"
+      ]
+    },
+    {
+      "part_id": "PART-2",
+      "title": "The Years of Youth",
+      "synopsis": "追溯弗洛伦蒂诺与费尔米纳少年时代的秘密通信，以及这段恋情如何被现实残酷打断。",
+      "place_count": 12,
+      "mood": "romantic",
+      "key_characters": [
+        "Florentino Ariza",
+        "Fermina Daza",
+        "Lorenzo Daza"
+      ]
+    },
+    {
+      "part_id": "PART-3",
+      "title": "The Journey of Life",
+      "synopsis": "描述费尔米纳的婚姻生活与弗洛伦蒂诺在无数露水情缘中对真爱的病态守望。",
+      "place_count": 21,
+      "mood": "solitary",
+      "key_characters": [
+        "Fermina Daza",
+        "Juvenal Urbino",
+        "Florentino Ariza"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "title": "Colombia",
+      "address": "Colombia",
+      "synopsis": "马尔克斯笔下的魔幻现实主义之源，也是乌尔比诺医生与阿玛乌尔命运交织的国度。",
+      "source_evidence": "Gabriel García Márquez was born in Colombia in 1927. ... Originally published in Colombia as El amor en los tiempos del cólera by Editorial Oveja Negra Ltda., Bogotá.",
+      "original_chapter": "Introduction",
+      "part_id": "PART-1",
+      "part_title": "Love in the Time of Cholera",
+      "temporal_context": {
+        "era": "Late 19th to early 20th century",
+        "historical_name": null,
+        "date_start": "1880",
+        "date_end": "1930"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Gabriel García Márquez",
+          "Juvenal Urbino",
+          "Jeremiah de Saint-Amour"
+        ],
+        "stay_duration": "Lifetime"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "homeland",
+          "magical realism",
+          "legacy"
+        ],
+        "significance": 1.0
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "The country of Colombia",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "1880",
+        "dateEnd": "1930"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·加勒比的风与苦杏仁味",
+        "hook": "苦杏仁的气味总是让他想起受阻之情的命运。",
+        "narrative_text": "在哥伦比亚这片充满湿热空气与魔幻色彩的土地上，故事拉开了序幕。年迈的胡维纳尔·乌尔比诺医生——一位受人尊敬的医学权威，在圣阿穆尔的自杀现场闻到了那股熟悉的苦杏仁味。这不仅是一个生命的终结，更是对往昔岁月的深沉回望。在这个被霍乱与内战阴影笼罩的国家，爱情如同一种无法治愈的疾病，在半个多世纪的时间跨度里，悄然侵蚀着每一个灵魂。这里是马尔克斯文学宇宙的基石，也是费尔米纳·达萨与弗洛伦蒂诺·阿里萨那场跨越一生追求的起点。",
+        "transition_to": "从宏观的国度缩影，视线转向了繁忙的首都波哥大。",
+        "mood": "melancholic",
+        "key_dialogue": "It was inevitable: the scent of bitter almonds always reminded him of the fate of unrequited love."
+      }
+    },
+    {
+      "title": "Bogotá",
+      "address": "Colombia-Bogotá-La Candelaria",
+      "synopsis": "马尔克斯职业生涯的起点，他在报社的经历为日后的纪实文学奠定了基础。",
+      "source_evidence": "Originally published in Colombia as El amor en los tiempos del cólera by Editorial Oveja Negra Ltda., Bogotá.",
+      "original_chapter": "Introduction",
+      "part_id": "PART-1",
+      "part_title": "Love in the Time of Cholera",
+      "temporal_context": {
+        "era": "Mid-20th century",
+        "historical_name": "Santa Fe de Bogotá",
+        "date_start": "1955",
+        "date_end": "1955"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Gabriel García Márquez"
+        ],
+        "stay_duration": "Several years"
+      },
+      "cultural_tags": {
+        "category": "biographical",
+        "themes": [
+          "journalism",
+          "truth",
+          "career"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Capital city of Colombia",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "1955",
+        "dateEnd": "1955"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·报社里的真实回响",
+        "hook": "在虚构的爱情之外，现实的沉船事件同样惊心动魄。",
+        "narrative_text": "1955年的波哥大，年轻的马尔克斯在《观察家报》的办公室里忙碌。虽然《霍乱时期的爱情》是一部虚构杰作，但波哥大见证了作者作为记者的敏锐洞察力。他在这里报道了著名的海员遇险事件，这种对现实细节的极致追求，后来转化为了小说中那些如手术刀般精准的描写。波哥大的阴雨与寒冷，与加勒比海岸的燥热形成了鲜明对比，也构成了马尔克斯文学世界中理性与感性的双重维度。",
+        "transition_to": "离开寒冷的首都，我们来到庄严的大教堂，见证一场改变命运的婚礼。",
+        "mood": "ambitious",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "Cathedral",
+      "address": "Colombia-Bolívar-Cartagena-Catedral de Santa Catalina",
+      "synopsis": "费尔米纳与乌尔比诺医生举行盛大婚礼之地，象征着世俗地位的结合。",
+      "source_evidence": "When the banns were announced at High Mass in the Cathedral, Fermina Daza received anonymous letters again... Fermina Daza came to the main altar of the Cathedral on the arm of her father... She was married forever after at the main altar of the Cathedral, with a Mass at which three bishops officiated",
+      "original_chapter": "Chapter 2",
+      "part_id": "PART-1",
+      "part_title": "Love in the Time of Cholera",
+      "temporal_context": {
+        "era": "Late 19th century",
+        "historical_name": "Catedral de Santa Catalina de Alejandría",
+        "date_start": "1880",
+        "date_end": "1885"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Fermina Daza",
+          "Lorenzo Daza",
+          "Juvenal Urbino"
+        ],
+        "stay_duration": "One day"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "marriage",
+          "social status",
+          "ritual"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Cartagena Cathedral is a major landmark",
+        "current_name": "Catedral de Santa Catalina de Alejandría"
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "1880",
+        "dateEnd": "1885"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·祭坛前的永恒契约",
+        "hook": "三位主教主持，总统证婚，这究竟是爱情还是交易？",
+        "narrative_text": "卡塔赫纳大教堂的钟声回荡，费尔米纳·达萨挽着父亲洛伦索·达萨的手臂走上祭坛。这位曾经与贫穷电报员弗洛伦蒂诺·阿里萨私定终身的少女，最终选择了社会地位显赫的胡维纳尔·乌尔比诺医生。婚礼极其奢华，甚至连拉斐尔·努涅斯总统也亲临现场。在神圣的香料味和庄严的赞美诗中，费尔米纳完成了从怀春少女到贵妇人的蜕变。而此时，被抛弃的弗洛伦蒂诺·阿里萨正躲在阴影里，发誓要用一生的时间等待她重新获得自由。",
+        "transition_to": "婚礼之后，乌尔比诺医生回到了他每日履行职责的医学院。",
+        "mood": "dramatic",
+        "key_dialogue": "She was married forever after at the main altar of the Cathedral, with a Mass at which three bishops officiated."
+      }
+    },
+    {
+      "title": "Medical School",
+      "address": "Colombia-Bolívar-Cartagena-Universidad de Cartagena",
+      "synopsis": "乌尔比诺医生展现其职业尊严与学术造诣的场所。",
+      "source_evidence": "He would spend an hour in his study preparing for the class in general clinical medicine that he taught at the Medical School every morning, Monday through Saturday, at eight o’clock, until the day before his death.",
+      "original_chapter": "Chapter 1",
+      "part_id": "PART-1",
+      "part_title": "Love in the Time of Cholera",
+      "temporal_context": {
+        "era": "Early 20th century",
+        "historical_name": "Universidad de Cartagena Faculty of Medicine",
+        "date_start": "1880",
+        "date_end": "1930"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Juvenal Urbino"
+        ],
+        "stay_duration": "Daily (50 years)"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "medicine",
+          "discipline",
+          "reputation"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Part of the University of Cartagena",
+        "current_name": "Universidad de Cartagena"
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "1880",
+        "dateEnd": "1930"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·医者的晨间律动",
+        "hook": "直到去世前一天，他从未缺席过这堂八点钟的课。",
+        "narrative_text": "对于胡维纳尔·乌尔比诺医生来说，医学院不仅是传授知识的地方，更是他维持社会秩序与文明尊严的堡垒。每天早上八点，他准时出现在教室，讲授普通临床医学。他那严谨的作风、考究的衣着以及对科学的坚定信仰，使他成为了这座城市进步的象征。在这里，他不是费尔米纳·达萨那偶尔平庸的丈夫，而是对抗霍乱、守护生命的英雄。这种近乎刻板的自律，贯穿了他的一生，直到那个意外坠落的午后。",
+        "transition_to": "为了逃离旧世界的束缚，新婚夫妇远渡重洋前往巴黎。",
+        "mood": "peaceful",
+        "key_dialogue": "He would spend an hour in his study preparing for the class... until the day before his death."
+      }
+    },
+    {
+      "title": "Paris",
+      "address": "France-Paris-Seine",
+      "synopsis": "费尔米纳与乌尔比诺医生的蜜月地，也是他们情感磨合的文化之都。",
+      "source_evidence": "so they could continue the celebration all the way to Paris... He spoke to her of Paris, of love in Paris, of the lovers in Paris who kissed on the street... They stayed in Europe, with Paris as their base, and made short trips to neighboring countries.",
+      "original_chapter": "Chapter 2",
+      "part_id": "PART-1",
+      "part_title": "Love in the Time of Cholera",
+      "temporal_context": {
+        "era": "Belle Époque",
+        "historical_name": null,
+        "date_start": "1880",
+        "date_end": "1882"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Fermina Daza",
+          "Juvenal Urbino"
+        ],
+        "stay_duration": "Two years"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "romance",
+          "discovery",
+          "culture"
+        ],
+        "significance": 0.85
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "The capital of France",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "1880",
+        "dateEnd": "1882"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·塞纳河畔的异国梦境",
+        "hook": "在巴黎的街头接吻，是医生许给费尔米纳最浪漫的谎言吗？",
+        "narrative_text": "巴黎，这座充满艺术与自由气息的城市，成为了费尔米纳·达萨与胡维纳尔·乌尔比诺医生新婚生活的背景。医生向她描绘着那些在街头旁若无人接吻的情侣，试图用欧洲的浪漫来填补两人之间尚显生疏的情感。在这里，费尔米纳第一次见识到了世界的广阔，她学习礼仪、欣赏歌剧，逐渐洗去了加勒比小镇的青涩。虽然这段旅程充满了发现的喜悦，但费尔米纳心中偶尔闪过的，仍是故乡那湿热的空气和那个被她拒绝的电报员。",
+        "transition_to": "结束了漫长的欧洲之旅，他们回到了那座充满阶级森严感的港口城市。",
+        "mood": "bittersweet",
+        "key_dialogue": "He spoke to her of Paris, of love in Paris, of the lovers in Paris who kissed on the street."
+      }
+    },
+    {
+      "title": "Misericordia Hospital",
+      "address": "Colombia-Bolívar-Cartagena-Hospital de la Misericordia",
+      "synopsis": "胡韦纳尔·乌尔比诺医生在此推行现代医学，其父亦在此因霍乱殉职。",
+      "source_evidence": "On some professional pretext or other he went to live in the interns’ quarters at Misericordia Hospital, returning home only to change his clothes before making his evening house calls.",
+      "original_chapter": "Chapter 1",
+      "part_id": "PART-1",
+      "part_title": "Love in the Time of Cholera",
+      "temporal_context": {
+        "era": "Late 19th to early 20th century",
+        "historical_name": "Hospital de la Misericordia",
+        "date_start": "1870",
+        "date_end": "1930"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Juvenal Urbino",
+          "Marco Aurelio Urbino"
+        ],
+        "stay_duration": "Several years"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "medicine",
+          "modernization",
+          "death"
+        ],
+        "significance": 0.85
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Still functions as a medical facility in Cartagena.",
+        "current_name": "Hospital Universitario del Caribe"
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "1870",
+        "dateEnd": "1930"
+      },
+      "story_mode": {
+        "chapter_title": "第6章·仁慈医院的遗产",
+        "hook": "在死亡与恶臭笼罩的病房里，年轻的医生正试图挑战古老的传统。",
+        "narrative_text": "胡韦纳尔·乌尔比诺医生将自己投身于仁慈医院的现代化改革中。这里曾是他父亲马尔科·奥雷利奥·乌尔比诺医生战斗并殉职的地方。在那个霍乱横行的年代，老乌尔比诺医生在简陋的条件下力战瘟疫，最终不幸染病去世。胡韦纳尔带着从欧洲学到的先进理念回到这里，试图用科学的严谨取代陈旧的偏见。他在实习生宿舍中没日没夜地工作，不仅是为了对抗疾病，更是为了在父亲倒下的地方，建立起一座文明与卫生的堡垒。",
+        "transition_to": "然而，这座城市的财富并非只源于本土，远洋的帆船曾带来更古老的传说。",
+        "mood": "ambitious",
+        "key_dialogue": "He was the first to use a thermometer to see if a patient had a fever."
+      }
+    },
+    {
+      "title": "Cádiz",
+      "address": "Spain-Andalusia-Cádiz-Port",
+      "synopsis": "圣何塞号大帆船梦寐以求的终点，象征着殖民者回归母国的渴望。",
+      "source_evidence": "On Friday, June 8, 1708, at four o’clock in the afternoon, the galleon San José set sail for Cádiz with a cargo of precious stones and metals",
+      "original_chapter": "Chapter 1",
+      "part_id": "PART-1",
+      "part_title": "Love in the Time of Cholera",
+      "temporal_context": {
+        "era": "1708",
+        "historical_name": null,
+        "date_start": "1708",
+        "date_end": "1708"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [],
+        "stay_duration": "None"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "tragedy",
+          "colonialism",
+          "sea"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Ancient port city in Spain.",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "1708",
+        "dateEnd": "1708"
+      },
+      "story_mode": {
+        "chapter_title": "第7章·遥远的加的斯",
+        "hook": "那是所有航行者的终点，却成了圣何塞号永远无法触及的幻梦。",
+        "narrative_text": "1708年6月的一个下午，圣何塞号大帆船满载着金银珠宝，从港口启程前往西班牙的加的斯。加的斯不仅是一个港口，它是所有殖民者心中的精神家园。然而，这艘船在港口入口处就被英国舰队击沉，无数财宝随之沉入海底。这个历史细节在书中被提及，隐喻着在这片土地上，无论多么辉煌的梦想和财富，往往都会在抵达终点前被突如其来的灾难——无论是战争还是霍乱——所吞噬。",
+        "transition_to": "时光流转两个世纪，新的干预者从北方跨海而来。",
+        "mood": "melancholic",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "New Orleans",
+      "address": "USA-Louisiana-New Orleans-French Quarter",
+      "synopsis": "费尔明娜的女儿奥费莉亚居住于此，她代表了试图干涉母亲晚年爱情的阻力。",
+      "source_evidence": "It was not until her daughter Ofelia came from New Orleans with her husband... take some furniture and countless objects that she thought were just right for the antique auctions in New Orleans.",
+      "original_chapter": "Chapter 6",
+      "part_id": "PART-1",
+      "part_title": "Love in the Time of Cholera",
+      "temporal_context": {
+        "era": "Early 20th century",
+        "historical_name": null,
+        "date_start": "1920",
+        "date_end": "1930"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Ofelia Urbino",
+          "Fermina Daza"
+        ],
+        "stay_duration": "Occasional visits"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "family_conflict",
+          "modernity",
+          "clash_of_values"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Major US city with strong Caribbean ties.",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": "1920",
+        "dateEnd": "1930"
+      },
+      "story_mode": {
+        "chapter_title": "第8章·北方的审判者",
+        "hook": "女儿从新奥尔良带回的不仅是时髦的衣服，还有对母亲“不体面”恋情的愤怒。",
+        "narrative_text": "新奥尔良是费尔明娜·达萨的女儿奥费莉亚的定居地。在胡韦纳尔·乌尔比诺医生去世后，奥费莉亚从那里匆匆赶回，试图维持家族摇摇欲坠的体面。她代表了那种受过现代教育、却在道德上极度保守的势力。她无法理解母亲在古稀之年为何会与弗洛伦蒂诺·阿里萨重燃旧情，甚至认为这是一种晚节不保的耻辱。她试图将母亲带回新奥尔良，却最终在费尔明娜坚定的意志面前败下阵来。",
+        "transition_to": "在跨越国界的纷争之后，弗洛伦蒂诺决定亲自出海寻找那些遗迹。",
+        "mood": "tense",
+        "key_dialogue": "“It is not love,” she said to her. “It is a sin at any age.”"
+      }
+    },
+    {
+      "title": "Boca Chica",
+      "address": "Colombia-Bolívar-Cartagena-Boca Chica",
+      "synopsis": "弗洛伦蒂诺与欧克利德斯乘船穿过博卡奇卡海峡，开始寻找沉船宝藏的冒险。",
+      "source_evidence": "They left the bay between the two fortresses of Boca Chica",
+      "original_chapter": "Chapter 2",
+      "part_id": "PART-1",
+      "part_title": "Love in the Time of Cholera",
+      "temporal_context": {
+        "era": "Late 19th Century",
+        "historical_name": null,
+        "date_start": "1880",
+        "date_end": "1890"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Florentino Ariza",
+          "Euclides"
+        ],
+        "stay_duration": "Hours"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "adventure",
+          "obsession",
+          "sea"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "The main entrance to the Bay of Cartagena, guarded by colonial forts.",
+        "current_name": "Boca Chica"
+      },
+      "timeline": {
+        "orderIndex": 9,
+        "dateStart": "1880",
+        "dateEnd": "1890"
+      },
+      "story_mode": {
+        "chapter_title": "第9章·出海的窄门",
+        "hook": "穿过两座古老堡垒的夹缝，弗洛伦蒂诺驶向了未知的深蓝。",
+        "narrative_text": "弗洛伦蒂诺·阿里萨在少年欧克利德斯的怂恿下，开始了一场荒诞而真诚的寻宝之旅。他们的小船划过博卡奇卡海峡，两岸屹立的殖民地堡垒如同沉默的巨人，注视着这两个妄图挑战大海秘密的凡人。弗洛伦蒂诺并不真的在乎金币，他寻找的是一种能够证明自己价值的奇迹，好让他那份卑微的爱在费尔明娜·达萨面前显得不再那么寒酸。海风带着咸味，吹乱了他的头发，也吹散了理智的边界。",
+        "transition_to": "这场跨越半个世纪的爱情长跑，最终在马格达莱纳河的波涛中找到了归宿。",
+        "mood": "ambitious",
+        "key_dialogue": "They left the bay between the two fortresses of Boca Chica, and once in the open sea Euclides took his bearings by the position of the sun."
+      }
+    },
+    {
+      "title": "Tenerife",
+      "address": "Colombia-Magdalena-Tenerife",
+      "synopsis": "年轻的弗洛伦蒂诺在河流旅行中目睹挂着黄色瘟疫旗的船只，霍乱的阴影初次显现。",
+      "source_evidence": "The restrictions became even more drastic above the port of Tenerife, where they passed a boat flying the yellow plague flag.",
+      "original_chapter": "Chapter 2",
+      "part_id": "PART-1",
+      "part_title": "The River Journey",
+      "temporal_context": {
+        "era": "Late 19th Century",
+        "historical_name": null,
+        "date_start": "1880",
+        "date_end": "1880"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Florentino Ariza"
+        ],
+        "stay_duration": "Passing by boat"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "cholera",
+          "fear",
+          "river_travel"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Historic town on the Magdalena River",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "1880",
+        "dateEnd": "1880"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·特内里费的黄旗",
+        "hook": "那面飘扬的黄旗，是死亡还是爱情的伪装？",
+        "narrative_text": "在弗洛伦蒂诺·阿里萨早年的河流旅行中，特内里费港是一个令人不安的转折点。在这里，航行限制变得异常严苛，因为他们与一艘挂着黄色旗帜的船只擦肩而过——那是霍乱爆发的信号。对于弗洛伦蒂诺来说，霍乱与爱情有着惊人的相似症状：心悸、冷汗、虚脱。这种疾病的阴影从此贯穿了他的生命，也成为了他后来为了守护费尔米纳·达萨而编造的那个最伟大的谎言的伏笔。",
+        "transition_to": "随着航程继续，河岸的泥泞中隐藏着一段意外的肉体觉醒。",
+        "mood": "tense",
+        "key_dialogue": "They passed a boat flying the yellow plague flag."
+      }
+    },
+    {
+      "title": "Barranco de Loba",
+      "address": "Colombia-Bolívar-Barranco de Loba",
+      "synopsis": "弗洛伦蒂诺在此遇到了神秘的罗莎尔芭，开启了一段充满野性的船上情缘。",
+      "source_evidence": "They had boarded in Barranco de Loba, the port where cargo and passengers from Mompox were picked up",
+      "original_chapter": "Chapter 2",
+      "part_id": "PART-1",
+      "part_title": "The River Journey",
+      "temporal_context": {
+        "era": "Late 19th Century",
+        "historical_name": null,
+        "date_start": "1880",
+        "date_end": "1880"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Florentino Ariza",
+          "Rosalba"
+        ],
+        "stay_duration": "A few hours"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "encounter",
+          "passion",
+          "river_life"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Riverside municipality",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "1880",
+        "dateEnd": "1880"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·巴兰科德洛巴的邂逅",
+        "hook": "在河岸的泥泞中，他遇见了那个改变他肉体认知的女人。",
+        "narrative_text": "由于河道淤塞，原本应在蒙波斯上船的乘客改在巴兰科德洛巴登船。就在这里，罗莎尔芭——一个带着孩子、充满原始生命力的女性——走进了弗洛伦蒂诺·阿里萨的生活。在狭窄的船舱和闷热的河风中，罗莎尔芭以一种近乎掠夺的方式夺走了弗洛伦蒂诺的童贞。这次邂逅彻底打破了他对爱情只有精神追求的幻想，让他意识到在对费尔米纳·达萨永恒忠诚的阴影下，肉体可以拥有另一套完全不同的生存法则。",
+        "transition_to": "罗莎尔芭提及了她的故乡，那个被河流遗弃的古老城市。",
+        "mood": "dramatic",
+        "key_dialogue": "They had boarded in Barranco de Loba, the port where cargo and passengers from Mompox were picked up."
+      }
+    },
+    {
+      "title": "Mompox",
+      "address": "Colombia-Bolívar-Santa Cruz de Mompox",
+      "synopsis": "曾经的繁华港口，因河道干涸而逐渐被世人遗忘，成为罗莎尔芭的故乡。",
+      "source_evidence": "Ever since that city had been excluded from the itineraries of the steamboats because of the river’s caprices",
+      "original_chapter": "Chapter 2",
+      "part_id": "PART-1",
+      "part_title": "The River Journey",
+      "temporal_context": {
+        "era": "Late 19th Century",
+        "historical_name": "Santa Cruz de Mompox",
+        "date_start": "1880",
+        "date_end": "1880"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Rosalba"
+        ],
+        "stay_duration": "Mentioned only"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "decay",
+          "isolation",
+          "nostalgia"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "UNESCO World Heritage site",
+        "current_name": "Santa Cruz de Mompox"
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "1880",
+        "dateEnd": "1880"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·被遗忘的蒙波斯",
+        "hook": "当河流改变方向，一座城市便成了时间的孤岛。",
+        "narrative_text": "蒙波斯在书中是一个带有忧伤色彩的符号。它曾是马格达莱纳河上最重要的贸易中心，却因为河流的“任性”——河道淤塞导致大船无法通行——而被航线抛弃。罗莎尔芭便来自这个充满殖民地遗风却日渐凋零的地方。蒙波斯的命运象征着书中反复出现的“衰老”与“变迁”主题：无论是城市还是人，都无法抵抗时间的冲刷。它静静地躺在支流边，守着过去的荣光，正如弗洛伦蒂诺·阿里萨守着他那份跨越半个世纪的初恋。",
+        "transition_to": "多年后，弗洛伦蒂诺在城市的街巷中寻找诗意的慰藉。",
+        "mood": "nostalgic",
+        "key_dialogue": "That city had been excluded from the itineraries of the steamboats because of the river’s caprices."
+      }
+    },
+    {
+      "title": "Gethsemane District",
+      "address": "Colombia-Bolívar-Cartagena-Getsemaní",
+      "synopsis": "弗洛伦蒂诺在充满市井气息的格塞马尼区与诗人萨拉·诺列加展开了一段文学恋情。",
+      "source_evidence": "she lived on her salary in a rented flat in the motley Sweethearts’ Mews in the old Gethsemane District.",
+      "original_chapter": "Chapter 2",
+      "part_id": "PART-2",
+      "part_title": "The City of Cartagena",
+      "temporal_context": {
+        "era": "Late 19th Century",
+        "historical_name": "Barrio de Getsemaní",
+        "date_start": "1880",
+        "date_end": "1890"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Florentino Ariza",
+          "Sara Noriega"
+        ],
+        "stay_duration": "Several months"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "poetry",
+          "infidelity",
+          "urban_life"
+        ],
+        "significance": 0.7
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "如今是卡塔赫纳著名的旅游文化区",
+        "current_name": "Getsemaní"
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "1880",
+        "dateEnd": "1890"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·格塞马尼的诗意私会",
+        "hook": "在狭窄的“情人巷”里，诗歌成了通往肉体慰藉的通行证。",
+        "narrative_text": "在卡塔赫纳的格塞马尼区，弗洛伦蒂诺·阿里萨遇到了萨拉·诺列加——一位在邮局工作、热爱诗歌的单身女性。在萨拉那间简陋却充满书卷气的公寓里，两人不仅分享床榻，更分享对诗歌的热爱。对于弗洛伦蒂诺而言，萨拉是他漫长等待费尔米纳·达萨过程中的一个文学驿站，他们通过诗歌比赛和深夜的朗诵，在潮湿的加勒比海风中寻找片刻的欢愉。这种“从腰部以上开始的爱情”是他孤独生活中的重要调剂。",
+        "transition_to": "当生者在诗歌中寻找慰藉，死亡的阴影却在城市的另一端种下玫瑰。",
+        "mood": "romantic",
+        "key_dialogue": "“It was a love of the head,” she would say later, “from the waist up.”"
+      }
+    },
+    {
+      "title": "Cholera Cemetery",
+      "address": "Colombia-Bolívar-Cartagena-The Hand of God Ranch",
+      "synopsis": "弗洛伦蒂诺在霍乱公墓安葬母亲，并在此通过照料玫瑰来寄托哀思。",
+      "source_evidence": "Florentino Ariza buried her in the former Hand of God ranch, which was still known as the Cholera Cemetery, and he planted a rosebush on her grave.",
+      "original_chapter": "Chapter 3",
+      "part_id": "PART-2",
+      "part_title": "The City of Cartagena",
+      "temporal_context": {
+        "era": "Late 19th Century",
+        "historical_name": "The Hand of God ranch",
+        "date_start": "1890",
+        "date_end": "1900"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Florentino Ariza",
+          "Tránsito Ariza",
+          "Olimpia Zuleta"
+        ],
+        "stay_duration": "Frequent visits over years"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "death",
+          "mourning",
+          "devotion"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "demolished",
+        "note": "原址为上帝之手牧场，现已不作为公墓存在",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "1890",
+        "dateEnd": "1900"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·死亡之地的玫瑰",
+        "hook": "在埋葬霍乱死者的荒地里，他种下了最繁茂的爱情祭品。",
+        "narrative_text": "霍乱公墓，这片曾经被称为“上帝之手”的荒凉牧场，成了弗洛伦蒂诺·阿里萨生命中沉重的锚点。他在这里安葬了相依为命的母亲特兰西托·阿里萨。不久后，他意外发现自己曾经的情人奥林匹亚·苏莱塔也葬于此地——她因他留下的暧昧涂鸦被丈夫杀害。弗洛伦蒂诺在两座坟墓上都种下了玫瑰，他细心呵护这些花朵，仿佛在死亡的废墟上经营着一片永不凋谢的悔恨与爱意。公墓的荒凉与玫瑰的芬芳交织，构成了他孤独岁月中特有的底色。",
+        "transition_to": "而在城市的另一端，宗教的静谧为另一些灵魂提供了避难所。",
+        "mood": "melancholic",
+        "key_dialogue": "“The only thing that hurts me about dying is that it isn't for love.”"
+      }
+    },
+    {
+      "title": "Convent of the Salesians",
+      "address": "Colombia-Bolívar-Cartagena-Convento de las Salesas",
+      "synopsis": "胡维纳尔·乌尔比诺医生的姐妹们选择在慈幼会修道院隐居，反映了贵族女性的宗教生活。",
+      "source_evidence": "The sisters of Dr. Urbino, without taking vows, went to live in seclusion in the Convent of the Salesians",
+      "original_chapter": "Chapter 2",
+      "part_id": "PART-2",
+      "part_title": "The City of Cartagena",
+      "temporal_context": {
+        "era": "Late 19th Century",
+        "historical_name": "Convento de las Salesas",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Juvenal Urbino",
+          "Fermina Daza"
+        ],
+        "stay_duration": "Permanent seclusion"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "religion",
+          "seclusion",
+          "tradition"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "卡塔赫纳历史城区内的宗教建筑",
+        "current_name": "Convento de las Salesas"
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第3章·修道院的深闺",
+        "hook": "没有誓言的束缚，她们却选择了终身的禁锢。",
+        "narrative_text": "在卡塔赫纳的社会等级中，宗教往往是贵族女性最后的归宿。胡维纳尔·乌尔比诺医生的姐妹们，在没有正式发誓成为修女的情况下，选择搬进慈幼会修道院隐居。这种“世俗隐修”反映了当时上流社会女性在面对家族变迁或个人选择时的典型状态。修道院厚重的石墙隔绝了外界的霍乱与喧嚣，也隔绝了费尔米纳·达萨与这些傲慢小姑子之间长久以来的嫌隙。这里是旧时代秩序的缩影。",
+        "transition_to": "然而，有些记忆是墙壁无法阻挡的，它们随着雷声从远山传来。",
+        "mood": "peaceful",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "Sierra Villanueva",
+      "address": "Colombia-La Guajira-Sierra Villanueva",
+      "synopsis": "费尔米纳记忆中维拉纽瓦山脉的雷声，象征着她内心无法愈合的怀旧伤口。",
+      "source_evidence": "It was the incurable wound of solitary, stony, punctual thunder that would sound every afternoon in October at three o’clock in the Sierra Villanueva",
+      "original_chapter": "Chapter 2",
+      "part_id": "PART-2",
+      "part_title": "The City of Cartagena",
+      "temporal_context": {
+        "era": "Late 19th Century",
+        "historical_name": null,
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Fermina Daza"
+        ],
+        "stay_duration": "Memory"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "memory",
+          "nostalgia",
+          "nature"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "位于哥伦比亚拉瓜希拉省的山脉",
+        "current_name": "Sierra de Villanueva"
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第4章·维拉纽瓦的准时雷声",
+        "hook": "每天下午三点，大地的震颤准时唤醒沉睡的往事。",
+        "narrative_text": "对于费尔米纳·达萨来说，乡愁有时是一种具体的声音。她常常想起维拉纽瓦山脉那孤独而沉闷的雷声。在十月的每一个下午，那雷声总是在三点钟准时响起，像是一道无法愈合的伤口，撕开她平静生活的表象。这种对自然律动的记忆，连接着她那被父亲强行中断的少女时代，也连接着她与弗洛伦蒂诺·阿里萨最初的、被放逐的通信岁月。雷声虽远，却始终在她步入中年后的梦境边缘回荡。",
+        "transition_to": "时光流转，晚年的弗洛伦蒂诺再次踏上河流，寻找最后的救赎。",
+        "mood": "nostalgic",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "Calamar",
+      "address": "Colombia-Bolívar-Calamar",
+      "synopsis": "晚年的弗洛伦蒂诺与费尔米纳乘船经过此地，目睹了荒废的村落与诡异的幻象。",
+      "source_evidence": "He became aware of his new milieu only at dusk, as they were sailing past the hamlet of Calamar",
+      "original_chapter": "Chapter 6",
+      "part_id": "PART-3",
+      "part_title": "The Final Voyage",
+      "temporal_context": {
+        "era": "Early 20th Century",
+        "historical_name": null,
+        "date_start": "1930",
+        "date_end": "1932"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Florentino Ariza",
+          "Fermina Daza"
+        ],
+        "stay_duration": "Passing by boat"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "decay",
+          "river_journey",
+          "ghostly"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "A riverside town on the Magdalena River",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": "1930",
+        "dateEnd": "1932"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·卡拉马尔的黄昏",
+        "hook": "在巨大的明轮声中，废墟里闪过一个白色的身影。",
+        "narrative_text": "当弗洛伦蒂诺·阿里萨与费尔米纳·达萨——这对在暮年重逢的恋人——乘坐“新忠诚号”逆流而上时，他们经过了卡拉马尔。这里曾是繁华的转运港，如今却因河道变迁和战乱沦为废墟。黄昏时分，弗洛伦蒂诺在船尾看着巨大的明轮激起泡沫，他仿佛在岸边的残垣断壁间看到了一个身穿白衣的溺水女鬼。这种衰败的景象预示着整条马格达莱纳河的生态灾难，也为他们这场迟到的爱情之旅增添了一抹荒凉而超现实的色彩。",
+        "transition_to": "在航程的终点，他们将用一个永恒的谎言对抗时间的流逝。",
+        "mood": "desolate",
+        "key_dialogue": "The gigantic paddle wheel turning under his feet with a volcanic display of foam and steam."
+      }
+    },
+    {
+      "title": "Street of the Windows",
+      "address": "Colombia-Bolívar-Cartagena-Calle de las Ventanas",
+      "synopsis": "弗洛伦蒂诺造访普鲁登西亚·皮特的家，在酒与交谈中寻求情感的避风港。",
+      "source_evidence": "As soon as he thought of her, Florentino Ariza returned to the Street of the Windows, put two bottles of port and a jar of pickles in a shopping bag, and went to visit her",
+      "original_chapter": "Chapter 6",
+      "part_id": "PART-3",
+      "part_title": "The Final Voyage",
+      "temporal_context": {
+        "era": "Early 20th Century",
+        "historical_name": "Calle de las Ventanas",
+        "date_start": "1930",
+        "date_end": "1932"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Florentino Ariza",
+          "Prudencia Pitre"
+        ],
+        "stay_duration": "One night"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "solace",
+          "companionship",
+          "aging"
+        ],
+        "significance": 0.7
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "A historic street in the Old Town of Cartagena",
+        "current_name": "Calle de las Ventanas"
+      },
+      "timeline": {
+        "orderIndex": 9,
+        "dateStart": "1930",
+        "dateEnd": "1932"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·窗户街的避风港",
+        "hook": "两瓶波特酒，一罐腌菜，能否填补两个孤独灵魂的空洞？",
+        "narrative_text": "在窗户街，弗洛伦蒂诺·阿里萨找到了临行前的平静。他带着波特酒和腌菜，造访了普鲁登西亚·皮特。在这里，没有对费尔米纳·达萨那近乎疯狂的执念，也没有对年少无知的诱惑。他们像老友一样喝酒、聊天，在昏暗的灯光下分享彼此的孤独。对于弗洛伦蒂诺来说，这条街道和这个房间，是他漫长等待岁月中不可或缺的补给站，让他积蓄力量去完成那场跨越半个世纪的最后航行。",
+        "transition_to": "最终，所有的河流都汇入大海，所有的等待都化作了那面永不降下的黄旗。",
+        "mood": "bittersweet",
+        "key_dialogue": "Florentino Ariza returned to the Street of the Windows... and went to visit her"
+      }
+    },
+    {
+      "title": "American Ice Cream Shop",
+      "address": "Colombia-Bolívar-Cartagena-Centro Histórico-American Ice Cream Shop",
+      "synopsis": "弗洛伦蒂诺带阿美莉卡去吃冰淇淋，并在此向她坦白自己即将结婚的决定。",
+      "source_evidence": "He took her to the American Ice Cream Shop, filled at this hour with parents eating ice cream with their children under the long blades of the fans that hung from the smooth ceiling.",
+      "original_chapter": "Chapter 6",
+      "part_id": "PART-1",
+      "part_title": "Love in the Time of Cholera",
+      "temporal_context": {
+        "era": "Late 19th to early 20th century",
+        "historical_name": null,
+        "date_start": "1930",
+        "date_end": "1932"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Florentino Ariza",
+          "América Vicuña"
+        ],
+        "stay_duration": "An afternoon"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "betrayal",
+          "innocence",
+          "closure"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "uncertain",
+        "note": "Based on historical ice cream parlors in Cartagena's old city",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "1930",
+        "dateEnd": "1932"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·冰淇淋店的告别",
+        "hook": "在清凉的电扇下，他亲手终结了一个女孩的初恋幻想。",
+        "narrative_text": "在离开“窗户街”的喧嚣后，弗洛伦蒂诺·阿里萨带着他名义上的监护对象——年仅十四岁的阿美莉卡·维库尼亚来到了美国冰淇淋店。店内吊扇旋转，充满了家庭的欢声笑语，但这温馨的氛围却掩盖不住弗洛伦蒂诺内心的冷酷。为了能毫无顾忌地重新追求费尔明娜·达萨，他决定切断与这个女孩的所有联系。他平静地告诉阿美莉卡自己打算结婚，这个消息对情窦初开的女孩来说无异于晴天霹雳。他看着她吃着冰淇淋，心中却早已飞向了那个他等待了半个世纪的女人。",
+        "transition_to": "处理完这段尴尬的关系后，弗洛伦蒂诺重新回到了老城的街道上，准备投递那封至关重要的信。",
+        "mood": "bittersweet",
+        "key_dialogue": "“I am going to get married,” he said."
+      }
+    },
+    {
+      "title": "Old City",
+      "address": "Colombia-Bolívar-Cartagena-Centro Histórico",
+      "synopsis": "弗洛伦蒂诺在老城的邮筒投递情书，这是他半个世纪后重启追求的关键一步。",
+      "source_evidence": "and then slip the letter into one of the three mailboxes located in the old city.",
+      "original_chapter": "Chapter 6",
+      "part_id": "PART-1",
+      "part_title": "Love in the Time of Cholera",
+      "temporal_context": {
+        "era": "Late 19th to early 20th century",
+        "historical_name": "Cartagena de Indias",
+        "date_start": "1930",
+        "date_end": "1932"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Florentino Ariza"
+        ],
+        "stay_duration": "A few minutes"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "persistence",
+          "romance",
+          "urban_life"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Cartagena's walled city is a UNESCO World Heritage site",
+        "current_name": "Centro Histórico"
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "1930",
+        "dateEnd": "1932"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·邮筒里的余生",
+        "hook": "一封信滑入邮筒，承载了五十年的等待与孤注一掷。",
+        "narrative_text": "弗洛伦蒂诺·阿里萨穿行在卡塔赫纳老城的石板路上，这里的一草一木都见证了他从青年到白头的痴情。他小心翼翼地将写给费尔明娜·达萨的信投入老城仅有的三个邮筒之一。对他而言，这不仅仅是一封信，而是一份迟到了五十年的盟约。在老城斑驳的墙影下，他像个初恋的少年般心跳加速，尽管他已是白发苍苍的船运大亨。他坚信，只要这些信件能抵达费尔明娜的手中，那段被岁月尘封的爱情终将复燃。",
+        "transition_to": "这些信件让费尔明娜想起了她曾随丈夫游历过的那些遥远城市，那些记忆在异国橱窗里闪光。",
+        "mood": "nostalgic",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "Rome",
+      "address": "Italy-Lazio-Rome-Historic Center",
+      "synopsis": "费尔明娜回忆起在罗马旅行时见过的精美橱窗，那些物品在异国显得格外动人。",
+      "source_evidence": "they were beautiful, useful objects as long as they remained in their original environment, in the show windows of Rome, Paris, London",
+      "original_chapter": "Chapter 6",
+      "part_id": "PART-1",
+      "part_title": "Love in the Time of Cholera",
+      "temporal_context": {
+        "era": "Early 20th century",
+        "historical_name": null,
+        "date_start": "1890",
+        "date_end": "1910"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Fermina Daza"
+        ],
+        "stay_duration": "Weeks"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "memory",
+          "cosmopolitanism",
+          "materialism"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "The historic center of Rome",
+        "current_name": "Roma"
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "1890",
+        "dateEnd": "1910"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·罗马的橱窗",
+        "hook": "异国的繁华，曾是她逃避平庸生活的避风港。",
+        "narrative_text": "在费尔明娜·达萨漫长的婚姻生活中，与胡维纳尔·乌尔比诺医生在欧洲的旅行是她记忆中最鲜艳的色彩。她回想起罗马的街道，那些精美的橱窗里陈列着充满异域风情的器物。在那个时代，罗马不仅是艺术的圣殿，更是时尚与品位的象征。费尔明娜在那里购买了许多新奇的物件，试图将欧洲的优雅带回那座充满蝉鸣和热病的加勒比小城。然而多年后她才意识到，那些东西只有留在罗马的橱窗里才具有灵魂。",
+        "transition_to": "离开意大利的暖阳，她的足迹又踏上了雾气蒙蒙的伦敦。",
+        "mood": "peaceful",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "London",
+      "address": "England-Greater London-London-West End",
+      "synopsis": "费尔明娜在伦敦购买大量物品，这些记忆构成了她对外界文明的认知。",
+      "source_evidence": "they were beautiful, useful objects as long as they remained in their original environment, in the show windows of Rome, Paris, London",
+      "original_chapter": "Chapter 6",
+      "part_id": "PART-1",
+      "part_title": "Love in the Time of Cholera",
+      "temporal_context": {
+        "era": "Early 20th century",
+        "historical_name": null,
+        "date_start": "1890",
+        "date_end": "1910"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Fermina Daza"
+        ],
+        "stay_duration": "Weeks"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "luxury",
+          "travel",
+          "cultural_contrast"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "The capital of the United Kingdom",
+        "current_name": "London"
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "1890",
+        "dateEnd": "1910"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·雾都的掠影",
+        "hook": "在伦敦的雨雾中，她收集着属于上流社会的碎片。",
+        "narrative_text": "伦敦的旅行在费尔明娜·达萨的脑海中留下了一串关于“实用与美”的注脚。作为名医的妻子，她在伦敦的百货公司和精品店中穿梭，挑选着那些能彰显身份的家居用品。伦敦的严谨与加勒比的狂放形成了鲜明对比，这种文明的冲击让她在很长一段时间内都沉浸在一种虚幻的优越感中。她带回的不仅是昂贵的蕾丝和银器，更是一种对“进步世界”的向往，尽管这种向往在回到家乡后很快就被现实的琐碎所磨灭。",
+        "transition_to": "而大西洋彼岸的纽约，则展现了另一种截然不同的现代律动。",
+        "mood": "contemplative",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "New York",
+      "address": "USA-New York-New York City-Manhattan",
+      "synopsis": "费尔明娜见证了纽约摩天大楼的崛起和查尔斯顿舞的流行。",
+      "source_evidence": "or in the New York, vibrating to the Charleston, where skyscrapers were beginning to grow",
+      "original_chapter": "Chapter 6",
+      "part_id": "PART-1",
+      "part_title": "Love in the Time of Cholera",
+      "temporal_context": {
+        "era": "The Roaring Twenties",
+        "historical_name": null,
+        "date_start": "1920",
+        "date_end": "1925"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Fermina Daza"
+        ],
+        "stay_duration": "Short visit"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "modernity",
+          "urbanization",
+          "jazz_age"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "New York City, USA",
+        "current_name": "New York City"
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "1920",
+        "dateEnd": "1925"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·震动的纽约",
+        "hook": "在摩天大楼的阴影下，她感受到了新时代的狂热脉搏。",
+        "narrative_text": "当费尔明娜·达萨来到纽约时，这座城市正处于疯狂的爵士时代。查尔斯顿舞的节奏在空气中震动，第一批摩天大楼正像雨后春笋般拔地而起。相比于欧洲的沉稳，纽约展现出一种令人眩晕的生命力。费尔明娜在这里购买时尚物品，试图捕捉这种转瞬即逝的现代感。纽约的喧嚣与她后来在加勒比河岸感受到的静谧形成了强烈的反差，成为了她记忆中关于“现代性”最深刻的符号。",
+        "transition_to": "回到家乡，现代化的脚步则以另一种方式——水上飞机——降临在曼萨尼约湾。",
+        "mood": "ambitious",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "Manzanillo Bay",
+      "address": "Colombia-Bolívar-Cartagena-Bahía de Manzanillo",
+      "synopsis": "曼萨尼约湾是水上飞机的降落点，象征着现代文明对这座古老城市的侵入。",
+      "source_evidence": "In recent years she had not even had the curiosity to go to Manzanillo Bay, where seaplanes landed on the water",
+      "original_chapter": "Chapter 6",
+      "part_id": "PART-1",
+      "part_title": "Love in the Time of Cholera",
+      "temporal_context": {
+        "era": "Early 20th century",
+        "historical_name": null,
+        "date_start": "1920",
+        "date_end": "1930"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Fermina Daza"
+        ],
+        "stay_duration": "N/A"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "technology",
+          "isolation",
+          "change"
+        ],
+        "significance": 0.25
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "A bay near Cartagena, still a scenic area",
+        "current_name": "Bahía de Manzanillo"
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "1920",
+        "dateEnd": "1930"
+      },
+      "story_mode": {
+        "chapter_title": "第6章·曼萨尼约湾的飞艇",
+        "hook": "水面上划过的机翼，是古老城市与新世界最后的连接。",
+        "narrative_text": "曼萨尼约湾平静的水面曾是卡塔赫纳最寂静的角落，但随着时代的变迁，这里成了水上飞机的降落场。每当巨大的机械轰鸣着划破长空，警察的小艇便会提前清场，确保这些现代文明的怪兽安全着陆。费尔明娜·达萨对这些新奇事物早已失去了好奇心，她宁愿待在自己那充满花香的院子里。然而，曼萨尼约湾的每一次起降，都无声地宣告着那个属于帆船和马车的旧时代正在远去。",
+        "transition_to": "除了对时代的冷漠，弗洛伦蒂诺还不得不处理他那荒唐情史留下的良心债。",
+        "mood": "desolate",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "Alabama",
+      "address": "USA-Alabama",
+      "synopsis": "弗洛伦蒂诺承诺资助小情人阿美莉卡前往阿拉巴马留学，试图以此弥补内心的愧疚。",
+      "source_evidence": "He had promised to send her to Alabama for further study, at the expense of the river company",
+      "original_chapter": "Chapter 6",
+      "part_id": "PART-1",
+      "part_title": "Love in the Time of Cholera",
+      "temporal_context": {
+        "era": "Early 20th century",
+        "historical_name": null,
+        "date_start": "1932",
+        "date_end": "1932"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Florentino Ariza",
+          "América Vicuña"
+        ],
+        "stay_duration": "None (Planned destination)"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "guilt",
+          "betrayal",
+          "escape"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "US State",
+        "current_name": "Alabama"
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "1932",
+        "dateEnd": "1932"
+      },
+      "story_mode": {
+        "chapter_title": "第7章·愧疚的补偿",
+        "hook": "一份昂贵的留学承诺，能否洗清背叛的罪恶？",
+        "narrative_text": "弗洛伦蒂诺·阿里萨对阿美莉卡·维库尼亚——那个被寄托在他监护下的远房亲戚兼小情人——怀有一种复杂的愧疚。随着他与费尔明娜·达萨的关系出现转机，他急于摆脱这段让他感到不安的关系。他向阿美莉卡许诺，将利用河运公司的资金送她前往美国的阿拉巴马州深造。这个遥远的地名成了他逃避责任的出口，他试图用一个光明的未来作为交换，换取自己良心的安宁，却未曾察觉这个年轻女孩对他近乎毁灭性的依赖。",
+        "transition_to": "当弗洛伦蒂诺在算计未来时，费尔明娜正通过电波寻找孤独中的慰藉。",
+        "mood": "bittersweet",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "Santiago de Cuba",
+      "address": "Cuba-Santiago de Cuba",
+      "synopsis": "费尔明娜在孤独的午后，通过收音机收听来自古巴圣地亚哥的广播剧消磨时光。",
+      "source_evidence": "but to fill her idle hours with the soap operas from Santiago de Cuba.",
+      "original_chapter": "Chapter 6",
+      "part_id": "PART-1",
+      "part_title": "Love in the Time of Cholera",
+      "temporal_context": {
+        "era": "Early 20th century",
+        "historical_name": null,
+        "date_start": "1932",
+        "date_end": "1932"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Fermina Daza"
+        ],
+        "stay_duration": "None (Radio signal)"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "solitude",
+          "modernity",
+          "longing"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "City in Cuba",
+        "current_name": "Santiago de Cuba"
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": "1932",
+        "dateEnd": "1932"
+      },
+      "story_mode": {
+        "chapter_title": "第8章·电波里的圣地亚哥",
+        "hook": "在寂静的午后，远方的声音成了唯一的陪伴。",
+        "narrative_text": "丈夫胡维纳尔·乌尔比诺医生去世后，费尔明娜·达萨发现家中的大宅变得空旷得可怕。在那些漫长而孤独的周二下午，她唯一的消遣就是摆弄那台新奇的收音机。跨越加勒比海，来自古巴圣地亚哥的广播剧信号断断续续地传进她的耳朵。那些夸张的爱情故事和异国的口音，填补了她生活中的空白。圣地亚哥不再只是一个地理名词，而是她逃离现实哀伤的一个虚幻避风港。",
+        "transition_to": "电波继续在加勒比海上空跳跃，带她领略更多的异域风情，比如圣多明各的舞曲。",
+        "mood": "nostalgic",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "La Manga Cemetery",
+      "address": "Colombia-Bolívar-Cartagena-La Manga-Seminary Burial Ground",
+      "synopsis": "在开启最后的航行前，费尔明娜前往拉曼加公墓，在丈夫墓前进行最后的告别。",
+      "source_evidence": "Very early in the morning she had ordered the car to take her to the nearby seminary burial ground, which in those days was called La Manga Cemetery",
+      "original_chapter": "Chapter 6",
+      "part_id": "PART-1",
+      "part_title": "Love in the Time of Cholera",
+      "temporal_context": {
+        "era": "Early 20th century",
+        "historical_name": "La Manga Cemetery",
+        "date_start": "1932",
+        "date_end": "1932"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Fermina Daza",
+          "Juvenal Urbino"
+        ],
+        "stay_duration": "A few hours"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "closure",
+          "farewell",
+          "marriage"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Now known as the Seminary Burial Ground in the La Manga district",
+        "current_name": "Cementerio de Albornoz / Seminary Burial Ground"
+      },
+      "timeline": {
+        "orderIndex": 9,
+        "dateStart": "1932",
+        "dateEnd": "1932"
+      },
+      "story_mode": {
+        "chapter_title": "第9章·拉曼加的告别",
+        "hook": "在远行之前，她必须先向死者请求许可。",
+        "narrative_text": "清晨的薄雾还未散去，费尔明娜·达萨便乘车前往拉曼加公墓。这里安葬着她共同生活了半个世纪的丈夫，胡维纳尔·乌尔比诺医生。站在那座庄严的坟墓前，费尔明娜并没有流泪，而是进行了一场漫长的内心独白。她向他交代了家中的琐事，也仿佛在为自己即将与弗洛伦蒂诺·阿里萨开启的旅程寻求某种默许。这次告别标志着她旧生活的彻底终结，她将带着对过去的尊重，走向那条未知的河流。",
+        "transition_to": "告别了死者，她转身走向码头，开始那场永无止境的航行。",
+        "mood": "solemn",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "San Nicolás de las Barrancas",
+      "address": "Colombia-San Nicolás de las Barrancas",
+      "synopsis": "被救助的孤儿海牛在圣尼古拉斯·德拉斯·巴兰卡斯的动物园度过了余生。",
+      "source_evidence": "the orphaned manatee, which grew up and lived for many years in the rare-animal zoo in San Nicolás de las Barrancas, was the last of its kind seen along the river.",
+      "original_chapter": "Chapter 6",
+      "part_id": "PART-1",
+      "part_title": "Love in the Time of Cholera",
+      "temporal_context": {
+        "era": "Late 19th to early 20th century",
+        "historical_name": null,
+        "date_start": "1930",
+        "date_end": "1932"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Diego Samaritano"
+        ],
+        "stay_duration": "Passing mention"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "extinction",
+          "nostalgia"
+        ],
+        "significance": 0.25
+      },
+      "visitability": {
+        "status": "uncertain",
+        "note": "Fictional or vanished town zoo",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 10,
+        "dateStart": "1930",
+        "dateEnd": "1932"
+      },
+      "story_mode": {
+        "chapter_title": "第10章·最后的孤儿",
+        "hook": "它是同类中的最后一个，在铁笼与围栏中见证了时代的变迁。",
+        "narrative_text": "那头在猎人枪口下幸存的小海牛，被带到了圣尼古拉斯·德拉斯·巴兰卡斯。在那里的一座珍稀动物园里，它在人工的照料下孤独地长大。它是马格达莱纳河上最后被人类目击到的海牛。随着森林被砍伐作为轮船燃料，河水变浅，这些温顺的生物彻底消失了。动物园里的这头孤儿，成了那个曾经丰饶、野性时代的凄凉纪念碑，也映照着弗洛伦蒂诺·阿里萨眼中荒芜的河岸。",
+        "transition_to": "现实的航程继续推进，船只在寂静中驶向下一个几乎被遗忘的村落。",
+        "mood": "desolate",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "Sitio Nuevo",
+      "address": "Colombia-Magdalena-Sitio Nuevo",
+      "synopsis": "深夜，船只悄无声息地经过只有一盏灯火的西蒂奥新镇。",
+      "source_evidence": "In the town of Sitio Nuevo there was only one light in only one window in only one house, and the port office did not signal either cargo or passengers, so the boat passed by without a greeting.",
+      "original_chapter": "Chapter 6",
+      "part_id": "PART-1",
+      "part_title": "Love in the Time of Cholera",
+      "temporal_context": {
+        "era": "Late 19th to early 20th century",
+        "historical_name": null,
+        "date_start": "1932",
+        "date_end": "1932"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Fermina Daza",
+          "Florentino Ariza"
+        ],
+        "stay_duration": "Passing by"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "solitude",
+          "decay"
+        ],
+        "significance": 0.2
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Town on the Magdalena River",
+        "current_name": "Sitio Nuevo"
+      },
+      "timeline": {
+        "orderIndex": 11,
+        "dateStart": "1932",
+        "dateEnd": "1932"
+      },
+      "story_mode": {
+        "chapter_title": "第11章·孤灯下的沉寂",
+        "hook": "整座城镇只有一扇窗户亮着灯，仿佛被世界遗忘。",
+        "narrative_text": "深夜的马格达莱纳河笼罩在迷雾中。当船只经过西蒂奥新镇时，岸上呈现出一片死寂。整座城镇只有一间房子的窗户透出一丝孤零零的灯火。港口办公室没有任何信号，既没有要上船的乘客，也没有要卸下的货物。船只没有停靠，甚至没有鸣笛，就像一个幽灵般悄悄滑过这片荒凉。费尔明娜·达萨在舱内感受着这种极致的孤独，而弗洛伦蒂诺·阿里萨则在黑暗中守护着她，直到永远。",
+        "transition_to": "在这条荒凉的河流上，他们的爱情终于超越了时间与死亡的界限。",
+        "mood": "melancholic",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "Zambrano",
+      "address": "Colombia-Bolívar-Zambrano-Port of Zambrano",
+      "synopsis": "弗洛伦蒂诺在桑布拉诺港收到关于阿美利加·维库尼亚自杀的噩耗。",
+      "source_evidence": "At five o’clock he was beginning to doze off, when the ship’s purser woke him in the port of Zambrano to hand him an urgent telegram.",
+      "original_chapter": "Chapter 6",
+      "part_id": "PART-1",
+      "part_title": "Love in the Time of Cholera",
+      "temporal_context": {
+        "era": "Early 20th century",
+        "historical_name": null,
+        "date_start": "1932",
+        "date_end": "1932"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Florentino Ariza"
+        ],
+        "stay_duration": "Brief stop"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "guilt",
+          "death",
+          "consequence"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "马格达莱纳河岸的重要港口",
+        "current_name": "Zambrano"
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "1932",
+        "dateEnd": "1932"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·桑布拉诺的噩耗",
+        "hook": "一封紧急电报，揭开了弗洛伦蒂诺晚年恋情中最阴暗的代价。",
+        "narrative_text": "清晨五点，当弗洛伦蒂诺·阿里萨在桑布拉诺港的晨曦中昏昏欲睡时，事务长递给他一封紧急电报。电报的内容如晴天霹雳：他曾经的监护对象兼情人、年仅十四岁的阿美利加·维库尼亚，因为学业失败——实则是因他的离弃而绝望——自杀了。在这个闷热的港口，弗洛伦蒂诺感受到了前所未有的罪恶感。他为了追求初恋费尔米纳而牺牲了那个纯洁的女孩，这份血债成为了他晚年爱情中无法抹去的阴影。",
+        "transition_to": "带着沉重的心情，他必须在费尔米纳面前掩饰这一切，继续驶向航程的终点。",
+        "mood": "bittersweet",
+        "key_dialogue": "the ship’s purser woke him in the port of Zambrano to hand him an urgent telegram."
+      }
+    },
+    {
+      "title": "La Dorada",
+      "address": "Colombia-Caldas-La Dorada-River Port",
+      "synopsis": "船只抵达航程终点拉多拉达，酷热的港口标志着水路旅行的结束与抉择的开始。",
+      "source_evidence": "after lunch they would reach golden La Dorada, the last port on the eleven-day journey. From the cabin Fermina Daza and Florentino Ariza saw the promontory of houses lit by a pale sun",
+      "original_chapter": "Chapter 6",
+      "part_id": "PART-1",
+      "part_title": "Love in the Time of Cholera",
+      "temporal_context": {
+        "era": "Early 20th century",
+        "historical_name": null,
+        "date_start": "1932",
+        "date_end": "1932"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Fermina Daza",
+          "Florentino Ariza"
+        ],
+        "stay_duration": "1 day"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "climax",
+          "heat",
+          "transition"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "哥伦比亚重要的内河港口和铁路枢纽",
+        "current_name": "La Dorada"
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "1932",
+        "dateEnd": "1932"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·黄金港口的酷暑",
+        "hook": "十一天航程的终点，街道上的沥青在烈日下沸腾。",
+        "narrative_text": "经过十一天的航行，“新忠诚号”终于抵达了终点站——拉多拉达。这里的阳光苍白而刺眼，空气中弥漫着令人窒息的热浪，街道上的沥青甚至在冒泡。费尔米纳·达萨和弗洛伦蒂诺·阿里萨从船舱望去，看到那些从高原乘火车而来的乘客，他们穿着厚重的深色衣服，在这热带的炼狱中显得格格不入。这里是水路的尽头，也是他们情感抉择的关键时刻：是就此上岸回归现实，还是继续在这条大河上漂流？",
+        "transition_to": "在拉多拉达的岸边，连接内陆的铁路正在等待，但他们的心已决定驶向永恒。",
+        "mood": "tense",
+        "key_dialogue": "after lunch they would reach golden La Dorada, the last port on the eleven-day journey."
+      }
+    }
+  ],
+  "suspects": []
+}

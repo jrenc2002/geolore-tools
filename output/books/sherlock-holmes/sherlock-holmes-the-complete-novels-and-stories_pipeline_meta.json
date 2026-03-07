@@ -1,0 +1,66 @@
+{
+  "work": {
+    "title": "Sherlock Holmes: The Complete Novels and Stories",
+    "author": "Arthur Conan Doyle",
+    "type": "novel",
+    "locale": "zh-Hans"
+  },
+  "pipeline": {
+    "generated_by": "geolore-auto-pipeline-v1",
+    "generated_at": "2026-03-01T16:00:36.722934+00:00",
+    "data_source_mode": "full_text",
+    "data_source_warning": null,
+    "model_select": "gemini-3.1-pro-preview-search",
+    "model_extract": "gemini-3-flash-preview-search",
+    "total_places": 6,
+    "major_places": 1,
+    "minor_places": 4,
+    "passing_places": 1,
+    "fictional_suspects": 0,
+    "address_completeness": 0.67,
+    "timeline_enabled": false,
+    "story_mode_enabled": true,
+    "story_mode_stats": {
+      "total_chapters": 6,
+      "avg_narrative_length": 175,
+      "mood_arc": [
+        "mysterious",
+        "tense",
+        "dramatic",
+        "tense",
+        "bittersweet",
+        "mysterious"
+      ],
+      "transition_coverage": 1.2
+    },
+    "suggested_pack_id": "sherlock-holmes-the-complete-novels-and-stories",
+    "suggested_map_title": "《Sherlock Holmes: The Complete Novels and Stories》巡礼地图"
+  },
+  "review": {
+    "_review_report": true,
+    "total": 6,
+    "removed_not_in_original": 0,
+    "removed_fictional": 0,
+    "removed_names": [],
+    "merged_duplicates": 0,
+    "fixed_address": 0,
+    "fixed_synopsis": 1,
+    "fixed_narrative": 0,
+    "reindexed": true,
+    "mood_arc": [
+      "mysterious",
+      "tense",
+      "dramatic",
+      "tense",
+      "bittersweet",
+      "mysterious"
+    ],
+    "story_mode_enabled": true,
+    "avg_narrative_length": 218,
+    "transition_coverage": "6/6"
+  },
+  "next_steps": [
+    "python scripts/geocode_places.py --input output/sherlock-holmes-the-complete-novels-and-stories_places_structured.json --output output//sherlock-holmes-the-complete-novels-and-stories_geocoded.json --amap-key $AMAP_KEY --enable-validation",
+    "python scripts/build_pack.py --input output//sherlock-holmes-the-complete-novels-and-stories_geocoded.json --output output//sherlock-holmes-the-complete-novels-and-stories_pack.json --pack-id sherlock-holmes-the-complete-novels-and-stories --title \"《Sherlock Holmes: The Complete Novels and Stories》巡礼地图\""
+  ]
+}

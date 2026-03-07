@@ -1,0 +1,3108 @@
+{
+  "book_info": {
+    "title": "奥德赛 (Odyssey)",
+    "author": "Homer",
+    "type": "novel",
+    "summary": "《奥德赛》是古希腊盲诗人荷马创作的史诗巨著，与《伊利亚特》并称为西方文学的源头。故事背景设定在特洛伊战争结束后的十年间，核心主题围绕着“归家”与“坚韧”。英雄奥德修斯在战后返乡途中触怒海神，被迫在波涛汹涌的地中海世界漂流，历经食莲人岛、独眼巨人洞穴及冥界的重重考验。与此同时，他的妻子佩内洛普在故乡伊萨卡岛以智慧周旋于无礼的求婚者之间。这部作品展现了从神话边境到古希腊城邦的广阔地理图景，是一部关于人类意志如何战胜命运捉弄的壮丽赞歌，充满了对家园、忠诚与智慧的深刻沉思。"
+  },
+  "characters": [
+    {
+      "id": "ulysses",
+      "name": "Ulysses",
+      "aliases": [
+        "Odysseus",
+        "奥德修斯"
+      ],
+      "role": "伊萨卡之王，特洛伊战争的英雄，以机智和坚韧著称的主角",
+      "first_appearance": "Troy",
+      "importance": "protagonist"
+    },
+    {
+      "id": "telemachus",
+      "name": "Telemachus",
+      "aliases": [
+        "特勒马科斯",
+        "忒勒马科斯"
+      ],
+      "role": "奥德修斯之子，在雅典娜的指引下出海寻找父亲的下落",
+      "first_appearance": "Ithaca",
+      "importance": "major"
+    },
+    {
+      "id": "penelope",
+      "name": "Penelope",
+      "aliases": [
+        "佩内洛普",
+        "珀涅罗珀"
+      ],
+      "role": "奥德修斯忠贞的妻子，以织经布为名拖延求婚者的逼婚",
+      "first_appearance": "Ithaca",
+      "importance": "major"
+    },
+    {
+      "id": "minerva",
+      "name": "Minerva",
+      "aliases": [
+        "Athena",
+        "雅典娜",
+        "密涅瓦"
+      ],
+      "role": "智慧女神，奥德修斯家族的守护神，多次化身指引父子二人",
+      "first_appearance": "Ithaca",
+      "importance": "major"
+    },
+    {
+      "id": "neptune",
+      "name": "Neptune",
+      "aliases": [
+        "Poseidon",
+        "波塞冬",
+        "海神"
+      ],
+      "role": "海神，因奥德修斯刺瞎其子波吕斐摩斯而对其百般阻挠",
+      "first_appearance": "Ethiopians",
+      "importance": "major"
+    },
+    {
+      "id": "menelaus",
+      "name": "Menelaus",
+      "aliases": [
+        "墨涅拉俄斯"
+      ],
+      "role": "斯巴达国王，海伦的丈夫，曾接待特勒马科斯并告知其父消息",
+      "first_appearance": "Troy",
+      "importance": "supporting"
+    },
+    {
+      "id": "helen",
+      "name": "Helen",
+      "aliases": [
+        "海伦"
+      ],
+      "role": "斯巴达王后，引发特洛伊战争的美女，拥有过人的洞察力",
+      "first_appearance": "Troy",
+      "importance": "supporting"
+    },
+    {
+      "id": "calypso",
+      "name": "Calypso",
+      "aliases": [
+        "卡吕普索"
+      ],
+      "role": "深爱奥德修斯的仙女，将其困在奥吉吉亚岛长达七年",
+      "first_appearance": "Ogygian island",
+      "importance": "supporting"
+    },
+    {
+      "id": "mercury",
+      "name": "Mercury",
+      "aliases": [
+        "Hermes",
+        "赫耳墨斯",
+        "墨丘利"
+      ],
+      "role": "众神的使者，负责传达宙斯的旨意并引导亡魂",
+      "first_appearance": "Mount Olympus",
+      "importance": "supporting"
+    },
+    {
+      "id": "alcinous",
+      "name": "Alcinous",
+      "aliases": [
+        "阿尔基努斯"
+      ],
+      "role": "斐阿基亚人的国王，慷慨地款待了落难的奥德修斯并助其归乡",
+      "first_appearance": "House of Alcinous",
+      "importance": "supporting"
+    },
+    {
+      "id": "eumaeus",
+      "name": "Eumaeus",
+      "aliases": [
+        "尤迈厄斯"
+      ],
+      "role": "忠诚的猪倌，在奥德修斯归乡后提供了最初的庇护",
+      "first_appearance": "Ortygia",
+      "importance": "supporting"
+    }
+  ],
+  "parts": [
+    {
+      "part_id": "PART-1",
+      "title": "The Telemachy & The Return",
+      "synopsis": "特勒马科斯在雅典娜指引下寻找父亲；奥德修斯离开卡吕普索岛，在斐阿基亚讲述往事并最终返回伊萨卡。",
+      "place_count": 78,
+      "mood": "adventurous",
+      "key_characters": [
+        "Telemachus",
+        "Minerva",
+        "Menelaus",
+        "Ulysses",
+        "Penelope"
+      ]
+    },
+    {
+      "part_id": "PART-2",
+      "title": "The Wanderings of Odysseus",
+      "synopsis": "奥德修斯回忆从特洛伊出发后的奇幻漂流，包括独眼巨人、冥界探险及太阳神岛的劫难。",
+      "place_count": 10,
+      "mood": "mystical",
+      "key_characters": [
+        "Ulysses",
+        "Neptune",
+        "Circe",
+        "Teiresias"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "title": "Troy",
+      "address": "Turkey-Canakkale-Hisarlik-Troy",
+      "synopsis": "海伦在斯巴达宫廷中向特勒马科斯回忆奥德修斯潜入特洛伊刺探情报及木马计的往事。",
+      "source_evidence": "In this disguise he entered the city of Troy, and no one said anything to him. ... what courage he displayed within the wooden horse, wherein all the bravest of the Argives were lying in wait to bring death and destruction upon the Trojans.",
+      "original_chapter": "Book IV",
+      "part_id": "PART-1",
+      "part_title": "The Telemachy",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Ilium",
+        "date_start": "-1200",
+        "date_end": "-1180"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Ulysses",
+          "Helen",
+          "Menelaus",
+          "Diomed",
+          "Anticlus",
+          "Deiphobus"
+        ],
+        "stay_duration": "10 years"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "war",
+          "stratagem",
+          "memory"
+        ],
+        "significance": 1.0
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为特洛伊考古遗址公园",
+        "current_name": "Troia"
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第1章·特洛伊的余烬",
+        "hook": "英雄奥德修斯在战争结束后失踪十年，他的传奇却在敌人的回忆中复活。",
+        "narrative_text": "在斯巴达的宫廷里，海伦向寻找父亲的特勒马科斯讲述了那个男人的智慧。那是特洛伊战争的末期，奥德修斯——这位以机智著称的伊萨卡国王，曾把自己鞭打得遍体鳞伤，伪装成乞丐潜入特洛伊城刺探军情。海伦认出了他，而他则在离去前杀死了许多特洛伊人。更令人惊叹的是，他构思了木马计，带领希腊将领们藏身于巨大的木马腹中，在寂静的深夜里，彻底终结了这座坚固城池的命运。然而，战争的胜利并未带他回家，反而开启了另一段漫长的流浪。",
+        "transition_to": "当英雄的往事在远方被传颂时，他的故乡伊萨卡正陷入混乱。",
+        "mood": "dramatic",
+        "key_dialogue": "“What a man he was! I shall never see his like again.”"
+      }
+    },
+    {
+      "title": "Ithaca",
+      "address": "Greece-Ionian Islands-Ithaca-Vathi",
+      "synopsis": "雅典娜化身门忒斯降临伊萨卡，激励奥德修斯之子特勒马科斯反抗无礼的求婚者。",
+      "source_evidence": "The chief men among the suitors are lying in wait for you in the Strait between Ithaca and Samos, and they mean to kill you before you can reach home... As soon as you get to Ithaca send your ship and men on to the town, but yourself go straight to the swineherd",
+      "original_chapter": "Book I",
+      "part_id": "PART-1",
+      "part_title": "The Telemachy",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Ithaki",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Ulysses",
+          "Minerva",
+          "Telemachus",
+          "Penelope",
+          "Antinous",
+          "Eurymachus"
+        ],
+        "stay_duration": "Permanent"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "homecoming",
+          "loyalty",
+          "coming_of_age"
+        ],
+        "significance": 1.0
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "希腊伊奥尼亚群岛中的伊萨卡岛",
+        "current_name": "Ithaki"
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第2章·伊萨卡的阴云",
+        "hook": "父亲失踪二十年，少年特勒马科斯能否在群狼环伺的家中守住王位？",
+        "narrative_text": "伊萨卡的王宫不再宁静。奥德修斯失踪多年，成群的求婚者聚集在这里，挥霍着他的家产，逼迫他的妻子佩涅洛佩改嫁。特勒马科斯——奥德修斯那尚未成年的儿子，只能眼睁睁看着家园被蚕食。此时，智慧女神雅典娜化身为老友门忒斯降临。她不仅带来了奥德修斯尚在人间的希望，更点燃了少年心中的火焰，指引他召开公民大会，并出海寻找父亲的音讯。这是特勒马科斯从男孩转变为男人的第一步。",
+        "transition_to": "在雅典娜的指引下，众神也开始关注这位受难英雄的命运。",
+        "mood": "tense",
+        "key_dialogue": "“You are no longer a child: you must put away childish things.”"
+      }
+    },
+    {
+      "title": "Ethiopians",
+      "address": "Africa-Ethiopia-Ethiopia",
+      "synopsis": "海神波塞冬远赴埃塞俄比亚接受祭祀，这为众神商议奥德修斯的归途提供了契机。",
+      "source_evidence": "Now Neptune had gone off to the Ethiopians, who are at the world's end, and lie in two halves, the one looking West and the other East.",
+      "original_chapter": "Book I",
+      "part_id": "PART-1",
+      "part_title": "The Telemachy",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Aethiopia",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Neptune"
+        ],
+        "stay_duration": "Several days"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "sacrifice",
+          "divine_intervention"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "古称埃塞俄比亚，泛指当时已知世界的边缘",
+        "current_name": "Ethiopia"
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第3章·海神的远行",
+        "hook": "当最强大的敌人不在场时，转机往往悄然而至。",
+        "narrative_text": "在世界的尽头，埃塞俄比亚人正为海神波塞冬举行盛大的百牛大祭。波塞冬——这位因儿子波吕斐摩斯被刺瞎而对奥德修斯怀恨在心的神祇，正沉浸在节日的欢愉与祭品的香气中。他并不知道，正是因为他的缺席，奥林匹斯山上的众神才得以避开他的怒火，重新审视奥德修斯的苦难。这个地理上的遥远角落，无意中成为了改变奥德修斯命运的战略空窗期。",
+        "transition_to": "趁着波塞冬远在天边，众神在奥林匹斯山召开了紧急会议。",
+        "mood": "peaceful",
+        "key_dialogue": "“Neptune had gone off to the Ethiopians, who are at the world's end.”"
+      }
+    },
+    {
+      "title": "Mount Olympus",
+      "address": "Greece-Thessaly-Mount Olympus",
+      "synopsis": "众神在奥林匹斯山集会，宙斯准许了雅典娜的请求，决定让奥德修斯重返家园。",
+      "source_evidence": "but the other gods met in the house of Olympian Jove... and down she darted from the topmost summits of Olympus",
+      "original_chapter": "Book I",
+      "part_id": "PART-1",
+      "part_title": "The Telemachy",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Olympus",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Jove",
+          "Minerva",
+          "Mercury"
+        ],
+        "stay_duration": "Brief meeting"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "divine_council",
+          "fate"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "希腊最高峰，著名的自然与神话遗址",
+        "current_name": "Mount Olympus"
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第4章·众神的裁决",
+        "hook": "凡人的命运往往在云端之上的宫殿里被一言定夺。",
+        "narrative_text": "在云雾缭绕的奥林匹斯山顶，众神之王宙斯（Jove）主持了会议。雅典娜（Minerva）——这位始终守护着奥德修斯的智慧女神，言辞恳切地为这位受难的英雄辩护。她指出奥德修斯已经在孤岛上受尽折磨，而波塞冬的愤怒不应永远阻断他的归途。最终，宙斯点头应允，决定派遣信使墨丘利去通知释放奥德修斯。随着雅典娜从山巅俯冲而下，神界的意志开始转化为凡间的行动。",
+        "transition_to": "神谕下达后，目光转向了那座困住英雄多年的神秘孤岛。",
+        "mood": "ambitious",
+        "key_dialogue": "“My father, son of Saturn, King of kings, it were well indeed that he should return.”"
+      }
+    },
+    {
+      "title": "Ogygian island",
+      "address": "Mediterranean Sea-Ogygia",
+      "synopsis": "奥德修斯被仙女卡吕普索困在奥吉吉亚岛七年，渴望归乡却无能为力。",
+      "source_evidence": "Hence I was carried along for nine days till on the tenth night the gods stranded me on the Ogygian island, where dwells the great and powerful goddess Calypso.",
+      "original_chapter": "Book I",
+      "part_id": "PART-1",
+      "part_title": "The Telemachy",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Ogygia",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Ulysses",
+          "Calypso",
+          "Mercury"
+        ],
+        "stay_duration": "7 years"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "captivity",
+          "temptation",
+          "nostalgia"
+        ],
+        "significance": 0.7
+      },
+      "visitability": {
+        "status": "uncertain",
+        "note": "神话地点，常被认为对应马耳他的戈佐岛(Gozo)",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第5章·囚禁的乐园",
+        "hook": "长生不老的诱惑与绝色的女神，为何留不住一颗渴望归家的心？",
+        "narrative_text": "奥吉吉亚岛是一个充满魔力的世外桃源，森林茂密，泉水叮咚。然而对于奥德修斯来说，这里却是最美丽的牢笼。仙女卡吕普索深爱着他，甚至承诺给予他永恒的生命，只要他愿意留下做她的丈夫。但奥德修斯每天都坐在海边，望着故乡的方向流泪。他宁愿放弃神性与长生，也要回到那座乱石嶙峋的伊萨卡，回到妻子和儿子身边。这种对凡尘生活的执着，正是他英雄人格的最高体现。",
+        "transition_to": "在父亲被困孤岛的同时，特勒马科斯已经踏上了前往斯巴达的旅程。",
+        "mood": "melancholic",
+        "key_dialogue": "“I would even let her see me die, so I could but see the smoke curling up from my own land.”"
+      }
+    },
+    {
+      "title": "Sparta",
+      "address": "Greece-Peloponnese-Laconia-Sparta",
+      "synopsis": "特勒马科斯抵达斯巴达，会见墨涅拉俄斯王，得知父亲仍活在卡吕普索岛上的消息。",
+      "source_evidence": "I will also conduct him to Sparta and to Pylos, to see if he can hear anything about the return of his dear father",
+      "original_chapter": "Book II",
+      "part_id": "PART-1",
+      "part_title": "The Telemachy",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Lacedaemon",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Telemachus",
+          "Menelaus",
+          "Helen"
+        ],
+        "stay_duration": "Several days"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "hospitality",
+          "quest",
+          "revelation"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "古斯巴达遗址位于现代斯巴达市附近",
+        "current_name": "Sparti"
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第6章·斯巴达的启示",
+        "hook": "在金碧辉煌的宫廷中，少年终于听到了关于父亲最确切的消息。",
+        "narrative_text": "特勒马科斯来到了斯巴达，受到了墨涅拉俄斯王和海伦的热情款待。在这里，他不仅听到了关于特洛伊战争的英雄往事，更得到了一个至关重要的情报：墨涅拉俄斯曾在埃及从海中老人普罗透斯口中得知，奥德修斯并没有死，而是被困在了一座遥远的孤岛上，受制于仙女卡吕普索。这个消息让特勒马科斯悲喜交加，他意识到父亲归来的希望依然存在，而他必须尽快赶回伊萨卡应对那些危险的求婚者。",
+        "transition_to": "带着希望与不安，特勒马科斯准备前往下一站皮洛斯。（待续）",
+        "mood": "bittersweet",
+        "key_dialogue": "“He is in the island of the nymph Calypso, who holds him there by force.”"
+      }
+    },
+    {
+      "title": "Chios",
+      "address": "Greece-North Aegean-Chios",
+      "synopsis": "涅斯托尔与同伴在希俄斯岛商议航线，最终决定横跨公海以避开漫长的海岸线危险。",
+      "source_evidence": "for we did not know whether to go outside Chios by the island of Psyra, keeping this to our left, or inside Chios",
+      "original_chapter": "BOOK III",
+      "part_id": "PART-1",
+      "part_title": "The Odyssey",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Khios",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Nestor"
+        ],
+        "stay_duration": "A few hours"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "navigation",
+          "decision-making",
+          "sea-voyage"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Modern Chios island in Greece",
+        "current_name": "Chios"
+      },
+      "timeline": {
+        "orderIndex": 19,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第19章·希俄斯的抉择",
+        "hook": "面对未知的海域，是选择安稳的内侧还是冒险的外侧？",
+        "narrative_text": "离开莱斯博斯岛后，老英雄涅斯托尔——那位曾参加特洛伊战争、以睿智著称的皮洛斯国王，正带领船队面临一个艰难的抉择。在希俄斯岛嶙峋的海岸前，水手们争论不休：是该绕过普绪拉岛走外海，还是穿过希俄斯与大陆之间的内侧航道？海风在桅杆间呼啸，这不仅是航线的选择，更是对神灵旨意的揣摩。最终，他们祈求神示，决定采取最直接也最危险的路径，横渡公海。",
+        "transition_to": "随着船头转向开阔的深海，目标直指优卑亚岛。",
+        "mood": "tense",
+        "key_dialogue": "we asked heaven for a sign, and were shown one to the effect that we should be soonest out of danger if we headed our ships across the open sea to Euboea."
+      }
+    },
+    {
+      "title": "Euboea",
+      "address": "Greece-Central Greece-Euboea",
+      "synopsis": "船队遵循神谕横跨公海抵达优卑亚岛，成功缩短了航程并避开了潜在的伏击。",
+      "source_evidence": "we should be soonest out of danger if we headed our ships across the open sea to Euboea.",
+      "original_chapter": "BOOK III",
+      "part_id": "PART-1",
+      "part_title": "The Odyssey",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Negroponte",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Nestor"
+        ],
+        "stay_duration": "Less than a day"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "divine_guidance",
+          "maritime_safety"
+        ],
+        "significance": 0.2
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "The second-largest Greek island",
+        "current_name": "Evia"
+      },
+      "timeline": {
+        "orderIndex": 20,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第20章·横渡公海",
+        "hook": "神谕指引的航线，能否带他们逃离波塞冬的怒火？",
+        "narrative_text": "在神灵的启示下，涅斯托尔的船队没有沿着曲折的海岸线徘徊，而是毅然驶入深蓝的公海。优卑亚岛那长长的轮廓在海平线上逐渐清晰。这是一场与时间的赛跑，也是对水手意志的考验。海浪拍打着船舷，星辰指引着方向，他们深知只有尽快抵达这片陆地，才能摆脱特洛伊战争后那挥之不去的诅咒与阴影。优卑亚的出现，象征着归途中的一次重要跨越。",
+        "transition_to": "船队并未停歇，而是顺着风势继续南下，前往岛屿的最南端。",
+        "mood": "ambitious",
+        "key_dialogue": "a fair wind sprang up which gave us a quick passage during the night"
+      }
+    },
+    {
+      "title": "Geraestus",
+      "address": "Greece-Central Greece-Euboea-Geraestus",
+      "synopsis": "船队在夜航后抵达格赖斯图斯，向海神波塞冬献祭以感谢平安度过公海。",
+      "source_evidence": "a fair wind sprang up which gave us a quick passage during the night to Geraestus, where we offered many sacrifices to Neptune",
+      "original_chapter": "BOOK III",
+      "part_id": "PART-1",
+      "part_title": "The Odyssey",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Geraistos",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Nestor"
+        ],
+        "stay_duration": "One night"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "sacrifice",
+          "gratitude",
+          "Poseidon"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Ancient port near modern Kastri",
+        "current_name": "Kastri"
+      },
+      "timeline": {
+        "orderIndex": 21,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第21章·格赖斯图斯的祭坛",
+        "hook": "在深夜抵达的港口，公牛的鲜血染红了祭坛。",
+        "narrative_text": "顺风助阵，涅斯托尔的船队在夜色中疾驰，最终在优卑亚岛南端的格赖斯图斯靠岸。为了感谢海神波塞冬保佑他们平安横渡公海，英雄们在岸边举行了盛大的献祭。公牛的鸣叫与海浪声交织在一起，祭祀的烟雾升向夜空。尽管归途依然漫长，但此刻的安宁让这些疲惫的战士们感受到了一丝神灵的眷顾。然而，并非所有人都能如涅斯托尔这般幸运地得到神启。",
+        "transition_to": "当涅斯托尔讲述这段往事时，奥德修斯却在另一个时空编造着关于克里特岛的谎言。",
+        "mood": "peaceful",
+        "key_dialogue": "we offered many sacrifices to Neptune in gratitude for our having come across so great an expanse of water in safety."
+      }
+    },
+    {
+      "title": "Crete",
+      "address": "Greece-Crete-Crete",
+      "synopsis": "奥德修斯化装成乞丐，向佩内洛普编造谎言，自称是来自克里特岛的贵族并曾见过奥德修斯。",
+      "source_evidence": "There is a fair and fruitful island in mid-ocean called Crete; it is thickly peopled and there are nine cities in it... hence it was in Crete that I saw Ulysses and showed him hospitality",
+      "original_chapter": "BOOK XIX",
+      "part_id": "PART-1",
+      "part_title": "The Odyssey",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Krete",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Ulysses",
+          "Penelope"
+        ],
+        "stay_duration": "Fictional 20 days"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "deception",
+          "storytelling",
+          "identity"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Largest island in Greece",
+        "current_name": "Crete"
+      },
+      "timeline": {
+        "orderIndex": 22,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第22章·克里特岛的谎言",
+        "hook": "归来的国王坐在妻子面前，却编造了一个遥远岛屿的故事。",
+        "narrative_text": "在伊萨卡的宫殿里，奥德修斯——这位失踪二十年的国王，正伪装成一名落魄的乞丐，面对着他日思夜想的妻子佩内洛普。为了试探与隐藏，他描绘了一个繁荣的克里特岛：那里有九十座城市，各族语言交汇。他自称是克里特王室的后裔，曾在那里的诺索斯招待过奥德修斯。他用真假参半的细节编织着网，听得佩内洛普泪流满面。克里特，在这个瞬间，成了他掩盖真实身份的完美屏障。",
+        "transition_to": "谎言交织着真实，而真实的悲剧曾在苏尼翁角上演。",
+        "mood": "bittersweet",
+        "key_dialogue": "My name is Aethon; I am the younger son of Deucalion... It was there that I saw Ulysses."
+      }
+    },
+    {
+      "title": "Sunium",
+      "address": "Greece-Attica-Lavreotiki-Cape Sounion",
+      "synopsis": "墨涅拉俄斯的舵手弗龙提斯在抵达苏尼翁角时被阿波罗的利箭射中，突然去世。",
+      "source_evidence": "When we got to Sunium, which is the point of Athens, Apollo with his painless shafts killed Phrontis the steersman",
+      "original_chapter": "BOOK III",
+      "part_id": "PART-1",
+      "part_title": "The Odyssey",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Sounion",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Menelaus",
+          "Phrontis"
+        ],
+        "stay_duration": "A few days for funeral"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "death",
+          "divine_intervention",
+          "funeral"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Famous for the Temple of Poseidon",
+        "current_name": "Cape Sounion"
+      },
+      "timeline": {
+        "orderIndex": 23,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第23章·苏尼翁角的丧钟",
+        "hook": "就在雅典的门户，最优秀的舵手无声无息地倒下了。",
+        "narrative_text": "当墨涅拉俄斯的船队绕过雅典的苏尼翁角时，灾难毫无预兆地降临。弗龙提斯，这位在惊涛骇浪中从未失手的顶级舵手，被阿波罗那无痛的利箭射中，瞬间毙命。墨涅拉俄斯不得不在此停留，尽管他急于归家，却仍为这位忠诚的伙伴举行了隆重的葬礼。在陡峭的海岬上，英雄的骨灰随风散去，苏尼翁角不仅是地理的转折点，也成了归途中悲伤的注脚。",
+        "transition_to": "葬礼结束后，神灵的意志将幸存者引向了雅典的深处。",
+        "mood": "melancholic",
+        "key_dialogue": "Apollo with his painless shafts killed Phrontis the steersman of Menelaus's ship... so Menelaus, though he was in a great hurry to get on, waited to bury him."
+      }
+    },
+    {
+      "title": "Athens",
+      "address": "Greece-Attica-Athens",
+      "synopsis": "女神密涅瓦离开斯克里亚岛后前往雅典，进入了厄瑞克透斯的圣殿。",
+      "source_evidence": "Minerva... went to Marathon and the broad streets of Athens, where she entered the house of Erechtheus.",
+      "original_chapter": "BOOK VII",
+      "part_id": "PART-1",
+      "part_title": "The Odyssey",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Athenai",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Minerva"
+        ],
+        "stay_duration": "Indefinite"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "divine_journey",
+          "patronage"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "The capital of Greece",
+        "current_name": "Athens"
+      },
+      "timeline": {
+        "orderIndex": 24,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第24章·女神的归所",
+        "hook": "在凡人的纷争之外，智慧女神回到了她钟爱的城邦。",
+        "narrative_text": "密涅瓦（雅典娜）在指引奥德修斯进入法埃亚科斯宫殿后，化作一阵清风离开了斯克里亚岛。她跨过波涛汹涌的大海，经过马拉松，最终回到了雅典那宽阔的街道。她步入厄瑞克透斯那坚固的住所，那是她神力的源泉之一。在凡间英雄们为生存和荣誉挣扎时，奥林匹斯的神灵们在这些古老的城邦间穿梭，编织着命运的经纬。雅典，始终是这位智慧女神最坚实的堡垒。",
+        "transition_to": "（待续）",
+        "mood": "peaceful",
+        "key_dialogue": "Minerva... went to Marathon and the broad streets of Athens, where she entered the house of Erechtheus."
+      }
+    },
+    {
+      "title": "Gortyn",
+      "address": "Greece-Crete-Gortyn",
+      "synopsis": "墨涅拉俄斯的船队在克里特岛戈尔廷附近的岬角遭遇风暴，部分船只触礁失事。",
+      "source_evidence": "There is a high headland hereabouts stretching out into the sea from a place called Gortyn... the waves dashed the other five ships against the rocks.",
+      "original_chapter": "BOOK III",
+      "part_id": "PART-1",
+      "part_title": "The Odyssey",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Gortys",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Menelaus"
+        ],
+        "stay_duration": "A few hours during a storm"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "shipwreck",
+          "storm",
+          "divine wrath"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Ancient ruins of Gortyn are a major archaeological site.",
+        "current_name": "Gortyna"
+      },
+      "timeline": {
+        "orderIndex": 25,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第25章·碎裂在戈尔廷的残骸",
+        "hook": "在雅典的祭典之后，归途的舰队却在克里特岛遭遇了死神的镰刀。",
+        "narrative_text": "离开雅典后，墨涅拉俄斯——这位引发特洛伊战争的斯巴达国王，正带着他的战利品与荣耀返航。然而，克里特岛戈尔廷附近的险峻岬角成了他船队的噩梦。南风卷起如山般的巨浪，将五艘战船无情地拍碎在礁石上。这是众神对归途者的又一次考验，海浪的咆哮掩盖了水手的哀嚎，幸存者只能在破碎的木板间挣扎，望向那不可逾越的海岸线。",
+        "transition_to": "风暴并未止息，残存的船只被推向了更南方的海岸。",
+        "mood": "tense",
+        "key_dialogue": "the waves dashed the other five ships against the rocks"
+      }
+    },
+    {
+      "title": "Phaestus",
+      "address": "Greece-Crete-Phaistos",
+      "synopsis": "描述克里特岛海岸线时提到的地点，风暴在此处海岸造成了巨大的海浪。",
+      "source_evidence": "all along this part of the coast as far as Phaestus the sea runs high when there is a south wind blowing",
+      "original_chapter": "BOOK III",
+      "part_id": "PART-1",
+      "part_title": "The Odyssey",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Phaistos",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Menelaus"
+        ],
+        "stay_duration": "Passing by sea"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "navigation",
+          "nature's power"
+        ],
+        "significance": 0.2
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Site of the Minoan Palace of Phaistos.",
+        "current_name": "Phaistos"
+      },
+      "timeline": {
+        "orderIndex": 26,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第26章·费斯托斯的怒涛",
+        "hook": "当南风吹起，费斯托斯的海岸便成了凡人无法逾越的禁区。",
+        "narrative_text": "在戈尔廷的惨剧之后，墨涅拉俄斯的视线中出现了费斯托斯的轮廓。这里的海岸线如同一道天然的屏障，每当南风肆虐，海浪便会变得异常狂暴。虽然这里没有发生直接的战斗，但那翻滚的白浪时刻提醒着英雄们：在自然的伟力面前，即便是征服了特洛伊的勇士也显得渺小。这片海域见证了船队在绝境中寻找生机的艰难时刻。",
+        "transition_to": "在风暴的驱使下，墨涅拉俄斯最终漂流到了遥远的异国他乡。",
+        "mood": "desolate",
+        "key_dialogue": "the sea runs high when there is a south wind blowing"
+      }
+    },
+    {
+      "title": "Egypt",
+      "address": "Egypt",
+      "synopsis": "墨涅拉俄斯讲述他在从特洛伊回程途中被困在埃及，必须再次回到尼罗河献祭才能脱困。",
+      "source_evidence": "He sent me with a band of roving robbers to Egypt... I stationed my bade ships in the river Aegyptus... ravaged the land of the Egyptians.",
+      "original_chapter": "Book IV",
+      "part_id": "PART-1",
+      "part_title": "The Odyssey",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Aegyptus",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Menelaus",
+          "Proteus"
+        ],
+        "stay_duration": "Several years"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "exile",
+          "sacrifice",
+          "prophecy"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Refers to the Nile Delta region.",
+        "current_name": "Egypt"
+      },
+      "timeline": {
+        "orderIndex": 27,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第27章·尼罗河畔的困局",
+        "hook": "在异国的河流边，斯巴达国王必须面对变幻莫测的海中老人。",
+        "narrative_text": "墨涅拉俄斯在埃及滞留了漫长的岁月。他曾在这里放纵部下劫掠，也曾在这里陷入绝望。为了寻找回家的路，他在法罗斯岛抓住了能随意变形的海中老人普罗透斯。这位神灵告诉他，因为他未能在出发前向众神献祭，他必须重返尼罗河（埃及河），在那神圣的水域完成迟到的祭礼。埃及不仅是他财富的来源，更是他灵魂经受洗礼、最终获准归乡的转折点。",
+        "transition_to": "带着埃及的财宝与神谕，墨涅拉俄斯终于回到了他阔别已久的故土。",
+        "mood": "mysterious",
+        "key_dialogue": "I stationed my bade ships in the river Aegyptus"
+      }
+    },
+    {
+      "title": "Lacedaemon",
+      "address": "Greece-Peloponnese-Laconia-Lacedaemon",
+      "synopsis": "忒勒马科斯抵达拉栖代梦，在墨涅拉俄斯的宫殿中打探父亲奥德修斯的下落。",
+      "source_evidence": "But Minerva went to the fair city of Lacedaemon to tell Ulysses' son that he was to return at once. She found him and Pisistratus sleeping in the forecourt of Menelaus's house",
+      "original_chapter": "BOOK IV",
+      "part_id": "PART-1",
+      "part_title": "The Odyssey",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Lacedaemon",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Telemachus",
+          "Pisistratus",
+          "Menelaus",
+          "Helen",
+          "Eteoneus"
+        ],
+        "stay_duration": "Several days"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "hospitality",
+          "quest",
+          "royalty"
+        ],
+        "significance": 1.0
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "The site of ancient Sparta.",
+        "current_name": "Sparta"
+      },
+      "timeline": {
+        "orderIndex": 28,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第28章·斯巴达的盛宴",
+        "hook": "在金碧辉煌的宫殿里，关于失踪英雄的线索终于浮出水面。",
+        "narrative_text": "忒勒马科斯——奥德修斯那忧心忡忡的儿子，与伙伴庇西特拉托斯驾车抵达了拉栖代梦。此时，墨涅拉俄斯正为儿女举办盛大的婚礼。在这座充满异国财宝的宫殿里，海伦王后用忘忧药缓解了众人的悲伤。墨涅拉俄斯向年轻人讲述了他在埃及从普罗透斯处听到的消息：奥德修斯并未死去，而是被仙女卡吕普索困在了遥远的奥吉吉亚岛。这是忒勒马科斯寻父之旅中最关键的希望。",
+        "transition_to": "在离开这片繁华之地前，让我们回溯他们来时的必经之路。",
+        "mood": "bittersweet",
+        "key_dialogue": "She found him and Pisistratus sleeping in the forecourt of Menelaus's house"
+      }
+    },
+    {
+      "title": "Pherae",
+      "address": "Greece-Messenia-Kalamata-Pherae",
+      "synopsis": "忒勒马科斯与庇西特拉托斯在前往斯巴达途中，于费赖的狄奥克勒斯家中借宿。",
+      "source_evidence": "Then they reached Pherae where Diocles lived... Here they passed the night and Diocles entertained them hospitably.",
+      "original_chapter": "Book III",
+      "part_id": "PART-1",
+      "part_title": "The Telemachy",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Pherae",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Telemachus",
+          "Pisistratus",
+          "Diocles"
+        ],
+        "stay_duration": "One night"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "hospitality",
+          "journey"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Modern Kalamata area.",
+        "current_name": "Kalamata"
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第1章·费赖的驿站",
+        "hook": "漫长的旅途中，一处温暖的炉火是疲惫旅人最好的慰藉。",
+        "narrative_text": "在抵达斯巴达之前，奥德修斯的儿子忒勒马科斯与巢托尔之子庇西特拉托斯驱车穿过伯罗奔尼撒的平原。当夜幕降临时，他们来到了费赖。这里的领主狄奥克勒斯展现了古希腊崇高的待客之道，为这两位年轻人提供了食宿。虽然这只是旅途中的短暂一站，却体现了那个时代人与人之间基于神圣习俗的连接。充足的休息后，他们将继续向着墨涅拉俄斯的宫殿进发。",
+        "transition_to": "当忒勒马科斯在陆地奔波时，关于他父亲奥德修斯的流浪传说正在地中海的另一端展开。",
+        "mood": "peaceful",
+        "key_dialogue": "Diocles entertained them hospitably"
+      }
+    },
+    {
+      "title": "Pharos",
+      "address": "Egypt-Alexandria-Pharos Island",
+      "synopsis": "墨涅拉俄斯被困法罗斯岛，在女神指引下擒获海中老人普罗透斯以寻求归途。",
+      "source_evidence": "Now off Egypt... there is an island called Pharos... there Neptune's daughter Idothea met me.",
+      "original_chapter": "Book IV",
+      "part_id": "PART-1",
+      "part_title": "The Telemachy",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Pharos",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Menelaus",
+          "Idothea",
+          "Proteus"
+        ],
+        "stay_duration": "20 days"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "transformation",
+          "prophecy",
+          "survival"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为亚历山大港的一部分，著名的亚历山大灯塔原址",
+        "current_name": "Pharos, Alexandria"
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第2章·法罗斯的困局",
+        "hook": "无风的海面如同囚笼，墨涅拉俄斯必须抓住那个能变幻万千形状的神。",
+        "narrative_text": "在埃及海岸外的法罗斯岛，斯巴达国王墨涅拉俄斯和他的船员们陷入了绝境。整整二十天，没有一丝海风能送他们回家，粮食即将耗尽。此时，海神之女伊多忒亚现身，教导他如何伏击她的父亲——“海中老人”普罗透斯。墨涅拉俄斯披上腥臭的海豹皮，在烈日下等待。当普罗透斯上岸午睡时，他猛然扑上。尽管老神先后幻化为狮子、蛇、豹子甚至流水和巨树，墨涅拉俄斯始终死死抱住不放，最终逼迫他说出了归航的秘密。",
+        "transition_to": "普罗透斯不仅揭示了归途，还讲述了那些在归途中陨落的英雄，比如狂傲的埃阿斯。",
+        "mood": "tense",
+        "key_dialogue": "If you can lay hold of him, he will tell you about your voyage."
+      }
+    },
+    {
+      "title": "Gyrae",
+      "address": "Greece-Aegean Sea-Mykonos-Gyrae Rocks",
+      "synopsis": "小埃阿斯在归途中因狂妄自大触怒海神，在居赖岩石处被波塞冬击碎岩石淹死。",
+      "source_evidence": "Ajax was wrecked, for Neptune drove him on to the great rocks of Gyrae; ... split the rock of Gyrae in two pieces.",
+      "original_chapter": "Book IV",
+      "part_id": "PART-1",
+      "part_title": "The Telemachy",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Gyrae",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Ajax",
+          "Poseidon"
+        ],
+        "stay_duration": "A few moments"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "hubris",
+          "divine retribution",
+          "shipwreck"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Located near the island of Mykonos",
+        "current_name": "Gyaros"
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第3章·狂傲者的覆灭",
+        "hook": "在波涛汹涌的海面上，一块岩石竟成了英雄的葬身之地。",
+        "narrative_text": "在法罗斯岛的海岸边，海神普罗透斯向墨涅拉俄斯揭示了另一位英雄的悲剧。小埃阿斯——那位曾在特洛伊战场上叱咤风云的将领，在归途中遭遇了海难。原本波塞冬已将他救至居赖岩石之上，只要他保持谦卑，本可逃过一劫。然而，埃阿斯竟狂妄地叫嚣，称自己凭本事躲过了神灵的惩罚。这番亵渎激怒了波塞冬，海神挥动三叉戟劈开了岩石，埃阿斯坠入深渊，被无情的浪潮彻底吞没。",
+        "transition_to": "英雄的陨落令人唏嘘，而另一位统帅阿伽门农的归途同样在马勒阿海角遭遇了波折。",
+        "mood": "dramatic",
+        "key_dialogue": "He would have escaped death... if he had not been guilty of a great piece of overweening folly."
+      }
+    },
+    {
+      "title": "Elysian plain",
+      "address": "Earth-Elysium-Elysian Fields",
+      "synopsis": "众神预言墨涅拉俄斯死后将前往极乐净土，那里气候宜人，永无严寒。",
+      "source_evidence": "the gods will take you to the Elysian plain, which is at the ends of the world.",
+      "original_chapter": "Book IV",
+      "part_id": "PART-1",
+      "part_title": "The Telemachy",
+      "temporal_context": {
+        "era": "Mythological Age",
+        "historical_name": null,
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Menelaus",
+          "Rhadamanthus"
+        ],
+        "stay_duration": "Eternal"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "afterlife",
+          "paradise",
+          "immortality"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "uncertain",
+        "note": "A mythological location representing paradise",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第4章·极乐平原的预言",
+        "hook": "死亡并非终点，而是一场前往永恒春天的旅行。",
+        "narrative_text": "海神普罗透斯最后告诉墨涅拉俄斯，作为宙斯的女婿，他不必像普通凡人那样在阿尔戈斯面对死亡。众神将引领他前往大地尽头的厄律西翁平原。那里由拉达曼迪斯统治，没有积雪，没有严寒，甚至没有暴雨。西风之神常年吹拂着清爽的微风，为那里的居民带来凉意。这个预言给了在海上漂泊多年的墨涅拉俄斯极大的慰藉，也为他的归途画上了神圣的句号。",
+        "transition_to": "当墨涅拉俄斯沉浸在未来的安宁时，伊萨卡的局势却因诺埃蒙的询问而变得愈发紧迫。",
+        "mood": "peaceful",
+        "key_dialogue": "No snow falls there, nor is there much rain nor wild winds."
+      }
+    },
+    {
+      "title": "Asteris",
+      "address": "Greece-Ionian Islands-Ithaca-Daskalio Islet",
+      "synopsis": "求婚者们在伊萨卡与萨摩斯之间的礁石小岛设伏，企图截杀归途中的忒勒马科斯。",
+      "source_evidence": "Now there is a rocky islet called Asteris... Here then the Achaeans placed themselves in ambush.",
+      "original_chapter": "Book IV",
+      "part_id": "PART-1",
+      "part_title": "The Telemachy",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Asteris",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Antinous",
+          "Telemachus"
+        ],
+        "stay_duration": "Several days"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "conspiracy",
+          "ambush",
+          "danger"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Identified as the modern islet of Daskalio",
+        "current_name": "Daskalio"
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第5章·海峡间的杀机",
+        "hook": "在平静的海峡中心，致命的陷阱已经为年轻的王子张开。",
+        "narrative_text": "当忒勒马科斯还在伯罗奔尼撒半岛寻访父亲的踪迹时，伊萨卡的局势已降至冰点。以傲慢的安提诺俄斯为首的求婚者们，无法容忍这位继承人日益增长的威信。他们在伊萨卡与萨摩斯之间那座名为阿斯忒里的小岛旁设下埋伏。这座多岩石的小岛虽不起眼，却拥有双向的港口，是截杀归航船只的绝佳位置。求婚者们磨利了长矛，在海浪的掩护下窥视着海面，誓要让奥德修斯的血脉断绝在归乡的最后一段航程中。",
+        "transition_to": "当阴谋在海上酝酿时，远在公海的另一端，奥德修斯的命运正迎来转机，他即将抵达费阿基亚人的土地。",
+        "mood": "tense",
+        "key_dialogue": "I will lie in wait for him in the straits between Ithaca and Samos."
+      }
+    },
+    {
+      "title": "Scheria",
+      "address": "Greece-Ionian Islands-Corfu-Scheria",
+      "synopsis": "奥德修斯历经海难后到达费阿基亚人的乐土，这里是他回归故乡的最后一站。",
+      "source_evidence": "When earth-encircling Neptune heard this he went to Scheria where the Phaecians live.",
+      "original_chapter": "Book V",
+      "part_id": "PART-2",
+      "part_title": "The Wanderings of Odysseus",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Scheria",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Odysseus",
+          "Poseidon",
+          "Nausicaa"
+        ],
+        "stay_duration": "3 days"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "hospitality",
+          "salvation",
+          "utopia"
+        ],
+        "significance": 1.0
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Traditionally identified with the island of Corfu",
+        "current_name": "Corfu"
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第1章·费阿基亚的海岸",
+        "hook": "赤身裸体的英雄被海浪冲上沙滩，迎接他的是毁灭还是救赎？",
+        "narrative_text": "奥德修斯——这位在海上漂泊了十年的英雄，终于离开了卡吕普索的岛屿。然而，愤怒的海神波塞冬绝不轻易放过他，用滔天巨浪击碎了他的木筏。在女神莱科托厄的帮助下，奥德修斯精疲力竭地游向了斯赫里亚岛。这里是费阿基亚人的土地，一个受神眷顾、远离尘嚣的世外桃源。他在河口边的灌木丛中沉沉睡去，直到被洗衣少女们的欢笑声唤醒，而其中最美丽的便是公主瑙西卡。费阿基亚人将成为他重返伊萨卡的最后助力。",
+        "transition_to": "在费阿基亚的宫廷中，奥德修斯开始讲述他那些真假参半的流浪故事，其中包括他在腓尼基的虚构遭遇。",
+        "mood": "dramatic",
+        "key_dialogue": "Alas, what manner of people am I come among?"
+      }
+    },
+    {
+      "title": "Phoenicia",
+      "address": "Lebanon-Mount Lebanon-Sidon-Phoenicia",
+      "synopsis": "奥德修斯在虚构的故事中提到被一名狡诈的腓尼基商人诱骗，在此居住一年。",
+      "source_evidence": "Now to this place there came some cunning traders from Phoenicia... He wheedled me into going with him to Phoenicia.",
+      "original_chapter": "Book XIV",
+      "part_id": "PART-2",
+      "part_title": "The Wanderings of Odysseus",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Phoenicia",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Odysseus"
+        ],
+        "stay_duration": "One year"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "deception",
+          "trade",
+          "slavery"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "古代腓尼基地区，现黎巴嫩沿海",
+        "current_name": "Lebanon Coast"
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第2章·商人的诡计",
+        "hook": "在虚构的航程中，奥德修斯本以为找到了依靠，却不知已落入陷阱。",
+        "narrative_text": "奥德修斯化身为一名落难的克里特人，向牧猪人欧迈俄斯讲述他的虚构经历。他声称在离开埃及后，遇到了一名老谋深算的腓尼基商人。那人以花言巧语骗取了他的信任，将他带到了腓尼基。在那里，奥德修斯寄人篱下整整一年。然而，这名商人并非真心款待，而是计划在前往利比亚的航程中，将这位疲惫的英雄当作货物卖掉。这段经历展现了当时地中海贸易中潜藏的危险与欺诈，也体现了奥德修斯善于编织谎言的天赋。",
+        "transition_to": "谎言的足迹继续延伸，指向了利比亚那片充满背叛的海域。",
+        "mood": "tense",
+        "key_dialogue": "He wheedled me into going with him to Phoenicia, where his house and possessions lay."
+      }
+    },
+    {
+      "title": "Libya",
+      "address": "Libya-Cyrenaica-Libya Coast",
+      "synopsis": "在奥德修斯的叙述中，他险些在利比亚被卖为奴隶，但海难改变了命运。",
+      "source_evidence": "he set me on board a ship bound for Libya... but really that he might sell me as a slave",
+      "original_chapter": "Book XIV",
+      "part_id": "PART-2",
+      "part_title": "The Wanderings of Odysseus",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Libya",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Odysseus"
+        ],
+        "stay_duration": "Passing by sea"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "betrayal",
+          "shipwreck",
+          "survival"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "北非利比亚沿海",
+        "current_name": "Libya"
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第3章·奴隶的阴影",
+        "hook": "当船只驶向利比亚，奥德修斯意识到自己不再是客人，而是货物。",
+        "narrative_text": "在奥德修斯编造的故事中，那名腓尼基商人终于露出了真面目。当船只驶离克里特岛，向着利比亚进发时，商人计划在那里将奥德修斯卖掉换取巨款。然而，宙斯不容许这种背信义的行为。当利比亚的海岸线尚未清晰时，一场恐怖的雷暴袭击了船只。桅杆折断，船员落水，奥德修斯紧抱着桅杆在波涛中挣扎了九天。利比亚成了他虚构噩梦的终点，也是他下一次漂流的起点。",
+        "transition_to": "从个人的苦难转向史诗的宏大，奥德修斯在冥界窥见了忒拜城的悲剧。",
+        "mood": "dramatic",
+        "key_dialogue": "Jove let fly with his thunderbolts."
+      }
+    },
+    {
+      "title": "Thebes",
+      "address": "Greece-Central Greece-Boeotia-Thebes",
+      "synopsis": "奥德修斯在冥界见到了忒拜城的建立者与悲剧之王俄狄浦斯的灵魂。",
+      "source_evidence": "These founded Thebes with its seven gates... whereon he remained king of Thebes, in great grief.",
+      "original_chapter": "Book XI",
+      "part_id": "PART-2",
+      "part_title": "The Wanderings of Odysseus",
+      "temporal_context": {
+        "era": "Mythological Age",
+        "historical_name": "Thebes",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Odysseus",
+          "Amphion",
+          "Zethus",
+          "OEdipodes"
+        ],
+        "stay_duration": "N/A (Vision in Hades)"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "mythology",
+          "tragedy",
+          "kingship"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "希腊古城忒拜，现仍为重要城镇",
+        "current_name": "Thiva"
+      },
+      "timeline": {
+        "orderIndex": 9,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第4章·七门之城的幽灵",
+        "hook": "在冥界的阴影中，奥德修斯窥见了那座被诅咒之城的辉煌与哀伤。",
+        "narrative_text": "当奥德修斯在冥界召唤亡魂时，他见到了许多古代英雄的母亲。她们向他展示了忒拜城的往昔：安提俄珀的儿子们如何亲手筑起七门之城的宏伟城墙。随后，他也见到了俄狄浦斯（OEdipodes）的母亲。那个杀父娶母的悲剧之王，在众神的诅咒下，依然在忒拜承受着无尽的痛苦。这座城市在叙述中不仅是地理坐标，更是命运无常的象征，提醒着奥德修斯凡人荣耀的脆弱。",
+        "transition_to": "英雄的旅程终将回到原点，奥德修斯的名声已传遍整个赫拉斯，等待他的是最后的决战。",
+        "mood": "desolate",
+        "key_dialogue": "I saw also the mother of OEdipodes, fair Epicaste."
+      }
+    },
+    {
+      "title": "Ogygia",
+      "address": "Malta-Gozo-Calypso's Cave",
+      "synopsis": "奥德修斯被困在女神卡吕普索的岛上长达七年，直到宙斯下令释放他。",
+      "source_evidence": "There he is, lying in great pain in an island where dwells the nymph Calypso, who will not let him go; and he cannot get back to Ithaca, for he has no ships nor crew to take him over the wide sea.",
+      "original_chapter": "BOOK V",
+      "part_id": "PART-1",
+      "part_title": "The Wanderings of Odysseus",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Ogygia",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Odysseus",
+          "Calypso",
+          "Hermes"
+        ],
+        "stay_duration": "7 years"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "captivity",
+          "longing",
+          "divine intervention"
+        ],
+        "significance": 1.0
+      },
+      "visitability": {
+        "status": "uncertain",
+        "note": "Often identified with Gozo in Malta, specifically Calypso's Cave.",
+        "current_name": "Gozo"
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第1章·囚于女神的温柔乡",
+        "hook": "在无尽的海浪声中，英雄奥德修斯竟成了女神的“囚徒”？",
+        "narrative_text": "在波涛汹涌的奥吉吉亚岛上，奥德修斯——这位曾在特洛伊战场上叱咤风云的英雄，正陷入一种温柔的绝望。美丽的女神卡吕普索深深爱着他，承诺只要他留下，便赐予他永生。然而，奥德修斯每日坐在海边，泪流满面地望着家乡伊萨卡的方向。直到神使赫耳墨斯（Hermes）奉宙斯之命降临，传达了必须释放他的神谕。卡吕普索虽满心不舍，也只能协助他建造木筏。这位饱经沧桑的流浪者，终于在被困七年后，再次投身于变幻莫测的大海。",
+        "transition_to": "离开女神的岛屿后，奥德修斯遭遇了海神波塞冬的雷霆之怒，而神使的足迹曾掠过那片山脉。",
+        "mood": "melancholic",
+        "key_dialogue": "My heart is always broken with longing for my home and for my going day."
+      }
+    },
+    {
+      "title": "Pieria",
+      "address": "Greece-Central Macedonia-Pieria-Mount Olympus",
+      "synopsis": "神使赫耳墨斯飞越皮埃里亚山脉，前往奥吉吉亚岛传达宙斯的旨意。",
+      "source_evidence": "flew holding it in his hand over Pieria; then he swooped down through the firmament till he reached the level of the sea",
+      "original_chapter": "BOOK V",
+      "part_id": "PART-1",
+      "part_title": "The Wanderings of Odysseus",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Pieria",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Hermes"
+        ],
+        "stay_duration": "Moments"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "divine_mission",
+          "flight"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "A regional unit in Central Macedonia, home to Mount Olympus",
+        "current_name": "Pieria"
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第2章·神使的飞翔",
+        "hook": "金色的凉鞋划过山巅，众神的旨意不可违抗。",
+        "narrative_text": "为了终结奥德修斯的苦难，宙斯派出了他的使者赫耳墨斯。这位脚踏金翅凉鞋的神祇，从奥林匹斯山俯冲而下，掠过白雪皑皑的皮埃里亚山脉。皮埃里亚不仅是缪斯女神的故乡，更是连接天界与凡间的门户。赫耳墨斯像一只捕鱼的海鸥，贴着海浪疾驰，他的目标是那座孤独的海外孤岛奥吉吉亚，去向女神卡吕普索下达释放奥德修斯的最高指令。这一飞翔标志着英雄漫长归途的真正开始。",
+        "transition_to": "然而，并非所有神灵都乐见英雄的归航，复仇的目光正从另一座山巅投向大海。",
+        "mood": "mysterious",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "Solymi",
+      "address": "Turkey-Antalya-Termessos-Mount Solymus",
+      "synopsis": "波塞冬从索里米山俯瞰大海，发现了正欲逃离苦海的奥德修斯。",
+      "source_evidence": "caught sight of Ulysses a long way off, from the mountains of the Solymi.",
+      "original_chapter": "BOOK V",
+      "part_id": "PART-1",
+      "part_title": "The Wanderings of Odysseus",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Solymi",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Poseidon",
+          "Odysseus"
+        ],
+        "stay_duration": "Moments"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "wrath",
+          "observation",
+          "fate"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Located in the Taurus Mountains near Antalya",
+        "current_name": "Güllük Dağı"
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第3章·海神的怒视",
+        "hook": "当英雄以为即将获得自由时，复仇者的眼睛正从云端注视着他。",
+        "narrative_text": "波塞冬从埃塞俄比亚人的宴会归来，正经过索里米山脉。他站在高耸入云的山巅，目光如炬，穿透了层层海雾。就在那一刻，他瞥见了正在海面上驾驶木筏的奥德修斯。这位海神怒火中烧，因为众神趁他不在时竟达成了让奥德修斯回家的协议。他愤怒地摇动三叉戟，召唤起四方的狂风，发誓要在奥德修斯到达费阿基亚之前，再给他最后一次致命的打击。山脉见证了神灵对凡人命运的残酷干预。",
+        "transition_to": "在掀起足以毁灭英雄的风暴后，海神心满意足地回到了他的深海宫殿。",
+        "mood": "tense",
+        "key_dialogue": "“Look you now, how the gods have changed their minds about Ulysses while I was away!”"
+      }
+    },
+    {
+      "title": "Aegae",
+      "address": "Greece-Achaea-Aigeira-Temple of Poseidon",
+      "synopsis": "在海上施展神威后，波塞冬回到了他在埃盖的宏伟宫殿。",
+      "source_evidence": "On this he lashed his horses and drove to Aegae where his palace is.",
+      "original_chapter": "BOOK V",
+      "part_id": "PART-1",
+      "part_title": "The Wanderings of Odysseus",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Aegae",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Poseidon"
+        ],
+        "stay_duration": "Indefinite"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "divine_residence",
+          "power"
+        ],
+        "significance": 0.25
+      },
+      "visitability": {
+        "status": "demolished",
+        "note": "Ancient city in Achaea, now ruins near Akrata",
+        "current_name": "Aigeira"
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第4章·深海的归宿",
+        "hook": "风暴平息，神灵归位，留下凡人在波涛中挣扎。",
+        "narrative_text": "波塞冬在海上肆虐一番后，驱使着长鬃的金马，踏着波浪回到了他在埃盖的宫殿。埃盖是海神的圣地，那里矗立着金碧辉煌的深海府邸。神灵的惩罚已经降下，奥德修斯的木筏在风暴中解体。波塞冬在宫殿中安歇，而奥德修斯则凭借着女神伊诺的围巾，在冰冷的海水中苦苦支撑，最终漂向了费阿基亚人的土地。这里是神权与凡人意志的交界点。",
+        "transition_to": "当奥德修斯在费阿基亚的岸边沉睡时，一段关于这片土地先民的往事被揭开。",
+        "mood": "desolate",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "Hypereia",
+      "address": "Italy-Sicily-Mount Etna Region",
+      "synopsis": "费阿基安人的故土，因不堪独眼巨人的骚扰而被迫举族迁徙。",
+      "source_evidence": "a people who used to live in the fair town of Hypereia, near the lawless Cyclopes. Now the Cyclopes were stronger than they and used to ill-treat them, so their king Nausithous settled them in Scheria.",
+      "original_chapter": "BOOK VI",
+      "part_id": "PART-1",
+      "part_title": "The Wanderings of Odysseus",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Hypereia",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Nausithous"
+        ],
+        "stay_duration": "Generations"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "migration",
+          "conflict",
+          "ancestry"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "uncertain",
+        "note": "Mythological location, sometimes associated with Sicily.",
+        "current_name": "Sicily"
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第5章·被迫离弃的家园",
+        "hook": "在文明与野蛮的边界，费阿基安人曾经历过怎样的逃亡？",
+        "narrative_text": "在奥德修斯即将抵达新世界的背景中，一段关于费阿基安人的往事被揭开。海波里亚曾是他们的乐土，但那里紧邻残暴的独眼巨人族。那些无法无天的巨人凭借蛮力不断侵扰费阿基安人。为了族人的生存，老国王纳乌西托斯不得不带领全体子民进行了一场大迁徙，远离了这片充满威胁的土地。这段历史解释了为何费阿基安人如今居住在与世隔绝的斯赫里亚岛，并对陌生人保持着一种微妙的警惕。",
+        "transition_to": "当凡人在尘世迁徙时，奥林匹斯山上的众神正注视着这一切的终局。",
+        "mood": "desolate",
+        "key_dialogue": "The Cyclopes were stronger than they and used to ill-treat them."
+      }
+    },
+    {
+      "title": "Olympus",
+      "address": "Greece-Thessaly-Mount Olympus-Peak Mytikas",
+      "synopsis": "众神的永恒居所，雅典娜在此策划了奥德修斯与瑙西卡的相遇。",
+      "source_evidence": "As she spoke she shed sleep over his eyes, and then went back to Olympus, where they say the blessed gods have their home for ever and ever.",
+      "original_chapter": "BOOK VI",
+      "part_id": "PART-1",
+      "part_title": "The Wanderings of Odysseus",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Olympus",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Athena"
+        ],
+        "stay_duration": "Eternal"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "divinity",
+          "guidance",
+          "serenity"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "National Park and World Biosphere Reserve.",
+        "current_name": "Mount Olympus"
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第6章·神界的宁静指引",
+        "hook": "在没有风雨雪的永恒阳光下，女神正编织着凡人的命运。",
+        "narrative_text": "奥林匹斯山，众神那永恒且宁静的家园。这里没有狂风，没有暴雨，也没有积雪，只有无尽的灿烂阳光。智慧女神雅典娜（Athena）——这位一直暗中守护奥德修斯的女神，在潜入费阿基安公主瑙西卡的梦境、指引她前往海边洗衣后，便轻盈地回到了这座神山。她的干预如同微风掠过水面，精准地将落难的英雄引向他唯一的救赎机会。神界的宁静与凡间奥德修斯的狼狈形成了鲜明对比。",
+        "transition_to": "雅典娜的指引让瑙西卡来到了海边，而诗人用古老的山脉来形容这位少女的英姿。",
+        "mood": "peaceful",
+        "key_dialogue": "It is never shaken by winds, or wet with rain, nor does it ever snow; but the air is outspread clear and cloudless, and the glory of a white light encompasses it for ever."
+      }
+    },
+    {
+      "title": "Delos",
+      "address": "Greece-South Aegean-Delos-Sanctuary of Apollo",
+      "synopsis": "奥德修斯回忆中阿波罗祭坛旁的棕榈树，用来赞美瑙西卡的高雅。",
+      "source_evidence": "I can only compare you to a young palm tree which I saw when I was at Delos growing near the altar of Apollo—for I did go there once with many people coming after me.",
+      "original_chapter": "BOOK VI",
+      "part_id": "PART-1",
+      "part_title": "The Wanderings of Odysseus",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Delos",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Odysseus"
+        ],
+        "stay_duration": "Brief visit (Past)"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "memory",
+          "homage",
+          "eloquence"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Extensive archaeological site, UNESCO World Heritage.",
+        "current_name": "Delos"
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第7章·提洛岛的棕榈记忆",
+        "hook": "一棵记忆中的棕榈树，如何化作打动人心的赞美？",
+        "narrative_text": "面对受惊的瑙西卡，奥德修斯展现了他卓越的口才。他没有贸然靠近，而是站在远处用最动人的辞藻赞美她。他回忆起多年前在圣岛提洛岛，在阿波罗的神圣祭坛旁，曾见过一株向上挺拔、美得令人屏息的年轻棕榈树。他说，眼前的少女正如同那株棕榈树一般，让他既感到敬畏又满怀希望。这段关于提洛岛的往事不仅证明了奥德修斯曾有的尊贵身份，更成功消解了少女的戒备，为他赢得了救助。",
+        "transition_to": "在瑙西卡的指引下，奥德修斯即将前往费阿基安人的都城，而女神已先行一步。",
+        "mood": "nostalgic",
+        "key_dialogue": "I can only compare you to a young palm tree which I saw when I was at Delos growing near the altar of Apollo."
+      }
+    },
+    {
+      "title": "Marathon",
+      "address": "Greece-Attica-Marathon-Plain of Marathon",
+      "synopsis": "智慧女神雅典娜离开费阿基亚后，跨越海洋经过马拉松，最终抵达雅典。",
+      "source_evidence": "She went to Marathon and to the spacious streets of Athens, where she entered the abode of Erechtheus.",
+      "original_chapter": "BOOK VII",
+      "part_id": "PART-1",
+      "part_title": "The Wanderings of Odysseus",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Marathon",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Athena"
+        ],
+        "stay_duration": "Brief passage"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "divine journey",
+          "transition"
+        ],
+        "significance": 0.2
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Ancient battlefield and town still exist",
+        "current_name": "Marathonas"
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第8章·女神的归途",
+        "hook": "在指引奥德修斯进入王宫后，女神悄然离去，她的足迹跨越了山海。",
+        "narrative_text": "雅典娜在确保英雄已经安全抵达费阿基亚人的都城后，化作一阵清风离开了。她掠过波涛汹涌的海洋，降落在马拉松的平原之上。这里尚未成为后世闻名的战场，此时只是她通往雅典圣地的必经之路。女神步履轻盈，穿过宽阔的街道，最终回到了她钟爱的雅典，进入了埃里克修斯的殿堂。她的离去预示着奥德修斯必须独自面对接下来的外交考验，去说服那里的国王与王后。",
+        "transition_to": "而在费阿基亚的宫廷深处，奥德修斯正站在那扇青铜的大门前。",
+        "mood": "peaceful",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "House of Alcinous",
+      "address": "Greece-Corfu-Palaiokastritsa-House of Alcinous",
+      "synopsis": "奥德修斯进入金碧辉煌的阿尔基努斯宫殿，向王后阿瑞忒乞求归乡的帮助。",
+      "source_evidence": "Ulysses went on to the house of Alcinous, and he pondered much as he paused a while before reaching the threshold of bronze",
+      "original_chapter": "BOOK VII",
+      "part_id": "PART-1",
+      "part_title": "The Wanderings of Odysseus",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Scheria",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Odysseus",
+          "Alcinous",
+          "Arete"
+        ],
+        "stay_duration": "Several days"
+      },
+      "cultural_tags": {
+        "category": "architectural",
+        "themes": [
+          "hospitality",
+          "splendor",
+          "supplication"
+        ],
+        "significance": 0.95
+      },
+      "visitability": {
+        "status": "uncertain",
+        "note": "Associated with ancient Corcyra (Corfu)",
+        "current_name": "Corfu"
+      },
+      "timeline": {
+        "orderIndex": 9,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第9章·青铜的殿堂",
+        "hook": "面对如神明般辉煌的宫殿，这位落魄的英雄能否赢得国王的怜悯？",
+        "narrative_text": "奥德修斯站在阿尔基努斯国王那令人目眩神迷的宫殿前。墙壁贴满青铜，大门闪耀着黄金与白银的光芒。在雅典娜施放的迷雾保护下，他穿过宴席，直到走到王后阿瑞忒的膝前。迷雾散去，他突然现身，哀求王后能怜悯他这个受尽苦难的流浪者，送他返回故乡。阿尔基努斯国王展现了极高的好客之道，不仅赐予他席位，更承诺将派船送他回家。在这里，奥德修斯开始感受久违的人间温情。",
+        "transition_to": "宴会上的歌者唱起了特洛伊的往事，勾起了关于皮托神谕的回忆。",
+        "mood": "dramatic",
+        "key_dialogue": "“Queen Arete, daughter of great Rhexenor, I have come to you and to your husband, and to these your guests, in my great distress.”"
+      }
+    },
+    {
+      "title": "Pytho",
+      "address": "Greece-Central Greece-Phocis-Delphi",
+      "synopsis": "阿伽门农曾在皮托咨询神谕，阿波罗预言了希腊英雄之间注定的争吵。",
+      "source_evidence": "Apollo had foretold him this at Pytho when he crossed the stone floor to consult the oracle.",
+      "original_chapter": "BOOK VIII",
+      "part_id": "PART-1",
+      "part_title": "The Wanderings of Odysseus",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Pytho",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Agamemnon",
+          "Apollo"
+        ],
+        "stay_duration": "Brief visit in flashback"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "prophecy",
+          "fate",
+          "conflict"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Now the archaeological site of Delphi",
+        "current_name": "Delphi"
+      },
+      "timeline": {
+        "orderIndex": 10,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第10章·石阶上的神谕",
+        "hook": "在战争爆发前，阿波罗的预言早已揭示了英雄们内部的裂痕。",
+        "narrative_text": "在费阿基亚的宴会上，盲诗人德莫多科斯唱起了奥德修斯与阿喀琉斯的争吵。这段歌谣让人们回想起多年前，希腊联军统帅阿伽门农曾前往皮托（即德尔斐）咨询神谕。当他跨过那冰冷的石铺地面时，阿波罗通过祭司预言，当希腊最优秀的英雄们发生内讧时，特洛伊陷落的开端便近了。这段往事在宴会厅中回荡，令隐瞒身份的奥德修斯掩面哭泣，也让在场的人们感受到了命运那不可违抗的沉重感。",
+        "transition_to": "当宴会结束，奥德修斯终于向国王坦露身份，开始讲述他那段失落的故土往事。",
+        "mood": "mysterious",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "Ortygia",
+      "address": "Greece-South Aegean-Syros-Ortygia",
+      "synopsis": "猪倌尤迈厄斯回忆起家乡奥尔提吉亚，那是一个富足长寿的理想之国。",
+      "source_evidence": "bove Ortygia, where the land begins to turn round and look in another direction. It is not very thickly peopled, but the soil is good, with much pasture fit for cattle and sheep, and it abounds with wine and wheat.",
+      "original_chapter": "BOOK XV",
+      "part_id": "PART-2",
+      "part_title": "The Return to Ithaca",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Ortygia",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Eumaeus",
+          "Odysseus"
+        ],
+        "stay_duration": "Childhood years"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "nostalgia",
+          "utopia",
+          "childhood"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Often associated with the island of Syros",
+        "current_name": "Syros"
+      },
+      "timeline": {
+        "orderIndex": 11,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第1章·失落的故土",
+        "hook": "忠诚的仆人曾是王子，一段关于诱拐与流浪的往事。",
+        "narrative_text": "在伊萨卡的火堆旁，忠诚的猪倌尤迈厄斯向伪装成乞丐的奥德修斯倾诉身世。他提到了自己的家乡奥尔提吉亚，那是一个位于日落方向的奇妙岛屿。那里没有饥饿，没有疾病，当人们年老时，阿波罗会用温柔的箭结束他们的生命。尤迈厄斯的父亲曾是那里的国王。然而，一个邪恶的腓尼基女仆和一群海盗毁掉了这一切，将年幼的王子拐卖到了伊萨卡。这段叙述为英雄的归家之路增添了一抹同病相怜的哀伤。",
+        "transition_to": "英雄的旅程终将结束，所有的流浪都将汇聚成归乡的史诗。",
+        "mood": "nostalgic",
+        "key_dialogue": "“There is an island called Syra... over Ortygia, where the land begins to turn round.”"
+      }
+    },
+    {
+      "title": "Paphos",
+      "address": "Cyprus-Paphos-Paphos",
+      "synopsis": "爱与美之神阿佛洛狄忒在赫菲斯托斯的网中受辱后，回到帕福斯的圣林寻求庇护与洗礼。",
+      "source_evidence": "laughter-loving Venus to Cyprus and to Paphos, where is her grove and her altar fragrant with burnt offerings.",
+      "original_chapter": "BOOK VIII",
+      "part_id": "PART-1",
+      "part_title": "The Wanderings of Ulysses",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Paphos",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Venus",
+          "Graces"
+        ],
+        "stay_duration": "Short stay"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "mythology",
+          "divine_retribution",
+          "beauty"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "UNESCO World Heritage site with ancient temple ruins",
+        "current_name": "Paphos"
+      },
+      "timeline": {
+        "orderIndex": 61,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第61章·女神的隐秘圣地",
+        "hook": "在众神的嘲笑声中，受辱的女神将去往何方寻求慰藉？",
+        "narrative_text": "在斐阿基亚宫廷的宴会上，盲诗人德莫多科斯歌颂着众神的往事。当唱到战神阿瑞斯与爱神阿佛洛狄忒（Venus）的私情被火神赫菲斯托斯用金网当众揭穿时，羞愧难当的阿佛洛狄忒逃离了奥林匹斯山。她回到了位于塞浦路斯的帕福斯，那是她的领地，拥有香火不断的祭坛和静谧的圣林。在这里，美惠三女神（Graces）为她沐浴更衣，用神圣的香油涂抹她的身体，让她重新焕发出永恒的魅力。这段插曲虽是歌谣，却映照出奥德修斯在异乡漂泊中对尊严与归宿的复杂情感。",
+        "transition_to": "歌声落下，奥德修斯在泪水中开始讲述他那被诅咒的归途，首先回到了那场战争的余烬。",
+        "mood": "mysterious",
+        "key_dialogue": "There the Graces bathed her, and anointed her with oil of ambrosia such as the immortal gods make use of."
+      }
+    },
+    {
+      "title": "Phaeacian place of assembly",
+      "address": "Scheria-Phaeacia-Place of Assembly",
+      "synopsis": "奥德修斯在广场竞技中展示惊人神力，赢得了斐阿基亚人的尊重与归乡的承诺。",
+      "source_evidence": "Alcinous led the way to the Phaecian place of assembly, which was near the ships.",
+      "original_chapter": "BOOK VIII",
+      "part_id": "PART-1",
+      "part_title": "The Wanderings of Ulysses",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Scheria",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Alcinous",
+          "Ulysses",
+          "Minerva",
+          "Euryalus",
+          "Laodamas"
+        ],
+        "stay_duration": "1 day"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "competition",
+          "honor",
+          "hospitality"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "uncertain",
+        "note": "Mythological location often associated with Corfu",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 62,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第62章·力量的自证",
+        "hook": "面对年轻后辈的挑衅，这位落魄的流亡者能否重现英雄神采？",
+        "narrative_text": "国王阿尔基诺俄斯（Alcinous）带领奥德修斯（Ulysses）来到海边的议事广场。为了款待这位尊贵的客人，斐阿基亚的年轻人举行了盛大的竞技会。当狂傲的欧律阿罗斯（Euryalus）出言不逊，嘲讽奥德修斯只是一介唯利是图的商人而非战士时，奥德修斯被激怒了。他甚至没有脱下外袍，便抓起一块比所有人用的都大得多的石饼，奋力一掷，石饼呼啸着飞过了所有选手的标记。在智慧女神雅典娜（Minerva）化身的裁判欢呼声中，奥德修斯向所有人宣告：即便饱经苦难，英雄的筋骨依然不可撼动。",
+        "transition_to": "在随后的晚宴上，奥德修斯终于揭开身份，将思绪带回了离开特洛伊后的第一场血战。",
+        "mood": "dramatic",
+        "key_dialogue": "I am not so high a man as you take me for... but I will try my hand with the discus."
+      }
+    },
+    {
+      "title": "Ismarus",
+      "address": "Greece-East Macedonia and Thrace-Rhodope-Ismarus",
+      "synopsis": "奥德修斯离开特洛伊后的首战，因贪婪与逗留导致惨重伤亡，开启了漫长的厄运。",
+      "source_evidence": "When I had set sail thence the wind took me first to Ismarus, which is the city of the Cicons. There I sacked the town and put the people to the sword.",
+      "original_chapter": "BOOK IX",
+      "part_id": "PART-1",
+      "part_title": "The Wanderings of Ulysses",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Ismarus",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Ulysses"
+        ],
+        "stay_duration": "2 days"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "warfare",
+          "greed",
+          "consequence"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Ancient ruins near modern Maroneia",
+        "current_name": "Ismaros"
+      },
+      "timeline": {
+        "orderIndex": 63,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第63章·贪婪的代价",
+        "hook": "胜利后的狂欢往往是灾难的序曲，奥德修斯的船员们犯下了致命错误。",
+        "narrative_text": "离开特洛伊的硝烟，奥德修斯（Ulysses）的船队首先抵达了基科涅斯人的城市伊斯马罗斯。他们洗劫了城市，夺走了财宝和妇女。奥德修斯睿智地敦促船员立即撤离，但被胜利冲昏头脑的士兵们却在岸边宰羊杀牛，饮酒狂欢。趁着夜色，基科涅斯人从内陆召集了援军。黎明时分，反击如潮水般涌来。奥德修斯眼睁睁看着每艘船都失去了六名同伴，他们在血腥的激战中被迫撤回海上。这是归途中第一次惨痛的教训：不听统帅之言的代价是生命。",
+        "transition_to": "带着丧友的哀痛，船队继续南下，却在马里阿角遭遇了改变命运的风暴。",
+        "mood": "desolate",
+        "key_dialogue": "I told them to leave at once, but they would not listen to me, for they were fools."
+      }
+    },
+    {
+      "title": "Cape Malea",
+      "address": "Greece-Peloponnese-Laconia-Cape Malea",
+      "synopsis": "在即将绕过家乡门户的关键时刻，狂风将奥德修斯吹离了航线，推向未知的魔域。",
+      "source_evidence": "I should have got home at that time unharmed had not the North wind and the currents been against me as I was doubling Cape Malea",
+      "original_chapter": "BOOK IX",
+      "part_id": "PART-1",
+      "part_title": "The Wanderings of Ulysses",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Malea",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Ulysses"
+        ],
+        "stay_duration": "Passing"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "storm",
+          "fate",
+          "navigation"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "A dangerous cape known for its storms",
+        "current_name": "Cape Maleas"
+      },
+      "timeline": {
+        "orderIndex": 64,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第64章·家门前的风暴",
+        "hook": "故乡的海岸线已隐约可见，为何命运却在最后一刻转舵？",
+        "narrative_text": "奥德修斯（Ulysses）的船队艰难地绕过伯罗奔尼撒半岛。只要翻过马里阿角，伊萨卡的港湾就在不远处。然而，大海之神似乎并不打算轻易放过他。北风夹杂着湍急的洋流突然爆发，像一只无形的巨手，将船只从航线上生生拽走。在狂风巨浪中，船员们只能收起风帆，任由船只在波涛中颠簸。这一刻，家乡的幻影在海平线上消失，取而代之的是无边无际的公海，他们正被推向已知的地理边界之外。",
+        "transition_to": "风暴持续了九天九夜，当海面平静时，他们发现自己来到了一片诡异的岛屿。",
+        "mood": "tense",
+        "key_dialogue": "The North wind and the currents been against me as I was doubling Cape Malea."
+      }
+    },
+    {
+      "title": "Cythera",
+      "address": "Greece-Attica-Kythira",
+      "synopsis": "船队被风暴吹离基西拉岛，彻底迷失在通往神秘世界的航道上。",
+      "source_evidence": "and set me off my course hard by the island of Cythera.",
+      "original_chapter": "BOOK IX",
+      "part_id": "PART-1",
+      "part_title": "The Wanderings of Ulysses",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Cythera",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Ulysses"
+        ],
+        "stay_duration": "Passing"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "lost",
+          "sea_voyage"
+        ],
+        "significance": 0.2
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Island in Greece",
+        "current_name": "Kythira"
+      },
+      "timeline": {
+        "orderIndex": 65,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第65章·迷失的基西拉",
+        "hook": "越过这座岛屿，便是凡人罕至的禁区。",
+        "narrative_text": "基西拉岛（Cythera）的轮廓在暴雨中一闪而过。奥德修斯（Ulysses）试图靠岸避风，但狂暴的北风毫不留情地将他们推向更南方。这座本该是航标的岛屿，成了他们与文明世界最后的告别点。从此往后，星辰不再指引熟悉的道路，海图失去了意义。在接下来的九天里，他们在波涛中挣扎，直到第十天，一种奇异的香气穿透了海水的咸腥，预示着一个完全不同的世界即将开启。",
+        "transition_to": "当船只终于靠岸，他们踏上了一片充满诱惑与遗忘的土地。",
+        "mood": "mysterious",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "Land of the Lotus-eaters",
+      "address": "Tunisia-Medenine-Djerba",
+      "synopsis": "船员因食用神奇的莲花而丧失归志，奥德修斯不得不采取强硬手段挽救同伴。",
+      "source_evidence": "on the tenth day we reached the land of the Lotus-eater, who live on a food that comes from a kind of flower.",
+      "original_chapter": "BOOK IX",
+      "part_id": "PART-1",
+      "part_title": "The Wanderings of Ulysses",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Land of the Lotus-eaters",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Ulysses"
+        ],
+        "stay_duration": "1 day"
+      },
+      "cultural_tags": {
+        "category": "folklore",
+        "themes": [
+          "temptation",
+          "oblivion",
+          "leadership"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Traditionally identified as the island of Djerba",
+        "current_name": "Djerba"
+      },
+      "timeline": {
+        "orderIndex": 66,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第66章·遗忘的甜美诱惑",
+        "hook": "如果有一种食物能让你忘记所有的痛苦与责任，你愿意吃下它吗？",
+        "narrative_text": "奥德修斯（Ulysses）派出了三名侦察兵去探查这片土地。这里的居民——食莲者，并无恶意，他们慷慨地分享了一种神奇的莲花。然而，任何吃下这种花的人都会瞬间丧失对家乡的渴望，只想永远留在岛上。当奥德修斯发现他的部下流着泪拒绝回船时，他意识到这是一种比战争更可怕的威胁。他强行将这些哭喊着的同伴拖回船上，捆绑在长凳下，并命令全军立即启航。在追求目标的道路上，温柔的沉沦往往比锋利的刀剑更致命。",
+        "transition_to": "逃离了遗忘的陷阱，他们驶向了一片居住着独眼巨人的蛮荒之地。",
+        "mood": "bittersweet",
+        "key_dialogue": "Any of them who ate the honey-sweet fruit of the lotus was unwilling to take any message back, or to go away."
+      }
+    },
+    {
+      "title": "House of Hades",
+      "address": "Greece-Epirus-Thesprotia-Necromanteion of Acheron",
+      "synopsis": "奥德修斯深入冥界，向先知提瑞西阿斯寻求归途指引，并与母亲及战友的亡魂重逢。",
+      "source_evidence": "Circe, who knew that we had got back from the house of Hades ... You have done a bold thing in going down alive to the house of Hades",
+      "original_chapter": "BOOK X & BOOK XI",
+      "part_id": "PART-1",
+      "part_title": "The Wanderings of Ulysses",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Hades",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Ulysses",
+          "Teiresias",
+          "Anticlea",
+          "Elpenor",
+          "Proserpine",
+          "Circe"
+        ],
+        "stay_duration": "One day"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "underworld",
+          "prophecy",
+          "sacrifice"
+        ],
+        "significance": 1.0
+      },
+      "visitability": {
+        "status": "uncertain",
+        "note": "Mythological location often associated with the Necromanteion of Acheron",
+        "current_name": "Necromanteion of Acheron"
+      },
+      "timeline": {
+        "orderIndex": 73,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第73章·幽冥的启示",
+        "hook": "活人踏入死者的国度，他能否带回生还的希望？",
+        "narrative_text": "告别了喀耳刻的仙岛，奥德修斯驾船驶向世界尽头的阴影。在冥后珀耳塞福涅的荒凉领地，他挖掘祭坛，用牺牲的鲜血唤醒亡灵。盲人先知提瑞西阿斯的幽灵缓缓浮现，向他揭示了波塞冬的愤怒以及归家路上必须避开的禁忌。在这片永恒的黑暗中，奥德修斯还见到了自己因思念而亡的母亲安提克勒亚，以及在特洛伊并肩作战的战友们。这次死而复生的旅程，不仅是地理上的跨越，更是对他意志的终极考验。",
+        "transition_to": "离开这片死寂的居所，他必须先跨越那条环绕世界的巨流。",
+        "mood": "mysterious",
+        "key_dialogue": "You have done a bold thing in going down alive to the house of Hades, and you will have died twice, to other people's once."
+      }
+    },
+    {
+      "title": "Oceanus",
+      "address": "Unknown-Atlantic Ocean-Strait of Gibraltar",
+      "synopsis": "奥德修斯横渡环绕大地的海洋之河，抵达冥界边缘的荒凉河岸。",
+      "source_evidence": "When your ship has traversed the waters of Oceanus, you will reach the fertile shore of Proserpine's country",
+      "original_chapter": "BOOK X & BOOK XI",
+      "part_id": "PART-1",
+      "part_title": "The Wanderings of Ulysses",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Oceanus",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Ulysses"
+        ],
+        "stay_duration": "Passing"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "exploration",
+          "boundary"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "The ancient concept of the world-encircling river, often identified with the Atlantic Ocean",
+        "current_name": "Atlantic Ocean"
+      },
+      "timeline": {
+        "orderIndex": 74,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第74章·世界尽头的巨流",
+        "hook": "在已知世界的边缘，奔腾不息的大洋河阻隔着生与死。",
+        "narrative_text": "奥德修斯的船只在北风的吹送下，穿过了波涛汹涌的大洋河（Oceanus）。古希腊人相信这是环绕整个陆地的巨大河流，是人类文明与未知混沌的分界线。河岸边长满了高大的白杨和不结果的柳树，那是属于冥后珀耳塞福涅的丛林。在这里，空气变得沉重，阳光似乎也失去了热度，奥德修斯指挥船员靠岸，准备进行那场通往阴间的祭祀。",
+        "transition_to": "在河岸的迷雾深处，居住着一群从未见过阳光的子民。",
+        "mood": "desolate",
+        "key_dialogue": "When your ship has traversed the waters of Oceanus, you will reach the fertile shore of Proserpine's country."
+      }
+    },
+    {
+      "title": "Land of the Cimmerians",
+      "address": "Ukraine-Crimea-Kerch Strait",
+      "synopsis": "奥德修斯抵达终年笼罩在迷雾与黑暗中的辛梅里安人之地。",
+      "source_evidence": "we got into the deep waters of the river Oceanus, where lie the land and city of the Cimmerians who live enshrouded in mist and darkness",
+      "original_chapter": "BOOK XI",
+      "part_id": "PART-1",
+      "part_title": "The Wanderings of Ulysses",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Cimmeria",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Ulysses"
+        ],
+        "stay_duration": "Short stay"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "darkness",
+          "mystery"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Historically associated with the Crimea region",
+        "current_name": "Crimea"
+      },
+      "timeline": {
+        "orderIndex": 75,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第75章·永夜的国度",
+        "hook": "阳光永远无法照耀的地方，隐藏着通往地府的入口。",
+        "narrative_text": "船只驶入了辛梅里安人的领地，这里是一片被永恒迷雾和浓云遮蔽的土地。太阳神赫利俄斯无论是升起还是落下，都无法用光芒穿透这里的黑暗。辛梅里安人——这些生活在阴影中的民族，在寂静中注视着这群不速之客。奥德修斯感到一种莫名的压抑，因为这里正是生者世界与死者疆域的交汇点，每一寸土地都散发着阴冷的气息。",
+        "transition_to": "离开这片黑暗，他将前往阳光最炽热也最危险的岛屿。",
+        "mood": "mysterious",
+        "key_dialogue": "The sun never looks upon them with his beams, neither when he steps up into the starry heaven, nor when he back returns from heaven to earth."
+      }
+    },
+    {
+      "title": "Thrinacian island",
+      "address": "Italy-Sicily-Mount Etna",
+      "synopsis": "太阳神赫利俄斯的牧场，奥德修斯的船员因偷食神牛而招致灭顶之灾。",
+      "source_evidence": "You will now come to the Thrinacian island, and here you will see many herds of cattle and flocks of sheep belonging to the sun-god",
+      "original_chapter": "BOOK XII",
+      "part_id": "PART-1",
+      "part_title": "The Wanderings of Ulysses",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Thrinacia",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Ulysses",
+          "Eurylochus",
+          "Lampetie",
+          "Phaethusa"
+        ],
+        "stay_duration": "One month"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "temptation",
+          "divine retribution",
+          "taboo"
+        ],
+        "significance": 0.95
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Widely identified as the island of Sicily",
+        "current_name": "Sicily"
+      },
+      "timeline": {
+        "orderIndex": 76,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第76章·太阳神的禁牧场",
+        "hook": "饥饿是比海怪更可怕的敌人，它让英雄违背了神灵的诫命。",
+        "narrative_text": "特里纳基亚岛上，太阳神赫利俄斯的神牛在肥沃的草地上悠闲漫步。奥德修斯严令禁止触碰这些神圣的生灵，但长达一个月的逆风将船员们困在岛上，粮尽援绝。趁着奥德修斯疲倦入睡，心怀不满的欧律洛科斯煽动饥肠辘辘的同伴宰杀了神牛。当烤肉的香气弥漫在海滩上时，奥德修斯惊醒了，他意识到灾难已不可避免。太阳神向宙斯发出了严厉的控诉，复仇的雷霆已在云端酝酿。",
+        "transition_to": "在神灵降下惩罚之前，让我们回溯冥界那几条交汇的苦难之河。",
+        "mood": "tense",
+        "key_dialogue": "Father Jove, and all you other gods who live in everlasting bliss, take vengeance on the companions of Ulysses son of Laertes."
+      }
+    },
+    {
+      "title": "Acheron",
+      "address": "Greece-Epirus-Preveza-Acheron River",
+      "synopsis": "冥界的主要河流之一，火河与哀河在此汇流，是祭祀亡灵的圣地。",
+      "source_evidence": "You will find it near the place where the rivers Pyriphlegethon and Cocytus (which is a branch of the river Styx) flow into Acheron",
+      "original_chapter": "BOOK X",
+      "part_id": "PART-1",
+      "part_title": "The Wanderings of Ulysses",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Acheron",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Ulysses",
+          "Circe"
+        ],
+        "stay_duration": "Passing"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "mythology",
+          "death",
+          "ritual"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "The river still flows in the Epirus region of Greece",
+        "current_name": "Acheron River"
+      },
+      "timeline": {
+        "orderIndex": 77,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第77章·苦难汇流之处",
+        "hook": "三条冥河交汇的轰鸣声中，隐藏着通往另一个世界的阶梯。",
+        "narrative_text": "根据女巫喀耳刻的指引，奥德修斯寻找着阿刻戎河（苦河）。在这里，奔腾着火焰的皮里佛勒格同河与充满哀鸣的科库托斯河汇入阿刻戎，形成了一片令人胆寒的水域。这不仅是地理上的交汇点，更是灵魂的洗涤处。奥德修斯在这里拔出长剑，挖掘方坑，倒入蜂蜜、牛奶、美酒和清水，最后撒上白面粉，以此作为敲开冥界大门的祭品。水流的咆哮声仿佛无数亡魂在低语。",
+        "transition_to": "从神话的阴影中抽离，我们转向希腊大陆上一座古老的城邦。",
+        "mood": "mysterious",
+        "key_dialogue": "You will find it near the place where the rivers Pyriphlegethon and Cocytus flow into Acheron."
+      }
+    },
+    {
+      "title": "Iolcus",
+      "address": "Greece-Thessaly-Magnesia-Volos",
+      "synopsis": "帖萨利亚的古城，由波利阿斯统治，以出产优良羊群闻名。",
+      "source_evidence": "Pelias was a great breeder of sheep and lived in Iolcus",
+      "original_chapter": "Book XI",
+      "part_id": "PART-1",
+      "part_title": "The Wanderings of Ulysses",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Iolcos",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Pelias"
+        ],
+        "stay_duration": "Mentioned only"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "royalty",
+          "pastoral"
+        ],
+        "significance": 0.2
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Modern Volos is built near the site of ancient Iolcus",
+        "current_name": "Iolcos"
+      },
+      "timeline": {
+        "orderIndex": 78,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第78章·伊奥尔科斯的牧歌",
+        "hook": "在冥界的英雄谱中，每一个名字都关联着一座辉煌的城池。",
+        "narrative_text": "当奥德修斯在冥界与往昔的王后幽灵交谈时，提到了伊奥尔科斯。这座位于帖萨利亚的城市，曾由波利阿斯统治。波利阿斯是海神波塞冬与堤洛的儿子，他以擅长培育羊群而著称。虽然这只是奥德修斯听闻的英雄谱系中的一段插曲，但它勾勒出了希腊英雄时代那错综复杂的血缘与领土版图。伊奥尔科斯不仅是财富的象征，更是后来阿尔戈英雄远征的起点。",
+        "transition_to": "（待续）",
+        "mood": "nostalgic",
+        "key_dialogue": "Pelias was a great breeder of sheep and lived in Iolcus, for the two were both hired servants of Jove."
+      }
+    },
+    {
+      "title": "Minyan Orchomenus",
+      "address": "Greece-Central Greece-Boeotia-Orchomenus",
+      "synopsis": "奥德修斯在冥界遇见珀耳塞福涅之女克罗里斯，她曾是明尼亚恩·奥尔科梅努斯的王后。",
+      "source_evidence": "She was youngest daughter to Amphion son of Iasus and king of Minyan Orchomenus ... Is he in Orchomenus, or at Pylos",
+      "original_chapter": "Book XI",
+      "part_id": "PART-1",
+      "part_title": "The Odyssey",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Orchomenos",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Odysseus",
+          "Amphion",
+          "Agamemnon",
+          "Orestes"
+        ],
+        "stay_duration": "Mentioned in vision"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "lineage",
+          "royalty",
+          "underworld"
+        ],
+        "significance": 0.2
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "重要的迈锡尼文明遗址，拥有著名的阿特柔斯宝库类似的墓葬",
+        "current_name": "Orchomenos"
+      },
+      "timeline": {
+        "orderIndex": 79,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第79章·冥界的王室幻影",
+        "hook": "在死者的国度，那些曾经显赫的王室血脉如今只剩低语。",
+        "narrative_text": "在冥界的边缘，奥德修斯见到了无数往昔的灵魂。其中一位是克罗里斯，她是明尼亚恩·奥尔科梅努斯国王阿姆菲翁的女儿。通过这些幽灵的叙述，奥德修斯窥见了希腊大地各处的权力更迭。随后，阿伽门农的阴魂也向他打听起自己的儿子奥瑞斯特斯，询问他是否在奥尔科梅努斯或皮洛斯过着体面的生活。这些地名在死者的口中反复出现，勾勒出一幅生者世界的权力版图，也映衬出亡灵对尘世血脉的无尽牵挂。",
+        "transition_to": "离开王室的旧梦，奥德修斯又见到了关于考验与惩罚的记忆，指向了菲拉刻的牧场。",
+        "mood": "melancholic",
+        "key_dialogue": "Is he in Orchomenus, or at Pylos, or with Menelaus in Sparta? In none of these places has he perished yet."
+      }
+    },
+    {
+      "title": "Phylace",
+      "address": "Greece-Thessaly-Phthiotis-Phylace",
+      "synopsis": "内琉斯为女儿设下难题：求婚者必须从菲拉刻抢回伊菲克勒斯的牛群。",
+      "source_evidence": "but Neleus would only give her to him who should raid the cattle of Iphicles from the grazing grounds of Phylace",
+      "original_chapter": "Book XI",
+      "part_id": "PART-1",
+      "part_title": "The Odyssey",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Phylake",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Neleus",
+          "Iphicles",
+          "Melampus"
+        ],
+        "stay_duration": "Mentioned in story"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "trial",
+          "marriage",
+          "heroism"
+        ],
+        "significance": 0.2
+      },
+      "visitability": {
+        "status": "uncertain",
+        "note": "古城遗址位置尚有争议，通常认为在色萨利地区",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 80,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第80章·菲拉刻的牛群",
+        "hook": "一场为了美人的求婚，演变成了一场危险的劫掠任务。",
+        "narrative_text": "奥德修斯听闻了关于先知梅兰波斯的故事。为了帮兄弟赢得内琉斯的女儿佩罗，他必须前往菲拉刻，从强悍的伊菲克勒斯手中夺回那群被严密看守的牛。菲拉刻的牧场不仅是财富的象征，更是勇气的试金石。梅兰波斯在那里被囚禁了一整年，历经磨难才最终完成了这项几乎不可能的任务。这段往事在冥界的迷雾中回响，提醒着奥德修斯，英雄的道路总是伴随着枷锁与考验。",
+        "transition_to": "从凡人的英雄事迹转向巨人的狂妄野心，视线移向了巍峨的奥萨山。",
+        "mood": "tense",
+        "key_dialogue": "but Neleus would only give her to him who should raid the cattle of Iphicles from the grazing grounds of Phylace."
+      }
+    },
+    {
+      "title": "Mount Ossa",
+      "address": "Greece-Thessaly-Larissa-Mount Ossa",
+      "synopsis": "巨人兄弟奥图斯和埃菲亚尔特斯试图将奥萨山堆在奥林匹斯山上以挑战众神。",
+      "source_evidence": "tried to set Mount Ossa on the top of Mount Olympus",
+      "original_chapter": "Book XI",
+      "part_id": "PART-1",
+      "part_title": "The Odyssey",
+      "temporal_context": {
+        "era": "Mythological Age",
+        "historical_name": "Ossa",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Otus",
+          "Ephialtes"
+        ],
+        "stay_duration": "Mentioned in myth"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "hubris",
+          "mythology",
+          "giants"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现名基萨沃斯山（Kissavos）",
+        "current_name": "Mount Kissavos"
+      },
+      "timeline": {
+        "orderIndex": 81,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第81章·堆叠的山峦",
+        "hook": "凡人若想触碰天堂，必先学会搬动大山。",
+        "narrative_text": "在冥界的阴影中，奥德修斯见到了伊菲美迪亚的儿子们——那对九岁时就高达九英寻的巨人兄弟奥图斯和埃菲亚尔特斯。他们拥有凡人难以想象的狂妄，竟企图将奥萨山连根拔起，堆叠在众神居住的奥林匹斯山之上。这种对神权的直接挑战令奥林匹斯山震颤。奥萨山在神话中成为了人类（或半神）狂妄自大（Hubris）的象征，它不仅是地理上的高度，更是野心的尺度。",
+        "transition_to": "但这还不是疯狂的终点，他们还想在奥萨山之上再加一座高峰。",
+        "mood": "mysterious",
+        "key_dialogue": "They would have heaped Ossa upon Olympus, and Pelion upon Ossa of the leafy forests, that so they might scale heaven."
+      }
+    },
+    {
+      "title": "Mount Pelion",
+      "address": "Greece-Thessaly-Magnesia-Mount Pelion",
+      "synopsis": "巨人们计划将皮立翁山堆在奥萨山顶，试图以此攀登天堂。",
+      "source_evidence": "and Mount Pelion on the top of Ossa",
+      "original_chapter": "Book XI",
+      "part_id": "PART-1",
+      "part_title": "The Odyssey",
+      "temporal_context": {
+        "era": "Mythological Age",
+        "historical_name": "Pelion",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Otus",
+          "Ephialtes",
+          "Apollo"
+        ],
+        "stay_duration": "Mentioned in myth"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "hubris",
+          "divine_punishment"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "著名的旅游胜地，以森林和滑雪场闻名",
+        "current_name": "Mount Pelion"
+      },
+      "timeline": {
+        "orderIndex": 82,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第82章·皮立翁的森林",
+        "hook": "当第三座大山被举起时，众神的愤怒终于降临。",
+        "narrative_text": "皮立翁山，那座覆盖着茂密森林的山峦，本是半人马凯龙的领地，却在巨人的野心中成为了通往天堂的最后一级阶梯。奥图斯和埃菲亚尔特斯计划将皮立翁山叠在奥萨山之上。如果他们能活到成年，或许真的能完成这项壮举。然而，阿波罗在他们胡须长成之前就用箭射杀了他们。皮立翁山最终留在了原地，成为了这段狂妄神话的静默见证者，也提醒着奥德修斯，越界的野心终将招致毁灭。",
+        "transition_to": "离开这些宏大的神话悲剧，奥德修斯在亡灵中又遇到了另一位不幸的女性，她的悲剧发生在迪亚岛。",
+        "mood": "desolate",
+        "key_dialogue": "and Mount Pelion on the top of Ossa, that they might scale heaven."
+      }
+    },
+    {
+      "title": "Hades",
+      "address": "Mythology-Underworld-Hades",
+      "synopsis": "奥德修斯向妻子佩内洛普重述他前往冥界寻求先知提瑞西阿斯启示的艰辛历程。",
+      "source_evidence": "for thus the shade of Teiresias prophesied concerning me, on the day when I went down into Hades to ask about my return and that of my companions.",
+      "original_chapter": "BOOK XXIII",
+      "part_id": "PART-1",
+      "part_title": "The Odyssey",
+      "temporal_context": {
+        "era": "Mythological Age",
+        "historical_name": null,
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Odysseus",
+          "Teiresias",
+          "Penelope"
+        ],
+        "stay_duration": "One day"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "prophecy",
+          "death",
+          "underworld"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "uncertain",
+        "note": "Mythological location",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第1章·冥界的重述",
+        "hook": "在重逢的喜悦中，奥德修斯为何要提起那个充满死亡气息的地方？",
+        "narrative_text": "在肃清了求婚者并与妻子佩内洛普相认后，奥德修斯在床榻间向她倾诉了这些年的苦难。他特别提到了那个最令人生畏的时刻：他必须降入哈得斯的冥界。在那里，他跨越了生死的边界，只为向盲人先知提瑞西阿斯的亡魂寻求归途的指引。他描述了那些漂浮的阴影和先知关于他未来命运的预言——即使回到了家，他仍需带着船桨远行，直到遇见一个不认识大海的民族。这段叙述不仅是夫妻间的交心，更是对命运无常的感叹。",
+        "transition_to": "当生者在叙旧时，死者的灵魂正被引向赫勒斯滂海峡旁的英雄冢。",
+        "mood": "mysterious",
+        "key_dialogue": "“...on the day when I went down into Hades to ask about my return...”"
+      }
+    },
+    {
+      "title": "Hellespont",
+      "address": "Turkey-Marmara-Canakkale-Dardanelles",
+      "synopsis": "在冥界，阿喀琉斯的亡魂回忆起希腊人在赫勒斯滂海峡为他建造的宏伟坟墓。",
+      "source_evidence": "Over these the host of the Argives built a noble tomb, on a point jutting out over the open Hellespont, that it might be seen from far out upon the sea",
+      "original_chapter": "BOOK XXIV",
+      "part_id": "PART-1",
+      "part_title": "The Odyssey",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Hellespontos",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Achilles",
+          "Agamemnon"
+        ],
+        "stay_duration": "Eternal"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "glory",
+          "death",
+          "monument"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "The Dardanelles strait in Turkey",
+        "current_name": "Dardanelles"
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第2章·英雄的丰碑",
+        "hook": "即便在死后的世界，英雄们依然在谈论那座俯瞰大海的坟墓。",
+        "narrative_text": "故事的最后一卷将视角转到了冥界的阿斯福德尔草地。阿喀琉斯与阿伽门农的亡魂正在交谈。阿伽门农描述了阿喀琉斯战死后的盛大葬礼：希腊联军在赫勒斯滂海峡突出的岬角上，为这位最伟大的战士建造了一座巍峨的坟墓。这座坟墓高耸入云，成为航海者们从远方就能望见的标志。这不仅是对阿喀琉斯武功的纪念，也象征着特洛伊战争那段波澜壮阔历史的终结。英雄虽逝，但其名声如海峡上的灯塔般永存。",
+        "transition_to": "与此同时，赫尔墨斯正带领着新死去的求婚者灵魂，经过险峻的莱夫卡斯岩。",
+        "mood": "desolate",
+        "key_dialogue": "“...a noble tomb, on a point jutting out over the open Hellespont...”"
+      }
+    },
+    {
+      "title": "Leucas",
+      "address": "Greece-Ionian Islands-Lefkada-Cape Lefkatas",
+      "synopsis": "赫尔墨斯引导被杀死的求婚者灵魂经过莱夫卡斯岩，前往死者的国度。",
+      "source_evidence": "When they had passed the waters of Oceanus and the rock Leucas, they came to the gates of the sun and the land of dreams",
+      "original_chapter": "BOOK XXIV",
+      "part_id": "PART-1",
+      "part_title": "The Odyssey",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Leukas",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Hermes"
+        ],
+        "stay_duration": "Instantaneous (passing through)"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "afterlife",
+          "journey",
+          "mythology"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "White cliffs of Cape Lefkatas",
+        "current_name": "Cape Lefkatas"
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第3章·通往冥界之路",
+        "hook": "成群的灵魂如蝙蝠般尖叫，他们正被引向世界的边缘。",
+        "narrative_text": "在奥德修斯的宫殿惨遭屠戮后，赫尔墨斯挥动金杖，召唤起那些求婚者的亡魂。这些灵魂发出凄厉的叫声，紧跟着神灵的步伐。他们飞越了俄刻阿诺斯的流泉，经过了洁白的莱夫卡斯岩。在古希腊人的想象中，这里是生与死的交界处，是通往日落之门和梦幻之地的必经之路。求婚者们生前的贪婪与狂妄已化为乌有，此刻他们只是卑微的影子，正走向永恒的审判。",
+        "transition_to": "这位引路的神灵，其力量的源泉追溯到他的出生地——库勒涅山。",
+        "mood": "mysterious",
+        "key_dialogue": "“When they had passed the waters of Oceanus and the rock Leucas...”"
+      }
+    },
+    {
+      "title": "Cyllene",
+      "address": "Greece-Peloponnese-Corinthia-Mount Kyllini",
+      "synopsis": "文中提及赫尔墨斯的出生地库勒涅，强调其引导亡灵的神圣身份。",
+      "source_evidence": "THEN Mercury of Cyllene summoned the ghosts of the suitors",
+      "original_chapter": "BOOK XXIV",
+      "part_id": "PART-1",
+      "part_title": "The Odyssey",
+      "temporal_context": {
+        "era": "Mythological Age",
+        "historical_name": "Kyllene",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Hermes"
+        ],
+        "stay_duration": "Mentioned as origin"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "divinity",
+          "origin",
+          "mythology"
+        ],
+        "significance": 0.25
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Mount Kyllini in the Peloponnese",
+        "current_name": "Mount Kyllini"
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第4章·神使的故乡",
+        "hook": "这位穿梭于神、人、鬼三界的神使，究竟来自何方？",
+        "narrative_text": "在引导亡魂的庄严时刻，史诗再次确认了赫尔墨斯的尊号——“库勒涅的赫尔墨斯”。库勒涅是伯罗奔尼撒半岛上的一座神圣高山，传说中他是玛亚在山上的山洞里秘密生下的。作为宙斯的信使和亡灵的引导者，他的出身赋予了他跨越边界的神力。在《奥德赛》的最后篇章中，这种神力被用来终结求婚者带来的混乱，将他们的阴影带离生者的世界，为伊萨卡的和平扫清最后的障碍。",
+        "transition_to": "讲述完海上的漂泊，奥德修斯次日前往乡间寻找他年迈的父亲。",
+        "mood": "peaceful",
+        "key_dialogue": "“THEN Mercury of Cyllene summoned the ghosts of the suitors”"
+      }
+    },
+    {
+      "title": "Alybas",
+      "address": "Italy-Calabria-Metapontum-Alybas",
+      "synopsis": "奥德修斯在试探父亲莱耳忒斯时，编造了一个来自阿吕巴斯的假身份。",
+      "source_evidence": "I come from Alybas, where I have a fine house. I am son to Apheidas who is the son of Polypemon. My own name is Eperitus.",
+      "original_chapter": "Book XXIV",
+      "part_id": "PART-1",
+      "part_title": "The Odyssey",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Alybas",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Odysseus",
+          "Laertes"
+        ],
+        "stay_duration": "Mentioned in a lie"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "disguise",
+          "deception",
+          "family"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "uncertain",
+        "note": "Ancient city in Metapontum region, location debated",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第5章·阿吕巴斯的异乡人",
+        "hook": "面对老泪纵横的父亲，奥德修斯为何还要继续编织谎言？",
+        "narrative_text": "奥德修斯在果园里找到了正在劳作的父亲莱耳忒斯。看着老父亲衣衫褴褛、满面愁容，奥德修斯一阵心酸，但他决定最后一次试探父亲的真心。他隐瞒了真实身份，谎称自己是来自阿吕巴斯的贵族之子埃佩里图斯，曾在异乡款待过奥德修斯。他详细描述了阿吕巴斯的富庶与自己的家世，用这个虚构的身份观察着父亲对“失踪儿子”的深切怀念。",
+        "transition_to": "谎言中提到的航线，将话题引向了更遥远的西卡尼亚。",
+        "mood": "bittersweet",
+        "key_dialogue": "I come from Alybas, where I have a fine house."
+      }
+    },
+    {
+      "title": "Sicania",
+      "address": "Italy-Sicily-Sicania",
+      "synopsis": "奥德修斯谎称自己在离开西卡尼亚时遭遇风暴，才阴差阳错来到伊萨卡。",
+      "source_evidence": "heaven drove me off my course as I was leaving Sicania, and I have been carried here against my will.",
+      "original_chapter": "Book XXIV",
+      "part_id": "PART-1",
+      "part_title": "The Odyssey",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Sicania",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Odysseus",
+          "Laertes"
+        ],
+        "stay_duration": "Mentioned in a lie"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "navigation",
+          "fate",
+          "storytelling"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Ancient name for Sicily",
+        "current_name": "Sicily"
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第6章·西卡尼亚的偏航",
+        "hook": "一场“虚构”的风暴，如何成为父子相认前的最后铺垫？",
+        "narrative_text": "在与父亲莱耳忒斯的对话中，奥德修斯继续完善他的谎言。他声称自己原本在西卡尼亚（即西西里岛）经商，但在启程回家时，上天降下神谕和狂风，将他的船只强行吹离了航线，最终才漂流到了伊萨卡的海岸。这个故事听起来如此真实，以至于莱耳忒斯完全相信了眼前这个陌生人曾见过自己的儿子。直到莱耳忒斯因悲恸而抓起尘土撒在头上时，奥德修斯终于无法自持，揭开了真相。",
+        "transition_to": "父子相认后，莱耳忒斯重焕生机，忆起了自己当年的武功。",
+        "mood": "dramatic",
+        "key_dialogue": "heaven drove me off my course as I was leaving Sicania"
+      }
+    },
+    {
+      "title": "Nericum",
+      "address": "Greece-Ionian Islands-Lefkada-Nirikos",
+      "synopsis": "恢复青春的莱耳忒斯回忆起年轻时攻占内里库姆要塞的英勇事迹。",
+      "source_evidence": "I would that I were as young and strong as when I ruled among the Cephallenians, and took Nericum, that strong fortress on the foreland.",
+      "original_chapter": "Book XXIV",
+      "part_id": "PART-1",
+      "part_title": "The Odyssey",
+      "temporal_context": {
+        "era": "Bronze Age",
+        "historical_name": "Nericum",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Laertes",
+          "Odysseus"
+        ],
+        "stay_duration": "A memory of a battle"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "heroism",
+          "nostalgia",
+          "warfare"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Ancient ruins located on the island of Lefkada",
+        "current_name": "Nirikos"
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第7章·内里库姆的荣光",
+        "hook": "老英雄重披战甲，往昔的征服岁月如何激励当下的决战？",
+        "narrative_text": "在故事的终章，求婚者的父辈们前来寻仇。雅典娜女神赋予了老莱耳忒斯神圣的力量。老人穿上盔甲，心中激荡起年轻时的豪情。他想起了自己统治刻法勒尼亚人的时代，想起了他如何率军攻克那座坐落在海岬上的坚固要塞——内里库姆。那时的他无坚不摧，正如今日他投出长枪刺穿仇敌。随着奥林匹斯众神的调停，伊萨卡的硝烟终于散去，奥德修斯的漫长归途在和平的曙光中画上了圆满的句号。",
+        "transition_to": "从特洛伊的硝烟到伊萨卡的和平，奥德修斯的十年漂泊至此终结，英雄的精神永存于地中海的波涛之间。",
+        "mood": "ambitious",
+        "key_dialogue": "I would that I were as young and strong as when I... took Nericum, that strong fortress on the foreland."
+      }
+    }
+  ],
+  "suspects": []
+}

@@ -56,7 +56,8 @@ def build_place(
     geocode_result: Dict,
     client_id: Optional[str] = None,
     synopsis: Optional[str] = None,
-    timeline: Optional[Dict] = None
+    timeline: Optional[Dict] = None,
+    story_mode: Optional[Dict] = None
 ) -> Optional[Dict]:
     """
     构建 place 对象
@@ -67,6 +68,7 @@ def build_place(
         client_id: 自定义 clientId
         synopsis: 地点摘要
         timeline: 时间序列信息（v2）
+        story_mode: 故事模式数据（v2.1）
     
     Returns:
         place 字典，编码失败返回 None
@@ -101,6 +103,26 @@ def build_place(
         place["synopsis"] = synopsis
     if timeline:
         place["timeline"] = timeline
+    if story_mode:
+        # 将 snake_case 字段映射为 camelCase
+        story_mode_out = {}
+        field_map = {
+            "chapter_title": "chapterTitle",
+            "chapterTitle": "chapterTitle",
+            "hook": "hook",
+            "narrative_text": "narrativeText",
+            "narrativeText": "narrativeText",
+            "transition_to": "transitionTo",
+            "transitionTo": "transitionTo",
+            "mood": "mood",
+            "key_dialogue": "keyDialogue",
+            "keyDialogue": "keyDialogue",
+        }
+        for src_key, dst_key in field_map.items():
+            if src_key in story_mode and story_mode[src_key]:
+                story_mode_out[dst_key] = story_mode[src_key]
+        if story_mode_out:
+            place["storyMode"] = story_mode_out
     
     return place
 

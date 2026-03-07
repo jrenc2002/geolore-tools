@@ -1,0 +1,51 @@
+{
+  "work": {
+    "title": "Norwegian Wood",
+    "author": "Haruki Murakami",
+    "type": "novel",
+    "locale": "zh-Hans"
+  },
+  "pipeline": {
+    "generated_by": "geolore-auto-pipeline-v1",
+    "generated_at": "2026-03-05T15:28:00.011485+00:00",
+    "data_source_mode": "full_text",
+    "data_source_warning": null,
+    "model_select": "gemini-3.1-pro-preview-search",
+    "model_extract": "gemini-3-flash-preview-search",
+    "total_places": 6,
+    "major_places": 3,
+    "minor_places": 2,
+    "passing_places": 1,
+    "fictional_suspects": 0,
+    "address_completeness": 1.0,
+    "timeline_enabled": false,
+    "story_mode_enabled": true,
+    "story_mode_stats": {
+      "total_chapters": 6,
+      "avg_narrative_length": 170,
+      "mood_arc": [
+        "hopeful",
+        "bittersweet",
+        "melancholic",
+        "nostalgic",
+        "bittersweet",
+        "peaceful"
+      ],
+      "transition_coverage": 1.2
+    },
+    "suggested_pack_id": "norwegian-wood",
+    "suggested_map_title": "《Norwegian Wood》巡礼地图"
+  },
+  "review": {
+    "fixed_address": 3,
+    "removed_fictional": 0,
+    "removed_not_in_original": 0,
+    "merged_duplicates": 0,
+    "fixed_synopsis": 1,
+    "removed_names": []
+  },
+  "next_steps": [
+    "python scripts/geocode_places.py --input /Users/jrenc/Downloads/JrencsProject/geolore-tools/output/books/norwegian-wood/norwegian-wood_places_structured.json --output /Users/jrenc/Downloads/JrencsProject/geolore-tools/output/books/norwegian-wood/norwegian-wood_geocoded.json --amap-key $AMAP_KEY --enable-validation",
+    "python scripts/build_pack.py --input /Users/jrenc/Downloads/JrencsProject/geolore-tools/output/books/norwegian-wood/norwegian-wood_geocoded.json --output /Users/jrenc/Downloads/JrencsProject/geolore-tools/output/books/norwegian-wood/norwegian-wood_pack.json --pack-id norwegian-wood --title \"《Norwegian Wood》巡礼地图\""
+  ]
+}

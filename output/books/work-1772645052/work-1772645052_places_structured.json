@@ -1,0 +1,5548 @@
+{
+  "book_info": {
+    "title": "疯狂的亚洲富豪",
+    "author": "Kevin Kwan",
+    "type": "novel",
+    "summary": "《疯狂的亚洲富豪》（China Rich Girlfriend）是关凯文（Kevin Kwan）继《摘金奇缘》后的又一力作。故事背景设定在当代，从伦敦的雨夜车祸到上海的顶级私人会所，从巴黎的奢华购物狂欢到新加坡的神秘家族庄园，全方位揭开了亚洲顶级“老钱”与“新贵”阶层那令人咋舌的神秘生活。随着瑞秋·朱与尼克·杨婚期的临近，一场寻找生父的旅程意外开启，将他们卷入了中国大陆超级富豪圈的权力漩涡。作者以辛辣幽默的笔触，描绘了一幅跨越全球的财富版图，在极致的物质堆砌下，探讨着血缘、阶层与真爱的永恒博弈。这不仅是一场视觉上的地理巡礼，更是一次对当代亚洲豪门众生相的深度剖析。"
+  },
+  "characters": [
+    {
+      "id": "rachel_chu",
+      "name": "Rachel Chu",
+      "aliases": [
+        "瑞秋·朱",
+        "Rachel"
+      ],
+      "role": "故事女主角，纽约大学经济学教授，正准备融入尼克显赫的家族并寻找生父",
+      "first_appearance": "Mandarin Kitchen",
+      "importance": "protagonist"
+    },
+    {
+      "id": "nicholas_young",
+      "name": "Nicholas Young",
+      "aliases": [
+        "尼克·杨",
+        "Nick Young",
+        "Nick"
+      ],
+      "role": "新加坡最显赫家族的继承人，瑞秋的未婚夫，试图在家族压力与个人生活间取得平衡",
+      "first_appearance": "Hôtel Lambert",
+      "importance": "protagonist"
+    },
+    {
+      "id": "eleanor_young",
+      "name": "Eleanor Young",
+      "aliases": [
+        "埃莉诺·杨",
+        "Eleanor"
+      ],
+      "role": "尼克的母亲，新加坡社交圈的灵魂人物，对家族名望有着极强的保护欲",
+      "first_appearance": "2 Hyde Park",
+      "importance": "major"
+    },
+    {
+      "id": "carlton_bao",
+      "name": "Carlton Bao",
+      "aliases": [
+        "包卡尔顿",
+        "Carlton"
+      ],
+      "role": "瑞秋同父异母的兄弟，上海顶级富二代，因伦敦车祸陷入丑闻",
+      "first_appearance": "Jimmy Choo shoe boutique",
+      "importance": "major"
+    },
+    {
+      "id": "colette_bing",
+      "name": "Colette Bing",
+      "aliases": [
+        "柯莱特·宾",
+        "Colette"
+      ],
+      "role": "上海超级富豪之女，社交名媛，拥有极强的控制欲和惊人的消费力",
+      "first_appearance": "Paris",
+      "importance": "major"
+    },
+    {
+      "id": "astrid_leong",
+      "name": "Astrid Leong",
+      "aliases": [
+        "阿斯特丽德",
+        "Astrid Leong Teo",
+        "Astrid Teo"
+      ],
+      "role": "尼克的堂姐，以品味高雅著称，正面临名存实亡的婚姻危机",
+      "first_appearance": "Palace of Eighteen Perfections",
+      "importance": "major"
+    },
+    {
+      "id": "kitty_pong",
+      "name": "Kitty Pong",
+      "aliases": [
+        "吉蒂·庞"
+      ],
+      "role": "前艳星，一心想通过婚姻和社交手段挤进香港顶级上流社会",
+      "first_appearance": "Palace of Eighteen Perfections",
+      "importance": "major"
+    },
+    {
+      "id": "bao_gaoliang",
+      "name": "Bao Gaoliang",
+      "aliases": [
+        "包高亮",
+        "孙高良"
+      ],
+      "role": "瑞秋的亲生父亲，中国极具影响力的政商大佬",
+      "first_appearance": "Hong Kong",
+      "importance": "major"
+    },
+    {
+      "id": "charlie_wu",
+      "name": "Charlie Wu",
+      "aliases": [
+        "查理·吴",
+        "Charles Wu"
+      ],
+      "role": "科技大亨，阿斯特丽德的前男友，始终对其念念不忘",
+      "first_appearance": "Canada’s Northwest Territories",
+      "importance": "major"
+    },
+    {
+      "id": "eddie_cheng",
+      "name": "Edison Cheng",
+      "aliases": [
+        "程艾迪",
+        "Eddie Cheng",
+        "Eddie"
+      ],
+      "role": "尼克的堂哥，极度虚荣的银行家，热衷于攀附权贵",
+      "first_appearance": "Beijing Capital International Airport",
+      "importance": "supporting"
+    },
+    {
+      "id": "corinna_ko_tung",
+      "name": "Corinna Ko-Tung",
+      "aliases": [
+        "柯琳娜",
+        "Corinna Ko"
+      ],
+      "role": "香港顶级的社交顾问，专门为新贵阶层提供晋升上流社会的指导",
+      "first_appearance": "Palace of Eighteen Perfections",
+      "importance": "supporting"
+    },
+    {
+      "id": "michael_teo",
+      "name": "Michael Teo",
+      "aliases": [
+        "迈克尔·张"
+      ],
+      "role": "阿斯特丽德的丈夫，白手起家的科技新贵，在豪门压力下变得偏激",
+      "first_appearance": "Clemenceau Avenue",
+      "importance": "supporting"
+    }
+  ],
+  "parts": [
+    {
+      "part_id": "PART-1",
+      "title": "Part One",
+      "synopsis": "从伦敦的一场车祸丑闻开始，瑞秋与尼克准备前往上海寻找生父，同时新加坡与伦敦的豪门生活拉开序幕。",
+      "place_count": 132,
+      "mood": "extravagant",
+      "key_characters": [
+        "Rachel Chu",
+        "Nicholas Young",
+        "Eleanor Young",
+        "Eddie Cheng",
+        "Carlton Bao"
+      ]
+    },
+    {
+      "part_id": "PART-2",
+      "title": "China Rich Girlfriend",
+      "synopsis": "故事重心移向中国大陆，瑞秋深入上海社交圈，见识了“中国富豪”超乎想象的财富与复杂的家族权力斗争。",
+      "place_count": 112,
+      "mood": "dramatic",
+      "key_characters": [
+        "Rachel Chu",
+        "Colette Bing",
+        "Bao Gaoliang",
+        "Astrid Leong",
+        "Carlton Bao"
+      ]
+    },
+    {
+      "part_id": "PART-3",
+      "title": "Rich People Problems",
+      "synopsis": "多线矛盾爆发：瑞秋的投毒阴谋、吉蒂庞的夺女大战以及阿斯特丽德的婚姻终局在洛杉矶与香港上演。",
+      "place_count": 57,
+      "mood": "tense",
+      "key_characters": [
+        "Kitty Pong",
+        "Bernard Tai",
+        "Rachel Chu",
+        "Bao Gaoliang",
+        "Astrid Leong"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "title": "Jimmy Choo shoe boutique",
+      "address": "England-London-Sloane Street-Jimmy Choo",
+      "synopsis": "一辆红色法拉利深夜撞入斯隆街的Jimmy Choo精品店，引发了一场涉及亚洲豪门子弟的丑闻危机。",
+      "source_evidence": "A red Ferrari 458 Italia crashed through the window of the Jimmy Choo shoe boutique on Sloane Street sometime between 4:00 a.m. and 4:30 a.m. last night.",
+      "original_chapter": "PROLOGUE: BEIJING CAPITAL INTERNATIONAL AIRPORT",
+      "part_id": "PART-1",
+      "part_title": "PROLOGUE",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2014",
+        "date_end": "2014"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Carlton Bao"
+        ],
+        "stay_duration": "A few minutes (accident duration)"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "scandal",
+          "extravagance",
+          "accident"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "The boutique remains a flagship store on Sloane Street.",
+        "current_name": "Jimmy Choo"
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "2014",
+        "dateEnd": "2014"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·午夜的红色流星",
+        "hook": "一辆失控的法拉利，撞碎了伦敦深夜的宁静，也撞开了豪门秘密的裂缝。",
+        "narrative_text": "在伦敦高档的斯隆街，深夜的寂静被刺耳的刹车声和碎裂声撕碎。一辆价值不菲的红色法拉利458 Italia如同一颗失控的流星，直直冲入了Jimmy Choo精品店的橱窗。驾驶座上是年轻气盛的豪门子弟包少延（Carlton Bao），这场突如其来的车祸不仅毁掉了昂贵的陈列，更让这位亚洲顶级富豪之子的荒唐生活瞬间暴露在公众视野之下。玻璃碎片在霓虹灯下闪烁，预示着一场跨国公关风暴的开始。",
+        "transition_to": "重伤的乘客被紧急送往附近的医院，而消息正以更快的速度传回亚洲。",
+        "mood": "tense",
+        "key_dialogue": "“A red Ferrari 458 Italia crashed through the window of the Jimmy Choo shoe boutique on Sloane Street.”"
+      }
+    },
+    {
+      "title": "St Mary’s Paddington",
+      "address": "England-London-Paddington-St Mary's Hospital",
+      "synopsis": "车祸伤者被送往圣玛丽医院，这里成为了豪门危机处理的第一个前哨站。",
+      "source_evidence": "Metropolitan Police reported that two passengers were taken to St Mary’s Paddington, where they are being treated for serious but noncritical injuries.",
+      "original_chapter": "PROLOGUE: BEIJING CAPITAL INTERNATIONAL AIRPORT",
+      "part_id": "PART-1",
+      "part_title": "PROLOGUE",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2014",
+        "date_end": "2014"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Carlton Bao"
+        ],
+        "stay_duration": "Several days"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "consequence",
+          "medical"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "A major NHS hospital in London.",
+        "current_name": "St Mary's Hospital"
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "2014",
+        "dateEnd": "2014"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·急诊室外的阴影",
+        "hook": "在消毒水味弥漫的走廊里，家族的声誉正与伤势一同接受抢救。",
+        "narrative_text": "帕丁顿圣玛丽医院的急诊室灯火通明。包少延（Carlton Bao）和他的同伴被紧急送入此处，虽然伤势严重但暂无生命危险。然而，对于包家这样的亚洲巨贾来说，身体的伤痛远不及社交媒体上疯传的丑闻致命。伦敦大都会警察局的报告已经出炉，而远在北京和香港的家族成员们正通过加密电话，试图在消息彻底失控前封锁一切。医院的白墙见证了权势如何试图掩盖荒唐的痕迹。",
+        "transition_to": "与此同时，在北京首都机场的私人机库里，一场更高级别的会议正在召开。",
+        "mood": "dramatic",
+        "key_dialogue": "“...where they are being treated for serious but noncritical injuries.”"
+      }
+    },
+    {
+      "title": "Beijing Capital International Airport",
+      "address": "中国-北京-朝阳区-北京首都国际机场",
+      "synopsis": "在北京首都机场的私人机库，程艾迪与包少延的父亲紧急会面，商讨如何平息伦敦的车祸丑闻。",
+      "source_evidence": "PROLOGUE: BEIJING CAPITAL INTERNATIONAL AIRPORT... Eddie had been on another plane parked in a private hangar at Beijing Capital International Airport",
+      "original_chapter": "PROLOGUE: BEIJING CAPITAL INTERNATIONAL AIRPORT",
+      "part_id": "PART-1",
+      "part_title": "PROLOGUE",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2014",
+        "date_end": "2014"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Edison Cheng",
+          "Bao Shaoyen",
+          "Nigel Tomlinson",
+          "Mr. Tin"
+        ],
+        "stay_duration": "A few hours"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "power",
+          "crisis management",
+          "wealth"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Major international airport in Beijing.",
+        "current_name": "Beijing Capital International Airport"
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "2014",
+        "dateEnd": "2014"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·机库里的秘密会议",
+        "hook": "私人飞机的引擎声掩盖了权力的交易，一场跨国公关战在此打响。",
+        "narrative_text": "北京首都国际机场的私人机库内，气氛凝重得令人窒息。程艾迪（Edison Cheng）——一个极度虚荣且注重形象的香港银行家，被紧急召集至此。他面对的是包少延的父亲包少延（Bao Shaoyen），这位中国最有权势的男人之一。在奢华的湾流飞机旁，他们与公关专家和律师团队围坐在一起。这不是为了叙旧，而是为了动用一切资源——金钱、人脉、甚至对媒体的控制力——去抹除伦敦那场车祸的影响。在这里，真相是可以被购买和重塑的商品。",
+        "transition_to": "程艾迪回想起几小时前，他还在香港会所享受着平静的午餐。",
+        "mood": "tense",
+        "key_dialogue": "“We need to contain this. We need to make sure the names of the passengers are never released to the press.”"
+      }
+    },
+    {
+      "title": "Hong Kong Club",
+      "address": "中国-香港-中西区-中环遮打道1号",
+      "synopsis": "程艾迪在香港会所的悠闲午餐被紧急电话打断，开启了他奔波于京伦之间的危机处理之旅。",
+      "source_evidence": "Five hours ago he had been interrupted during a luncheon at the Hong Kong Club, rushed aboard the company jet bound for Beijing",
+      "original_chapter": "PROLOGUE: BEIJING CAPITAL INTERNATIONAL AIRPORT",
+      "part_id": "PART-1",
+      "part_title": "PROLOGUE",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2014",
+        "date_end": "2014"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Edison Cheng"
+        ],
+        "stay_duration": "1 hour"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "elitism",
+          "interruption"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "A private members' club in Central, Hong Kong.",
+        "current_name": "The Hong Kong Club"
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "2014",
+        "dateEnd": "2014"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·被中断的午宴",
+        "hook": "在香港最尊贵的会所里，一通电话就能让最优雅的绅士瞬间破功。",
+        "narrative_text": "位于中环遮打道的香港会所，是身份与地位的终极象征。程艾迪（Edison Cheng）原本正坐在这里，享受着精致的午餐和同僚们艳羡的目光。作为一名追求完美的社交达人，他最讨厌计划被打乱。然而，一通来自包家的紧急电话让他不得不立刻放下餐具，匆匆赶往机场。从极度的优雅到极度的焦虑，只隔了一道跨洋指令。这正是他这种依附于顶级豪门的精英阶层的真实写照：随时待命，随时准备为真正的权力奔走。",
+        "transition_to": "当男人们在亚洲忙于灭火时，伦敦的豪门阔太们正开启另一场盛宴。",
+        "mood": "ambitious",
+        "key_dialogue": "“Five hours ago he had been interrupted during a luncheon at the Hong Kong Club...”"
+      }
+    },
+    {
+      "title": "2 Hyde Park",
+      "address": "England-London-Knightsbridge-One Hyde Park",
+      "synopsis": "埃莉诺·杨与好友们在伦敦最昂贵的公寓内聚会，讨论着即将到来的社交季与购物计划。",
+      "source_evidence": "2 HYDE PARK... Since moving into 2 Hyde Park, the obscenely expensive luxury condominium backed by the Qatari royal family",
+      "original_chapter": "PROLOGUE: BEIJING CAPITAL INTERNATIONAL AIRPORT",
+      "part_id": "PART-1",
+      "part_title": "PROLOGUE",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2014",
+        "date_end": "2014"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Eleanor Young",
+          "Lorena Lim",
+          "Nadine Shaw",
+          "Daisy Foo",
+          "Francesca Shaw"
+        ],
+        "stay_duration": "Several days"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "luxury",
+          "gossip",
+          "high society"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Known as One Hyde Park, one of the world's most expensive residential buildings.",
+        "current_name": "One Hyde Park"
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "2014",
+        "dateEnd": "2014"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·海德公园2号的茶会",
+        "hook": "在每平米价值连城的公寓里，阔太们的闲谈往往决定了社交圈的生死。",
+        "narrative_text": "海德公园2号，这栋由卡塔尔皇室背景支持的公寓，是伦敦奢华生活的巅峰。埃莉诺·杨（Eleanor Young）——新加坡名门望族的当家主母，正与她的好友们在此下榻。这里是弗朗西斯卡（Francesca Shaw）的家，窗外便是骑士桥的繁华。女人们喝着顶级的茶，看似在讨论哈罗德百货的折扣，实则在交换着关于谁家孩子又闯了祸、谁家生意出了问题的核心情报。对她们而言，伦敦不是旅游胜地，而是一个巨大的、充满名牌包和阶级博弈的游乐场。",
+        "transition_to": "她们的目光越过窗户，投向了对面的购物天堂。",
+        "mood": "joyful",
+        "key_dialogue": "“Since moving into 2 Hyde Park, the obscenely expensive luxury condominium...”"
+      }
+    },
+    {
+      "title": "Harrods",
+      "address": "England-London-Knightsbridge-87-135 Brompton Rd",
+      "synopsis": "埃莉诺·杨与友人在哈罗德百货闲逛，随后她独自离开前往秘密预约地点。",
+      "source_evidence": "While the ladies decided to spend the morning sampling all the free gourmet delicacies at Harrods’ famed Food Halls, Eleanor... left the swanky building on Knightsbridge",
+      "original_chapter": "Part One",
+      "part_id": "PART-1",
+      "part_title": "Part One",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2010",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Eleanor Young"
+        ],
+        "stay_duration": "A few hours"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "luxury",
+          "socializing",
+          "secrecy"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Famous luxury department store in London",
+        "current_name": "Harrods"
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "2010",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第6章·哈罗德的香气与秘密",
+        "hook": "在琳琅满目的美食大厅里，埃莉诺为何选择独自匆匆离去？",
+        "narrative_text": "伦敦的清晨，哈罗德百货那宏伟的食品大厅里弥漫着松露与新鲜烘焙的香气。埃莉诺·杨（Eleanor Young）——这位新加坡上流社会的权力核心人物，正与她那些热衷于社交的阔太朋友们穿梭在柜台间。朋友们正兴致勃勃地品尝着免费的顶级美食，而埃莉诺的心思显然不在这些精致的甜点上。她保持着一贯的优雅与疏离，在确认朋友们都被美食吸引后，悄无声息地穿过旋转门，走出了这座位于骑士桥的奢华地标。她此行有着更隐秘的目的，一个不愿让这些爱嚼舌根的朋友们知晓的预约。",
+        "transition_to": "她快步向东走去，目标是两个街区外的伯克利酒店。",
+        "mood": "mysterious",
+        "key_dialogue": "Eleanor... left the swanky building on Knightsbridge and walked two blocks east."
+      }
+    },
+    {
+      "title": "Berkeley hotel",
+      "address": "England-London-Knightsbridge-Wilton Pl-The Berkeley",
+      "synopsis": "埃莉诺在伯克利酒店登上私人座驾，前往梅费尔区的秘密会面。",
+      "source_evidence": "walked two blocks east to the Berkeley hotel, where a silver Jaguar XJL parked in front of a row of perfectly round topiaries awaited her.",
+      "original_chapter": "Part One",
+      "part_id": "PART-1",
+      "part_title": "Part One",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2010",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Eleanor Young"
+        ],
+        "stay_duration": "A few minutes"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "luxury",
+          "privacy"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "High-end hotel in Knightsbridge",
+        "current_name": "The Berkeley"
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "2010",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第7章·银色捷豹的等待",
+        "hook": "一辆低调而奢华的捷豹，正等待着这位来自东方的贵妇。",
+        "narrative_text": "埃莉诺（Eleanor Young）步行来到伯克利酒店门口，这里的一排修剪得圆润完美的灌木球彰显着伦敦顶级酒店的克制与格调。一辆银色的捷豹XJL早已静候在此，车漆在伦敦微弱的阳光下闪烁着冷冽的光泽。司机恭敬地为她拉开车门，埃莉诺坐进真皮座椅的瞬间，外界的喧嚣被彻底隔绝。这辆车不仅是交通工具，更是她身份的延伸，载着她穿过伦敦繁忙的街道，驶向那个只有极少数精英才知道的权力角落。",
+        "transition_to": "车子穿过海德公园，最终停在了梅费尔区的康诺特街。",
+        "mood": "ambitious",
+        "key_dialogue": "A silver Jaguar XJL parked in front of a row of perfectly round topiaries awaited her."
+      }
+    },
+    {
+      "title": "Liechtenburg Group",
+      "address": "England-London-Mayfair-Connaught Street-Liechtenburg Group",
+      "synopsis": "埃莉诺在私立银行会见理财顾问，意外撞见侄子程艾迪及其背后的秘密。",
+      "source_evidence": "Eleanor felt a sense of relief for the ﬁrst time that morning as she at last stepped into the richly appointed reception room of the Liechtenburg Group, one of the world’s most exclusive private banks.",
+      "original_chapter": "Part One",
+      "part_id": "PART-1",
+      "part_title": "Part One",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2010",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Eleanor Young",
+          "Edison Cheng",
+          "Bao Shaoyen",
+          "Peter D’Abo"
+        ],
+        "stay_duration": "1 hour"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "wealth",
+          "family_secrets",
+          "confrontation"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "uncertain",
+        "note": "Fictional bank name, though based on real private banks in the area",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": "2010",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第8章·银行里的不期而遇",
+        "hook": "原本私密的理财会面，却演变成了一场尴尬的家族偶遇。",
+        "narrative_text": "列支敦士登集团的接待室装修极尽奢华，厚实的地毯吸收了所有的脚步声。埃莉诺（Eleanor Young）本是为了处理个人财务并向Peter D’Abo咨询关于Rachel Chu的背景而来，却在这里意外撞见了她的侄子程艾迪（Edison Cheng）。程艾迪正陪同着一位神情焦虑的女性——包少延（Bao Shaoyen）。这种不期而遇让空气瞬间凝固。在这个本该绝对私密的空间里，家族的秘密与外界的势力交织在一起。埃莉诺敏锐地察觉到，程艾迪出现在这里绝非偶然，而包家的介入预示着更大的风暴。",
+        "transition_to": "谈话中提到的伤情，将众人的视线引向了圣玛丽医院。",
+        "mood": "dramatic",
+        "key_dialogue": "“Eddie? What on earth are you doing here?” Eleanor asked, her voice laced with surprise."
+      }
+    },
+    {
+      "title": "Mandarin Kitchen",
+      "address": "England-London-Bayswater-Queensway-Mandarin Kitchen",
+      "synopsis": "众人在文兴酒家聚餐，意外发现Carlton与Rachel Chu惊人的相似之处。",
+      "source_evidence": "he brought her to dinner at Mandarin Kitchen on Queensway, thinking the lobster noodles might cheer her up",
+      "original_chapter": "Part One",
+      "part_id": "PART-1",
+      "part_title": "Part One",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2010",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Edison Cheng",
+          "Bao Shaoyen",
+          "Eleanor Young",
+          "Nadine Shaw",
+          "Lorena Lim",
+          "Daisy Foo"
+        ],
+        "stay_duration": "2 hours"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "gossip",
+          "revelation",
+          "social_circle"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Famous for its lobster noodles",
+        "current_name": "Mandarin Kitchen"
+      },
+      "timeline": {
+        "orderIndex": 9,
+        "dateStart": "2010",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第9章·龙虾面与惊人真相",
+        "hook": "一碗招牌龙虾面，竟牵扯出一段跨越国界的血缘疑云。",
+        "narrative_text": "位于皇后大道的文兴酒家（Mandarin Kitchen）总是人声鼎沸，这里的龙虾面是伦敦华人的必吃之选。程艾迪（Edison Cheng）希望能用美食安抚包少延（Bao Shaoyen）的情绪，却没料到埃莉诺和她的阔太团也在此处。在喧闹的餐桌间，当Rachel Chu的照片被传阅时，包少延的脸色瞬间变得惨白。众人惊愕地发现，照片中的Rachel与躺在医院里的Carlton Bao竟然有着惊人的相似度。这种相似超越了巧合，让在座的每一个人都意识到，一个隐藏多年的家族秘密即将被揭开。",
+        "transition_to": "真相的碎片开始拼凑，而财富的定义在香港赛马会有了新的注脚。",
+        "mood": "dramatic",
+        "key_dialogue": "“My God, she looks just like Carlton!” Nadine exclaimed, pointing at the photo of Rachel."
+      }
+    },
+    {
+      "title": "Hong Kong Jockey Club",
+      "address": "中国-香港-湾仔区-跑马地-香港赛马会",
+      "synopsis": "在赛马会的闲谈中，人们重新定义了什么是真正的‘富有’。",
+      "source_evidence": "—OVERHEARD AT THE HONG KONG JOCKEY CLUB",
+      "original_chapter": "China Rich Girlfriend",
+      "part_id": "PART-2",
+      "part_title": "China Rich Girlfriend",
+      "temporal_context": {
+        "era": "Modern",
+        "historical_name": null,
+        "date_start": "2015",
+        "date_end": "2015"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [],
+        "stay_duration": "Brief overheard moment"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "wealth",
+          "social_status",
+          "gossip"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "香港著名的社交与博彩场所",
+        "current_name": "Hong Kong Jockey Club"
+      },
+      "timeline": {
+        "orderIndex": 10,
+        "dateStart": "2015",
+        "dateEnd": "2015"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·财富的新刻度",
+        "hook": "在香港赛马会，亿万富翁也可能只是‘穷人’。",
+        "narrative_text": "故事进入了新的篇章。在跑马地的香港赛马会，这里不仅是博彩的中心，更是流言与财富等级的审判场。在这里，人们不再讨论谁有钱，而是在讨论谁‘更有钱’。一段被无意中听到的对话揭示了残酷的现实：在这个时代，拥有几亿美金资产的人在真正的‘中国富豪’面前，不过是勉强糊口的‘穷人’。这种认知的冲击，拉开了续作中更疯狂的财富大幕。",
+        "transition_to": "这种对极致财富的追求，在伦敦的一场拍卖鉴定中得到了具象化。",
+        "mood": "dramatic",
+        "key_dialogue": "“Listen, these people aren't just everyday rich... They are China rich!”"
+      }
+    },
+    {
+      "title": "Christie’s",
+      "address": "United Kingdom-London-South Kensington-Old Brompton Road-Christie's",
+      "synopsis": "一对兄妹将母亲遗留的中国卷轴送往佳士得鉴定，意外开启了一场财富神话。",
+      "source_evidence": "she dropped them off—in four Sainsbury’s grocery sacks—at the auctioneer’s salesroom on Old Brompton Road",
+      "original_chapter": "Chapter 1",
+      "part_id": "PART-2",
+      "part_title": "China Rich Girlfriend",
+      "temporal_context": {
+        "era": "Modern",
+        "historical_name": null,
+        "date_start": "2015",
+        "date_end": "2015"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [],
+        "stay_duration": "Short visit"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "art",
+          "auction",
+          "discovery"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "佳士得位于南肯辛顿的拍卖中心",
+        "current_name": "Christie's South Kensington"
+      },
+      "timeline": {
+        "orderIndex": 11,
+        "dateStart": "2015",
+        "dateEnd": "2015"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·阁楼里的奇迹",
+        "hook": "用超市购物袋装载的，竟是价值连城的国宝？",
+        "narrative_text": "在伦敦南肯辛顿的老布朗普顿路上，佳士得拍卖行的专家们见证了一个荒诞而震撼的时刻。一对平凡的兄妹提着四个廉价的 Sainsbury’s 购物袋走了进来，里面塞着他们母亲阁楼里的旧卷轴。谁也没想到，这些看起来灰头土脸的丝绸卷轴，竟然是失传已久的清代杰作。艺术市场的齿轮开始转动，平凡人的命运即将被这突如其来的横财彻底改变。",
+        "transition_to": "从伦敦的拍卖行到亚洲的豪门，财富的流转从未停歇，而故事才刚刚开始。",
+        "mood": "mysterious",
+        "key_dialogue": "“She dropped them off—in four Sainsbury’s grocery sacks...”"
+      }
+    },
+    {
+      "title": "Singapore",
+      "address": "Singapore-Singapore-Central Area",
+      "synopsis": "农历新年期间，Tan氏家族在拥堵的车流中穿行，展现了新加坡上流社会的节日社交图景。",
+      "source_evidence": "he hoped that their good deeds and contributions to Singapore would mean that they would not suffer from too much eternal damnation.",
+      "original_chapter": "TYERSALL PARK",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Modern",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Lillian May Tan",
+          "Geraldine Tan",
+          "Eric Tan",
+          "Evie Tan"
+        ],
+        "stay_duration": "Ongoing"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "tradition",
+          "family_values",
+          "urban_life"
+        ],
+        "significance": 0.7
+      },
+      "visitability": {
+        "status": "exists",
+        "note": null,
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·狮城的春节狂想",
+        "hook": "全岛的豪车都在这一天驶向同一个方向。",
+        "narrative_text": "农历新年的第一天，整个新加坡被一种既喜庆又紧绷的气氛笼罩。对于像Lillian May Tan所属的Tan氏家族这样的名门望族来说，这一天不仅是团圆，更是一场关于地位、礼数和速度的竞赛。街道上挤满了前往各处拜年的车辆，空气中弥漫着节日的气息。作者通过Tan氏一家的视角，展现了新加坡社会特有的阶级森严与传统习俗的结合，每个人都在为了维持家族的体面而奔波。",
+        "transition_to": "在繁忙的街道尽头，隐藏着一座通往旧时光的宏伟庄园——Tyersall Park。",
+        "mood": "joyful",
+        "key_dialogue": "“...their good deeds and contributions to Singapore would mean that they would not suffer from too much eternal damnation.”"
+      }
+    },
+    {
+      "title": "Orchard Road",
+      "address": "Singapore-Singapore-Orchard Road",
+      "synopsis": "Lillian May Tan在前往聚会途中，对乌节路上俗气的农历新年装饰感到不满。",
+      "source_evidence": "Lillian May Tan... peered out at the red-and-gold Chinese New Year decorations that assaulted every façade along Orchard Road.",
+      "original_chapter": "TYERSALL PARK",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Modern Era",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Lillian May Tan",
+          "Eric Tan",
+          "Evie Tan"
+        ],
+        "stay_duration": "Passing through"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "consumerism",
+          "tradition",
+          "social_critique"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Singapore's primary shopping belt",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·流动的俗气盛宴",
+        "hook": "在通往顶级豪宅的必经之路上，最顶级的富豪却在嫌弃最繁华的街道。",
+        "narrative_text": "离开静谧的住宅区，车队驶入了新加坡最负盛名的购物街——乌节路。然而，坐在豪华轿车内的Lillian May Tan——这位自诩品味高雅的Tan家长辈，却对窗外铺天盖地的红金配色装饰嗤之以鼻。在她眼中，这些为了迎合大众审美而设立的农历新年装饰简直是一种视觉暴力。她与儿子Eric、儿媳Evie坐在车内，尽管身处繁华中心，心却早已飞向了那个代表着真正老派权力的家族聚会。乌节路的喧嚣与他们的清高形成鲜明对比。",
+        "transition_to": "思绪在堵车中飘远，Lillian想起多年前在欧洲的一段荒诞回忆。",
+        "mood": "dramatic",
+        "key_dialogue": "“It’s so common, don’t you think? All this red and gold everywhere.”"
+      }
+    },
+    {
+      "title": "Amsterdam",
+      "address": "Netherlands-North Holland-Amsterdam",
+      "synopsis": "乌节路的装饰让Lillian想起多年前已故丈夫带她在阿姆斯特丹看的一场奇特表演。",
+      "source_evidence": "it reminded her of something she had seen a long time ago when her late husband—bless his soul—took her to a most peculiar live show in Amsterdam.",
+      "original_chapter": "TYERSALL PARK",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Late 20th Century",
+        "historical_name": null,
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Lillian May Tan"
+        ],
+        "stay_duration": "Short trip (memory)"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "memory",
+          "nostalgia",
+          "eccentricity"
+        ],
+        "significance": 0.2
+      },
+      "visitability": {
+        "status": "exists",
+        "note": null,
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第3章·阿姆斯特丹的旧影",
+        "hook": "一抹红色，竟能让这位贵妇联想到红灯区的荒唐往事？",
+        "narrative_text": "记忆是一个奇妙的回路。乌节路上那些让Lillian May Tan感到不适的艳俗装饰，竟像一把钥匙，开启了她尘封多年的往事。她想起了多年前，她那已故的丈夫曾带她去阿姆斯特丹旅行。在那座充满自由与禁忌的城市里，他们曾观看过一场极其“特别”的现场表演。尽管那段记忆与眼前的家庭聚会格格不入，但在这一刻，阿姆斯特丹的异域风情与新加坡的节日气氛在她的脑海中诡异地重叠。这种跳跃的联想，展现了这些亚洲顶级富豪们遍布全球的生活足迹。",
+        "transition_to": "思绪回到现实，拥堵的交通让她开始抱怨路线的选择，提到了克里门梭道。",
+        "mood": "nostalgic",
+        "key_dialogue": "“...it reminded her of something she had seen a long time ago when her late husband—bless his soul—took her to a most peculiar live show in Amsterdam.”"
+      }
+    },
+    {
+      "title": "Clemenceau Avenue",
+      "address": "Singapore-Singapore-Clemenceau Avenue",
+      "synopsis": "Lillian抱怨交通时提到此路，并引出Astrid Leong与Michael Teo婚后曾住在此处的社交八卦。",
+      "source_evidence": "“We should have taken Clemenceau Avenue! Now we’re stuck in all this Orchard Road traffic,” Lillian May said, fretting.",
+      "original_chapter": "TYERSALL PARK",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Modern Era",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Lillian May Tan",
+          "Astrid Leong",
+          "Michael Teo"
+        ],
+        "stay_duration": "Passing through"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "social_status",
+          "gossip",
+          "marriage"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Major road in Singapore",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·克里门梭道的流言",
+        "hook": "一条普通的街道，曾是名媛“下嫁”平民的居住地。",
+        "narrative_text": "当车队在乌节路的滚滚车流中举步维艰时，Lillian May Tan焦躁地抱怨应该改走克里门梭道。这条街道在她的社交圈里有着特殊的含义——那是Astrid Leong，这位家族中最完美的女神，在执意嫁给出身平凡的Michael Teo后最初居住的地方。对于这些习惯了深宅大院的富豪来说，住在克里门梭道的小公寓里几乎等同于“受苦”，甚至成为了圈子里的谈资。Lillian的抱怨不仅是对交通的不满，更是对这段不被看好的婚姻的一种潜意识里的审视。",
+        "transition_to": "终于，车队摆脱了市中心的喧嚣，转入了通往庄园的私人领地：Tyersall Avenue。",
+        "mood": "tense",
+        "key_dialogue": "“We should have taken Clemenceau Avenue! Now we’re stuck in all this Orchard Road traffic.”"
+      }
+    },
+    {
+      "title": "Tyersall Avenue",
+      "address": "Singapore-Singapore-Tyersall Avenue",
+      "synopsis": "车队抵达Tyersall Avenue，沿着私人碎石路进入神秘的Tyersall Park庄园。",
+      "source_evidence": "As the convoy of vehicles ﬁnally reached Tyersall Avenue and made its way up the private gravel road of the sprawling estate",
+      "original_chapter": "TYERSALL PARK",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Modern Era",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Lillian May Tan",
+          "Geraldine Tan",
+          "Eric Tan",
+          "Evie Tan"
+        ],
+        "stay_duration": "Passing through"
+      },
+      "cultural_tags": {
+        "category": "architectural",
+        "themes": [
+          "exclusivity",
+          "wealth",
+          "seclusion"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Road leading to the former Tyersall Park site",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·通往秘境的碎石路",
+        "hook": "在地图上消失的街道，通向新加坡最显赫的秘密。",
+        "narrative_text": "车队终于驶离了公共道路，转入Tyersall Avenue。这条街道仿佛是一道分水岭，将外界的喧嚣彻底隔绝。随着车轮碾过私人领地的碎石路发出沙沙声，一种肃穆而威严的气氛扑面而来。这里是Shang Su Yi（尼古拉斯的祖母）的领地，一个在现代新加坡地图上几乎被抹去的世外桃源。Lillian May Tan和她的家人们整理着衣装，准备迎接即将到来的家族盛事。这条路不仅通向一座庄园，更通向这个家族权力的核心，每一个转角都透露着不言而喻的阶级优越感。",
+        "transition_to": "在进入庄园的最后时刻，一个关于Nicholas在加州举行婚礼的传闻打破了车内的平静。",
+        "mood": "mysterious",
+        "key_dialogue": "“As the convoy of vehicles ﬁnally reached Tyersall Avenue and made its way up the private gravel road...”"
+      }
+    },
+    {
+      "title": "Tyersall Park",
+      "address": "Singapore-Singapore-Tyersall Park",
+      "synopsis": "Young家族的宏伟庄园，是新加坡最神秘且显赫的私人领地，新年聚会的终极目的地。",
+      "source_evidence": "The Tans prided themselves on always being the ﬁrst to arrive at Tyersall Park on New Year’s Day.",
+      "original_chapter": "TYERSALL PARK",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Modern",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Lillian May Tan",
+          "Shang Su Yi",
+          "Eleanor Young",
+          "Astrid Leong",
+          "Philip Young",
+          "Nicholas Young",
+          "Rachel Chu"
+        ],
+        "stay_duration": "A full day of celebration"
+      },
+      "cultural_tags": {
+        "category": "architectural",
+        "themes": [
+          "heritage",
+          "secrecy",
+          "grandeur"
+        ],
+        "significance": 1.0
+      },
+      "visitability": {
+        "status": "fictional_suspect",
+        "note": "Inspired by Istana Tyersall, which is now a restricted ruin",
+        "current_name": "Istana Tyersall (Ruins)"
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第6章·深宫般的泰瑟尔庄园",
+        "hook": "在寸土寸金的新加坡，竟然有一处连地图都未必标注的森林庄园。",
+        "narrative_text": "Tyersall Park不仅是一处房产，它是Young家族——新加坡最古老、最富有家族的权力图腾。这座庄园坐落在植物园旁的密林深处，大门紧锁，唯有受邀者方可进入。Tan氏一家为了争夺“第一个到达”的荣誉，早早便在门外守候。庄园内部，Shang Su Yi——家族的最高女家长，正坐镇其中接受后辈的跪拜。这里的一草一木、每一件古董都诉说着跨越世纪的财富积累。对于Rachel Chu来说，这里是她理解Nicholas背景的关键，也是她面临最严峻家族考验的战场。",
+        "transition_to": "在聚会上，Lillian向Michael Teo提到了他出身的大巴窑，以此赞美他的成功。",
+        "mood": "dramatic",
+        "key_dialogue": "“The Tans prided themselves on always being the ﬁrst to arrive at Tyersall Park on New Year’s Day.”"
+      }
+    },
+    {
+      "title": "Toa Payoh",
+      "address": "Singapore-Singapore-Toa Payoh",
+      "synopsis": "Lillian在聚会上赞叹Michael Teo从大巴窑普通出身奋斗成为科技大亨的传奇经历。",
+      "source_evidence": "And Michael—from Toa Payoh to tycoon! My son tells me you have become the Steve Gates of Singapore!",
+      "original_chapter": "TYERSALL PARK",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Lillian May Tan",
+          "Michael Teo"
+        ],
+        "stay_duration": "Mentioned in conversation"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "social mobility",
+          "success",
+          "class"
+        ],
+        "significance": 0.2
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Singapore's first satellite public housing town",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第7章·大巴窑的奇迹",
+        "hook": "从普通组屋区到亿万富豪，Michael的晋升之路是新加坡梦的缩影。",
+        "narrative_text": "在Tyersall Park那场令人眼花缭乱的社交聚会上，Lillian May Tan正兴致勃勃地拉着Michael Teo攀谈。Michael是Astrid Leong那英俊却总显得有些局促的丈夫，他并非出身名门。Lillian毫不掩饰地大声赞叹，称他为‘新加坡的史蒂夫·盖茨’，强调他如何从大巴窑（Toa Payoh）——一个代表着普通工薪阶层的公共组屋区——一路打拼成为了如今的科技大亨。这种赞美在充满老牌贵族的庄园里显得有些刺耳，无意中揭示了Michael在豪门姻亲中面临的阶级压力。",
+        "transition_to": "聚会上的音乐响起，一名被认为来自莱佛士音乐学院的钢琴家正在演奏。",
+        "mood": "ambitious",
+        "key_dialogue": "“And Michael—from Toa Payoh to tycoon!”"
+      }
+    },
+    {
+      "title": "Raffles Music College",
+      "address": "Singapore-Singapore-Raffles Music College",
+      "synopsis": "在Tyersall Park的聚会上，一名年轻的钢琴家正在演奏，其青涩的模样被认为刚从莱佛士音乐学院毕业。",
+      "source_evidence": "The young pianist, who looked like he was barely out of his ﬁrst year at the Raffles Music College as he sweated profusely in his suit",
+      "original_chapter": "TYERSALL PARK",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Eleanor Young",
+          "Astrid Leong"
+        ],
+        "stay_duration": "A few hours"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "atmosphere",
+          "luxury",
+          "performance"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": null,
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第8章·琴键上的汗水",
+        "hook": "在顶级豪门的聚会上，连背景音乐的演奏者都承受着巨大的压力。",
+        "narrative_text": "Tyersall Park的客厅里，昂贵的古董家具环绕着一架施坦威钢琴。一名年轻的钢琴家正全神贯注地演奏着，他那局促不安的神情和西装下不断渗出的汗水，让在场的贵妇们一眼断定他大概是刚从莱佛士音乐学院（Raffles Music College）毕业的新手。对于像Eleanor Young这样挑剔的女主人来说，这些细节都是衡量聚会档次的标准。尽管琴声优美，但在这种等级森严的环境中，年轻人的青涩与周围那些老练的社交达人形成了鲜明对比。",
+        "transition_to": "豪门的精致不仅体现在音乐上，连远在英国的庄园也为这场聚会贡献了顶级厨师。",
+        "mood": "tense",
+        "key_dialogue": "“The young pianist, who looked like he was barely out of his ﬁrst year at the Raffles Music College...”"
+      }
+    },
+    {
+      "title": "England",
+      "address": "United Kingdom-England",
+      "synopsis": "Shang家族著名的点心厨师Marcus Sim平时驻扎在英国庄园，为了家族重要活动会特意飞回新加坡。",
+      "source_evidence": "Marcus Sim, the Shang family’s acclaimed pastry chef based at their estate in England, would ﬂy in",
+      "original_chapter": "TYERSALL PARK",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Marcus Sim"
+        ],
+        "stay_duration": "Indeterminate"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "wealth",
+          "globalization",
+          "culinary"
+        ],
+        "significance": 0.2
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Refers to the general region of the UK where the Shang family holds estates",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 9,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第9章·跨洋的甜点师",
+        "hook": "为了几块完美的糕点，富豪们不惜让厨师跨越半个地球。",
+        "narrative_text": "在Tyersall Park的厨房里，那些精美绝伦的甜点并非出自普通人之手。它们是由Marcus Sim亲手制作的，这位备受赞誉的糕点厨师平时常驻在Shang家族位于英国（England）的宏伟庄园里。每当新加坡有重大活动，他便会像候鸟一样跨越重洋飞回来。这种跨国界的资源调动，无声地展示了Shang家族——这个比Young家族更加神秘且富有的家族——那令人咋舌的权势与生活方式。",
+        "transition_to": "就在宾客们享受美食时，Philip Young从悉尼赶回了新加坡。",
+        "mood": "ambitious",
+        "key_dialogue": "“Marcus Sim, the Shang family’s acclaimed pastry chef based at their estate in England, would ﬂy in”"
+      }
+    },
+    {
+      "title": "Sydney",
+      "address": "Australia-New South Wales-Sydney",
+      "synopsis": "Philip Young从悉尼赶回新加坡参加聚会，此前Nicholas曾在悉尼致电他告知婚讯。",
+      "source_evidence": "noticing that his father—just arrived from Sydney and wearing an extremely rumpled gray suit",
+      "original_chapter": "TYERSALL PARK",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Philip Young",
+          "Nicholas Young"
+        ],
+        "stay_duration": "Indeterminate"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "family",
+          "travel"
+        ],
+        "significance": 0.2
+      },
+      "visitability": {
+        "status": "exists",
+        "note": null,
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 10,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第10章·悉尼的来客",
+        "hook": "Philip Young穿着皱巴巴的西装现身，他刚从悉尼的宁静生活中被拉回社交漩涡。",
+        "narrative_text": "Nicholas Young在人群中一眼就认出了他的父亲Philip。Philip Young刚刚从悉尼（Sydney）飞抵新加坡，身上还穿着那套极不合身的、皱巴巴的灰色西装。与那些时刻保持精致的家族成员不同，Philip更喜欢悉尼那种远离新加坡社交圈压力的生活。此前，Nicholas正是往悉尼打了一通电话，向父亲透露了自己打算向Rachel Chu求婚的念头。Philip的出现，既带来了父子间的温情，也预示着Nicholas必须面对家族内部对这段感情的审视。",
+        "transition_to": "新加坡的聚会还在继续，而在大洋彼岸的洛杉矶，Kitty Pong正展开她的狩猎计划。",
+        "mood": "joyful",
+        "key_dialogue": "“noticing that his father—just arrived from Sydney and wearing an extremely rumpled gray suit”"
+      }
+    },
+    {
+      "title": "Los Angeles",
+      "address": "USA-California-Los Angeles",
+      "synopsis": "Kitty Pong向Corinna透露，Bernard Tai目前正躲在洛杉矶，并要求Corinna随她一同前往。",
+      "source_evidence": "You’ll need to come with me to LA. “Los Angeles?” Corinna said in surprise.",
+      "original_chapter": "TYERSALL PARK",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Kitty Pong",
+          "Bernard Tai"
+        ],
+        "stay_duration": "Indeterminate"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "scandal",
+          "pursuit",
+          "fame"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": null,
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 11,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第11章·追踪洛杉矶",
+        "hook": "为了追回那个消失的男人，Kitty Pong决定跨越太平洋。",
+        "narrative_text": "一心想要跻身上流社会的艳星Kitty Pong正处于焦虑之中。她向社交顾问Corinna透露了一个秘密：那个放荡不羁的富家子Bernard Tai现在正躲在洛杉矶（Los Angeles）。Kitty坚信，要稳固自己的地位并抓住Bernard，她必须亲自出马。她强硬地要求Corinna陪同她前往这座充满诱惑与混乱的城市。洛杉矶在这里不仅是一个地理坐标，更是Kitty野心扩张的新战场，她准备在那里展开一场关于金钱与名分的狩猎。",
+        "transition_to": "从洛杉矶的野心到新加坡的深宅，这场关于财富与爱情的巡礼在泰瑟尔庄园的余晖中落下帷幕。",
+        "mood": "ambitious",
+        "key_dialogue": "“You’ll need to come with me to LA.”"
+      }
+    },
+    {
+      "title": "MORTON STREET",
+      "address": "USA-New York-New York-Manhattan-Morton Street",
+      "synopsis": "尼克与瑞秋在纽约西村的爱巢，也是他们平凡教授生活的起点。",
+      "source_evidence": "MORTON STREET\n\nNEW YORK",
+      "original_chapter": "Chapter 6",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2010",
+        "date_end": "2010"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Nicholas Young",
+          "Rachel Chu"
+        ],
+        "stay_duration": "Several years"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "romance",
+          "domesticity",
+          "identity"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "West Village residential street",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "2010",
+        "dateEnd": "2010"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·西村的宁静时光",
+        "hook": "在繁华的纽约，这对教授情侣过着与世无争的生活。",
+        "narrative_text": "在曼哈顿西村的莫顿街（Morton Street），Nicholas Young（尼克）与Rachel Chu（瑞秋）分享着一间充满书卷气的公寓。尼克是一位温文尔雅的历史系教授，而瑞秋则是才华横溢的经济学教授。在外界眼中，他们只是一对为了房租和学术论文忙碌的普通情侣。尼克刻意隐瞒了自己显赫的家族背景，享受着这份基于灵魂契合而非金钱地位的纯粹爱情。然而，随着尼克决定带瑞秋回新加坡参加好友婚礼，这片宁静即将被打破。",
+        "transition_to": "在筹备旅程时，远在亚洲的亲友们已经开始通过各种渠道“关心”这段恋情。",
+        "mood": "peaceful",
+        "key_dialogue": "“I’m just a guy who’s crazy about you.”"
+      }
+    },
+    {
+      "title": "Jakarta",
+      "address": "Indonesia-Jakarta-Menteng-Antique Shop",
+      "synopsis": "埃莉诺在雅加达搜寻古董时，通过社交圈打探儿子的动向。",
+      "source_evidence": "when I came across this voile dress in an antique shop in Jakarta, of all places, I didn’t know what to think.",
+      "original_chapter": "Chapter 6",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2010",
+        "date_end": "2010"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Eleanor Young"
+        ],
+        "stay_duration": "Short stay"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "social_network",
+          "gossip",
+          "luxury"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Jakarta's antique district",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "2010",
+        "dateEnd": "2010"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·雅加达的古董店",
+        "hook": "母亲的视线从未离开，即便她远在印尼。",
+        "narrative_text": "Eleanor Young（埃莉诺），尼克那位掌控欲极强且极度看重门第的母亲，此时正身处雅加达。她在当地的一家古董店里挑选衣服，但心思显然不在购物上。通过雅加达上流社会的社交网络，她已经听闻了儿子在纽约的种种传言。雅加达不仅是她社交版图的一站，更是她布下情报网的节点之一。她给尼克留下的语音信息中，字里行间都透着对瑞秋这个“无名小卒”的审视与戒备。",
+        "transition_to": "而在纽约，尼克正试图用一份简单的午餐来享受最后的平静。",
+        "mood": "mysterious",
+        "key_dialogue": "“I was in Jakarta when I heard the most interesting thing...”"
+      }
+    },
+    {
+      "title": "La Panineria",
+      "address": "USA-New York-New York-Manhattan-La Panineria",
+      "synopsis": "尼克为瑞秋购买三明治的小店，体现了两人在纽约朴素的生活方式。",
+      "source_evidence": "Nick had run out to grab some sandwiches at La Panineria",
+      "original_chapter": "Chapter 6",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2010",
+        "date_end": "2010"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Nicholas Young",
+          "Rachel Chu"
+        ],
+        "stay_duration": "15 minutes"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "simplicity",
+          "romance"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "A sandwich shop in Greenwich Village",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "2010",
+        "dateEnd": "2010"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·最后的三明治",
+        "hook": "一份简单的意式三明治，是豪门生活前的最后晚餐。",
+        "narrative_text": "在莫顿街的公寓里，尼克跑下楼去La Panineria买了几个三明治。这家位于格林威治村的小店是他们日常生活的缩影——没有银器，没有侍者，只有两个相爱的人分享着简单的食物。瑞秋并不知道，这种随性、自由的纽约生活即将被新加坡那种等级森严、极度奢华的社交礼仪所取代。尼克看着吃得津津有味的瑞秋，心中既有带她回家的期待，也有一丝隐隐的担忧。",
+        "transition_to": "午餐过后，尼克回到了他的学术领地，却遭遇了一场意想不到的“绑架”。",
+        "mood": "joyful",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "New York University",
+      "address": "USA-New York-New York-Manhattan-New York University",
+      "synopsis": "尼克在纽约大学授课时，被两名神秘女性以戏剧性的方式带走。",
+      "source_evidence": "the students enrolled at New York University in the course Britain Between the Wars... were treated to the most curious spectacle.",
+      "original_chapter": "Chapter 6",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2010",
+        "date_end": "2010"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Nicholas Young"
+        ],
+        "stay_duration": "2 hours"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "academia",
+          "spectacle",
+          "mystery"
+        ],
+        "significance": 0.7
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Main campus around Washington Square",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "2010",
+        "dateEnd": "2010"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·讲台上的意外",
+        "hook": "严肃的教授在课堂上被两名“水手”带走？",
+        "narrative_text": "在纽约大学（NYU）的教室里，尼克正在讲授关于两次世界大战期间英国历史的课程。突然，两名身穿复古航海服、打扮得如同老电影中走出来的女性闯入教室。在学生们惊愕的目光中，她们以一种不容置疑的优雅姿态将尼克“请”出了课堂。这一幕极具戏剧性，打破了尼克苦心经营的平凡学者形象，也预示着他背后那个庞大而古怪的家族势力开始向他的纽约生活渗透。",
+        "transition_to": "尼克被带出教学楼，一辆豪车已在大学广场旁等候多时。",
+        "mood": "dramatic",
+        "key_dialogue": "“Professor Young? You’re needed.”"
+      }
+    },
+    {
+      "title": "Pier 88",
+      "address": "USA-New York-New York-Manhattan-Pier 88",
+      "synopsis": "尼克登上了超级游艇“奥丁号”，见到了掌握社交圈秘密的杰奎琳·凌。",
+      "source_evidence": "Moored at Pier 88 was a superyacht that looked like it had at least ﬁve levels of decks.",
+      "original_chapter": "Chapter 6",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Modern Day",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Nicholas Young",
+          "Jacqueline Ling"
+        ],
+        "stay_duration": "1 hour"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "wealth",
+          "gossip",
+          "family_legacy"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Part of the New York Passenger Ship Terminal",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·奥丁号上的密谈",
+        "hook": "五层甲板的巨轮上，藏着足以让整个新加坡社交圈震动的消息。",
+        "narrative_text": "在曼哈顿88号码头，超级游艇“奥丁号”如同一座漂浮的宫殿。尼克在这里见到了Jacqueline Ling（杰奎琳）——一位优雅、精明且对亚洲上流社会了如指掌的家族世交。杰奎琳不仅是尼克祖母的好友，更是这个圈子里不可忽视的权力经纪人。在奢华的甲板上，杰奎琳用她那带着伦敦腔的优雅语调，向尼克透露了关于他即将带瑞秋回新加坡的消息是如何在家族中引起轩然大波的。这不仅仅是一次叙旧，更是一次警告：尼克试图保护的隐私，在那个世界里根本不存在。",
+        "transition_to": "谈话间，杰奎琳提到了她那远在英国受教育的儿子，以及一段关于尼克父亲的往事。",
+        "mood": "dramatic",
+        "key_dialogue": "“Do you have any idea what a stir you’re causing?”"
+      }
+    },
+    {
+      "title": "Mount Sophia",
+      "address": "Singapore-Singapore-Singapore-Mount Sophia",
+      "synopsis": "杰奎琳回忆起自己在苏菲亚山祖宅度过的奢华童年，那座宅邸曾比尼克的祖宅还要宏伟。",
+      "source_evidence": "His house on Mount Sophia was bigger than Tyersall Park, and I was born in that house.",
+      "original_chapter": "Chapter 7",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Modern era",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Jacqueline Ling"
+        ],
+        "stay_duration": "A lifetime of memories"
+      },
+      "cultural_tags": {
+        "category": "architectural",
+        "themes": [
+          "heritage",
+          "nostalgia",
+          "wealth"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Mount Sophia is now a high-end residential area",
+        "current_name": "Mount Sophia"
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第6章·消失的庄园",
+        "hook": "在新加坡的顶级社交圈，房子的规模就是地位的勋章。",
+        "narrative_text": "杰奎琳向身边的名媛们提起了一段往事。她回忆起自己的祖父Ling Yin Chao在苏菲亚山的旧宅，那是一座在规模上甚至超越了尼克家族Tyersall Park的宏伟建筑。对于这些出生在金字塔顶端的人来说，童年的记忆总是与巨大的花园、成群的仆人和消失的地产紧密相连。苏菲亚山的往事不仅是她个人的骄傲，更是那个时代新加坡顶级华商财富的缩影。然而，宏伟的宅邸并不能保证财富的延续，尤其是当家族传统与性别偏见碰撞时。",
+        "transition_to": "杰奎琳解释了为何这份庞大的家产最终没能留在她手中，这与她的祖籍地厦门有关。",
+        "mood": "nostalgic",
+        "key_dialogue": "“His house on Mount Sophia was bigger than Tyersall Park.”"
+      }
+    },
+    {
+      "title": "Amoy",
+      "address": "China-Fujian-Xiamen",
+      "synopsis": "杰奎琳揭示了家族财富流失的原因：她那来自厦门的守旧祖父拒绝让女性继承遗产。",
+      "source_evidence": "My grandfather was an old-fashioned man from Amoy, and for people like him, girls weren’t supposed to inherit",
+      "original_chapter": "Chapter 7",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Early 20th century (in memory)",
+        "historical_name": "Amoy",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Jacqueline Ling"
+        ],
+        "stay_duration": "Ancestral roots"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "patriarchy",
+          "inheritance",
+          "tradition"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Modern day Xiamen",
+        "current_name": "厦门"
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第7章·厦门的旧梦",
+        "hook": "为什么苏菲亚山的宏伟庄园最终没能留在杰奎琳手中？",
+        "narrative_text": "杰奎琳的话语中带着一丝遗憾。她的祖父Ling Yin Chao是一个从中国厦门移民到南洋的守旧商人。在那个时代的观念里，女性被排除在继承权之外。尽管杰奎琳在苏菲亚山的豪宅中出生，但随着祖父去世，那份庞大的家产根据厦门的传统观念被分配给了男性继承人。厦门，这个作为许多新加坡豪门根源的地方，不仅输送了财富，也带去了根深蒂固的宗法制度，决定了下一代女性的命运轨迹。",
+        "transition_to": "与这些沉溺于家族遗产的新加坡富豪不同，尼克在纽约有着完全不同的生活观。",
+        "mood": "bittersweet",
+        "key_dialogue": "“My grandfather was an old-fashioned man from Amoy.”"
+      }
+    },
+    {
+      "title": "Central Park",
+      "address": "USA-New York-New York-Central Park",
+      "synopsis": "杰奎琳用纽约中央公园来类比Tyersall Park的稀缺性，强调尼克家族地产的惊人价值。",
+      "source_evidence": "it’s like owning Central Park in New York.",
+      "original_chapter": "Chapter 7",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Modern era",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Jacqueline Ling"
+        ],
+        "stay_duration": "Passing mention"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "comparison",
+          "extreme_wealth",
+          "real_estate"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Iconic New York landmark",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第8章·比肩中央公园",
+        "hook": "如果有人告诉你，他家后花园的大小等同于整个中央公园？",
+        "narrative_text": "为了让在场的人理解尼克家族地产Tyersall Park的真正价值，杰奎琳做了一个惊人的类比。她说，在寸土寸金的新加坡拥有那样一片原始森林般的庄园，其意义等同于在纽约私人拥有整个中央公园。这个比喻瞬间让在场的名媛们屏住了呼吸。这不仅仅是钱的问题，这是关于在现代都市中心保留一片不可复制的历史与自然。这种财富的量级，已经超出了普通富豪的想象边界，也解释了为何尼克的回归会引发如此大的震动。",
+        "transition_to": "随着对顶级财富的讨论告一段落，尼克与瑞秋的新加坡之旅正式拉开帷幕。",
+        "mood": "dramatic",
+        "key_dialogue": "“It’s like owning Central Park in New York.”"
+      }
+    },
+    {
+      "title": "Belmont Road",
+      "address": "Singapore-Singapore-Singapore-Belmont Road",
+      "synopsis": "Carol Tai和Eleanor Young前往贝尔蒙特路的Singh家参加私人珠宝展，展开一场社交博弈。",
+      "source_evidence": "trying to make their way toward the house with the red lacquered front door on Belmont Road.",
+      "original_chapter": "Chapter 7",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Modern era",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Carol Tai",
+          "Eleanor Young",
+          "Jacqueline Ling"
+        ],
+        "stay_duration": "An afternoon"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "social_climbing",
+          "jewelry",
+          "rivalry"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "新加坡著名的优质洋房区（GCB）",
+        "current_name": "Belmont Road"
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·贝尔蒙特路的红门",
+        "hook": "在通往顶级珠宝展的路上，连劳斯莱斯都会遭遇堵车。",
+        "narrative_text": "贝尔蒙特路是新加坡最显赫的住宅区之一，此刻却被各色豪车堵得水泄不通。Carol Tai——这位虔诚却又极度虚荣的阔太，正和尼克的母亲Eleanor Young一起，艰难地穿过车阵，走向那扇标志性的红漆大门。这里正在举办一场由Gayatri Singh主办的私人珠宝茶会。空气中弥漫着昂贵的香水味和低声的八卦。对于这些女性来说，这不仅是一场下午茶，更是一场关于品味、财力和家族消息的博弈场。每一件展示的珠宝背后，都隐藏着一个家族的兴衰故事。",
+        "transition_to": "而这场茶会的主角，正是那些从遥远的印度带回的稀世珍宝。",
+        "mood": "tense",
+        "key_dialogue": "The traffic on Belmont Road was always a nightmare whenever Gayatri had one of her showings."
+      }
+    },
+    {
+      "title": "India",
+      "address": "India",
+      "synopsis": "Gayatri Singh每年从印度带回大量的传家宝珠宝，成为新加坡社交圈争相抢购的对象。",
+      "source_evidence": "Every year, she would return from her annual trip to India with another stash of heirlooms",
+      "original_chapter": "Chapter 7",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Modern era",
+        "historical_name": null,
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Gayatri Singh"
+        ],
+        "stay_duration": "Annual trips"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "luxury",
+          "trade",
+          "heritage"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "珠宝来源地背景",
+        "current_name": "India"
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·恒河的馈赠",
+        "hook": "这些让新加坡名媛疯狂的珠宝，究竟有着怎样的来历？",
+        "narrative_text": "Gayatri Singh的魅力很大程度上源于她与印度的深厚联系。每年，她都会前往印度进行一次神秘的旅行，回来时总会带着一箱箱令人瞠目结舌的传家宝。这些珠宝并非来自普通的金店，而是那些没落王室或古老家族流出的稀世珍品。在贝尔蒙特路的茶会上，这些带着异域风情和历史厚重感的红宝石、祖母绿，成为了名媛们竞相追逐的目标。印度，在她们眼中不再是一个遥远的国度，而是一个取之不尽的宝库，源源不断地供应着彰显她们身份的勋章。",
+        "transition_to": "在欣赏这些璀璨珠宝的同时，一场关于尼克神秘女友的调查也悄然拉开序幕。",
+        "mood": "mysterious",
+        "key_dialogue": "Every year, she would return from her annual trip to India with another stash of heirlooms."
+      }
+    },
+    {
+      "title": "China",
+      "address": "China",
+      "synopsis": "Eleanor透露Carlton Bao在海外挥霍无度，其家族正计划将其带回国内严加管教。",
+      "source_evidence": "Apparently he’s been buying cars and shipping them back to China. ... once Carlton is fully back on his feet again and they return to China",
+      "original_chapter": "Chapter 7",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Eleanor Young",
+          "Carlton Bao",
+          "Bao Shaoyen"
+        ],
+        "stay_duration": "Mentioned as a destination"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "wealth",
+          "family_discipline",
+          "reputation"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "国家级背景",
+        "current_name": "China"
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·归国的阴影",
+        "hook": "豪门逆子在海外的荒唐岁月中，家族正织就一张回国的网。",
+        "narrative_text": "Eleanor Young在闲聊中揭开了Bao家不为人知的烦恼。Carlton Bao，这个含着金汤匙出生的年轻人，在英国留学期间不仅卷入了致命车祸，还私下购买豪车运回中国转售牟利。他的母亲Bao Shaoyen对此深感忧虑，认为只有将他带回中国，在家族的严密监控下，这个放荡不羁的继承人才能真正‘脚踏实地’。中国，对于Carlton而言，既是避风港，也是一座即将关上的华丽牢笼。",
+        "transition_to": "而在中国最繁华的魔都上海，另一场关于身份与寻根的旅程即将开启。",
+        "mood": "tense",
+        "key_dialogue": "Apparently he’s been buying cars and shipping them back to China."
+      }
+    },
+    {
+      "title": "Shanghai",
+      "address": "China-Shanghai",
+      "synopsis": "Rachel与Nicholas受邀前往上海，准备开启一段寻找生父并会见兄弟的浪漫旅程。",
+      "source_evidence": "your father just asked if we would visit him in Shanghai as soon as summer break starts. He’s eager for you to meet your brother",
+      "original_chapter": "Chapter 2",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Rachel Chu",
+          "Nicholas Young"
+        ],
+        "stay_duration": "Several days"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "romance",
+          "family_reunion",
+          "discovery"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "故事重要目的地",
+        "current_name": "Shanghai"
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·魔都的邀约",
+        "hook": "一封来自上海的邀请函，能否填补Rachel生命中缺失的父爱？",
+        "narrative_text": "随着暑假的临近，Rachel Chu收到了一个令她心跳加速的消息。Nicholas Young告诉她，她的生父邀请他们前往上海。对于一直渴望了解自己身世的Rachel来说，上海不仅是远东的明珠，更是通往她过去与未来的钥匙。Nicholas承诺这将是一段浪漫至极的旅程，他们将入住最顶级的酒店，游览整座城市最迷人的角落。然而，在上海繁华的霓虹灯下，等待她的除了亲情，或许还有更多未知的家族秘密。",
+        "transition_to": "在上海的繁华之外，远在印度的古老土邦也留下了名媛们的足迹。",
+        "mood": "joyful",
+        "key_dialogue": "He’s eager for you to meet your brother, and he swears he’ll hook us up at the most romantic spots in all of China."
+      }
+    },
+    {
+      "title": "Gleneagles Hospital",
+      "address": "Singapore-Singapore-Singapore-Napier Road-Gleneagles Hospital",
+      "synopsis": "Carol Tai 回忆起在鹰阁医院第一次见到孙女的情景，流露出家族关系的疏离。",
+      "source_evidence": "I’ve only met my granddaughter twice since she was born—ﬁrst time at Gleneagles Hospital",
+      "original_chapter": "Chapter 7",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Carol Tai"
+        ],
+        "stay_duration": "Brief visit"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "family",
+          "estrangement",
+          "birth"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "新加坡顶级私人医院",
+        "current_name": "Gleneagles Hospital"
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·鹰阁医院的五分钟",
+        "hook": "在新加坡最顶级的私人医院里，亲情却被吝啬地缩减到了五分钟。",
+        "narrative_text": "鹰阁医院是新加坡富豪们首选的医疗圣地，Carol Tai的孙女便是在这里降生的。然而，对于Carol来说，这里的回忆并不温馨。她苦涩地提到，自孙女出生以来，她只见过孩子两次，第一次在医院里竟然只待了短短五分钟。在这些豪门深宅中，血缘的纽带往往被复杂的婆媳关系和家族权力斗争所扭曲，连新生儿的喜悦都蒙上了一层疏离的阴影。",
+        "transition_to": "当长辈在医院感叹亲情淡薄时，家族的叛逆者却在澳门的赌场与夜色中流连忘返。",
+        "mood": "bittersweet",
+        "key_dialogue": "I’ve only met my granddaughter twice since she was born—ﬁrst time at Gleneagles Hospital."
+      }
+    },
+    {
+      "title": "Macau",
+      "address": "China-Macau-Macau",
+      "synopsis": "Carol Tai 得知儿子 Bernard 仍滞留在澳门，拒绝回到新加坡的家族圈子。",
+      "source_evidence": "I can go to Macau with you anytime after Thursday. “Oh no, we won’t be going to Macau—we haven’t lived there in years.",
+      "original_chapter": "Chapter 7",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Carol Tai",
+          "Bernard Tai"
+        ],
+        "stay_duration": "Mentioned as a location"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "rebellion",
+          "gambling",
+          "excess"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Bernard Tai的避难所",
+        "current_name": "Macau"
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第6章·澳门的放逐者",
+        "hook": "在东方拉斯维加斯的霓虹下，Bernard Tai 正在逃离家族的期待。",
+        "narrative_text": "澳门，这座充满赌徒梦想与金钱气息的城市，成了Bernard Tai的避难所。Carol Tai从佣人口中得知，她的儿子依然留在澳门不肯回来。对于这个家族来说，澳门曾是他们的居住地，但现在却成了Bernard放浪形骸的背景板。他宁愿在澳门的赌场和派对中挥霍生命，也不愿回到新加坡面对母亲的唠叨和家族的责任。澳门的繁华，恰好掩盖了一个豪门弃子内心的荒芜。",
+        "transition_to": "离开这些充满家族琐事的谈话，下一站我们将前往奢华的丽思卡尔顿酒店，见证更多的社交风云。",
+        "mood": "desolate",
+        "key_dialogue": "Oh no, we won’t be going to Macau—we haven’t lived there in years."
+      }
+    },
+    {
+      "title": "Ritz-Carlton Hotel",
+      "address": "China-Hong Kong-Kowloon-International Commerce Centre",
+      "synopsis": "在香港最高建筑的丽思卡尔顿酒店，明氏基金会举办了一场汇聚亚洲顶级名流的巅峰慈善舞会。",
+      "source_evidence": "DIAMOND BALLROOM, RITZ-CARLTON HOTEL... the Ritz-Carlton Diamond Ballroom on the third ﬂoor of Hong Kong’s tallest building.",
+      "original_chapter": "Chapter 8",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Modern",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Connie Ming",
+          "Eleanor Young",
+          "Kitty Pong",
+          "Michael Teo",
+          "Astrid Leong"
+        ],
+        "stay_duration": "One evening"
+      },
+      "cultural_tags": {
+        "category": "architectural",
+        "themes": [
+          "high society",
+          "extravagance",
+          "philanthropy"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "位于环球贸易广场（ICC）高层",
+        "current_name": "The Ritz-Carlton, Hong Kong"
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第7章·巅峰舞会的浮华",
+        "hook": "在全香港最高的宴会厅里，金钱与权力的游戏正在悄然上演。",
+        "narrative_text": "离开澳门的喧嚣，故事转入香港丽思卡尔顿酒店那令人眩晕的高度。第15届明氏基金会巅峰慈善舞会在此举行，这里不仅是慈善的秀场，更是阶级森严的社交战场。康妮·明作为女主人穿梭其中，而Eleanor Young则在暗中观察着每一个潜在的威胁。社交名媛Astrid Leong即便身处华服美酒之中，内心却因丈夫Michael Teo的疏离而感到落寞。与此同时，一心想挤进上流社会的艳星Kitty Pong正努力在这一片衣香鬓影中寻找自己的立足点。",
+        "transition_to": "当舞会的喧嚣逐渐远去，Astrid决定独自踏上前往机场的路。",
+        "mood": "ambitious",
+        "key_dialogue": "“It’s the most exclusive party in Hong Kong, and everyone who is anyone is here.”"
+      }
+    },
+    {
+      "title": "Hong Kong International Airport",
+      "address": "China-Hong Kong-New Territories-Chek Lap Kok-Hong Kong International Airport",
+      "synopsis": "Astrid在香港国际机场候机，试图通过文字与昔日恋人Charlie Wu重新建立联系。",
+      "source_evidence": "Astrid settled into a club chair at the SilverKris Lounge at Hong Kong International Airport",
+      "original_chapter": "Chapter 8",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Modern",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Astrid Leong"
+        ],
+        "stay_duration": "2 hours"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "departure",
+          "longing",
+          "digital connection"
+        ],
+        "significance": 0.7
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "重要的交通枢纽与情感转折点",
+        "current_name": "Hong Kong International Airport"
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第8章·赤鱲角的等待",
+        "hook": "在飞往洛杉矶之前，一条简短的消息勾起了尘封的回忆。",
+        "narrative_text": "香港国际机场的灯火通明，Astrid Leong独自坐在候机大厅。她正准备前往洛杉矶，这不仅是一次旅行，更像是从压抑的婚姻生活中短暂逃离。在繁忙的登机口前，她拿出了手机，屏幕上闪烁着Charlie Wu的名字。Charlie是她的初恋，一个曾被家族拒绝的男人。在这个现代化的交通枢纽，跨越时空的思念通过即时通讯软件悄然蔓延，机场的广播声成了这段隐秘对话的背景音乐。",
+        "transition_to": "为了寻求片刻安宁，她走进了专属的贵宾休息室。",
+        "mood": "melancholic",
+        "key_dialogue": "“I’m at the airport. Heading to LA for a few days.”"
+      }
+    },
+    {
+      "title": "SilverKris Lounge",
+      "address": "China-Hong Kong-New Territories-Hong Kong International Airport-SilverKris Lounge",
+      "synopsis": "在银刃休息室的静谧氛围中，Astrid沉浸在与Charlie的私密交流中。",
+      "source_evidence": "Astrid settled into a club chair at the SilverKris Lounge at Hong Kong International Airport",
+      "original_chapter": "Chapter 8",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Modern",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Astrid Leong"
+        ],
+        "stay_duration": "1 hour"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "privacy",
+          "nostalgia"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "位于香港机场一号客运大楼",
+        "current_name": "Singapore Airlines SilverKris Lounge"
+      },
+      "timeline": {
+        "orderIndex": 9,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第9章·银刃休息室的私语",
+        "hook": "在奢华的休息室里，她发现最珍贵的不是香槟，而是那个懂她的人。",
+        "narrative_text": "Astrid在银刃休息室（SilverKris Lounge）找了一个靠窗的俱乐部椅坐下。这里远离了航站楼的嘈杂，只有轻微的瓷器碰撞声。她在这里处理着邮件，但心思全在与Charlie Wu的聊天窗口上。Charlie的文字温柔而克制，带她回到了那些无忧无虑的岁月。在这个为精英阶层准备的避风港里，Astrid暂时卸下了“梁家大小姐”的重担，仅仅作为一个渴望被理解的女人，感受着远方传来的温度。",
+        "transition_to": "Charlie在文字中提到的一个地名，将她的思绪带回了遥远的伦敦。",
+        "mood": "peaceful",
+        "key_dialogue": "“It’s much quieter here. I can actually hear myself think.”"
+      }
+    },
+    {
+      "title": "Burlington Arcade",
+      "address": "England-London-Mayfair-Burlington Arcade",
+      "synopsis": "Charlie Wu回忆起两人在伦敦伯灵顿拱廊街度过的浪漫时光，那是他们爱情的见证地。",
+      "source_evidence": "from that little vintage jewelry shop in the Burlington Arcade that you loved poking around in.",
+      "original_chapter": "Chapter 8",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Past (Flashback)",
+        "historical_name": null,
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Charlie Wu",
+          "Astrid Leong"
+        ],
+        "stay_duration": "Moments in memory"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "romance",
+          "vintage",
+          "memory"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "伦敦著名的历史购物廊",
+        "current_name": "Burlington Arcade"
+      },
+      "timeline": {
+        "orderIndex": 10,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第10章·伦敦的旧时光",
+        "hook": "一家古董珠宝店，藏着两个年轻人最纯粹的爱情记忆。",
+        "narrative_text": "通过手机屏幕，Charlie Wu提到了伦敦的伯灵顿拱廊街。在Astrid的脑海中，那条充满乔治亚风格魅力的长廊瞬间清晰起来。那是他们还在英国读书时的日子，Astrid总是喜欢在那家小小的古董珠宝店里流连，寻找那些带有故事的饰品。Charlie记得她每一个专注的眼神，记得那里的光影。这段回忆与现实中冰冷的机场休息室形成鲜明对比，提醒着他们曾经拥有过怎样不被世俗干扰的纯真。",
+        "transition_to": "回到现实，Astrid提议在香港的另一个角落延续这份情谊。",
+        "mood": "nostalgic",
+        "key_dialogue": "“Remember that little vintage jewelry shop? You used to spend hours there.”"
+      }
+    },
+    {
+      "title": "The Locke Club",
+      "address": "China-Hong Kong-Central-Wyndham Street",
+      "synopsis": "Kitty Pong来到香港最排外的私人会所Locke Club参加午宴，试图融入顶级社交圈。",
+      "source_evidence": "Located on the ﬁfth ﬂoor of a nondescript office building on Wyndham Street, the Locke Club was Hong Kong’s most exclusive dining club",
+      "original_chapter": "Chapter 9",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Kitty Pong"
+        ],
+        "stay_duration": "2 hours"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "elitism",
+          "social climbing",
+          "exclusivity"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "uncertain",
+        "note": "虚构的私人会所，影射香港顶级俱乐部",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 11,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第11章·云咸街的门槛",
+        "hook": "在香港最神秘的私人会所，金钱并非唯一的通行证。",
+        "narrative_text": "一心想要跻身上流社会的二线影星Kitty Pong来到了云咸街。这里的一座普通办公楼内隐藏着全港最排外的私人会所——Locke Club。Kitty穿着精心挑选的华服，试图在这里的午宴上证明自己的地位。对于她这样的人来说，能踏入这扇门本身就是一种胜利，但她并未意识到，真正的阶级鸿沟远非一张会员卡可以填平。在这里，血统和家族历史才是真正的硬通货。",
+        "transition_to": "然而，这场精心准备的午宴很快就演变成了一场公开的羞辱。",
+        "mood": "ambitious",
+        "key_dialogue": "“It’s the only place in town where you won’t see any riffraff.”"
+      }
+    },
+    {
+      "title": "The Locke",
+      "address": "China-Hong Kong-Central",
+      "synopsis": "Kitty Pong在Locke俱乐部遭遇驱逐，得知自己的会员资格因得罪权贵而被撤销。",
+      "source_evidence": "Our membership at the Locke Club has just been revoked.",
+      "original_chapter": "Chapter 9",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Kitty Pong",
+          "Evangeline de Ayala"
+        ],
+        "stay_duration": "30 minutes"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "humiliation",
+          "power dynamics",
+          "social exclusion"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "uncertain",
+        "note": "虚构地点",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 12,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第12章·被驱逐的“名媛”",
+        "hook": "当餐厅经理走向餐桌时，Kitty还不知道自己已被上流社会封杀。",
+        "narrative_text": "在Locke俱乐部的餐桌旁，Kitty Pong正与好友Evangeline de Ayala谈笑，却被经理礼貌而坚决地告知“预订系统故障”。这只是一个拙劣的借口，真相是残酷的：因为得罪了真正的名媛圈层，Kitty的会员资格已被即刻撤销。在众目睽睽之下被请出餐厅，对Kitty而言是毁灭性的打击，她终于领教到了香港老牌家族联手排挤新人的冷酷手段。这场华丽的亚洲富豪巡礼，在这一刻露出了它狰狞的底色。",
+        "transition_to": "这场关于财富与阶级的巡礼暂告一段落，但亚洲富豪们的故事仍在继续。",
+        "mood": "dramatic",
+        "key_dialogue": "“I’m afraid there’s been a slight complication with your reservation.”"
+      }
+    },
+    {
+      "title": "Yung Kee",
+      "address": "中国-香港-中西区-中环-威灵顿街32-40号",
+      "synopsis": "Kitty Pong在被Locke俱乐部驱逐后，被安排在镛记酒家享用安慰午餐。",
+      "source_evidence": "I have made a booking for you right around the corner at Yung Kee on Wellington Street. They have a lovely table awaiting you, and I hope you will allow us to treat you to lunch",
+      "original_chapter": "Chapter 9",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Kitty Pong",
+          "Evangeline de Ayala"
+        ],
+        "stay_duration": "1 hour"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "gastronomy",
+          "consolation",
+          "tradition"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Famous roast goose restaurant in Central.",
+        "current_name": "镛记酒家"
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·威灵顿街的烧鹅",
+        "hook": "一顿由俱乐部买单的顶级烧鹅，能否抚平社交失败的伤痛？",
+        "narrative_text": "带着满腔愤懑与羞辱，艳星Kitty Pong和她的同伴Evangeline来到了威灵顿街著名的镛记酒家。虽然这里的烧鹅享誉全港，但对于刚刚被Locke俱乐部扫地出门的Kitty来说，再美味的食物也如同嚼蜡。这顿由俱乐部买单的午餐更像是一种施舍，提醒着她：在真正的权贵眼中，她不过是一个可以用一顿饭打发的麻烦。在这里，她开始意识到自己急需一位高人指点，以洗脱“暴发户”的标签。",
+        "transition_to": "而此时在城市的另一端，一场生死营救正在玛丽医院展开。",
+        "mood": "bittersweet",
+        "key_dialogue": "“They have a lovely table awaiting you, and I hope you will allow us to treat you to lunch.”"
+      }
+    },
+    {
+      "title": "Queen Mary Hospital",
+      "address": "中国-香港-南区-薄扶林-玛丽医院",
+      "synopsis": "Rachel Chu被送往玛丽医院抢救，Nick及家人在急诊室守候。",
+      "source_evidence": "QUEEN MARY HOSPITAL\n\nPOKFULAM , HONG KONG\n\nNick was doing the New York Times crossword puzzle on his iPad when the police officer on guard outside the room poked his head in.",
+      "original_chapter": "Chapter 8",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Rachel Chu",
+          "Nicholas Young",
+          "Goh Peik Lin",
+          "Edison Cheng",
+          "Alix Young",
+          "Alistair Cheng",
+          "Cecilia Cheng"
+        ],
+        "stay_duration": "Several days"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "crisis",
+          "family tension",
+          "recovery"
+        ],
+        "significance": 0.95
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Major public hospital in Hong Kong.",
+        "current_name": "玛丽医院"
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·薄扶林的漫长守候",
+        "hook": "在玛丽医院的急诊室外，豪门的恩怨暂时让位于生命的脆弱。",
+        "narrative_text": "Rachel Chu——Nicholas Young那来自美国的平民女友，在经历了一系列打击后被紧急送往薄扶林的玛丽医院。在急诊病房外，气氛凝重得令人窒息。Nicholas焦急地守候着，而他的亲戚们，包括爱炫耀的Edison和忧心忡忡的Alix，也悉数到场。这里没有了派对上的虚伪客套，只有对Rachel伤势的担忧和对未来不确定性的恐惧。警察的介入更让这起豪门风波蒙上了阴影。",
+        "transition_to": "当Rachel在生死线上挣扎时，Kitty正试图寻找翻身的机会。",
+        "mood": "tense",
+        "key_dialogue": "“Is she going to be okay? Please tell me she’s going to be okay.”"
+      }
+    },
+    {
+      "title": "Tsui Hang Village",
+      "address": "中国-香港-中西区-中环-皇后大道中16-18号新世界大厦",
+      "synopsis": "Corinna带Kitty躲进翠亨邨包间，传授在香港上流社会生存的秘籍。",
+      "source_evidence": "Corinna led Kitty down On Lan Street and into an alley behind New World Tower. Taking the service elevator up three ﬂoors, they were deposited at the back entrance of Tsui Hang Village restaurant",
+      "original_chapter": "Chapter 11",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Corinna Ko-Tung",
+          "Kitty Pong"
+        ],
+        "stay_duration": "2 hours"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "mentorship",
+          "social strategy",
+          "secrecy"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Located in New World Tower.",
+        "current_name": "翠亨邨"
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·后门进入的教诲",
+        "hook": "为了避开狗仔和熟人，她们从货梯进入了这家老牌餐厅。",
+        "narrative_text": "社交顾问Corinna Ko-Tung带着Kitty Pong穿过安兰街的暗巷，从新世界大厦的后门进入了翠亨邨餐厅。在私密的包间里，Corinna开始为Kitty复盘她在Locke俱乐部的惨败。她直言不讳地指出，Kitty那种暴发户式的张扬在香港老牌家族眼中是极其廉价的。如果想要真正被接纳，Kitty必须彻底重塑形象，从居住地到社交圈都要进行全方位的“洗白”。",
+        "transition_to": "Corinna的建议指向了香港那些真正代表身份的地段，比如浅水湾。",
+        "mood": "mysterious",
+        "key_dialogue": "“You need to understand the rules of the game if you want to play it.”"
+      }
+    },
+    {
+      "title": "Repulse Bay",
+      "address": "中国-香港-南区-浅水湾",
+      "synopsis": "Corinna建议Kitty搬往浅水湾等高尚住宅区，以改变其社交形象。",
+      "source_evidence": "I would like to see you relocate to a house in one of the neighborhoods on the south side of the island—Repulse Bay, Deep Water Bay, or even Stanley.",
+      "original_chapter": "Chapter 11",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Corinna Ko-Tung",
+          "Kitty Pong"
+        ],
+        "stay_duration": "N/A"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "status symbol",
+          "wealth",
+          "aspiration"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Famous upscale residential and beach area.",
+        "current_name": "浅水湾"
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·南区的入场券",
+        "hook": "浅水湾的别墅，是通往顶级社交圈的必经之路。",
+        "narrative_text": "在Corinna的蓝图中，浅水湾不仅是一个风景优美的海滩，更是身份的象征。她告诫Kitty，如果继续住在那些充满暴发户气息的公寓里，她永远无法获得名媛圈的青睐。只有搬到浅水湾或深水湾的独立别墅，她才有机会收到那些传说中的年度花园派对邀请函。这不仅是地理位置的迁移，更是阶层的跨越。",
+        "transition_to": "为了证明自己的手段，Corinna展示了她在明德医院的人脉。",
+        "mood": "ambitious",
+        "key_dialogue": "“I would like to see you relocate to a house in one of the neighborhoods on the south side of the island.”"
+      }
+    },
+    {
+      "title": "Matilda Hospital",
+      "address": "中国-香港-中西区-山顶-加列山道41号",
+      "synopsis": "Corinna向Kitty展示她在明德医院为名媛接生后的照片，证明其深厚人脉。",
+      "source_evidence": "in the delivery room at Matilda Hospital holding a famous Hong Kong socialite’s newborn baby.",
+      "original_chapter": "Chapter 9",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Modern Era",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Corinna Ko-Tung",
+          "Kitty Pong"
+        ],
+        "stay_duration": "A few minutes"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "social status",
+          "connections",
+          "wealth"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Still operating as a private hospital",
+        "current_name": "Matilda International Hospital"
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·名媛的入场券",
+        "hook": "一张产房里的合影，竟成了跻身上流社会的敲门砖？",
+        "narrative_text": "Corinna Ko-Tung向一心想上位的Kitty Pong展示她的战绩。iPad屏幕上闪过一张在明德医院拍摄的照片。照片中，Corinna抱着一个刚出生的婴儿，那可是香港顶级名媛的孩子。明德医院坐落在太平山顶，不仅拥有俯瞰南海的绝佳视野，更是身份的象征。Corinna通过这种方式告诉Kitty，想要在香港站稳脚跟，光有钱是不够的，你得进入那个连生孩子都要排队的圈子。",
+        "transition_to": "Corinna接着提到了另一个在广东道香奈儿店实现阶级跨越的例子。",
+        "mood": "ambitious",
+        "key_dialogue": "“That’s me in the delivery room at Matilda Hospital holding a famous Hong Kong socialite’s newborn baby.”"
+      }
+    },
+    {
+      "title": "Chanel boutique on Canton Road",
+      "address": "中国-香港-九龙-尖沙咀-广东道-香奈儿精品店",
+      "synopsis": "Corinna揭露名媛Ada Poon曾是广东道香奈儿店员的往事，以此激励Kitty。",
+      "source_evidence": "she worked in the Chanel boutique on Canton Road in Kowloon? That’s how she met Francis",
+      "original_chapter": "Chapter 9",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Modern Era",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Corinna Ko-Tung",
+          "Ada Poon",
+          "Francis Poon"
+        ],
+        "stay_duration": "Years (historical background)"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "social climbing",
+          "luxury",
+          "transformation"
+        ],
+        "significance": 0.25
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "The flagship store remains a major luxury landmark",
+        "current_name": "Chanel Canton Road"
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第6章·广东道的灰姑娘",
+        "hook": "奢侈品店的柜姐，如何摇身一变成为豪门阔太？",
+        "narrative_text": "Corinna继续给Kitty“上课”，她提到了如今风光无限的Ada Poon。谁能想到，这位阔太当年只是九龙广东道香奈儿精品店里的一名普通店员？正是在那片充满皮革与香水味的奢华空间里，她邂逅了富商Francis Poon。广东道是香港奢侈品的修罗场，无数女孩在这里编织梦想，而Ada成功地将制服换成了高定礼服。这个故事让Kitty看到了希望：只要有正确的引导，出身从来不是障碍。",
+        "transition_to": "然而，Kitty在九龙编造的谎言却差点让她露馅。",
+        "mood": "ambitious",
+        "key_dialogue": "“Did you know she worked in the Chanel boutique on Canton Road in Kowloon? That’s how she met Francis.”"
+      }
+    },
+    {
+      "title": "Arcadia",
+      "address": "USA-California-Montecito-Arcadia",
+      "synopsis": "Rachel与Nicholas在蒙特西托的Arcadia庄园举行婚礼彩排。",
+      "source_evidence": "Rachel led her friends down the long hallway and opened a door. “Here it is,”... Nick’s friend Mehmet told us about Arcadia—the owners are friends of his family.",
+      "original_chapter": "Chapter 10",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Modern Era",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Rachel Chu",
+          "Goh Peik Lin",
+          "Nicholas Young",
+          "Eleanor Young"
+        ],
+        "stay_duration": "Several days"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "wedding",
+          "luxury lifestyle",
+          "friendship"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "A private estate in Montecito",
+        "current_name": "Arcadia Estate"
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第7章·蒙特西托的世外桃源",
+        "hook": "背靠群山，面朝大海，Rachel的梦幻婚礼彩排在此开启。",
+        "narrative_text": "在加州蒙特西托的Arcadia庄园，Rachel Chu终于感受到了属于她的幸福时刻。这座庄园是Nicholas的朋友借给他们的，拥有令人屏息的山景和太平洋海景。Rachel带着好友Goh Peik Lin穿过长长的走廊，展示着这里的奢华与宁静。尽管Nicholas的母亲Eleanor依然在暗处观察，但在这个瞬间，Rachel暂时忘却了豪门恩怨。阳光洒在草坪上，朋友们欢声笑语，这里仿佛真的是一个与世隔绝的阿卡迪亚乐园。",
+        "transition_to": "在享受当下的同时，Rachel也分享了她在纽约SoHo区淘到婚纱的经历。",
+        "mood": "joyful",
+        "key_dialogue": "“Nick’s friend Mehmet told us about Arcadia—the owners are friends of his family.”"
+      }
+    },
+    {
+      "title": "Temperley sample sale in SoHo",
+      "address": "USA-New York-New York City-SoHo-Temperley",
+      "synopsis": "Rachel回忆在纽约SoHo区的特卖会上淘到心仪婚纱的幸运经历。",
+      "source_evidence": "you ended up ﬁnding this at the Temperley sample sale in SoHo!",
+      "original_chapter": "Chapter 10",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Modern Era",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Rachel Chu",
+          "Goh Peik Lin"
+        ],
+        "stay_duration": "A few hours"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "fashion",
+          "shopping",
+          "luck"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Temperley London still has a presence in NYC.",
+        "current_name": "Temperley London"
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第8章·SoHo区的意外惊喜",
+        "hook": "谁说豪门新娘不能买打折货？这件婚纱背后有个省钱小妙招。",
+        "narrative_text": "当Goh Peik Lin赞叹Rachel的婚纱美得不可思议时，Rachel笑着透露了一个秘密：这件衣服并不是昂贵的定制款，而是她在纽约SoHo区Temperley的样品特卖会上抢到的。在那个挤满了时尚达人和打折猎手的狭窄空间里，Rachel凭借敏锐的眼光发现了这颗遗珠。这个细节展示了Rachel即便即将嫁入豪门，依然保持着那份独立与务实。这件婚纱不仅承载着她的美丽，更象征着她不被金钱定义的自我。",
+        "transition_to": "然而，一个来自北京的神秘消息让局势变得扑朔迷离。",
+        "mood": "joyful",
+        "key_dialogue": "“I can’t believe you ended up ﬁnding this at the Temperley sample sale in SoHo!”"
+      }
+    },
+    {
+      "title": "Four Seasons Biltmore",
+      "address": "USA-California-Santa Barbara-Four Seasons Biltmore",
+      "synopsis": "Rachel在圣巴巴拉的四季比尔特莫酒店与生父包高亮进行了历史性的认亲会面。",
+      "source_evidence": "And right now, he’s at the Four Seasons Biltmore in Santa Barbara... Rachel did not speak during the short helicopter ride to the hotel.",
+      "original_chapter": "Chapter 11",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Modern Day",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Rachel Chu",
+          "Bao Gaoliang",
+          "Nicholas Young",
+          "Kerry Chu",
+          "Eleanor Young"
+        ],
+        "stay_duration": "1 day"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "reunion",
+          "revelation",
+          "luxury"
+        ],
+        "significance": 0.95
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Now known as Four Seasons Resort The Biltmore Santa Barbara",
+        "current_name": "Four Seasons Resort The Biltmore Santa Barbara"
+      },
+      "timeline": {
+        "orderIndex": 9,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第9章·比尔特莫的重逢",
+        "hook": "直升机降落在草坪上，Rachel即将面对她寻找了二十多年的答案。",
+        "narrative_text": "圣巴巴拉的四季比尔特莫酒店见证了Rachel人生中最震撼的时刻。在Eleanor Young的精心安排下，Rachel搭乘直升机降落在此。在这里，她终于见到了包高亮。这位一直只存在于母亲Kerry Chu模糊描述中的男人，此刻真实地站在面前。空气中弥漫着海盐的味道和紧张的气息，父女间的对视打破了数十年的沉默。这不仅是一场家庭的重逢，更是Rachel身份认同的终极转折点。",
+        "transition_to": "在这片圣巴巴拉的阳光下，血缘的纽带终于被重新连接，故事也走向了新的篇章。",
+        "mood": "dramatic",
+        "key_dialogue": "“Rachel did not speak during the short helicopter ride to the hotel.”"
+      }
+    },
+    {
+      "title": "Fujian",
+      "address": "China-Fujian-Fujian Province",
+      "synopsis": "Bao Gaoliang（包高良）的故乡，他在福建度过了贫寒的童年与大学时光，这段往事揭示了他的真实出身。",
+      "source_evidence": "He grew up in Fujian... He started to tell me about his college days in Fujian, and how poor his family was.",
+      "original_chapter": "Chapter 11",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Modern Era",
+        "historical_name": null,
+        "date_start": "1980",
+        "date_end": "2010"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Bao Gaoliang",
+          "Eleanor Young"
+        ],
+        "stay_duration": "Years"
+      },
+      "cultural_tags": {
+        "category": "biographical",
+        "themes": [
+          "ancestry",
+          "poverty",
+          "past"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Provincial level location",
+        "current_name": "Fujian Province"
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "1980",
+        "dateEnd": "2010"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·福建的寒门学子",
+        "hook": "在光鲜亮丽的政客身份背后，隐藏着一段清贫的福建往事。",
+        "narrative_text": "在新加坡国立大学医院的阴影下，Eleanor Young 揭开了 Bao Gaoliang 刻意隐藏的过去。Bao Gaoliang，这位如今在上海政界呼风唤雨的人物，原名孙高良。他出生在福建一个极度贫困的家庭，大学时代的他甚至买不起一双像样的鞋。福建不仅是他的出生地，更是他奋斗改变命运的起点。这段背景解释了他为何如此渴望权力与地位，也为他后来抛弃初恋 Kerry Chu 埋下了伏笔。",
+        "transition_to": "为了彻底摆脱贫困的烙印，他选择前往江苏寻找更强大的靠山。",
+        "mood": "nostalgic",
+        "key_dialogue": "He grew up in Fujian... and how poor his family was."
+      }
+    },
+    {
+      "title": "Jiangsu Province",
+      "address": "China-Jiangsu-Jiangsu Province",
+      "synopsis": "Bao Gaoliang 改变命运的转折点，他在此认政要为教父并改姓，开启了仕途之路。",
+      "source_evidence": "his parents made him take the surname of his godfather, who was a well-respected party official in Jiangsu Province, because then he could move there and get a better start to his career.",
+      "original_chapter": "Chapter 11",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Modern Era",
+        "historical_name": null,
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Bao Gaoliang"
+        ],
+        "stay_duration": "Years"
+      },
+      "cultural_tags": {
+        "category": "biographical",
+        "themes": [
+          "ambition",
+          "identity",
+          "politics"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Provincial level location",
+        "current_name": "Jiangsu Province"
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第2章·改姓与新生",
+        "hook": "为了前程，他舍弃了父姓，在江苏换取了一张通往上流社会的入场券。",
+        "narrative_text": "江苏省成为了孙高良蜕变为 Bao Gaoliang 的祭坛。为了获得更好的职业起点，他的父母安排他认一位江苏省德高望重的官员为教父，并随其姓‘包’。在江苏的这段日子，他不仅获得了新的身份，更学会了如何在复杂的权力网络中周旋。这种对成功的极端渴望，让他最终在面对爱情与前途的抉择时，做出了冷酷的选择。",
+        "transition_to": "多年后，这段在江苏埋下的秘密，在新加坡的一家鸡饭店里被重新翻开。",
+        "mood": "ambitious",
+        "key_dialogue": "his parents made him take the surname of his godfather, who was a well-respected party official in Jiangsu Province."
+      }
+    },
+    {
+      "title": "Wee Nam Kee",
+      "address": "Singapore-Singapore-United Square-Wee Nam Kee",
+      "synopsis": "Eleanor 在威南记海南鸡饭店与 Bao Gaoliang 摊牌，揭露 Rachel Chu 是其亲生女儿的真相。",
+      "source_evidence": "One night, I took him to have kai fun at Wee Nam Kee, and I asked him about his younger days. ... She chose Wee Nam Kee speciﬁcally because the United Square location is only ﬁve minutes from the Bao condo",
+      "original_chapter": "Chapter 11",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Modern Era",
+        "historical_name": null,
+        "date_start": "2010",
+        "date_end": "2010"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Eleanor Young",
+          "Bao Gaoliang"
+        ],
+        "stay_duration": "Hours"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "confrontation",
+          "revelation",
+          "family_secret"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Located in United Square Shopping Mall",
+        "current_name": "Wee Nam Kee Chicken Rice"
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "2010",
+        "dateEnd": "2010"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·鸡饭桌上的真相",
+        "hook": "一盘海南鸡饭，竟成了揭开二十多年家族丑闻的导火索。",
+        "narrative_text": "Eleanor Young 巧妙地将 Bao Gaoliang 约到了联合广场的威南记。在热气腾腾的海南鸡饭面前，Eleanor 并没有急于进攻，而是先诱导他回忆起福建的往事。当气氛达到微妙的平衡时，她抛出了重磅炸弹：Rachel Chu 并不是那个‘意外死亡’的男人的女儿，而是他 Bao Gaoliang 与 Kerry Chu 的亲生骨肉。在这家喧闹的平民餐馆里，这位权势显赫的男人第一次露出了惊恐与动摇的神色。",
+        "transition_to": "随着真相浮出水面，故事的视角转向了 Kerry Chu 曾经生活过的厦门。",
+        "mood": "tense",
+        "key_dialogue": "“Bao Gaoliang, I know everything. I know about Kerry Chu. I know about the girl.”"
+      }
+    },
+    {
+      "title": "Xiamen",
+      "address": "China-Fujian-Xiamen-Xiamen City",
+      "synopsis": "Kerry Chu 曾在此与周方明共同生活，这里见证了她那段痛苦婚姻的开端。",
+      "source_evidence": "but she used to live in Xiamen when she was married to a man by the name of Zhou Fang Min.",
+      "original_chapter": "Chapter 11",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Modern Era",
+        "historical_name": null,
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Kerry Chu",
+          "Zhou Fang Min"
+        ],
+        "stay_duration": "Years"
+      },
+      "cultural_tags": {
+        "category": "biographical",
+        "themes": [
+          "marriage",
+          "suffering",
+          "past"
+        ],
+        "significance": 0.25
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Major city in Fujian",
+        "current_name": "Xiamen"
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第4章·厦门的旧梦",
+        "hook": "在厦门的那些年，是 Kerry Chu 试图埋葬的噩梦。",
+        "narrative_text": "厦门，这座美丽的海滨城市，对 Rachel 的母亲 Kerry Chu 来说却只有苦涩的回忆。在与 Bao Gaoliang 失去联系后，她被迫嫁给了周方明。在厦门的岁月里，她不仅要忍受一段没有爱情的婚姻，更要面对周方明的暴戾。这里是她逃往美国之前的最后一站，也是 Rachel 身份谜团中被刻意涂抹的一页。Eleanor 的调查让这座城市重新回到了 Rachel 的视野中。",
+        "transition_to": "当亚洲的秘密被层层剥开时，大洋彼岸的加州也正发生着微妙的变动。",
+        "mood": "melancholic",
+        "key_dialogue": "“She used to live in Xiamen when she was married to a man by the name of Zhou Fang Min.”"
+      }
+    },
+    {
+      "title": "Hong Kong Island",
+      "address": "China-Hong Kong-Hong Kong Island",
+      "synopsis": "社交顾问 Corinna 指出 Kitty Pong 并非出身名门，甚至不是在香港岛出生的。",
+      "source_evidence": "Your former name was Kitty Pong, and you were not born on Hong Kong Island, Kowloon, or any of the surrounding islands that make up the former British Crown Colony of Hong Kong.",
+      "original_chapter": "Chapter 1",
+      "part_id": "PART-2",
+      "part_title": "China Rich Girlfriend",
+      "temporal_context": {
+        "era": "Modern Era",
+        "historical_name": null,
+        "date_start": "2015",
+        "date_end": "2015"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Kitty Pong",
+          "Corinna Ko-Tung"
+        ],
+        "stay_duration": "Brief mention"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "social status",
+          "identity",
+          "elitism"
+        ],
+        "significance": 0.25
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Major geographic region of Hong Kong",
+        "current_name": "Hong Kong Island"
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "2015",
+        "dateEnd": "2015"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·出身的标签",
+        "hook": "在顶级社交圈，连出生的岛屿都决定了你的阶层。",
+        "narrative_text": "在《疯狂的亚洲富豪》续作《中国富女友》的开篇，曾经的艳星 Kitty Pong 正试图通过社交顾问 Corinna Ko-Tung 的改造，挤进香港最顶尖的阔太圈。Corinna 毫不留情地撕开了 Kitty 精心伪造的背景：她不仅改了名字，甚至连出生地都不是象征身份地位的香港岛。在这些老牌精英眼中，出生在港岛、九龙还是偏远离岛，是衡量一个人‘底蕴’的第一道门槛。Kitty 必须面对自己卑微的过去，才能开始这场昂贵的‘洗白’之旅。",
+        "transition_to": "为了彻底改头换面，Corinna 决定从 Kitty 的形象管理入手，带她去一处隐秘的沙龙。",
+        "mood": "tense",
+        "key_dialogue": "“Your former name was Kitty Pong, and you were not born on Hong Kong Island...”"
+      }
+    },
+    {
+      "title": "ModaBeauty",
+      "address": "China-Hong Kong-Mid-Levels-Seymour Terrace-ModaBeauty",
+      "synopsis": "Corinna 建议 Kitty 前往半山区的顶级沙龙 ModaBeauty 重塑发型，以符合名媛审美。",
+      "source_evidence": "I will refer you to Ricky Tseung at ModaBeauty on Seymour Terrace in Mid-Levels.",
+      "original_chapter": "Chapter 1",
+      "part_id": "PART-2",
+      "part_title": "China Rich Girlfriend",
+      "temporal_context": {
+        "era": "Modern Era",
+        "historical_name": null,
+        "date_start": "2015",
+        "date_end": "2015"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Kitty Pong",
+          "Ricky Tseung",
+          "Corinna Ko-Tung"
+        ],
+        "stay_duration": "A few hours"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "fashion",
+          "transformation",
+          "luxury"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "uncertain",
+        "note": "Seymour Terrace is a real street; the salon may be fictional.",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "2015",
+        "dateEnd": "2015"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·半山区的剪刀手",
+        "hook": "一个发型，就能决定你是名媛还是暴发户。",
+        "narrative_text": "Corinna 深知，要让 Kitty Pong 看起来像个真正的豪门阔太，必须剪掉她那头充满廉价感的长发。她指定了位于半山区西摩台的 ModaBeauty 沙龙，那里是香港名媛们的秘密基地。发型师 Ricky Tseung 拥有化腐朽为神奇的力量，他的剪刀不仅修剪头发，更在修剪一个人的社会阶层。在这里，Kitty 将告别她过往的艳俗形象，换上一头符合‘老钱’审美的利落短发，这是她进入上流社会的第一块敲门砖。",
+        "transition_to": "发型只是开始，接下来的美容咨询将更加细致入微。",
+        "mood": "ambitious",
+        "key_dialogue": "“I will refer you to Ricky Tseung at ModaBeauty on Seymour Terrace in Mid-Levels.”"
+      }
+    },
+    {
+      "title": "Elizabeth Arden counter at Sogo Causeway Bay",
+      "address": "China-Hong Kong-Causeway Bay-Hennessy Road 555-SOGO-Elizabeth Arden",
+      "synopsis": "Kitty 在 Corinna 的带领下前往崇光百货进行专业的美容改造咨询。",
+      "source_evidence": "I will accompany you to Germaine, my beauty consultant at the Elizabeth Arden counter at Sogo Causeway Bay.",
+      "original_chapter": "Chapter 1",
+      "part_id": "PART-2",
+      "part_title": "China Rich Girlfriend",
+      "temporal_context": {
+        "era": "Modern Era",
+        "historical_name": null,
+        "date_start": "2015",
+        "date_end": "2015"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Kitty Pong",
+          "Corinna Ko-Tung"
+        ],
+        "stay_duration": "1-2 hours"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "beauty",
+          "consumerism",
+          "strategy"
+        ],
+        "significance": 0.45
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "SOGO Causeway Bay is a major landmark.",
+        "current_name": "SOGO Causeway Bay"
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "2015",
+        "dateEnd": "2015"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·崇光的变身术",
+        "hook": "在熙攘的百货公司里，一场关于面孔的精密手术正在进行。",
+        "narrative_text": "铜锣湾崇光百货总是人潮涌动，但 Corinna 带着 Kitty 直奔伊丽莎白雅顿专柜。这不仅仅是一次简单的购物，而是一场关于‘视觉管理’的教学。Corinna 要求 Kitty 学习如何使用那些低调而高级的化妆品，摒弃那些闪粉和夸张的假睫毛。在专柜的灯光下，Kitty 看着镜子中逐渐变得端庄的自己，第一次感受到了‘克制’所带来的力量感。这种美不再是为了取悦男人，而是为了震慑同类。",
+        "transition_to": "除了外貌，居住地的选择也是 Corinna 重点敲打的对象。",
+        "mood": "dramatic",
+        "key_dialogue": "“I will accompany you to Germaine, my beauty consultant at the Elizabeth Arden counter at Sogo Causeway Bay.”"
+      }
+    },
+    {
+      "title": "Optus Towers",
+      "address": "China-Hong Kong-Wan Chai-Optus Towers",
+      "synopsis": "Kitty Pong 居住在 Optus Towers 顶层公寓，却被 Corinna 指出此处品味低俗，建议搬离。",
+      "source_evidence": "Living in a penthouse at Optus Towers sends the wrong message at this stage in your life. It’s a building for people who have just arrived, or for people who want to show off how much money they have.",
+      "original_chapter": "Chapter 1",
+      "part_id": "PART-2",
+      "part_title": "China Rich Girlfriend",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Kitty Pong",
+          "Corinna Ko-Tung"
+        ],
+        "stay_duration": "Several months"
+      },
+      "cultural_tags": {
+        "category": "architectural",
+        "themes": [
+          "social climbing",
+          "status symbols",
+          "taste"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "A luxury residential building in Hong Kong.",
+        "current_name": "Optus Towers"
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·金钱买不到的品味",
+        "hook": "住在最贵的顶层公寓，为何反而会被上流社会鄙视？",
+        "narrative_text": "曾经的小演员、如今身价不菲的阔太 Kitty Pong 正坐在她位于 Optus Towers 的奢华顶层公寓里。这里俯瞰着香港的繁华，装修极尽奢靡，但在社交顾问 Corinna 眼中，这里简直是“暴发户”的代名词。Corinna 毫不留情地指出，这栋大楼只适合那些急于炫耀财富的新贵。如果 Kitty 想要真正打入那些老牌家族的圈子，她必须离开这个充满铜臭味的“金鱼缸”。",
+        "transition_to": "为了洗掉身上的暴发户气息，Corinna 为 Kitty 指明了真正代表身份的南区。",
+        "mood": "ambitious",
+        "key_dialogue": "“Living in a penthouse at Optus Towers sends the wrong message at this stage in your life.”"
+      }
+    },
+    {
+      "title": "Shrine of Our Lady of Fatima",
+      "address": "Portugal-Santarém-Fátima-Shrine of Our Lady of Fatima",
+      "synopsis": "Corinna 建议 Kitty 前往葡萄牙法蒂玛圣母朝圣地，通过宗教朝圣展示高级品味。",
+      "source_evidence": "I suggest that you plan a tour of famous religious pilgrimage sites such as the Shrine of Our Lady of Fatima in Portugal",
+      "original_chapter": "Chapter 1",
+      "part_id": "PART-2",
+      "part_title": "China Rich Girlfriend",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Corinna Ko-Tung",
+          "Kitty Pong"
+        ],
+        "stay_duration": "Mentioned only"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "pilgrimage",
+          "social strategy",
+          "originality"
+        ],
+        "significance": 0.25
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Major Catholic pilgrimage site.",
+        "current_name": "Shrine of Our Lady of Fatima"
+      },
+      "timeline": {
+        "orderIndex": 9,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·朝圣者的面具",
+        "hook": "名媛的最高境界，是把宗教朝圣变成一种时尚。",
+        "narrative_text": "Corinna 给出的建议让 Kitty 感到困惑：去葡萄牙的法蒂玛圣母朝圣地。在 Corinna 的逻辑里，没有什么比一场虔诚的宗教之旅更能洗刷掉身上的浮躁气了。这种旅行不仅显得有文化深度，更能体现出一种“不屑于世俗享乐”的高级感。法蒂玛圣母朝圣地不再仅仅是信徒的圣所，在 Corinna 的包装下，它成了 Kitty 通往上流社会入场券上的一个重要印章。",
+        "transition_to": "从贫寒的福建到奢华的香港，再到神圣的法蒂玛，这场关于财富与身份的巡礼永无止境。",
+        "mood": "mysterious",
+        "key_dialogue": "“I suggest that you plan a tour of famous religious pilgrimage sites...”"
+      }
+    },
+    {
+      "title": "Bukit Pasoh",
+      "address": "Singapore-Singapore-Singapore-Central Region-Bukit Pasoh Road",
+      "synopsis": "Astrid指出Michael错过了转弯，揭穿了他因分心而导致的失误。",
+      "source_evidence": "“Hey, you missed the turn. That was Bukit Pasoh we just passed.”",
+      "original_chapter": "Chapter 9",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Modern era",
+        "historical_name": null,
+        "date_start": "2011",
+        "date_end": "2011"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Astrid Leong",
+          "Michael Teo"
+        ],
+        "stay_duration": "1 minute"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "direction",
+          "marital friction"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "著名的历史保留区，拥有许多精品酒店和餐厅。",
+        "current_name": "Bukit Pasoh Road"
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "2011",
+        "dateEnd": "2011"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·错过的转角",
+        "hook": "一个简单的驾驶失误，如何折射出一段关系的错位？",
+        "narrative_text": "“嘿，你开过头了。刚才那是武吉巴梳。”Astrid Leong轻声提醒道。她的丈夫Michael Teo握着方向盘的手紧了紧，尴尬地试图掩饰。这个小小的插曲打破了他精心营造的掌控感。武吉巴梳路不仅是通往餐厅的必经之路，也是这片历史街区的灵魂所在。Michael的失误不仅是因为他不熟悉路况，更是因为他太急于在出身名门的妻子面前表现，反而迷失了方向。在Astrid温柔却精准的指正下，两人的阶级差异再次以一种最日常的方式显露出来。",
+        "transition_to": "当新加坡的夜色渐深，故事的视角转向了远在太平洋另一端的夏威夷。",
+        "mood": "awkward",
+        "key_dialogue": "“Hey, you missed the turn. That was Bukit Pasoh we just passed.”"
+      }
+    },
+    {
+      "title": "Big Island of Hawaii",
+      "address": "USA-Hawaii-Hawaii County-Hawaii Island-",
+      "synopsis": "上海名媛Colette Bing的母亲Mrs. Bing因洁癖长期隐居于夏威夷大岛。",
+      "source_evidence": "This is why she spends most of her time on the Big Island of Hawaii, where she thinks the air is freshest",
+      "original_chapter": "Chapter 10",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Modern era",
+        "historical_name": null,
+        "date_start": "2011",
+        "date_end": "2011"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Mrs. Bing"
+        ],
+        "stay_duration": "Years"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "eccentricity",
+          "wealth",
+          "isolation"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "夏威夷群岛中最大的岛屿。",
+        "current_name": "Island of Hawai'i"
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "2011",
+        "dateEnd": "2011"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·纯净的避难所",
+        "hook": "为了呼吸到最纯净的空气，富豪们愿意付出怎样的代价？",
+        "narrative_text": "在富豪的世界里，奢侈不仅是珠宝和私人飞机，更是对自然资源的绝对占有。Mrs. Bing——上海超级富豪Carlton Bing的妻子，因为极度的洁癖和对空气质量的近乎偏执的要求，选择长期居住在夏威夷大岛。在她看来，只有这里的海风才能洗净尘世的污浊。这个地点在书中象征着顶级富豪阶层与大众生活的彻底脱节，他们不仅在财富上孤立，甚至在生理环境上也追求极致的隔离，将自然景观私有化为个人的疗养院。",
+        "transition_to": "与此同时，在上海的社交圈中，另一位年轻人正带着南美的尘土归来。",
+        "mood": "peaceful",
+        "key_dialogue": "This is why she spends most of her time on the Big Island of Hawaii, where she thinks the air is freshest"
+      }
+    },
+    {
+      "title": "Chile",
+      "address": "Chile-South America-Chile--",
+      "synopsis": "Richie Yang结束在智利的拉力赛训练，返回上海参加社交聚会。",
+      "source_evidence": "“I just ﬂew in from Chile,” Richie explained.",
+      "original_chapter": "Chapter 10",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Modern era",
+        "historical_name": null,
+        "date_start": "2011",
+        "date_end": "2011"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Richie Yang"
+        ],
+        "stay_duration": "Several weeks"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "adventure",
+          "racing",
+          "global lifestyle"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "南美洲国家，以多样化的自然景观著称。",
+        "current_name": "Chile"
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "2011",
+        "dateEnd": "2011"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·达喀尔的尘埃",
+        "hook": "从智利的荒漠到上海的酒廊，Richie Yang的跨国生活有多疯狂？",
+        "narrative_text": "Richie Yang，这位典型的富二代，刚刚结束了在智利进行的达喀尔拉力赛特训。对他而言，横跨半个地球的飞行不过是日常通勤。智利的险峻地形是他挥洒肾上腺素的游乐场，而回到上海后，他迅速切换回社交模式，向同伴们炫耀他的冒险经历。这种全球化的生活方式，正是这群“疯狂亚洲富豪”年轻一代的缩影：世界没有边界，只要有足够的资金支持他们的爱好，南美的荒漠与上海的繁华仅有一张头等舱机票的距离。",
+        "transition_to": "但并非所有的跨国旅行都如此愉快，Colette Bing就有着截然不同的回忆。",
+        "mood": "ambitious",
+        "key_dialogue": "“I just ﬂew in from Chile,” Richie explained."
+      }
+    },
+    {
+      "title": "St. Moritz",
+      "address": "Switzerland-Graubünden-St. Moritz--",
+      "synopsis": "Colette Bing抱怨在瑞士圣莫里茨的高原反应严重影响了她的购物行程。",
+      "source_evidence": "I went to St. Moritz last year and got so ill, I could hardly do any shopping.",
+      "original_chapter": "Chapter 10",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Modern era",
+        "historical_name": null,
+        "date_start": "2010",
+        "date_end": "2010"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Colette Bing"
+        ],
+        "stay_duration": "A holiday"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "luxury travel",
+          "shopping",
+          "complaint"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "著名的奢华高山度假小镇。",
+        "current_name": "St. Moritz"
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "2010",
+        "dateEnd": "2010"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·圣莫里茨的遗憾",
+        "hook": "在滑雪胜地生病最痛苦的是什么？Colette的答案令人啼笑皆非。",
+        "narrative_text": "对于Colette Bing来说，去瑞士圣莫里茨度假本应是一场时尚与社交的盛宴。然而，严重的高原反应却让这位娇生惯养的大小姐吃尽了苦头。她向朋友们抱怨，身体的不适让她甚至无法出门购物——这在她的价值观里简直是灾难。圣莫里茨的雪山美景在她口中远不如那些错过的限量版精品重要。这段插曲生动地刻画了Colette肤浅且以自我为中心的性格，以及她对物质生活的极度依赖，即便在阿尔卑斯山的壮丽自然面前，她关心的依然只有消费。",
+        "transition_to": "离开这些充满抱怨的社交话题，故事即将转向吉隆坡的繁华景象。",
+        "mood": "dramatic",
+        "key_dialogue": "“I went to St. Moritz last year and got so ill, I could hardly do any shopping.”"
+      }
+    },
+    {
+      "title": "Stratosphere Church",
+      "address": "中国-香港-香港-中西区-中环-Glory Tower-99th Floor",
+      "synopsis": "Kitty在Corinna带领下参加位于99层的精英教会，试图通过宗教社交打入顶级圈子。",
+      "source_evidence": "Kitty, you are about to enter the most exclusive church in Hong Kong—Stratosphere was started by the billionaire Pentecostal Siew sisters",
+      "original_chapter": "Chapter 11",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Modern Era",
+        "historical_name": null,
+        "date_start": "2011",
+        "date_end": "2011"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Kitty Pong",
+          "Corinna Ko-Tung",
+          "Eddie Cheng",
+          "Fiona Tung-Cheng"
+        ],
+        "stay_duration": "2 hours"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "hypocrisy",
+          "elitism",
+          "religion"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "uncertain",
+        "note": "虚构的私人教会，原型参考中环顶级写字楼高层。",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "2011",
+        "dateEnd": "2011"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·云端上的救赎",
+        "hook": "全香港最难进的不是私人会所，而是这座位于99层的“平信徒”教会。",
+        "narrative_text": "欢迎来到Stratosphere Church，一个由亿万富翁萧氏姐妹创立的、全港最排外的宗教场所。这里没有传统的十字架，只有极简的现代设计和落地窗外令人眩晕的维港美景。Kitty Pong在这里见到了她梦寐以求的社交天花板：Eddie Cheng和他的妻子Fiona。在这里，祈祷词与最新的股票信息交织，宗教虔诚成了掩盖阶级壁垒的华丽外衣。Kitty意识到，只要能在这里获得认可，她的过去将被彻底洗净，宗教成为了她通往上流社会的最后一张入场券。",
+        "transition_to": "Kitty走到窗边，俯瞰着脚下那片被财富划分得明明白白的岛屿。",
+        "mood": "dramatic",
+        "key_dialogue": "“This isn’t just a church, Kitty. This is the inner sanctum.”"
+      }
+    },
+    {
+      "title": "Pacific Place",
+      "address": "中国-香港-香港-中西区-金钟-太古广场",
+      "synopsis": "Kitty从99层教会俯瞰，金钟太古广场的繁华尽收眼底，象征着她渴望征服的商业帝国。",
+      "source_evidence": "From her seat, she had a jaw-dropping bird’s-eye view of Hong Kong Island, from Paciﬁc Place mall in Admiralty all the way to North Point.",
+      "original_chapter": "Chapter 11",
+      "part_id": "PART-1",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Modern Era",
+        "historical_name": null,
+        "date_start": "2011",
+        "date_end": "2011"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Kitty Pong"
+        ],
+        "stay_duration": "Momentary observation"
+      },
+      "cultural_tags": {
+        "category": "architectural",
+        "themes": [
+          "wealth",
+          "urban_landscape"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "香港著名的顶级购物中心。",
+        "current_name": "Pacific Place"
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "2011",
+        "dateEnd": "2011"
+      },
+      "story_mode": {
+        "chapter_title": "第6章·俯瞰金钟",
+        "hook": "在99层的高度，连平日里高不可攀的太古广场也显得如此渺小。",
+        "narrative_text": "透过Stratosphere Church巨大的落地玻璃窗，Kitty Pong俯瞰着下方的金钟。太古广场（Pacific Place）那标志性的建筑群在阳光下闪烁，那里曾是她挥金如土、试图证明自己身份的战场。然而从这个高度看去，那些奢侈品店和穿梭的豪车不过是微缩模型。这种上帝视角给了Kitty一种错觉：只要她能站稳在这个教会的圈子里，整个香港的财富中心都将臣服于她的脚下。地理上的高度在这一刻转化为了她心理上的野心。",
+        "transition_to": "视线从香港的云端移开，转向新加坡一场关于身份与体面的博弈。",
+        "mood": "ambitious",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "André",
+      "address": "Singapore-Singapore-Singapore-Bukit Pasoh Road-Restaurant André",
+      "synopsis": "Astrid在此宴请丈夫的客户，却因Michael的自卑与过度要求导致晚宴尴尬收场。",
+      "source_evidence": "The couple are really into food, so I chose André.",
+      "original_chapter": "Chapter 12",
+      "part_id": "PART-1",
+      "part_title": "China Rich Girlfriend",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Astrid Leong",
+          "Michael Teo"
+        ],
+        "stay_duration": "3 hours"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "marital conflict",
+          "class tension"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "demolished",
+        "note": "该餐厅已于2018年结业。",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第7章·变味的晚宴",
+        "hook": "精心挑选的顶级餐厅，却成了婚姻裂痕的放大镜。",
+        "narrative_text": "Astrid Leong——这位出身名门、优雅内敛的女性，为了支持丈夫Michael Teo的事业，特意选在著名的Restaurant André宴请重要客户。她本想利用自己的品味为丈夫加分，却没料到Michael因深重的自卑感而变得偏执。他强迫Astrid穿上极其夸张的华丽礼服，试图以此“撑场面”。在这家以极简与艺术感著称的餐厅里，Astrid的装扮显得格格不入。这顿饭吃得如坐针毡，不仅生意告吹，两人之间的隔阂也愈发深重，顶级美食也无法掩盖婚姻的苦涩。",
+        "transition_to": "在Michael的口中，这场尴尬的晚宴还有更难听的评价。",
+        "mood": "tense",
+        "key_dialogue": "“The couple are really into food, so I chose André.”"
+      }
+    },
+    {
+      "title": "Orchard Towers",
+      "address": "Singapore-Singapore-Singapore-Orchard Road-Orchard Towers",
+      "synopsis": "Michael转述律师的恶毒评价，羞辱Astrid当晚的打扮像这里的陪酒女。",
+      "source_evidence": "He said that when we ﬁrst walked into dinner, all the guys thought my date was some girl from Orchard Towers.",
+      "original_chapter": "Chapter 12",
+      "part_id": "PART-1",
+      "part_title": "China Rich Girlfriend",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Michael Teo",
+          "Astrid Leong"
+        ],
+        "stay_duration": "Mentioned only"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "insult",
+          "class conflict"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "著名的红灯区/商业大厦，以夜生活闻名。",
+        "current_name": "Orchard Towers"
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第8章·言语的利刃",
+        "hook": "最亲近的人，往往知道如何用最恶毒的话刺痛你。",
+        "narrative_text": "乌节路大厦（Orchard Towers）在新加坡以其混乱的夜生活而闻名。Michael Teo在争吵中，将客户律师的羞辱性言论原封不动地砸向Astrid Leong：他们说她那晚的打扮看起来就像是从乌节路大厦出来的陪酒女。这句话对高贵的Astrid来说是极大的侮辱，而更令她心寒的是，Michael竟然以此作为攻击她的武器，而不是站在她这一边。这个地点在对话中出现，标志着两人关系的彻底恶化，也揭示了Michael内心深处对Astrid阶层背景的敌意。",
+        "transition_to": "镜头转离新加坡的家庭纷争，来到上海一场极尽奢华的慈善秀。",
+        "mood": "bittersweet",
+        "key_dialogue": "“He said that when we ﬁrst walked into dinner, all the guys thought my date was some girl from Orchard Towers.”"
+      }
+    },
+    {
+      "title": "Porto Fino Estates",
+      "address": "中国-上海-上海-松江区-波托菲诺别墅",
+      "synopsis": "Colette Bing在私人庄园举办慈善时装秀，Rachel在此见识了上海富豪的疯狂。",
+      "source_evidence": "JUNE 2013 , PORTO FINO ESTATES , SHANGHAI",
+      "original_chapter": "Chapter 13",
+      "part_id": "PART-1",
+      "part_title": "China Rich Girlfriend",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Colette Bing",
+          "Rachel Chu",
+          "Carlton Bao"
+        ],
+        "stay_duration": "5 hours"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "extravagance",
+          "high society",
+          "rivalry"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "上海顶级豪宅区。",
+        "current_name": "波托菲诺别墅"
+      },
+      "timeline": {
+        "orderIndex": 9,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第9章·拯救女裁缝",
+        "hook": "在上海最私密的庄园里，一场慈善秀演变成了财富的军备竞赛。",
+        "narrative_text": "2013年6月，上海波托菲诺别墅（Porto Fino Estates）。超级名媛Colette Bing在这里举办了一场名为“拯救女裁缝”的慈善时装秀。Rachel Chu作为Carlton Bao失散多年的妹妹，被带入了这个令人眩晕的世界。这里不仅有私人停机坪和运送名流的直升机，更有无数为了博取关注而挥金如土的富豪。Colette以一种近乎疯狂的掌控欲主导着一切，而Rachel则像是一个误入奇幻世界的旁观者，亲眼目睹了中国新贵阶层在生活方式上的极致奢华与疯狂。",
+        "transition_to": "在这场财富的盛宴中，每个人都在寻找自己的位置，而故事也将继续在这些金色的枷锁中展开。",
+        "mood": "dramatic",
+        "key_dialogue": "“JUNE 2013 , PORTO FINO ESTATES , SHANGHAI”"
+      }
+    },
+    {
+      "title": "The Puli Hotel",
+      "address": "中国-上海-静安区-常德路129号-璞丽酒店",
+      "synopsis": "专栏作家Honey Chai将Colette Bing规模宏大的私人庄园比作加强版的璞丽酒店。",
+      "source_evidence": "This place resembles the Puli Hotel, only much bigger.",
+      "original_chapter": "13 SAVE THE SEAMSTRESS FASHION SHOW",
+      "part_id": "PART-1",
+      "part_title": "China Rich Girlfriend",
+      "temporal_context": {
+        "era": "2010s",
+        "historical_name": null,
+        "date_start": "2015",
+        "date_end": "2015"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Honey Chai"
+        ],
+        "stay_duration": "passing"
+      },
+      "cultural_tags": {
+        "category": "architectural",
+        "themes": [
+          "luxury",
+          "comparison",
+          "opulence"
+        ],
+        "significance": 0.2
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "上海著名的精品酒店",
+        "current_name": "The Puli Hotel & Spa"
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "2015",
+        "dateEnd": "2015"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·豪宅的标尺",
+        "hook": "什么样的私人庄园，能让见多识广的专栏作家都感到震撼？",
+        "narrative_text": "在Porto Fino Estates的奢华氛围中，社交圈的观察者们正忙着为眼前的景象寻找坐标。专栏作家Honey Chai在目睹了Colette Bing那令人乍舌的庄园后，脑海中浮现出的第一个参照物便是上海静安区的璞丽酒店。璞丽酒店以其极简而奢华的‘都会桃源’风格著称，但在Colette的财力面前，这种顶奢酒店也只能沦为一个缩减版的注脚。这种对比不仅揭示了Colette家族深不可测的财富，也勾勒出上海新贵阶层对‘大’与‘贵’的极致追求。",
+        "transition_to": "当上海的繁华让人感到窒息时，有人却在思念远方诺丁山的清爽沙拉。",
+        "mood": "ambitious",
+        "key_dialogue": "This place resembles the Puli Hotel, only much bigger."
+      }
+    },
+    {
+      "title": "Ottolenghi",
+      "address": "England-London-Notting Hill-63 Ledbury Road-Ottolenghi",
+      "synopsis": "身处上海名利场的大明星潘婷婷，内心渴望回到伦敦诺丁山享受无人打扰的沙拉时光。",
+      "source_evidence": "I could be enjoying that amazing butternut squash salad at Ottolenghi right now and bicycling through Notting Hill totally unrecognized",
+      "original_chapter": "13 SAVE THE SEAMSTRESS FASHION SHOW",
+      "part_id": "PART-1",
+      "part_title": "China Rich Girlfriend",
+      "temporal_context": {
+        "era": "2010s",
+        "historical_name": null,
+        "date_start": "2015",
+        "date_end": "2015"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Pan TingTing"
+        ],
+        "stay_duration": "passing"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "nostalgia",
+          "fame",
+          "simplicity"
+        ],
+        "significance": 0.25
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "著名的熟食店和餐厅",
+        "current_name": "Ottolenghi Notting Hill"
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "2015",
+        "dateEnd": "2015"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·名伶的隐逸梦",
+        "hook": "在万众瞩目的时装秀现场，大明星最想要的竟然只是一盘沙拉？",
+        "narrative_text": "潘婷婷，这位在亚洲家喻户晓的顶级女星，正身处上海一场喧嚣的时装秀中心。尽管周围全是奉承与闪光灯，她的思绪却飘向了万里之外的伦敦诺丁山。她怀念在那家叫Ottolenghi的小店里，点上一份招牌的奶油南瓜沙拉，然后骑着自行车穿梭在街道上，没有人会认出她，没有人会围追堵截。这种平凡的自由，在上海的奢华派对上显得如此遥不可及，成为了她内心深处最奢侈的幻想。",
+        "transition_to": "从伦敦的宁静沙拉店，话题转到了首尔那充满争议的医美诊所。",
+        "mood": "nostalgic",
+        "key_dialogue": "I could be enjoying that amazing butternut squash salad at Ottolenghi right now and bicycling through Notting Hill totally unrecognized"
+      }
+    },
+    {
+      "title": "Seoul",
+      "address": "South Korea-Seoul",
+      "synopsis": "首尔成为了名媛圈内互相攻击的武器，传闻多位女性曾在此进行整容手术。",
+      "source_evidence": "until some tycoon there paid for her to go to Seoul to get everything redone. ... Not everyone has gone to Seoul to get their noses broken on purpose like the both of you.",
+      "original_chapter": "14 TRENTA SHANGHAI TO PARIS ON THE BINGS’ PRIVATE JET",
+      "part_id": "PART-1",
+      "part_title": "China Rich Girlfriend",
+      "temporal_context": {
+        "era": "2010s",
+        "historical_name": null,
+        "date_start": "2015",
+        "date_end": "2015"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Pan TingTing",
+          "Adele Deng",
+          "Pi Fang",
+          "Tiffany Yap"
+        ],
+        "stay_duration": "passing"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "plastic surgery",
+          "gossip",
+          "rivalry"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "韩国首都，以医美产业闻名",
+        "current_name": "Seoul"
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "2015",
+        "dateEnd": "2015"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·首尔的‘重塑’印记",
+        "hook": "在私人飞机的密闭空间里，首尔成了揭开名媛假面的代名词。",
+        "narrative_text": "在飞往巴黎的私人飞机上，言语的交锋比引擎声更刺耳。首尔，这座亚洲的医美之都，在Tiffany Yap的口中成了羞辱他人的利剑。她毫不留情地讽刺Adele Deng和Pi Fang，暗示她们那完美的鼻梁不过是在首尔‘故意打断’后再造的结果。甚至连大明星潘婷婷也被卷入其中，传闻她曾由某位大亨资助，在首尔进行了全身性的‘重塑’。在这里，首尔不再是一个地理坐标，而是一个关于虚荣、金钱与人工美学的符号。",
+        "transition_to": "除了容貌的真伪，关于出生地的争论也同样激烈。",
+        "mood": "tense",
+        "key_dialogue": "Not everyone has gone to Seoul to get their noses broken on purpose like the both of you."
+      }
+    },
+    {
+      "title": "Jinan",
+      "address": "中国-山东-济南",
+      "synopsis": "Tiffany Yap纠正了关于潘婷婷出身的传闻，指出她并非来自苏州而是济南。",
+      "source_evidence": "And TingTing isn’t from Suzhou—she comes from Jinan.",
+      "original_chapter": "14 TRENTA SHANGHAI TO PARIS ON THE BINGS’ PRIVATE JET",
+      "part_id": "PART-1",
+      "part_title": "China Rich Girlfriend",
+      "temporal_context": {
+        "era": "2010s",
+        "historical_name": null,
+        "date_start": "2015",
+        "date_end": "2015"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Pan TingTing",
+          "Tiffany Yap"
+        ],
+        "stay_duration": "passing"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "origins",
+          "identity",
+          "truth"
+        ],
+        "significance": 0.2
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "山东省省会",
+        "current_name": "Jinan"
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "2015",
+        "dateEnd": "2015"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·被修正的籍贯",
+        "hook": "苏州名伶还是山东姑娘？一个地名的改变足以颠覆人设。",
+        "narrative_text": "在富豪圈的八卦链条中，籍贯往往带有某种阶级或气质的标签。人们习惯于将温婉动人的潘婷婷想象成来自烟雨绸缪的苏州，仿佛那才符合她的人设。然而，Tiffany Yap却以一种掌握第一手资料的姿态，冷冷地戳破了这个幻想：潘婷婷其实来自济南。这个细节的修正，不仅展示了Tiffany对圈内底细的了如指掌，也暗示了在这些光鲜亮丽的包装之下，每个人都有着被刻意模糊或美化的过去。",
+        "transition_to": "籍贯可以修正，但对于时尚的挑剔却绝不妥协。",
+        "mood": "dramatic",
+        "key_dialogue": "And TingTing isn’t from Suzhou—she comes from Jinan."
+      }
+    },
+    {
+      "title": "Hongqiao Airport",
+      "address": "中国-上海-长宁区-虹桥国际机场",
+      "synopsis": "众人于午夜在虹桥机场私人飞行航站楼集合，登上了Bing家奢华至极的私人飞机。",
+      "source_evidence": "The security guard at the Hongqiao International Airport Private Aviation entrance handed Carlton, Rachel, and Nick their passports",
+      "original_chapter": "14 TRENTA SHANGHAI TO PARIS ON THE BINGS’ PRIVATE JET",
+      "part_id": "PART-1",
+      "part_title": "China Rich Girlfriend",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Colette Bing",
+          "Carlton Bao",
+          "Rachel Chu",
+          "Nicholas Young"
+        ],
+        "stay_duration": "2 hours"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "luxury",
+          "departure",
+          "extravagance"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "上海两大国际机场之一，设有公务机基地",
+        "current_name": "上海虹桥国际机场"
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·午夜的私人航站楼",
+        "hook": "当普通旅客在航站楼排队时，另一群人正通过专属通道跨越国境。",
+        "narrative_text": "午夜时分的虹桥机场，私人航空入口处灯火通明。Carlton Bao正带着Rachel和Nick通过安检。这里没有拥挤的人潮，只有彬彬有礼的保安和迅速的通关手续。当他们踏上那架被改装成移动宫殿的波音747时，Rachel被眼前的景象震撼了：这不仅仅是一架飞机，它是Bing家族财富的终极展示。随着舱门的关闭，上海的夜景在窗外迅速退去，一场通往欧洲时尚之都的奢华航程正式拉开序幕。",
+        "transition_to": "踏入机舱内部，眼前的景象让Nick产生了一种时空错乱的幻觉。",
+        "mood": "ambitious",
+        "key_dialogue": "“Why don’t we all meet at Hongqiao Airport at midnight?”"
+      }
+    },
+    {
+      "title": "Borobudur",
+      "address": "Indonesia-Central Java-Magelang-Borobudur",
+      "synopsis": "Nick在私人飞机上看到充满禅意的石材与青苔装饰，惊叹其风格宛如印尼的婆罗浮屠遗迹。",
+      "source_evidence": "“It’s just like Borobudur,” Nick said in a hushed whisper as he touched the moss-covered stone.",
+      "original_chapter": "14 TRENTA SHANGHAI TO PARIS ON THE BINGS’ PRIVATE JET",
+      "part_id": "PART-1",
+      "part_title": "China Rich Girlfriend",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Nicholas Young"
+        ],
+        "stay_duration": "Mentioned in dialogue"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "architecture",
+          "zen",
+          "opulence"
+        ],
+        "significance": 0.2
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "世界文化遗产",
+        "current_name": "Borobudur Temple"
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第6章·机舱里的婆罗浮屠",
+        "hook": "谁能想到，在三万英尺的高空，竟然藏着一座‘古代遗迹’？",
+        "narrative_text": "Nicholas Young抚摸着机舱内装饰的、覆盖着真青苔的石块，低声惊叹。这种设计风格直接致敬了印尼著名的佛教遗迹——婆罗浮屠。Bing家族的品味已经超越了简单的金碧辉煌，他们追求的是一种将世界文化遗产搬进私人空间的极致荒诞与奢华。在这种环境下，宗教的肃穆感被转化为一种昂贵的装饰美学，让这段漫长的飞行变成了一场超现实的感官体验。",
+        "transition_to": "而在世界的另一端，Rachel的思绪回到了她与好友在杭州度过的宁静时光。",
+        "mood": "mysterious",
+        "key_dialogue": "“It’s just like Borobudur,” Nick said in a hushed whisper."
+      }
+    },
+    {
+      "title": "West Lake",
+      "address": "中国-浙江-杭州-西湖区-西湖风景名胜区",
+      "synopsis": "Rachel与好友Peik Lin在杭州西湖游玩，享受难得的宁静，同时也为即将到来的挑战做心理准备。",
+      "source_evidence": "She’s visiting Hangzhou now with a friend from Singapore, but once she returns to Shanghai, I really think you need to invite her over.",
+      "original_chapter": "7 THE WEST LAKE HANGZHOU, CHINA",
+      "part_id": "PART-1",
+      "part_title": "China Rich Girlfriend",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2013",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Rachel Chu",
+          "Goh Peik Lin"
+        ],
+        "stay_duration": "3 days"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "friendship",
+          "tourism",
+          "reflection"
+        ],
+        "significance": 0.7
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "著名风景名胜区",
+        "current_name": "杭州西湖"
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "2013",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第7章·西湖畔的片刻安宁",
+        "hook": "在卷入上海豪门的风暴前，西湖的微风是她最后的避风港。",
+        "narrative_text": "杭州的西湖，自古便是文人墨客的寄情之所。Rachel Chu与她那性格泼辣、总是充满活力的好友Goh Peik Lin暂时远离了上海那些令人窒息的豪门恩怨。她们在湖上划船，品味着龙井茶的清香，试图在这一片湖光山色中找回真实的自我。然而，Peik Lin敏锐的直觉告诉Rachel，这只是暴风雨前的宁静。作为一名来自美国的‘局外人’，Rachel必须在回到上海之前，积攒足够的勇气去面对那些复杂的血缘秘密。",
+        "transition_to": "结束了杭州的洗礼，故事回到了新加坡的权力核心——克鲁尼公园路28号。",
+        "mood": "peaceful",
+        "key_dialogue": "“She’s visiting Hangzhou now with a friend from Singapore...”"
+      }
+    },
+    {
+      "title": "28 Cluny Park Road",
+      "address": "Singapore-Singapore-Cluny Park Road-28",
+      "synopsis": "Astrid与丈夫Michael在Carmen Loh的陪同下参观这座宏伟的历史豪宅，试图挽救摇摇欲坠的婚姻。",
+      "source_evidence": "28 CLUNY PARK ROAD\n\nSINGAPORE\n\n“It’s one of the few remaining ‘Good Class Bungalows’ in this area that hasn’t been subdivided,” Carmen Loh said.",
+      "original_chapter": "Chapter 15",
+      "part_id": "PART-2",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Modern era",
+        "historical_name": null,
+        "date_start": "2010",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Astrid Leong",
+          "Michael Teo",
+          "Carmen Loh"
+        ],
+        "stay_duration": "A few hours"
+      },
+      "cultural_tags": {
+        "category": "architectural",
+        "themes": [
+          "luxury",
+          "real estate",
+          "marital tension"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Private residence in a prestigious conservation area",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": "2010",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·克鲁尼园的深宅",
+        "hook": "在价值连城的豪宅面前，金钱真的能买回逝去的爱情吗？",
+        "narrative_text": "Astrid Leong正带着丈夫Michael Teo参观克鲁尼园路28号。这座由C.K. Wong拥有的历史建筑，在房产经纪人Carmen Loh的口中是绝无仅有的瑰宝。Astrid试图通过购买这栋豪宅来安抚Michael日益膨胀的自卑感与不满，然而Michael面对这泼天的富贵，表现出的却是令人窒息的沉默与疏离。阳光洒在古老的建筑上，却照不进这对夫妻渐行渐远的心。豪宅的宏伟与婚姻的破裂形成了鲜明的对比。",
+        "transition_to": "在看房的闲谈中，Carmen无意间提到了这栋房子主人的近况，引出了一个令人唏嘘的消息。",
+        "mood": "tense",
+        "key_dialogue": "“It’s one of the few remaining ‘Good Class Bungalows’ in this area that hasn’t been subdivided.”"
+      }
+    },
+    {
+      "title": "Dover Park Hospice",
+      "address": "Singapore-Singapore-Novena-Dover Park Hospice",
+      "synopsis": "Carmen透露豪宅主人C.K. Wong已进入安宁疗护中心，揭示了豪门背后的凄凉晚景。",
+      "source_evidence": "“Uncle C.K. has been checked in to Dover Park Hospice. My mother is going to see him later this afternoon.”",
+      "original_chapter": "Chapter 15",
+      "part_id": "PART-2",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Modern era",
+        "historical_name": null,
+        "date_start": "2010",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Carmen Loh"
+        ],
+        "stay_duration": "Passing mention"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "mortality",
+          "family gossip"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "A well-known hospice in Singapore",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 9,
+        "dateStart": "2010",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·繁华落尽的终点",
+        "hook": "当生命走到尽头，再多的房产也只是身外之物。",
+        "narrative_text": "Carmen Loh在向Astrid展示豪宅时，随口提到了房主C.K. Wong的近况。这位曾经叱咤风云的人物，如今已住进了杜佛园安宁疗护中心。这个地点的出现，为书中纸醉金迷的世界抹上了一层灰色的阴影。它提醒着在场的每一个人，无论拥有多少财富，最终都无法逃避生老病死的自然规律。Carmen的母亲计划下午去探望，这种豪门间的社交即便在病榻前也未曾停止。",
+        "transition_to": "除了沉重的病情，Carmen还分享了一些在超市偶遇时听到的琐碎八卦。",
+        "mood": "melancholic",
+        "key_dialogue": "“Uncle C.K. has been checked in to Dover Park Hospice.”"
+      }
+    },
+    {
+      "title": "NTUC FairPrice",
+      "address": "Singapore-Singapore-Singapore",
+      "synopsis": "Carmen的母亲在超市偶遇熟人，交换了关于社交圈的最新流言。",
+      "source_evidence": "“Also, I ran into Keng Lien today at NTUC, and she said she heard from Paula that you are selling your Churchill Club membership...”",
+      "original_chapter": "Chapter 15",
+      "part_id": "PART-2",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Modern era",
+        "historical_name": null,
+        "date_start": "2010",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Carmen Loh"
+        ],
+        "stay_duration": "Short visit"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "gossip",
+          "daily life"
+        ],
+        "significance": 0.2
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Major supermarket chain in Singapore",
+        "current_name": "NTUC FairPrice"
+      },
+      "timeline": {
+        "orderIndex": 10,
+        "dateStart": "2010",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·超市里的流言蜚语",
+        "hook": "即便是最平民的超市，也是富太们交换情报的战场。",
+        "narrative_text": "在新加坡随处可见的NTUC超市里，Carmen的母亲遇到了Keng Lien。这种看似平凡的偶遇，在《疯狂亚洲富豪》的世界里却是情报交换的关键节点。她们讨论的不是菜价，而是谁家正在变卖家产，谁家的孩子又在搞什么不靠谱的投资。这些琐碎的对话构建了新加坡上流社会严密的监视网，任何风吹草动都会迅速传遍整个圈子。",
+        "transition_to": "流言的内容很快指向了一个具体的社交场所——丘吉尔俱乐部。",
+        "mood": "peaceful",
+        "key_dialogue": "“I ran into Keng Lien today at NTUC...”"
+      }
+    },
+    {
+      "title": "Churchill Club",
+      "address": "Singapore-Singapore-Singapore",
+      "synopsis": "传闻Carmen正出售该俱乐部会员资格，反映了家族财务状况的变动。",
+      "source_evidence": "“...you are selling your Churchill Club membership to fund some new scuba-diving venture.”",
+      "original_chapter": "Chapter 15",
+      "part_id": "PART-2",
+      "part_title": "Crazy Rich Asians",
+      "temporal_context": {
+        "era": "Modern era",
+        "historical_name": null,
+        "date_start": "2010",
+        "date_end": "2013"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Carmen Loh"
+        ],
+        "stay_duration": "Mentioned only"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "social status",
+          "finance"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "A private social club",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 11,
+        "dateStart": "2010",
+        "dateEnd": "2013"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·会员资格的价值",
+        "hook": "一张俱乐部的会员证，竟成了创业的救命稻草？",
+        "narrative_text": "丘吉尔俱乐部（Churchill Club）是身份的象征，但对于Carmen Loh来说，它现在更像是一笔可以变现的资产。圈子里盛传她正在出售会员资格，以筹集资金支持她的潜水创业项目。在富豪的世界里，放弃这种顶级社交圈的入场券通常被视为财务困窘或家族衰落的信号，因此这一传闻在社交圈内引起了不小的波澜。",
+        "transition_to": "从新加坡的俱乐部到全球的奢华航线，富豪们的故事在金钱与欲望中不断循环。",
+        "mood": "ambitious",
+        "key_dialogue": "“...selling your Churchill Club membership to fund some new scuba-diving venture.”"
+      }
+    },
+    {
+      "title": "Jimmy Choo boutique",
+      "address": "England-London-Sloane Street-Jimmy Choo",
+      "synopsis": "Carlton Bao在伦敦街头飙车时，曾驾驶法拉利直接撞进这家位于斯隆街的精品店。",
+      "source_evidence": "“Wasn’t it a Ferrari that smashed into the Jimmy Choo boutique?”",
+      "original_chapter": "THE SHANGRI-LA",
+      "part_id": "PART-2",
+      "part_title": "RICH PEOPLE PROBLEMS",
+      "temporal_context": {
+        "era": "Modern Day",
+        "historical_name": null,
+        "date_start": "2015",
+        "date_end": "2015"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Carlton Bao",
+          "Astrid Leong"
+        ],
+        "stay_duration": "A few minutes (crash event)"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "recklessness",
+          "wealth",
+          "scandal"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Located at 32 Sloane St",
+        "current_name": "Jimmy Choo"
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "2015",
+        "dateEnd": "2015"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·伦敦的疯狂往事",
+        "hook": "一辆法拉利撞进奢侈品店，这只是Carlton荒唐生活的缩影。",
+        "narrative_text": "在巴黎香格里拉大酒店的奢华套房内，Astrid Leong正试图追踪那个麻烦不断的表弟Carlton Bao。提及Carlton，人们脑海中浮现的总是他在伦敦斯隆街的惊人壮举——在那场臭名昭著的非法赛车中，他驾驶着价值连城的法拉利，毫无顾忌地冲破了Jimmy Choo精品店的橱窗。这不仅仅是一场交通事故，更是顶级富二代们挥金如土、无视规则的狂妄注脚。对于这些含着金汤匙出生的继承者来说，法律和建筑都只是他们追求肾上腺素飙升时的背景板。",
+        "transition_to": "为了阻止Carlton在巴黎重演悲剧，Astrid必须立刻锁定他的位置。",
+        "mood": "dramatic",
+        "key_dialogue": "“Wasn’t it a Ferrari that smashed into the Jimmy Choo boutique?”"
+      }
+    },
+    {
+      "title": "avenue de Malakoff",
+      "address": "France-Paris-16th Arrondissement-avenue de Malakoff",
+      "synopsis": "Astrid通过追踪定位，发现Carlton正躲在马拉科夫大道的一个秘密车库准备非法赛车。",
+      "source_evidence": "“Right now, it looks like Carlton’s at a commercial garage on avenue de Malakoff, right next to Porte Maillot.”",
+      "original_chapter": "THE SHANGRI-LA",
+      "part_id": "PART-2",
+      "part_title": "RICH PEOPLE PROBLEMS",
+      "temporal_context": {
+        "era": "Modern Day",
+        "historical_name": null,
+        "date_start": "2015",
+        "date_end": "2015"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Astrid Leong",
+          "Carlton Bao",
+          "Rachel Chu",
+          "Nick Young",
+          "Colette Bing"
+        ],
+        "stay_duration": "Several hours"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "confrontation",
+          "racing",
+          "family crisis"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "A major avenue in the 16th arrondissement",
+        "current_name": "Avenue de Malakoff"
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "2015",
+        "dateEnd": "2015"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·马拉科夫的引擎声",
+        "hook": "在巴黎最优雅的街道下，隐藏着最危险的赌局。",
+        "narrative_text": "Astrid Leong利用她广泛的人脉，终于在马拉科夫大道的一个商业车库里找到了Carlton。这里远离了香榭丽舍大街的喧嚣，却充满了汽油与金钱的味道。Carlton Bao——Rachel同父异母的弟弟，正与他那骄纵的女友Colette Bing在一起，准备参加一场横跨巴黎的非法赛车。当Astrid带着Rachel和Nick赶到时，引擎的轰鸣声几乎掩盖了争吵。这不仅是一场速度的竞赛，更是两个家族、两种价值观在异国他乡的正面交锋。Rachel第一次真切地感受到，她失散多年的家庭成员们生活在怎样一个疯狂的世界里。",
+        "transition_to": "Colette的怒火在车库中爆发，她提到了另一个巴黎地标作为挑衅。",
+        "mood": "tense",
+        "key_dialogue": "“Right now, it looks like Carlton’s at a commercial garage on avenue de Malakoff, right next to Porte Maillot.”"
+      }
+    },
+    {
+      "title": "Arc de Triomphe",
+      "address": "France-Paris-Place Charles de Gaulle-Arc de Triomphe",
+      "synopsis": "Colette在争吵中愤怒地宣称，Carlton可以随意将豪车撞向凯旋门，她毫不在意。",
+      "source_evidence": "“The both of you can go measure your dicks and crash your million-dollar sports cars into the Arc de Triomphe for all I care!”",
+      "original_chapter": "THE SHANGRI-LA",
+      "part_id": "PART-2",
+      "part_title": "RICH PEOPLE PROBLEMS",
+      "temporal_context": {
+        "era": "Modern Day",
+        "historical_name": null,
+        "date_start": "2015",
+        "date_end": "2015"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Colette Bing",
+          "Carlton Bao"
+        ],
+        "stay_duration": "Mentioned in dialogue"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "defiance",
+          "extravagance"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Iconic monument at Place Charles de Gaulle",
+        "current_name": "Arc de Triomphe"
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "2015",
+        "dateEnd": "2015"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·凯旋门的幻影",
+        "hook": "将百万豪车撞向国家象征？这便是Colette式的愤怒。",
+        "narrative_text": "当Astrid试图劝阻这场危险的赛车时，Colette Bing爆发了。这位身价百亿的富家千金对男人们这种幼稚的自尊心感到厌倦。她尖刻地嘲讽道，哪怕Carlton和他的对手把那些价值百万的跑车直接撞向凯旋门，她也绝不会眨一下眼睛。凯旋门，这座象征着法兰西荣耀的建筑，在Colette的口中仅仅成了富家子弟宣泄情绪的背景板。这种极度的冷漠与狂妄，让在场的Rachel感到一阵寒意——在这些人的世界里，没有什么东西是神圣不可侵犯的，只要价格合适。",
+        "transition_to": "镜头从巴黎的喧嚣转回香港，在宁静的石澳，另一场关于阶级的博弈正在上演。",
+        "mood": "dramatic",
+        "key_dialogue": "“The both of you can go measure your dicks and crash your million-dollar sports cars into the Arc de Triomphe for all I care!”"
+      }
+    },
+    {
+      "title": "Shek O",
+      "address": "中国-香港-香港岛-南区-石澳",
+      "synopsis": "Kitty Pong在石澳的豪宅中与Corinna Ko-Tung共进午餐，试图挤进这个香港最排外的顶级圈子。",
+      "source_evidence": "“Shek O is where all the old families have their houses tucked away on the secluded headlands... I would say that Shek O homeowners are part of the most exclusive club in Hong Kong.”",
+      "original_chapter": "SHEK O",
+      "part_id": "PART-3",
+      "part_title": "RICH PEOPLE PROBLEMS",
+      "temporal_context": {
+        "era": "Modern Day",
+        "historical_name": null,
+        "date_start": "2015",
+        "date_end": "2015"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Kitty Pong",
+          "Corinna Ko-Tung"
+        ],
+        "stay_duration": "An afternoon"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "social climbing",
+          "exclusivity",
+          "old money"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "A historic village and luxury residential area",
+        "current_name": "Shek O"
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "2015",
+        "dateEnd": "2015"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·石澳的门槛",
+        "hook": "在香港最隐秘的岬角，金钱并非万能的通行证。",
+        "narrative_text": "石澳，这个位于香港岛南端的偏僻半岛，是老牌家族最后的堡垒。不同于中环的喧嚣或山顶的张扬，这里的豪宅隐藏在蜿蜒的海岸线与茂密的植被中。Kitty Pong——这位急于洗脱艳星背景、跻身上流社会的野心女人，正坐在Corinna Ko-Tung的别墅露台上。Corinna是那种能决定谁有资格进入社交圈的“守门人”。Kitty望着窗外湛蓝的南中国海，意识到即便她现在拥有了惊人的财富，想要在石澳拥有一席之地，依然需要Corinna这种老牌贵族的认可。这里的每一块砖石都散发着“老钱”的排外气息。",
+        "transition_to": "Kitty试图用她所熟悉的奢华标准来衡量这里，甚至想到了遥远的夏威夷。",
+        "mood": "ambitious",
+        "key_dialogue": "“I would say that Shek O homeowners are part of the most exclusive club in Hong Kong.”"
+      }
+    },
+    {
+      "title": "Qinghai",
+      "address": "中国-青海",
+      "synopsis": "Kitty编造了一个在青海贫穷渔村长大的故事，以此作为她“灰姑娘”叙事的一部分。",
+      "source_evidence": "the truth is, I grew up in a tiny village in Qinghai, China. We were the poorest peasants . . . I lived in a little hut made out of metal and cardboard scraps beside the river",
+      "original_chapter": "Chapter 1",
+      "part_id": "PART-3",
+      "part_title": "RICH PEOPLE PROBLEMS",
+      "temporal_context": {
+        "era": "Modern era",
+        "historical_name": null,
+        "date_start": "2015",
+        "date_end": "2015"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Kitty Pong"
+        ],
+        "stay_duration": "Fictional childhood"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "poverty",
+          "fabrication",
+          "storytelling"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Refers to the province",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "2015",
+        "dateEnd": "2015"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·青海的铁皮屋",
+        "hook": "金属片和纸板搭建的小屋，真的是这位阔太的童年吗？",
+        "narrative_text": "Kitty Pong向听众们描绘了一幅凄惨的画面：在青海的一个偏远村庄，她曾是最贫穷的农民。她声称自己住在河边用铁皮和纸板搭成的简陋小屋里，这种极端的贫穷与她此刻满身的珠宝形成了强烈的对比。这种“白手起家”的叙事在某些社交场合非常奏效，因为它能掩盖那些不光彩的成名史。然而，对于熟悉她底细的人来说，这不过是又一场拙劣的表演。",
+        "transition_to": "当Kitty忙于编造过去时，真正的香港老牌家族正关注着景贤里的筹款活动。",
+        "mood": "bittersweet",
+        "key_dialogue": "I lived in a little hut made out of metal and cardboard scraps beside the river"
+      }
+    },
+    {
+      "title": "King Yin Lei Mansion",
+      "address": "中国-香港-香港岛-湾仔-司徒拔道45号",
+      "synopsis": "Corinna提到即将举行的景贤里大宅筹款活动，这是香港上流社会的真实社交焦点。",
+      "source_evidence": "The King Yin Lei Mansion fund-raiser? Of course.",
+      "original_chapter": "Chapter 1",
+      "part_id": "PART-3",
+      "part_title": "RICH PEOPLE PROBLEMS",
+      "temporal_context": {
+        "era": "Modern era",
+        "historical_name": "景贤里",
+        "date_start": "2015",
+        "date_end": "2015"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Corinna Ko-Tung",
+          "Kitty Pong"
+        ],
+        "stay_duration": "Mentioned as an upcoming event"
+      },
+      "cultural_tags": {
+        "category": "architectural",
+        "themes": [
+          "heritage",
+          "preservation",
+          "high society"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Declared monument, occasionally open to public",
+        "current_name": "景贤里"
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "2015",
+        "dateEnd": "2015"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·景贤里的入场券",
+        "hook": "一场关于古迹保护的筹款会，才是检验谁是真正名流的试金石。",
+        "narrative_text": "与Kitty编造的苦难故事不同，Corinna Ko-Tung提到的景贤里大宅筹款活动是实实在在的社交硬通货。景贤里，这座位于司徒拔道的红砖绿瓦建筑，不仅是香港珍贵的历史古迹，更是老牌家族展示影响力的舞台。对于像Corinna这样的人来说，参与这样的活动是理所当然的责任；而对于Kitty这样的人来说，这则是她梦寐以求想要获得的入场券。这里的对话暗示了香港社会严密的阶级划分。",
+        "transition_to": "社交季的忙碌并未结束，下一站的旅程将从繁忙的新加坡樟宜机场开始。",
+        "mood": "peaceful",
+        "key_dialogue": "The King Yin Lei Mansion fund-raiser? Of course."
+      }
+    },
+    {
+      "title": "Changi Airport",
+      "address": "Singapore-Changi-Changi Airport",
+      "synopsis": "Astrid从巴黎飞抵新加坡，在机场航站楼目睹了丈夫Michael与儿子登上杂志封面的报道。",
+      "source_evidence": "Giving a brief statement after landing at Changi Airport, Tai, whose face appears to be drastically altered by cosmetic surgery, said, “My wife has never played an active role in the raising of our daughter”",
+      "original_chapter": "Chapter 2",
+      "part_id": "PART-3",
+      "part_title": "RICH PEOPLE PROBLEMS",
+      "temporal_context": {
+        "era": "Modern era",
+        "historical_name": null,
+        "date_start": "2015",
+        "date_end": "2015"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Astrid Leong",
+          "Michael Teo",
+          "Cassian Teo"
+        ],
+        "stay_duration": "2 hours"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "homecoming",
+          "fame",
+          "family_tension"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "World-renowned international airport",
+        "current_name": "Singapore Changi Airport"
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "2015",
+        "dateEnd": "2015"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·归途的阴影",
+        "hook": "刚下飞机的Astrid，在报刊亭看到了令她心碎的家庭“真相”。",
+        "narrative_text": "在结束了巴黎的纷扰后，Astrid Leong踏上了新加坡樟宜机场的土地。作为曾经低调的社交名媛，她此刻只想尽快回到熟悉的家。然而，在3号航站楼琳琅满目的商店间，一份杂志封面击碎了她的平静。封面上是她的丈夫Michael Teo和儿子Cassian，标题赫然写着关于他们家庭生活的独家报道。Michael，这个曾经因为自卑而离开她的男人，如今似乎在媒体的聚光灯下找到了某种扭曲的补偿。Astrid意识到，尽管她试图修补这段婚姻，但权力和名声的诱惑已让Michael渐行渐远。",
+        "transition_to": "杂志的文字追溯起Michael发迹的起点，那个平凡的工业区。",
+        "mood": "melancholic",
+        "key_dialogue": "“My wife has never played an active role in the raising of our daughter”"
+      }
+    },
+    {
+      "title": "Jurong",
+      "address": "Singapore-Jurong",
+      "synopsis": "媒体回顾了Michael Teo在裕廊科技初创公司奋斗的平凡往事。",
+      "source_evidence": "a few years ago, he was a virtual unknown toiling away at his tech start-up in Jurong.",
+      "original_chapter": "Chapter 2",
+      "part_id": "PART-3",
+      "part_title": "RICH PEOPLE PROBLEMS",
+      "temporal_context": {
+        "era": "Modern era",
+        "historical_name": null,
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Michael Teo"
+        ],
+        "stay_duration": "Several years"
+      },
+      "cultural_tags": {
+        "category": "biographical",
+        "themes": [
+          "ambition",
+          "humble_beginnings"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Singapore's primary industrial and innovation hub",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第5章·裕廊的无名氏",
+        "hook": "在成为亿万富翁之前，Michael只是工业区里一个默默无闻的创业者。",
+        "narrative_text": "裕廊，这个新加坡的工业心脏，见证了Michael Teo最初的野心与挣扎。在与Astrid结婚的初期，他始终被笼罩在梁家显赫家世的阴影下。那时的他，在裕廊的一间简陋办公室里经营着自己的科技初创公司，是一个无人问津的“无名氏”。这种巨大的阶级落差在他心中埋下了不安的种子，也成为了他日后疯狂追求财富与社会地位的原始动力。媒体将这段经历粉饰为励志的白手起家故事，却忽略了其中滋生的怨怼。",
+        "transition_to": "Michael的精英之路，其实早在他的学生时代就已初见端倪。",
+        "mood": "ambitious",
+        "key_dialogue": "a few years ago, he was a virtual unknown toiling away at his tech start-up in Jurong."
+      }
+    },
+    {
+      "title": "California Institute of Technology",
+      "address": "USA-California-Pasadena-California Institute of Technology",
+      "synopsis": "Michael Teo获得政府奖学金，在加州理工学院深造计算机工程。",
+      "source_evidence": "Teo won a government scholarship to study computer engineering at the prestigious California Institute of Technology",
+      "original_chapter": "Chapter 2",
+      "part_id": "PART-3",
+      "part_title": "RICH PEOPLE PROBLEMS",
+      "temporal_context": {
+        "era": "Modern era",
+        "historical_name": null,
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Michael Teo"
+        ],
+        "stay_duration": "4 years"
+      },
+      "cultural_tags": {
+        "category": "biographical",
+        "themes": [
+          "academic_excellence",
+          "technology"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "World-class research university in Pasadena",
+        "current_name": "Caltech"
+      },
+      "timeline": {
+        "orderIndex": 9,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第6章·帕萨迪纳的极客",
+        "hook": "在加州理工的实验室里，Michael磨练着改变命运的技术利刃。",
+        "narrative_text": "远在加州的帕萨迪纳，Michael Teo在加州理工学院（Caltech）度过了他的大学时光。作为政府奖学金的获得者，他专注于计算机工程的研究。在这里，他不再是那个在新加坡社交圈边缘挣扎的年轻人，而是一个充满潜力的技术天才。这段经历赋予了他后来创业的技术资本，也让他见识到了全球精英的样貌。然而，即便拥有了顶尖的学历，回到新加坡后，他依然发现自己难以融入Astrid那个由血缘和旧钱构筑的封闭世界。",
+        "transition_to": "Michael的奋斗与Astrid家族的显赫，共同构成了这场疯狂亚洲富豪的权力图谱。",
+        "mood": "ambitious",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "Marina Bay Sands",
+      "address": "Singapore-Central Region-Downtown Core-10 Bayfront Avenue-Marina Bay Sands",
+      "synopsis": "阿斯特丽德为躲避婚姻危机和社交圈的流言蜚语，带着儿子搬进了滨海湾金沙酒店。",
+      "source_evidence": "I’m now at the Marina Bay Sands hotel. ... MBS is one of those—it’s mainly tourists.",
+      "original_chapter": "Chapter 9",
+      "part_id": "PART-1",
+      "part_title": "China Rich Girlfriend",
+      "temporal_context": {
+        "era": "Modern",
+        "historical_name": null,
+        "date_start": "2015",
+        "date_end": "2015"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Astrid Leong-Teo"
+        ],
+        "stay_duration": "Several days"
+      },
+      "cultural_tags": {
+        "category": "architectural",
+        "themes": [
+          "escape",
+          "isolation",
+          "modernity"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Iconic Singapore landmark",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "2015",
+        "dateEnd": "2015"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·金沙酒店的避难所",
+        "hook": "新加坡名媛为何要躲进满是游客的酒店？",
+        "narrative_text": "阿斯特丽德——这位被誉为“亚洲最优雅女人”的杨家后代，正经历着婚姻的至暗时刻。在与丈夫迈克尔爆发了激烈的争吵后，她没有选择回到那些充满熟人面孔的私人俱乐部，而是带着儿子卡西安躲进了滨海湾金沙酒店。这座巨大的、充满游客的建筑成了她最好的掩体。在这里，没有人会关心这位穿着高定服装的女人是否刚刚哭过，她可以暂时卸下名媛的重担，在人潮中做一个隐形的旁观者。",
+        "transition_to": "尽管身处避难所，但酒店顶层的诱惑依然让她的家人无法抗拒。",
+        "mood": "melancholic",
+        "key_dialogue": "“I just needed to get away. MBS is the last place anyone I know would ever go.”"
+      }
+    },
+    {
+      "title": "SkyPark",
+      "address": "Singapore-Singapore-Singapore-Downtown Core-Marina Bay Sands SkyPark",
+      "synopsis": "阿斯特丽德的母亲曾因门票昂贵放弃登顶，而阿斯特丽德现在正带着儿子在泳池边消磨时光。",
+      "source_evidence": "When they ﬁrst opened, my mother tried to go up to the SkyPark with Mrs. Lee Yong Chien and the Queen Mother of Borneo to see the view... Cassian and his nanny are with me, and he’s loving the SkyPark pool.",
+      "original_chapter": "Chapter 9",
+      "part_id": "PART-1",
+      "part_title": "China Rich Girlfriend",
+      "temporal_context": {
+        "era": "Modern",
+        "historical_name": null,
+        "date_start": "2015",
+        "date_end": "2015"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Astrid Leong-Teo",
+          "Cassian"
+        ],
+        "stay_duration": "Afternoon"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "irony",
+          "family contrast",
+          "leisure"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Observation deck and infinity pool",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "2015",
+        "dateEnd": "2015"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·云端的讽刺",
+        "hook": "身价亿万的家族，竟然会为了二十块钱的门票止步？",
+        "narrative_text": "站在金沙酒店顶层的空中花园（SkyPark），阿斯特丽德看着儿子卡西安在无边泳池里嬉戏。她想起了一个荒诞的家族往事：当年酒店刚开业时，她那极其富有却又极度精打细算的母亲，曾带着婆罗洲皇太后兴冲冲地想来登顶看风景，却在听说每人要收二十新元门票后愤而离去。这种老派富豪的古怪逻辑在这一刻显得格外滑稽。在云端之上，阿斯特丽德试图通过儿子的笑声来忘却楼下现实世界里的满目疮痍。",
+        "transition_to": "那些被门票劝退的长辈们，最终在商场底层找到了她们的慰藉。",
+        "mood": "bittersweet",
+        "key_dialogue": "“Cassian and his nanny are with me, and he’s loving the SkyPark pool.”"
+      }
+    },
+    {
+      "title": "Toast Box",
+      "address": "Singapore-Singapore-Singapore-Downtown Core-Marina Bay Sands Mall",
+      "synopsis": "阿斯特丽德的母亲和朋友们因嫌门票贵，转而在商场内的土司工坊喝咖啡。",
+      "source_evidence": "So they ended up going to Toast Box in the mall instead.",
+      "original_chapter": "Chapter 9",
+      "part_id": "PART-1",
+      "part_title": "China Rich Girlfriend",
+      "temporal_context": {
+        "era": "Modern",
+        "historical_name": null,
+        "date_start": "2015",
+        "date_end": "2015"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Astrid Leong-Teo",
+          "Mrs. Lee Yong Chien"
+        ],
+        "stay_duration": "1 hour"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "frugality",
+          "social satire"
+        ],
+        "significance": 0.2
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Popular local coffee chain",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "2015",
+        "dateEnd": "2015"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·平民咖啡馆里的贵妇",
+        "hook": "当顶级名媛出现在平价连锁店，这本身就是一种幽默。",
+        "narrative_text": "在金沙购物中心底层的土司工坊（Toast Box），几位掌握着东南亚巨大财富的女性正围坐在一起喝着几块钱的南洋咖啡。阿斯特丽德的母亲和李永谦夫人因为不愿支付空中花园的门票，心安理得地在这里享受着平民化的快乐。这种极度的节俭与她们随手购买高定珠宝的豪气并存，构成了新加坡老派华裔富豪独特的性格底色。而这种对金钱的执着，也正是阿斯特丽德想要逃离的家族枷锁的一部分。",
+        "transition_to": "与此同时，在上海的另一个角落，柯莱特正准备用一场豪奢的派对来彰显她的地位。",
+        "mood": "joyful",
+        "key_dialogue": "“So they ended up going to Toast Box in the mall instead.”"
+      }
+    },
+    {
+      "title": "Johnnie Walker House",
+      "address": "China-Shanghai-Shanghai-Huangpu-Johnnie Walker House",
+      "synopsis": "柯莱特宣布成为品牌大使，并计划在尊尼获加尊邸举办盛大的庆祝派对。",
+      "source_evidence": "and now she’s throwing me a party next week at the Johnnie Walker House to make the big announcement.",
+      "original_chapter": "Chapter 10",
+      "part_id": "PART-1",
+      "part_title": "China Rich Girlfriend",
+      "temporal_context": {
+        "era": "Modern",
+        "historical_name": null,
+        "date_start": "2015",
+        "date_end": "2015"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Colette Bing"
+        ],
+        "stay_duration": "Planned event"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "status",
+          "branding",
+          "extravagance"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "demolished",
+        "note": "The Shanghai location has closed",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "2015",
+        "dateEnd": "2015"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·尊邸的权力宣言",
+        "hook": "一场派对，不仅是庆祝，更是社交圈的领地扩张。",
+        "narrative_text": "柯莱特·宾——这位上海滩最炙手可热的富家千金，从不放过任何一个展示影响力的机会。她向社交圈宣布，自己已成为Prêt-à-Couture的全球品牌大使，并选定在尊尼获加尊邸（Johnnie Walker House）举办庆祝派对。在这个充满威士忌文化与现代奢华气息的空间里，她将再次证明谁才是真正的“中国富豪女友”圈的核心。对于柯莱特来说，每一个地点都是她的舞台，而每一场派对都是她巩固地位的战役。",
+        "transition_to": "然而，所有的繁华与喧嚣，最终都将汇聚到那个神秘而庞大的宝宅之中。",
+        "mood": "ambitious",
+        "key_dialogue": "“...she’s throwing me a party next week at the Johnnie Walker House to make the big announcement.”"
+      }
+    },
+    {
+      "title": "Bao Residence",
+      "address": "China-Shanghai-Shanghai-Xuhui-French Concession",
+      "synopsis": "位于上海法租界的包家大宅，卡尔顿在此与父母激烈对质，揭开瑞秋中毒真相。",
+      "source_evidence": "BAO RESIDENCE, SHANGHAI\n\nTHAT SAME EVENING\n\nBao Gaoliang and his wife were standing under the portico of their elegant garden mansion in the French Concession",
+      "original_chapter": "Chapter 10",
+      "part_id": "PART-2",
+      "part_title": "China Rich Girlfriend",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2012",
+        "date_end": "2012"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Bao Gaoliang",
+          "Bao Shaoyen",
+          "Carlton Bao"
+        ],
+        "stay_duration": "One evening"
+      },
+      "cultural_tags": {
+        "category": "architectural",
+        "themes": [
+          "confrontation",
+          "family secrets",
+          "betrayal"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Located in the historic French Concession area",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "2012",
+        "dateEnd": "2012"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·深宅里的毒药真相",
+        "hook": "在金碧辉煌的法租界豪宅内，一场关于谋杀与掩盖的对质即将爆发。",
+        "narrative_text": "继在Johnnie Walker House的混乱之后，卡尔顿·包回到了位于上海法租界的包家大宅。这座优雅的花园洋房本应是避风港，此刻却充满了压抑的火药味。卡尔顿面对着他的父亲——权势显赫的包高亮，以及母亲包少延，愤怒地揭露了瑞秋·朱中毒的真相。他不再是那个被宠坏的富家子弟，而是看透了家族为了名誉不惜掩盖伦敦车祸、甚至纵容针对瑞秋的阴谋。在这座象征着地位与财富的建筑里，亲情在权力的阴影下显得摇摇欲坠，卡尔顿的决裂宣告了这个顶级豪门内部的彻底崩塌。",
+        "transition_to": "当上海的豪门恩怨陷入僵局，镜头转回了新加坡那片肃穆的墓地。",
+        "mood": "tense",
+        "key_dialogue": "“You’ve spent your whole life cleaning up after me, Dad. But who’s going to clean up after you?”"
+      }
+    },
+    {
+      "title": "Bukit Brown Cemetery",
+      "address": "Singapore-Singapore-Singapore-Novena-Bukit Brown Cemetery",
+      "synopsis": "新加坡古老的武吉布朗坟场，杨家在此祭祖，阿斯特丽德在静谧中思索家族历史。",
+      "source_evidence": "BUKIT BROWN CEMETERY\n\nSINGAPORE\n\nEvery year, on the anniversary of their father’s death, Shang Su Yi and her brother, Alfred, would visit the grave where their parents were buried.",
+      "original_chapter": "Chapter 11",
+      "part_id": "PART-2",
+      "part_title": "China Rich Girlfriend",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": "Kopi Sua",
+        "date_start": "2012",
+        "date_end": "2012"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Astrid Leong-Teo",
+          "Shang Su Yi",
+          "Felicity Leong",
+          "Victoria Young"
+        ],
+        "stay_duration": "A morning"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "ancestry",
+          "tradition",
+          "reflection"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "A historic cemetery, though parts have been cleared for road works",
+        "current_name": "Bukit Brown Heritage Park"
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "2012",
+        "dateEnd": "2012"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·武吉布朗的先祖之思",
+        "hook": "在新加坡最古老的墓地，豪门名媛阿斯特丽德在静谧中寻找内心的平静。",
+        "narrative_text": "武吉布朗坟场，这片被热带绿植覆盖的古老墓地，是新加坡历史的缩影。每年在祖父忌日，杨氏家族的成员都会齐聚于此。阿斯特丽德——这位总是优雅却内心孤独的名媛，提前到达了这里。她在那些雕刻精美的墓碑间漫步，观察着那些曾影响新加坡命运的先驱者的安息之地。相比于外界的喧嚣和婚姻的裂痕，这里的静谧让她感到一种奇异的安慰。随后，家族的长辈们，包括威严的祖母尚素仪陆续抵达，祭祖仪式在香火与肃穆中展开。",
+        "transition_to": "看着这些古老的墓碑，阿斯特丽德的思绪不禁飘向了远在欧洲的另一处安息之地。",
+        "mood": "nostalgic",
+        "key_dialogue": "“It’s so peaceful here. I can see why they chose this spot.”"
+      }
+    },
+    {
+      "title": "Mar Vista",
+      "address": "USA-California-Los Angeles-Mar Vista",
+      "synopsis": "洛杉矶马维斯塔的一处英式小屋，吉蒂·庞在此见到了落魄的伯纳德·戴。",
+      "source_evidence": "At this point, they arrived at a small two-story English cottage–style house in Mar Vista",
+      "original_chapter": "Chapter 12",
+      "part_id": "PART-2",
+      "part_title": "China Rich Girlfriend",
+      "temporal_context": {
+        "era": "Contemporary",
+        "historical_name": null,
+        "date_start": "2012",
+        "date_end": "2012"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Corinna Ko-Tung",
+          "Kitty Pong",
+          "Bernard Tai",
+          "Gisele Tai"
+        ],
+        "stay_duration": "An afternoon"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "downfall",
+          "transformation",
+          "surprise"
+        ],
+        "significance": 0.85
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "A residential neighborhood in West Los Angeles",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "2012",
+        "dateEnd": "2012"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·马维斯塔的隐居者",
+        "hook": "曾经挥金如土的纨绔子弟伯纳德，竟然隐居在洛杉矶的一间简陋小屋里？",
+        "narrative_text": "在洛杉矶马维斯塔一个安静的街区，柯琳娜带着一心想提升社会地位的吉蒂·庞来到了一处不起眼的英式小屋。推开门，吉蒂震惊地发现，曾经那个在私人飞机上挥霍无度的伯纳德·戴，如今竟然变成了一个满脸胡须、穿着破旧、全心照顾女儿吉赛尔的“超级奶爸”。这个曾经的恶棍在经历家族变故后，在这间充满生活气息的小屋里找到了某种救赎。对于吉蒂来说，这不仅是一次意外的重逢，更是对她追求的“豪门生活”的一次巨大冲击。",
+        "transition_to": "马维斯塔的平静只是暂时的，吉蒂的野心将带她前往欲望之都拉斯维加斯。",
+        "mood": "mysterious",
+        "key_dialogue": "“Bernard? Is that really you?”"
+      }
+    },
+    {
+      "title": "Las Vegas",
+      "address": "USA-Nevada-Las Vegas",
+      "synopsis": "吉蒂·庞向查理·吴炫耀她与伯纳德·戴在拉斯维加斯的闪婚经历及奢华生活。",
+      "source_evidence": "It all started right after we got married in Las Vegas.",
+      "original_chapter": "Chapter 12",
+      "part_id": "PART-3",
+      "part_title": "Rich People Problems",
+      "temporal_context": {
+        "era": "Modern era",
+        "historical_name": null,
+        "date_start": "2015",
+        "date_end": "2015"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Kitty Pong",
+          "Bernard Tai",
+          "Charlie Wu"
+        ],
+        "stay_duration": "A few days"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "marriage",
+          "extravagance",
+          "social climbing"
+        ],
+        "significance": 0.2
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Famous gambling and wedding destination",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": "2015",
+        "dateEnd": "2015"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·赌城的荒唐婚约",
+        "hook": "在霓虹闪烁的拉斯维加斯，一场婚姻竟成了跨越阶层的入场券？",
+        "narrative_text": "吉蒂·庞——这位一心想要挤进上流社会的过气女星，正向查理·吴讲述她的‘辉煌’战绩。她提到自己与富二代伯纳德·戴在拉斯维加斯的草率婚礼，那不仅仅是一场浪漫的冲动，更是她摆脱过去身份的转折点。在那个充斥着老虎机和廉价教堂的城市，他们甚至在婚后跑去看了一场蝙蝠侠电影，这种荒诞的奢华感正是吉蒂所追求的‘亚洲富豪’生活方式的缩影。",
+        "transition_to": "除了赌城的繁华，伯纳德在托潘加的秘密产业更让吉蒂感到自豪。",
+        "mood": "ambitious",
+        "key_dialogue": "“It all started right after we got married in Las Vegas.”"
+      }
+    },
+    {
+      "title": "Venice Beach",
+      "address": "USA-California-Los Angeles-Venice Beach",
+      "synopsis": "伯纳德安排女儿吉赛尔在威尼斯海滩进行感官剥夺漂浮疗程，作为其特殊教育的一部分。",
+      "source_evidence": "Her ﬂoat session in Venice Beach only lasts forty-ﬁve minutes",
+      "original_chapter": "Chapter 13",
+      "part_id": "PART-3",
+      "part_title": "Rich People Problems",
+      "temporal_context": {
+        "era": "Modern era",
+        "historical_name": null,
+        "date_start": "2015",
+        "date_end": "2015"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Bernard Tai",
+          "Gisele Tai"
+        ],
+        "stay_duration": "45 minutes"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "alternative therapy",
+          "eccentricity",
+          "parenting"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Famous beach and boardwalk in LA",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 9,
+        "dateStart": "2015",
+        "dateEnd": "2015"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·漂浮的童年",
+        "hook": "在威尼斯海滩的盐水箱里，小吉赛尔正在体验一种超前的‘精神洗礼’。",
+        "narrative_text": "伯纳德·戴对女儿吉赛尔的培养方式充满了加州式的怪诞。在充满波西米亚风情的威尼斯海滩，他并没有带女儿去玩沙子，而是让她进入一个感官剥夺箱进行四十五分钟的漂浮疗程。伯纳德坚信这种疗法能开发孩子的潜能，让她在纷扰的世界中保持专注。这种极端的育儿方式，既展现了富豪阶层对‘精神卓越’的盲目追求，也暗示了吉赛尔童年生活的极度不平凡。",
+        "transition_to": "漂浮结束后，吉赛尔的下一站是环境截然不同的康普顿。",
+        "mood": "mysterious",
+        "key_dialogue": "“Her ﬂoat session in Venice Beach only lasts forty-ﬁve minutes.”"
+      }
+    },
+    {
+      "title": "Compton",
+      "address": "USA-California-Los Angeles-Compton",
+      "synopsis": "吉赛尔被送往康普顿参加‘真实世界沉浸’项目，与当地孩子进行无向导游戏。",
+      "source_evidence": "and then she has an hour of undirected play with her real-world-immersion friends in Compton.",
+      "original_chapter": "Chapter 13",
+      "part_id": "PART-3",
+      "part_title": "Rich People Problems",
+      "temporal_context": {
+        "era": "Modern era",
+        "historical_name": null,
+        "date_start": "2015",
+        "date_end": "2015"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Gisele Tai"
+        ],
+        "stay_duration": "1 hour"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "social experiment",
+          "contrast",
+          "education"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "City in southern Los Angeles County",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 10,
+        "dateStart": "2015",
+        "dateEnd": "2015"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·康普顿的‘真实’体验",
+        "hook": "从静谧的漂浮箱到混乱的街区，富家千金的‘社会实践’令人咋舌。",
+        "narrative_text": "为了让吉赛尔不至于变成一个脱离现实的‘温室花朵’，伯纳德安排了一项名为‘真实世界沉浸’的课程。在结束了威尼斯海滩的高端疗程后，吉赛尔被带到了康普顿——一个以粗犷和多元著称的街区。在那里，她要和一群背景完全不同的孩子进行一小时的‘无向导游戏’。这种刻意制造的阶层碰撞，在伯纳德看来是精英教育的必经之路，却也充满了讽刺意味。",
+        "transition_to": "这场跨越阶层的奇幻旅程，最终在洛杉矶永恒的交通堵塞中画上了句号。",
+        "mood": "dramatic",
+        "key_dialogue": "“...she has an hour of undirected play with her real-world-immersion friends in Compton.”"
+      }
+    },
+    {
+      "title": "Sedona",
+      "address": "USA-Arizona-Yavapai-Sedona",
+      "synopsis": "Bernard在塞多纳的静修营中深受启发，决定彻底改变对女儿Gisele的精英教育方式。",
+      "source_evidence": "One of them invited him to a weekend retreat in Sedona, and that was all it took.",
+      "original_chapter": "Chapter 13",
+      "part_id": "PART-3",
+      "part_title": "Rich People Problems",
+      "temporal_context": {
+        "era": "Modern Day",
+        "historical_name": null,
+        "date_start": "2015",
+        "date_end": "2015"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Bernard Tai"
+        ],
+        "stay_duration": "A weekend"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "enlightenment",
+          "parenting",
+          "satire"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "著名的灵性旅游胜地",
+        "current_name": "Sedona, Arizona"
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "2015",
+        "dateEnd": "2015"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·塞多纳的觉醒",
+        "hook": "一次周末静修，竟让放荡不羁的富家子弟转性了？",
+        "narrative_text": "在经历了与Kitty Pong喧嚣的婚姻和洛杉矶名流圈的洗礼后，Bernard Tai——这位曾经只知道挥霍的富家公子，在亚利桑那州的塞多纳经历了一场灵魂洗礼。在那些竞争激烈的母亲们推荐下，他参加了一个静修营。红色的岩石和神秘的能量场似乎真的发挥了作用，Bernard突然意识到，他不能让女儿Gisele在温室里腐烂，他要给她最“真实”的磨砺。这种突如其来的育儿哲学，成了他后续一系列荒诞行为的起点。",
+        "transition_to": "带着这种新领悟，他决定从改变居住环境开始，搬离那座象征身份的豪宅。",
+        "mood": "mysterious",
+        "key_dialogue": "“One of them invited him to a weekend retreat in Sedona, and that was all it took.”"
+      }
+    },
+    {
+      "title": "Bel Air",
+      "address": "USA-California-Los Angeles-Bel Air",
+      "synopsis": "为了所谓的“生存训练”，Bernard带着妻女搬出了贝尔艾尔的奢华豪宅。",
+      "source_evidence": "We moved out of our mansion in Bel Air because Bernard wants Gisele to experience ‘real-world preparedness.’",
+      "original_chapter": "Chapter 13",
+      "part_id": "PART-3",
+      "part_title": "Rich People Problems",
+      "temporal_context": {
+        "era": "Modern Day",
+        "historical_name": null,
+        "date_start": "2015",
+        "date_end": "2015"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Bernard Tai",
+          "Kitty Pong",
+          "Gisele Tai"
+        ],
+        "stay_duration": "Several months"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "wealth",
+          "lifestyle",
+          "eccentricity"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "洛杉矶著名豪宅区",
+        "current_name": "Bel Air, Los Angeles"
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "2015",
+        "dateEnd": "2015"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·逃离贝尔艾尔",
+        "hook": "放弃顶级豪宅去住贫民窟，这是疯了还是清醒了？",
+        "narrative_text": "贝尔艾尔（Bel Air）的阳光与泳池曾是Kitty Pong梦寐以求的阶级入场券。然而，她的丈夫Bernard却在此时宣布，为了让女儿Gisele拥有“真实世界的应对能力”，全家必须搬离这座奢华的堡垒。Kitty看着那些被打包的昂贵家具，心中充满了不解与愤怒。这种富人特有的“体验生活”在旁人看来极其讽刺：他们主动放弃了全世界最安全的社区，只为了一场自以为是的教育实验。",
+        "transition_to": "这种行为在社交圈引起了轩然大波，甚至远在香港的亲友都感到不可思议。",
+        "mood": "dramatic",
+        "key_dialogue": "“We moved out of our mansion in Bel Air because Bernard wants Gisele to experience ‘real-world preparedness.’”"
+      }
+    },
+    {
+      "title": "Victoria Harbour",
+      "address": "中国-香港-维多利亚港",
+      "synopsis": "从Eddie位于山顶的豪宅俯瞰，维多利亚港的壮丽景色尽收眼底。",
+      "source_evidence": "and below them sprawled the city’s dramatic skyscrapers, followed almost too startlingly soon by the sparkling blue waters of Victoria Harbour.",
+      "original_chapter": "Chapter 13",
+      "part_id": "PART-3",
+      "part_title": "Rich People Problems",
+      "temporal_context": {
+        "era": "Modern Day",
+        "historical_name": null,
+        "date_start": "2015",
+        "date_end": "2015"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "Nicholas Young",
+          "Rachel Chu"
+        ],
+        "stay_duration": "An evening"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "scenery",
+          "urban_splendor"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "香港标志性景观",
+        "current_name": "Victoria Harbour"
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "2015",
+        "dateEnd": "2015"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·山顶的凝望",
+        "hook": "在香港最昂贵的阳台上，能看到怎样的世界？",
+        "narrative_text": "Nicholas Young带着Rachel Chu来到堂哥Edison Cheng位于山顶的公寓。推开露台的门，整个香港的繁华如画卷般展开。脚下是密集的摩天大楼，而紧接着便是维多利亚港那波光粼粼的蓝色海水。这片海港见证了无数财富的起落，也映照着此时此刻Nicholas心中的复杂情绪。尽管美景如常，但家族内部关于遗产和血缘的暗流，却比这海港的潮汐更加汹涌。",
+        "transition_to": "晚餐时间到了，他们移步前往那个只有极少数人能进入的私密俱乐部。",
+        "mood": "peaceful",
+        "key_dialogue": "“...the sparkling blue waters of Victoria Harbour.”"
+      }
+    },
+    {
+      "title": "Locke Club",
+      "address": "中国-香港-中环-Locke Club",
+      "synopsis": "在Locke Club的晚餐中，关于Rachel身份的调查有了突破性进展。",
+      "source_evidence": "Later that evening, while Nick, Rachel, and Gaoliang were in the middle of dinner with Eddie and his mother, Alix, at the Locke Club",
+      "original_chapter": "Chapter 13",
+      "part_id": "PART-3",
+      "part_title": "Rich People Problems",
+      "temporal_context": {
+        "era": "Modern Day",
+        "historical_name": null,
+        "date_start": "2015",
+        "date_end": "2015"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "Nicholas Young",
+          "Rachel Chu",
+          "Bao Gaoliang",
+          "Edison Cheng",
+          "Alix Cheng"
+        ],
+        "stay_duration": "2 hours"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "investigation",
+          "family_gathering",
+          "secrecy"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "uncertain",
+        "note": "原型可能为香港某私人会所",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "2015",
+        "dateEnd": "2015"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·会所里的急电",
+        "hook": "一通来自上海的电话，打破了香港高级会所的宁静。",
+        "narrative_text": "Locke Club维持着一贯的低调与奢华。Nicholas、Rachel与Bao Gaoliang（Rachel的生父）正与Edison Cheng及其母亲Alix共进晚餐。席间气氛微妙，既有家族重聚的客套，也有对Rachel身份被认可后的复杂情绪。突然，Gaoliang的手机震动，是关于那起针对Rachel的投毒案的进展。警方在上海抓获了嫌疑人，真相似乎近在咫尺。这顿晚餐草草结束，取而代之的是紧迫的行动感。",
+        "transition_to": "没有丝毫耽搁，他们连夜飞往上海，直奔那座威严的建筑。",
+        "mood": "tense",
+        "key_dialogue": "“Gaoliang was in the middle of dinner... when he received the call.”"
+      }
+    },
+    {
+      "title": "Central Police Station",
+      "address": "中国-上海-黄浦区-福州路185号-上海市公安局",
+      "synopsis": "Rachel在上海警察局辨认投毒案嫌疑人，揭开了针对她的阴谋一角。",
+      "source_evidence": "Rachel, Nick, and Gaoliang were back in Shanghai, speeding along in a chauffeured Audi to the Central Police Station on Fuzhou Lu.",
+      "original_chapter": "Chapter 13",
+      "part_id": "PART-3",
+      "part_title": "Rich People Problems",
+      "temporal_context": {
+        "era": "Modern Day",
+        "historical_name": "上海市公安局",
+        "date_start": "2015",
+        "date_end": "2015"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Rachel Chu",
+          "Nicholas Young",
+          "Bao Gaoliang",
+          "Inspector Zhang"
+        ],
+        "stay_duration": "3 hours"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "justice",
+          "confrontation",
+          "mystery"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为上海市公安局办公地，不对外开放参观",
+        "current_name": "上海市公安局"
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "2015",
+        "dateEnd": "2015"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·福州路的真相",
+        "hook": "单向玻璃后，那个试图毁掉Rachel的人终于现身。",
+        "narrative_text": "深夜的福州路依然灯火通明，奥迪车停在了中央警察局门口。Rachel在Nicholas和父亲Gaoliang的陪同下，走进了这座令人肃然起敬的建筑。在张督察的引导下，Rachel站在单向玻璃后，心跳加速地辨认着那些被抓获的嫌疑人。当她指认出那个在派对上递给她毒饮料的男人时，一种混合着恐惧与解脱的情绪涌上心头。这不仅是一场刑事案件的突破，更是她融入这个充满敌意的豪门世界所必须经历的洗礼。",
+        "transition_to": "随着嫌疑人的落网，线索指向了更深层的家族恩怨，而大洋彼岸的洛杉矶也正酝酿着风暴。",
+        "mood": "tense",
+        "key_dialogue": "“I’m positive. That’s the man who gave me the drink.”"
+      }
+    },
+    {
+      "title": "Van Nuys Airport",
+      "address": "USA-California-Los Angeles-Van Nuys-Van Nuys Airport",
+      "synopsis": "Kitty Pong带着女儿Gisele乘坐Jack Bing的私人飞机强行起飞，上演了机场追逐战。",
+      "source_evidence": "Van Nuys Airport was the scene of a high-speed chase last night at around 9:50 when LAPD ofﬁcers pursued a private jet containing a two-and-a-half-year-old kidnapping victim as it sped down runway 16R.",
+      "original_chapter": "LOS ANGELES DAILY NEWS",
+      "part_id": "PART-3",
+      "part_title": "Rich People Problems",
+      "temporal_context": {
+        "era": "Modern Era",
+        "historical_name": null,
+        "date_start": "2015",
+        "date_end": "2015"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Gisele Tai",
+          "Bernard Tai",
+          "Kitty Pong",
+          "Jack Bing"
+        ],
+        "stay_duration": "A few hours"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "escape",
+          "scandal",
+          "kidnapping"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Active general aviation airport",
+        "current_name": "Van Nuys Airport"
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "2015",
+        "dateEnd": "2015"
+      },
+      "story_mode": {
+        "chapter_title": "第6章·跑道上的夺子战",
+        "hook": "在洛杉矶的夜幕下，一场豪门夺子大战演变成了飞车追逐。",
+        "narrative_text": "Kitty Pong——这位一心想要跻身上流社会的落魄女星，在富豪Jack Bing的资助下，决定采取极端手段。她带着年幼的女儿Gisele直奔范奈斯机场。当LAPD的警车鸣笛追入跑道时，Jack Bing那架价值数千万美元的私人飞机已经引擎轰鸣。在法律与财富的博弈中，Kitty选择了强行起飞，将愤怒的前夫Bernard Tai和法律制裁甩在了加州的夜空之下。这起公然的“绑架”案瞬间引爆了全球媒体的头条。",
+        "transition_to": "而这场混乱的源头，要追溯到马维斯塔那个曾经被称为‘家’的地方。",
+        "mood": "tense",
+        "key_dialogue": "“The jet... managed to take off just as police vehicles swarmed the tarmac.”"
+      }
+    },
+    {
+      "title": "11950 Victoria Avenue",
+      "address": "USA-California-Los Angeles-Mar Vista-11950 Victoria Avenue",
+      "synopsis": "Bernard Tai在马维斯塔的住所，也是Kitty Pong强行带走女儿Gisele的事发现场。",
+      "source_evidence": "his daughter, Gisele, had been kidnapped from their home at 11950 Victoria Avenue in Mar Vista.",
+      "original_chapter": "LOS ANGELES DAILY NEWS",
+      "part_id": "PART-3",
+      "part_title": "Rich People Problems",
+      "temporal_context": {
+        "era": "Modern Era",
+        "historical_name": null,
+        "date_start": "2015",
+        "date_end": "2015"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Gisele Tai",
+          "Bernard Tai",
+          "Kitty Pong"
+        ],
+        "stay_duration": "Several months"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "domestic conflict",
+          "broken home"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "Private residential area",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "2015",
+        "dateEnd": "2015"
+      },
+      "story_mode": {
+        "chapter_title": "第7章·破碎的马维斯塔之家",
+        "hook": "平静的住宅区街道，见证了一个家庭彻底崩塌的瞬间。",
+        "narrative_text": "位于马维斯塔维多利亚大道的11950号，曾是Bernard Tai试图重建生活的地方。作为曾经挥金如土的富家子，Bernard在失去家族支持后，与女儿Gisele在此居住。然而，Kitty Pong的到来打破了最后的宁静。她利用Bernard不在家的空隙，强行闯入并带走了女儿。对于Bernard来说，这里不再是避风港，而成了他失去一切的伤心地。邻居们的证词和保姆的惊恐，勾勒出一幅豪门恩怨坠入凡间的狼狈图景。",
+        "transition_to": "就在Kitty策划带走女儿时，Bernard正试图在圣莫尼卡寻找心灵的慰藉。",
+        "mood": "desolate",
+        "key_dialogue": "“Tai’s nanny... told police that three men accompanied by Tai’s ex-wife, Kitty Pong, entered the house by force.”"
+      }
+    },
+    {
+      "title": "Yong Foo Elite",
+      "address": "中国-上海-徐汇区-雍福会",
+      "synopsis": "包高亮夫妇在雍福会为瑞秋和尼克举办盛大的告别晚宴，象征着家族对这段婚姻的最终接纳。",
+      "source_evidence": "Carlton’s parents, Bao Gaoliang and his wife, Bao Shaoyen, hosted a farewell dinner party at Yong Foo Elite last night for his daughter, Rachel Chu, and her husband, Professor Nicholas Young",
+      "original_chapter": "NOBLESTMAGAZINE.COM.CN",
+      "part_id": "PART-3",
+      "part_title": "Rich People Problems",
+      "temporal_context": {
+        "era": "21世纪10年代",
+        "historical_name": "英国领事馆旧址",
+        "date_start": "2015",
+        "date_end": "2015"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "Bao Gaoliang",
+          "Bao Shaoyen",
+          "Rachel Chu",
+          "Nicholas Young"
+        ],
+        "stay_duration": "An evening"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "reconciliation",
+          "high society",
+          "family legacy"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为高级私人会所及餐厅",
+        "current_name": "雍福会"
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": "2015",
+        "dateEnd": "2015"
+      },
+      "story_mode": {
+        "chapter_title": "第8章·上海滩的最后华章",
+        "hook": "在曾经的领事馆深处，一场跨越阶级的家族裂痕终于在杯盏间弥合。",
+        "narrative_text": "上海的夜晚在雍福会这座充满老克勒风情的花园洋房中沉淀下来。Bao Gaoliang——这位曾对Rachel的出身深感疑虑的生父，如今与妻子Bao Shaoyen一起，以最隆重的姿态为Rachel和Nicholas举行告别晚宴。在精致的本帮菜肴与古董家具的环绕下，Bao Gaoliang发表了感人至深的演讲，正式向上海社交界介绍了他的女儿。这不仅是一场晚宴，更是一场迟到的认亲仪式。Nicholas看着身边的Rachel，从新加坡的豪门恩怨到上海的血脉寻根，他们终于在这一刻赢得了所有人的尊重。",
+        "transition_to": "随着晚宴的落幕，这段横跨全球的疯狂亚洲富豪传奇，在繁华尽处划下了圆满的句点。",
+        "mood": "joyful",
+        "key_dialogue": "“To my daughter, Rachel, and my new son-in-law, Nicholas.”"
+      }
+    }
+  ],
+  "suspects": []
+}

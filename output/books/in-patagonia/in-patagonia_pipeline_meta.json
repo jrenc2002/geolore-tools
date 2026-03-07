@@ -1,0 +1,46 @@
+{
+  "work": {
+    "title": "In Patagonia",
+    "author": "Bruce Chatwin",
+    "type": "travelogue",
+    "locale": "zh-Hans"
+  },
+  "pipeline": {
+    "generated_by": "geolore-auto-pipeline-v1",
+    "generated_at": "2026-03-02T17:16:12.240290+00:00",
+    "data_source_mode": "full_text",
+    "data_source_warning": null,
+    "model_select": "gemini-3.1-pro-preview-search",
+    "model_extract": "gemini-3-flash-preview-search",
+    "total_places": 1,
+    "major_places": 1,
+    "minor_places": 0,
+    "passing_places": 0,
+    "fictional_suspects": 0,
+    "address_completeness": 1.0,
+    "timeline_enabled": true,
+    "story_mode_enabled": true,
+    "story_mode_stats": {
+      "total_chapters": 1,
+      "avg_narrative_length": 251,
+      "mood_arc": [
+        "mysterious"
+      ],
+      "transition_coverage": 1.0
+    },
+    "suggested_pack_id": "in-patagonia",
+    "suggested_map_title": "《In Patagonia》巡礼地图"
+  },
+  "review": {
+    "fixed_address": 1,
+    "removed_fictional": 0,
+    "removed_not_in_original": 0,
+    "merged_duplicates": 0,
+    "fixed_synopsis": 1,
+    "removed_names": []
+  },
+  "next_steps": [
+    "python scripts/geocode_places.py --input /Users/jrenc/Downloads/Jrenc_Current_Projects/Geolore/geolore_tools/output/books/in-patagonia/in-patagonia_places_structured.json --output /Users/jrenc/Downloads/Jrenc_Current_Projects/Geolore/geolore_tools/output/books/in-patagonia/in-patagonia_geocoded.json --amap-key $AMAP_KEY --enable-validation",
+    "python scripts/build_pack.py --input /Users/jrenc/Downloads/Jrenc_Current_Projects/Geolore/geolore_tools/output/books/in-patagonia/in-patagonia_geocoded.json --output /Users/jrenc/Downloads/Jrenc_Current_Projects/Geolore/geolore_tools/output/books/in-patagonia/in-patagonia_pack.json --pack-id in-patagonia --title \"《In Patagonia》巡礼地图\""
+  ]
+}

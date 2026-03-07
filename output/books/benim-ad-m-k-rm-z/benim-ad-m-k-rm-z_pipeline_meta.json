@@ -1,0 +1,56 @@
+{
+  "work": {
+    "title": "我的名字叫红 (Benim Adım Kırmızı)",
+    "author": "Orhan Pamuk",
+    "type": "novel",
+    "locale": "zh-Hans"
+  },
+  "pipeline": {
+    "generated_by": "geolore-auto-pipeline-v1",
+    "generated_at": "2026-03-05T16:13:58.843566+00:00",
+    "data_source_mode": "full_text",
+    "data_source_warning": null,
+    "model_select": "gemini-3.1-pro-preview-search",
+    "model_extract": "gemini-3-flash-preview-search",
+    "total_places": 9,
+    "major_places": 1,
+    "minor_places": 6,
+    "passing_places": 2,
+    "fictional_suspects": 0,
+    "address_completeness": 1.0,
+    "timeline_enabled": false,
+    "story_mode_enabled": true,
+    "story_mode_stats": {
+      "total_chapters": 9,
+      "avg_narrative_length": 180,
+      "mood_arc": [
+        "tense",
+        "desolate",
+        "mysterious",
+        "dramatic",
+        "tense",
+        "tense",
+        "mysterious",
+        "nostalgic",
+        "bittersweet"
+      ],
+      "transition_coverage": 1.12
+    },
+    "suggested_pack_id": "benim-ad-m-k-rm-z",
+    "suggested_map_title": "《我的名字叫红 (Benim Adım Kırmızı)》巡礼地图"
+  },
+  "review": {
+    "fixed_address": 1,
+    "removed_fictional": 0,
+    "removed_not_in_original": 0,
+    "merged_duplicates": 0,
+    "fixed_synopsis": 2,
+    "removed_names": [
+      "Hamarari Dağı"
+    ]
+  },
+  "next_steps": [
+    "python scripts/geocode_places.py --input /Users/jrenc/Downloads/JrencsProject/geolore-tools/output/books/benim-ad-m-k-rm-z/benim-ad-m-k-rm-z_places_structured.json --output /Users/jrenc/Downloads/JrencsProject/geolore-tools/output/books/benim-ad-m-k-rm-z/benim-ad-m-k-rm-z_geocoded.json --amap-key $AMAP_KEY --enable-validation",
+    "python scripts/build_pack.py --input /Users/jrenc/Downloads/JrencsProject/geolore-tools/output/books/benim-ad-m-k-rm-z/benim-ad-m-k-rm-z_geocoded.json --output /Users/jrenc/Downloads/JrencsProject/geolore-tools/output/books/benim-ad-m-k-rm-z/benim-ad-m-k-rm-z_pack.json --pack-id benim-ad-m-k-rm-z --title \"《我的名字叫红 (Benim Adım Kırmızı)》巡礼地图\""
+  ]
+}

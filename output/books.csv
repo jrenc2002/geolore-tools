@@ -1,0 +1,6 @@
+﻿run_id,title,title_en,author,language,book_type,grade,geo_region,geo_scope,era_setting,place_count_est,density_index,reachability,reason,status,text_source,text_fetched,text_is_full,text_word_count,text_url,places_extracted,places_final,output_file,error_message,started_at,finished_at,elapsed_sec,created_at
+run_1772451961_69202,城南旧事,,林海音,,novel,,,,,0,0.0,0,,processing,,0,0,0,,0,0,,,2026-03-02 11:46:01,,0.0,2026-03-02 11:46:01
+run_1772452089_71938,城南旧事,,林海音,,novel,,,,,0,0.0,0,,completed,,0,0,0,,0,56,output/books/work-1772452089/work-1772452089_places_structured.json,,2026-03-02 11:48:09,2026-03-02 12:00:29,740.3550028800964,2026-03-02 11:48:09
+run_1772452108_73236,城南旧事,,林海音,,novel,,,,,0,0.0,0,,completed,,0,0,0,,0,68,output/books/work-1772452108/work-1772452108_places_structured.json,,2026-03-02 11:48:28,2026-03-02 12:03:03,874.2503538131714,2026-03-02 11:48:28
+run_1772454041_14075,城南旧事,,林海音,,novel,,,,,0,0.0,0,,processing,,0,0,0,,0,0,,,2026-03-02 12:20:41,,0.0,2026-03-02 12:20:41
+run_1772454449_29055,城南旧事,,林海音,,novel,,,,,0,0.0,0,,completed,,0,0,0,,0,26,output/books/work-1772454449/work-1772454449_places_structured.json,,2026-03-02 12:27:29,2026-03-02 12:37:32,603.4473721981049,2026-03-02 12:27:29

@@ -1,0 +1,2 @@
+﻿id,run_id,book_title,step_name,started_at,finished_at,status,model_used,input_size,output_size,item_count,notes,error
+1,run_1772388564_99155,测试书名,step2_extract,2026-03-01 18:09:24,2026-03-01 18:09:24,completed,gemini-1.5-pro,50000,0,12,,

@@ -1,0 +1,174 @@
+{
+  "places": [
+    {
+      "title": "哥伦比亚大学",
+      "address": "纽约州-纽约市-曼哈顿区-百老汇大道116街",
+      "story": "萨尔与卡洛·马克思等知识分子朋友的聚集地，是故事早期思想碰撞和计划出发的摇篮。",
+      "event_level": "major",
+      "characters": [
+        "萨尔·帕拉迪斯",
+        "卡洛·马克思"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "时代广场",
+      "address": "纽约州-纽约市-曼哈顿区-百老汇与第七大道交汇处",
+      "story": "萨尔和迪恩经常在此闲逛，寻找都市的刺激与狂欢，代表了纽约喧嚣的一面。",
+      "event_level": "minor",
+      "characters": [
+        "萨尔·帕拉迪斯",
+        "迪恩·莫里亚蒂"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "西区酒吧",
+      "address": "纽约州-纽约市-曼哈顿区-百老汇大道2911号",
+      "story": "哥大附近的著名聚会点，萨尔及其圈内好友经常在此饮酒讨论文学与生活。",
+      "event_level": "minor",
+      "characters": [
+        "萨尔·帕拉迪斯",
+        "卡洛·马克思"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "宾夕法尼亚车站",
+      "address": "纽约州-纽约市-曼哈顿区-第八大道与31街",
+      "story": "萨尔多次横跨美国旅程的出发或到达枢纽，见证了多次离别与重逢。",
+      "event_level": "minor",
+      "characters": [
+        "萨尔·帕拉迪斯"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "卢普区",
+      "address": "伊利诺伊州-芝加哥市-库克县-卢普商业区",
+      "story": "萨尔在此中转时沉浸在波普爵士乐的节奏中，感受芝加哥作为音乐圣地的魅力。",
+      "event_level": "minor",
+      "characters": [
+        "萨尔·帕拉迪斯"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "密西西比河畔 (达文波特段)",
+      "address": "爱荷华州-达文波特市-斯科特县-密西西比河沿岸",
+      "story": "萨尔在此看日落并感悟到西部的召唤，留下了“我看见了我的星星”这一著名感悟。",
+      "event_level": "minor",
+      "characters": [
+        "萨尔·帕拉迪斯"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "拉里默街",
+      "address": "科罗拉多州-丹佛市-丹佛县-拉里默街",
+      "story": "充满了流浪汉和旧西部气息，萨尔曾在此处徘徊寻找迪恩失踪的父亲。",
+      "event_level": "major",
+      "characters": [
+        "萨尔·帕拉迪斯",
+        "迪恩·莫里亚蒂"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "科尔法克斯大道",
+      "address": "科罗拉多州-丹佛市-丹佛县-科尔法克斯大道",
+      "story": "丹佛著名的长街，萨尔在丹佛停留期间多次在此游荡，观察西部的众生相。",
+      "event_level": "minor",
+      "characters": [
+        "萨尔·帕拉迪斯"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "中心城歌剧院",
+      "address": "科罗拉多州-中心城-吉尔平县-尤里卡街124号",
+      "story": "萨尔与朋友们前往这个矿业小镇参加狂欢，虽然名义上是看歌剧，实则是酒精与派对。",
+      "event_level": "minor",
+      "characters": [
+        "萨尔·帕拉迪斯",
+        "迪恩·莫里亚蒂"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "市场街",
+      "address": "加利福尼亚州-旧金山市-旧金山县-市场街",
+      "story": "旧金山的主干道，萨尔在此漫无目的地游荡，体验西海岸的自由与颓废。",
+      "event_level": "minor",
+      "characters": [
+        "萨尔·帕拉迪斯"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "马林城",
+      "address": "加利福尼亚州-马林县-马林城",
+      "story": "书中称为米尔城，萨尔曾在此担任保安并居住在简陋棚屋中，体验底层生活。",
+      "event_level": "major",
+      "characters": [
+        "萨尔·帕拉迪斯"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "索萨利托",
+      "address": "加利福尼亚州-马林县-索萨利托小镇",
+      "story": "跨过金门大桥后的波西米亚风格小镇，萨尔在此感受到了不同于东岸的文化氛围。",
+      "event_level": "passing",
+      "characters": [
+        "萨尔·帕拉迪斯"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "日落大道",
+      "address": "加利福尼亚州-洛杉矶市-洛杉矶县-日落大道",
+      "story": "萨尔与迪恩开车经过此地，看着繁华景象却感到好莱坞式的虚伪与压抑。",
+      "event_level": "passing",
+      "characters": [
+        "萨尔·帕拉迪斯",
+        "迪恩·莫里亚蒂"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "阿尔及尔区",
+      "address": "路易斯安那州-新奥尔良市-奥尔良堂区-阿尔及尔",
+      "story": "位于密西西比河对岸，萨尔在此拜访老布尔·李，体验充满了毒品与哲学讨论的生活。",
+      "event_level": "major",
+      "characters": [
+        "萨尔·帕拉迪斯",
+        "迪恩·莫里亚蒂",
+        "老布尔·李"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "运河街",
+      "address": "路易斯安那州-新奥尔良市-奥尔良堂区-运河街",
+      "story": "新奥尔良的繁华主干道，萨尔在前往老布尔·李住所途中经过此地。",
+      "event_level": "passing",
+      "characters": [
+        "萨尔·帕拉迪斯"
+      ],
+      "fictional_suspect": false
+    },
+    {
+      "title": "奥里萨巴街",
+      "address": "墨西哥-墨西哥城-库奥特莫克区-奥里萨巴街",
+      "story": "萨尔在墨西哥之旅的终点因病倒下，在此居住期间感受到了异域文化的冲击。",
+      "event_level": "major",
+      "characters": [
+        "萨尔·帕拉迪斯",
+        "迪恩·莫里亚蒂"
+      ],
+      "fictional_suspect": false
+    }
+  ],
+  "suspects": []
+}

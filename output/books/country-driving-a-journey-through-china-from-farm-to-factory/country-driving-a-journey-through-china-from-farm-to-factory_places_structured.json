@@ -1,0 +1,5888 @@
+{
+  "book_info": {
+    "title": "Country Driving: A Journey Through China from Farm to Factory",
+    "author": "Peter Hessler (何伟)",
+    "type": "travelogue",
+    "summary": "2000年代初，何伟（Peter Hessler）在北京考取了中国驾照，随后驾驶一辆租来的切诺基，沿着长城遗迹从东向西横跨中国北方。在这场跨越数千公里的自驾之旅中，他不仅记录了长城边陲村落的凋敝与坚韧，更深入北京郊区的怀柔三岔村，见证了一个农民家庭在旅游浪潮下的商业觉醒。随后，他南下浙江，在温州与丽水的工厂车间里，捕捉中国制造席卷全球背后的个体野心与阵痛。本书以敏锐的观察和幽默的笔触，勾勒出大转型时代中国乡村向工业化迈进的生动图景，是一部关于速度、变革与普通人命运的公路史诗。"
+  },
+  "characters": [
+    {
+      "id": "peter_hessler",
+      "name": "何伟",
+      "aliases": [
+        "Peter Hessler",
+        "我"
+      ],
+      "role": "本书作者，和平队志愿者，在中国驾车旅行的观察者",
+      "first_appearance": "北京市公安交通管理局",
+      "importance": "protagonist"
+    },
+    {
+      "id": "wei_ziqi",
+      "name": "魏子淇",
+      "aliases": [
+        "老魏"
+      ],
+      "role": "怀柔三岔村农民，敏锐的创业者，何伟在村里的房东",
+      "first_appearance": "北戴河",
+      "importance": "major"
+    },
+    {
+      "id": "cao_chunmei",
+      "name": "曹春梅",
+      "aliases": [
+        "魏子淇妻子"
+      ],
+      "role": "魏子淇的妻子，勤劳的农村妇女，虔诚的信徒",
+      "first_appearance": "三岔村",
+      "importance": "major"
+    },
+    {
+      "id": "wei_jia",
+      "name": "魏嘉",
+      "aliases": [
+        "魏子淇儿子"
+      ],
+      "role": "魏子淇的儿子，在城乡边缘成长的山里孩子",
+      "first_appearance": "三岔村",
+      "importance": "major"
+    },
+    {
+      "id": "gao_xiaomeng",
+      "name": "高晓萌",
+      "aliases": [
+        "高老板"
+      ],
+      "role": "丽水经济开发区的工厂主，代表了南方制造业的创业精神",
+      "first_appearance": "丽水经济开发区",
+      "importance": "major"
+    },
+    {
+      "id": "wang_aiguo",
+      "name": "王爱国",
+      "aliases": [
+        "王老板"
+      ],
+      "role": "高晓萌的合伙人，在丽水经营胸罩调节扣工厂",
+      "first_appearance": "丽水经济开发区",
+      "importance": "major"
+    },
+    {
+      "id": "chen_zhen",
+      "name": "陈振",
+      "aliases": [
+        "陈支书"
+      ],
+      "role": "宁鲁堡退休支书，致力于编写村志的历史守护者",
+      "first_appearance": "宁鲁堡",
+      "importance": "supporting"
+    },
+    {
+      "id": "mike_gautier",
+      "name": "麦克·高提格",
+      "aliases": [
+        "Mike"
+      ],
+      "role": "何伟的好友，曾一同在西北荒原驾车探险",
+      "first_appearance": "110国道",
+      "importance": "supporting"
+    }
+  ],
+  "parts": [
+    {
+      "part_id": "PART-1",
+      "title": "城墙 (The Wall)",
+      "synopsis": "何伟沿着明长城遗迹自驾横跨中国北方，记录边疆村落的变迁、官僚体制的荒诞与历史遗迹的消亡。",
+      "place_count": 32,
+      "mood": "adventurous",
+      "key_characters": [
+        "何伟",
+        "陈振",
+        "麦克·高提格"
+      ]
+    },
+    {
+      "part_id": "PART-2",
+      "title": "村庄 (The Village)",
+      "synopsis": "深入北京郊区三岔村，通过魏子淇一家的生活，展现中国农村在城市化与旅游业冲击下的转型阵痛。",
+      "place_count": 24,
+      "mood": "observational",
+      "key_characters": [
+        "何伟",
+        "魏子淇",
+        "曹春梅",
+        "魏嘉"
+      ]
+    },
+    {
+      "part_id": "PART-3",
+      "title": "工厂 (The Factory)",
+      "synopsis": "南下浙江温州与丽水，观察工业大动脉上的专业村与新兴工厂，捕捉中国制造背后的个体野心。",
+      "place_count": 22,
+      "mood": "dynamic",
+      "key_characters": [
+        "何伟",
+        "高晓萌",
+        "王爱国",
+        "金阳"
+      ]
+    },
+    {
+      "part_id": "PART-4",
+      "title": "涪陵往事",
+      "synopsis": "追溯作者在涪陵作为和平队志愿者的起点，见证三峡工程背景下山城的剧变与学生们的命运。",
+      "place_count": 40,
+      "mood": "nostalgic",
+      "key_characters": [
+        "何伟",
+        "亚当·梅耶",
+        "孔明",
+        "黄小强"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "title": "北京市公安交通管理局",
+      "address": "中国-北京-东城区-南河沿大街1号",
+      "story": "何伟向北京市公安交通管理局提出申请，准备在中国申领驾照。",
+      "synopsis": "在中国居住五年后，何伟决定申领中国驾照，在交管局开启了这段充满官僚程序与文化观察的自驾前奏。",
+      "source_evidence": "到2001年夏季为止，即我向北京市公安交通管理局提出申请时，我在中国已经居住了五年。",
+      "original_chapter": "Chapter 1: The Wall",
+      "part_id": "PART-1",
+      "part_title": "The Wall",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "数日（多次往返）"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "bureaucracy",
+          "integration",
+          "modernization"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为北京市公安局公安交通管理局办公地",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·一本驾照的诞生",
+        "hook": "在中国开车，第一步不是握住方向盘，而是面对繁琐的官僚程序。",
+        "narrative_text": "2001年的夏天，已经在北京生活了五年的美国记者何伟，决定做一件当时对外国人来说颇具挑战的事：申领中国驾照。在北京市公安交通管理局的办公室里，他不仅要应对复杂的表格，还要试图理解这个国家独特的交通逻辑。这本小小的证件不仅是他合法上路的凭证，更是他深入观察中国社会巨变的入场券。随着汽车工业的萌芽，中国正从自行车的王国向汽车大国转型，而何伟正站在这个时代的转折点上。",
+        "transition_to": "拿到驾照后，他租下一辆切诺基，驶向了长城的起点——山海关。",
+        "mood": "ambitious",
+        "key_dialogue": "“到2001年夏季为止，即我向北京市公安交通管理局提出申请时，我在中国已经居住了五年。”"
+      }
+    },
+    {
+      "title": "山海关",
+      "address": "中国-河北-秦皇岛-山海关区-山海关景区",
+      "story": "何伟租车前往长城的起点山海关，并以此为起点开始向西穿越河北全境的自驾之旅。",
+      "synopsis": "何伟驾驶租来的切诺基抵达渤海之滨的山海关，正式开启沿着长城遗迹向西横跨中国的漫长旅程。",
+      "source_evidence": "在北京，我租了一辆轿车，向着渤海边上的山海关——长城的起点——一路驶去。",
+      "original_chapter": "Chapter 1: The Wall",
+      "part_id": "PART-1",
+      "part_title": "The Wall",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": "榆关",
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "1天"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "exploration",
+          "history",
+          "Great Wall"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "著名旅游景区，保存完好",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·天下第一关的起点",
+        "hook": "长城在渤海中探出头来，何伟的万里征途也在此刻正式落笔。",
+        "narrative_text": "何伟驾驶着一辆租来的切诺基，来到了山海关——长城与大海交汇的地方。这里曾是抵御外敌的雄关，如今则是他漫长自驾之旅的起点。他计划沿着长城的遗迹一路向西，穿越那些被现代文明遗忘或正在被重塑的村落。站在关口，他看到的不仅是古老的砖石，还有那些在长城阴影下生活的人们。这不仅是一次地理上的穿越，更是一次对中国历史与现实边界的探寻。",
+        "transition_to": "离开雄伟的关隘，汽车驶入河北崎岖的山路，路边的村庄名字开始变得粗犷。",
+        "mood": "desolate",
+        "key_dialogue": "“在北京，我租了一辆轿车，向着渤海边上的山海关——长城的起点——一路驶去。”"
+      }
+    },
+    {
+      "title": "营房村",
+      "address": "中国-河北-承德-滦平县-营房村",
+      "story": "何伟在营房村停下观察长城，偶遇农民王国安，在其后院见到了被村民拆解并堆放的旧城墙砖。",
+      "synopsis": "何伟在营房村停下观察长城，偶遇农民王国安，在其后院见到了被村民拆解并堆放的旧城墙砖。",
+      "source_evidence": "在营房村，我停下车来察看其中一段光秃秃的城墙，一个叫王国安（音译）的农民在路上遇到了我。",
+      "original_chapter": "Chapter 1: The Wall",
+      "part_id": "PART-1",
+      "part_title": "The Wall",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟",
+          "王国安"
+        ],
+        "stay_duration": "数小时"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "Great Wall",
+          "rural life",
+          "decay"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "普通的行政村，长城遗迹尚存",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·长城的余温",
+        "hook": "那些消失的城砖，究竟去了哪里？",
+        "narrative_text": "离开山海关后，何伟继续沿着长城的脉络西行。在营房村，长城不再是宏伟的纪念碑，而更像是大地的脊梁，被岁月剥蚀得光秃秃的。他在这里遇到了农民王国安，一个守着残垣断壁过活的普通人。在王国安家的后院，何伟惊讶地发现，那些曾经构筑起帝国防线的青砖，如今正静静地堆放在猪圈旁或垒成院墙。这种历史与现实的粗粝结合，让何伟意识到，长城在当地人眼中并非景观，而是触手可及的建筑材料。",
+        "transition_to": "告别了守着旧砖的农民，何伟的切诺基继续在山西的尘土中穿行，寻找下一个声音。",
+        "mood": "desolate",
+        "key_dialogue": "“这些都是从长城上拆下来的，”他指着那堆砖说。"
+      }
+    },
+    {
+      "title": "新荣",
+      "address": "中国-山西-大同-新荣区-新荣镇",
+      "story": "何伟在新荣镇偶遇魏福夫妇的晋剧戏班，他们在葬礼上为逝者演出。",
+      "synopsis": "何伟在新荣镇偶遇魏福夫妇的晋剧戏班，他们在葬礼上为逝者演出，展现了地方民俗的生命力。",
+      "source_evidence": "在新荣，我碰到了一个名叫魏福（音译）的人和他的老婆，他们的专长就是在葬礼上演出传统晋剧。",
+      "original_chapter": "Chapter 1: The Wall",
+      "part_id": "PART-1",
+      "part_title": "The Wall",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟",
+          "魏福"
+        ],
+        "stay_duration": "半天"
+      },
+      "cultural_tags": {
+        "category": "folklore",
+        "themes": [
+          "opera",
+          "funeral",
+          "tradition"
+        ],
+        "significance": 0.55
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "大同市下辖区，城镇面貌已现代化",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·葬礼上的晋剧",
+        "hook": "在死亡的阴影下，戏曲竟唱出了最响亮的生活。",
+        "narrative_text": "进入山西境内，空气中弥漫着煤灰与古老的气息。在新荣镇的一家商店门口，何伟被一阵高亢的胡琴声吸引。那是魏福和他的妻子，这对经营着流动戏班的夫妇，正穿着艳丽的戏服在葬礼上卖力演出。魏福告诉何伟，晋剧是这里的灵魂，无论是红事还是白事，戏不能停。在喧闹的锣鼓声中，何伟看到了中国北方乡村那种坚韧而又略显荒诞的生命力，传统艺术在现代化的边缘，以一种最接地气的方式存续着。",
+        "transition_to": "这些旅途中的偶遇让何伟意识到，想要更自由地探索这片土地，他需要更稳定的交通工具。",
+        "mood": "nostalgic",
+        "key_dialogue": "“我们去哪儿，戏就跟到哪儿。”"
+      }
+    },
+    {
+      "title": "首都汽车公司",
+      "address": "中国-北京-朝阳区-左家庄街道",
+      "story": "何伟在此租用切诺基吉普车，并与王先生就租车规则、保险及中国复杂的交通现状进行多次交流。",
+      "synopsis": "何伟在此租用切诺基吉普车，并与王先生就租车规则、保险及中国复杂的交通现状进行多次交流。",
+      "source_evidence": "为了自驾出游，我从北京一家叫作“首都汽车”的公司租用了一辆中国产的切诺基吉普车。",
+      "original_chapter": "Chapter 1: The Wall",
+      "part_id": "PART-1",
+      "part_title": "The Wall",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟",
+          "王先生"
+        ],
+        "stay_duration": "多次往返"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "driving",
+          "bureaucracy",
+          "modernization"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "首汽集团至今仍是北京大型租车公司",
+        "current_name": "首汽租车"
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·切诺基的契约",
+        "hook": "一张租车合同，开启了横跨半个中国的冒险。",
+        "narrative_text": "为了能深入那些公共交通无法抵达的荒野，何伟回到了北京，来到了首都汽车公司。在这里，他结识了王先生——一位对租车制度和交通事故处理驾轻就熟的职员。王先生向他展示了那个时代特有的租车逻辑：押金、保险、以及对各种潜在违章的默契。何伟租下了一辆国产切诺基，这辆车将成为他未来几年观察中国的移动瞭望塔。通过与王先生的交谈，何伟窥见了中国刚刚起步的汽车文化中，那种规则与灵活并存的微妙平衡。",
+        "transition_to": "然而，拥有了车并不意味着拥有了坦途，北京的交通很快就给了他一个下马威。",
+        "mood": "ambitious",
+        "key_dialogue": "“在中国开车，你得学会适应这里的‘规矩’。”"
+      }
+    },
+    {
+      "title": "雍和宫",
+      "address": "中国-北京-东城区-雍和宫大街12号",
+      "story": "何伟驾驶租来的切诺基在雍和宫附近遭遇追尾事故。",
+      "synopsis": "何伟驾驶租来的切诺基在雍和宫附近遭遇追尾事故，初次领教了北京街头的交通事故处理流程。",
+      "source_evidence": "有一次，在雍和宫附近，一个驾驶员开着车从后面撞上了我租来的车。",
+      "original_chapter": "Chapter 1: The Wall",
+      "part_id": "PART-1",
+      "part_title": "The Wall",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "1小时"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "accident",
+          "urban life",
+          "chaos"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "著名藏传佛教寺庙，周边交通依旧繁忙",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第6章·红墙外的刮蹭",
+        "hook": "在神圣的寺庙旁，现实的碰撞猝不及防。",
+        "narrative_text": "雍和宫的红墙金顶在阳光下庄严肃穆，但墙外的二环路却是另一番景象。何伟开着那辆崭新的租来车，还没来得及感受驾驶的乐趣，就在雍和宫附近被后车追尾了。这次小小的事故成了他观察中国社会关系的微型实验室：司机们的争吵、路人的围观、以及警察到场后的调解。在香火缭绕的寺庙阴影下，这场关于赔偿与责任的世俗纠纷，显得格外具有讽刺意味，也为何伟的“中国式驾驶”课程上了第一课。",
+        "transition_to": "处理完北京的琐事，何伟再次向西，进入了长城防线中那些更深沉、更古老的堡垒。",
+        "mood": "tense",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "宁鲁堡",
+      "address": "中国-山西-大同-左云县-宁鲁堡村",
+      "story": "何伟在宁鲁堡结识了退休支书陈振，陈振自费编写村志并带他考察明代卫戍遗址。",
+      "synopsis": "何伟在宁鲁堡结识了退休支书陈振，陈振自费编写村志并带他考察明代卫戍遗址，展现了对历史的执着。",
+      "source_evidence": "这个地方叫作宁鲁堡，这一带很多城镇的名字均含有“堡垒”的“堡”这个字，因为这些地方曾经是明代的卫戍要地。",
+      "original_chapter": "Chapter 1: The Wall",
+      "part_id": "PART-1",
+      "part_title": "The Wall",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": "宁鲁堡",
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟",
+          "陈振"
+        ],
+        "stay_duration": "一天"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "history",
+          "preservation",
+          "local scholar"
+        ],
+        "significance": 0.85
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "古堡遗址尚存，是长城沿线重要的古村落",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第7章·古堡里的守望者",
+        "hook": "一个退休支书，如何用一己之力留住整座村庄的记忆？",
+        "narrative_text": "宁鲁堡，这个名字本身就带着明代边疆的硝烟味。在这里，何伟遇到了陈振——一位充满激情的退休村支书。陈振不像普通的农民，他痴迷于家乡的历史，甚至自费研究并编写了一本详尽的《宁鲁堡年鉴》。他带着何伟攀上那些残破的夯土城墙，指点着曾经的箭楼与营房，讲述着祖辈如何在这片土地上屯垦戍边。在陈振身上，何伟看到了一种令人动容的使命感：当大环境都在向前狂奔时，总有人在试图拽住历史的衣角，不让它彻底消失在尘埃里。",
+        "transition_to": "离开宁鲁堡，前方的路名变得愈发肃杀，他即将抵达那个充满历史恩怨的关口——破胡。",
+        "mood": "peaceful",
+        "key_dialogue": "“如果不记下来，这些东西就真的没了。”"
+      }
+    },
+    {
+      "title": "破胡",
+      "address": "中国-山西-大同-左云县-破胡村",
+      "story": "何伟驾车经过名字带有“粉碎胡人”历史色彩的破胡村，途中搭载了回乡探亲的高林凤。",
+      "synopsis": "何伟驾车经过名字带有“粉碎胡人”历史色彩的破胡村，途中搭载了回乡探亲的高林凤。",
+      "source_evidence": "旁边有一个镇叫作“破胡”：粉碎胡人。……“你去哪儿？”她问道。“去破胡，然后去杀胡，”我答道。",
+      "original_chapter": "Chapter 1: The Wall",
+      "part_id": "PART-1",
+      "part_title": "The Wall",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟",
+          "高林凤"
+        ],
+        "stay_duration": "短暂经停"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "history",
+          "encounter",
+          "etymology"
+        ],
+        "significance": 0.45
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为左云县破胡村",
+        "current_name": "破胡村"
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第8章·充满敌意的地名",
+        "hook": "在长城脚下，连村庄的名字都透着一股延续千年的杀气。",
+        "narrative_text": "离开宁鲁堡后，何伟继续沿着长城故址西行。这里的地名开始变得肃杀——“破胡”，意为粉碎胡人。在路边，他遇到了高林凤，一位正要回乡探亲的农家妇女。高林凤对这个美国人独自驾车感到好奇，而何伟则在交谈中感受着这片土地上人们对地理边界的朴素认知。尽管名字听起来剑拔弩张，但眼前的破胡村只是一个平静、甚至有些荒凉的北方村落，历史的硝烟早已散去，只留下这些生硬的汉字记录着古代中原与游牧民族的恩怨。",
+        "transition_to": "告别了高林凤，何伟继续向西，下一个目标是名字更加直接的关口——杀胡。",
+        "mood": "mysterious",
+        "key_dialogue": "“你去哪儿？”她问道。“去破胡，然后去杀胡，”我答道。"
+      }
+    },
+    {
+      "title": "杀虎口",
+      "address": "中国-山西-朔州-右玉县-杀虎口村",
+      "story": "何伟到访曾经的贸易中心杀虎口，发现这里已从繁华关隘退化为寂静的边陲小村。",
+      "synopsis": "何伟到访曾经的贸易中心杀虎口，发现这里已从繁华关隘退化为寂静的边陲小村。",
+      "source_evidence": "杀胡就是这样的地点，在明代它一度成为有名的贸易中心，城墙之外的人们争相前来与中原汉人进行物品贸易。",
+      "original_chapter": "Chapter 1: The Wall",
+      "part_id": "PART-1",
+      "part_title": "The Wall",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": "杀虎口",
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "半天"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "decay",
+          "trade",
+          "frontier"
+        ],
+        "significance": 0.55
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为杀虎口风景名胜区",
+        "current_name": "杀虎口"
+      },
+      "timeline": {
+        "orderIndex": 9,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第9章·寂静的贸易中心",
+        "hook": "曾经万商云集的雄关，如今只剩下廉价餐馆和汽修场的油腻。",
+        "narrative_text": "杀胡，也就是历史上著名的杀虎口。何伟抵达这里时，发现这个在明代曾让关外人趋之若鹜的贸易中心，早已失去了往昔的荣光。曾经的雄关如今被现代的国道穿过，路边散布着几家专门为长途货车司机服务的廉价餐馆和满地油污的汽修场。城墙的残迹在风沙中沉默，这里不再是文明碰撞的火花点，而是一个被时间遗忘的、充满尘土的边陲节点。何伟在这里感受到了长城作为一种功能性建筑的彻底终结。",
+        "transition_to": "离开这片荒凉的遗迹，何伟驱车进入了右玉县城，试图寻找一些关于现代改变的线索。",
+        "mood": "desolate",
+        "key_dialogue": "杀胡就是这样的地点，在明代它一度成为有名的贸易中心。"
+      }
+    },
+    {
+      "title": "右玉县",
+      "address": "中国-山西-朔州-右玉县-右玉镇",
+      "story": "何伟在右玉县采访税务局主任，了解世界银行贷款的植树造林项目并体验官方酒桌文化。",
+      "synopsis": "何伟在右玉县采访税务局主任，了解世界银行贷款的植树造林项目并体验官方酒桌文化。",
+      "source_evidence": "我决定联系一下当地政府，看有没有人给我就这个项目介绍些情况，一个干部同意跟我见面，他是右玉县税务局的一个主任。",
+      "original_chapter": "Chapter 1: The Wall",
+      "part_id": "PART-1",
+      "part_title": "The Wall",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "两天"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "bureaucracy",
+          "ecology",
+          "socializing"
+        ],
+        "significance": 0.75
+      },
+      "visitability": {
+        "status": "exists",
+        "note": null,
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 10,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第10章·酒桌上的绿化蓝图",
+        "hook": "世界银行的贷款如何变成黄土高原上的树苗？答案可能在酒杯里。",
+        "narrative_text": "在右玉县，何伟试图深入了解当地规模宏大的植树造林工程。他联系到了县税务局的一位主任，并被带入了一个典型的中国式官方宴席。在酒精和客套话之间，主任向他描绘了利用世界银行贷款改造荒山的宏伟蓝图。何伟敏锐地观察到，这种自上而下的生态治理带有浓厚的指标色彩。尽管官方数据令人振奋，但这种宏大叙事与他在路边看到的荒凉景象之间，似乎存在着某种难以言说的断裂。",
+        "transition_to": "为了验证官方的说法，何伟决定深入乡间，在丁家村他看到了故事的另一面。",
+        "mood": "ambitious",
+        "key_dialogue": "“我们右玉县的绿化率是全省最高的，”那位主任自豪地说道。"
+      }
+    },
+    {
+      "title": "丁家村",
+      "address": "中国-山西-朔州-右玉县-丁家村",
+      "story": "何伟在丁家村目睹农民为换取方便面而挖树坑，揭示了基层绿化项目的真实困境。",
+      "synopsis": "何伟在丁家村目睹农民为换取方便面而挖树坑，揭示了基层绿化项目的真实困境。",
+      "source_evidence": "男男女女一共十个，正在黄土坡上挖掘半月形的坑窝。……他们居住在附近的丁家村，跟周围大多数村庄一样，居住的也是窑洞。",
+      "original_chapter": "Chapter 1: The Wall",
+      "part_id": "PART-1",
+      "part_title": "The Wall",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "数小时"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "poverty",
+          "corruption",
+          "reality"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "典型的晋北窑洞村落",
+        "current_name": "丁家村"
+      },
+      "timeline": {
+        "orderIndex": 11,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第11章·方便面换来的森林",
+        "hook": "在干旱的黄土坡上，农民们挖坑不是为了种树，而是为了填饱肚子。",
+        "narrative_text": "在丁家村附近的荒坡上，何伟看到了一幕荒诞而心酸的场景：一群农民正顶着烈日挖掘半月形的树坑。通过交谈，他得知这些农民每挖一个坑只能得到极少的报酬，有时甚至是几包方便面。他们向何伟抱怨地方干部的贪污，以及这些树苗在缺乏灌溉的情况下极低的成活率。对于他们来说，这并非什么生态壮举，而是一场为了生存而进行的机械劳动。这里的窑洞和贫瘠，与县城酒桌上的宏伟蓝图形成了鲜明对比。",
+        "transition_to": "带着对造林项目的复杂心情，何伟跨越省界进入内蒙古，在石人湾目睹了更原始的耕作方式。",
+        "mood": "bittersweet",
+        "key_dialogue": "“他们只管让我们挖坑，可从来没人来浇水。”"
+      }
+    },
+    {
+      "title": "石人湾",
+      "address": "中国-内蒙古-呼和浩特-赛罕区-石人湾村",
+      "story": "何伟在石人湾村目睹了农民用骆驼拉犁耕地的原始景象。",
+      "synopsis": "何伟在石人湾村目睹了农民用骆驼拉犁耕地的原始景象，感受边疆的贫瘠与坚韧。",
+      "source_evidence": "在一个叫作石人湾的村庄，我看见一个农民正在用骆驼拉犁。",
+      "original_chapter": "Chapter 1: The Wall",
+      "part_id": "PART-1",
+      "part_title": "The Wall",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "短暂路过"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "agriculture",
+          "frontier",
+          "survival"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为呼和浩特市郊村落",
+        "current_name": "石人湾村"
+      },
+      "timeline": {
+        "orderIndex": 12,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第12章·骆驼背上的生计",
+        "hook": "当现代汽车驶过，路边竟是如中世纪般原始的骆驼拉犁。",
+        "narrative_text": "进入内蒙古境内后，景观变得更加开阔而苍凉。在石人湾村，何伟被一个奇特的景象吸引：一名农民正牵着一头高大的骆驼在贫瘠的土地上拉犁。这种在现代社会几乎绝迹的耕作方式，在这里依然是生存的常态。骆驼沉重的脚步和农民沉默的身影，在夕阳下勾勒出一种近乎永恒的边疆画面。这一幕让何伟深刻意识到，尽管中国正在飞速发展，但在这些被遗忘的角落，时间似乎依然停滞在百年前。",
+        "transition_to": "何伟的切诺基继续向西，长城的残影在风沙中时隐时现，而他关于中国的记录才刚刚开始。",
+        "mood": "peaceful",
+        "key_dialogue": "在一个叫作石人湾的村庄，我看见一个农民正在用骆驼拉犁。"
+      }
+    },
+    {
+      "title": "清水河镇",
+      "address": "中国-内蒙古-呼和浩特-清水河县-清水河镇",
+      "synopsis": "何伟在前往清水河镇的路上搭载了一名在当地餐馆打工的年轻女子，展现了边境城镇的人口流动。",
+      "source_evidence": "这个女子在清水河镇上的一家餐馆做工。她看起来只有二十岁左右，穿着一件红色的夹克衫，手里拎着一个塑料袋。",
+      "original_chapter": "第一章：城墙",
+      "part_id": "PART-1",
+      "part_title": "城墙",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "短暂经停"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "migration",
+          "rural_life"
+        ],
+        "significance": 0.2
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "内蒙古清水河县县城所在地",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 16,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第16章·红夹克的打工妹",
+        "hook": "在荒凉的边境公路上，一个拎着塑料袋的女孩拦下了何伟的车。",
+        "narrative_text": "离开石人湾后，何伟继续向西行驶，进入了更加干旱的清水河地区。在路边，他遇到了一位穿着鲜艳红夹克的年轻女子，她正准备前往清水河镇的一家餐馆打工。在这个偏远的地带，这种短暂的搭便车成了何伟观察中国社会流动的微观窗口。女孩话不多，她的世界似乎就装在那个随身的塑料袋里，从一个村庄流向另一个城镇。清水河镇作为县城，是这些乡村年轻人寻找生计的第一站，也是长城遗迹旁平凡生活的一个缩影。",
+        "transition_to": "告别了打工妹，何伟继续在干涸的河床间穿行，却在寻找北堡的路上迷了路。",
+        "mood": "peaceful",
+        "key_dialogue": "“你去哪里？”她问我。“先去北堡，再去水泉，”我回答道。"
+      }
+    },
+    {
+      "title": "北堡",
+      "address": "中国-内蒙古-呼和浩特-清水河县-北堡乡",
+      "synopsis": "何伟在寻找北堡的干涸河床中迷路，遇到一位谨慎的农村妇女，折射出当地人对陌生人的警惕。",
+      "source_evidence": "“你去哪里？”她问我。“先去北堡，再去水泉，”我回答道。她摇了摇头。“我不去，”她说，“我走着去。”",
+      "original_chapter": "第一章：城墙",
+      "part_id": "PART-1",
+      "part_title": "城墙",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "短暂路过"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "isolation",
+          "mistrust"
+        ],
+        "significance": 0.25
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为北堡乡，保留有明长城遗迹",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 17,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第17章·河床上的拒绝",
+        "hook": "面对免费搭车的邀请，这位赶路的妇女为何选择了拒绝？",
+        "narrative_text": "何伟的切诺基在干涸的河床中颠簸，地图上的道路在现实中变得模糊不清。在这一片荒芜中，他遇到了一位步行的妇女。尽管何伟主动提出载她去北堡，但这位妇女在短暂的交谈后，眼神中透露出一种深植于土地的谨慎与疏离。她最终拒绝了上车，宁愿在烈日下徒步。这种拒绝不仅是因为性别或安全，更像是一种对外界闯入者的天然防备。北堡，这个长城脚下的村落，在地理和心理上都显得如此遥远。",
+        "transition_to": "离开这片荒凉的北方边疆，何伟的记忆跳跃到了东南沿海的丽水，那里有另一种节奏。",
+        "mood": "desolate",
+        "key_dialogue": "“我不去，”她说，“我走着去。”"
+      }
+    },
+    {
+      "title": "丽水",
+      "address": "中国-浙江-丽水-莲都区-丽水驾校",
+      "synopsis": "何伟在丽水观察驾校教学，记录了中国驾照考试热潮下的众生相与唐教练的严厉风格。",
+      "source_evidence": "我在中国东南部的一个小城市——丽水，对驾驶课程观察过一个月的时间。唐教练是个严厉的人，他总是对学员们大吼大叫。",
+      "original_chapter": "第一章：城墙",
+      "part_id": "PART-1",
+      "part_title": "城墙",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟",
+          "唐教练",
+          "王彦恒",
+          "梁艳芳"
+        ],
+        "stay_duration": "一个月"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "modernization",
+          "education",
+          "driving_culture"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "丽水市已大幅扩张，当年的驾校多已改建或搬迁",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 18,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第18章·丽水的驾驶课",
+        "hook": "在唐教练的咆哮声中，一群从未摸过方向盘的中国人开启了他们的汽车梦。",
+        "narrative_text": "为了理解中国人的驾驶逻辑，何伟在浙江丽水的一所驾校蹲守了一个月。这里的主角是唐教练——一位脾气火爆、教学方式粗犷的教官。学员们包括了像王彦恒、梁艳芳这样渴望通过驾照改变命运的普通人。在丽水这个正在崛起的南方城市，驾照不仅是技能，更是通往现代生活的入场券。何伟细致地记录了他们如何笨拙地练习倒库、如何应对唐教练的责骂，以及这种集体主义式的教学如何塑造了中国初代司机的驾驶习惯。",
+        "transition_to": "从南方驾校的喧嚣中抽身，何伟再次回到北方，来到了黄河岸边极度贫困的寺沟村。",
+        "mood": "dramatic",
+        "key_dialogue": "“看前面！看前面！”唐教练吼道，“你是在开车，不是在捡钱！”"
+      }
+    },
+    {
+      "title": "寺沟村",
+      "address": "中国-山西-忻州-河曲县-寺沟村",
+      "synopsis": "何伟到访黄河东岸的寺沟村，目睹了因严重干旱导致的颗粒无收和村民的生存困境。",
+      "source_evidence": "随后，我去了寺沟村，这个村子在黄河东岸一个很高的地方上，那里的人告诉我，因为干旱，今年颗粒无收。",
+      "original_chapter": "第一章：城墙",
+      "part_id": "PART-1",
+      "part_title": "城墙",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "一天"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "poverty",
+          "agriculture",
+          "environment"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "位于黄河大拐弯处的偏远村庄",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 19,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第19章·干涸的黄河岸",
+        "hook": "站在俯瞰黄河的高地上，村民们面对的却是滴水不降的绝望。",
+        "narrative_text": "何伟驱车来到山西河曲县的寺沟村，这里坐落在黄河东岸的高耸台地上。尽管脚下就是奔腾的黄河，但由于缺乏灌溉设施，村里的旱地完全依赖降雨。那一年，严重的干旱让庄稼颗粒无收。何伟走进村民低矮的房屋，听他们讲述靠天吃饭的无奈。这里的贫困与南方丽水的生机形成了鲜明对比，长城沿线的土地正经历着环境恶化与人口流失的双重打击，古老的农耕文明在现代气候挑战面前显得格外脆弱。",
+        "transition_to": "离开绝望的寺沟村，何伟跨过省界进入陕西，远方地平线上出现了雄伟的镇北台。",
+        "mood": "melancholic",
+        "key_dialogue": "“没收成，”一个老汉指着枯黄的田地对我说，“一点收成也没有。”"
+      }
+    },
+    {
+      "title": "镇北台",
+      "address": "中国-陕西-榆林-榆阳区-镇北台",
+      "synopsis": "何伟抵达榆林，观察了被称为“万里长城第一台”的镇北台，感叹长城在沙漠边缘的孤寂。",
+      "source_evidence": "榆林城北，长城正在一点一点被掩埋掉。一个巨大的明代城堡——镇北台——孤零零地守在地平线上，它是长城沿线最大的堡垒之一。",
+      "original_chapter": "第一章：城墙",
+      "part_id": "PART-1",
+      "part_title": "城墙",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "短暂停留"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "history",
+          "desertification",
+          "architecture"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "国家重点文物保护单位，现为著名旅游景点",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 20,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第20章·沙漠之门",
+        "hook": "这座巨大的明代堡垒，正眼睁睁看着长城被流沙一点点吞噬。",
+        "narrative_text": "当何伟抵达陕西榆林时，眼前的景象令他震撼。镇北台，这座号称“万里长城第一台”的庞大建筑，如同一位沉默的巨人守卫在毛乌素沙漠的边缘。在这里，长城不再是北京郊外那种修葺一新的灰色石墙，而是逐渐被黄沙掩埋的土垄。镇北台的宏伟与周围荒凉、被侵蚀的地貌形成了强烈的视觉冲击。它不仅是古代军事防御的终点，也是何伟这段长城之旅进入沙漠地带的重要地标。",
+        "transition_to": "穿过镇北台的阴影，何伟进入了榆林市区，准备在这座沙漠边缘的城市稍作休整。（待续）",
+        "mood": "mysterious",
+        "key_dialogue": "长城正在一点一点被掩埋掉。"
+      }
+    },
+    {
+      "title": "榆林",
+      "address": "中国-陕西-榆林-榆阳区-榆林宾馆",
+      "synopsis": "何伟抵达榆林准备休整，却在宾馆遭遇政府人员和警察的盘查，被强制要求立即离开。",
+      "source_evidence": "榆林是我几个星期以来看到的第一座城市。……我住进了当地最好的宾馆，洗了个澡，然后躺下来打算小睡一会。……‘你必须离开，’那个警察说道，‘现在就走。’",
+      "original_chapter": "第一章：城墙",
+      "part_id": "PART-1",
+      "part_title": "城墙",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "数小时"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "bureaucracy",
+          "confrontation",
+          "expulsion"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "榆林宾馆等老牌饭店仍存，但具体驱逐发生的宾馆可能已翻新",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 21,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第21章·沙漠边缘的逐客令",
+        "hook": "本以为能洗个热水澡好好睡一觉，谁知敲门声打破了宁静。",
+        "narrative_text": "穿过镇北台的阴影，何伟进入了榆林市区。这是他自驾长城线以来见到的第一座像样的城市。他满心欢喜地住进了当地最好的宾馆，渴望用热水澡和柔软的床铺洗去一身尘土。然而，这种文明世界的舒适感转瞬即逝。几名政府官员和警察突然出现在房间门口，他们对这个拿着过期测绘地图、开着租来轿车的外国人充满了戒备。尽管何伟出示了所有证件，对方仍以‘未对外国人开放’为由，强硬地要求他立即驱车离开。在疲惫与无奈中，何伟不得不重新发动汽车，在夜色中驶离这座本该是避风港的城市。",
+        "transition_to": "带着被驱逐的愤懑，何伟连夜南下，奔向红色革命圣地延安。",
+        "mood": "tense",
+        "key_dialogue": "“你必须离开，”那个警察说道，“现在就走。”"
+      }
+    },
+    {
+      "title": "延安市",
+      "address": "中国-陕西-延安-宝塔区-延安饭店",
+      "synopsis": "何伟南下延安试图再次投宿，却遭遇同样的驱逐，这让他决定暂时结束第一阶段的旅行。",
+      "source_evidence": "从榆林出来，我往南开了六个小时，来到延安市。……延安的警察要我马上离开，于是我打定主意，沿着长城的旅行到此为止。",
+      "original_chapter": "第一章：城墙",
+      "part_id": "PART-1",
+      "part_title": "城墙",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "极短"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "frustration",
+          "journey_end",
+          "restriction"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "延安市中心区域，具体旅馆可能已更名",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 22,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第22章·圣地的闭门羹",
+        "hook": "连续六小时的奔波，换来的却是又一次驱逐。",
+        "narrative_text": "从榆林南下六个小时后，何伟抵达了延安。他原本希望在这座著名的革命圣地能获得比榆林更宽松的待遇，但现实再次泼了冷水。刚进旅馆，警察便如影随形般出现，下达了同样的逐客令。这种系统性的排斥让何伟意识到，在当时的政策环境下，这种单枪匹马的边境考察已难以为继。站在延安的街头，他做出了一个艰难的决定：结束这一阶段沿着长城的自驾之旅。他将车开回北京，但这并非终点，而是一个更深入观察中国计划的酝酿期。",
+        "transition_to": "第一阶段的远征告一段落，何伟回到了北京，开始在周边的短途旅行中寻找灵感。",
+        "mood": "melancholic",
+        "key_dialogue": "延安的警察要我马上离开，于是我打定主意，沿着长城的旅行到此为止。"
+      }
+    },
+    {
+      "title": "清东陵",
+      "address": "中国-河北-唐山-遵化-清东陵",
+      "synopsis": "何伟在获得驾照后的初期，经常租车在北京周边进行短途出游，清东陵是其目的地之一。",
+      "source_evidence": "我经常在周末租用捷达或桑塔纳轿车，在北方地区进行短途出游，先后到过清东陵、承德皇家避暑山庄等地。",
+      "original_chapter": "第二章：村庄",
+      "part_id": "PART-2",
+      "part_title": "村庄",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2002"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "1天"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "exploration",
+          "driving_practice",
+          "history"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "国家5A级旅游景区",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 23,
+        "dateStart": "2001",
+        "dateEnd": "2002"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·租车者的周末",
+        "hook": "在北京的周末，何伟开始尝试一种全新的生活方式：租车出游。",
+        "narrative_text": "在正式开启长途旅行之前，何伟通过在北京周边的短途驾驶来磨练车技并观察中国。清东陵——这座埋葬着清朝帝王的宏大陵寝群，成为了他周末租车出游的目标之一。此时的他，正处于从一个观察者向一个驾驶者的转变中。他租用着当时中国最普遍的捷达或桑塔纳，穿梭在连接城市与古迹的公路上，感受着中国北方乡村与历史遗迹交织的独特氛围。这些零散的旅程，为他后来深入三岔村和更广阔的工厂地带埋下了伏笔。",
+        "transition_to": "离开肃穆的皇陵，他的车轮转向了另一处皇家园林——承德避暑山庄。",
+        "mood": "peaceful",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "承德皇家避暑山庄",
+      "address": "中国-河北-承德-双桥-避暑山庄",
+      "synopsis": "何伟在周末短途旅行中到访承德，体验北方皇家园林的氛围。",
+      "source_evidence": "我经常在周末租用捷达或桑塔纳轿车，在北方地区进行短途出游，先后到过清东陵、承德皇家避暑山庄等地。",
+      "original_chapter": "第二章：村庄",
+      "part_id": "PART-2",
+      "part_title": "村庄",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2002"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "1-2天"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "tourism",
+          "leisure",
+          "architecture"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "世界文化遗产，著名旅游景点",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 24,
+        "dateStart": "2001",
+        "dateEnd": "2002"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·避暑山庄的漫步",
+        "hook": "在承德的园林间，何伟记录着中国旅游业初期的模样。",
+        "narrative_text": "承德皇家避暑山庄是何伟早期租车生涯的另一站。相比于长城沿线的荒凉，这里的皇家园林展现了中国历史中精致而宏大的一面。何伟在这里观察着成群结队的游客，以及那些在古迹旁兜售纪念品的小贩。这些短途旅行让他逐渐熟悉了中国的公路系统和驾驶文化，也让他意识到，在这个国家，驾驶不仅仅是一种交通手段，更是一种通往不同社会阶层和历史维度的钥匙。",
+        "transition_to": "随着驾驶技术的日益娴熟，何伟将目光投向了更远的海滨。",
+        "mood": "peaceful",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "北戴河",
+      "address": "中国-河北-秦皇岛-北戴河-北戴河海滨",
+      "synopsis": "何伟驾车前往北戴河，并在此记录了魏子淇一家第一次见到大海的经历。",
+      "source_evidence": "2005年，他们前往的地方是北戴河避暑山庄。那是魏子淇第一次看见大海，一连几个星期，他都要讲述他的这一次旅游经历。",
+      "original_chapter": "第二章：村庄",
+      "part_id": "PART-2",
+      "part_title": "村庄",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2005",
+        "date_end": "2005"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "何伟",
+          "魏子淇"
+        ],
+        "stay_duration": "周末"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "sea",
+          "vacation",
+          "modernization"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "著名海滨度假区",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 25,
+        "dateStart": "2005",
+        "dateEnd": "2005"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·魏子淇的大海",
+        "hook": "对于山里的魏子淇来说，北戴河的大海是他人生的一个新坐标。",
+        "narrative_text": "2005年，何伟见证了三岔村村民魏子淇的一次重要旅行。魏子淇——这个在怀柔山里经营农家乐、渴望通过个人奋斗改变命运的农民，第一次来到了北戴河。沿着新修的高速公路，从北京出发只需不到两个小时。当魏子淇第一次站在海边，面对无垠的波涛时，那种震撼是巨大的。回到村子后，他连续几个星期都在向邻居们讲述大海的壮阔。这次旅行不仅是魏子淇个人视野的拓展，也象征着中国农民在经济变革中开始拥有了探索外部世界的可能。",
+        "transition_to": "从北方的海滨收回目光，何伟的视野转向了更遥远的南方工业区，下一站是芜湖。（待续）",
+        "mood": "joyful",
+        "key_dialogue": "那是魏子淇第一次看见大海，一连几个星期，他都要讲述他的这一次旅游经历。"
+      }
+    },
+    {
+      "title": "芜湖",
+      "address": "中国-安徽-芜湖-奇瑞汽车总部",
+      "synopsis": "何伟造访奇瑞汽车总部，见证中国本土汽车品牌的崛起，并与工程师们参与原型车的道路实测。",
+      "source_evidence": "于是，有一年，我去了芜湖，跟几个工程师一起参加了奇瑞公司的汽车道路检测。",
+      "original_chapter": "第二章",
+      "part_id": "PART-2",
+      "part_title": "第二章：直路",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2007"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟",
+          "约翰·丁克尔",
+          "齐海波",
+          "尹同跃"
+        ],
+        "stay_duration": "数日"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "industry",
+          "modernization",
+          "automobiles"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "奇瑞汽车工业园仍在此地",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 26,
+        "dateStart": "2001",
+        "dateEnd": "2007"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·国产车的野心",
+        "hook": "在长江边的这座城市，一个新兴的汽车帝国正在秘密测试它的原型车。",
+        "narrative_text": "从北方的海滨收回目光，何伟的视野转向了更遥远的南方工业区。在安徽芜湖，他进入了奇瑞汽车的世界。此时的中国汽车工业正处于爆发前夜，何伟结识了奇瑞的掌门人尹同跃，以及负责技术把关的美国工程师约翰·丁克尔。他跟随年轻的中国工程师齐海波，坐进那些尚未挂牌的原型车，在芜湖周边的道路上反复测试。这里不仅是机器的试验场，更是中国速度的缩影，每个人都充满了某种急于证明自己的紧迫感。",
+        "transition_to": "离开喧嚣的工厂，何伟的记忆回到了更早的一次自驾，那是与齐海波故乡有关的荒凉之地。",
+        "mood": "ambitious",
+        "key_dialogue": "“我们必须跑得比别人快，”尹同跃说，“因为我们起步晚。”"
+      }
+    },
+    {
+      "title": "鄂尔多斯沙漠",
+      "address": "中国-内蒙古-鄂尔多斯-鄂尔多斯沙漠",
+      "synopsis": "何伟在穿越沙漠的旅途中目睹了惨烈的车祸，并思考这片荒原与长城历史的复杂联系。",
+      "source_evidence": "他从小在长城外的内蒙古鄂尔多斯沙漠里长大……在内蒙古大草原上驾车行驶，其谜团之一，是看不见任何标志，表明历史上最伟大的帝国曾经统治过这片草原。",
+      "original_chapter": "第二章",
+      "part_id": "PART-2",
+      "part_title": "第二章：直路",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2007"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟",
+          "齐海波"
+        ],
+        "stay_duration": "路过"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "wilderness",
+          "history",
+          "danger"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "库布齐沙漠或毛乌素沙漠区域",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 27,
+        "dateStart": "2001",
+        "dateEnd": "2007"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·荒原上的车辙",
+        "hook": "在没有任何标志的草原上，历史的痕迹被风沙掩埋，只剩下致命的诱惑。",
+        "narrative_text": "鄂尔多斯沙漠是工程师齐海波成长的地方，也是何伟自驾行程中最孤独的一段。在这片看似平坦却暗藏杀机的荒原上，道路往往笔直得令人麻痹。何伟曾在这里目睹过极其惨烈的车祸，扭曲的金属残骸在夕阳下显得格外刺眼。他意识到，当现代化的公路切入这片古老的游牧之地，速度带来的不仅是便捷，还有对生命的漠视。长城的遗迹在远处若隐若现，仿佛在冷眼旁观这些新时代的闯入者。",
+        "transition_to": "为了更深入地探索西北，何伟回到了北京，准备开启一段更正式的征程。",
+        "mood": "desolate",
+        "key_dialogue": "在内蒙古大草原上驾车行驶，其谜团之一，是看不见任何标志，表明历史上最伟大的帝国曾经统治过这片草原。"
+      }
+    },
+    {
+      "title": "110国道",
+      "address": "中国-北京-延庆-110国道",
+      "synopsis": "何伟与好友麦克·高提格在暴风雪中踏上征途，破旧的110国道成了他们进入西北的第一道考验。",
+      "source_evidence": "然后，我朝着西北开上了110国道。这是一条破旧的两车道公路，过不了多久也许就会被废弃不用",
+      "original_chapter": "第二章",
+      "part_id": "PART-2",
+      "part_title": "第二章：直路",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2007"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟",
+          "麦克·高提格"
+        ],
+        "stay_duration": "数小时"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "road_trip",
+          "adventure",
+          "winter"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现多被京藏高速分流",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 28,
+        "dateStart": "2001",
+        "dateEnd": "2007"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·冰封的起点",
+        "hook": "暴风雪中，一条即将被废弃的国道，是通往未知的唯一通道。",
+        "narrative_text": "何伟邀请了他的好友麦克·高提格——一位同样对中国充满好奇的美国人，一同开启西北之旅。他们驾驶着那辆租来的切诺基，一头扎进了110国道的漫天风雪中。这条路破旧不堪，挤满了满载煤炭的大货车，路面因结冰而变得滑溜异常。车窗外的世界逐渐变得单调而严酷，北京的繁华被抛在脑后，取而代之的是货车司机们疲惫的眼神和发动机的轰鸣声。这是他们漫长自驾旅程的真正开端。",
+        "transition_to": "在寒冷与饥饿中，他们终于在张家口找到了一个可以喘息的落脚点。",
+        "mood": "tense",
+        "key_dialogue": "这是一条破旧的两车道公路，过不了多久也许就会被废弃不用。"
+      }
+    },
+    {
+      "title": "张家口",
+      "address": "中国-河北-张家口-货车停靠站",
+      "synopsis": "在张家口的货车停靠点，何伟遇到了一位拥有“显赫”名片的餐馆老板娘，感受到了荒诞的幽默。",
+      "source_evidence": "车子都开到了张家口，我的手还在发抖。在一个大货车停靠点，我们停车吃午饭。",
+      "original_chapter": "第二章",
+      "part_id": "PART-2",
+      "part_title": "第二章：直路",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2007"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟",
+          "麦克·高提格",
+          "金芳柳"
+        ],
+        "stay_duration": "1小时"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "humor",
+          "encounter",
+          "identity"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "uncertain",
+        "note": "具体的货车餐馆已难寻踪迹",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 29,
+        "dateStart": "2001",
+        "dateEnd": "2007"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·福特名誉主席的邻居",
+        "hook": "一个路边摊老板娘，为何随身带着福特汽车名誉主席的名片？",
+        "narrative_text": "惊魂未定的何伟与麦克在张家口郊外的一处货车停靠点停下。在这里，他们遇到了餐馆老板娘金芳柳。这个热情的女人递给何伟一张名片，上面赫然印着“福特汽车公司名誉主席”的头衔，而背面则是她简陋餐馆的菜单。这种极具中国特色的荒诞感冲淡了旅途的紧张。在热气腾腾的饭菜和这种莫名其妙的联系中，何伟观察到在这个快速变迁的国家，人们如何用各种方式与遥远的世界建立某种虚幻的连接。",
+        "transition_to": "带着这种奇妙的印象，他们继续向西，在夜幕降临时抵达了内蒙古的集宁。",
+        "mood": "joyful",
+        "key_dialogue": "“这是我的名片，”她自豪地说，尽管上面印着威廉·克莱·福特的名字。"
+      }
+    },
+    {
+      "title": "集宁",
+      "address": "中国-内蒙古-乌兰察布-集宁-乌兰察布宾馆",
+      "synopsis": "何伟与麦克在集宁的一家带有保龄球道的宾馆投宿，体验了边境小城独特的娱乐氛围。",
+      "source_evidence": "夜幕降临时，我们在集宁找了一家叫作乌兰察布的宾馆住了下来。",
+      "original_chapter": "第二章",
+      "part_id": "PART-2",
+      "part_title": "第二章：直路",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2007"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟",
+          "麦克·高提格"
+        ],
+        "stay_duration": "1晚"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "hospitality",
+          "kitsch",
+          "rest"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "乌兰察布宾馆仍是当地老牌宾馆",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 30,
+        "dateStart": "2001",
+        "dateEnd": "2007"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·保龄球馆里的长夜",
+        "hook": "在寒冷的内蒙古之夜，宾馆大厅里的保龄球撞击声成了最奇特的催眠曲。",
+        "narrative_text": "抵达集宁时，天色已晚。何伟与麦克入住了乌兰察布宾馆。这家宾馆的设计充满了那个时代的特色——大厅里竟然设置了保龄球道。在寂静的边陲小城，保龄球撞击木瓶的声音在空旷的建筑里回荡，显得既现代又突兀。经过一整天在冰雪路面上的挣扎，这种略显滑稽的舒适感让他们紧绷的神经终于放松下来。他们在这里整顿行装，准备迎接第二天更深入内蒙古腹地的挑战。",
+        "transition_to": "下一站，他们将前往内蒙古的首府呼和浩特，继续追寻长城的踪迹。（待续）",
+        "mood": "peaceful",
+        "key_dialogue": "大厅里设有保龄球道，这在当时的内蒙古显得格外时髦。"
+      }
+    },
+    {
+      "title": "呼和浩特",
+      "address": "中国-内蒙古-呼和浩特-新城区-呼和浩特火车站周边",
+      "synopsis": "何伟抵达内蒙古首府，租来的轿车彻底罢工，他在修理期间送别了同行的麦克·高提格。",
+      "source_evidence": "抵达呼和浩特的时候，City Special觉得应该用它自己的方式庆贺一下，于是就坏掉了。……麦克·高提格在呼和浩特登上了南下的火车。",
+      "original_chapter": "第二章：长城",
+      "part_id": "PART-1",
+      "part_title": "城墙",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": "归绥",
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟",
+          "麦克·高提格"
+        ],
+        "stay_duration": "2天"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "breakdown",
+          "farewell",
+          "urbanization"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "内蒙古自治区首府，城市面貌已大幅更新",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 31,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第31章·罢工的轿车",
+        "hook": "一路颠簸的City Special终于在省城彻底“罢工”了。",
+        "narrative_text": "承接上一站集宁的旅程，何伟与麦克·高提格终于抵达了内蒙古的首府呼和浩特。然而，那辆一直表现尚可的租来轿车，在进入市区后仿佛完成了使命般突然瘫痪。何伟不得不在这座充满北方工业气息的城市寻找修理厂。与此同时，一直陪伴他考察长城的麦克·高提格——这位对中国地理有着独特见解的美国朋友，也到了分别的时刻。在呼和浩特火车站，何伟送别了麦克，开始了他接下来更加孤独且深入的西行之路。城市的喧嚣与修车厂的油腻感，构成了他对这座草原都市最深刻的记忆。",
+        "transition_to": "修好了车，何伟独自驾车穿过草原，前方是一座充满“兵马俑警察”的奇特城市。",
+        "mood": "melancholic",
+        "key_dialogue": "“抵达呼和浩特的时候，City Special觉得应该用它自己的方式庆贺一下，于是就坏掉了。”"
+      }
+    },
+    {
+      "title": "包头",
+      "address": "中国-内蒙古-包头-昆都仑区",
+      "synopsis": "何伟见证了这座草原工业巨城的虚假繁荣，街道上密布着神似兵马俑的交警塑像。",
+      "source_evidence": "内蒙古最大的城市是包头，在广袤的大草原上，突然出现这么大一个地方，竟有种梦幻般的感觉。……街头竖立着大量交警塑像。",
+      "original_chapter": "第二章：长城",
+      "part_id": "PART-1",
+      "part_title": "城墙",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "1天"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "industrialization",
+          "surrealism",
+          "urban_planning"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "著名的钢铁工业城市",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 32,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第32章·草原上的幻城",
+        "hook": "在荒凉的草原尽头，一座巨大的、充满塑像的城市拔地而起。",
+        "narrative_text": "离开呼和浩特后，何伟驶入了包头。这座内蒙古最大的工业城市在广袤的荒野中显得极不真实，仿佛是某种宏大叙事的产物。最令他感到荒诞的是，宽阔的街道上站立着无数玻璃纤维制成的交警塑像，它们面无表情，神似西安的兵马俑，试图用这种廉价的威慑力维持交通秩序。何伟穿行在这些“兵马俑警察”之间，感受着中国西部城市在快速扩张中呈现出的那种生硬而又充满野心的奇观。",
+        "transition_to": "告别了这些沉默的交通卫士，他转向南方，去探寻那位草原征服者的长眠之地。",
+        "mood": "mysterious",
+        "key_dialogue": "“那些塑像看起来很像西安的兵马俑，只是穿上了交警的制服。”"
+      }
+    },
+    {
+      "title": "成吉思汗陵",
+      "address": "中国-内蒙古-鄂尔多斯-伊金霍洛旗-成吉思汗陵旅游区",
+      "synopsis": "何伟在陵园目睹了一场关于五元门票的荒诞争执，折射出当时基层管理的混乱。",
+      "source_evidence": "我驶上了210国道，往成吉思汗陵的方向而去。……两个喝得醉醺醺的人正为了五块钱的门票差价大吵大闹。",
+      "original_chapter": "第二章：长城",
+      "part_id": "PART-1",
+      "part_title": "城墙",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "半天"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "tourism",
+          "absurdity",
+          "bureaucracy"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为国家5A级旅游景区",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 33,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第33章·五块钱的尊严",
+        "hook": "在伟大的征服者陵前，一场酒精催化的闹剧正在上演。",
+        "narrative_text": "何伟沿着210国道抵达了成吉思汗陵。这里本该是肃穆的圣地，但他看到的却是一幕典型的转型期中国乱象：一名醉醺醺的政府官员为了区区五块钱的门票优惠，正与同样满身酒气的蒙古族售票员激烈争吵。这种琐碎、粗鲁且带有酒精味的现实，与成吉思汗横跨欧亚的宏伟历史形成了鲜明而讽刺的对比。何伟作为一个旁观者，记录下了这种在旅游开发初期的荒诞日常。",
+        "transition_to": "离开这片喧嚣的陵园，他在路边搭载了一对祖孙，驶向陕西境内的边陲小镇。",
+        "mood": "bittersweet",
+        "key_dialogue": "“他们两个都喝醉了，为了那点微不足道的差价，在成吉思汗的注视下互不相让。”"
+      }
+    },
+    {
+      "title": "靖边",
+      "address": "中国-陕西-榆林-靖边县-张家畔镇",
+      "synopsis": "何伟顺路搭载了卖盐老者和他的孙女王燕，感受到了边疆小镇年轻人的打工生活。",
+      "source_evidence": "靖边是靠近长城的一个小镇，那两个汉字的意思是“平定边疆”。……王燕在镇上的“建华”美容院打工。",
+      "original_chapter": "第二章：长城",
+      "part_id": "PART-1",
+      "part_title": "城墙",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟",
+          "王燕"
+        ],
+        "stay_duration": "数小时"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "kindness",
+          "migration",
+          "rural_life"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为靖边县城中心区域",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 34,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第34章·平定边疆的小镇",
+        "hook": "一个卖盐的老汉和他的孙女，搭上了何伟那辆满是尘土的轿车。",
+        "narrative_text": "在前往靖边的路上，何伟遇到了卖盐的老者和他的孙女王燕。王燕是一个典型的农村女孩，正试图在镇上寻找出路。何伟将他们送到了靖边——这个名字意为“平定边疆”的陕西小镇。在这里，王燕在一家名为“建华”的简陋美容院工作。通过这次短暂的交集，何伟窥见了中国内陆年轻人如何离开土地，在这些尘土飞扬的小镇中寻找微薄的生存机会。靖边的街道虽然破旧，却充满了这种原始的生命力。",
+        "transition_to": "告别了王燕，何伟继续向西，在安寺村的废墟旁遇到了一群孩子。",
+        "mood": "peaceful",
+        "key_dialogue": "“她告诉我她在美容院工作，那是镇上为数不多的几种职业选择之一。”"
+      }
+    },
+    {
+      "title": "安寺村",
+      "address": "中国-陕西-榆林-靖边县-安寺村",
+      "synopsis": "何伟在长城废墟旁与村里的孩子互动，在古老的烽火台上分发巧克力。",
+      "source_evidence": "从靖边往西走了一个小时的车程后，我把车停下来，参观了安寺村附近的一段长城。",
+      "original_chapter": "第二章：长城",
+      "part_id": "PART-1",
+      "part_title": "城墙",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "半天"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "childhood",
+          "ruins",
+          "generosity"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "偏远村落，长城遗址尚存",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 35,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第35章·烽火台上的巧克力",
+        "hook": "古老的烽火台不再传递战火，而是见证了一场跨国界的甜蜜分享。",
+        "narrative_text": "在靖边以西的安寺村，长城已经风化成了断断续续的土堆。何伟停下车，立刻被一群好奇的村里孩子包围了。他带着这六个孩子——其中包括三兄弟和一个扎着小辫的腼腆女孩，一同爬上了附近的烽火台遗址。在这些见证过无数征战的黄土堆上，何伟拿出了随身携带的巧克力分发给孩子们。那一刻，宏大的历史背景退居幕后，取而代之的是一种简单而纯粹的人际温暖。孩子们在废墟上奔跑，笑声回荡在寂静的陕北高原。",
+        "transition_to": "离开这群纯真的孩子，何伟的车辆即将驶入更加荒凉的腾格里沙漠。（待续）",
+        "mood": "joyful",
+        "key_dialogue": "“我带着他们爬上烽火台，把巧克力分给每一个孩子，他们看着我的眼神充满了惊奇。”"
+      }
+    },
+    {
+      "title": "腾格里沙漠",
+      "address": "中国-内蒙古-阿拉善盟-腾格里沙漠",
+      "synopsis": "何伟在荒凉的腾格里沙漠露营，偶遇退伍军人甄先生并邀其搭车，甚至让他在空旷的公路上尝试驾驶吉普车。",
+      "source_evidence": "一段土墙往西北方向延伸过去，进入了腾格里沙漠。……我问他，要不要搭车，他耸耸肩，坐上车来。",
+      "original_chapter": "第二章：长城",
+      "part_id": "PART-1",
+      "part_title": "城墙",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟",
+          "甄先生"
+        ],
+        "stay_duration": "一晚"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "adventure",
+          "solitude",
+          "trust"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "自然地理区域，公路依然通行",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 36,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第36章·沙漠里的陌生客",
+        "hook": "在荒无人烟的沙漠腹地，一个散步的退伍军人登上了何伟的车。",
+        "narrative_text": "离开安寺村那些纯真的孩子，何伟的吉普车驶入了腾格里沙漠的边缘。这里是一片死寂的沙海，只有风声和偶尔掠过的飞鸟。在路边，他遇到了甄先生——一位在沙漠中孤独散步的退伍军人。甄先生显得随和而淡定，仿佛在这片荒野中行走是再自然不过的事。何伟邀请他上车，并在一段笔直且空无一人的公路上，大胆地让从未摸过方向盘的甄先生坐到了驾驶位上。甄先生紧握方向盘，在沙漠的落日余晖中体验着现代机械带来的掌控感，这种基于陌生人之间微妙信任的互动，成为了漫长旅途中一段奇妙的插曲。",
+        "transition_to": "告别了甄先生，何伟继续向西，在宁夏的盐池镇寻找落脚点。",
+        "mood": "peaceful",
+        "key_dialogue": "“你想开车吗？”我问他。他看着我，好像我刚才问他想不想去月球似的。"
+      }
+    },
+    {
+      "title": "盐池镇",
+      "address": "中国-宁夏-吴忠-盐池县-盐池镇",
+      "synopsis": "何伟在干燥的盐池镇短暂停留，目睹了一场关于醉汉、摩托车与众人协作的荒诞“夜间仪式”。",
+      "source_evidence": "在盐池镇，我洗了洗头，然后沿街溜达起来。这也是一个十分干燥、被人遗忘的地方",
+      "original_chapter": "第二章：长城",
+      "part_id": "PART-1",
+      "part_title": "城墙",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "几小时"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "observation",
+          "absurdity",
+          "rural_life"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "县城所在地，现已现代化发展",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 37,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第37章·盐池镇的醉汉",
+        "hook": "一个烂醉如泥的人，如何在众目睽睽下骑上摩托车消失？",
+        "narrative_text": "盐池镇是一个被干燥空气包裹、仿佛被时光遗忘的边陲小镇。何伟在这里洗去了一身风尘，在夜色中漫步街头。他目睹了一幕极具中国乡土色彩的荒诞剧：一名醉得几乎无法站立的男子，在几名同伴的合力搀扶下，像摆放一件沉重的行李一样被安置在摩托车上。令人惊叹的是，当引擎发动，这名醉汉竟然在摇晃中找回了某种本能的平衡，在众人的注视下歪歪斜斜地消失在黑暗的街道尽头。这种粗粝而充满生命力的生活碎片，正是何伟笔下中国转型的真实写照。",
+        "transition_to": "离开盐池，何伟沿着长城的遗迹，奔向河西走廊的咽喉嘉峪关。",
+        "mood": "mysterious",
+        "key_dialogue": "他摇摇晃晃地骑着车，消失在黑暗中。没人觉得这有什么奇怪。"
+      }
+    },
+    {
+      "title": "嘉峪关",
+      "address": "中国-甘肃-嘉峪关-嘉峪关文物景区",
+      "synopsis": "何伟抵达明代长城的西端终点嘉峪关，感叹这座河西走廊尽头城堡的雄伟与历史沧桑。",
+      "source_evidence": "沿着明长城，我往西北方向行驶到了嘉峪关。这个城堡位于河西走廊的尽头",
+      "original_chapter": "第二章：长城",
+      "part_id": "PART-1",
+      "part_title": "城墙",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "短暂逗留"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "history",
+          "frontier",
+          "architecture"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "著名旅游景区",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 38,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第38章·天下第一雄关",
+        "hook": "长城的尽头，是守望千年的孤城嘉峪关。",
+        "narrative_text": "何伟的吉普车沿着明长城的脉络一路向西北挺进，最终抵达了嘉峪关。作为河西走廊的咽喉要塞，这座城堡在荒漠中显得格外雄伟。对于何伟而言，这里不仅是一个地理上的坐标，更是他长城之旅的一个重要节点。他观察着这座曾经作为帝国边界的堡垒，在现代旅游业的包装下，依然散发着某种肃杀而孤独的气息。他没有在此过多停留，因为更遥远的西方和更深邃的荒原仍在前方等待着他。",
+        "transition_to": "越过雄关，下一站是因莫高窟而闻名于世的艺术殿堂敦煌。",
+        "mood": "desolate",
+        "key_dialogue": "这个城堡位于河西走廊的尽头，在祁连山脉和黑山之间，长城在这里变得愈发坚固。"
+      }
+    },
+    {
+      "title": "敦煌",
+      "address": "中国-甘肃-酒泉-敦煌市",
+      "synopsis": "何伟经过著名的敦煌，虽然这里有灿烂的佛教艺术和壮丽沙丘，但他选择继续西行，未作停留。",
+      "source_evidence": "然后我继续行驶，到了敦煌。敦煌以其洞窟里的佛教艺术以及附近那一个个巨大的沙丘而闻名遐迩。",
+      "original_chapter": "第二章：长城",
+      "part_id": "PART-1",
+      "part_title": "城墙",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": "沙州",
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "路过"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "art",
+          "tourism",
+          "journey"
+        ],
+        "significance": 0.2
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "世界文化遗产所在地",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 39,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第39章·路过敦煌",
+        "hook": "面对举世闻名的莫高窟，何伟为何选择了过门而不入？",
+        "narrative_text": "敦煌，这个名字本身就带着浓厚的历史尘埃与艺术光辉。何伟驾车经过这里时，脑海中浮现的是那些精美的佛教壁画和鸣沙山的金色脊背。然而，作为一个专注于观察“真实中国”而非仅仅打卡名胜的旅行者，他并未在这些著名的景点前停下脚步。对他来说，敦煌更像是一个繁华的驿站，而他此行的真正目的——那些隐藏在荒野中的长城残迹和普通人的生活——还在更偏僻的角落。他加速驶离了这片绿洲，向着更深处的无人区进发。",
+        "transition_to": "然而，在试图深入非开放区域时，何伟在肃北遭遇了意想不到的麻烦。",
+        "mood": "ambitious",
+        "key_dialogue": "我继续行驶，到了敦煌。……但我没有停留，而是继续向西。"
+      }
+    },
+    {
+      "title": "肃北",
+      "address": "中国-甘肃-酒泉-肃北蒙古族自治县",
+      "synopsis": "何伟因闯入非对外开放区域被肃北警方扣留，并在一名女警察的监督下前往银行缴纳罚款。",
+      "source_evidence": "我进发到一个叫作肃北的地方，在一个检查站，警察拦住了我。……那个女警察领着我到了外面，跨过街道来到中国农业银行。",
+      "original_chapter": "第二章：长城",
+      "part_id": "PART-1",
+      "part_title": "城墙",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "几小时"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "bureaucracy",
+          "encounter",
+          "law"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "县城所在地",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 40,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第40章·肃北的罚单",
+        "hook": "一张一百元的罚单，让何伟在肃北体验了一把“中式执法”。",
+        "narrative_text": "在肃北，何伟的自由行遭到了阻碍。由于误入了当时尚未对外国人开放的区域，他在检查站被警察拦截。接下来的过程充满了某种奇特的仪式感：没有激烈的冲突，只有按部就班的行政程序。一名女警察负责“押送”他，两人穿过街道，走进了当地的中国农业银行。何伟在那里缴纳了一百元的罚款，换回了他的证件。这种在偏远地区遭遇的官僚主义，虽然耽误了行程，却也让他以一种特殊的方式观察到了基层社会的运作逻辑。",
+        "transition_to": "交完罚款，何伟被允许继续上路，他的目标是荒野深处的河仓城。（待续）",
+        "mood": "dramatic",
+        "key_dialogue": "“你不能来这里，”警察说，“这里不对外国人开放。”"
+      }
+    },
+    {
+      "title": "河仓城",
+      "address": "中国-甘肃-酒泉-敦煌-河仓城遗址",
+      "synopsis": "何伟在汉代粮仓遗址河仓城露营，感叹两千年前稻草的生命力，此处标志着他长城之旅的终点。",
+      "source_evidence": "走了十五六公里，我来到了河仓城遗址，这条土路也到了尽头。……在城堡的墙根，我支起了帐篷。",
+      "original_chapter": "第二章",
+      "part_id": "PART-1",
+      "part_title": "城墙",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": "大方盘城",
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "一晚"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "solitude",
+          "history",
+          "exploration"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为敦煌西线旅游景点之一",
+        "current_name": "河仓城遗址"
+      },
+      "timeline": {
+        "orderIndex": 41,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第41章·长城的尽头",
+        "hook": "在荒野深处的汉代粮仓，两千年前的稻草依然清晰可见。",
+        "narrative_text": "交完罚款后，何伟被允许继续深入荒原。他最终抵达了河仓城，这是一座汉代的粮仓遗址，也是他此次长城自驾之旅的地理终点。在这片寂静的废墟中，他惊讶地发现夯土墙缝隙里露出的稻草竟然还保持着新鲜的色泽，仿佛时间在此停滞了两千年。当晚，他在城堡的墙根下支起帐篷，独自面对大漠的星空。这段跨越数千公里的旅程在此画上了句号，但关于中国变革的故事才刚刚拉开序幕。",
+        "transition_to": "长城之旅告一段落，何伟将目光投向了北京郊外一个叫三岔的小山村。",
+        "mood": "desolate",
+        "key_dialogue": "“这里的墙体是由夯土和红柳枝、芦苇以及稻草交替筑成的。……那些稻草看起来依然很新鲜。”"
+      }
+    },
+    {
+      "title": "三岔村",
+      "address": "中国-北京-怀柔区-渤海镇-三岔村",
+      "synopsis": "何伟在怀柔三岔村租房，结识了农民魏子淇一家，开始深入观察中国农村的转型与阵痛。",
+      "source_evidence": "那个地方叫作三岔。……三岔从来就是一个小村子。近几年，这个村子的规模变得更小了。",
+      "original_chapter": "第一章",
+      "part_id": "PART-2",
+      "part_title": "村庄",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2002",
+        "date_end": "2002"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟",
+          "魏子淇",
+          "曹春梅",
+          "魏嘉"
+        ],
+        "stay_duration": "多年长期居住"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "rural_life",
+          "friendship",
+          "transformation"
+        ],
+        "significance": 1.0
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现已发展为成熟的民俗旅游村",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 42,
+        "dateStart": "2002",
+        "dateEnd": "2002"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·落脚三岔",
+        "hook": "一个美国记者在长城脚下的破败山村租了房，成了魏子淇一家的邻居。",
+        "narrative_text": "在结束了长城自驾后，何伟在距离北京市区两小时车程的怀柔山区找到了三岔村。这是一个正在萎缩的村庄，年轻人大多进城务工，只留下老人和孩子。在这里，他结识了精明能干的魏子淇和他的妻子曹春梅。魏子淇是村里少数几个渴望通过个人奋斗改变命运的人。何伟租下了村里的一间老房子，开始以一种近乎人类学观察的方式，记录这个家庭在时代浪潮中的起伏。然而，平静的生活很快被魏子淇幼子魏嘉的一场重病打破。",
+        "transition_to": "为了拯救年幼的魏嘉，何伟与魏家夫妇连夜赶往北京的大医院。",
+        "mood": "peaceful",
+        "key_dialogue": "“三岔从来就是一个小村子。近几年，这个村子的规模变得更小了。”"
+      }
+    },
+    {
+      "title": "北京大学第三医院",
+      "address": "中国-北京-海淀区-花园北路49号",
+      "synopsis": "魏嘉因罕见血液病住院，何伟在此见证了农村家庭在城市医疗体系面前的无助与挣扎。",
+      "source_evidence": "眯眯已经在北京大学第三医院的儿童病房替魏嘉安排到了一个床位",
+      "original_chapter": "第一章",
+      "part_id": "PART-2",
+      "part_title": "村庄",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2002",
+        "date_end": "2002"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟",
+          "魏嘉",
+          "魏子淇",
+          "曹春梅",
+          "齐海波"
+        ],
+        "stay_duration": "数周"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "healthcare",
+          "urban-rural_divide",
+          "anxiety"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "北京著名三甲医院",
+        "current_name": "北京大学第三医院"
+      },
+      "timeline": {
+        "orderIndex": 43,
+        "dateStart": "2002",
+        "dateEnd": "2002"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·病房里的博弈",
+        "hook": "面对高昂的医药费和冷漠的医疗程序，魏子淇几乎陷入绝望。",
+        "narrative_text": "魏嘉被确诊患有免疫性血小板减少性紫癜（ITP），住进了北医三院。对于魏子淇夫妇来说，这座现代化的医院既是救命稻草，也是巨大的经济黑洞。何伟不仅垫付了医药费，还利用自己的身份与医生周旋。在病房里，何伟观察到城乡医疗资源的巨大鸿沟：农村人在这里显得局促不安，必须依靠熟人关系（如齐海波，绰号‘郭眯眯’的帮助）才能获得更好的照顾。魏嘉的病情反复牵动着每个人的心，也让何伟真正融入了这个家庭的命运。",
+        "transition_to": "魏嘉康复出院后，三岔村迎来了一场关于“汽车文明”的变革。",
+        "mood": "tense",
+        "key_dialogue": "“在医院里，你不仅要和疾病作斗争，还要和制度、金钱以及那种根深蒂固的等级感作斗争。”"
+      }
+    },
+    {
+      "title": "三岔",
+      "address": "中国-北京-怀柔区-渤海镇-三岔村",
+      "synopsis": "魏子淇抓住旅游业机遇，将自家改建为“长城驿栈”，何伟见证了商业意识在山村的觉醒。",
+      "source_evidence": "他最终选择了一个非常简单的名字：‘长城驿栈’。",
+      "original_chapter": "第二章",
+      "part_id": "PART-2",
+      "part_title": "村庄",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2003",
+        "date_end": "2005"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟",
+          "魏子淇",
+          "曹春梅",
+          "魏全有"
+        ],
+        "stay_duration": "长期观察"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "entrepreneurship",
+          "modernization",
+          "capitalism"
+        ],
+        "significance": 0.95
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "魏子淇的农家乐曾长期经营",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 44,
+        "dateStart": "2003",
+        "dateEnd": "2005"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·长城驿栈的诞生",
+        "hook": "魏子淇不再满足于务农，他要利用家门口的长城赚城里人的钱。",
+        "narrative_text": "随着通往山村的水泥路修通，越来越多的北京私家车主开始周末郊游。魏子淇敏锐地察觉到了商机，他决定把自家的院子改造成农家乐，并取名“长城驿栈”。何伟记录了这一过程中的每一个细节：从砍掉果树扩建餐厅，到魏子淇如何学习招待客人的礼仪。魏子淇的父亲魏全有——一个老派的农民，对此感到困惑和不安。这个小小的院落成了中国农村向消费社会转型的缩影，魏子淇也从一个农民逐渐转变为一个初级企业家。",
+        "transition_to": "为了维持驿栈的运营，魏子淇必须频繁往返于山村与城镇之间。",
+        "mood": "ambitious",
+        "key_dialogue": "“他最终选择了一个非常简单的名字：‘长城驿栈’。这个名字既有历史感，又符合现代旅游的口味。”"
+      }
+    },
+    {
+      "title": "怀柔",
+      "address": "中国-北京-怀柔区-怀柔城区",
+      "synopsis": "怀柔作为三岔村与北京的中转站，是魏子淇采购物资、建立社交网络的重要据点。",
+      "source_evidence": "怀柔位于三岔到北京的半道上，无论从社交还是从地理方面来说，这都是连接三岔和北京的中点。",
+      "original_chapter": "第二章",
+      "part_id": "PART-2",
+      "part_title": "村庄",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2003",
+        "date_end": "2005"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟",
+          "魏子淇"
+        ],
+        "stay_duration": "多次短暂停留"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "urbanization",
+          "commerce",
+          "social_network"
+        ],
+        "significance": 0.7
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为北京怀柔区中心城区",
+        "current_name": "怀柔区"
+      },
+      "timeline": {
+        "orderIndex": 45,
+        "dateStart": "2003",
+        "dateEnd": "2005"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·城乡的中点",
+        "hook": "在怀柔的建材市场和饭局上，魏子淇正在编织他的商业版图。",
+        "narrative_text": "怀柔城区是魏子淇眼中的“大城市”。为了建设和经营长城驿栈，他频繁驾车前往怀柔购买水泥、瓷砖和各种补给。这里不仅是物资供应站，更是他拓展人脉的社交场。何伟发现，魏子淇在怀柔的表现与在村里截然不同，他变得更加圆滑、世故，努力适应着城镇的规则。怀柔代表了那种正在快速扩张的中国县城景观，它是农村人通往现代生活的第一个台阶，也是魏子淇野心的延伸之地。",
+        "transition_to": "随着生意越做越大，魏子淇开始去往更远的地方寻找商机，比如繁华的大世界百货商场。（待续）",
+        "mood": "busy",
+        "key_dialogue": "“隔三岔五他就要跑一趟怀柔，去购买水泥和其他建材。”"
+      }
+    },
+    {
+      "title": "大世界百货商场",
+      "address": "中国-北京-怀柔区-商业街-大世界百货商场",
+      "synopsis": "怀柔当地唯一的百货商场，是魏子淇等村民接触城市文明、感受现代化商业气息的窗口。",
+      "source_evidence": "城里只有一家百货商场，名叫大世界，同样拥挤不堪。……从乡下来的人很喜欢大世界——他们步履蹒跚地踏上电动扶梯，在耀眼的光线里幸福地眨巴着眼睛。",
+      "original_chapter": "第二章",
+      "part_id": "PART-2",
+      "part_title": "村庄",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2002",
+        "date_end": "2002"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "魏子淇"
+        ],
+        "stay_duration": "数小时"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "urbanization",
+          "modernity",
+          "consumerism"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现仍为怀柔老城区重要商业地标",
+        "current_name": "大世界购物中心"
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "2002",
+        "dateEnd": "2002"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·大世界的电梯",
+        "hook": "在耀眼的灯光下，农民们第一次踏上自动扶梯时在想什么？",
+        "narrative_text": "随着生意越做越大，魏子淇开始去往更远的地方寻找商机。怀柔县城的大世界百货商场，是这片区域现代化的终极象征。对于像魏子淇这样从三岔村走出来的农民来说，这里不仅是购物场所，更是一个充满奇迹的殿堂。何伟观察到，乡下来的人们总是带着一种近乎虔诚的敬畏感，步履蹒跚地踏上自动扶梯，在商场耀眼的日光灯下幸福地眨巴着眼睛。这种对城市生活的向往，正悄然改变着村庄的结构，也让魏子淇意识到，教育和见识将是下一代跳出大山的唯一出路。",
+        "transition_to": "为了让儿子魏嘉接受更好的教育，魏子淇决定将他送往山下的沙屿村寄宿。",
+        "mood": "ambitious",
+        "key_dialogue": "从乡下来的人很喜欢大世界——他们步履蹒跚地踏上电动扶梯，在耀眼的光线里幸福地眨巴着眼睛。"
+      }
+    },
+    {
+      "title": "沙屿村",
+      "address": "中国-北京-怀柔区-渤海镇-沙屿村",
+      "synopsis": "魏嘉就读寄宿小学所在地，何伟常开车接送魏家父子往返于此，见证了农村教育的现状。",
+      "source_evidence": "今年，魏嘉要到十公里外的沙屿村上一年级，跟其他孩子一起在学校同吃同住。……我们的车往沟谷里行驶的时候，他往前趴着身子。……一路上，到处都是穿戴整洁的小孩子，他们背着新书包，往沙屿村的方向走去。",
+      "original_chapter": "第二章",
+      "part_id": "PART-2",
+      "part_title": "村庄",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2002",
+        "date_end": "2007"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟",
+          "魏嘉",
+          "曹春梅"
+        ],
+        "stay_duration": "多次往返"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "education",
+          "childhood",
+          "rural_life"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "沙屿小学现已合并或改建",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "2002",
+        "dateEnd": "2007"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·离家的书包",
+        "hook": "六岁的魏嘉背起行囊，开始了他漫长的寄宿求学之路。",
+        "narrative_text": "六岁的魏嘉到了上学的年纪，魏子淇和曹春梅夫妇决定送他去十公里外的沙屿村上小学。由于路途遥远，年幼的魏嘉必须在学校寄宿。何伟经常充当司机的角色，开着那辆租来的切诺基，载着魏嘉穿梭在蜿蜒的山路间。每到周一早晨，沙屿村的路上到处是穿戴整洁、背着新书包的孩子。魏嘉总是趴在车窗前，沉默地注视着窗外。这种过早的独立是当代中国农村孩子的共同记忆，而沙屿村的校舍，成了魏嘉童年里除了三岔村之外最重要的坐标。",
+        "transition_to": "除了孩子的教育，魏子淇还必须处理村里那些被遗忘者的琐事，比如去派出所。",
+        "mood": "bittersweet",
+        "key_dialogue": "一路上，到处都是穿戴整洁的小孩子，他们背着新书包，往沙屿村的方向走去。"
+      }
+    },
+    {
+      "title": "沙屿派出所",
+      "address": "中国-北京-怀柔区-渤海镇-沙屿派出所",
+      "synopsis": "何伟协助魏子淇带村里的残疾人魏宗漏办理身份证，展现了基层行政与边缘人物的交集。",
+      "source_evidence": "有一天，他在村子里问我，能不能把他和傻子送到山下的沙屿派出所去一趟。……在沙屿派出所，一个年轻的女子让傻子坐在白色背景布前的一张凳子上。",
+      "original_chapter": "第三章",
+      "part_id": "PART-2",
+      "part_title": "村庄",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2003",
+        "date_end": "2003"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟",
+          "魏子淇",
+          "魏宗漏"
+        ],
+        "stay_duration": "1小时"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "bureaucracy",
+          "social_welfare",
+          "marginal_groups"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "基层公安机关，地址未变",
+        "current_name": "怀柔分局渤海派出所"
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "2003",
+        "dateEnd": "2003"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·一张身份证",
+        "hook": "对于一个从未离开过大山的“傻子”来说，拍照办证是一场奇遇。",
+        "narrative_text": "魏子淇不仅忙于自家的生意，还承担起照顾村里弱势群体的责任。他请求何伟开车，带他及村里的智障人士魏宗漏（绰号“傻子”）前往沙屿派出所。目的是为了给魏宗漏办理身份证，以便领取政府的助残补贴。在派出所简陋的办公室内，年轻的女民警试图让局促不安的魏宗漏坐在白色背景布前。这一幕充满了荒诞感：一个几乎没有自我意识的人，正通过现代官僚系统的程序，获得他在法律意义上的“身份”。",
+        "transition_to": "办完琐事后，魏子淇的野心进一步膨胀，他决定去顺义考取驾照。",
+        "mood": "melancholic",
+        "key_dialogue": "在沙屿派出所，一个年轻的女子让傻子坐在白色背景布前的一张凳子上。"
+      }
+    },
+    {
+      "title": "顺义",
+      "address": "中国-北京-顺义区",
+      "synopsis": "魏子淇参加驾驶培训的地方，这里也是他早期餐馆客源中贪腐官员的来源地。",
+      "source_evidence": "他一直等到秋天的收获季节、旅游旺季结束，才到离怀柔不远的顺义报名参加了驾驶课程培训班。……有一阵子，一群来自顺义的贪腐官员经常光顾这家餐馆。",
+      "original_chapter": "第二章",
+      "part_id": "PART-2",
+      "part_title": "村庄",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2003",
+        "date_end": "2004"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "魏子淇"
+        ],
+        "stay_duration": "数月（间歇性）"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "mobility",
+          "corruption",
+          "aspiration"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "顺义区地域广阔，具体驾校位置不明",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": "2003",
+        "dateEnd": "2004"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·通往驾驶座的路",
+        "hook": "魏子淇意识到，掌握方向盘才是掌握命运的开始。",
+        "narrative_text": "顺义对于魏子淇来说有着双重意义。早年间，一群来自顺义的贪腐官员曾是魏家餐馆的常客，他们的挥霍让魏子淇赚到了第一桶金。而现在，他选择在收获季节结束后，前往顺义报名参加驾驶培训。在那个年代，驾照是通往更高社会阶层的入场券。魏子淇在顺义的驾校里苦练，尽管过程充满艰辛，但他深知，只有学会开车，他才能真正摆脱大山的束缚，像何伟一样自由地穿梭在城乡之间。",
+        "transition_to": "拿到驾照后，下一步就是拥有一辆属于自己的车。于是，他们前往了北京南郊。",
+        "mood": "ambitious",
+        "key_dialogue": "他一直等到秋天的收获季节、旅游旺季结束，才到离怀柔不远的顺义报名参加了驾驶课程培训班。"
+      }
+    },
+    {
+      "title": "北京市旧机动车交易市场",
+      "address": "中国-北京-丰台区-南四环西路123号-花乡旧机动车交易市场",
+      "synopsis": "魏子淇在何伟陪同下，于此买下了人生第一辆车——一辆二手夏利，标志着他生活的重大转折。",
+      "source_evidence": "那个销售员告诉魏子淇，他可以在午后到北京市旧机动车交易市场去见他。……这个市场位于北京的南郊，在一片廉价公寓楼之间的空隙里，密密麻麻地分布着几个尘土蔽日的停车场。",
+      "original_chapter": "第三章",
+      "part_id": "PART-2",
+      "part_title": "村庄",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": "花乡二手车市场",
+        "date_start": "2004",
+        "date_end": "2004"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟",
+          "魏子淇",
+          "袁少春"
+        ],
+        "stay_duration": "一个下午"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "automobility",
+          "entrepreneurship",
+          "social_mobility"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "即著名的花乡二手车市场，至今仍是中国最大的二手车交易中心之一",
+        "current_name": "北京花乡旧机动车交易市场"
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "2004",
+        "dateEnd": "2004"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·第一辆夏利",
+        "hook": "在尘土飞扬的停车场里，魏子淇终于摸到了属于自己的方向盘。",
+        "narrative_text": "何伟陪同魏子淇来到了位于北京南郊的花乡旧机动车交易市场。这里尘土蔽日，密密麻麻地停满了各种待售的旧车。魏子淇通过联系人袁少春，在一堆廉价车中反复挑选。最终，他看中了一辆银色的旧夏利。尽管这辆车看起来平平无奇，但对于魏子淇来说，这是他多年奋斗的结晶。当他付完钱，颤抖着接过车钥匙时，一个农民转变为车主的仪式正式完成。这辆夏利将载着魏家的希望，在崎岖的山路上跑出新的财富。",
+        "transition_to": "魏子淇的商业版图还在扩张，他甚至开始关注房山的动态。",
+        "mood": "joyful",
+        "key_dialogue": "这个市场位于北京的南郊，在一片廉价公寓楼之间的空隙里，密密麻麻地分布着几个尘土蔽日的停车场。"
+      }
+    },
+    {
+      "title": "房山",
+      "address": "中国-北京-房山区-琉璃河镇",
+      "synopsis": "何伟陪同魏子淇前往北京郊区的房山，在漫天水泥粉尘中试驾并买下了一辆红色的二手夏利车。",
+      "source_evidence": "我们到了北京西南郊区二十几公里远的地方，那儿叫作房山。这里坐落着首都最大的水泥厂，周围一大片区域全都覆盖着白色的粉尘。",
+      "original_chapter": "第三章",
+      "part_id": "PART-2",
+      "part_title": "村庄",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2002",
+        "date_end": "2002"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟",
+          "魏子淇",
+          "袁少春"
+        ],
+        "stay_duration": "半天"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "modernization",
+          "mobility",
+          "commerce"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "房山区琉璃河附近仍有大量工业遗迹与修车厂",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "2002",
+        "dateEnd": "2002"
+      },
+      "story_mode": {
+        "chapter_title": "第6章·粉尘中的红色夏利",
+        "hook": "在漫天飞舞的白色水泥粉尘中，魏子淇看中了他的第一辆车。",
+        "narrative_text": "何伟陪着魏子淇来到了北京西南郊的房山，这里是首都最大的水泥厂所在地，空气中弥漫着厚厚的白色粉尘。在中间人袁少春的引荐下，他们来到一家简陋的修车厂。魏子淇看中了一辆红色的二手夏利，虽然车况一般，但在那个时代的农村，拥有一辆轿车意味着身份的彻底跨越。魏子淇笨拙地试驾着，尽管他才刚拿到驾照不久，但他对未来的野心已经随着这台发动机的轰鸣声一起发动了。最终，他以一万五千元的价格成交，开启了他的有车生活。",
+        "transition_to": "有了车，魏子淇不仅是村里的能人，更开始积极谋求社会身份的转变。",
+        "mood": "ambitious",
+        "key_dialogue": "“这车行，”魏子淇说，“咱们就买这辆吧。”"
+      }
+    },
+    {
+      "title": "中国长城协会",
+      "address": "中国-北京-东城区-东直门内大街",
+      "synopsis": "魏子淇在何伟陪同下前往长城协会办理入会手续，他在申请表上郑重地写下“农民”身份。",
+      "source_evidence": "那一天，他是进城来加入中国长城协会的。……我陪着他走到了长城协会的办公地点，那儿离我的公寓没有多远。",
+      "original_chapter": "第三章",
+      "part_id": "PART-2",
+      "part_title": "村庄",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2003",
+        "date_end": "2003"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟",
+          "魏子淇"
+        ],
+        "stay_duration": "1小时"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "identity",
+          "heritage",
+          "social_status"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "中国长城协会办公地位于北京东城区",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "2003",
+        "dateEnd": "2003"
+      },
+      "story_mode": {
+        "chapter_title": "第7章·农民会员的身份",
+        "hook": "一个靠长城吃饭的农民，决定正式成为长城的“守护者”。",
+        "narrative_text": "魏子淇的野心并不止于开农家乐。他意识到，要让三岔村的生意长久，必须与某种更高的权威挂钩。何伟陪着他来到位于北京城内的中国长城协会办公点。在填写入会申请表时，魏子淇在职业一栏端正地写下了“农民”两个字。尽管他已经是个成功的商人，但他深知这个身份在长城保护语境下的特殊分量。他缴纳了会费，领取了会员证，仿佛通过这个仪式，他不再只是一个在长城脚下讨生活的山民，而成了国家文化遗产的合法利益相关者。",
+        "transition_to": "魏子淇在城里忙着经营身份，而他的儿子魏嘉则在城里的游乐中看到了另一个世界。",
+        "mood": "serious",
+        "key_dialogue": "他在简历中写道：魏子淇，男，汉族，农民。"
+      }
+    },
+    {
+      "title": "后海",
+      "address": "中国-北京-西城区-后海",
+      "synopsis": "何伟带魏嘉在后海划船，年幼的魏嘉被这里的繁华吸引，立志长大后要搬到这里居住。",
+      "source_evidence": "我带他到离公寓不远的后海划过船之后，他问我，大海是不是比那小湖泊大一点点。……不过，他说过，等他有一天离开村庄后，他会到北京去住，就住在后海的边上。",
+      "original_chapter": "第二章",
+      "part_id": "PART-2",
+      "part_title": "村庄",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2003",
+        "date_end": "2004"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "何伟",
+          "魏嘉"
+        ],
+        "stay_duration": "一个下午"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "childhood",
+          "urbanization",
+          "dreams"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "著名的什刹海景区一部分",
+        "current_name": "什刹海（后海）"
+      },
+      "timeline": {
+        "orderIndex": 8,
+        "dateStart": "2003",
+        "dateEnd": "2004"
+      },
+      "story_mode": {
+        "chapter_title": "第8章·后海的小船与大梦",
+        "hook": "在三岔村长大的孩子，第一次见到了比山泉更大的“海”。",
+        "narrative_text": "何伟经常带着魏子淇的儿子魏嘉进城。对于这个在山里长大的孩子来说，北京的一切都是新奇的。在后海，何伟租了一只小船，带着魏嘉在水面上荡漾。魏嘉看着岸边的古旧建筑和穿梭的游客，天真地问何伟，真正的“大海”是不是只比这个湖大一点点。这里的繁华与宁静交织，在孩子心中种下了种子。魏嘉宣布，等他长大离开村子，他一定要住在后海边上。这一刻，城乡之间的鸿沟在孩子的梦想中暂时消失了。",
+        "transition_to": "除了后海的宁静，城里的游乐场更是魏嘉童年记忆中最闪亮的部分。",
+        "mood": "nostalgic",
+        "key_dialogue": "“等我长大了，”魏嘉说，“我就要住在后海边上。”"
+      }
+    },
+    {
+      "title": "石景山游乐场",
+      "address": "中国-北京-石景山区-石景山路25号",
+      "synopsis": "何伟带魏嘉前往石景山游乐场，这个充满山寨气息的乐园成为了山里孩子最快乐的记忆。",
+      "source_evidence": "我们去北京城外的石景山游乐场游玩过，跟弗朗西斯和爱丽丝这两个朋友在那儿玩了一天。",
+      "original_chapter": "第二章",
+      "part_id": "PART-2",
+      "part_title": "村庄",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2004",
+        "date_end": "2004"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟",
+          "魏嘉"
+        ],
+        "stay_duration": "一天"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "leisure",
+          "childhood",
+          "westernization"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "至今仍在营业，以其独特的复古/山寨风格著称",
+        "current_name": "石景山游乐园"
+      },
+      "timeline": {
+        "orderIndex": 9,
+        "dateStart": "2004",
+        "dateEnd": "2004"
+      },
+      "story_mode": {
+        "chapter_title": "第9章·山寨乐园里的童年",
+        "hook": "在那个模仿迪士尼的游乐场里，魏嘉体验到了最纯粹的快乐。",
+        "narrative_text": "何伟带着魏嘉，还有几个外国朋友，一起去了石景山游乐场。那是一个充满了奇特模仿气息的地方，有着酷似迪士尼的城堡和各种色彩斑斓的游乐设施。对于魏嘉来说，这里就是天堂。他不再是那个在山坡上帮父母干活的小帮手，而是一个沉浸在现代娱乐工业中的普通男孩。他在各种器械上尖叫、欢笑，这些经历让他与三岔村的其他孩子拉开了距离——他见过外面的世界，见过那些闪烁的霓虹和巨大的摩天轮。",
+        "transition_to": "魏嘉在游乐场享受童年时，他的父亲魏子淇正作为党员，享受着另一种形式的“福利”。",
+        "mood": "joyful",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "承德避暑山庄",
+      "address": "中国-河北-承德-双桥区-避暑山庄",
+      "synopsis": "三岔村的党员们前往承德避暑山庄进行公费旅游，魏子淇作为党员参与了这次政治与休闲并重的活动。",
+      "source_evidence": "2006年6月，当地的政治运动进行得如火如荼的时候，全体党员到承德进行了一趟年度公费旅游。",
+      "original_chapter": "第三章",
+      "part_id": "PART-2",
+      "part_title": "村庄",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": "热河",
+        "date_start": "2006",
+        "date_end": "2006"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "魏子淇"
+        ],
+        "stay_duration": "2-3天"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "politics",
+          "tourism",
+          "collectivism"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "世界文化遗产，著名旅游景点",
+        "current_name": "承德避暑山庄"
+      },
+      "timeline": {
+        "orderIndex": 10,
+        "dateStart": "2006",
+        "dateEnd": "2006"
+      },
+      "story_mode": {
+        "chapter_title": "第10章·皇家园林里的党员团",
+        "hook": "一场名为“先进性教育”的运动，最终变成了一次承德之旅。",
+        "narrative_text": "2006年夏天，三岔村的政治生活变得活跃起来。作为村里的精英，魏子淇和其他党员一起参加了由政府组织的年度公费旅游，目的地是承德避暑山庄。在昔日皇帝避暑的行宫里，这些来自长城脚下的农民党员们合影留念，参观古迹。这种旅游既是某种政治奖励，也是他们接触外界、感受国家力量的方式。魏子淇在这些活动中表现得游刃有余，他已经完全适应了这种在农民、商人和党员身份之间切换的生活。",
+        "transition_to": "当北方的山村在旅游中窥见世界时，何伟已南下温州，开启了另一段关于工厂的故事。",
+        "mood": "peaceful",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "大连",
+      "address": "中国-辽宁-大连-中山区-大连港",
+      "synopsis": "三岔村党员年度旅游地，魏子淇第一次乘坐飞机前往，并观看了令他大开眼界的人妖表演。",
+      "source_evidence": "2007年，……三岔村党支部的年度出游活动把党员们带到了靠近朝鲜半岛的东北重要海滨城市大连。……魏子淇从东北回来之后，情不自禁地摆谈起那场表演晚会。",
+      "original_chapter": "第三章",
+      "part_id": "PART-2",
+      "part_title": "村庄",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2007",
+        "date_end": "2007"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "魏子淇"
+        ],
+        "stay_duration": "几天"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "modernization",
+          "tourism",
+          "culture_shock"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "大连作为重要海滨城市，其旅游业依然发达",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 11,
+        "dateStart": "2007",
+        "dateEnd": "2007"
+      },
+      "story_mode": {
+        "chapter_title": "第11章·飞向大连的党员们",
+        "hook": "山村里的党员们飞向海滨，迎接他们的是从未见过的异域表演。",
+        "narrative_text": "2007年，三岔村的党支部组织了一次不同寻常的年度旅游——目的地是辽宁大连。对于魏子淇这位一直扎根在长城脚下的农民企业家来说，这是他人生中第一次乘坐飞机。在那个靠近朝鲜半岛的海滨城市，魏子淇和他的党员同志们不仅看到了大海，还观看了一场令他大为震撼的“人妖”表演。回到村子后，他绘声绘色地向何伟描述那些表演者的美貌与奇特，这种现代娱乐与古老山村生活的碰撞，折射出中国农村在经济增长后对外部世界既好奇又略显笨拙的探索。",
+        "transition_to": "结束了北方的村庄观察，何伟将目光投向了南方的工业心脏——温州。",
+        "mood": "joyful",
+        "key_dialogue": "“他们看起来比真正的女人还要漂亮，”魏子淇说，“你根本看不出来。”"
+      }
+    },
+    {
+      "title": "温州昌盛汽车租赁公司",
+      "address": "中国-浙江-温州-鹿城区-温州昌盛汽车租赁公司",
+      "synopsis": "何伟在温州租车，领教了温州商人将油箱吸干卖掉的极致精明。",
+      "source_evidence": "然而“温州昌盛汽车租赁公司”的这些家伙，竟然以他们精明的商业头脑解决了这个问题。如果我还回去的桑塔纳轿车里还剩一升汽油，他们都会把它吸出来，然后卖掉。",
+      "original_chapter": "第一章",
+      "part_id": "PART-3",
+      "part_title": "工厂",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2007",
+        "date_end": "2008"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "多次短期停留"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "business_culture",
+          "shrewdness",
+          "transportation"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "uncertain",
+        "note": "此类小型租赁公司变动较大，原址可能已更名或搬迁",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 12,
+        "dateStart": "2007",
+        "dateEnd": "2008"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·温州式的精明",
+        "hook": "在这里租车，你永远别想在油箱里找到多余的一滴油。",
+        "narrative_text": "何伟来到了中国民营经济最活跃的阵地——温州。为了深入观察这里的工业生态，他走进了一家名为“昌盛”的汽车租赁公司。在这里，他第一次直观地感受到了温州商人那种近乎苛刻的精明：租给他的大众桑塔纳油箱几乎是空的。原来，这里的员工会把每一辆还回来的车里剩余的汽油全部吸出来卖掉。这种对微小利润的极致追求，正是温州模式的缩影。何伟开着这辆几乎空油的车，小心翼翼地寻找加油站，准备驶向那条连接着无数工厂的生命线。",
+        "transition_to": "加满油后，何伟驶上了金丽温高速公路，这条路通往中国制造的深处。",
+        "mood": "amused",
+        "key_dialogue": "如果我还回去的桑塔纳轿车里还剩一升汽油，他们都会把它吸出来，然后卖掉。"
+      }
+    },
+    {
+      "title": "金丽温高速公路",
+      "address": "中国-浙江-温州-金丽温高速公路",
+      "synopsis": "连接温州、丽水和金华的工业大动脉，是何伟观察南方农村向工业化转型的核心路径。",
+      "source_evidence": "在东南部，其中新修的一条道路叫作“金丽温”高速公路。这条路起于靠近海岸线的温州，向西向北二百三十多公里后，接上了丽水市和金华市。",
+      "original_chapter": "第一章",
+      "part_id": "PART-3",
+      "part_title": "工厂",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2007",
+        "date_end": "2008"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "多次往返行驶"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "infrastructure",
+          "industrialization",
+          "transformation"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为G1513温丽高速",
+        "current_name": "温丽高速"
+      },
+      "timeline": {
+        "orderIndex": 13,
+        "dateStart": "2007",
+        "dateEnd": "2008"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·工业大动脉",
+        "hook": "一条新修的高速公路，如同手术刀般切开了古老的江南山村。",
+        "narrative_text": "金丽温高速公路是何伟在浙江观察的地理核心。这条全长两百三十多公里的道路，将沿海的温州与内陆的丽水、金华紧紧相连。在何伟眼中，这不仅仅是一条交通线，更是一条文明的传送带。高速公路两旁，曾经的农田正迅速被整齐划一的厂房取代。他开着租来的桑塔纳，在这条路上见证了中国速度——隧道贯穿山脉，高架桥跨越溪流，将原本封闭的村落强行拉入全球贸易的版图。然而，在高速公路的阴影下，老路依然承载着另一种节奏。",
+        "transition_to": "与平整的高速公路并行的，是尘土飞扬、充满生活气息的330国道。",
+        "mood": "ambitious",
+        "key_dialogue": "这条路起于靠近海岸线的温州，向西向北二百三十多公里后，接上了丽水市和金华市。"
+      }
+    },
+    {
+      "title": "330国道",
+      "address": "中国-浙江-温州-330国道",
+      "synopsis": "与新高速并行的老旧国道，沿途分布着各种专业化生产的“专业村”。",
+      "source_evidence": "这条道路的很多路段跟老旧的330国道并肩而行。我开着桑塔纳轿车第一次行驶在那条陈旧的两车道国道时，经过了好几公里正在修建的路段。",
+      "original_chapter": "第一章",
+      "part_id": "PART-3",
+      "part_title": "工厂",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2007",
+        "date_end": "2008"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "多次往返行驶"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "specialized_villages",
+          "grassroots_economy",
+          "chaos"
+        ],
+        "significance": 0.7
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "国道依然存在，但部分路段已改建",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 14,
+        "dateStart": "2007",
+        "dateEnd": "2008"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·老国道的节奏",
+        "hook": "在尘土与颠簸中，每一个村庄都在疯狂地生产着某种单一的零件。",
+        "narrative_text": "相比于金丽温高速的封闭与高效，330国道显得杂乱而充满生命力。何伟选择驶离高速，进入这条陈旧的两车道公路。这里没有护栏的阻隔，路边的一切都赤裸裸地展示着工业化的初级阶段。他发现，这里的村庄遵循着一种奇特的“专业化”逻辑：一个村子可能只生产拉链，另一个村子则全是灯具。货车超载着原材料和成品在坑洼不平的路面上咆哮，空气中弥漫着橡胶和金属的味道。这种野蛮生长的力量，正是中国制造最底层的根基。",
+        "transition_to": "在国道的第一个转弯处，下斜村那漫山遍野的红色塑料滑梯吸引了他的注意。",
+        "mood": "desolate",
+        "key_dialogue": "我开着桑塔纳轿车第一次行驶在那条陈旧的两车道国道时，经过了好几公里正在修建的路段。"
+      }
+    },
+    {
+      "title": "下斜村",
+      "address": "中国-浙江-温州-永嘉县-桥下镇-下斜村",
+      "synopsis": "330国道旁的专业村，以生产秋千、滑梯等体育器材闻名。",
+      "source_evidence": "出城十五六公里远，在下斜村，一排排体育器材堆在一起，一眼望不到边。在街边，到处都摆放着一堆堆秋千架、红色塑料滑梯、或黄或绿的单杠横杆。",
+      "original_chapter": "第一章",
+      "part_id": "PART-3",
+      "part_title": "工厂",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2007",
+        "date_end": "2007"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "短暂观察"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "manufacturing",
+          "specialization",
+          "visual_shock"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "该地至今仍是中国著名的教玩具生产基地",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 15,
+        "dateStart": "2007",
+        "dateEnd": "2007"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·滑梯 of 海洋",
+        "hook": "在这个村庄，童年的快乐被拆解成零件，成吨地堆放在路边。",
+        "narrative_text": "驶出温州城约十五公里，何伟在下斜村停下了车。眼前的景象让他感到荒诞而震撼：成百上千的红色塑料滑梯、明黄色的单杠和秋千架像农作物一样堆满了街边，一眼望不到尽头。这里没有游乐场，只有制造游乐器材的家庭作坊。村民们忙碌地搬运着这些巨大的塑料构件，它们将被发往全国乃至全球的幼儿园。这种将某种单一产品做到极致的“块状经济”，让下斜村成为了一个巨大的露天仓库，也为何伟揭示了中国制造如何通过细分市场占领世界。",
+        "transition_to": "从北方的长城脚下到南方的工厂车间，何伟的旅程勾勒出了一个正在飞速转型的中国。",
+        "mood": "mysterious",
+        "key_dialogue": "在街边，到处都摆放着一堆堆秋千架、红色塑料滑梯、或黄或绿的单杠横杆。"
+      }
+    },
+    {
+      "title": "中国钮扣城",
+      "address": "中国-浙江省-温州市-永嘉县-桥头镇-中国钮扣城",
+      "synopsis": "桥头镇的标志性建筑，见证了中国钮扣产业从家庭作坊到占据全球市场份额的奇迹。",
+      "source_evidence": "为了纪念这一数据，村里的老人们在镇中心位置竖立起了这座雕塑，正对着新建成的“中国钮扣城”大楼。钮扣城总共四层，底楼全部用于经营桥头镇的特色产品。",
+      "original_chapter": "第三部分：工厂",
+      "part_id": "PART-3",
+      "part_title": "工厂",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2005",
+        "date_end": "2005"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "数小时"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "industrialization",
+          "capitalism",
+          "economic_miracle"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为桥头镇重要的商贸中心",
+        "current_name": "桥头中国钮扣城"
+      },
+      "timeline": {
+        "orderIndex": 61,
+        "dateStart": "2005",
+        "dateEnd": "2005"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·塑料海洋中的钮扣帝国",
+        "hook": "在这个不起眼的小镇，竟然生产着全球七成的钮扣。",
+        "narrative_text": "离开下斜村那片彩色的塑料海洋，何伟来到了桥头镇。这里的地标是一座巨大的钮扣雕塑，正对着宏伟的“中国钮扣城”。在20世纪80年代，这里曾是中国私营经济的先锋，如今它已成为一个成熟的工业集散地。四层楼的大厦里挤满了摊位，展示着成千上万种款式各异的钮扣。何伟在这里观察到，中国东南沿海的每一个小镇似乎都找到了自己的生存之道，将单一的产品做到极致，从而连接起全球的供应链。",
+        "transition_to": "离开这座钮扣的殿堂，何伟驱车向南，进入了正在大兴土木的丽水经济开发区。",
+        "mood": "ambitious",
+        "key_dialogue": "“这里生产的钮扣占中国市场份额的70%。”"
+      }
+    },
+    {
+      "title": "丽水经济开发区",
+      "address": "中国-浙江省-丽水市-莲都区-丽水经济开发区",
+      "synopsis": "何伟见证了这片削平180座山头建成的工业园，以及高晓萌和王爱国在此艰难创业的起步。",
+      "source_evidence": "在城市的南面，新建的高速公路即将设置一个出口，通到当地政府正在建设的丽水经济开发区。直到不久前，这里还一直是个农业地区",
+      "original_chapter": "第三部分：工厂",
+      "part_id": "PART-3",
+      "part_title": "工厂",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2005",
+        "date_end": "2007"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟",
+          "高晓萌",
+          "王爱国",
+          "王利炯"
+        ],
+        "stay_duration": "多次往返观察"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "urbanization",
+          "entrepreneurship",
+          "transformation"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": null,
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 62,
+        "dateStart": "2005",
+        "dateEnd": "2007"
+      },
+      "story_mode": {
+        "chapter_title": "第6章·推平山头造出的新城",
+        "hook": "为了工业化，当地政府竟然削平了180座山头。",
+        "narrative_text": "在丽水，何伟目睹了一场人类改变地理环境的壮举。为了腾出工业用地，政府动用重型机械削平了180座山头。在这片尘土飞扬的新开发区，他结识了高晓萌和王爱国——一对充满野心的创业伙伴。高晓萌精明能干，负责销售；王爱国则沉默寡言，精通技术。他们决定在这里建立一家生产胸罩调节环的工厂。此时的开发区还是一片荒芜，但空气中弥漫着一种不顾一切向前的狂热气息。",
+        "transition_to": "在一次漫长的观察旅途中，一场突如其来的车祸让何伟在瑞安国际饭店寻求暂时的安宁。",
+        "mood": "ambitious",
+        "key_dialogue": "“直到不久前，这里还一直是个农业地区。”"
+      }
+    },
+    {
+      "title": "瑞安国际饭店",
+      "address": "中国-浙江省-温州市-瑞安市-瑞安国际饭店",
+      "synopsis": "何伟在目睹惨烈车祸后在此留宿，饭店周围密集的汽车零件店折射出当地的产业特色。",
+      "source_evidence": "在瑞安国际饭店停车过夜的时候，我的双手依然在颤抖。停车场上停满了一排排黑色的轿车：奥迪、别克、大众。",
+      "original_chapter": "第三部分：工厂",
+      "part_id": "PART-3",
+      "part_title": "工厂",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2005",
+        "date_end": "2005"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "1晚"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "trauma",
+          "automotive_culture"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": null,
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 63,
+        "dateStart": "2005",
+        "dateEnd": "2005"
+      },
+      "story_mode": {
+        "chapter_title": "第7章·惊魂未定的瑞安之夜",
+        "hook": "目睹了公路上的惨剧后，何伟的双手仍在颤抖。",
+        "narrative_text": "在前往工厂的路上，何伟目睹了一场极其惨烈的交通事故，这让他深刻体会到中国高速增长背后的安全代价。当晚，他入住瑞安国际饭店，心情久久不能平复。饭店停车场里停满了象征身份的黑色轿车，而街道两旁则是密密麻麻的汽车零部件商店。这种强烈的对比——对速度的追求与对生命的漠视，在温州这个充满商业活力的地区显得尤为刺眼。",
+        "transition_to": "平复心情后，何伟回到了丽水，深入探访高晓萌工厂所在的格雷电工大楼。",
+        "mood": "tense",
+        "key_dialogue": "“在瑞安国际饭店停车过夜的时候，我的双手依然在颤抖。”"
+      }
+    },
+    {
+      "title": "格雷电工有限公司",
+      "address": "中国-浙江省-丽水市-丽水经济开发区-格雷电工有限公司",
+      "synopsis": "高晓萌和王爱国的工厂租用了季金力创办的格雷电工大楼，这里是他们事业的起点。",
+      "source_evidence": "王老板和高老板是从另外一家公司租用的厂房，这家公司名叫格雷电工有限公司，创办者名叫季金力。",
+      "original_chapter": "第三部分：工厂",
+      "part_id": "PART-3",
+      "part_title": "工厂",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2005",
+        "date_end": "2006"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟",
+          "季金力",
+          "王爱国",
+          "高晓萌"
+        ],
+        "stay_duration": "多次访问"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "manufacturing",
+          "partnership"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": null,
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 64,
+        "dateStart": "2005",
+        "dateEnd": "2006"
+      },
+      "story_mode": {
+        "chapter_title": "第8章·寄人篱下的创业梦",
+        "hook": "在别人的工厂大楼里，高晓萌和王爱国开始了他们的冒险。",
+        "narrative_text": "高晓萌和王爱国的胸罩调节环工厂最初并没有自己的独立厂房，而是租用了季金力创办的格雷电工有限公司的一部分。季金力是一个典型的温州商人，他的公司生产电灯开关。在格雷电工的大门口，并排挂着中国国旗、公司旗帜和美国国旗，显示出一种走向国际的雄心。何伟在这里观察到，这种“厂中厂”的模式在初创企业中非常普遍，大家在资源共享中寻找着各自的生存空间。",
+        "transition_to": "走出格雷电工的大门，何伟站在遂松路上，注视着这条街道的惊人巨变。",
+        "mood": "ambitious",
+        "key_dialogue": "“王老板和高老板是从另外一家公司租用的厂房。”"
+      }
+    },
+    {
+      "title": "遂松路",
+      "address": "中国-浙江省-丽水市-丽水经济开发区-遂松路",
+      "synopsis": "何伟通过这条街道的演变，记录了丽水从荒凉土路到繁华工业区的全过程。",
+      "source_evidence": "胸罩调节环制造厂坐落在遂松路上，2005年，当我第一次驾车经过时，那儿除了一条土路，什么也没有。",
+      "original_chapter": "第三部分：工厂",
+      "part_id": "PART-3",
+      "part_title": "工厂",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2005",
+        "date_end": "2007"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟",
+          "陶玉凤",
+          "刘长福"
+        ],
+        "stay_duration": "长期观察"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "urban_growth",
+          "social_change"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": null,
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 65,
+        "dateStart": "2005",
+        "dateEnd": "2007"
+      },
+      "story_mode": {
+        "chapter_title": "第9章·遂松路的岁月痕迹",
+        "hook": "从一条荒凉的土路到工厂林立，这条街只用了两年。",
+        "narrative_text": "遂松路是何伟观察中国速度的最佳窗口。2005年他初次到来时，这里只有漫天的尘土和未完工的建筑。随着时间的推移，他看到陶玉凤和刘长福等外来务工人员涌入这条街道，小餐馆、杂货店和理发店如雨后春笋般出现。原本荒凉的土地被水泥和钢铁覆盖，胸罩调节环工厂的机器声开始日夜轰鸣。这条街道不仅是地理上的存在，更是无数普通人命运交织的舞台。",
+        "transition_to": "为了寻找更多的工人，何伟跟随工厂的招聘步伐，来到了丽水市人才市场。（待续）",
+        "mood": "nostalgic",
+        "key_dialogue": "“2005年，当我第一次驾车经过时，那儿除了一条土路，什么也没有。”"
+      }
+    },
+    {
+      "title": "丽水市人才市场",
+      "address": "中国-浙江省-丽水市-莲都区-丽水市人才市场",
+      "synopsis": "位于丽水市中心的招工中心，电子显示屏滚动着工厂需求，是外来务工者的命运中转站。",
+      "source_evidence": "有些外来务工人员去了丽水的“人才市场”，这算得上是当地的找活中心吧。“人才市场”的主楼位于市中心，挂着一块巨大的电子显示屏",
+      "original_chapter": "第一章",
+      "part_id": "PART-3",
+      "part_title": "工厂",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2005",
+        "date_end": "2007"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "数小时"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "labor",
+          "migration",
+          "urbanization"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为丽水市人力资源市场",
+        "current_name": "丽水市人力资源市场"
+      },
+      "timeline": {
+        "orderIndex": 66,
+        "dateStart": "2005",
+        "dateEnd": "2007"
+      },
+      "story_mode": {
+        "chapter_title": "第14章·滚动的招工屏",
+        "hook": "在巨大的电子显示屏下，无数人的命运被简化为一行行滚动的岗位需求。",
+        "narrative_text": "为了寻找更多关于工厂与工人的故事，何伟跟随招聘者的步伐来到了丽水市人才市场。这里是这座新兴工业城市的脉搏所在，主楼位于繁华的市中心，最引人注目的是那块巨大的电子显示屏。屏幕上永不停歇地滚动着各类招工信息：缝纫工、质检员、搬运工。对于成千上万从农村涌向城市的外来务工者来说，这里是他们寻找机会的聚集地，也是他们融入工业文明的第一站。何伟观察着这些年轻的面孔，他们带着迷茫与希望，在屏幕前驻足、记录，试图在密密麻麻的文字中勾勒出自己的未来。",
+        "transition_to": "在喧嚣的人才市场之外，何伟决定在丽水市长期驻扎，以便深入观察这座城市的变迁。",
+        "mood": "ambitious",
+        "key_dialogue": "“人才市场”的主楼位于市中心，挂着一块巨大的电子显示屏，上面滚动播放着各种招工信息。"
+      }
+    },
+    {
+      "title": "丽水市",
+      "address": "中国-浙江省-丽水市",
+      "synopsis": "何伟在浙南考察期间的据点，他在新旧交替的城市节奏中观察工业化对日常生活的渗透。",
+      "source_evidence": "有一年多的时间，我定期前往浙江南部考察……丽水市新修了一家叫作现代广场的宾馆……在几个街区之外，我加入了那家叫作“闻香识女人”的健身俱乐部。",
+      "original_chapter": "第三章",
+      "part_id": "PART-3",
+      "part_title": "工厂",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2005",
+        "date_end": "2007"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "一年多定期往返"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "observation",
+          "modernization",
+          "daily_life"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": null,
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 67,
+        "dateStart": "2005",
+        "dateEnd": "2007"
+      },
+      "story_mode": {
+        "chapter_title": "第15章·浙南的考察据点",
+        "hook": "在柑橘林与新修的高速公路之间，一座城市正在野蛮生长。",
+        "narrative_text": "在长达一年多的时间里，丽水市成为了何伟观察中国南方工厂生活的窗口。这座城市正处于剧烈的转型期，新修的建筑与旧有的山水交织在一起。何伟在这里建立了一种规律的生活：他住在现代化的宾馆，在城南的小山上跑步，穿行在郁郁葱葱的柑橘林间。从这里出发，他可以轻易到达周边的各个工业区。他不仅关注工厂的产值，更关注那些在工业化浪潮中被改变的个体。丽水对他而言，不再仅仅是一个地理坐标，而是一个充满活力的、正在自我重塑的生命体。",
+        "transition_to": "为了维持这种规律的生活，他住进了当地一家条件尚可的宾馆。",
+        "mood": "peaceful",
+        "key_dialogue": "有一年多的时间，我定期前往浙江南部考察。我通常在丽水市落脚。"
+      }
+    },
+    {
+      "title": "现代广场宾馆",
+      "address": "中国-浙江省-丽水市-莲都区-现代广场宾馆",
+      "synopsis": "何伟在丽水考察时的常住地，他在这里与经理讨价还价，建立了一个临时的“家”。",
+      "source_evidence": "丽水市新修了一家叫作现代广场的宾馆，我同他们的经理协商到了特价，一晚只要一百六十元。",
+      "original_chapter": "第三章",
+      "part_id": "PART-3",
+      "part_title": "工厂",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2005",
+        "date_end": "2007"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "多次累计数月"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "hospitality",
+          "economy"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现仍作为酒店经营",
+        "current_name": "现代广场宾馆"
+      },
+      "timeline": {
+        "orderIndex": 68,
+        "dateStart": "2005",
+        "dateEnd": "2007"
+      },
+      "story_mode": {
+        "chapter_title": "第16章·160元的特价房",
+        "hook": "在工业城市的商务宾馆里，外籍作家学会了如何像当地人一样协商价格。",
+        "narrative_text": "现代广场宾馆是丽水市当时新修的建筑，为何伟提供了考察期间的落脚点。作为一个精打细算的旅行者，何伟展现出了他接地气的一面——他直接与宾馆经理协商，最终拿到了每晚一百六十元的特价。这个房间成了他在浙南的临时工作室，他在窗前记录下白天的所见所闻。宾馆的陈设虽然标准且略显单调，但它代表了当时中国地级市追求现代化的标准配置。在这里，他不仅是观察者，也成为了这座城市商业生态中的一个微小环节。",
+        "transition_to": "除了工作与休息，何伟还试图在当地寻找一种更具“现代感”的休闲方式。",
+        "mood": "peaceful",
+        "key_dialogue": "我同他们的经理协商到了特价，一晚只要一百六十元。"
+      }
+    },
+    {
+      "title": "“闻香识女人”健身俱乐部",
+      "address": "中国-浙江省-丽水市-莲都区-“闻香识女人”健身俱乐部",
+      "synopsis": "丽水当时唯一的健身房，名字充满时代特色，内部充斥着廉价仿皮的味道。",
+      "source_evidence": "在几个街区之外，我加入了那家叫作“闻香识女人”的健身俱乐部。那是丽水城区唯一的一家健身房",
+      "original_chapter": "第三章",
+      "part_id": "PART-3",
+      "part_title": "工厂",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2005",
+        "date_end": "2007"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "一年多定期前往"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "lifestyle",
+          "kitsch",
+          "modernization"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "demolished",
+        "note": "此类早期健身房多已结业或更名",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 69,
+        "dateStart": "2005",
+        "dateEnd": "2007"
+      },
+      "story_mode": {
+        "chapter_title": "第17章·闻香识女人",
+        "hook": "在一家名字古怪的健身房里，何伟嗅到了中国城市中产阶级萌芽的气息。",
+        "narrative_text": "在距离宾馆几个街区的地方，何伟加入了一家名为“闻香识女人”的健身俱乐部。这个名字取自著名的好莱坞电影，但在丽水的语境下显得既时髦又有些滑稽。作为当时城区唯一的健身房，这里的设施并不算先进，空气中弥漫着一股浓重的廉价仿皮味。然而，这里却是当地追求生活品质的年轻人的聚集地。何伟在这里挥汗如雨，观察着那些试图通过锻炼来塑造“现代身体”的当地人。这种对西方生活方式的模仿与本土审美的结合，正是那个时代中国城镇的缩影。",
+        "transition_to": "结束了在丽水的阶段性考察，何伟前往温州，在那里他遇到了一位特殊的“大人物”。",
+        "mood": "amused",
+        "key_dialogue": "那是丽水城区唯一的一家健身房，里面有一股很重的仿皮味。"
+      }
+    },
+    {
+      "title": "温州",
+      "address": "中国-浙江省-温州市",
+      "synopsis": "中国最具活力的经济中心之一，何伟在此遇到了毛泽东的特型演员，感受到了温州模式的独特氛围。",
+      "source_evidence": "欢迎您来到中国十大最具活力的经济中心之一：温州。……那是早上七点三十分北京飞温州的第一个航班",
+      "original_chapter": "第三章",
+      "part_id": "PART-3",
+      "part_title": "工厂",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2005",
+        "date_end": "2007"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟",
+          "金阳"
+        ],
+        "stay_duration": "多次访问"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "entrepreneurship",
+          "capitalism",
+          "politics"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": null,
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 70,
+        "dateStart": "2005",
+        "dateEnd": "2007"
+      },
+      "story_mode": {
+        "chapter_title": "第18章·活力之都的奇遇",
+        "hook": "在飞往温州的航班上，何伟发现自己正坐在“毛主席”的身边。",
+        "narrative_text": "温州，这座以商业活力闻名全国的城市，为何伟展示了中国资本主义最狂热的一面。刚下飞机，手机就收到了温州市委欢迎短信，宣称这里是“最具活力的经济中心”。在一次清晨的航班上，何伟偶遇了金阳——一位专门扮演毛泽东的特型演员。这种强烈的反差——在最资本主义的城市遇见最社会主义的符号——让何伟深感着迷。温州不仅是高老板和王老板这些创业者的故乡，更是无数商业神话的诞生地。在这里，政治符号与商业利益奇妙地共存，共同驱动着这座城市的疯狂运转。",
+        "transition_to": "走出机舱，温州机场的繁忙景象预示着一段更深入的商业冒险即将开始。（待续）",
+        "mood": "dramatic",
+        "key_dialogue": "欢迎您来到中国十大最具活力的经济中心之一：温州。"
+      }
+    },
+    {
+      "title": "温州机场",
+      "address": "中国-浙江省-温州市-龙湾区-温州龙湾国际机场",
+      "synopsis": "何伟降落温州，在摆渡车与洗手间内偶遇充满商业野心的年轻人金阳，初识温州模式下的个体活力。",
+      "source_evidence": "飞机在温州机场降落之后，一辆公共汽车驶过来，把所有的乘客从飞机上转运到航站楼。……在男厕所里，我又碰到了金阳。他正站在镜子前，往头发上抹着摩丝。",
+      "original_chapter": "第三章",
+      "part_id": "PART-3",
+      "part_title": "工厂",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": "温州永强机场",
+        "date_start": "2005",
+        "date_end": "2005"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟",
+          "金阳"
+        ],
+        "stay_duration": "1小时"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "urbanization",
+          "ambition",
+          "chance_encounter"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现已扩建为温州龙湾国际机场",
+        "current_name": "温州龙湾国际机场"
+      },
+      "timeline": {
+        "orderIndex": 71,
+        "dateStart": "2005",
+        "dateEnd": "2005"
+      },
+      "story_mode": {
+        "chapter_title": "第15章·机场里的摩丝味",
+        "hook": "在拥挤的摆渡车上，一个年轻人正急于向世界推销他的商业梦想。",
+        "narrative_text": "走出机舱，温州机场的繁忙景象预示着一段更深入的商业冒险即将开始。何伟在摆渡车上遇到了金阳——一个西装革履、眼神中透着精明与渴望的年轻人。金阳并不掩饰自己的野心，他向何伟打听着外面的世界，言语间充满了温州人特有的闯劲。有趣的是，两人随后在航站楼的洗手间再次偶遇，金阳正对着镜子仔细地涂抹摩丝，试图以最体面的形象迎接这座充满机会的城市。这种对成功的极度渴望，正是何伟在这一章节中试图捕捉的中国南方工厂时代的缩影。",
+        "transition_to": "离开喧嚣的机场，何伟驱车向南，进入了因水电站建设而处于剧变中的石帆乡。",
+        "mood": "ambitious",
+        "key_dialogue": "“你觉得，在温州这个地方，我能找到什么样的好工作？”"
+      }
+    },
+    {
+      "title": "石帆乡",
+      "address": "中国-浙江省-丽水市-莲都区-石帆乡",
+      "synopsis": "为何建滩坑水电站而设立的移民安置点，何伟在此目睹了倒计时牌下移民们复杂而无奈的情绪。",
+      "source_evidence": "其中一个小城镇名叫石帆乡，位于丽水市以南十六公里。……石帆乡是为了那个叫作滩坑水电站项目而建在高速路口的城镇之一。",
+      "original_chapter": "第三章",
+      "part_id": "PART-3",
+      "part_title": "工厂",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2005",
+        "date_end": "2005"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "数小时"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "migration",
+          "development",
+          "disruption"
+        ],
+        "significance": 0.75
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为移民安置社区",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 72,
+        "dateStart": "2005",
+        "dateEnd": "2005"
+      },
+      "story_mode": {
+        "chapter_title": "第16章·倒计时的移民镇",
+        "hook": "巨大的电子显示屏跳动着数字，每一秒都在宣告故土的消亡。",
+        "narrative_text": "石帆乡并非一个自然的古镇，而是为了安置滩坑水电站移民而仓促建起的城镇。何伟在这里看到了一块巨大的倒计时牌，提醒着人们旧家园被淹没的最后期限。这里的气氛压抑而焦灼，心怀不满的移民们聚集在街头，讨论着补偿款和未知的未来。对于这些被迫离开祖辈土地的人来说，现代化的进程并非抽象的进步，而是具体到每一块砖瓦的拆除和每一寸土地的丧失。何伟通过观察这些细节，记录下了大工业建设背后微小个体的牺牲。",
+        "transition_to": "顺着工程的痕迹，何伟继续向西，直抵那座改变了数万人命运的巨大坝址。",
+        "mood": "melancholic",
+        "key_dialogue": "“他们说这是为了进步，但我们的地没了。”"
+      }
+    },
+    {
+      "title": "滩坑水电站",
+      "address": "中国-浙江省-丽水市-青田县-滩坑水电站",
+      "synopsis": "何伟驱车经过巨大的水电站坝址，感受工业力量对自然地貌的剧烈重塑。",
+      "source_evidence": "滩坑大坝位于丽水市西面的高山上，建在小溪之上。……驶往北山的途中，我经过了大坝的坝址，那里正在进行大规模的土石方工程。",
+      "original_chapter": "第三章",
+      "part_id": "PART-3",
+      "part_title": "工厂",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2005",
+        "date_end": "2005"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "路过"
+      },
+      "cultural_tags": {
+        "category": "architectural",
+        "themes": [
+          "engineering",
+          "nature_vs_man",
+          "industrialization"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现已建成发电，形成千峡湖景区",
+        "current_name": "滩坑水电站/千峡湖"
+      },
+      "timeline": {
+        "orderIndex": 73,
+        "dateStart": "2005",
+        "dateEnd": "2005"
+      },
+      "story_mode": {
+        "chapter_title": "第17章·巨坝的阴影",
+        "hook": "在丽水的高山深处，人类正在用混凝土截断溪流。",
+        "narrative_text": "当何伟驱车经过滩坑水电站的坝址时，他被眼前的景象所震撼：巨大的挡土墙像伤疤一样刻在山体上，重型机械在尘土中轰鸣。这是一项耗资巨大的工程，旨在为浙江的工业腾飞提供动力，但其代价是淹没上游众多的村庄。何伟在车窗内注视着这一切，这种宏大叙事与他在石帆乡看到的个人苦难形成了鲜明对比。大坝不仅是混凝土的堆砌，更是国家意志在偏远山区的强力介入。",
+        "transition_to": "越过坝址，何伟来到了受影响最深的北山镇，那里正经历着最后的疯狂拆迁。",
+        "mood": "tense",
+        "key_dialogue": "“巨大的挡土墙工程正在改变这里的山脊线。”"
+      }
+    },
+    {
+      "title": "北山",
+      "address": "中国-浙江省-丽水市-青田县-北山镇",
+      "synopsis": "北山镇在被淹没前夕沦为拾荒者的乐园，何伟记录了这座千年古镇在手工拆除下的最后时光。",
+      "source_evidence": "在受影响的地区，北山是最大的一个乡镇，总人口约有一万。……在北山，所有的拆迁工作基本上都靠手工完成。……拾荒者像蝗虫一样降临在这座城镇。",
+      "original_chapter": "第三章",
+      "part_id": "PART-3",
+      "part_title": "工厂",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2005",
+        "date_end": "2005"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "1天"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "destruction",
+          "poverty",
+          "vanishing_history"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "demolished",
+        "note": "原北山镇已完全淹没于滩坑水库（千峡湖）下",
+        "current_name": "千峡湖水域"
+      },
+      "timeline": {
+        "orderIndex": 74,
+        "dateStart": "2005",
+        "dateEnd": "2005"
+      },
+      "story_mode": {
+        "chapter_title": "第18章·消失的北山",
+        "hook": "拾荒者如蝗虫般涌入，在洪水到来前剥离这座城镇的最后一丝价值。",
+        "narrative_text": "北山镇正处于它生命中最荒诞的时刻。作为即将被淹没的最大乡镇，这里没有爆破的轰鸣，只有成千上万拾荒者手工拆卸的敲击声。何伟走在废墟间，看到人们忙着撬下窗框、拔出钢筋，甚至剥掉旧砖。这座有着悠久历史的城镇，在被水淹没之前，先被贫穷驱动的劳动力彻底解构。空气中弥漫着尘土和告别的气息，何伟在这里见证了一种极具中国特色的“创造性破坏”——为了下游的工厂和城市，这里的历史必须被手工抹除。",
+        "transition_to": "在这些关于迁徙与失去的故事中，何伟想起了程有琴在贵阳火车站的那段惊心动魄的往事。",
+        "mood": "desolate",
+        "key_dialogue": "“所有的拆迁工作基本上都靠手工完成。”"
+      }
+    },
+    {
+      "title": "贵阳火车站",
+      "address": "中国-贵州省-贵阳市-南明区-贵阳火车站",
+      "synopsis": "程有琴在返乡途中于此遭遇骗局，被抢劫一空，揭示了那个时代民工返乡路上的危机四伏。",
+      "source_evidence": "在贵阳火车站，一个看上去很友善的女子走向程有琴，问她要去什么地方。……随后她被带上了一辆黑面包车。",
+      "original_chapter": "第三章",
+      "part_id": "PART-3",
+      "part_title": "工厂",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2004",
+        "date_end": "2004"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "程有琴"
+        ],
+        "stay_duration": "数小时"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "crime",
+          "vulnerability",
+          "migrant_workers"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "车站已多次翻新",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 75,
+        "dateStart": "2004",
+        "dateEnd": "2004"
+      },
+      "story_mode": {
+        "chapter_title": "第19章·火车站的陷阱",
+        "hook": "一个友善的微笑，竟是通往荒野抢劫案的诱饵。",
+        "narrative_text": "程有琴——一名在南方打拼的普通女工，带着辛苦攒下的积蓄回老家。在贵阳火车站这个混乱的交通枢纽，她遇到了一个看似热心的女子。对方的关怀让疲惫的程有琴放松了警惕，随后她被骗上了一辆黑面包车。车子没有开往汽车站，而是驶向了荒凉的郊外。在那里，程有琴遭遇了抢劫，所有的财物被洗劫一空。这个插曲不仅是程有琴个人的噩梦，也折射出那个时代数亿农民工在流动中国中所面临的脆弱与风险。",
+        "transition_to": "带着这些沉重的故事，何伟的镜头转向了丽水的大港头，寻找那些在动荡中寻求宁静的角落。（待续）",
+        "mood": "tense",
+        "key_dialogue": "“那个女人看上去很友善，她问我要去哪里。”"
+      }
+    },
+    {
+      "title": "大港头",
+      "address": "中国-浙江省-丽水市-莲都区-大港头镇",
+      "synopsis": "位于大溪之畔的古老渔村，正被政府改造为“古堰画乡”艺术公社。何伟在此结识了临摹画师陈美子和胡建辉。",
+      "source_evidence": "在大港头附近，离丽水市三十公里远的地方……在大港头兴建艺术家公社。",
+      "original_chapter": "第三章",
+      "part_id": "PART-3",
+      "part_title": "工厂",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2007",
+        "date_end": "2007"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟",
+          "陈美子",
+          "胡建辉"
+        ],
+        "stay_duration": "数日"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "art",
+          "urbanization",
+          "imitation"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为成熟的旅游景区古堰画乡的一部分",
+        "current_name": "大港头镇"
+      },
+      "timeline": {
+        "orderIndex": 76,
+        "dateStart": "2007",
+        "dateEnd": "2007"
+      },
+      "story_mode": {
+        "chapter_title": "第20章·大溪畔的画师",
+        "hook": "在偏远的渔村里，成百上千的画架正试图复制西方的艺术梦。",
+        "narrative_text": "带着对工业扩张的沉重思考，何伟来到了大溪岸边的大港头。这里曾是一个宁静的渔村，如今却被政府冠以“古堰画乡”的名号，试图打造一个巴比松风格的艺术公社。在这里，他遇到了陈美子和胡建辉，这对年轻的画师夫妇在简陋的画室里夜以继日地临摹着西方的名画。他们并不追求原创，而是精准地复制着那些远销海外的风景。这种“艺术工业化”的奇观，与温州的纽扣工厂异曲同工，都是中国在全球化链条中寻找位置的缩影。大港头的江水依旧流淌，但岸上的生活已悄然转向了另一种生产模式。",
+        "transition_to": "随着艺术产业的铺开，这个古老的村落被赋予了一个更具商业气息的名字。",
+        "mood": "peaceful",
+        "key_dialogue": "“我们只是画画，”胡建辉说，“我们不考虑艺术。”"
+      }
+    },
+    {
+      "title": "古堰画乡",
+      "address": "中国-浙江省-丽水市-莲都区-古堰画乡",
+      "synopsis": "政府主导的艺术产业项目，何伟在此委托画师为其密苏里的老家房子作画，体验“定制艺术”。",
+      "source_evidence": "领导们给这个项目取名为“古堰画乡”，他们宣称那是根据巴比松画派而命名的。",
+      "original_chapter": "第三章",
+      "part_id": "PART-3",
+      "part_title": "工厂",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2007",
+        "date_end": "2007"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟",
+          "陈美子",
+          "胡建辉"
+        ],
+        "stay_duration": "数日"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "commercialization",
+          "memory",
+          "landscape"
+        ],
+        "significance": 0.75
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "国家4A级旅游景区",
+        "current_name": "古堰画乡景区"
+      },
+      "timeline": {
+        "orderIndex": 77,
+        "dateStart": "2007",
+        "dateEnd": "2007"
+      },
+      "story_mode": {
+        "chapter_title": "第21章·定制的乡愁",
+        "hook": "一张来自密苏里的照片，在浙江的画室里变成了油画。",
+        "narrative_text": "在“古堰画乡”的招牌下，艺术变成了一种可以按尺寸和复杂程度定价的商品。何伟决定参与到这种生产中，他拿出了一张自己父母在密苏里州房子的照片，委托陈美子将其画成油画。他观察着画师如何熟练地处理光影，如何将异国的建筑转化为画布上的线条。这种跨越国界的视觉转换，既荒诞又充满温情。在这个由政府规划出来的艺术小镇，个人的记忆与集体的产业化发展交织在一起。当画作完成时，它不仅是何伟家乡的缩影，更是大港头转型之路的见证。",
+        "transition_to": "离开这片充满人工艺术气息的江岸，何伟回到了温州的工业腹地，寻找那些消失的工厂。",
+        "mood": "nostalgic",
+        "key_dialogue": "“这房子看起来很安静，”陈美子一边调色一边说，“它有很多树。”"
+      }
+    },
+    {
+      "title": "瓯海",
+      "address": "中国-浙江省-温州市-瓯海区",
+      "synopsis": "高老板与王老板工厂搬迁后的临时所在地，两年后何伟回访时，这里已物是人非。",
+      "source_evidence": "高老板开车去了温州西南边的瓯海……他在这里找到了一座很大的仓库",
+      "original_chapter": "第三章",
+      "part_id": "PART-3",
+      "part_title": "工厂",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2005",
+        "date_end": "2007"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟",
+          "高老板",
+          "王老板"
+        ],
+        "stay_duration": "多次回访"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "industry",
+          "migration",
+          "failure"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为温州市高度城市化的工业与住宅区",
+        "current_name": "瓯海区"
+      },
+      "timeline": {
+        "orderIndex": 78,
+        "dateStart": "2005",
+        "dateEnd": "2007"
+      },
+      "story_mode": {
+        "chapter_title": "第22章·仓库里的残局",
+        "hook": "曾经雄心勃勃的工厂，最终只剩下一座空荡荡的仓库。",
+        "narrative_text": "为了节省成本，高老板和王老板将他们的胸罩调节环工厂搬到了瓯海的一座旧仓库里。然而，两年的时间足以改变一切。当何伟再次回到这里时，曾经忙碌的机器声已经消失。高老板和王老板的合作关系在激烈的市场竞争和管理混乱中破裂，工厂最终倒闭。瓯海的这片土地见证了温州模式下小企业的脆弱与顽强。这里不再有那些为了几分钱利润而奋斗的工人，取而代之的是更加冷峻的工业现实。何伟站在空旷的厂房前，感受到了中国制造业转型过程中那股残酷的推力。",
+        "transition_to": "在原工厂的废墟附近，一家新型的环保公司正试图处理工业留下的毒素。",
+        "mood": "desolate",
+        "key_dialogue": "“生意不好做，”高老板叹了口气，“大家都在杀价。”"
+      }
+    },
+    {
+      "title": "浙江人力环保有限公司",
+      "address": "中国-浙江省-温州市-瓯海区-浙江人力环保有限公司",
+      "synopsis": "处理有毒溶剂DMF的环保工厂，何伟在此采访了试图证明“烟雾无害”的叶春生。",
+      "source_evidence": "第四家工厂写着大大的英文标识：浙江人力环保有限公司。……叶先生向我一个劲地保证，那都是些清洁烟雾。",
+      "original_chapter": "第四章",
+      "part_id": "PART-3",
+      "part_title": "工厂",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2007",
+        "date_end": "2007"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟",
+          "叶春生"
+        ],
+        "stay_duration": "数小时"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "environment",
+          "pollution",
+          "modernization"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "uncertain",
+        "note": "此类环保企业可能已更名或迁址",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 79,
+        "dateStart": "2007",
+        "dateEnd": "2007"
+      },
+      "story_mode": {
+        "chapter_title": "第23章·清洁的烟雾",
+        "hook": "副总经理坚称，那些排向天空的刺鼻气体是“清洁”的。",
+        "narrative_text": "在瓯海工业区的边缘，何伟走进了浙江人力环保有限公司。这家公司的业务是回收仿皮生产中产生的有毒溶剂DMF。副总经理叶春生热情地接待了他，并带他参观了那些巨大的回收塔。尽管空气中弥漫着令人不适的化学气味，叶春生却坚持认为这些排放物对人体无害，甚至称之为“清洁烟雾”。这种对环境问题的乐观——或者说是刻意忽视，反映了当时中国企业在追求发展与环境保护之间的矛盾心态。环保在这里更像是一门生意，而非一种责任。",
+        "transition_to": "结束了在浙江的工厂考察，何伟的思绪回到了他中国之旅的起点，那个改变他一生的山城。（待续）",
+        "mood": "tense",
+        "key_dialogue": "“你看那些烟，”叶春生指着烟囱说，“那是经过处理的，非常干净。”"
+      }
+    },
+    {
+      "title": "涪陵",
+      "address": "中国-重庆-涪陵-涪陵区",
+      "synopsis": "何伟中国故事的起点。作为志愿者，他在此生活两年，见证了这座山城在三峡工程背景下的剧变。",
+      "source_evidence": "在涪陵，钱对我来说不太重要。……如果仅呆在涪陵，我要把每个月的钱用完还很有难度，而那正是我给自己定下的目标。",
+      "original_chapter": "第一章 顺江而下",
+      "part_id": "PART-4",
+      "part_title": "涪陵往事",
+      "temporal_context": {
+        "era": "1990年代末",
+        "historical_name": "涪陵市",
+        "date_start": "1996",
+        "date_end": "1998"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟",
+          "亚当·梅耶",
+          "傅木友",
+          "李校长",
+          "窦副校长",
+          "韦书记",
+          "韩老师",
+          "张彦"
+        ],
+        "stay_duration": "两年"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "memory",
+          "change",
+          "education"
+        ],
+        "significance": 1.0
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "部分老城区已被淹没，现为重庆市涪陵区",
+        "current_name": "涪陵区"
+      },
+      "timeline": {
+        "orderIndex": 80,
+        "dateStart": "1996",
+        "dateEnd": "1998"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·乌江边的起点",
+        "hook": "一个美国年轻人，闯入了这座长期不对外开放的“禁地”山城。",
+        "narrative_text": "在《寻路中国》的叙事深处，始终回荡着涪陵的江水声。1996年，何伟与同伴亚当·梅耶作为和平队志愿者来到这里。当时的涪陵是一座典型的川东山城，位于长江与乌江的交汇处，石阶蜿蜒，棒棒军穿梭其间。由于三峡大坝的建设，这座城市正处于被淹没的前夜。何伟在这里教书、学习中文，并以一种近乎偏执的细致观察着这里的每一个人：从严肃的李校长到勤劳的傅木友。这里是他理解中国的实验室，也是他文学生命的摇篮。尽管后来他走遍了长城与工厂，但涪陵永远是他所有故事的底色。",
+        "transition_to": "他的生活重心，就围绕着那座坐落在山坡上的涪陵师范专科学校展开。",
+        "mood": "nostalgic",
+        "key_dialogue": "“涪陵是一个你一旦进入就很难离开的地方。”"
+      }
+    },
+    {
+      "title": "涪陵师范专科学校",
+      "address": "中国-重庆-涪陵-涪陵区-长江师范学院(江东校区旧址)",
+      "synopsis": "何伟作为和平队员任教的学校，是他观察中国基层教育与农村青年思想变迁的窗口。",
+      "source_evidence": "这是一所规模不大的师范专科学校，成立于1977年，学生只有两千人左右。……校园与涪陵主城区隔乌江相望",
+      "original_chapter": "第一章 顺江而下",
+      "part_id": "PART-1",
+      "part_title": "第一部：城",
+      "temporal_context": {
+        "era": "1990年代后期",
+        "historical_name": "涪陵师范专科学校",
+        "date_start": "1996",
+        "date_end": "1998"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟",
+          "亚当·梅耶",
+          "窦副校长",
+          "韦书记"
+        ],
+        "stay_duration": "两年"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "education",
+          "cultural_exchange",
+          "youth"
+        ],
+        "significance": 1.0
+      },
+      "visitability": {
+        "status": "relocated",
+        "note": "学校已更名为长江师范学院并搬迁至李渡校区，旧址部分建筑仍存",
+        "current_name": "长江师范学院旧址"
+      },
+      "timeline": {
+        "orderIndex": 81,
+        "dateStart": "1996",
+        "dateEnd": "1998"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·山坡上的象牙塔",
+        "hook": "在乌江边的山坡上，两千名农村青年正试图通过英语改变命运。",
+        "narrative_text": "他的生活重心，就围绕着那座坐落在山坡上的涪陵师范专科学校展开。1996年，何伟与另一位和平队员亚当·梅耶来到这里，面对的是一群大多来自贫困农村的学生。在这座成立于1977年的校园里，何伟不仅是英美文学老师，更是一个观察者。他通过批改学生的日记，窥见了那个时代中国青年在传统价值观与现代冲击之间的挣扎。学校的行政体系严密而微妙，窦副校长和韦书记代表着典型的官方姿态，而学生们则在课堂上展现出对外界既渴望又审慎的好奇。",
+        "transition_to": "在涪陵的暑假，何伟决定暂时离开乌江，去往那座象征革命根基的北方小城。",
+        "mood": "nostalgic",
+        "key_dialogue": "“我们的学生都是好孩子，”窦副校长总是这样说，“他们非常努力。”"
+      }
+    },
+    {
+      "title": "延安",
+      "address": "中国-陕西省-延安市-宝塔区",
+      "synopsis": "何伟在暑假探访革命圣地，观察窑洞生活与红色历史在当代中国的呈现方式。",
+      "source_evidence": "延安看上去好像一场大雨就可以把它冲走似的。这座小城覆盖着一层薄薄的黄色沙尘，城边那些斑驳的山坡上满布着半圆形的窑洞。",
+      "original_chapter": "第七章 暑假",
+      "part_id": "PART-1",
+      "part_title": "第一部：城",
+      "temporal_context": {
+        "era": "1990年代后期",
+        "historical_name": null,
+        "date_start": "1997",
+        "date_end": "1997"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "数日"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "revolution",
+          "history",
+          "observation"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": null,
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 82,
+        "dateStart": "1997",
+        "dateEnd": "1997"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·黄土高原的尘埃",
+        "hook": "这座被黄色沙尘覆盖的小城，依然保留着革命年代的窑洞印记。",
+        "narrative_text": "暑假期间，何伟来到了延安。这座城市给他的第一印象是脆弱而凝重的，仿佛一场大雨就能将其冲刷殆尽。他走在布满黄色沙尘的街道上，看到山坡上密密麻麻的半圆形窑洞，那是当地人延续至今的生活方式。在这里，他试图理解为什么这个偏远的地方能成为中国革命的心脏。他参观了那些被精心维护的旧址，在枣园的树荫下思考历史的重量，同时也观察着当地人在红色旅游浪潮下的日常生活。",
+        "transition_to": "结束了北方的漫游，他再次回到那条贯穿他涪陵生活的深色河流旁。",
+        "mood": "desolate",
+        "key_dialogue": "延安看上去好像一场大雨就可以把它冲走似的。"
+      }
+    },
+    {
+      "title": "乌江",
+      "address": "中国-重庆-涪陵-乌江",
+      "synopsis": "涪陵的母亲河，其深色的江水与繁忙的航道构成了何伟日常生活的背景音。",
+      "source_evidence": "从我的阳台望去，涪陵的主城区看上去不错。我常常会凝视着乌江对岸那些犹如迷宫一般的街道和石阶",
+      "original_chapter": "第一章 顺江而下",
+      "part_id": "PART-1",
+      "part_title": "第一部：城",
+      "temporal_context": {
+        "era": "1990年代后期",
+        "historical_name": null,
+        "date_start": "1996",
+        "date_end": "1998"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "两年"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "river",
+          "daily_life",
+          "observation"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "三峡蓄水后水位有所上升",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 83,
+        "dateStart": "1996",
+        "dateEnd": "1998"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·深色的背景音",
+        "hook": "在阳台上，他听着乌江上的汽笛声，观察着对岸迷宫般的石阶。",
+        "narrative_text": "乌江是何伟在涪陵生活中不可或缺的背景。他的公寓和教室都俯瞰着这条深色的河流。每天清晨，他会被江面上往来船只的汽笛声唤醒，那是涪陵这座山城跳动的脉搏。他常在阳台上凝视对岸，看着码头工人在陡峭的石阶上搬运货物，看着江水在季节更替中涨落。乌江不仅是一条水道，它更像是一道屏障，将师专的宁静与主城区的喧嚣隔开，却又通过那繁忙的渡轮将两者紧紧相连。",
+        "transition_to": "乌江在此汇入更宽广的航道，那是通往外界的唯一坦途。",
+        "mood": "peaceful",
+        "key_dialogue": "我常常会凝视着乌江对岸那些犹如迷宫一般的街道和石阶。"
+      }
+    },
+    {
+      "title": "长江",
+      "address": "中国-重庆-涪陵-长江",
+      "synopsis": "何伟抵达涪陵的必经之路，也是他观察三峡移民与社会变迁的重要地理坐标。",
+      "source_evidence": "我是从重庆乘慢船顺江而下来到涪陵的。……在长江上，每半小时左右就会驶过一艘大型客轮",
+      "original_chapter": "第一章 顺江而下",
+      "part_id": "PART-1",
+      "part_title": "第一部：城",
+      "temporal_context": {
+        "era": "1990年代后期",
+        "historical_name": null,
+        "date_start": "1996",
+        "date_end": "1998"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "两年（间歇观察）"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "migration",
+          "change",
+          "travel"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "三峡大坝建成后，此段水位大幅上升，景观已变",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 84,
+        "dateStart": "1996",
+        "dateEnd": "1998"
+      },
+      "story_mode": {
+        "chapter_title": "第4章·顺流而下的过客",
+        "hook": "乘着慢船抵达涪陵的那一刻，他便进入了一个即将消失的世界。",
+        "narrative_text": "何伟最初是乘着慢船从重庆顺江而下来到涪陵的。长江对他而言，既是宏大的地理符号，也是具体的生存空间。夜晚，他会观察江面上大型客轮闪烁的灯光，那些船只载着成百上千的旅客驶向三峡，驶向未知的远方。当时的长江正处于巨变的前夜，三峡大坝的建设阴影笼罩着沿岸的每一个城镇。他意识到，自己所见到的这片江景，以及江边那些古老的吊脚楼，都将在不久的将来被永远淹没在水底。",
+        "transition_to": "离开江岸，他向上攀爬，来到学校后方那座承载着历史传说的山峰。",
+        "mood": "melancholic",
+        "key_dialogue": "在长江上，每半小时左右就会驶过一艘大型客轮，它们像发光的城市一样在黑暗中滑过。"
+      }
+    },
+    {
+      "title": "插旗山",
+      "address": "中国-重庆-涪陵-插旗山",
+      "synopsis": "学校后方的制高点，何伟常在此俯瞰全城，观察当地农民的耕作与生活。",
+      "source_evidence": "黄小强早早就关了店门，我们一起走到他们位于插旗山脚下的家里。……4月15日 现在有了一种新式的插秧方法，插旗山上差不多一半的农民都在采用这种方法。",
+      "original_chapter": "第一章 顺江而下",
+      "part_id": "PART-1",
+      "part_title": "第一部：城",
+      "temporal_context": {
+        "era": "1990年代后期",
+        "historical_name": "桃花山",
+        "date_start": "1996",
+        "date_end": "1998"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟",
+          "石达开"
+        ],
+        "stay_duration": "多次短暂停留"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "agriculture",
+          "landscape",
+          "history"
+        ],
+        "significance": 0.7
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为当地居民休闲登山处",
+        "current_name": "桃花山"
+      },
+      "timeline": {
+        "orderIndex": 85,
+        "dateStart": "1996",
+        "dateEnd": "1998"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·太平天国的余晖",
+        "hook": "在这座曾被石达开插上战旗的山顶，现代农业正悄然改变着梯田的颜色。",
+        "narrative_text": "插旗山，又名桃花山，静静地矗立在涪陵师专的后方。何伟常在雾气消散的午后登上山顶，那里曾是太平天国将领石达开插旗驻守的地方。从这里俯瞰，整个涪陵城和交汇的江水尽收眼底。他观察到山上的农民正尝试着新式的插秧方法，塑料薄膜在阳光下闪烁。他曾受邀来到山脚下黄小强的家中，感受那种紧凑而传统的家庭氛围。这座山不仅是地理上的高点，也是他观察中国农村从传统向现代过渡的绝佳看台。",
+        "transition_to": "从山顶俯瞰，他的目光落在了主城区那条最繁华的街道上。",
+        "mood": "peaceful",
+        "key_dialogue": "4月15日，现在有了一种新式的插秧方法，插旗山上差不多一半的农民都在采用这种方法。"
+      }
+    },
+    {
+      "title": "南门山",
+      "address": "中国-重庆-涪陵-南门山",
+      "synopsis": "涪陵旧城的商业中心，何伟在此观察退休老人的太极生活与盲人艺人的二胡演奏。",
+      "source_evidence": "涪陵的交易大厅设置在南门山附近……南门山附近的那个小园子现在变成了色彩的海洋——煤尘满布的小树和灌木全都布满了电灯泡。",
+      "original_chapter": "第一章 顺江而下",
+      "part_id": "PART-1",
+      "part_title": "第一部 顺江而下",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "1996",
+        "date_end": "1998"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "数小时"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "urban_life",
+          "observation",
+          "tradition"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为涪陵核心商圈，南门山广场所在地",
+        "current_name": "南门山广场"
+      },
+      "timeline": {
+        "orderIndex": 86,
+        "dateStart": "1996",
+        "dateEnd": "1998"
+      },
+      "story_mode": {
+        "chapter_title": "第18章·南门山的霓虹与胡琴",
+        "hook": "在繁华的旧城中心，煤尘中的灌木被电灯泡装点成异样的海洋。",
+        "narrative_text": "从插旗山顶俯瞰，何伟的目光最终落在了南门山——这片涪陵最繁华的旧城中心。这里是城市的跳动心脏，退休的老人们在园子里缓慢地推手练太极，而盲人艺人则在嘈杂的市声中拉起凄婉的二胡。为了迎接节日，那些被煤烟熏得发黑的灌木丛被挂满了五颜六色的电灯泡，在暮色中闪烁着一种粗糙而热烈的生命力。何伟穿行在人群中，感受着这个内陆小城在世纪之交的局促与活力，这里既有古老的生存节奏，也有急于向现代靠拢的笨拙尝试。",
+        "transition_to": "视线越过喧闹的街市，投向大江对岸那座沉默的屏障。",
+        "mood": "nostalgic",
+        "key_dialogue": "南门山附近的那个小园子现在变成了色彩的海洋——煤尘满布的小树和灌木全都布满了电灯泡。"
+      }
+    },
+    {
+      "title": "白山坪",
+      "address": "中国-重庆-涪陵-白山坪",
+      "synopsis": "两江交汇处对岸的陡峭山峰，是何伟在涪陵生活时的视觉边界与地理坐标。",
+      "source_evidence": "尤其向北倾斜下去，直到两江交汇处，山形陡峭的白山坪拔地而起。",
+      "original_chapter": "第一章 顺江而下",
+      "part_id": "PART-1",
+      "part_title": "第一部 顺江而下",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "1996",
+        "date_end": "1998"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "长期远眺"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "landscape",
+          "boundary",
+          "river_culture"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "位于长江与乌江交汇处北岸",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 87,
+        "dateStart": "1996",
+        "dateEnd": "1998"
+      },
+      "story_mode": {
+        "chapter_title": "第19章·江对岸的视觉边界",
+        "hook": "无论在教室还是公寓，那座陡峭的山峰始终占据着视野的尽头。",
+        "narrative_text": "在何伟的涪陵岁月中，白山坪不仅是一座山，更是一个永恒的地理坐标。它矗立在长江与乌江交汇处的北岸，山势陡峭，拔地而起。每当他在学校的公寓里凭窗远眺，或是走在校园的斜坡上，白山坪那青翠而险峻的轮廓总是横亘在视野的边缘。它像是一个沉默的守望者，见证着江面上往来的货轮和这座小城日复一日的变迁。对于一个初来乍到的外国人来说，这座山定义了他所能触及的世界边界。",
+        "transition_to": "然而，历史的河流远比眼前的江水更加波涛汹涌，一直溯流向西。",
+        "mood": "peaceful",
+        "key_dialogue": "尤其向北倾斜下去，直到两江交汇处，山形陡峭的白山坪拔地而起。"
+      }
+    },
+    {
+      "title": "大渡河",
+      "address": "中国-四川-甘孜藏族自治州-泸定县-大渡河",
+      "synopsis": "何伟在回顾历史时提及的河流，见证了太平天国石达开的覆灭与红军的突围。",
+      "source_evidence": "这支部队顺着川西大渡河的岸边进发……七十二年之后，长征途中，毛泽东率领他的共产党军队来到了这条河边。",
+      "original_chapter": "第一章 顺江而下",
+      "part_id": "PART-1",
+      "part_title": "第一部 顺江而下",
+      "temporal_context": {
+        "era": "1863年/1935年",
+        "historical_name": null,
+        "date_start": "1863",
+        "date_end": "1935"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "石达开",
+          "毛泽东"
+        ],
+        "stay_duration": "历史回顾"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "revolution",
+          "war",
+          "destiny"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": null,
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 88,
+        "dateStart": "1863",
+        "dateEnd": "1935"
+      },
+      "story_mode": {
+        "chapter_title": "第20章·大渡河的宿命",
+        "hook": "同一条河流，为何成了石达开的葬身地，却是毛泽东的生还路？",
+        "narrative_text": "在叙述涪陵的故事时，何伟的思绪常被历史的支流带向远方。大渡河，这条奔腾在川西峡谷中的激流，承载了中国近代史上最沉重的两次转折。1863年，太平天国的名将石达开率领残部在此陷入绝境，全军覆没；而七十二年后，毛泽东率领的红军同样来到了这片险地。历史在这里展现出一种诡谲的重复与对比，同样的湍急水流，见证了一个时代的终结与另一个时代的崛起。何伟通过这段历史，试图理解这片土地上关于坚韧与宿命的深刻含义。",
+        "transition_to": "而那场决定命运的突围，最终聚焦在了一座摇摇欲坠的铁索桥上。",
+        "mood": "desolate",
+        "key_dialogue": "七十二年之后，长征途中，毛泽东率领他的共产党军队来到了这条河边。"
+      }
+    },
+    {
+      "title": "泸定桥",
+      "address": "中国-四川-甘孜藏族自治州-泸定县-泸定桥",
+      "synopsis": "长征史诗中的关键地标，红军在此完成了著名的铁索桥突围战斗。",
+      "source_evidence": "来到泸定之后，他们遇到了横跨大渡河上的古老铁索桥，国民党已经在这里派驻了重兵把守。",
+      "original_chapter": "第一章 顺江而下",
+      "part_id": "PART-1",
+      "part_title": "第一部 顺江而下",
+      "temporal_context": {
+        "era": "1935年",
+        "historical_name": null,
+        "date_start": "1935",
+        "date_end": "1935"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "毛泽东"
+        ],
+        "stay_duration": "历史瞬间"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "heroism",
+          "war",
+          "legend"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为全国重点文物保护单位",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 89,
+        "dateStart": "1935",
+        "dateEnd": "1935"
+      },
+      "story_mode": {
+        "chapter_title": "第21章·铁索上的传奇",
+        "hook": "十三根铁索，决定了中国未来的走向。",
+        "narrative_text": "泸定桥，这座横跨在大渡河上的古老铁索桥，在何伟的笔下不仅是地理坐标，更是革命神话的图腾。他描述了红军战士如何在国民党的重兵把守下，冒着枪林弹雨，在仅剩铁索的桥面上匍匐前行。这段历史在中国的教科书中被反复传颂，成为了勇气与奇迹的代名词。对于何伟而言，这些历史遗迹是他理解当代中国社会心理的钥匙，那些关于牺牲与胜利的故事，至今仍深深植根于他所接触的每一个普通中国人的意识之中。",
+        "transition_to": "从宏大的历史叙事回到现实，何伟的工作重心始终在那座江边学府。",
+        "mood": "dramatic",
+        "key_dialogue": "来到泸定之后，他们遇到了横跨大渡河上的古老铁索桥。"
+      }
+    },
+    {
+      "title": "涪陵师范高等专科学校",
+      "address": "中国-重庆-涪陵-李渡街道-涪陵师范高等专科学校",
+      "synopsis": "何伟任教的学校，他在石墙标语下学习汉语，在广场上见证了时代的复杂面相。",
+      "source_evidence": "我跑回校园，在离教学楼不远的地方，有一道石墙，上面刻写着一排六十多厘米高的大字",
+      "original_chapter": "第三章 跑步",
+      "part_id": "PART-1",
+      "part_title": "第一部 顺江而下",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": "涪陵师专",
+        "date_start": "1996",
+        "date_end": "1998"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟",
+          "亚当·梅耶",
+          "傅主任",
+          "孔明"
+        ],
+        "stay_duration": "两年"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "education",
+          "cross-cultural",
+          "observation"
+        ],
+        "significance": 1.0
+      },
+      "visitability": {
+        "status": "relocated",
+        "note": "原址现为长江师范学院老校区，部分建筑仍存",
+        "current_name": "长江师范学院（江东校区）"
+      },
+      "timeline": {
+        "orderIndex": 90,
+        "dateStart": "1996",
+        "dateEnd": "1998"
+      },
+      "story_mode": {
+        "chapter_title": "第22章·乌江边的象牙塔",
+        "hook": "在刻满政治标语的石墙下，一个美国青年开始了他的汉语启蒙。",
+        "narrative_text": "这是何伟中国故事的真正起点。作为和平队志愿者，他和亚当·梅耶被安置在这所依山而建的师范专科学校。校园里，傅主任等校方领导以一种谨慎而热情的姿态管理着这两位外教。何伟在这里的生活极具规律：他在刻着“教育要面向现代化”的石墙下跑步，在简陋的教室里教莎士比亚，并在学生孔明的帮助下艰难地辨认方块字。然而，象牙塔并非真空，他在大礼堂广场目睹了严厉的公判大会，这种极具冲击力的场景，让他深刻体会到这个国家在温情与严酷之间的剧烈摇摆。",
+        "transition_to": "在学校不远的江面上，一块沉睡千年的石梁即将迎来它的命运转折。",
+        "mood": "ambitious",
+        "key_dialogue": "我跑回校园，在离教学楼不远的地方，有一道石墙，上面刻写着一排六十多厘米高的大字。"
+      }
+    },
+    {
+      "title": "白鹤梁",
+      "address": "中国-重庆-涪陵-长江江心-白鹤梁",
+      "synopsis": "何伟探访长江中即将被淹没的千年石梁，记录其作为古代水文站的历史价值与文化底蕴。",
+      "source_evidence": "这就是白鹤梁——涪陵港口那道长七十多米、仿若一座临时小岛的砂石石脊——诉说的故事。",
+      "original_chapter": "第三章 跑步",
+      "part_id": "PART-1",
+      "part_title": "Country Driving",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "数小时"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "heritage",
+          "transformation",
+          "history"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "relocated",
+        "note": "原址已淹没，现建有白鹤梁水下博物馆供参观",
+        "current_name": "白鹤梁水下博物馆"
+      },
+      "timeline": {
+        "orderIndex": 91,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第91章·沉睡千年的石鱼",
+        "hook": "在三峡大坝蓄水前，这道记录了千年水位的石梁正进行最后的告别。",
+        "narrative_text": "在学校不远的江面上，一块沉睡千年的石梁即将迎来它的命运转折。何伟站在涪陵港口的岸边，凝视着那道长达七十多米的砂石石脊——白鹤梁。这里不仅是古代的水文站，更是一座承载着唐代以来无数文人墨客题刻的艺术宝库。石梁上雕刻的石鱼，千百年来一直作为长江水位的参照。然而，随着三峡工程的推进，这处珍贵的遗迹即将被永久地淹没在江水之下。何伟在调查中感叹，这种对历史的记录方式虽然原始，却透着一种与自然共生的智慧，而如今，这种联系正随着大坝的升起而断裂。",
+        "transition_to": "离开这片即将沉入水底的历史，何伟走进了涪陵城中那片充满生活琐碎与动荡的旧区。",
+        "mood": "melancholic",
+        "key_dialogue": "这就是白鹤梁——涪陵港口那道长七十多米、仿若一座临时小岛的砂石石脊——诉说的故事。"
+      }
+    },
+    {
+      "title": "江东",
+      "address": "中国-重庆-涪陵-江东街道",
+      "synopsis": "何伟在破旧的江东区观察移民安置房，目睹了当地居民与学生之间紧张的社会关系。",
+      "source_evidence": "江东是涪陵城的一片崎岖之地，肮脏破旧的临江一面开了许多小商铺和积满灰尘的仓库。",
+      "original_chapter": "第三章 跑步",
+      "part_id": "PART-1",
+      "part_title": "Country Driving",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟",
+          "孔明"
+        ],
+        "stay_duration": "数天"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "urbanization",
+          "social_conflict",
+          "migration"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为涪陵区江东街道，已进行大规模城市改造",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 92,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第92章·崎岖的江东岸",
+        "hook": "在积满灰尘的仓库与安置房之间，新旧时代的冲突正在无声上演。",
+        "narrative_text": "江东是涪陵城中一片崎岖而破旧的区域，临江的街道布满了积满灰尘的仓库和小商铺。何伟在这里穿行，观察着那些为了三峡移民而新建的简陋公寓。在这里，他遇到了孔明——一个在当地学校工作的年轻人。江东不仅是地理上的边缘，也是社会矛盾的聚集地。何伟目睹了当地居民与学生之间因为生活琐事而爆发的冲突，这种紧张关系折射出快速城市化进程中，原住民与外来群体之间难以调和的隔阂。这里的空气中弥漫着一种不安定的气息，仿佛整片区域都在等待着某种不可避免的改变。",
+        "transition_to": "从江东的混乱中抽身，何伟加入了一场横跨城市主干道的迎新春长跑。",
+        "mood": "desolate",
+        "key_dialogue": "江东是涪陵城的一片崎岖之地，肮脏破旧的临江一面开了许多小商铺和积满灰尘的仓库。"
+      }
+    },
+    {
+      "title": "兴华路",
+      "address": "中国-重庆-涪陵-兴华路",
+      "synopsis": "何伟参加涪陵迎新春长跑，在兴华路上感受这座山城独特的节日氛围与城市节奏。",
+      "source_evidence": "在第二个弯道，我们一头向西跑上了兴华路。",
+      "original_chapter": "第三章 跑步",
+      "part_id": "PART-1",
+      "part_title": "Country Driving",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2002",
+        "date_end": "2002"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "1小时"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "community",
+          "running",
+          "urban_life"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "涪陵区核心商业街",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 93,
+        "dateStart": "2002",
+        "dateEnd": "2002"
+      },
+      "story_mode": {
+        "chapter_title": "第93章·兴华路的奔跑",
+        "hook": "当发令枪响，何伟与成千上万的涪陵市民一起冲向了这条城市主轴。",
+        "narrative_text": "兴华路是涪陵市区的交通动脉，在迎新春长跑比赛那天，这里变成了人的海洋。何伟混在奔跑的人群中，感受着这座山城特有的活力。随着路线向西延伸，街道两旁的建筑飞速后退，路边站满了围观的群众。对于何伟来说，这种集体性的体育活动是观察中国社会的一个绝佳窗口——人们在奔跑中展现出的那种盲目而又热烈的劲头，正是那个时代中国城镇生活的缩影。尽管坡度起伏让呼吸变得急促，但他依然在节奏中寻找着与这座城市的共鸣。",
+        "transition_to": "随着山路变得愈发陡峭，长跑的终点指向了高处的一座纪念碑。",
+        "mood": "ambitious",
+        "key_dialogue": "在第二个弯道，我们一头向西跑上了兴华路。"
+      }
+    },
+    {
+      "title": "革命烈士纪念碑",
+      "address": "中国-重庆-涪陵-革命烈士纪念碑",
+      "synopsis": "长跑路线的制高点，何伟在此俯瞰涪陵，思考历史记忆与现实景观的交织。",
+      "source_evidence": "山路又变得陡峭起来，一直通向革命烈士纪念碑那尖尖的塔顶。",
+      "original_chapter": "第三章 跑步",
+      "part_id": "PART-1",
+      "part_title": "Country Driving",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2002",
+        "date_end": "2002"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "30分钟"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "memory",
+          "landscape",
+          "monument"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "位于涪陵区北山公园内",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 94,
+        "dateStart": "2002",
+        "dateEnd": "2002"
+      },
+      "story_mode": {
+        "chapter_title": "第94章·山巅的丰碑",
+        "hook": "在陡峭山路的尽头，尖尖的塔顶俯瞰着整座正在巨变的城市。",
+        "narrative_text": "长跑的路线最终引向了山坡高处的革命烈士纪念碑。何伟随着人流向上攀爬，山路变得异常陡峭，考验着每一位参与者的体力。纪念碑那尖尖的塔顶在冬日的阳光下显得格外肃穆。站在这里，可以俯瞰整个涪陵城和交汇的江水。对于当地人来说，这里是缅怀过去的地方，而对于何伟，这个地标更像是一个观察点，让他能从高处审视这座即将因为三峡工程而改变面貌的城市。历史的沉重感与长跑比赛的喧嚣在这里交织，构成了一种奇特的张力。",
+        "transition_to": "告别了涪陵的喧嚣，何伟登上了顺流而下的班船，前往传说中的“鬼城”。",
+        "mood": "peaceful",
+        "key_dialogue": "山路又变得陡峭起来，一直通向革命烈士纪念碑那尖尖的塔顶。"
+      }
+    },
+    {
+      "title": "丰都县",
+      "address": "中国-重庆-丰都县",
+      "synopsis": "何伟与亚当短暂停留丰都，观察这座以“鬼城”著称的城市在淹没前的最后时光。",
+      "source_evidence": "我们在丰都做了短暂的停留。这是一座沿河滩而建的狭长小城，位置很低很低，十年后将被全部淹没。",
+      "original_chapter": "第四章 大坝",
+      "part_id": "PART-1",
+      "part_title": "Country Driving",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟",
+          "亚当·梅耶"
+        ],
+        "stay_duration": "数小时"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "disappearance",
+          "folklore",
+          "river_life"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "demolished",
+        "note": "老县城已基本淹没，现为丰都新县城",
+        "current_name": "丰都县"
+      },
+      "timeline": {
+        "orderIndex": 95,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第95章·低洼处的鬼城",
+        "hook": "这座与死者传说共生的城市，正面临着自己真实的“死亡”。",
+        "narrative_text": "何伟与他的朋友亚当·梅耶——一位同样在中国游历的美国观察者——在前往三峡大坝的途中，于丰都做了短暂的停留。丰都以其“鬼城”的民俗传说闻名遐迩，但何伟看到的却是一座沿河滩而建、狭长而低洼的现实小城。这里的地理位置极低，意味着在未来的十年内，它将被上涨的江水彻底吞没。这种现实的紧迫感让那些关于阴曹地府的古老传说显得有些苍白。何伟在岸边观察着那些忙碌的居民，他们似乎已经习惯了这种即将到来的消失，在废墟与新城的夹缝中继续着平凡的生活。",
+        "transition_to": "船只继续向下游驶去，前方是更加险峻的峡谷与即将消失的巫山。",
+        "mood": "bittersweet",
+        "key_dialogue": "这是一座沿河滩而建的狭长小城，位置很低很低，十年后将被全部淹没。"
+      }
+    },
+    {
+      "title": "巫山县",
+      "address": "中国-重庆-巫山县-老城区",
+      "story": "位于三峡地区的江城，何伟在此停留两天，观察水位标识，游览大宁河和小三峡，并感叹古城的拆迁与重建。",
+      "synopsis": "何伟在巫山停留，目睹这座典型的江城在三峡工程背景下的拆迁与重建，观察水位标识下的生活。",
+      "source_evidence": "巫山是一座典型的江城，相当于涪陵老城区的放大版，满城全是青瓦屋顶、肮脏的街道，以及狭小的巷子。",
+      "original_chapter": "第四章 大坝",
+      "part_id": "PART-1",
+      "part_title": "Country Driving",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2002",
+        "date_end": "2002"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟",
+          "亚当·梅耶"
+        ],
+        "stay_duration": "两天"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "urbanization",
+          "displacement",
+          "transformation"
+        ],
+        "significance": 0.85
+      },
+      "visitability": {
+        "status": "relocated",
+        "note": "老城已淹没，现为巫山新城",
+        "current_name": "巫山县"
+      },
+      "timeline": {
+        "orderIndex": 96,
+        "dateStart": "2002",
+        "dateEnd": "2002"
+      },
+      "story_mode": {
+        "chapter_title": "第96章·江城的最后时光",
+        "hook": "在即将被淹没的街道上，人们如何计算倒计时？",
+        "narrative_text": "船只继续向下游驶去，前方是更加险峻的峡谷与即将消失的巫山。何伟与亚当·梅耶抵达了这座典型的江城。巫山就像是涪陵老城区的放大版，青瓦屋顶层层叠叠，狭窄的巷子里弥漫着生活的气息。然而，这里的墙壁上到处涂着红色的数字，那是未来的水位线。何伟在这里停留了两天，他发现当地人对即将到来的改变有着一种近乎麻木的从容。他们依然在肮脏的街道上做生意，在陡峭的石阶上搬运货物，仿佛大坝的蓄水只是一个遥远的传说，而非迫在眉睫的现实。",
+        "transition_to": "为了看一眼更清澈的水域，何伟转乘小船进入了长江的支流。",
+        "mood": "melancholic",
+        "key_dialogue": "巫山是一座典型的江城，相当于涪陵老城区的放大版，满城全是青瓦屋顶、肮脏的街道，以及狭小的巷子。"
+      }
+    },
+    {
+      "title": "大宁河",
+      "address": "中国-重庆-巫山-大宁河",
+      "story": "长江的支流，水质清澈。何伟在此观察农民收割干草，并乘坐游船游览了著名的“小三峡”。",
+      "synopsis": "何伟换乘小船游览大宁河，在清澈的水面上观察两岸农民原始的耕作方式与壮丽的小三峡。",
+      "source_evidence": "大宁河水冰冷而清澈，在石灰石崖壁的底下奔腾流淌着，农民们拿着镰刀在悬崖上收割干草。",
+      "original_chapter": "第四章 大坝",
+      "part_id": "PART-1",
+      "part_title": "Country Driving",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2002",
+        "date_end": "2002"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "数小时"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "nature",
+          "agriculture",
+          "exploration"
+        ],
+        "significance": 0.7
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "水位上升后景观有所改变",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 97,
+        "dateStart": "2002",
+        "dateEnd": "2002"
+      },
+      "story_mode": {
+        "chapter_title": "第97章·清流中的悬崖",
+        "hook": "在垂直的石灰石崖壁上，农民们如何收割干草？",
+        "narrative_text": "离开浑浊的长江主干道，大宁河的水显得异常冰冷而清澈。何伟坐上游船，进入了著名的“小三峡”。这里的景色比主干道更加精致而险峻，石灰石崖壁直插云霄。他注意到，尽管环境恶劣，两岸的农民依然在近乎垂直的悬崖上劳作，他们挥舞着镰刀收割干草，动作熟练得令人惊叹。船老大熟练地驾船穿梭在激流中，向游客展示着这些即将被高水位永久改变的原始景观。在这里，自然的力量与人类的生存意志达成了一种微妙的平衡。",
+        "transition_to": "回到大船上，疲惫的旅人陷入了沉睡，却因此错过了最险峻的奇观。",
+        "mood": "peaceful",
+        "key_dialogue": "大宁河水冰冷而清澈，在石灰石崖壁的底下奔腾流淌着。"
+      }
+    },
+    {
+      "title": "瞿塘峡",
+      "address": "中国-重庆-奉节-白帝城至巫山大溪镇",
+      "story": "三峡中最险峻的一个峡谷。何伟因在船上昏睡，遗憾地在黑暗中错过了通过该峡谷的时机。",
+      "synopsis": "何伟在航行中因疲惫昏睡，遗憾地错过了三峡中最险峻的瞿塘峡。",
+      "source_evidence": "昏睡中，我们驶过了第一个峡谷。这里叫做瞿塘峡，在三个峡谷之中最为险峻",
+      "original_chapter": "第四章 大坝",
+      "part_id": "PART-1",
+      "part_title": "Country Driving",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2002",
+        "date_end": "2002"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "航经时间"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "regret",
+          "journey"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "夔门景观依然存在",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 98,
+        "dateStart": "2002",
+        "dateEnd": "2002"
+      },
+      "story_mode": {
+        "chapter_title": "第98章·错过的夔门",
+        "hook": "最壮丽的景色，往往在闭眼的一瞬悄然滑过。",
+        "narrative_text": "长途跋涉的疲惫终于击倒了何伟。当轮船驶入三峡中最短、最窄、也最险峻的瞿塘峡时，他正陷入沉沉的昏睡。窗外是著名的“夔门天下雄”，两岸山峰对峙，如门户般扼守着长江，而他只在梦境的边缘感受到了船身的轻微晃动。这种错过成了旅途中的一种隐喻：在宏大的历史变迁面前，个人的感知往往是碎片化且不完整的。当他醒来时，船已经穿过了那片最惊心动魄的水域，只留下遗憾在心头萦绕。",
+        "transition_to": "随着航程继续，两岸的山势逐渐平缓，进入了西陵峡的范围。",
+        "mood": "bittersweet",
+        "key_dialogue": "昏睡中，我们驶过了第一个峡谷。这里叫做瞿塘峡，在三个峡谷之中最为险峻。"
+      }
+    },
+    {
+      "title": "西陵峡",
+      "address": "中国-湖北-宜昌-秭归县香溪口至南津关",
+      "story": "三峡之一，何伟乘船通过此地前往三峡大坝坝址。",
+      "synopsis": "何伟乘船穿过西陵峡，这是通往三峡大坝建设工地的最后一段峡谷航程。",
+      "source_evidence": "我们出了西陵峡，朝着大坝的坝址驶去。",
+      "original_chapter": "第四章 大坝",
+      "part_id": "PART-1",
+      "part_title": "Country Driving",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2002",
+        "date_end": "2002"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "航经时间"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "transition",
+          "observation"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "部分河段已成为水库区",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 99,
+        "dateStart": "2002",
+        "dateEnd": "2002"
+      },
+      "story_mode": {
+        "chapter_title": "第99章·峡谷的终点",
+        "hook": "当自然的峡谷结束，人类的巨构便出现在眼前。",
+        "narrative_text": "轮船平稳地行驶在西陵峡宽阔的水面上。作为三峡中最长的一个峡谷，西陵峡以滩多水急著称，但在大坝蓄水前的最后阶段，这里的江面已经显得有些沉寂。何伟站在甲板上，看着两岸的风景飞速后退。这不仅是地理上的移动，更是从自然景观向工业奇迹的过渡。西陵峡的出口，标志着这段充满怀旧色彩的江行即将结束，一个巨大的、改变一切的工程正在前方等待着他。",
+        "transition_to": "轮船的速度慢了下来，乘客们纷纷涌向甲板，注视着那个改变河流命运的庞然大物。",
+        "mood": "ambitious",
+        "key_dialogue": "我们出了西陵峡，朝着大坝的坝址驶去。"
+      }
+    },
+    {
+      "title": "三峡大坝坝址",
+      "address": "中国-湖北-宜昌-夷陵区-三斗坪镇",
+      "story": "当时正在建设中的世界最大水坝。何伟乘船经过时目睹了宏大的施工现场、塔吊和标语，感受到工程对自然景观的彻底改变。",
+      "synopsis": "何伟亲眼目睹了建设中的三峡大坝，被其宏大的规模、密集的塔吊和改变自然的决心所震撼。",
+      "source_evidence": "靠近坝址时，轮船慢了下来，乘客们都挤到了甲板上。这场景一言难尽——太多太多的塔吊、太多太多的挖泥船",
+      "original_chapter": "第四章 大坝",
+      "part_id": "PART-1",
+      "part_title": "Country Driving",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2002",
+        "date_end": "2002"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "航经时间"
+      },
+      "cultural_tags": {
+        "category": "architectural",
+        "themes": [
+          "industrialization",
+          "man-vs-nature",
+          "modernity"
+        ],
+        "significance": 0.95
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为三峡大坝旅游区",
+        "current_name": "三峡大坝"
+      },
+      "timeline": {
+        "orderIndex": 100,
+        "dateStart": "2002",
+        "dateEnd": "2002"
+      },
+      "story_mode": {
+        "chapter_title": "第100章·混凝土的意志",
+        "hook": "成百上千的塔吊如同钢铁森林，它们正在重塑这条古老的河流。",
+        "narrative_text": "当轮船最终靠近三斗坪的坝址时，所有的乘客都陷入了某种集体性的沉默与震撼。何伟看到了一幅难以言表的画面：无数的塔吊、挖泥船和工程车在巨大的混凝土墙周围忙碌，仿佛成千上万只蚂蚁正在搬运一座大山。这里没有了峡谷的灵秀，取而代之的是工业文明的绝对力量。巨大的标语横跨工地，宣示着人类征服自然的决心。这一刻，何伟深刻体会到，这条他曾多次顺流而下的长江，将永远告别它的过去，进入一个由人工精准控制的新纪元。",
+        "transition_to": "离开震撼的大坝工地，何伟的视线转向了那些在城市角落中默默延伸的街道，比如中山路。",
+        "mood": "dramatic",
+        "key_dialogue": "这场景一言难尽——太多太多的塔吊、太多太多的挖泥船，还有太多太多的混凝土。"
+      }
+    },
+    {
+      "title": "中山路",
+      "address": "中国-重庆-涪陵-中山路",
+      "synopsis": "涪陵城区的繁华街道，墙上刻着的“177米”水位线预示着三峡工程即将带来的巨变。",
+      "source_evidence": "在城区的中山路，也就是从码头上来的第二条大街上，也有一处这样的标识。",
+      "original_chapter": "第四章 大坝",
+      "part_id": "PART-1",
+      "part_title": "Country Driving",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "数小时"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "urbanization",
+          "change",
+          "Three Gorges"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "部分地段因三峡蓄水有所改造，但街道基本格局仍在",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 101,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第101章·淹没前的刻度",
+        "hook": "在繁华的街道墙上，一道红线正无声地宣判着这座城市的命运。",
+        "narrative_text": "离开震撼的三峡大坝工地，何伟的视线转向了那些在城市角落中默默延伸的街道。在涪陵城区的中山路，这条从码头延伸上来的第二条大街上，他发现了一个令人心惊的标识——“177米”。这是三峡工程最终的蓄水位线。对于生活在这里的人们来说，这不仅仅是一个数字，而是一个倒计时。街道两旁的店铺依然热闹，小贩的叫卖声此起彼伏，但那道红线就像一个幽灵，提醒着人们，眼前的这一切繁华终将被江水吞噬。何伟走在这些即将消失的街道上，记录下大坝建设背后，普通城市空间所承受的沉重代价。",
+        "transition_to": "告别了即将沉入水底的涪陵，何伟的旅程转向了北方，去探寻红色圣地的历史记忆。",
+        "mood": "melancholic",
+        "key_dialogue": "“177米”"
+      }
+    },
+    {
+      "title": "延安革命纪念馆",
+      "address": "中国-陕西省-延安市-宝塔区-延安革命纪念馆",
+      "synopsis": "何伟参观纪念馆，通过“小青马”等文物观察革命叙事的构建，并敏锐察觉到历史人物呈现的缺失。",
+      "source_evidence": "延安革命纪念馆的入口处有一条标语：“庆祝香港回归，祝愿祖国繁荣昌盛。”为了参观博物馆内的陈列品，我花了十元钱。",
+      "original_chapter": "第七章 暑假",
+      "part_id": "PART-1",
+      "part_title": "Country Driving",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "半天"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "ideology",
+          "history",
+          "revolution"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为国家一级博物馆，新馆于2009年落成",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 102,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第102章·小青马与消失的影像",
+        "hook": "在宏大的革命叙事中，为什么唯独缺少了那个女人的照片？",
+        "narrative_text": "何伟来到了延安，这个曾经改变中国命运的地方。在延安革命纪念馆，他花费十元钱进入了这个充满仪式感的空间。馆内陈列着毛泽东曾经骑过的“小青马”标本，以及各种见证了艰苦岁月的革命文物。然而，作为一名敏锐的观察者，何伟发现了一个有趣的现象：在展示毛泽东生活的板块中，几乎找不到江青的照片。他好奇地询问检票员，得到的答复是“她是个坏人”。这种对历史人物选择性的呈现，让何伟对当地如何处理政治遗产与历史记忆有了更深的思考。",
+        "transition_to": "走出纪念馆，他决定去往领袖们曾经真实生活过的窑洞——枣园。",
+        "mood": "mysterious",
+        "key_dialogue": "“她是个坏人。”"
+      }
+    },
+    {
+      "title": "枣园公园",
+      "address": "中国-陕西省-延安市-宝塔区-枣园公园",
+      "synopsis": "何伟探访红军将领的旧居窑洞，在生活化的场景中继续寻找历史留下的痕迹。",
+      "source_evidence": "枣园公园同样如此，这里曾经是毛泽东和其他红军将领们的家。",
+      "original_chapter": "第七章 暑假",
+      "part_id": "PART-1",
+      "part_title": "Country Driving",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "数小时"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "communism",
+          "biographical",
+          "architecture"
+        ],
+        "significance": 0.75
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "枣园革命旧址，现为重要红色旅游景点",
+        "current_name": "枣园革命旧址"
+      },
+      "timeline": {
+        "orderIndex": 103,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第103章·窑洞里的生活余温",
+        "hook": "在简朴的窑洞里，领袖的私人生活被小心翼翼地剥离了。",
+        "narrative_text": "枣园公园曾是毛泽东、刘少奇、朱德等将领的居住地。何伟漫步在这些依山而建的窑洞之间，试图捕捉那些宏大叙事之外的生活气息。他发现，尽管这些窑洞被精心维护以供参观，但内部的陈设却显得有些刻意。在毛泽东居住过的窑洞里，他再次确认了纪念馆里的发现——这里同样没有江青生活过的痕迹。这种对历史的“净化”处理，让这些原本充满生活气息的居所变成了一种符号化的展示。何伟在黄土高原的阳光下，感受着这种历史与现实之间的微妙张力。",
+        "transition_to": "离开严肃的革命旧址，何伟随几位当地女子前往郊外的红崖峡，寻找片刻的轻松。",
+        "mood": "peaceful",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "红崖峡",
+      "address": "中国-陕西省-榆林市-红崖峡",
+      "synopsis": "何伟与当地向导王玉梅、郭小琴游览古老峡谷，观察陕北年轻人的休闲生活与古老宗教遗迹。",
+      "source_evidence": "顺着那条路，我们来到了红崖峡。这里的砂石崖壁上修筑着几座道观和佛寺，其中有的历史在一千三百年以上。",
+      "original_chapter": "第七章 暑假",
+      "part_id": "PART-1",
+      "part_title": "Country Driving",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟",
+          "王玉梅",
+          "郭小琴"
+        ],
+        "stay_duration": "一个下午"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "leisure",
+          "religion",
+          "youth"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "位于榆林市红石峡景区",
+        "current_name": "红石峡"
+      },
+      "timeline": {
+        "orderIndex": 104,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第104章·峡谷里的野炊",
+        "hook": "在千年古刹的阴影下，现代年轻人正享受着他们的夏日狂欢。",
+        "narrative_text": "何伟与王玉梅、郭小琴——两位热情的陕西女子，一同来到了红崖峡。这里的砂石崖壁上开凿着拥有千年历史的道观和佛寺，古老的石刻在阳光下显得庄严肃穆。然而，峡谷底部的河滩上却是另一番景象。成群结队的年轻人在这里涉水、野炊，音响里播放着流行音乐。何伟观察着这种奇妙的对比：一边是沉静的古代宗教遗迹，一边是充满活力的现代世俗生活。在这种轻松的氛围中，他看到了陕北地区在革命底色之外，那份属于普通人的、鲜活的日常。",
+        "transition_to": "结束了陕北的漫游，何伟回到了他学习汉语的基地——古都西安。",
+        "mood": "joyful",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "西安",
+      "address": "中国-陕西省-西安市",
+      "synopsis": "何伟在西安进行语言进修，并与妹妹安吉拉一同游览，深入体验这座古都的文化底蕴。",
+      "source_evidence": "“美中友好志愿者”出资让我们到西安学习一个月的汉语，但要两星期之后才开课，我于是溜达到了陕北地区。",
+      "original_chapter": "第七章 暑假",
+      "part_id": "PART-1",
+      "part_title": "Country Driving",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": "长安",
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟",
+          "安吉拉"
+        ],
+        "stay_duration": "一个月"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "education",
+          "family",
+          "culture"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": null,
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 105,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第105章·古都的语言课",
+        "hook": "在汉唐盛世的遗风中，何伟试图通过语言掌握开启中国大门的钥匙。",
+        "narrative_text": "西安，这座中国文化的摇篮，成为了何伟那个暑假的中心。作为“美中友好志愿者”，他在这里接受为期一个月的汉语强化培训。他的妹妹安吉拉也来到这里与他汇合，两人一同穿梭在西安的古城墙与碑林之间。对于何伟来说，西安不仅是一个旅游目的地，更是一个观察中国历史纵深感的窗口。在密集的汉语课程之余，他观察着这座城市如何在高楼大厦与古迹废墟之间寻找平衡。这段时间的学习与生活，为他日后深入观察中国社会打下了坚实的语言基础。",
+        "transition_to": "在西安的课余时间，何伟经常去附近的公园散步，比如那座承载着唐朝记忆的兴庆宫公园。",
+        "mood": "ambitious",
+        "key_dialogue": null
+      }
+    },
+    {
+      "title": "兴庆宫公园",
+      "address": "中国-陕西省-西安市-碑林区-咸宁西路55号-兴庆宫公园",
+      "synopsis": "何伟在西安避暑期间，常骑车前往兴庆宫公园喝茶，并与工作人员就“永远不超过35度”的气温预报开玩笑。",
+      "source_evidence": "我常常骑着朋友的自行车来到兴庆宫公园，要上一杯茶，然后问那里的工作人员，今天的气温是多少度。……他们总是回答说：‘三十五度。’",
+      "original_chapter": "第七章 暑假",
+      "part_id": "PART-1",
+      "part_title": "Country Driving",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "数个下午"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "leisure",
+          "observation",
+          "urban_life"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为西安市著名的城市公园",
+        "current_name": "兴庆宫公园"
+      },
+      "timeline": {
+        "orderIndex": 106,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第106章·三十五度的谎言",
+        "hook": "为什么西安的气象预报永远停留在三十五度？",
+        "narrative_text": "在西安最炎热的暑假，何伟喜欢骑着朋友的旧自行车，穿梭在古城的街道间，最后停留在兴庆宫公园的绿荫下。这里曾是唐代皇家园林的遗址，如今则是市民们纳凉喝茶的去处。何伟发现了一个有趣的现象：无论体感温度多么灼人，公园里的工作人员和气象广播总是坚持气温只有‘三十五度’。这成了一个心照不宣的秘密——因为一旦超过这个界限，工厂就必须停工，政府也得发放高温补贴。在茶香与蝉鸣中，何伟观察着这座城市在高温下的坚韧与幽默。",
+        "transition_to": "离开闷热的关中平原，何伟一路向西，来到了丝绸之路上的重镇哈密。",
+        "mood": "peaceful",
+        "key_dialogue": "“三十五度，”他们总是这样回答，然后露出一丝心照不宣的微笑。"
+      }
+    },
+    {
+      "title": "哈密",
+      "address": "中国-新疆维吾尔自治区-哈密市-哈密火车站",
+      "synopsis": "何伟在哈密停留，看望从事地质研究的妹妹安吉拉，观察这座由石油和移民构成的绿洲城市。",
+      "source_evidence": "在绿洲城市哈密，我们停留了一个小时，车站的标识语既有阿拉伯文也有中文。……我的妹妹安吉拉当时正在那里从事地质研究。",
+      "original_chapter": "第七章 暑假",
+      "part_id": "PART-1",
+      "part_title": "Country Driving",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": "伊州",
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟",
+          "安吉拉",
+          "亚当·梅耶"
+        ],
+        "stay_duration": "三天"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "family",
+          "geology",
+          "migration"
+        ],
+        "significance": 0.7
+      },
+      "visitability": {
+        "status": "exists",
+        "note": null,
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 107,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第107章·绿洲里的地质学家",
+        "hook": "在遥远的新疆绿洲，何伟见到了正在挖掘岩石的妹妹。",
+        "narrative_text": "列车驶入哈密，站牌上并列的汉字与维吾尔文宣告着边疆的到来。何伟在这里见到了他的妹妹安吉拉，她正跟随导师亚当·梅耶在戈壁滩中进行地质考察。哈密是一座典型的移民城市，石油工业吸引了大量汉人迁徙至此。何伟观察到，尽管身处绿洲，这里的城市景观却带着一种工业化的生硬。他跟随妹妹的团队深入荒漠，看着他们如何从干燥的岩层中解读数亿年前的地理信息，这种对土地深层结构的探寻，与他试图解读中国社会结构的努力异曲同工。",
+        "transition_to": "告别了哈密的岩石，何伟继续西行，进入了中国陆地的最低点——吐鲁番。",
+        "mood": "ambitious",
+        "key_dialogue": "“这里的岩石能告诉你关于这片土地最诚实的秘密。”"
+      }
+    },
+    {
+      "title": "吐鲁番",
+      "address": "中国-新疆维吾尔自治区-吐鲁番市-高昌区",
+      "synopsis": "何伟在吐鲁番体验极端高温，观察维汉关系，并与另一位和平队志愿者亚当·维斯会合。",
+      "source_evidence": "我从乌鲁木齐坐了一辆公共汽车去吐鲁番，检查站的警察在查验我们身份证明的过程中，用机枪的枪管直截了当地指使着每一位乘客。",
+      "original_chapter": "第七章 暑假",
+      "part_id": "PART-1",
+      "part_title": "Country Driving",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": "西州",
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟",
+          "亚当·维斯"
+        ],
+        "stay_duration": "数日"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "heat",
+          "ethnicity",
+          "tension"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "exists",
+        "note": null,
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 108,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第108章·火洲的凝视",
+        "hook": "在接近五十度的高温下，空气中弥漫着一种不安的寂静。",
+        "narrative_text": "吐鲁番的炎热是具有压迫性的，何伟在这里与另一位和平队志愿者亚当·维斯会合。亚当在这里教书，他向何伟展示了这座城市隐藏在葡萄架下的复杂面貌。在长途汽车站，警察用机枪管指点乘客出示证件，这种冷峻的氛围与集市上维吾尔商贩的热闹形成鲜明对比。何伟敏锐地捕捉到了不同族群之间微妙的界限与紧张感。他们在极度干燥的空气中穿行，看着古老的坎儿井依然流淌着雪山融水，而现代的政治与社会变革正如同热浪一般，不可阻挡地重塑着这片土地。",
+        "transition_to": "为了躲避盆地的酷暑，何伟决定向上攀登，前往天山深处寻找清凉。",
+        "mood": "tense",
+        "key_dialogue": "在吐鲁番，热浪不仅仅是天气，它是一种生存背景。"
+      }
+    },
+    {
+      "title": "天山山脉",
+      "address": "中国-新疆维吾尔自治区-天山山脉-博格达峰附近",
+      "synopsis": "何伟在天山高海拔地区露营三天，享受远离人群的荒野风景与孤独。",
+      "source_evidence": "我在天山山脉三千多米高的地方露营了整整三天，那里风景粗犷，除了偶尔经过的哈萨克牧民，几乎见不到人。",
+      "original_chapter": "第七章 暑假",
+      "part_id": "PART-1",
+      "part_title": "Country Driving",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "三天"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "camping",
+          "solitude",
+          "wilderness"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现多为自然保护区或景区",
+        "current_name": "天山"
+      },
+      "timeline": {
+        "orderIndex": 109,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第109章·云端的三日",
+        "hook": "在海拔三千米的高度，世界只剩下风声和远处的雪线。",
+        "narrative_text": "何伟背起行囊，走进了天山山脉的深处。在海拔三千多米的高地上，他搭建起帐篷，开始了为期三天的露营。这里的空气稀薄而纯净，与吐鲁番的燥热判若两个世界。他观察着远处的冰川和近处的草甸，偶尔会有骑马的哈萨克牧民像幻影一样出现在地平线上，又悄然消失。这种极度的孤独让他能够从漫长的旅途中抽离出来，重新审视他在中国观察到的一切。在星空下，荒野的粗犷赋予了他一种难得的平静。",
+        "transition_to": "结束了西北的漫游，何伟回到了他在长江边的“第二故乡”——涪陵。",
+        "mood": "peaceful",
+        "key_dialogue": "在天山的高处，你会感觉到时间仿佛是静止的。"
+      }
+    },
+    {
+      "title": "涪陵天主教堂",
+      "address": "中国-重庆市-涪陵区-老城区-兴华东路",
+      "synopsis": "何伟常去这座由法国传教士始建的教堂参加弥撒，并与李海柔神甫交流，了解宗教在当地的变迁。",
+      "source_evidence": "天主教堂位于涪陵老城区，在教堂的院墙上有四行标语……涪陵的这座天主教堂由法国传教士修建于1861年。……李海柔神甫是一个温和的人。",
+      "original_chapter": "第七章 暑假",
+      "part_id": "PART-1",
+      "part_title": "Country Driving",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "1996",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟",
+          "李海柔"
+        ],
+        "stay_duration": "多次访问"
+      },
+      "cultural_tags": {
+        "category": "religious",
+        "themes": [
+          "faith",
+          "history",
+          "perseverance"
+        ],
+        "significance": 0.75
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "教堂仍在使用中",
+        "current_name": "涪陵天主堂"
+      },
+      "timeline": {
+        "orderIndex": 110,
+        "dateStart": "1996",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第110章·老城的钟声",
+        "hook": "在涪陵拥挤的老街中，隐藏着一座见证了百年沧桑的法式教堂。",
+        "narrative_text": "回到涪陵，何伟总会去老城区的天主教堂坐坐。这座始建于1861年的建筑，在文革期间曾被当作仓库，如今又恢复了它的宗教功能。李海柔神甫——一位经历过动荡岁月、依然保持温和谦逊的老人，是何伟在这里的重要谈话对象。教堂的院墙上刷着政治标语，内部却回荡着拉丁文的赞美诗，这种奇妙的并置正是涪陵魅力的缩影。何伟在这里不仅是在寻找宗教的慰藉，更是在通过李神甫的个人史，触摸这座山城在时代洪流中不曾磨灭的尊严。",
+        "transition_to": "从教堂出来，何伟沿着石阶向下，走向了涪陵人最喜爱的休闲去处——望州公园。",
+        "mood": "nostalgic",
+        "key_dialogue": "“我们经历了很多，但教堂始终在这里。”李海柔神甫平静地说道。"
+      }
+    },
+    {
+      "title": "望州公园",
+      "address": "中国-重庆市-涪陵区-望州公园",
+      "synopsis": "何伟每周二下午的固定去处，他在公园里观察涪陵人的休闲生活，并与当地摄影师交谈。",
+      "source_evidence": "星期二的下午，我会找那位摄影师交谈一番，然后去望州公园。",
+      "original_chapter": "第八章 中国生活",
+      "part_id": "PART-3",
+      "part_title": "第三部分：工厂",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "1996",
+        "date_end": "1998"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "一个下午"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "leisure",
+          "observation",
+          "daily_life"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为涪陵城区重要的市民公园",
+        "current_name": "望州公园"
+      },
+      "timeline": {
+        "orderIndex": 111,
+        "dateStart": "1996",
+        "dateEnd": "1998"
+      },
+      "story_mode": {
+        "chapter_title": "第111章·望州公园的午后",
+        "hook": "在喧嚣的涪陵城中，何伟总会在周二下午寻找片刻宁静。",
+        "narrative_text": "从教堂出来，何伟沿着石阶向下，走向了涪陵人最喜爱的休闲去处——望州公园。作为一名在涪陵师专任教的外国教师，何伟（Peter Hessler）习惯在每周二下午开启他的城市漫步。在望州公园，他观察着那些打麻将、喝茶、或是仅仅坐着发呆的当地人。这里是涪陵社会生活的缩影，没有课堂上的严肃，只有最真实、最松弛的市井气息。他常会与公园里的摄影师聊上几句，试图从这些普通人的视角中，拼凑出这个正在剧烈变革中的内陆小城的真实模样。",
+        "transition_to": "离开公园的闲适，何伟走向了江东地区那间充满烟火气的小面馆。",
+        "mood": "peaceful",
+        "key_dialogue": "“星期二的下午，我会找那位摄影师交谈一番，然后去望州公园。”"
+      }
+    },
+    {
+      "title": "学生食家",
+      "address": "中国-重庆市-涪陵区-江东-学生食家",
+      "synopsis": "黄小强经营的小面馆，是何伟观察涪陵基层社交与家庭变迁的重要窗口。",
+      "source_evidence": "我每天至少要到“学生食家”这家小面馆吃一顿饭。我一般是一个人前往就餐，不过每一个星期，我们四个志愿者总会在这里一起吃一顿午餐。",
+      "original_chapter": "第八章 中国生活",
+      "part_id": "PART-3",
+      "part_title": "第三部分：工厂",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "1996",
+        "date_end": "1998"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟",
+          "黄小强",
+          "冯小琴"
+        ],
+        "stay_duration": "每日用餐时间"
+      },
+      "cultural_tags": {
+        "category": "culinary",
+        "themes": [
+          "community",
+          "food",
+          "social_observation"
+        ],
+        "significance": 0.8
+      },
+      "visitability": {
+        "status": "demolished",
+        "note": "原址位于旧师专对面，随旧城改造已拆除",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 112,
+        "dateStart": "1996",
+        "dateEnd": "1998"
+      },
+      "story_mode": {
+        "chapter_title": "第112章·面馆里的江东往事",
+        "hook": "一碗简单的小面，连接着外教与当地家庭的命运。",
+        "narrative_text": "在涪陵师专大门对面，黄小强和妻子冯小琴经营着一家名为“学生食家”的小面馆。这里是何伟最常光顾的地方，他每天至少来吃一顿饭。面馆不仅提供廉价而美味的食物，更是江东地区社交生活的中心。何伟在这里观察黄家人的勤劳与精明，也见证了他们在市场经济浪潮中的挣扎与希望。对于何伟而言，这间烟火缭绕的小店是他融入涪陵生活的切入口，每一个食客的谈话都像是这个时代最细微的脉搏。",
+        "transition_to": "虽然生活在涪陵，但何伟偶尔也会顺江而上，去往那座更大的山城。",
+        "mood": "nostalgic",
+        "key_dialogue": "“我每天至少要到‘学生食家’这家小面馆吃一顿饭。”"
+      }
+    },
+    {
+      "title": "重庆",
+      "address": "中国-重庆-重庆-重庆",
+      "synopsis": "何伟偶尔造访的大都市，与涪陵的闭塞形成对比，也是他观察行政体制的窗口。",
+      "source_evidence": "到重庆的水翼飞船船票售价八十元一张……我在重庆有一些朋友，但除此之外，我也没有什么兴趣去那里。",
+      "original_chapter": "第九章 钱",
+      "part_id": "PART-3",
+      "part_title": "第三部分：工厂",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "1996",
+        "date_end": "1998"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟"
+        ],
+        "stay_duration": "短期访问"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "urbanization",
+          "transportation",
+          "contrast"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": null,
+        "current_name": "重庆市"
+      },
+      "timeline": {
+        "orderIndex": 113,
+        "dateStart": "1996",
+        "dateEnd": "1998"
+      },
+      "story_mode": {
+        "chapter_title": "第113章·山城的轮渡与飞船",
+        "hook": "八十元一张的船票，连接着两个截然不同的世界。",
+        "narrative_text": "重庆，这座庞大的直辖市，在何伟眼中既是朋友的聚集地，也是一个充满官僚气息的行政中心。他有时会乘坐昂贵的水翼飞船，有时则选择缓慢的班船，在长江的浊浪中穿行。相比于涪陵的亲切与琐碎，重庆显得更加宏大而疏离。他曾目睹重庆的干部考察团来到涪陵，那种等级森严的宴会文化让他对中国的权力结构有了更深的思考。尽管如此，他依然更愿意回到那个让他感到自在的小城涪陵。",
+        "transition_to": "从大都市的喧嚣中抽身，何伟回到了他工作的核心地带。",
+        "mood": "desolate",
+        "key_dialogue": "“我在重庆有一些朋友，但除此之外，我也没有什么兴趣去那里。”"
+      }
+    },
+    {
+      "title": "涪陵师专",
+      "address": "中国-重庆-涪陵-涪陵师专",
+      "synopsis": "何伟任教的学校，是故事的核心舞台，展现了当时中国教育体制与基层社会的互动。",
+      "source_evidence": "“他每个月挣一千块！跟师专其他那几个外教的工资一样多。”……孔老师的单位是涪陵师专，他的生活中丝毫没有企业家那种混乱状态和不确定性。",
+      "original_chapter": "第九章 钱",
+      "part_id": "PART-3",
+      "part_title": "第三部分：工厂",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "1996",
+        "date_end": "1998"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟",
+          "亚当",
+          "孔明",
+          "廖老师",
+          "简奈尔"
+        ],
+        "stay_duration": "两年"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "education",
+          "bureaucracy",
+          "cultural_exchange"
+        ],
+        "significance": 1.0
+      },
+      "visitability": {
+        "status": "relocated",
+        "note": "原址现为长江师范学院江东校区，主校区已搬迁",
+        "current_name": "长江师范学院"
+      },
+      "timeline": {
+        "orderIndex": 114,
+        "dateStart": "1996",
+        "dateEnd": "1998"
+      },
+      "story_mode": {
+        "chapter_title": "第114章·师专的围墙内外",
+        "hook": "在严格的罚款制度与稳定的工资之间，藏着中国人的生存哲学。",
+        "narrative_text": "涪陵师专是何伟与亚当（Adam Meier）生活了两年的地方。这里有着严密的组织结构，孔明（Adam Warwick）等同事在这里享受着体制内的安稳。校园里充满了各种奇特的规矩，比如对迟到或违规的严格罚款，这让何伟感到既荒诞又好奇。在春节期间，喧闹的校园会突然陷入死寂，只剩下外教们在公寓里守着孤独。这里不仅是传授英语的课堂，更是何伟观察中国社会如何运作、个人如何与集体博弈的最佳实验室。",
+        "transition_to": "然而，师专的围墙挡不住外面的诱惑，许多学生正望向更南方的远方。",
+        "mood": "peaceful",
+        "key_dialogue": "“孔老师的单位是涪陵师专，他的生活中丝毫没有企业家那种混乱状态和不确定性。”"
+      }
+    },
+    {
+      "title": "深圳",
+      "address": "中国-广东-深圳-深圳",
+      "synopsis": "涪陵学生们向往的淘金地，象征着机会、压力以及改革开放带来的社会流动。",
+      "source_evidence": "对四川的流动大军来说，深圳是一片大有作为的土地。……安妮跑到了南方——先在云南省昆明市当文秘，随后又去了临近香港的深圳经济特区。",
+      "original_chapter": "第九章 钱",
+      "part_id": "PART-3",
+      "part_title": "第三部分：工厂",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "1998",
+        "date_end": "2000"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "安妮",
+          "多恩"
+        ],
+        "stay_duration": "多年（学生工作）"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "migration",
+          "ambition",
+          "capitalism"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "exists",
+        "note": null,
+        "current_name": "深圳市"
+      },
+      "timeline": {
+        "orderIndex": 115,
+        "dateStart": "1998",
+        "dateEnd": "2000"
+      },
+      "story_mode": {
+        "chapter_title": "第115章·南下的梦与幻",
+        "hook": "从涪陵的江边到深圳的工厂，是一场关于改变命运的豪赌。",
+        "narrative_text": "深圳，这个名字在涪陵师专的学生口中带有某种魔力。安妮（Anne）等毕业生纷纷告别家乡，投身于南方的流动大军。在何伟的记述中，深圳是一片充满机会但也充满残酷竞争的土地。那里流行着金字塔传销，人才市场里挤满了渴望改变命运的年轻人。对于这些来自四川山区的学生来说，深圳既是实现财富梦想的终点，也是让他们感到困惑与迷失的异乡。这种剧烈的人口流动，正是那个时代中国最鲜明的注脚。",
+        "transition_to": "告别了南下的学生，故事的视线重新回到了长江边，指向了那个即将被淹没的古城丰都。",
+        "mood": "ambitious",
+        "key_dialogue": "“对四川的流动大军来说，深圳是一片大有作为的土地。”"
+      }
+    },
+    {
+      "title": "丰都",
+      "address": "中国-重庆-丰都-老城区",
+      "synopsis": "何伟在春节期间探访学生孔明的家乡，见证了这座即将因三峡工程而沉入江底的古城最后的喧嚣与破败。",
+      "source_evidence": "2月的第一个星期，我顺江而下去了丰都，见到了孔老师和他妻子的娘家人。……这是一座古老的江城，它的肮脏和不便也饱含着别样的风情。",
+      "original_chapter": "第十章 农历新年",
+      "part_id": "PART-3",
+      "part_title": "工厂",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": "鬼城",
+        "date_start": "2002",
+        "date_end": "2002"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟",
+          "孔明",
+          "徐莉佳",
+          "徐先生",
+          "徐华"
+        ],
+        "stay_duration": "数日"
+      },
+      "cultural_tags": {
+        "category": "historical_site",
+        "themes": [
+          "disappearance",
+          "tradition",
+          "urban_change"
+        ],
+        "significance": 0.85
+      },
+      "visitability": {
+        "status": "demolished",
+        "note": "老城已淹没于三峡水库下，现存为移民新城及名山风景区",
+        "current_name": "丰都新县城"
+      },
+      "timeline": {
+        "orderIndex": 116,
+        "dateStart": "2002",
+        "dateEnd": "2002"
+      },
+      "story_mode": {
+        "chapter_title": "第11章·沉没前的鬼城",
+        "hook": "在古老的“鬼城”彻底消失前，何伟走进了一家即将搬迁的普通人家。",
+        "narrative_text": "告别了南下的学生，故事的视线重新回到了长江边，指向了那个即将被淹没的古城丰都。何伟在春节期间来到了这里，探望他的学生孔明及其岳父徐先生一家。此时的丰都正处于一种奇特的临界状态：老城的街道肮脏而充满活力，但墙上随处可见的“靠山移民”标语提醒着人们，这一切终将沉入江底。在徐先生那间昏暗、潮湿却充满生活气息的旧屋里，何伟观察着这个家庭在巨变前夕的宁静。孔明——这位曾经在涪陵师专求学、如今已为人父的青年，正带着某种对未来的不确定感，在故乡的残垣断壁间穿行。这座以“鬼神”传说闻名的城市，正经历着最现实的肉身剥离。",
+        "transition_to": "离开即将消失的丰都，何伟与老友亚当一同前往山区的武隆，去感受另一种教育的现场。",
+        "mood": "melancholic",
+        "key_dialogue": "“这里的一切都要拆掉，”徐先生平静地说，仿佛在谈论别人的家事。"
+      }
+    },
+    {
+      "title": "武隆",
+      "address": "中国-重庆-武隆-武隆中学",
+      "synopsis": "何伟与亚当看望在武隆实习的学生，在当地学校的热情款待与演讲中，感受基层教育的现状与压力。",
+      "source_evidence": "12月，我和亚当往南边走了一趟，去看望我们最喜欢的几个学生的教学工作。他们在武隆县的几所中学实习。",
+      "original_chapter": "第十章 农历新年",
+      "part_id": "PART-3",
+      "part_title": "工厂",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2001",
+        "date_end": "2001"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "何伟",
+          "亚当"
+        ],
+        "stay_duration": "两天"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "education",
+          "hospitality",
+          "rural_china"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "武隆中学等校址仍在，但已多次扩建",
+        "current_name": null
+      },
+      "timeline": {
+        "orderIndex": 117,
+        "dateStart": "2001",
+        "dateEnd": "2001"
+      },
+      "story_mode": {
+        "chapter_title": "第12章·大山里的演讲",
+        "hook": "两名外籍教师的到来，让偏远的山区中学陷入了一场热情的“风暴”。",
+        "narrative_text": "何伟与好友亚当（Adam Meyer，他在涪陵时的同事）一同前往武隆。这里山峦叠嶂，地理环境闭塞，但当地学校对这两位“洋老师”的到来展现出了近乎疯狂的热情。他们被安排在巨大的礼堂里进行演讲，面对着成百上千双渴望又好奇的眼睛。学生们的实习生活艰苦而单调，而何伟与亚当的到访成了某种节日般的慰藉。然而，无休止的宴请、敬酒和客套话让两人感到精疲力竭。在这种极度的热情背后，何伟敏锐地捕捉到了基层教育者对外界认同的极度渴望，以及大山深处年轻人试图通过考试改变命运的沉重压力。",
+        "transition_to": "从山区的喧嚣回到涪陵的街头，一场突如其来的争吵为何伟的旅程增添了意外的注脚。",
+        "mood": "dramatic",
+        "key_dialogue": "“他们太热情了，”亚当低声说，“热情得让人想逃跑。”"
+      }
+    },
+    {
+      "title": "高笋塘",
+      "address": "中国-重庆-涪陵-高笋塘路",
+      "synopsis": "在涪陵最繁华的十字路口，何伟与擦鞋匠发生争执，这成为他反思自身与这片土地关系的一个节点。",
+      "source_evidence": "寒假快结束的时候，我在高笋塘——也就是涪陵上半城的一个十字路口上——跟人吵了一架。",
+      "original_chapter": "第十章 农历新年",
+      "part_id": "PART-3",
+      "part_title": "工厂",
+      "temporal_context": {
+        "era": "2000年代",
+        "historical_name": null,
+        "date_start": "2002",
+        "date_end": "2002"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "何伟",
+          "张龙华"
+        ],
+        "stay_duration": "数小时"
+      },
+      "cultural_tags": {
+        "category": "travelogue",
+        "themes": [
+          "conflict",
+          "urban_life",
+          "reflection"
+        ],
+        "significance": 0.7
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为涪陵核心商业区，环境已大幅改善",
+        "current_name": "高笋塘商圈"
+      },
+      "timeline": {
+        "orderIndex": 118,
+        "dateStart": "2002",
+        "dateEnd": "2002"
+      },
+      "story_mode": {
+        "chapter_title": "第13章·十字路口的告别",
+        "hook": "一次关于擦鞋费用的微小争执，竟演变成了一场关于尊严与身份的街头对峙。",
+        "narrative_text": "高笋塘是涪陵上半城最热闹的十字路口，也是何伟常去的地方。在这里，他结识了烧烤摊主张龙华，习惯了这里的市井烟火。然而，在寒假即将结束的一天，一名粗鲁的擦鞋匠试图敲诈他，这点燃了何伟长期积累的情绪。他在众目睽睽之下与对方激烈争吵，甚至动用了最地道的四川方言。这场争吵不仅是为了几块钱，更像是何伟在这片土地上生活多年后，一种身份的爆发——他不再仅仅是一个观察者，而是成为了这个复杂、粗粝、充满生命力的中国社会的一部分。随着争吵平息，何伟意识到，无论是在长城脚下的农家，还是在温州的工厂，亦或是这长江边的古城，他所记录的不仅是中国的变迁，更是他自己生命中无法磨灭的一段航程。",
+        "transition_to": "从农场到工厂，从长城到长江，何伟的中国行迹在此汇流。这不仅是一段地理的跨越，更是一个时代的侧写，记录了那个奔腾不息、在阵痛中巨变的中国。（全书完）",
+        "mood": "bittersweet",
+        "key_dialogue": "“你以为我是外宾吗？”我用涪陵话冲他吼道，“我在这里住了两年了！”"
+      }
+    }
+  ],
+  "suspects": []
+}

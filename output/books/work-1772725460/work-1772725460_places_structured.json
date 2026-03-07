@@ -1,0 +1,450 @@
+{
+  "book_info": {
+    "title": "情人",
+    "author": "Marguerite Duras",
+    "type": "novel",
+    "summary": "《情人》是法国作家玛格丽特·杜拉斯带有自传色彩的经典杰作。故事发生在1920年代末法属印度支那的西贡，在那片湿热、混沌且充满殖民气息的土地上，一个十五岁的法国贫穷少女在湄公河的渡轮上，邂逅了一位富有且忧郁的中国男人。这段跨越种族、阶级与年龄的禁忌之恋，在西贡潮湿的午后与堤岸的公寓里无声蔓延。杜拉斯以极具韵律感的文字，将家族的崩塌、母爱的扭曲、青春的幻灭与那份刻骨铭心的绝望之爱交织在一起，构成了一幅关于欲望、记忆与时间流逝的绝美画卷。"
+  },
+  "characters": [
+    {
+      "id": "marguerite_duras",
+      "name": "玛格丽特·杜拉斯",
+      "aliases": [
+        "女孩",
+        "我"
+      ],
+      "role": "故事的主角，一个在法属印度支那长大的十五岁法国贫穷少女",
+      "first_appearance": "塞纳河",
+      "importance": "protagonist"
+    },
+    {
+      "id": "chinese_lover",
+      "name": "中国情人",
+      "aliases": [
+        "中国男人",
+        "他"
+      ],
+      "role": "来自堤岸的富有阔少，与少女陷入一段绝望的恋情",
+      "first_appearance": "美国",
+      "importance": "protagonist"
+    },
+    {
+      "id": "mother",
+      "name": "母亲",
+      "aliases": [
+        "她"
+      ],
+      "role": "在殖民地苦苦挣扎的法国女教师，性格偏执且深陷贫困",
+      "first_appearance": "昂布瓦斯",
+      "importance": "major"
+    },
+    {
+      "id": "pierre",
+      "name": "皮埃尔",
+      "aliases": [
+        "大哥"
+      ],
+      "role": "家中的长子，残忍、堕落且挥霍无度，是家族的阴影",
+      "first_appearance": "蒙帕纳斯",
+      "importance": "major"
+    },
+    {
+      "id": "paul",
+      "name": "保罗",
+      "aliases": [
+        "小哥哥"
+      ],
+      "role": "家中的次子，性格懦弱善良，是少女唯一深爱的亲人",
+      "first_appearance": "邮船公司码头",
+      "importance": "major"
+    },
+    {
+      "id": "helene_lagonelle",
+      "name": "海伦·拉戈奈尔",
+      "aliases": [
+        "海伦"
+      ],
+      "role": "少女在寄宿学校的好友，拥有惊人的美貌与纯真",
+      "first_appearance": "大叻",
+      "importance": "supporting"
+    },
+    {
+      "id": "qing",
+      "name": "清",
+      "aliases": [
+        "男仆"
+      ],
+      "role": "家中的中国男仆，与少女有着一种沉默而深厚的情感纽带",
+      "first_appearance": "利奥泰街",
+      "importance": "supporting"
+    }
+  ],
+  "parts": [
+    {
+      "part_id": "PART-1",
+      "title": "情人",
+      "synopsis": "在法属印度支那的湿热背景下，少女与中国情人相遇并陷入热恋，同时展现了其家族在贫困与欲望中的挣扎与崩解。",
+      "place_count": 23,
+      "mood": "melancholic",
+      "key_characters": [
+        "玛格丽特·杜拉斯",
+        "中国情人",
+        "母亲",
+        "皮埃尔",
+        "保罗"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "title": "利奥泰街",
+      "address": "越南-胡志明市-第一郡-利奥泰街",
+      "synopsis": "女孩与清约会的地点，充满了禁忌与底层生活的阴郁气息。",
+      "source_evidence": "让他在利奥泰街，阿丽丝卖淫的壕沟那边等她。",
+      "original_chapter": "情人",
+      "part_id": "PART-1",
+      "part_title": "情人",
+      "temporal_context": {
+        "era": "1930年代",
+        "historical_name": "Rue Lyautey",
+        "date_start": "1930",
+        "date_end": "1930"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "玛格丽特·杜拉斯",
+          "清"
+        ],
+        "stay_duration": "短暂"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "clandestine",
+          "desire",
+          "urban_decay"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为胡志明市的一条街道",
+        "current_name": "Lý Tự Trọng"
+      },
+      "timeline": {
+        "orderIndex": 1,
+        "dateStart": "1930",
+        "dateEnd": "1930"
+      },
+      "story_mode": {
+        "chapter_title": "第1章·壕沟边的约会",
+        "hook": "在卖淫的壕沟旁，清等待着那个让他心碎的女孩。",
+        "narrative_text": "利奥泰街，一个并不浪漫的约会地点。这里靠近阿丽丝卖淫的壕沟，空气中弥漫着底层社会的腐朽与绝望。玛格丽特·杜拉斯让清——那个一直默默爱慕着她的北方青年仆人——在这里等她。清开着他的车，在阴影中守候。这时的女孩已经深陷与中国情人的欲望纠葛，而清则代表了另一种可能：一种纯洁的、却注定被忽视的爱。在这个充满罪恶感的地段，两人的相遇显得格外压抑，预示着纯真在西贡街头的消亡。",
+        "transition_to": "清发动了引擎，带着女孩驶向了寂静的动物园深处，寻找片刻的安宁。",
+        "mood": "tense",
+        "key_dialogue": "让他在利奥泰街，阿丽丝卖淫的壕沟那边等她。"
+      }
+    },
+    {
+      "title": "西贡动物园",
+      "address": "越南-胡志明市-第一郡-西贡动植物园",
+      "synopsis": "清与女孩最后的温存之地，在猛兽的低吼声中，他们分享了纯粹的悲伤。",
+      "source_evidence": "他不吭声，他朝动物园驶去。没有人影。他把车停在篱笆附近，猛兽区的后面。",
+      "original_chapter": "情人",
+      "part_id": "PART-1",
+      "part_title": "情人",
+      "temporal_context": {
+        "era": "1930年代",
+        "historical_name": "Jardin botanique et zoologique de Saïgon",
+        "date_start": "1930",
+        "date_end": "1930"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "玛格丽特·杜拉斯",
+          "清"
+        ],
+        "stay_duration": "一夜"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "innocence",
+          "sorrow",
+          "platonic"
+        ],
+        "significance": 0.6
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为胡志明市动植物园",
+        "current_name": "Thảo Cầm Viên Sài Gòn"
+      },
+      "timeline": {
+        "orderIndex": 2,
+        "dateStart": "1930",
+        "dateEnd": "1930"
+      },
+      "story_mode": {
+        "chapter_title": "第2章·猛兽区后的长眠",
+        "hook": "在狮虎的咆哮声中，他们相拥而泣，却无关欲望。",
+        "narrative_text": "清把车开进了深夜的西贡动物园，停在猛兽区的篱笆后面。四周空无一人，只有远处野兽偶尔发出的低吼。玛格丽特·杜拉斯与清并排坐着，随后在车内相拥。这是一种极其特殊的亲密——没有与中国情人之间的那种肉欲横流，只有两个年轻人对命运的共同战栗。他们哭泣，然后沉沉睡去，直到黎明。这是清对她最后的守护，也是女孩在离开印度支那前，最后一次感受这种不带侵略性的温柔。",
+        "transition_to": "离别的时刻终于到来，邮船公司的码头已在前方等待，那是家庭分崩离析的起点。",
+        "mood": "melancholic",
+        "key_dialogue": "他不吭声，他朝动物园驶去。没有人影。他把车停在篱笆附近，猛兽区的后面。"
+      }
+    },
+    {
+      "title": "邮船公司码头",
+      "address": "越南-胡志明市-第四郡-西贡港邮船码头",
+      "synopsis": "皮埃尔乘船回法国的出发地。全家人在此送别，场面凄凉。",
+      "source_evidence": "司机应该把她送到邮船公司码头。……镜头在邮船公司的大铁栅门口又找到他们。……码头上停靠着出港的船",
+      "original_chapter": "情人",
+      "part_id": "PART-1",
+      "part_title": "情人",
+      "temporal_context": {
+        "era": "1930年代",
+        "historical_name": "Messageries Maritimes",
+        "date_start": "1932",
+        "date_end": "1932"
+      },
+      "narrative_context": {
+        "event_level": "major",
+        "characters": [
+          "玛格丽特·杜拉斯",
+          "皮埃尔",
+          "母亲",
+          "保罗",
+          "清"
+        ],
+        "stay_duration": "数小时"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "departure",
+          "family_tragedy",
+          "colonial_life"
+        ],
+        "significance": 0.9
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为胡志明市港口管理区域，部分建筑保留",
+        "current_name": "Cảng Sài Gòn"
+      },
+      "timeline": {
+        "orderIndex": 3,
+        "dateStart": "1932",
+        "dateEnd": "1932"
+      },
+      "story_mode": {
+        "chapter_title": "第3章·最后的离散",
+        "hook": "在西贡的铁栅门前，一个家庭彻底分崩离析。",
+        "narrative_text": "西贡动物园的喧嚣已远去，邮船公司的码头成了最后的审判场。玛格丽特·杜拉斯看着大哥皮埃尔——那个毁掉家庭安宁的暴虐者，即将登船返回法国。母亲在铁栅门前几乎崩溃，她对长子那种近乎病态的溺爱与绝望交织在一起。小哥哥保罗沉默地站着，而忠诚的仆人清则在阴影中注视着这一切。这不仅仅是一次航行，这是杜拉斯家族在法属印度支那生活终结的序曲，每个人都被命运推向了不同的深渊。",
+        "transition_to": "当船只缓缓离岸，那些留在陆地上的人，也有着各自未竟的宿命，比如消失在森林里的清。",
+        "mood": "desolate",
+        "key_dialogue": "司机应该把她送到邮船公司码头。……镜头在邮船公司的大铁栅门口又找到他们。"
+      }
+    },
+    {
+      "title": "暹罗",
+      "address": "泰国-曼谷-暹罗森林",
+      "synopsis": "清计划前往暹罗寻找亲人，中国男人推测他最终迷路死在了森林里。",
+      "source_evidence": "她说他可以到暹罗或别的地方去……他说他以为，清想找到他在暹罗森林里的亲人，他必定迷了路，死在那里，那片森林里了。",
+      "original_chapter": "情人",
+      "part_id": "PART-1",
+      "part_title": "情人",
+      "temporal_context": {
+        "era": "1930年代",
+        "historical_name": "Siam",
+        "date_start": null,
+        "date_end": null
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "清",
+          "中国男人"
+        ],
+        "stay_duration": "未知"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "disappearance",
+          "death",
+          "mystery"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "泛指泰国境内森林",
+        "current_name": "Thailand"
+      },
+      "timeline": {
+        "orderIndex": 4,
+        "dateStart": null,
+        "dateEnd": null
+      },
+      "story_mode": {
+        "chapter_title": "第4章·迷失的森林",
+        "hook": "那个忠诚的仆人，最终消失在异国的丛林深处。",
+        "narrative_text": "在杜拉斯的记忆碎片中，仆人清的结局是一个未解的谜。他曾想离开这个破碎的家庭，去暹罗寻找自己的亲人。然而，多年后那个曾与杜拉斯热恋的中国男人告诉她，清可能从未到达目的地。在暹罗那片原始而阴郁的森林里，他迷失了方向，最终孤独地死在了异乡的泥土中。这个细节为整个故事涂抹上了一层宿命论的灰色，象征着那个时代卑微生命的无声消亡，也象征着女孩过去生活的彻底瓦解。",
+        "transition_to": "而对于杜拉斯来说，真正的告别发生在波涛汹涌的海面上，当船只绕过大陆的尽头。",
+        "mood": "mysterious",
+        "key_dialogue": "他必定迷了路，死在那里，那片森林里了。"
+      }
+    },
+    {
+      "title": "金瓯",
+      "address": "越南-金瓯省-金瓯角",
+      "synopsis": "邮船绕过亚洲大陆尽头的金瓯角进入公海，象征少女时代的终结。",
+      "source_evidence": "在交趾支那尽头的金瓯，刚冒出海面的飞鸟平原是水稻种植区。……然后绕过亚洲大陆尽头的金瓯角。",
+      "original_chapter": "情人",
+      "part_id": "PART-1",
+      "part_title": "情人",
+      "temporal_context": {
+        "era": "1932年",
+        "historical_name": "Pointe de Ca Mau",
+        "date_start": "1932",
+        "date_end": "1932"
+      },
+      "narrative_context": {
+        "event_level": "passing",
+        "characters": [
+          "玛格丽特·杜拉斯"
+        ],
+        "stay_duration": "航经"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "journey",
+          "geographical_boundary"
+        ],
+        "significance": 0.3
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "越南最南端的海角",
+        "current_name": "Mũi Cà Mau"
+      },
+      "timeline": {
+        "orderIndex": 5,
+        "dateStart": "1932",
+        "dateEnd": "1932"
+      },
+      "story_mode": {
+        "chapter_title": "第5章·大陆的尽头",
+        "hook": "绕过金瓯角，便是彻底的告别。",
+        "narrative_text": "邮船缓缓驶离了交趾支那，绕过亚洲大陆最南端的金瓯角。玛格丽特·杜拉斯站在甲板上，看着那片刚冒出海面的飞鸟平原和无际的水稻种植区逐渐远去。这里是陆地的终点，也是她少女时代的终点。金瓯角的轮廓在海平线上模糊，象征着她与这片充满苦难、情欲与殖民色彩的土地正式切割。前方是未知的公海，而身后是她再也回不去的童年，以及那个被她抛下的中国情人。",
+        "transition_to": "当船头转向西方进入暹罗湾，最后的一丝防线终于在波涛中崩溃。",
+        "mood": "melancholic",
+        "key_dialogue": "然后绕过亚洲大陆尽头的金瓯角。"
+      }
+    },
+    {
+      "title": "暹罗湾",
+      "address": "泰国-暹罗湾-公海",
+      "synopsis": "轮船转向西方，女孩在此刻意识到已远离陆地并放声大哭。",
+      "source_evidence": "进入公海，轮船即将转向西方暹罗湾的方向时，女孩醒来。",
+      "original_chapter": "情人",
+      "part_id": "PART-1",
+      "part_title": "情人",
+      "temporal_context": {
+        "era": "1932年",
+        "historical_name": "Golfe de Siam",
+        "date_start": "1932",
+        "date_end": "1932"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "玛格丽特·杜拉斯"
+        ],
+        "stay_duration": "航经"
+      },
+      "cultural_tags": {
+        "category": "natural_landscape",
+        "themes": [
+          "awakening",
+          "sorrow",
+          "ocean"
+        ],
+        "significance": 0.5
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "广阔海域",
+        "current_name": "Gulf of Thailand"
+      },
+      "timeline": {
+        "orderIndex": 6,
+        "dateStart": "1932",
+        "dateEnd": "1932"
+      },
+      "story_mode": {
+        "chapter_title": "第6章·海上的觉醒",
+        "hook": "在暹罗湾的波涛中，她终于放声大哭。",
+        "narrative_text": "当轮船转向西方，驶入广阔的暹罗湾时，玛格丽特·杜拉斯从睡梦中醒来。那一刻，她突然意识到自己已经彻底失去了那片土地，失去了那个在堤岸的黑暗中等待她的中国男人。海水的深蓝色压迫着视线，她开始哭泣，这种哭泣不是因为恐惧，而是因为一种巨大的、无法挽回的丧失感。在暹罗湾的浪潮声中，她第一次清晰地听到了内心深处关于爱情的绝响，那是她一生创作的源泉。",
+        "transition_to": "在这漫长的航程中，死亡的阴影依然如影随形，来自遥远的边和。",
+        "mood": "bittersweet",
+        "key_dialogue": "进入公海，轮船即将转向西方暹罗湾的方向时，女孩醒来。"
+      }
+    },
+    {
+      "title": "边和",
+      "address": "越南-同奈省-边和市",
+      "synopsis": "在邮船上跳海自杀的年轻男子是边和行政长官的儿子。",
+      "source_evidence": "才十七岁……是边和行政长官的儿子……",
+      "original_chapter": "情人",
+      "part_id": "PART-1",
+      "part_title": "情人",
+      "temporal_context": {
+        "era": "1932年",
+        "historical_name": "Bien Hoa",
+        "date_start": "1932",
+        "date_end": "1932"
+      },
+      "narrative_context": {
+        "event_level": "minor",
+        "characters": [
+          "玛格丽特·杜拉斯"
+        ],
+        "stay_duration": "提及"
+      },
+      "cultural_tags": {
+        "category": "literary_site",
+        "themes": [
+          "suicide",
+          "youth",
+          "despair"
+        ],
+        "significance": 0.4
+      },
+      "visitability": {
+        "status": "exists",
+        "note": "现为越南同奈省省会",
+        "current_name": "Biên Hòa"
+      },
+      "timeline": {
+        "orderIndex": 7,
+        "dateStart": "1932",
+        "dateEnd": "1932"
+      },
+      "story_mode": {
+        "chapter_title": "第7章·终曲：深渊的回响",
+        "hook": "一个十七岁少年的纵身一跃，为这段往事画上了句点。",
+        "narrative_text": "航程中发生了一起悲剧，一名年仅十七岁的少年跳海自杀。他是边和行政长官的儿子，本该有着锦绣前程，却选择消失在冰冷的海水中。这个来自边和的年轻人，成为了杜拉斯记忆中关于那段殖民时光最后的注脚。多年后，当那个中国男人在巴黎拨通杜拉斯的电话，说他依然爱她，直到死。所有的地点、所有的痛苦与欢愉，最终都汇聚成了这句跨越时空的告白。湄公河的水依旧流淌，而故事已在边和少年的纵身一跃中，沉入了永恒的深海。",
+        "transition_to": "《情人》的故事至此终结。那些关于西贡、堤岸与湄公河的记忆，已化作文学史上永恒的潮汐。",
+        "mood": "bittersweet",
+        "key_dialogue": "他说他爱她，他将永远爱她，他爱她直到他死。"
+      }
+    }
+  ],
+  "suspects": []
+}

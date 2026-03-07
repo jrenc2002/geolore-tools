@@ -1,0 +1,52 @@
+{
+  "work": {
+    "title": "情人",
+    "author": "Marguerite Duras",
+    "type": "novel",
+    "locale": "zh-Hans"
+  },
+  "pipeline": {
+    "generated_by": "geolore-auto-pipeline-v1",
+    "generated_at": "2026-03-05T15:51:14.122207+00:00",
+    "data_source_mode": "full_text",
+    "data_source_warning": null,
+    "model_select": "gemini-3.1-pro-preview-search",
+    "model_extract": "gemini-3-flash-preview-search",
+    "total_places": 7,
+    "major_places": 1,
+    "minor_places": 5,
+    "passing_places": 1,
+    "fictional_suspects": 0,
+    "address_completeness": 1.0,
+    "timeline_enabled": false,
+    "story_mode_enabled": true,
+    "story_mode_stats": {
+      "total_chapters": 7,
+      "avg_narrative_length": 177,
+      "mood_arc": [
+        "tense",
+        "melancholic",
+        "desolate",
+        "mysterious",
+        "melancholic",
+        "bittersweet",
+        "bittersweet"
+      ],
+      "transition_coverage": 1.17
+    },
+    "suggested_pack_id": "work-1772725460",
+    "suggested_map_title": "《情人》巡礼地图"
+  },
+  "review": {
+    "fixed_address": 7,
+    "removed_fictional": 0,
+    "removed_not_in_original": 0,
+    "merged_duplicates": 0,
+    "fixed_synopsis": 2,
+    "removed_names": []
+  },
+  "next_steps": [
+    "python scripts/geocode_places.py --input /Users/jrenc/Downloads/JrencsProject/geolore-tools/output/books/work-1772725460/work-1772725460_places_structured.json --output /Users/jrenc/Downloads/JrencsProject/geolore-tools/output/books/work-1772725460/work-1772725460_geocoded.json --amap-key $AMAP_KEY --enable-validation",
+    "python scripts/build_pack.py --input /Users/jrenc/Downloads/JrencsProject/geolore-tools/output/books/work-1772725460/work-1772725460_geocoded.json --output /Users/jrenc/Downloads/JrencsProject/geolore-tools/output/books/work-1772725460/work-1772725460_pack.json --pack-id work-1772725460 --title \"《情人》巡礼地图\""
+  ]
+}

@@ -1,0 +1,150 @@
+google:search{queries:[
+<ctrl46>
+books with strong geographical locations for literary tourism
+<ctrl46>
+,
+<ctrl46>
+best travelogues with mapped routes
+<ctrl46>
+,
+<ctrl46>
+literary maps of london books
+<ctrl46>
+,
+<ctrl46>
+books set in specific neighborhoods of Tokyo
+<ctrl46>
+,
+<ctrl46>
+books with clear itinerary non-fiction
+<ctrl46>
+,
+<ctrl46>
+latin american novels with real locations
+<ctrl46>
+,
+<ctrl46>
+southeast asia literary travel books
+<ctrl46>
+]}
+ต
+google:search{queries:[<ctrl46>best literary travel books Latin America specific route<ctrl46>,<ctrl46>The Motorcycle Diaries route map book<ctrl46>,<ctrl46>books set in Buenos Aires with specific locations<ctrl46>,<ctrl46>literary guide to Mexico City books<ctrl46>,<ctrl46>books set in Cairo with real locations<ctrl46>,<ctrl46>The Yacoubian Building locations<ctrl46>,<ctrl46>books set in Seoul with specific locations<ctrl46>,<ctrl46>Pachinko book locations<ctrl46>]}ต
+```json
+[
+  {
+    "rank": 1,
+    "title": "The Yacoubian Building",
+    "title_en": "The Yacoubian Building",
+    "author": "Alaa Al Aswany",
+    "language": "ar",
+    "type": "novel",
+    "era_setting": "1990s (Gulf War era)",
+    "geo_region": "North Africa",
+    "geo_scope": "Downtown Cairo (Talaat Harb Street)",
+    "word_count_estimate": 18,
+    "place_count_estimate": 45,
+    "density_index": 2.5,
+    "reachability_pct": 100,
+    "route_shape": "network",
+    "pilgrimage_appeal": 9,
+    "audience_size": "large",
+    "geo_added_value": "high",
+    "timeline_needed": false,
+    "grade": "S",
+    "reason": "Perfect 'Cultural Landmark' type. The entire narrative is anchored to a real Art Deco building (34 Talaat Harb St) in Cairo, serving as a vertical cross-section of Egyptian society. Readers can physically visit the building and surrounding downtown locations.",
+    "value_boundary": "cultural_landmark"
+  },
+  {
+    "rank": 2,
+    "title": "2666",
+    "title_en": "The Savage Detectives",
+    "author": "Roberto Bolaño",
+    "language": "es",
+    "type": "novel",
+    "era_setting": "1970s",
+    "geo_region": "Latin America",
+    "geo_scope": "Mexico City (historic center & Condesa)",
+    "word_count_estimate": 40,
+    "place_count_estimate": 120,
+    "density_index": 3.0,
+    "reachability_pct": 85,
+    "route_shape": "network",
+    "pilgrimage_appeal": 8,
+    "audience_size": "medium",
+    "geo_added_value": "high",
+    "timeline_needed": true,
+    "grade": "S",
+    "reason": "Part I acts as a hyper-detailed street map of 1970s Mexico City. Key locations like Café Quito (real-life Café La Habana) and Bucareli Avenue are central to the 'Visceral Realist' poets' drift, making it a cult guide for literary urban exploration.",
+    "value_boundary": "spatial_narrative"
+  },
+  {
+    "rank": 3,
+    "title": "Diarios de motocicleta",
+    "title_en": "The Motorcycle Diaries",
+    "author": "Ernesto 'Che' Guevara",
+    "language": "es",
+    "type": "travelogue",
+    "era_setting": "1952",
+    "geo_region": "South America",
+    "geo_scope": "Argentina, Chile, Peru, Colombia, Venezuela",
+    "word_count_estimate": 10,
+    "place_count_estimate": 85,
+    "density_index": 8.5,
+    "reachability_pct": 90,
+    "route_shape": "linear",
+    "pilgrimage_appeal": 10,
+    "audience_size": "massive",
+    "geo_added_value": "high",
+    "timeline_needed": true,
+    "grade": "S",
+    "reason": "The ultimate 'Route Trace' book. It defines a trans-continental journey that is historically significant and geographically precise. The route from Buenos Aires through the Andes to the Amazon is a popular real-world pilgrimage for backpackers.",
+    "value_boundary": "route_trace"
+  },
+  {
+    "rank": 4,
+    "title": "Pachinko",
+    "title_en": "Pachinko",
+    "author": "Min Jin Lee",
+    "language": "en",
+    "type": "novel",
+    "era_setting": "1910s-1980s",
+    "geo_region": "East Asia",
+    "geo_scope": "Yeongdo (Busan) & Osaka (Ikaino district)",
+    "word_count_estimate": 35,
+    "place_count_estimate": 50,
+    "density_index": 1.4,
+    "reachability_pct": 80,
+    "route_shape": "scattered",
+    "pilgrimage_appeal": 8,
+    "audience_size": "massive",
+    "geo_added_value": "medium",
+    "timeline_needed": true,
+    "grade": "A",
+    "reason": "Strong 'Spatial Narrative' of diaspora. It connects the specific fishing village of Yeongdo in Korea with the Korean ghetto of Ikaino in Osaka. Mapping these locations grounds the multi-generational saga in tangible, visitable history.",
+    "value_boundary": "spatial_narrative"
+  },
+  {
+    "rank": 5,
+    "title": "Bangkok Wakes to Rain",
+    "title_en": "Bangkok Wakes to Rain",
+    "author": "Pitchaya Sudbanthad",
+    "language": "en",
+    "type": "novel",
+    "era_setting": "19th century to near future",
+    "geo_region": "Southeast Asia",
+    "geo_scope": "Bangkok (multiple specific neighborhoods)",
+    "word_count_estimate": 20,
+    "place_count_estimate": 40,
+    "density_index": 2.0,
+    "reachability_pct": 95,
+    "route_shape": "network",
+    "pilgrimage_appeal": 7,
+    "audience_size": "medium",
+    "geo_added_value": "high",
+    "timeline_needed": true,
+    "grade": "A",
+    "reason": "A 'Spatial Narrative' masterpiece where the city itself is the protagonist. It layers different time periods over the exact same physical locations in Bangkok, allowing users to stand in one spot and see its past, present, and flooded future.",
+    "value_boundary": "spatial_narrative"
+  }
+]
+```

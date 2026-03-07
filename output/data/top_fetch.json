@@ -1,0 +1,134 @@
+[
+  {
+    "title": "The Motorcycle Diaries",
+    "author": "Ernesto 'Che' Guevara",
+    "language": "es",
+    "geo_score": 94.2
+  },
+  {
+    "title": "On the Road",
+    "author": "Jack Kerouac",
+    "language": "en",
+    "geo_score": 92.5
+  },
+  {
+    "title": "In Patagonia",
+    "author": "Bruce Chatwin",
+    "language": "en",
+    "geo_score": 86.5
+  },
+  {
+    "title": "繁花",
+    "author": "金宇澄",
+    "language": "zh",
+    "geo_score": 85.8
+  },
+  {
+    "title": "Inferno",
+    "author": "Dan Brown",
+    "language": "en",
+    "geo_score": 84.0
+  },
+  {
+    "title": "The Shadow of the Wind",
+    "author": "Carlos Ruiz Zafón",
+    "language": "es",
+    "geo_score": 83.5
+  },
+  {
+    "title": "Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "language": "en",
+    "geo_score": 83.0
+  },
+  {
+    "title": "The Da Vinci Code",
+    "author": "Dan Brown",
+    "language": "en",
+    "geo_score": 82.5
+  },
+  {
+    "title": "Midnight in the Garden of Good and Evil",
+    "author": "John Berendt",
+    "language": "en",
+    "geo_score": 82.5
+  },
+  {
+    "title": "The Beach",
+    "author": "Alex Garland",
+    "language": "en",
+    "geo_score": 82.2
+  },
+  {
+    "title": "Country Driving: A Journey Through China from Farm to Factory",
+    "author": "Peter Hessler (何伟)",
+    "language": "en",
+    "geo_score": 82.0
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "language": "en",
+    "geo_score": 82.0
+  },
+  {
+    "title": "大唐西域记",
+    "author": "玄奘",
+    "language": "zh",
+    "geo_score": 81.8
+  },
+  {
+    "title": "老残游记",
+    "author": "刘鹗",
+    "language": "zh",
+    "geo_score": 81.0
+  },
+  {
+    "title": "Dubliners",
+    "author": "James Joyce",
+    "language": "en",
+    "geo_score": 81.0
+  },
+  {
+    "title": "A Moveable Feast",
+    "author": "Ernest Hemingway",
+    "language": "en",
+    "geo_score": 80.5
+  },
+  {
+    "title": "The Old Capital",
+    "author": "川端康成 (Yasunari Kawabata)",
+    "language": "ja",
+    "geo_score": 79.6
+  },
+  {
+    "title": "Angels & Demons",
+    "author": "Dan Brown",
+    "language": "en",
+    "geo_score": 79.5
+  },
+  {
+    "title": "长安十二时辰",
+    "author": "马伯庸",
+    "language": "zh",
+    "geo_score": 79.0
+  },
+  {
+    "title": "湘行散记",
+    "author": "沈从文",
+    "language": "zh",
+    "geo_score": 78.2
+  },
+  {
+    "title": "东京梦华录",
+    "author": "孟元老",
+    "language": "zh",
+    "geo_score": 78.0
+  },
+  {
+    "title": "城南旧事",
+    "author": "林海音 (Lin Haiyin)",
+    "language": "zh",
+    "geo_score": 78.0
+  }
+]

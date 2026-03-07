@@ -1,0 +1,2 @@
+﻿run_id,title,title_en,author,language,book_type,grade,geo_region,geo_scope,era_setting,place_count_est,density_index,reachability,reason,status,text_source,text_fetched,text_is_full,text_word_count,text_url,places_extracted,places_final,output_file,error_message,started_at,finished_at,elapsed_sec,created_at
+run_1772388564_99155,测试书名,,作者A,,novel,A,中国,,,0,0.0,0,,completed,,0,0,0,,0,12,,,,,3.14,2026-03-01 18:09:24

@@ -56,10 +56,8 @@ sys.path.insert(0, PROJECT_ROOT)
 
 from src.common.config import (
     LLMConfig,
-    MODEL_CLAUDE,
     MODEL_PRO,
-    PROVIDER_CLAUDE,
-    PROVIDER_GEMINI,
+    PROVIDER_MIMO,
     load_llm_config,
 )
 from src.common.llm_client import call_llm
@@ -808,18 +806,16 @@ def main():
     parser.add_argument("--auto-pipeline", action="store_true", help="推荐后自动进入 pipeline")
 
     # API 配置
-    parser.add_argument("--provider", choices=["gemini", "claude"], default="gemini",
-                        help="AI 供应商: gemini(默认) 或 claude")
     parser.add_argument("--api-key", default="")
     parser.add_argument("--base-url", default="")
-    parser.add_argument("--model", default="", help="模型名称（留空则根据 provider 自动选择）")
+    parser.add_argument("--model", default="", help="模型名称（留空则自动选择 mimo-v2.5-pro）")
     parser.add_argument("--registry", default=DEFAULT_REGISTRY, help="注册表路径")
 
     args = parser.parse_args()
 
-    # 根据 provider 自动选择模型（如果未指定）
+    # 自动选择模型（如果未指定）
     if not args.model:
-        args.model = MODEL_CLAUDE if args.provider == "claude" else MODEL_PRO
+        args.model = MODEL_PRO
 
     # 分发命令
     if args.status:
@@ -840,7 +836,7 @@ def main():
     # 推荐模式 / 侦察模式
     # 注意：API Key 可以从配置文件读取，不一定需要命令行参数
     config = load_llm_config(
-        provider=PROVIDER_CLAUDE if args.provider == "claude" else PROVIDER_GEMINI,
+        provider=PROVIDER_MIMO,
         api_key=args.api_key if args.api_key else None,
         base_url=args.base_url or None,
         model=args.model,

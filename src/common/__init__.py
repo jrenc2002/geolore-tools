@@ -14,23 +14,22 @@
 from src.common.config import (
   LLMConfig,
   GeocodingConfig,
-  PROVIDER_CLAUDE,
-  PROVIDER_GEMINI,
+  PROVIDER_MIMO,
   load_llm_config,
   use_proxy,
 )
-from src.common.llm_client import call_llm, call_llm_for_extraction
+from src.common.llm_client import call_llm, call_llm_for_extraction, call_tts
 from src.common.json_utils import extract_json_from_text, extract_json_array, strip_code_fences
 
 __all__ = [
     "LLMConfig",
     "GeocodingConfig",
-    "PROVIDER_GEMINI",
-    "PROVIDER_CLAUDE",
+    "PROVIDER_MIMO",
     "load_llm_config",
     "use_proxy",
     "call_llm",
     "call_llm_for_extraction",
+    "call_tts",
     "extract_json_from_text",
     "extract_json_array",
     "strip_code_fences",

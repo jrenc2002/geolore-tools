@@ -22,7 +22,7 @@
 
 环境变量:
   OPENAI_API_KEY: API 密钥
-  GEOLORE_BASE_URL: API 基础 URL (默认 https://tokenmax.vip/v1)
+  GEOLORE_BASE_URL: API 基础 URL (默认 https://token-plan-cn.xiaomimimo.com/v1)
   OPENAI_MODEL: 模型名称 (默认 gpt-4o-mini)
 """
 
@@ -174,7 +174,7 @@ async def call_api(
     """调用 OpenAI 兼容 API"""
     url = config.base_url.rstrip("/") + "/chat/completions"
     headers = {
-        "Authorization": f"Bearer {config.api_key}",
+        "api-key": config.api_key,
         "Content-Type": "application/json",
     }
     payload: Dict[str, Any] = {
@@ -314,11 +314,11 @@ def main() -> None:
     )
     parser.add_argument(
         "--base-url",
-        default=os.environ.get("GEOLORE_BASE_URL", "https://tokenmax.vip/v1")
+        default=os.environ.get("GEOLORE_BASE_URL", "https://token-plan-cn.xiaomimimo.com/v1")
     )
     parser.add_argument(
         "--model",
-        default=os.environ.get("GEOLORE_MODEL", "claude-sonnet-4-20250514")
+        default=os.environ.get("GEOLORE_MODEL", "mimo-v2.5-pro")
     )
     parser.add_argument(
         "--api-key",

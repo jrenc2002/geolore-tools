@@ -2,22 +2,28 @@
 # -*- coding: utf-8 -*-
 
 """
-故实巡礼 · 统一 LLM 客户端
+故实巡礼 · 统一 LLM / TTS 客户端
 
-唯一的 LLM 调用入口。提供：
+唯一的 MiMo API 调用入口。提供：
   - OpenAI 兼容协议（/chat/completions）
   - 代理 / 直连智能切换
   - 指数退避重试
-  - WAF 拦截自动检测
+  - TTS 语音合成（mimo-v2.5-tts 系列）
 
 用法:
     from src.common.config import load_llm_config
-    from src.common.llm_client import call_llm
+    from src.common.llm_client import call_llm, call_tts
 
-    config = load_llm_config(model="gemini-3-flash-preview")
+    config = load_llm_config(model="mimo-v2.5-pro")
     text = call_llm(
         messages=[{"role": "user", "content": "hi"}],
         config=config,
+    )
+
+    audio_bytes = call_tts(
+        text="要合成的文字",
+        config=config,
+        style_instruction="用轻快的语调说",
     )
 """
 
@@ -31,9 +37,9 @@ import urllib.request
 import urllib.error
 from typing import Any, Dict, List, Optional
 
-from src.common.config import LLMConfig, PROVIDER_CLAUDE, PROVIDER_GEMINI, use_proxy
+from src.common.config import LLMConfig, use_proxy
 
-# ─────────────── 请求头模板（规避 WAF） ────────────────
+# ─────────────── 请求头模板 ────────────────
 
 _BROWSER_HEADERS = {
     "Content-Type": "application/json; charset=utf-8",
@@ -51,74 +57,17 @@ _BROWSER_HEADERS = {
 # ─────────────── 核心调用函数 ─────────────────────────
 
 
-def _uses_claude_messages_api(config: LLMConfig) -> bool:
-    """Claude 一律走 Anthropic Messages API。"""
-    return config.provider == PROVIDER_CLAUDE
-
-
-def _build_anthropic_messages_payload(
-    messages: List[Dict[str, str]],
-    model: str,
-    temperature: float,
-    max_tokens: int,
-) -> Dict[str, Any]:
-    """将聊天消息转换为 Anthropic Messages API payload。"""
-    system_messages = []
-    anthropic_messages = []
-
-    for message in messages:
-        role = message.get("role", "user")
-        content = message.get("content", "")
-        if not content:
-            continue
-        if role == "system":
-            system_messages.append(content)
-            continue
-        anthropic_messages.append(
-            {
-                "role": role if role in {"user", "assistant"} else "user",
-                "content": content,
-            }
+def _build_opener(ctx: ssl.SSLContext) -> urllib.request.OpenerDirector:
+    """构建 HTTP opener，根据代理配置决定是否使用系统代理。"""
+    if use_proxy():
+        return urllib.request.build_opener(
+            urllib.request.HTTPSHandler(context=ctx),
+            urllib.request.ProxyHandler(),
         )
-
-    if not anthropic_messages:
-        anthropic_messages.append(
-            {
-                "role": "user",
-                "content": "请根据系统指令继续。",
-            }
-        )
-
-    payload: Dict[str, Any] = {
-        "model": model,
-        "messages": anthropic_messages,
-        "max_tokens": max_tokens,
-        "temperature": temperature,
-    }
-    if system_messages:
-        payload["system"] = "\n\n".join(system_messages)
-    return payload
-
-
-def _extract_anthropic_text(data: Dict[str, Any]) -> str:
-    """提取 Anthropic Messages API 的文本内容。"""
-    texts: List[str] = []
-    for item in data.get("content", []) or []:
-        if not isinstance(item, dict):
-            continue
-        if item.get("type") != "text":
-            continue
-        text = item.get("text")
-        if isinstance(text, str) and text:
-            texts.append(text)
-
-    if texts:
-        return "\n".join(texts)
-
-    if "choices" in data:
-        return data["choices"][0]["message"]["content"] or ""
-
-    raise RuntimeError(f"无法从 Anthropic Messages 响应中提取文本: {json.dumps(data, ensure_ascii=False)[:500]}")
+    return urllib.request.build_opener(
+        urllib.request.HTTPSHandler(context=ctx),
+        urllib.request.ProxyHandler({}),  # 空字典 = 忽略系统代理
+    )
 
 
 def call_llm(
@@ -131,9 +80,6 @@ def call_llm(
     expect_json: Optional[bool] = None,
 ) -> str:
     """统一 LLM 调用，返回原始文本内容。
-
-    调用方式直接传入 messages 列表。函数级别的参数可覆盖 config
-    中的同名字段（方便同一 config 对象在不同步骤切换模型/温度）。
 
     Args:
         messages:     OpenAI 格式的消息列表
@@ -154,46 +100,23 @@ def call_llm(
     _max_tokens = max_tokens if max_tokens is not None else config.max_tokens
     _expect_json = expect_json if expect_json is not None else config.expect_json
 
-    if _uses_claude_messages_api(config):
-        endpoint = config.base_url.rstrip("/") + "/messages"
-        payload = _build_anthropic_messages_payload(
-            messages=messages,
-            model=_model,
-            temperature=_temperature,
-            max_tokens=_max_tokens,
-        )
-    else:
-        endpoint = config.base_url.rstrip("/") + "/chat/completions"
-        payload = {
-            "model": _model,
-            "messages": messages,
-            "temperature": _temperature,
-            "max_tokens": _max_tokens,
-        }
-        if _expect_json:
-            payload["response_format"] = {"type": "json_object"}
+    endpoint = config.base_url.rstrip("/") + "/chat/completions"
+    payload: Dict[str, Any] = {
+        "model": _model,
+        "messages": messages,
+        "temperature": _temperature,
+        "max_tokens": _max_tokens,
+    }
+    if _expect_json:
+        payload["response_format"] = {"type": "json_object"}
 
     body = json.dumps(payload, ensure_ascii=False).encode("utf-8")
 
     headers = dict(_BROWSER_HEADERS)
-    if _uses_claude_messages_api(config):
-        headers["x-api-key"] = config.api_key
-        headers["anthropic-version"] = "2023-06-01"
-    else:
-        headers["Authorization"] = f"Bearer {config.api_key}"
+    headers["api-key"] = config.api_key
 
     ctx = ssl.create_default_context()
-
-    if use_proxy():
-        opener = urllib.request.build_opener(
-            urllib.request.HTTPSHandler(context=ctx),
-            urllib.request.ProxyHandler(),
-        )
-    else:
-        opener = urllib.request.build_opener(
-            urllib.request.HTTPSHandler(context=ctx),
-            urllib.request.ProxyHandler({}),  # 空字典 = 忽略系统代理
-        )
+    opener = _build_opener(ctx)
 
     for attempt in range(1, config.retry_count + 1):
         try:
@@ -203,7 +126,6 @@ def call_llm(
             with opener.open(req, timeout=config.timeout) as resp:
                 raw = resp.read().decode("utf-8")
 
-            # WAF 拦截检测 —— HTML 响应
             if raw.lstrip().startswith("<"):
                 snippet = raw[:200].replace("\n", " ")
                 raise RuntimeError(
@@ -211,10 +133,7 @@ def call_llm(
                 )
 
             data = json.loads(raw)
-            if _uses_claude_messages_api(config):
-                content = _extract_anthropic_text(data)
-            else:
-                content = data["choices"][0]["message"]["content"] or ""
+            content = data["choices"][0]["message"]["content"] or ""
             return content
 
         except urllib.error.HTTPError as e:
@@ -228,16 +147,6 @@ def call_llm(
                 f"  ⚠️  API 调用失败 (尝试 {attempt}/{config.retry_count}): "
                 f"{err_str[:200]}"
             )
-            if e.code == 503:
-                print(
-                    "     💡 503 提示：服务端已收到请求，但上游模型暂时不可用；"
-                    "这通常不是本地参数错误。"
-                )
-                if config.provider == PROVIDER_CLAUDE:
-                    print(
-                        "        当前 Claude 走的是 `/messages` 接口。"
-                        "可稍后重试，或临时切换 `--provider gemini`。"
-                    )
             if attempt < config.retry_count:
                 if e.code == 429:
                     wait = 10.0 * attempt
@@ -259,17 +168,112 @@ def call_llm(
                 print(
                     "     💡 WAF 拦截提示：\n"
                     "        1. 关闭 TUN 模式，改用普通代理模式\n"
-                    "        2. 在代理工具中将 api-k.devdove.site 加入直连规则\n"
-                    "        3. 在代理服务器端关闭 1Panel WAF 对该域名的过滤"
+                    "        2. 在代理工具中将 token-plan-cn.xiaomimimo.com 加入直连规则"
                 )
             if attempt < config.retry_count:
-                # 429 限流：等待更长时间
                 if "429" in err_str or "Too Many Requests" in err_str:
                     wait = 10.0 * attempt
                     print(f"     🚦 触发限流（429），等待 {wait}s 后重试...")
                 else:
                     wait = config.retry_delay * attempt
                     print(f"     等待 {wait}s 后重试...")
+                time.sleep(wait)
+            else:
+                raise
+
+
+def call_tts(
+    text: str,
+    config: LLMConfig,
+    *,
+    model: Optional[str] = None,
+    style_instruction: Optional[str] = None,
+) -> bytes:
+    """调用 MiMo TTS 语音合成，返回音频原始字节。
+
+    按照 MiMo TTS API 规范：
+      - 目标文本放在 role=assistant 的消息中
+      - 风格指令（自然语言）放在 role=user 的消息中（可选）
+
+    Args:
+        text:              要合成的文字内容
+        config:            LLMConfig（model 应为 mimo-v2.5-tts 系列）
+        model:             覆盖 config.model（建议用 MODEL_TTS 常量）
+        style_instruction: 风格/情绪指令，如 "用轻快的语调说"
+
+    Returns:
+        音频数据的原始字节（WAV / PCM，取决于服务端返回）
+
+    Raises:
+        RuntimeError: 调用失败或重试耗尽
+    """
+    _model = model or config.model
+
+    messages: List[Dict[str, str]] = []
+    if style_instruction:
+        messages.append({"role": "user", "content": style_instruction})
+    messages.append({"role": "assistant", "content": text})
+
+    endpoint = config.base_url.rstrip("/") + "/chat/completions"
+    payload: Dict[str, Any] = {
+        "model": _model,
+        "messages": messages,
+    }
+
+    body = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+
+    headers = {
+        "Content-Type": "application/json; charset=utf-8",
+        "api-key": config.api_key,
+        "Accept": "*/*",
+    }
+
+    ctx = ssl.create_default_context()
+    opener = _build_opener(ctx)
+
+    for attempt in range(1, config.retry_count + 1):
+        try:
+            req = urllib.request.Request(
+                endpoint, data=body, headers=headers, method="POST"
+            )
+            with opener.open(req, timeout=config.timeout) as resp:
+                content_type = resp.headers.get("Content-Type", "")
+                raw = resp.read()
+                # 如果是 JSON 响应，说明返回的是 base64 编码的音频
+                if "application/json" in content_type:
+                    data = json.loads(raw.decode("utf-8"))
+                    import base64
+                    audio_b64 = (
+                        data.get("audio")
+                        or (data.get("choices") or [{}])[0]
+                        .get("message", {})
+                        .get("audio", {})
+                        .get("data", "")
+                    )
+                    return base64.b64decode(audio_b64)
+                # 否则直接是二进制音频
+                return raw
+
+        except urllib.error.HTTPError as e:
+            err_body = ""
+            try:
+                err_body = e.read().decode("utf-8")
+            except Exception:
+                err_body = ""
+            err_str = f"HTTP {e.code}: {err_body or e.reason}"
+            print(f"  ⚠️  TTS 调用失败 (尝试 {attempt}/{config.retry_count}): {err_str[:200]}")
+            if attempt < config.retry_count:
+                wait = config.retry_delay * attempt
+                print(f"     等待 {wait}s 后重试...")
+                time.sleep(wait)
+            else:
+                raise RuntimeError(err_str) from e
+        except Exception as e:
+            err_str = str(e)
+            print(f"  ⚠️  TTS 调用失败 (尝试 {attempt}/{config.retry_count}): {err_str[:200]}")
+            if attempt < config.retry_count:
+                wait = config.retry_delay * attempt
+                print(f"     等待 {wait}s 后重试...")
                 time.sleep(wait)
             else:
                 raise

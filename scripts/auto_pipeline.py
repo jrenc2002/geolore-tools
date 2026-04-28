@@ -24,7 +24,7 @@
 
 环境变量：
   GEOLORE_API_KEY: API 密钥
-  GEOLORE_BASE_URL: API 基础 URL (默认 https://api-k.devdove.site/v1)
+  GEOLORE_BASE_URL: API 基础 URL (默认 https://token-plan-cn.xiaomimimo.com/v1)
 """
 
 from __future__ import annotations
@@ -45,7 +45,7 @@ _PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if _PROJECT_ROOT not in sys.path:
     sys.path.insert(0, _PROJECT_ROOT)
 
-from src.common.config import LLMConfig, load_llm_config, MODEL_PRO, MODEL_FLASH, MODEL_FLASH_STRUCT
+from src.common.config import LLMConfig, load_llm_config, MODEL_PRO
 from src.common.llm_client import call_llm
 from src.common.json_utils import extract_json_from_text
 
@@ -76,7 +76,7 @@ except ImportError:
 
 # ─────────────────────────── Config ───────────────────────────
 
-DEFAULT_BASE_URL = "https://api-k.devdove.site/v1"
+DEFAULT_BASE_URL = "https://token-plan-cn.xiaomimimo.com/v1"
 DEFAULT_REGISTRY_PATH = "output/data/registry.json"
 
 
@@ -668,7 +668,7 @@ def step1_search_work(config: LLMConfig, title: str, author: str) -> str:
 # 先按章节标题将全文精确拆分，再把相邻 N 章合并成一块，绝不劈断章节
 STEP2_CHAPTERS_PER_CHUNK = 2
 
-# Step 2 并发数：同时请求多少块（tokenmax 限流，保守设为 2）
+# Step 2 并发数：同时请求多少块（保守设为 2）
 STEP2_CONCURRENCY = 2
 
 # 支持的章节标题正则（英文 CHAPTER、中文第X章等）
@@ -796,7 +796,7 @@ def step2_extract_places(
     """Step 2: 基于原文提取地点（全文分块，多并发请求后合并去重）"""
     print(f"\n{'='*60}")
     print(f"📍 Step 2: 从原文提取《{title}》的地点")
-    print(f"   模型: {MODEL_FLASH}")
+    print(f"   模型: {MODEL_PRO}")
     print(f"   数据源: 原著全文（分块 + {STEP2_CONCURRENCY} 并发）")
     print(f"{'='*60}")
 
@@ -826,7 +826,7 @@ def step2_extract_places(
             content = call_llm(
                 messages=[{"role": "user", "content": prompt}],
                 config=config,
-                model=MODEL_FLASH,
+                model=MODEL_PRO,
                 temperature=0.2,
             )
             places_chunk = extract_json_from_text(content)
@@ -904,7 +904,7 @@ def step3_enrich_places(
     """Step 3: 结构化 + 故事模式生成（分批处理，传递全局上下文）"""
     print(f"\n{'='*60}")
     print(f"✨ Step 3: 结构化富化 + 故事模式（{len(places)} 个地点）")
-    print(f"   模型: {MODEL_FLASH_STRUCT}（纯结构化，无搜索）")
+    print(f"   模型: {MODEL_PRO}（纯结构化，无搜索）")
     print(f"{'='*60}")
 
     BATCH_SIZE = 6      # 每批地点数
@@ -958,7 +958,7 @@ def step3_enrich_places(
             content = call_llm(
                 messages=[{"role": "user", "content": prompt}],
                 config=config,
-                model=MODEL_FLASH_STRUCT,
+                model=MODEL_PRO,
                 temperature=0.2,
                 expect_json=True,
                 max_tokens=4096,
@@ -1025,7 +1025,7 @@ def step3b_generate_book_meta(
     """
     print(f"\n{'='*60}")
     print(f"📖 Step 3b: 生成全书元数据（简介/角色/篇章）")
-    print(f"   模型: {MODEL_FLASH_STRUCT}")
+    print(f"   模型: {MODEL_PRO}")
     print(f"{'='*60}")
 
     # 构建地点摘要（不传全量数据，节省 token）
@@ -1054,7 +1054,7 @@ def step3b_generate_book_meta(
         content = call_llm(
             messages=[{"role": "user", "content": prompt}],
             config=config,
-            model=MODEL_FLASH_STRUCT,
+            model=MODEL_PRO,
             temperature=0.3,
             expect_json=True,
             max_tokens=4096,
@@ -1094,7 +1094,7 @@ def step4_review(config: LLMConfig, places: List[Dict], title: str = "", author:
     """Step 4: 质量自审（分批处理，每批 30 个地点）"""
     print(f"\n{'='*60}")
     print(f"🔍 Step 4: 质量自审（{len(places)} 个地点）")
-    print(f"   模型: {MODEL_FLASH_STRUCT}（纯结构化，无搜索）")
+    print(f"   模型: {MODEL_PRO}（纯结构化，无搜索）")
     print(f"{'='*60}")
 
     REVIEW_BATCH = 16       # 每批地点数
@@ -1116,7 +1116,7 @@ def step4_review(config: LLMConfig, places: List[Dict], title: str = "", author:
             content = call_llm(
                 messages=[{"role": "user", "content": prompt}],
                 config=config,
-                model=MODEL_FLASH_STRUCT,
+                model=MODEL_PRO,
                 temperature=0.1,
                 expect_json=True,
                 max_tokens=8192,
@@ -1271,7 +1271,7 @@ def step5_output(
             "data_source_mode": "full_text",
             "data_source_warning": None,
             "model_select": MODEL_PRO,
-            "model_extract": MODEL_FLASH,
+            "model_extract": MODEL_PRO,
             "total_places": len(valid_places),
             "major_places": major,
             "minor_places": minor,

@@ -8,8 +8,8 @@
 所有脚本和模块统一从此处读取配置，杜绝散落各处的硬编码。
 
 环境变量（优先级：命令行参数 > 环境变量 > 此处默认值）：
-  GEOLORE_API_KEY    — LLM API 密钥（必填）
-  GEOLORE_BASE_URL   — LLM API 端点
+  MIMO_API_KEY       — MiMo API 密钥（必填）
+  GEOLORE_BASE_URL   — LLM API 端点（可选覆盖）
   GEOLORE_USE_PROXY  — "1" 启用系统代理，默认直连
   AMAP_KEY           — 高德地图 API Key（地理编码用）
 """
@@ -20,26 +20,23 @@ import json
 import os
 from dataclasses import dataclass
 from typing import Any, Dict, Optional
-from urllib.parse import urlparse
 
 
 # ─────────────────────────── 默认值 ───────────────────────────
 
-PROVIDER_GEMINI = "gemini"
-PROVIDER_CLAUDE = "claude"
+PROVIDER_MIMO = "mimo"
 
-DEFAULT_BASE_URL = "https://api-k.devdove.site/v1"
-DEFAULT_CLAUDE_BASE_URL = "https://tokenmax.vip"
+DEFAULT_BASE_URL = "https://token-plan-cn.xiaomimimo.com/v1"
 DEFAULT_REGISTRY_PATH = "output/data/registry.json"
 DEFAULT_TRACKING_DIR = "output/tracking"
 DEFAULT_CACHE_DIR = "output/.text_cache"
 DEFAULT_OUTPUT_DIR = "output/books"
 
-# LLM 模型分工
-MODEL_PRO = "gemini-3.1-pro-preview-search"       # 选题 + 搜索（需联网）
-MODEL_FLASH = "gemini-3-flash-preview-search"      # 地点提取（需联网）
-MODEL_FLASH_STRUCT = "gemini-3-flash-preview"      # 结构化 + 审查（纯 JSON，不联网）
-MODEL_CLAUDE = "claude-sonnet-4-6"
+# LLM 模型
+MODEL_PRO = "mimo-v2.5-pro"          # 主力 LLM（推荐/提取/分析）
+MODEL_TTS = "mimo-v2.5-tts"          # 语音合成（预置音色）
+MODEL_TTS_VOICE_DESIGN = "mimo-v2.5-tts-voicedesign"  # 语音合成（文本描述定制音色）
+MODEL_TTS_VOICE_CLONE = "mimo-v2.5-tts-voiceclone"    # 语音合成（音频样本克隆音色）
 
 
 # ─────────────────────────── 配置数据类 ───────────────────────
@@ -52,9 +49,9 @@ class LLMConfig:
     所有需要调用 LLM 的地方都使用此数据类。
     """
     api_key: str = ""
-    provider: str = PROVIDER_GEMINI
+    provider: str = PROVIDER_MIMO
     base_url: str = DEFAULT_BASE_URL
-    model: str = MODEL_FLASH_STRUCT
+    model: str = MODEL_PRO
     temperature: float = 0.3
     max_tokens: int = 4096
     timeout: int = 300
@@ -110,58 +107,31 @@ def _load_ai_config() -> Dict[str, Any]:
         return {}
 
 
-def _normalize_base_url(base_url: str, provider: str) -> str:
-    """规范化供应商 base URL。"""
+def _normalize_base_url(base_url: str) -> str:
+    """规范化 base URL，去除末尾的路由后缀。"""
     normalized = (base_url or "").rstrip("/")
-    if not normalized:
-        return normalized
-    if provider == PROVIDER_CLAUDE:
-        if normalized.endswith("/messages"):
-            normalized = normalized[: -len("/messages")]
-        if normalized.endswith("/chat/completions"):
-            normalized = normalized[: -len("/chat/completions")]
-        parsed = urlparse(normalized)
-        if parsed.scheme and parsed.netloc and parsed.path in ("", "/"):
-            return normalized + "/v1"
-        return normalized
     if normalized.endswith("/chat/completions"):
-        return normalized[: -len("/chat/completions")]
+        normalized = normalized[: -len("/chat/completions")]
     return normalized
 
 
-def _provider_defaults(provider: str, ai_config: Dict[str, Any]) -> Dict[str, Any]:
-    """从 .ai_config.json 读取供应商默认配置。"""
-    provider_config = ai_config.get(provider, {})
+def _provider_defaults(ai_config: Dict[str, Any]) -> Dict[str, Any]:
+    """从 .ai_config.json 读取 MiMo 供应商默认配置。"""
+    provider_config = ai_config.get(PROVIDER_MIMO, {})
     if not isinstance(provider_config, dict):
         provider_config = {}
-
-    if provider == PROVIDER_CLAUDE:
-        return {
-            "api_key": provider_config.get("api_key", ""),
-            "base_url": _normalize_base_url(
-                provider_config.get("base_url", DEFAULT_CLAUDE_BASE_URL),
-                provider,
-            ),
-            "model": provider_config.get("model", MODEL_CLAUDE),
-        }
-
-    model_from_config = provider_config.get("model")
-    models = provider_config.get("models", {})
-    if not model_from_config and isinstance(models, dict):
-        model_from_config = models.get("pro") or models.get("flash")
 
     return {
         "api_key": provider_config.get("api_key", ""),
         "base_url": _normalize_base_url(
-            provider_config.get("base_url", DEFAULT_BASE_URL),
-            provider,
+            provider_config.get("base_url", DEFAULT_BASE_URL)
         ),
-        "model": model_from_config or MODEL_FLASH_STRUCT,
+        "model": provider_config.get("model", MODEL_PRO),
     }
 
 
 def load_llm_config(
-    provider: str = PROVIDER_GEMINI,
+    provider: str = PROVIDER_MIMO,
     api_key: Optional[str] = None,
     base_url: Optional[str] = None,
     model: Optional[str] = None,
@@ -169,27 +139,20 @@ def load_llm_config(
 ) -> LLMConfig:
     """从环境变量 + 参数构造 LLMConfig
 
-    优先级：显式参数 > 环境变量 > 默认值
+    优先级：显式参数 > 环境变量 > .ai_config.json > 默认值
     """
-    provider = provider or PROVIDER_GEMINI
     ai_config = _load_ai_config()
-    defaults = _provider_defaults(provider, ai_config)
+    defaults = _provider_defaults(ai_config)
 
-    if provider == PROVIDER_CLAUDE:
-        env_api_key = os.environ.get("ANTHROPIC_API_KEY", "")
-        env_base_url = os.environ.get("ANTHROPIC_BASE_URL", "")
-        env_model = os.environ.get("CLAUDE_MODEL", "")
-    else:
-        env_api_key = os.environ.get("GEOLORE_API_KEY", "")
-        env_base_url = os.environ.get("GEOLORE_BASE_URL", "")
-        env_model = os.environ.get("GEOLORE_MODEL", "")
+    env_api_key = os.environ.get("MIMO_API_KEY", "")
+    env_base_url = os.environ.get("GEOLORE_BASE_URL", "")
+    env_model = os.environ.get("GEOLORE_MODEL", "")
 
     return LLMConfig(
-        provider=provider,
+        provider=PROVIDER_MIMO,
         api_key=api_key or env_api_key or defaults["api_key"],
         base_url=_normalize_base_url(
-            base_url or env_base_url or defaults["base_url"],
-            provider,
+            base_url or env_base_url or defaults["base_url"]
         ),
         model=model or env_model or defaults["model"],
         **overrides,

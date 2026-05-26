@@ -1,15 +1,17 @@
 {
-  "gemini": {
-    "api_key": "sk-YOWIYOnEr1m0LwfM7kODaQ8WPNiKIq60yKZY8IDbA4KWjQIr",
-    "base_url": "https://api-k.devdove.site/v1",
+  "default_provider": "mimo",
+  "mimo": {
+    "api_key": "tp-cdxfhf5n3io9fuxnsp3fxwm8402m26lj5fzwppmbifypcqic",
+    "base_url": "https://token-plan-cn.xiaomimimo.com/v1",
+    "model": "mimo-v2.5-pro",
     "models": {
-      "pro": "gemini-3.1-pro-preview",
-      "flash": "gemini-3-flash-preview"
+      "pro": "mimo-v2.5-pro",
+      "flash": "mimo-v2.5"
+    },
+    "tts": {
+      "model": "mimo-v2.5-tts",
+      "voice": "苏打",
+      "format": "wav"
     }
-  },
-  "claude": {
-    "api_key": "sk-e5b927ff33923bf34ce094329a1db18e8d280392b80d1e332113f054b588d3c4",
-    "base_url": "https://tokenmax.vip",
-    "model": "claude-sonnet-4-6"
   }
 }

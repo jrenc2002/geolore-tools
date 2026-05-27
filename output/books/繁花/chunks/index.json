@@ -1,0 +1,92 @@
+[
+  {
+    "file": "output/books/繁花/chunks/chunk_001.txt",
+    "chapters": [
+      "前言",
+      "二　　章"
+    ],
+    "start": 0,
+    "end": 41503,
+    "length": 41503
+  },
+  {
+    "file": "output/books/繁花/chunks/chunk_002.txt",
+    "chapters": [
+      "四　　章",
+      "六　　章"
+    ],
+    "start": 41503,
+    "end": 79050,
+    "length": 37547
+  },
+  {
+    "file": "output/books/繁花/chunks/chunk_003.txt",
+    "chapters": [
+      "八　　章",
+      "十　　章"
+    ],
+    "start": 79050,
+    "end": 121312,
+    "length": 42262
+  },
+  {
+    "file": "output/books/繁花/chunks/chunk_004.txt",
+    "chapters": [
+      "十　二　章",
+      "十　四　章"
+    ],
+    "start": 121312,
+    "end": 160716,
+    "length": 39404
+  },
+  {
+    "file": "output/books/繁花/chunks/chunk_005.txt",
+    "chapters": [
+      "十　六　章",
+      "十　八　章"
+    ],
+    "start": 160716,
+    "end": 204585,
+    "length": 43869
+  },
+  {
+    "file": "output/books/繁花/chunks/chunk_006.txt",
+    "chapters": [
+      "二　十　章",
+      "二 十 二 章"
+    ],
+    "start": 204585,
+    "end": 247497,
+    "length": 42912
+  },
+  {
+    "file": "output/books/繁花/chunks/chunk_007.txt",
+    "chapters": [
+      "二 十 四 章",
+      "二 十 六 章"
+    ],
+    "start": 247497,
+    "end": 295922,
+    "length": 48425
+  },
+  {
+    "file": "output/books/繁花/chunks/chunk_008.txt",
+    "chapters": [
+      "二 十 八 章",
+      "二 十 九 章"
+    ],
+    "start": 295922,
+    "end": 316027,
+    "length": 20105
+  },
+  {
+    "file": "output/books/繁花/chunks/chunk_009.txt",
+    "chapters": [
+      "三　十　章",
+      "三 十 一 章"
+    ],
+    "start": 316027,
+    "end": 352430,
+    "length": 36403
+  }
+]

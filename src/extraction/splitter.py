@@ -24,11 +24,36 @@ from typing import List, Tuple, Dict
 
 # 章节标题正则表达式
 CHAPTER_PATTERNS = [
-    re.compile(r"第[一二三四五六七八九十〇零百千0-9]+章[ \t\u3000]*[\S ]*"),  # 第X章
-    re.compile(r"第[一二三四五六七八九十〇零百千0-9]+回[ \t\u3000]*[\S ]*"),  # 第X回
-    re.compile(r"第[一二三四五六七八九十〇零百千0-9]+节[ \t\u3000]*[\S ]*"),  # 第X节
-    re.compile(r"第[一二三四五六七八九十〇零百千0-9]+卷[ \t\u3000]*[\S ]*"),  # 第X卷
+    re.compile(r"^第[一二三四五六七八九十〇零百千0-9]+章[ \t\u3000]*[\S ]*$", re.MULTILINE),  # 第X章
+    re.compile(r"^第[一二三四五六七八九十〇零百千0-9]+回[ \t\u3000]*[\S ]*$", re.MULTILINE),  # 第X回
+    re.compile(r"^第[一二三四五六七八九十〇零百千0-9]+节[ \t\u3000]*[\S ]*$", re.MULTILINE),  # 第X节（独立行）
+    re.compile(r"^第[一二三四五六七八九十〇零百千0-9]+卷[ \t\u3000]*[\S ]*$", re.MULTILINE),  # 第X卷
+    # 繁花格式：中文数字 + 可选空格/fullwidth空格 + 章（无"第"前缀）
+    re.compile(r"^[一二三四五六七八九十零〇\u3000 ]+章$", re.MULTILINE),  # N章 / N　章
 ]
+
+
+def deduplicate_chapters(chapters: List[Tuple[int, str]]) -> List[Tuple[int, str]]:
+    """
+    去重章节标题：同一章节号只保留含空格的版本（标题行），
+    若无空格版本则保留第一个出现的。
+    """
+    seen: dict[str, int] = {}  # bare_chapter -> index in result
+    result: List[Tuple[int, str]] = []
+
+    for pos, title in chapters:
+        bare = re.sub(r"[\u3000 ]+", "", title)
+        if bare in seen:
+            # 已有同号章节：优先保留含空格版本
+            idx = seen[bare]
+            existing_title = result[idx][1]
+            if len(title) > len(existing_title):
+                result[idx] = (pos, title)
+        else:
+            seen[bare] = len(result)
+            result.append((pos, title))
+
+    return sorted(result, key=lambda x: x[0])
 
 
 def read_text(path: str) -> str:
@@ -69,8 +94,9 @@ def find_chapters(text: str, patterns: List[re.Pattern] = None) -> List[Tuple[in
         for m in pattern.finditer(text):
             chapters.append((m.start(), m.group().strip()))
     
-    # 按位置排序并去重
+    # 按位置排序并去重（set 去重 + 章节号去重）
     chapters = sorted(set(chapters), key=lambda x: x[0])
+    chapters = deduplicate_chapters(chapters)
     return chapters
 
 
@@ -90,8 +116,13 @@ def slice_chunks(text: str, chapters: List[Tuple[int, str]], per_chunk: int = 2)
         # 无章节时将整个文本作为一个块
         return [{"start": 0, "end": len(text), "chapters": ["全文"], "text": text}]
 
-    # 构建章节范围
+    # 如果第一个章节前有大量文本（前言/序），单独成块
     ranges: List[Dict] = []
+    first_chapter_pos = chapters[0][0]
+    if first_chapter_pos > 2000:  # 超过 2000 字的前言单独成块
+        ranges.append({"name": "前言", "start": 0, "end": first_chapter_pos})
+
+    # 构建章节范围
     for idx, (start, name) in enumerate(chapters):
         end = chapters[idx + 1][0] if idx + 1 < len(chapters) else len(text)
         ranges.append({"name": name, "start": start, "end": end})

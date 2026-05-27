@@ -29,3 +29,9 @@
 - 状态：✅ 成功
 - 详情：发现并修复 2 个阻塞性问题——(1) `src/processing/__init__.py` 内容是 Markdown 文档而非 Python 代码，导致 process_data.py 无法启动；(2) `src/` 内部模块使用 `from src.common.X` 导入路径与脚本 `sys.path.insert(0, 'src/')` 设置不兼容。修复：`__init__.py` 改为 Python docstring，所有内部导入改为 `try: from src.common.X / except: from common.X` 双路径兼容模式。影响 5 个文件（common/__init__.py, common/llm_client.py, extraction/llm_runner.py, processing/__init__.py, processing/cleaner.py）。修复后全部脚本可正常加载
 - Commit: f574086
+
+### 2026-05-28 02:15
+- 任务：运行分片脚本 (`split_chapters.py`) — 繁花案例
+- 状态：✅ 成功
+- 详情：获取繁花全文（352,430 字）→ 发现 splitter 不支持繁花格式 → 修复 splitter.py（新增繁花正则、去重函数、前言分块、修复误匹配 bug）→ 成功分片 17 章节为 9 个 chunks
+- Commit: b2d7231

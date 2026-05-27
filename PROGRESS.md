@@ -4,9 +4,9 @@
 
 ## 进度总览
 - 总任务: 24
-- 已完成: 5
+- 已完成: 6
 - 进行中: 0
-- 进度: 20%
+- 进度: 25%
 
 ---
 
@@ -53,3 +53,15 @@
   - 影响文件：`common/__init__.py`, `common/llm_client.py`, `extraction/llm_runner.py`, `processing/__init__.py`, `processing/cleaner.py`
   - 验证结果：全部 17 个 Python 脚本均可正常加载
   - 核心 5 管道脚本（split → extract → process → geocode → build）全部 ✅
+
+### 2026-05-28 02:15
+- ✅ 任务 #6：运行分片脚本 (`split_chapters.py`)
+  - 先获取《繁花》全文（352,430 字，来自 Anna's Archive 缓存）
+  - 发现 splitter 不支持繁花章节格式（"二　　章"无"第"前缀）
+  - 修复 splitter.py：
+    1. 新增繁花格式正则 `^[一二三四五六七八九十零〇\u3000 ]+章$`
+    2. 新增 `deduplicate_chapters()` 函数处理重复章节号
+    3. 修复原有正则（`第X节` 等）误匹配行内文本的 bug（改用 `^...$` MULTILINE 模式）
+    4. 新增前言自动分块（>2000 字的前置内容单独成 chunk）
+  - 分片结果：17 章节 → 9 个 chunks（含前言）
+  - exit_code: 0

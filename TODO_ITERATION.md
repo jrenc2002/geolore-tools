@@ -21,7 +21,7 @@
 
 ## P1 — 案例验证（繁花）
 
-- [ ] 6. 运行分片脚本 (`split_chapters.py`)
+- [x] 6. 运行分片脚本 (`split_chapters.py`)
 - [ ] 7. 运行 AI 分析脚本 (`batch_extract_places.py`)
 - [ ] 8. 运行 AI 汇总脚本 (`merge_places_by_title.py`)
 - [ ] 9. 运行地点解析脚本 (`geocode_cleaned_places.py`)

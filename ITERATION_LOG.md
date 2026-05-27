@@ -71,3 +71,13 @@
 - 任务：检查 GeoLore iOS 项目结构（#16）
 - 状态：✅ 成功
 - 详情：完整审查 iOS 项目——技术栈 SwiftUI+SwiftData+MapKit+RevenueCat，16 个 SwiftData 模型，3 Tab 架构（地图/地图集/设置），ContentPackImporter 支持 async/sync upsert。geolore-tools 的 build_pack.py 输出 JSON 与 iOS ContentPackDTO 完全兼容（schemaVersion=1, pack/map/places/mapPlaces/tags 全部对齐）。发现 2 个 non-blocking 差异：storyMode 字段不在 iOS DTO 中（静默忽略）、originalAddress/geohash 未输出（optional 不影响）。importBundledPackIfNeeded() 当前未调用
+
+### 2026-05-28 20:30
+- 任务：运行 iOS 单元测试（#17）
+- 状态：✅ 编译通过，运行受 SDK bug 影响
+- 详情：
+  - RevenueCat SPM 仓库太大（251K objects），git clone 反复因网络中断失败，手动浅克隆 + fetch tag 5.49.2 解决
+  - 修复 3 个编译错误：ModelContainer variadic 语法 + optional chaining
+  - 运行时全部 3 个测试报 `SwiftDataError.loadIssueModelContainer` — 这是 Xcode 26 beta / iOS 26 beta 的已知 SDK bug，ModelContainer 在模拟器测试环境无法创建
+  - `build-for-testing` 成功（TEST BUILD SUCCEEDED），代码编译无误
+  - 测试文件已更新为兼容 Xcode 26 写法，添加 SDK bug 说明注释

@@ -76,3 +76,8 @@ examples/*/chunks/
 examples/*/extracted/
 examples/*/*.jsonl
 test_tts_output.wav
+
+# GeoLore output artifacts (large generated files)
+output/books/*/source_*.md
+output/books/*/geocode_cache*.json
+output/.text_cache/

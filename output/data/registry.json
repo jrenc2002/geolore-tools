@@ -25,7 +25,8 @@
       "value_boundary": "spatial_narrative",
       "timeline_needed": true,
       "geo_score": 85.8,
-      "scout_round": 0
+      "scout_round": 0,
+      "output_file": "output/books/work-1779880207/work-1779880207_places_structured.json"
     },
     {
       "title": "On the Road",

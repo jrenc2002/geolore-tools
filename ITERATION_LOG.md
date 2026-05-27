@@ -34,4 +34,13 @@
 - 任务：运行分片脚本 (`split_chapters.py`) — 繁花案例
 - 状态：✅ 成功
 - 详情：获取繁花全文（352,430 字）→ 发现 splitter 不支持繁花格式 → 修复 splitter.py（新增繁花正则、去重函数、前言分块、修复误匹配 bug）→ 成功分片 17 章节为 9 个 chunks
-- Commit: b2d7231
+- Commit: cbda36d
+
+### 2026-05-27 20:00
+- 任务：繁花端到端 pipeline（任务 #7-9：AI分析 + 地理编码 + 内容包构建）
+- 状态：✅ 成功
+- 详情：
+  - **AI 分析**（auto_pipeline.py）：MiMo v2.5 Pro 提取 32 个地点（8 major / 9 minor / 15 passing），含结构化富化、story_mode、全书元数据、质量自审
+  - **地理编码**（geocode_places.py）：升级脚本支持结构化输入+地址上下文搜索+城市BBOX验证。21/32 成功 geocoded，11 个历史小众地点无 Nominatim 数据。修复了原始脚本的误匹配问题
+  - **内容包构建**（build_pack.py）：输出 work-1779880207_pack.json（21 places, schemaVersion=1）
+  - 🎉 繁花案例端到端跑通！完整 SOP：原文 → 分片 → AI提取 → 富化 → 审查 → 地理编码 → 内容包

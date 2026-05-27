@@ -4,3 +4,6 @@ run_1772452089_71938,specify,2026-03-02 11:48:09,2026-03-02 12:00:29,completed,1
 run_1772452108_73236,specify,2026-03-02 11:48:28,2026-03-02 12:03:03,completed,1,1,0,"{""api_key"": ""***"", ""base_url"": ""https://api-k.devdove.site/v1"", ""mode"": ""specify"", ""count"": 5, ""work"": ""城南旧事""}"
 run_1772454041_14075,specify,2026-03-02 12:20:41,,running,0,0,0,"{""api_key"": ""***"", ""base_url"": ""https://api-k.devdove.site/v1"", ""mode"": ""specify"", ""count"": 5, ""work"": ""城南旧事""}"
 run_1772454449_29055,specify,2026-03-02 12:27:29,2026-03-02 12:37:32,completed,1,1,0,"{""api_key"": ""***"", ""base_url"": ""https://api-k.devdove.site/v1"", ""mode"": ""specify"", ""count"": 5, ""work"": ""城南旧事""}"
+run_1779878722_30251,specify,2026-05-27 10:45:22,,running,0,0,0,"{""api_key"": ""***"", ""base_url"": ""https://token-plan-cn.xiaomimimo.com/v1"", ""mode"": ""specify"", ""count"": 5, ""work"": ""繁花""}"
+run_1779879337_31322,specify,2026-05-27 10:55:37,,running,0,0,0,"{""api_key"": ""***"", ""base_url"": ""https://token-plan-cn.xiaomimimo.com/v1"", ""mode"": ""specify"", ""count"": 5, ""work"": ""繁花""}"
+run_1779879537_31387,specify,2026-05-27 10:58:57,,running,0,0,0,"{""api_key"": ""***"", ""base_url"": ""https://token-plan-cn.xiaomimimo.com/v1"", ""mode"": ""specify"", ""count"": 5, ""work"": ""繁花""}"

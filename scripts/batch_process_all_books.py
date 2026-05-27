@@ -306,7 +306,15 @@ def main():
                         break
 
     if not args.api_key:
-        print("❌ 需要 API Key: --api-key 或环境变量 GEOLORE_API_KEY 或 .env 文件")
+        # 尝试从 .ai_config.json 加载
+        from src.common.config import load_llm_config as _load_cfg
+        fallback_config = _load_cfg()
+        args.api_key = fallback_config.api_key
+        if not args.base_url or args.base_url == DEFAULT_BASE_URL:
+            args.base_url = fallback_config.base_url
+
+    if not args.api_key:
+        print("❌ 需要 API Key: --api-key 或环境变量 GEOLORE_API_KEY 或 .env 或 .ai_config.json")
         sys.exit(1)
 
     config = LLMConfig(api_key=args.api_key, base_url=args.base_url)

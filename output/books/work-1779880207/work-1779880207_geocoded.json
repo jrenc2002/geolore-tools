@@ -1,0 +1,636 @@
+[
+  {
+    "title": "洋钿厂",
+    "address": "中国-上海-上海-静安区-苏州河沿岸",
+    "story": "小毛告诉沪生，东面是洋钿厂（造币厂），桥过去是潭子湾，是工人阶级发源地。沪生形容其一幢西洋大房子像柏林国会大厦。",
+    "source_evidence": "小毛说，此地东面，是洋钿厂，洋钿厂桥，再过去，潭子湾，工人阶级发源地。沪生说，我晓得，这叫江宁桥，前面沪杭线，铁路与苏州河贴近，洋钿厂，就是造币厂，苏州河到此弯向南面，铁路一直朝东，当中是洋钿厂，一幢西洋大房子，像柏林国会大厦。",
+    "chapter_hint": "章节未明确",
+    "original_chapter": "未提供",
+    "event_level": "passing",
+    "characters": [
+      "小毛",
+      "沪生"
+    ],
+    "fictional_suspect": false,
+    "latitude": 31.2054341,
+    "longitude": 121.3864977,
+    "locality": "长宁区",
+    "countryCode": "CN",
+    "formattedAddress": "美天太阳市场, 水城路, 仙霞新村街道, 长宁区, 上海市, 200336, 中国",
+    "clientId": "osm-node-6536589078",
+    "geocodeSuccess": true,
+    "validationPassed": true
+  },
+  {
+    "title": "洋钿厂桥",
+    "address": "中国-上海-上海-静安区-苏州河上",
+    "story": "小毛提到洋钿厂桥，并想象如果是夏天就去爬桥头、跳桥。沪生则不敢跳。",
+    "source_evidence": "小毛说，假使是夏天，现在就去爬洋钿桥，跳桥头。沪生说，我不敢。",
+    "chapter_hint": "章节未明确",
+    "original_chapter": "未提供",
+    "event_level": "passing",
+    "characters": [
+      "小毛",
+      "沪生"
+    ],
+    "fictional_suspect": false,
+    "geocodeSuccess": false
+  },
+  {
+    "title": "潭子湾",
+    "address": "中国-上海-上海-普陀区-潭子湾",
+    "story": "小毛提及潭子湾是工人阶级发源地，与洋钿厂、江宁桥并列。",
+    "source_evidence": "小毛说，此地东面，是洋钿厂，洋钿厂桥，再过去，潭子湾，工人阶级发源地。",
+    "chapter_hint": "章节未明确",
+    "original_chapter": "未提供",
+    "event_level": "passing",
+    "characters": [
+      "小毛"
+    ],
+    "fictional_suspect": false,
+    "latitude": 31.2557757,
+    "longitude": 121.4381943,
+    "locality": "普陀区",
+    "countryCode": "CN",
+    "formattedAddress": "潭子湾, 宜川路街道, 普陀区, 上海市, 200061, 中国",
+    "clientId": "osm-node-11127466619",
+    "geocodeSuccess": true,
+    "validationPassed": true
+  },
+  {
+    "title": "江宁桥",
+    "address": "中国-上海-上海-普陀区-苏州河上",
+    "story": "沪生指出江宁桥，前面是沪杭铁路线，铁路与苏州河贴近。",
+    "source_evidence": "沪生说，我晓得，这叫江宁桥，前面沪杭线，铁路与苏州河贴近。",
+    "chapter_hint": "章节未明确",
+    "original_chapter": "未提供",
+    "event_level": "passing",
+    "characters": [
+      "沪生"
+    ],
+    "fictional_suspect": false,
+    "latitude": 31.2324059,
+    "longitude": 121.4381766,
+    "locality": "静安区",
+    "countryCode": "CN",
+    "formattedAddress": "江宁路, 胶州路, 康家桥, 忻康里, 江宁路街道, 静安区, 上海市, 200040, 中国",
+    "clientId": "osm-node-3024010876",
+    "geocodeSuccess": true,
+    "validationPassed": true
+  },
+  {
+    "title": "淮海路钱家弄",
+    "address": "中国-上海-上海-黄浦区-淮海中路-钱家弄",
+    "story": "小毛提到他认识一个住在淮海路钱家弄的老头子，手上有几百本旧社会连环画。",
+    "source_evidence": "小毛说，我认得一个老头子，住“上只角”，淮海路的钱家弄，手里有几百本旧社会连环画，借看，一本三分，有兴趣吧。",
+    "chapter_hint": "章节未明确",
+    "original_chapter": "未提供",
+    "event_level": "passing",
+    "characters": [
+      "小毛"
+    ],
+    "fictional_suspect": false,
+    "geocodeSuccess": false
+  },
+  {
+    "title": "24路终点站",
+    "address": "中国-上海-上海-未明确具体区-公交24路终点站",
+    "story": "沪生与小毛逛到24路终点站，沪生上了电车。",
+    "source_evidence": "两人离开河岸，逛到24路终点站，小毛目送沪生上了电车。",
+    "chapter_hint": "章节未明确",
+    "original_chapter": "未提供",
+    "event_level": "passing",
+    "characters": [
+      "沪生",
+      "小毛"
+    ],
+    "fictional_suspect": false,
+    "geocodeSuccess": false
+  },
+  {
+    "title": "西康路",
+    "address": "中国-上海-上海-静安区-西康路",
+    "story": "小毛从西康路慢慢回弄堂。",
+    "source_evidence": "车子继续朝南移动，经西康路，漫无边际转到南京西路...",
+    "chapter_hint": "章节未明确",
+    "original_chapter": "未提供",
+    "event_level": "passing",
+    "characters": [
+      "小毛"
+    ],
+    "fictional_suspect": false,
+    "latitude": 31.2448336,
+    "longitude": 121.4335302,
+    "locality": "普陀区",
+    "countryCode": "CN",
+    "formattedAddress": "西康路, 大自鸣钟, 长寿路街道, 曹家渡, 普陀区, 上海市, 200060, 中国",
+    "clientId": "osm-way-1068434249",
+    "geocodeSuccess": true,
+    "validationPassed": true
+  },
+  {
+    "title": "沪宁公路",
+    "address": "中国-上海-江苏-沪宁高速公路",
+    "story": "阿宝和沪生乘坐公务车行驶在沪宁公路上，前往苏州。",
+    "source_evidence": "该日梅瑞与康总吃茶，谈到阿宝与沪生到处乱混的阶段，沪宁公路上，阿宝连打几只喷嚏，旁边沪生也打喷嚏。公务车开得飞快。",
+    "chapter_hint": "四章",
+    "original_chapter": "未提供",
+    "event_level": "minor",
+    "characters": [
+      "阿宝",
+      "沪生",
+      "陶陶",
+      "俞小姐"
+    ],
+    "fictional_suspect": false,
+    "latitude": 31.2245377,
+    "longitude": 121.4218195,
+    "locality": "长宁区",
+    "countryCode": "CN",
+    "formattedAddress": "长宁路江苏路, 北横通道, 静鼎安邦府邸, 忻康里, 江苏路街道, 长宁区, 上海市, 200060, 中国",
+    "clientId": "osm-node-6432532115",
+    "geocodeSuccess": true,
+    "validationPassed": true
+  },
+  {
+    "title": "苏州干将路",
+    "address": "中国-江苏-苏州-姑苏区-干将路",
+    "story": "车子开到苏州干将路的“鸿鹏”大饭店，四人下车就餐。",
+    "source_evidence": "车子开到苏州干将路“鸿鹏”大饭店，雨停了。四人下车，进包房。",
+    "chapter_hint": "四章",
+    "original_chapter": "未提供",
+    "event_level": "minor",
+    "characters": [
+      "阿宝",
+      "沪生",
+      "陶陶",
+      "俞小姐"
+    ],
+    "fictional_suspect": false,
+    "latitude": 31.3060863,
+    "longitude": 120.6124554,
+    "locality": "姑苏区",
+    "countryCode": "CN",
+    "formattedAddress": "干将路, 养育巷, 西美社区, 道前社区, 沧浪街道, 姑苏区, 苏州市, 江苏省, 215000, 中国",
+    "clientId": "osm-node-7411457736",
+    "geocodeSuccess": true,
+    "validationPassed": true
+  },
+  {
+    "title": "沧浪亭",
+    "address": "中国-江苏-苏州-姑苏区-沧浪亭街3号",
+    "story": "四人在苏州迷路，凌晨来到沧浪亭园林前。他们坐在石栏上，看到匾额，回忆历史，直到天亮。",
+    "source_evidence": "四人来到一片水塘前面，水中有弯曲石栈道，通向一幢灰黑旧门楼。...几个人走到门楼前面，白地黑字匾，“沧浪亭”三字。",
+    "chapter_hint": "四章",
+    "original_chapter": "未提供",
+    "event_level": "major",
+    "characters": [
+      "阿宝",
+      "沪生",
+      "陶陶",
+      "范总"
+    ],
+    "fictional_suspect": false,
+    "latitude": 31.296731,
+    "longitude": 120.6214474,
+    "locality": "姑苏区",
+    "countryCode": "CN",
+    "formattedAddress": "沧浪亭, 沧浪亭社区, 双塔街道, 姑苏区, 苏州市, 江苏省, 中国",
+    "clientId": "osm-way-492154541",
+    "geocodeSuccess": true,
+    "validationPassed": true
+  },
+  {
+    "title": "北京路",
+    "address": "中国-上海-上海-黄浦区-北京东路",
+    "story": "吴小姐与阿宝顺北京路朝西走。",
+    "source_evidence": "吴小姐与阿宝，顺北京路朝西走，但是只走了半站。",
+    "chapter_hint": "四章",
+    "original_chapter": "未提供",
+    "event_level": "passing",
+    "characters": [
+      "吴小姐",
+      "阿宝"
+    ],
+    "fictional_suspect": false,
+    "latitude": 31.2426898,
+    "longitude": 121.4840358,
+    "locality": "上海市",
+    "countryCode": "CN",
+    "formattedAddress": "北京东路, 洛克·外滩源, 外滩源, 外滩街道, 上海市, 黄浦区, 上海市, 200002, 中国",
+    "clientId": "osm-way-226657313",
+    "geocodeSuccess": true,
+    "validationPassed": true
+  },
+  {
+    "title": "延安中路延安饭店",
+    "address": "中国-上海-上海-静安区-延安中路1111号",
+    "story": "吴小姐告诉司机目的地是延安中路延安饭店（即JJ舞厅所在地）。",
+    "source_evidence": "吴小姐说，延安中路延安饭店。司机说，JJ舞厅。吴小姐说，对。",
+    "chapter_hint": "四章",
+    "original_chapter": "未提供",
+    "event_level": "minor",
+    "characters": [
+      "吴小姐",
+      "阿宝"
+    ],
+    "fictional_suspect": false,
+    "geocodeSuccess": false
+  },
+  {
+    "title": "南昌公寓",
+    "address": "中国-上海-上海-黄浦区-南昌路",
+    "story": "沪生与小毛穿过淮海坊，走进南昌公寓，上楼拜访姝华。",
+    "source_evidence": "等敲开姝华家房门，已经半夜。姝华娘一开门，立刻大哭……三天后，沪生与阿宝再去南昌公寓，方才得知，姝华是生了第三个小囡，忽然情绪异常，离开吉林出走。",
+    "chapter_hint": "伍章",
+    "original_chapter": "未提供",
+    "event_level": "major",
+    "characters": [
+      "沪生",
+      "小毛",
+      "姝华"
+    ],
+    "fictional_suspect": false,
+    "geocodeSuccess": false
+  },
+  {
+    "title": "翼风航模店",
+    "address": "中国-上海-上海-静安区-南京西路",
+    "story": "沪生与小毛穿过南京西路，到“翼风”航模店看各种模型。",
+    "source_evidence": "沪生说，要么，陪我到“翼风”航模店走一趟。...两人穿过马路，便是“翼风”，两开间店堂。",
+    "chapter_hint": "伍章",
+    "original_chapter": "未提供",
+    "event_level": "minor",
+    "characters": [
+      "沪生",
+      "小毛"
+    ],
+    "fictional_suspect": false,
+    "geocodeSuccess": false
+  },
+  {
+    "title": "新华电影院",
+    "address": "中国-上海-上海-静安区-南京西路",
+    "story": "沪生与小毛走到新华电影院，沪生买棒冰，两人坐在台阶上。",
+    "source_evidence": "两人走到新华电影院，沪生买两根棒冰，两个人坐到台阶上。",
+    "chapter_hint": "伍章",
+    "original_chapter": "未提供",
+    "event_level": "minor",
+    "characters": [
+      "沪生",
+      "小毛"
+    ],
+    "fictional_suspect": false,
+    "geocodeSuccess": false
+  },
+  {
+    "title": "拉德公寓",
+    "address": "中国-上海-上海-静安区-石门路",
+    "story": "沪生邀请小毛到石门路的拉德公寓，为他庆祝生日。",
+    "source_evidence": "沪生与小毛转到石门路拉德公寓门口。沪生说，到我房间里坐一坐。...两人乘电梯到四楼。",
+    "chapter_hint": "伍章",
+    "original_chapter": "未提供",
+    "event_level": "major",
+    "characters": [
+      "沪生",
+      "小毛",
+      "阿宝",
+      "蓓蒂",
+      "姝华",
+      "沪生父母"
+    ],
+    "fictional_suspect": false,
+    "geocodeSuccess": false
+  },
+  {
+    "title": "大自鸣钟照相馆",
+    "address": "中国-上海-上海-普陀区-长寿路、西康路一带",
+    "story": "小毛在聊天中，以大自鸣钟照相馆橱窗里的照片作比，称赞银凤的容貌。",
+    "source_evidence": "小毛说，姐姐为啥不拍，大自鸣钟照相馆橱窗里，一张也不及姐姐。",
+    "chapter_hint": "第九章",
+    "original_chapter": "第九章",
+    "event_level": "passing",
+    "characters": [
+      "小毛"
+    ],
+    "fictional_suspect": false,
+    "geocodeSuccess": false
+  },
+  {
+    "title": "吴江路",
+    "address": "中国-上海-上海-静安区-吴江路",
+    "story": "陶陶前往吴江路拜访钟大师，听其议论运势，并得知钟大师家位于此地。",
+    "source_evidence": "到了黄昏，顺便还赶到吴江路，去看钟大师。",
+    "chapter_hint": "第十章",
+    "original_chapter": "第十章",
+    "event_level": "major",
+    "characters": [
+      "陶陶",
+      "钟大师"
+    ],
+    "fictional_suspect": false,
+    "latitude": 31.2317063,
+    "longitude": 121.455769,
+    "locality": "静安区",
+    "countryCode": "CN",
+    "formattedAddress": "吴江路, 南京西路街道, 静安区, 上海市, 200041, 中国",
+    "clientId": "osm-way-413789558",
+    "geocodeSuccess": true,
+    "validationPassed": true
+  },
+  {
+    "title": "江宁路",
+    "address": "中国-上海-上海-静安区-江宁路",
+    "story": "大妹妹和兰兰在“马路游戏”中为摆脱盯梢者而快步经过的另一条马路。",
+    "source_evidence": "后面两男毫无意识，快步跟过南阳路，陕西路菜场，泰康食品店，左转，到南京西路，到江宁路",
+    "chapter_hint": "拾柒章",
+    "original_chapter": null,
+    "event_level": "passing",
+    "characters": [
+      "大妹妹",
+      "兰兰"
+    ],
+    "fictional_suspect": false,
+    "latitude": 31.2461078,
+    "longitude": 121.4398643,
+    "locality": "普陀区",
+    "countryCode": "CN",
+    "formattedAddress": "江宁路, 长寿路, 大自鸣钟, 长寿路街道, 曹家渡, 普陀区, 上海市, 200061, 中国",
+    "clientId": "osm-node-5306477814",
+    "geocodeSuccess": true,
+    "validationPassed": true
+  },
+  {
+    "title": "美琪大戏院",
+    "address": "中国-上海-上海-静安区-江宁路",
+    "story": "大妹妹和兰兰在被盯梢者追上并搭讪后，拒绝并逃走前所在的地点。",
+    "source_evidence": "到“美琪”门口，后面两男终于靠上来。",
+    "chapter_hint": "拾柒章",
+    "original_chapter": null,
+    "event_level": "minor",
+    "characters": [
+      "大妹妹",
+      "兰兰"
+    ],
+    "fictional_suspect": false,
+    "latitude": 31.2314707,
+    "longitude": 121.4516195,
+    "locality": "静安区",
+    "countryCode": "CN",
+    "formattedAddress": "美琪大戏院, 99, 江宁路, 南京西路街道, 静安区, 上海市, 200041, 中国",
+    "clientId": "osm-way-429868562",
+    "geocodeSuccess": true,
+    "validationPassed": true
+  },
+  {
+    "title": "南昌路",
+    "address": "中国-上海-上海-黄浦区-南昌路",
+    "story": "阿宝和李李离开茶馆后坐车前往的地方，李李的住处位于此路一间老洋房的底楼。",
+    "source_evidence": "姝华说，南昌路晓得吧。沪生说，晓得，现在就是回南昌公寓，去看父母。姝华说，以前叫环龙路。沪生叹气。姝华笑说，复兴公园，以前有“环龙纪念石碑”。",
+    "chapter_hint": "拾捌章",
+    "original_chapter": null,
+    "event_level": "major",
+    "characters": [
+      "阿宝",
+      "李李"
+    ],
+    "fictional_suspect": false,
+    "latitude": 31.2194141,
+    "longitude": 121.4595108,
+    "locality": "上海市",
+    "countryCode": "CN",
+    "formattedAddress": "南昌路, 瑞金二路街道, 上海市, 黄浦区, 上海市, 200003, 中国",
+    "clientId": "osm-way-40140141",
+    "geocodeSuccess": true,
+    "validationPassed": true
+  },
+  {
+    "title": "大自鸣钟（弄堂）",
+    "address": "中国-上海-上海-静安区-大自鸣钟弄堂",
+    "story": "小毛家理发店所在的弄堂。沪生晚上来此找小毛，小毛下楼开店门接待，并将理发店作为朋友聊天的场所。",
+    "source_evidence": "沪生走进大自鸣钟弄堂，朝楼上喊一声，小毛答应，拿了两只杯子，下楼开店门。",
+    "chapter_hint": "拾玖章",
+    "original_chapter": null,
+    "event_level": "major",
+    "characters": [
+      "沪生",
+      "小毛",
+      "阿宝",
+      "小珍"
+    ],
+    "fictional_suspect": false,
+    "geocodeSuccess": false
+  },
+  {
+    "title": "四如春",
+    "address": "中国-上海-上海-未知区-西康路/南京路附近",
+    "story": "沪生、小毛、大妹妹、兰兰在理发店相遇后，前往这家饮食店吃夜宵。席间，大妹妹和兰兰讲述了她们在大光明电影院附近被便衣（“暗条”）捉进人民广场派出所的遭遇，并请小毛和沪生帮忙写检查。",
+    "source_evidence": "四个人出理发店，出弄堂，走进“四如春”饮食店坐定。",
+    "chapter_hint": "拾玖章",
+    "original_chapter": "未知",
+    "event_level": "major",
+    "characters": [
+      "沪生",
+      "小毛",
+      "大妹妹",
+      "兰兰"
+    ],
+    "fictional_suspect": false,
+    "latitude": 31.2540902,
+    "longitude": 121.4240972,
+    "locality": "普陀区",
+    "countryCode": "CN",
+    "formattedAddress": "四如春食府, 72, 石泉路, 朱家湾, 石泉路街道, 普陀区, 上海市, 200061, 中国",
+    "clientId": "osm-node-9531285709",
+    "geocodeSuccess": true,
+    "validationPassed": true
+  },
+  {
+    "title": "大光明电影院",
+    "address": "中国-上海-上海-黄浦区-南京路",
+    "story": "大妹妹和兰兰在南京路大光明电影院门口附近，被尾随她们的两个“摸壳子”男人搭讪，随即被早已盯梢的两个便衣（“暗条”）当场抓获，成为被带往派出所的证据。",
+    "source_evidence": "等走到大光明电影院门口，想不到，后面有“暗条”，结果，捉了我跟兰兰",
+    "chapter_hint": "拾玖章",
+    "original_chapter": "未知",
+    "event_level": "major",
+    "characters": [
+      "大妹妹",
+      "兰兰"
+    ],
+    "fictional_suspect": false,
+    "latitude": 31.2348528,
+    "longitude": 121.4665306,
+    "locality": "上海市",
+    "countryCode": "CN",
+    "formattedAddress": "大光明电影院, 南京西路, 新昌社区, 南京东路街道, 上海市, 黄浦区, 上海市, 200001, 中国",
+    "clientId": "osm-way-369342598",
+    "geocodeSuccess": true,
+    "validationPassed": true
+  },
+  {
+    "title": "延安路",
+    "address": "中国-上海-上海-黄浦区-延安路",
+    "story": "梅瑞在此购置房产，后被其母亲低价卖出并转移资产。",
+    "source_evidence": "梅瑞说，姆妈到上海，马上低价卖出延安路房子",
+    "chapter_hint": "三十一章",
+    "original_chapter": "三十一章",
+    "event_level": "minor",
+    "characters": [
+      "梅瑞"
+    ],
+    "fictional_suspect": false,
+    "latitude": 31.2114208,
+    "longitude": 121.412443,
+    "locality": "长宁区",
+    "countryCode": "CN",
+    "formattedAddress": "延安西路, 凯旋路, 天山路街道, 法华, 长宁区, 上海市, 200050, 中国",
+    "clientId": "osm-way-71799655",
+    "geocodeSuccess": true,
+    "validationPassed": true
+  },
+  {
+    "title": "虹桥机场",
+    "address": "中国-上海-上海-闵行区-虹桥机场",
+    "story": "李李在决定出家前夜，曾乘车至此处及淀山湖、青浦城厢等地散心。",
+    "source_evidence": "我跟阿宝打电话，但关机。……叫了一部车子去散心，到处乱开，开到虹桥机场",
+    "chapter_hint": "尾声",
+    "original_chapter": "尾声",
+    "event_level": "passing",
+    "characters": [
+      "李李"
+    ],
+    "fictional_suspect": false,
+    "latitude": 31.1976777,
+    "longitude": 121.3344831,
+    "locality": "闵行区",
+    "countryCode": "CN",
+    "formattedAddress": "上海虹桥国际机场, 天山西路, 新虹街道, 华漕, 闵行区, 上海市, 201803, 中国",
+    "clientId": "osm-way-428121878",
+    "geocodeSuccess": true,
+    "validationPassed": true
+  },
+  {
+    "title": "淀山湖",
+    "address": "中国-上海-上海-青浦区-淀山湖",
+    "story": "李李在决定出家前夜乘车散心时经过此处。",
+    "source_evidence": "开到虹桥机场，淀山湖，青浦城厢",
+    "chapter_hint": "尾声",
+    "original_chapter": "尾声",
+    "event_level": "passing",
+    "characters": [
+      "李李"
+    ],
+    "fictional_suspect": false,
+    "latitude": 31.1327562,
+    "longitude": 120.9683733,
+    "locality": "青浦区",
+    "countryCode": "CN",
+    "formattedAddress": "淀山湖, 青浦区, 上海市, 中国",
+    "clientId": "osm-relation-1122227",
+    "geocodeSuccess": true,
+    "validationPassed": true
+  },
+  {
+    "title": "青浦城厢",
+    "address": "中国-上海-上海-青浦区-青浦城厢",
+    "story": "李李在决定出家前夜乘车散心时经过此处。",
+    "source_evidence": "开到虹桥机场，淀山湖，青浦城厢",
+    "chapter_hint": "尾声",
+    "original_chapter": "尾声",
+    "event_level": "passing",
+    "characters": [
+      "李李"
+    ],
+    "fictional_suspect": false,
+    "latitude": 31.1593138,
+    "longitude": 121.1377334,
+    "locality": "青浦区",
+    "countryCode": "CN",
+    "formattedAddress": "国网青浦供电公司, 上海绕城高速, 夏阳街道, 赵巷镇, 青浦区, 上海市, 201707, 中国",
+    "clientId": "osm-way-1247667839",
+    "geocodeSuccess": true,
+    "validationPassed": true
+  },
+  {
+    "title": "嘉定",
+    "address": "中国-上海-上海-嘉定区",
+    "story": "李李在决定出家前夜乘车散心时经过此处；苏安提及有女同学到嘉定探亲。",
+    "source_evidence": "再去嘉定，司机吓了；苏安说，国外一个女同学，到嘉定探亲",
+    "chapter_hint": "尾声",
+    "original_chapter": "尾声",
+    "event_level": "passing",
+    "characters": [
+      "李李",
+      "苏安"
+    ],
+    "fictional_suspect": false,
+    "latitude": 31.377756,
+    "longitude": 121.2606119,
+    "locality": "嘉定区",
+    "countryCode": "CN",
+    "formattedAddress": "嘉定区, 上海市, 中国",
+    "clientId": "osm-relation-1673543",
+    "geocodeSuccess": true,
+    "validationPassed": true
+  },
+  {
+    "title": "江宁小舞厅",
+    "address": "中国-上海-上海-静安区-江宁路-江宁小舞厅",
+    "story": "小毛曾在此舞厅的巾帼专场活动上偶遇兰兰和雪芝。",
+    "source_evidence": "十年前，有次走进江宁小舞厅，领班讲，三月八号夜里，巾帼专场",
+    "chapter_hint": "三十一章",
+    "original_chapter": "三十一章",
+    "event_level": "minor",
+    "characters": [
+      "小毛",
+      "兰兰",
+      "雪芝"
+    ],
+    "fictional_suspect": false,
+    "geocodeSuccess": false
+  },
+  {
+    "title": "西苏州路",
+    "address": "中国-上海-上海-静安区-西苏州路",
+    "story": "法国人芮福安和安娜借住在此路上的过街楼，并在此区域活动。",
+    "source_evidence": "到这种破落地方来，借住西苏州路一间过街楼",
+    "chapter_hint": "尾声",
+    "original_chapter": "尾声",
+    "event_level": "minor",
+    "characters": [
+      "小毛",
+      "芮福安",
+      "安娜"
+    ],
+    "fictional_suspect": false,
+    "latitude": 31.2428606,
+    "longitude": 121.4481883,
+    "locality": "静安区",
+    "countryCode": "CN",
+    "formattedAddress": "西苏州路, 叉袋角, 江宁路街道, 静安区, 上海市, 200070, 中国",
+    "clientId": "osm-way-240666074",
+    "geocodeSuccess": true,
+    "validationPassed": true
+  },
+  {
+    "title": "普陀山",
+    "address": "中国-浙江省-舟山市-普陀区-普陀山",
+    "story": "沪生提及去年陪客户去普陀山住庙里吃素的经历。",
+    "source_evidence": "沪生说，去年陪客户去普陀山，住到庙里，我吃了三天素",
+    "chapter_hint": "尾声",
+    "original_chapter": "尾声",
+    "event_level": "passing",
+    "characters": [
+      "沪生"
+    ],
+    "fictional_suspect": false,
+    "latitude": 30.0112928,
+    "longitude": 122.3863158,
+    "locality": "舟山市",
+    "countryCode": "CN",
+    "formattedAddress": "佛顶山, 舟山市, 浙江省, 中国",
+    "clientId": "osm-node-915535747",
+    "geocodeSuccess": true,
+    "validationPassed": false
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "work": {
+    "title": "繁花",
+    "author": "金宇澄",
+    "type": "novel",
+    "locale": "zh-Hans"
+  },
+  "pipeline": {
+    "generated_by": "geolore-auto-pipeline-v1",
+    "generated_at": "2026-05-27T11:29:16.028842+00:00",
+    "data_source_mode": "full_text",
+    "data_source_warning": null,
+    "model_select": "mimo-v2.5-pro",
+    "model_extract": "mimo-v2.5-pro",
+    "total_places": 32,
+    "major_places": 8,
+    "minor_places": 9,
+    "passing_places": 15,
+    "fictional_suspects": 0,
+    "address_completeness": 1.0,
+    "timeline_enabled": false,
+    "story_mode_enabled": false,
+    "story_mode_stats": null,
+    "suggested_pack_id": "work-1779880207",
+    "suggested_map_title": "《繁花》巡礼地图"
+  },
+  "review": {
+    "fixed_address": 0,
+    "removed_fictional": 0,
+    "removed_not_in_original": 0,
+    "merged_duplicates": 0,
+    "fixed_synopsis": 0,
+    "removed_names": [
+      "提篮桥"
+    ]
+  },
+  "next_steps": [
+    "python scripts/geocode_places.py --input output/books/work-1779880207/work-1779880207_places_structured.json --output output/books/work-1779880207/work-1779880207_geocoded.json --amap-key $AMAP_KEY --enable-validation",
+    "python scripts/build_pack.py --input output/books/work-1779880207/work-1779880207_geocoded.json --output output/books/work-1779880207/work-1779880207_pack.json --pack-id work-1779880207 --title \"《繁花》巡礼地图\""
+  ]
+}

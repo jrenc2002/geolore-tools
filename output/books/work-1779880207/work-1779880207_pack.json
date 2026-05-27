@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 1,
+  "pack": {
+    "id": "work-1779880207",
+    "version": 1,
+    "title": "《繁花》巡礼地图",
+    "locale": "zh-Hans",
+    "applyMode": "merge"
+  },
+  "map": {
+    "title": "《繁花》巡礼地图"
+  },
+  "places": [
+    {
+      "clientId": "osm-node-6536589078",
+      "title": "洋钿厂",
+      "latitude": 31.2054341,
+      "longitude": 121.3864977,
+      "locality": "长宁区",
+      "countryCode": "CN",
+      "formattedAddress": "美天太阳市场, 水城路, 仙霞新村街道, 长宁区, 上海市, 200336, 中国"
+    },
+    {
+      "clientId": "osm-node-11127466619",
+      "title": "潭子湾",
+      "latitude": 31.2557757,
+      "longitude": 121.4381943,
+      "locality": "普陀区",
+      "countryCode": "CN",
+      "formattedAddress": "潭子湾, 宜川路街道, 普陀区, 上海市, 200061, 中国"
+    },
+    {
+      "clientId": "osm-node-3024010876",
+      "title": "江宁桥",
+      "latitude": 31.2324059,
+      "longitude": 121.4381766,
+      "locality": "静安区",
+      "countryCode": "CN",
+      "formattedAddress": "江宁路, 胶州路, 康家桥, 忻康里, 江宁路街道, 静安区, 上海市, 200040, 中国"
+    },
+    {
+      "clientId": "osm-way-1068434249",
+      "title": "西康路",
+      "latitude": 31.2448336,
+      "longitude": 121.4335302,
+      "locality": "普陀区",
+      "countryCode": "CN",
+      "formattedAddress": "西康路, 大自鸣钟, 长寿路街道, 曹家渡, 普陀区, 上海市, 200060, 中国"
+    },
+    {
+      "clientId": "osm-node-6432532115",
+      "title": "沪宁公路",
+      "latitude": 31.2245377,
+      "longitude": 121.4218195,
+      "locality": "长宁区",
+      "countryCode": "CN",
+      "formattedAddress": "长宁路江苏路, 北横通道, 静鼎安邦府邸, 忻康里, 江苏路街道, 长宁区, 上海市, 200060, 中国"
+    },
+    {
+      "clientId": "osm-node-7411457736",
+      "title": "苏州干将路",
+      "latitude": 31.3060863,
+      "longitude": 120.6124554,
+      "locality": "姑苏区",
+      "countryCode": "CN",
+      "formattedAddress": "干将路, 养育巷, 西美社区, 道前社区, 沧浪街道, 姑苏区, 苏州市, 江苏省, 215000, 中国"
+    },
+    {
+      "clientId": "osm-way-492154541",
+      "title": "沧浪亭",
+      "latitude": 31.296731,
+      "longitude": 120.6214474,
+      "locality": "姑苏区",
+      "countryCode": "CN",
+      "formattedAddress": "沧浪亭, 沧浪亭社区, 双塔街道, 姑苏区, 苏州市, 江苏省, 中国"
+    },
+    {
+      "clientId": "osm-way-226657313",
+      "title": "北京路",
+      "latitude": 31.2426898,
+      "longitude": 121.4840358,
+      "locality": "上海市",
+      "countryCode": "CN",
+      "formattedAddress": "北京东路, 洛克·外滩源, 外滩源, 外滩街道, 上海市, 黄浦区, 上海市, 200002, 中国"
+    },
+    {
+      "clientId": "osm-way-413789558",
+      "title": "吴江路",
+      "latitude": 31.2317063,
+      "longitude": 121.455769,
+      "locality": "静安区",
+      "countryCode": "CN",
+      "formattedAddress": "吴江路, 南京西路街道, 静安区, 上海市, 200041, 中国"
+    },
+    {
+      "clientId": "osm-node-5306477814",
+      "title": "江宁路",
+      "latitude": 31.2461078,
+      "longitude": 121.4398643,
+      "locality": "普陀区",
+      "countryCode": "CN",
+      "formattedAddress": "江宁路, 长寿路, 大自鸣钟, 长寿路街道, 曹家渡, 普陀区, 上海市, 200061, 中国"
+    },
+    {
+      "clientId": "osm-way-429868562",
+      "title": "美琪大戏院",
+      "latitude": 31.2314707,
+      "longitude": 121.4516195,
+      "locality": "静安区",
+      "countryCode": "CN",
+      "formattedAddress": "美琪大戏院, 99, 江宁路, 南京西路街道, 静安区, 上海市, 200041, 中国"
+    },
+    {
+      "clientId": "osm-way-40140141",
+      "title": "南昌路",
+      "latitude": 31.2194141,
+      "longitude": 121.4595108,
+      "locality": "上海市",
+      "countryCode": "CN",
+      "formattedAddress": "南昌路, 瑞金二路街道, 上海市, 黄浦区, 上海市, 200003, 中国"
+    },
+    {
+      "clientId": "osm-node-9531285709",
+      "title": "四如春",
+      "latitude": 31.2540902,
+      "longitude": 121.4240972,
+      "locality": "普陀区",
+      "countryCode": "CN",
+      "formattedAddress": "四如春食府, 72, 石泉路, 朱家湾, 石泉路街道, 普陀区, 上海市, 200061, 中国"
+    },
+    {
+      "clientId": "osm-way-369342598",
+      "title": "大光明电影院",
+      "latitude": 31.2348528,
+      "longitude": 121.4665306,
+      "locality": "上海市",
+      "countryCode": "CN",
+      "formattedAddress": "大光明电影院, 南京西路, 新昌社区, 南京东路街道, 上海市, 黄浦区, 上海市, 200001, 中国"
+    },
+    {
+      "clientId": "osm-way-71799655",
+      "title": "延安路",
+      "latitude": 31.2114208,
+      "longitude": 121.412443,
+      "locality": "长宁区",
+      "countryCode": "CN",
+      "formattedAddress": "延安西路, 凯旋路, 天山路街道, 法华, 长宁区, 上海市, 200050, 中国"
+    },
+    {
+      "clientId": "osm-way-428121878",
+      "title": "虹桥机场",
+      "latitude": 31.1976777,
+      "longitude": 121.3344831,
+      "locality": "闵行区",
+      "countryCode": "CN",
+      "formattedAddress": "上海虹桥国际机场, 天山西路, 新虹街道, 华漕, 闵行区, 上海市, 201803, 中国"
+    },
+    {
+      "clientId": "osm-relation-1122227",
+      "title": "淀山湖",
+      "latitude": 31.1327562,
+      "longitude": 120.9683733,
+      "locality": "青浦区",
+      "countryCode": "CN",
+      "formattedAddress": "淀山湖, 青浦区, 上海市, 中国"
+    },
+    {
+      "clientId": "osm-way-1247667839",
+      "title": "青浦城厢",
+      "latitude": 31.1593138,
+      "longitude": 121.1377334,
+      "locality": "青浦区",
+      "countryCode": "CN",
+      "formattedAddress": "国网青浦供电公司, 上海绕城高速, 夏阳街道, 赵巷镇, 青浦区, 上海市, 201707, 中国"
+    },
+    {
+      "clientId": "osm-relation-1673543",
+      "title": "嘉定",
+      "latitude": 31.377756,
+      "longitude": 121.2606119,
+      "locality": "嘉定区",
+      "countryCode": "CN",
+      "formattedAddress": "嘉定区, 上海市, 中国"
+    },
+    {
+      "clientId": "osm-way-240666074",
+      "title": "西苏州路",
+      "latitude": 31.2428606,
+      "longitude": 121.4481883,
+      "locality": "静安区",
+      "countryCode": "CN",
+      "formattedAddress": "西苏州路, 叉袋角, 江宁路街道, 静安区, 上海市, 200070, 中国"
+    },
+    {
+      "clientId": "osm-node-915535747",
+      "title": "普陀山",
+      "latitude": 30.0112928,
+      "longitude": 122.3863158,
+      "locality": "舟山市",
+      "countryCode": "CN",
+      "formattedAddress": "佛顶山, 舟山市, 浙江省, 中国"
+    }
+  ],
+  "mapPlaces": [
+    {
+      "placeClientId": "osm-node-6536589078",
+      "orderIndex": 1
+    },
+    {
+      "placeClientId": "osm-node-11127466619",
+      "orderIndex": 2
+    },
+    {
+      "placeClientId": "osm-node-3024010876",
+      "orderIndex": 3
+    },
+    {
+      "placeClientId": "osm-way-1068434249",
+      "orderIndex": 4
+    },
+    {
+      "placeClientId": "osm-node-6432532115",
+      "orderIndex": 5
+    },
+    {
+      "placeClientId": "osm-node-7411457736",
+      "orderIndex": 6
+    },
+    {
+      "placeClientId": "osm-way-492154541",
+      "orderIndex": 7
+    },
+    {
+      "placeClientId": "osm-way-226657313",
+      "orderIndex": 8
+    },
+    {
+      "placeClientId": "osm-way-413789558",
+      "orderIndex": 9
+    },
+    {
+      "placeClientId": "osm-node-5306477814",
+      "orderIndex": 10
+    },
+    {
+      "placeClientId": "osm-way-429868562",
+      "orderIndex": 11
+    },
+    {
+      "placeClientId": "osm-way-40140141",
+      "orderIndex": 12
+    },
+    {
+      "placeClientId": "osm-node-9531285709",
+      "orderIndex": 13
+    },
+    {
+      "placeClientId": "osm-way-369342598",
+      "orderIndex": 14
+    },
+    {
+      "placeClientId": "osm-way-71799655",
+      "orderIndex": 15
+    },
+    {
+      "placeClientId": "osm-way-428121878",
+      "orderIndex": 16
+    },
+    {
+      "placeClientId": "osm-relation-1122227",
+      "orderIndex": 17
+    },
+    {
+      "placeClientId": "osm-way-1247667839",
+      "orderIndex": 18
+    },
+    {
+      "placeClientId": "osm-relation-1673543",
+      "orderIndex": 19
+    },
+    {
+      "placeClientId": "osm-way-240666074",
+      "orderIndex": 20
+    },
+    {
+      "placeClientId": "osm-node-915535747",
+      "orderIndex": 21
+    }
+  ],
+  "tags": [
+    "curated",
+    "繁花",
+    "金宇澄",
+    "上海",
+    "文学",
+    "pack:work-1779880207@1"
+  ]
+}

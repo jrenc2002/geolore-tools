@@ -4,9 +4,9 @@
 
 ## 进度总览
 - 总任务: 24
-- 已完成: 2
+- 已完成: 3
 - 进行中: 0
-- 进度: 8%
+- 进度: 12%
 
 ---
 
@@ -25,4 +25,11 @@
   - 配置加载成功：Provider=mimo, Model=mimo-v2.5-pro
   - Endpoint: https://token-plan-cn.xiaomimimo.com/v1/chat/completions
   - API 调用成功，MiMo 返回中文回复
+  - exit_code: 0
+
+### 2026-05-27 12:04
+- ✅ 任务 #3：测试 LLM 调用 (`call_llm`)
+  - 基础调用测试：`call_llm(messages, config)` 返回中文回复 ✅
+  - JSON 模式测试：`call_llm(..., expect_json=True)` 返回可解析 JSON ✅
+  - 结构化抽取测试：`call_llm_for_extraction(text, instructions, schema, config)` 正确提取 3 个地名 ✅
   - exit_code: 0

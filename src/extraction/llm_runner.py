@@ -24,9 +24,14 @@ import time
 from typing import Dict, List, Optional, Any
 
 # ── 统一导入 ──
-from src.common.config import LLMConfig
-from src.common.llm_client import call_llm_for_extraction
-from src.common.json_utils import strip_code_fences  # 向后兼容别名
+try:
+    from src.common.config import LLMConfig
+    from src.common.llm_client import call_llm_for_extraction
+    from src.common.json_utils import strip_code_fences
+except ImportError:
+    from common.config import LLMConfig
+    from common.llm_client import call_llm_for_extraction
+    from common.json_utils import strip_code_fences  # 向后兼容别名
 
 
 # ── 向后兼容：保留 clean_json_response 作为别名 ──

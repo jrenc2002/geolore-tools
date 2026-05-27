@@ -23,3 +23,9 @@
 - 状态：✅ 成功
 - 详情：运行 `scripts/test_ai_config.py`，MiMo 配置加载正确（provider=mimo, model=mimo-v2.5-pro, base_url=https://token-plan-cn.xiaomimimo.com/v1），API 调用成功返回中文回复
 - Commit: 597261a
+
+### 2026-05-27 18:30
+- 任务：检查工具链脚本完整性
+- 状态：✅ 成功
+- 详情：发现并修复 2 个阻塞性问题——(1) `src/processing/__init__.py` 内容是 Markdown 文档而非 Python 代码，导致 process_data.py 无法启动；(2) `src/` 内部模块使用 `from src.common.X` 导入路径与脚本 `sys.path.insert(0, 'src/')` 设置不兼容。修复：`__init__.py` 改为 Python docstring，所有内部导入改为 `try: from src.common.X / except: from common.X` 双路径兼容模式。影响 5 个文件（common/__init__.py, common/llm_client.py, extraction/llm_runner.py, processing/__init__.py, processing/cleaner.py）。修复后全部脚本可正常加载
+- Commit: f574086

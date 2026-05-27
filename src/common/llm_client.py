@@ -37,7 +37,10 @@ import urllib.request
 import urllib.error
 from typing import Any, Dict, List, Optional
 
-from src.common.config import LLMConfig, use_proxy
+try:
+    from src.common.config import LLMConfig, use_proxy
+except ImportError:
+    from common.config import LLMConfig, use_proxy
 
 # ─────────────── 请求头模板 ────────────────
 
@@ -292,7 +295,10 @@ def call_llm_for_extraction(
 
     自动构建 system + user 消息，返回解析后的 dict；失败返回 None。
     """
-    from src.common.json_utils import extract_json_from_text  # 延迟导入，避免循环
+    try:
+        from src.common.json_utils import extract_json_from_text
+    except ImportError:
+        from common.json_utils import extract_json_from_text  # 延迟导入，避免循环
 
     system_prompt = (
         f"{instructions}\n\n"

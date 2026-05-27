@@ -4,9 +4,9 @@
 
 ## 进度总览
 - 总任务: 24
-- 已完成: 4
+- 已完成: 5
 - 进行中: 0
-- 进度: 16%
+- 进度: 20%
 
 ---
 
@@ -41,3 +41,15 @@
   - style_instruction 风格指令正常传递
   - 音频文件已保存验证（`test_tts_output.wav`）
   - exit_code: 0
+
+### 2026-05-27 18:30
+- ✅ 任务 #5：检查工具链脚本完整性
+  - 发现并修复 2 个问题：
+    1. `src/processing/__init__.py` 内容是 Markdown 文档而非 Python 代码，导致 SyntaxError
+    2. `src/` 内所有 `from src.common.X` 导入路径与 `sys.path` 设置不兼容
+  - 修复方案：
+    - `__init__.py` 改为正确的 Python 模块 docstring
+    - 所有 `src/` 内部导入改为 `try: from src.common.X / except: from common.X` 双路径兼容模式
+  - 影响文件：`common/__init__.py`, `common/llm_client.py`, `extraction/llm_runner.py`, `processing/__init__.py`, `processing/cleaner.py`
+  - 验证结果：全部 17 个 Python 脚本均可正常加载
+  - 核心 5 管道脚本（split → extract → process → geocode → build）全部 ✅

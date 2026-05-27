@@ -36,7 +36,10 @@ import time
 from dataclasses import dataclass
 from typing import Any, Dict, List, Optional, Tuple
 
-from src.common.json_utils import strip_code_fences, extract_json_array
+try:
+    from src.common.json_utils import strip_code_fences, extract_json_array
+except ImportError:
+    from common.json_utils import strip_code_fences, extract_json_array
 
 
 def read_text(path: str) -> str:

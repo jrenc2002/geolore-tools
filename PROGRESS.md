@@ -4,9 +4,9 @@
 
 ## 进度总览
 - 总任务: 24
-- 已完成: 3
+- 已完成: 4
 - 进行中: 0
-- 进度: 12%
+- 进度: 16%
 
 ---
 
@@ -32,4 +32,12 @@
   - 基础调用测试：`call_llm(messages, config)` 返回中文回复 ✅
   - JSON 模式测试：`call_llm(..., expect_json=True)` 返回可解析 JSON ✅
   - 结构化抽取测试：`call_llm_for_extraction(text, instructions, schema, config)` 正确提取 3 个地名 ✅
+  - exit_code: 0
+
+### 2026-05-27 15:01
+- ✅ 任务 #4：测试 TTS 调用 (`call_tts`)
+  - 使用 `mimo-v2.5-tts` 模型调用语音合成
+  - 返回 107564 字节 WAV 音频（16-bit mono 24000 Hz，约 2.2 秒）
+  - style_instruction 风格指令正常传递
+  - 音频文件已保存验证（`test_tts_output.wav`）
   - exit_code: 0

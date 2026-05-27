@@ -16,7 +16,7 @@
 - [x] 1. 检查 geolore-tools 依赖安装 (`pip install -r requirements.txt`)
 - [x] 2. 验证 AI 配置 (小米 MiMo)
 - [x] 3. 测试 LLM 调用 (`call_llm`)
-- [ ] 4. 测试 TTS 调用 (`call_tts`)
+- [x] 4. 测试 TTS 调用 (`call_tts`)
 - [ ] 5. 检查工具链脚本完整性
 
 ## P1 — 案例验证（繁花）

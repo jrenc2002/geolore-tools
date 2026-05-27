@@ -75,3 +75,4 @@ geocode_cache.json
 examples/*/chunks/
 examples/*/extracted/
 examples/*/*.jsonl
+test_tts_output.wav

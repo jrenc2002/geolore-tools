@@ -16,7 +16,7 @@
 - 任务：测试 TTS 调用 (`call_tts`)
 - 状态：✅ 成功
 - 详情：使用 `mimo-v2.5-tts` 模型调用 `call_tts`，输入"你好，这是一段测试语音。"，返回 107564 字节 WAV 音频（16-bit mono 24000 Hz，约 2.2 秒），style_instruction 风格指令正常传递，音频文件验证通过
-- Commit: （待推送）
+- Commit: 9961edd
 
 ### 2026-05-27 06:19
 - 任务：验证 AI 配置 (小米 MiMo)

@@ -66,3 +66,8 @@
   - **内容包构建**（build_pack.py）：输出 北派盗墓笔记_pack.json（2 places, pack-id: beipai-damuji）
   - 发现问题：质量自审（Step4）过于严格，13→6→2 地点损失较大，建议后续优化审查策略或降低审查阈值
   - 🎉 北派盗墓笔记案例端到端跑通！第三个案例验证完成
+
+### 2026-05-28 18:00
+- 任务：检查 GeoLore iOS 项目结构（#16）
+- 状态：✅ 成功
+- 详情：完整审查 iOS 项目——技术栈 SwiftUI+SwiftData+MapKit+RevenueCat，16 个 SwiftData 模型，3 Tab 架构（地图/地图集/设置），ContentPackImporter 支持 async/sync upsert。geolore-tools 的 build_pack.py 输出 JSON 与 iOS ContentPackDTO 完全兼容（schemaVersion=1, pack/map/places/mapPlaces/tags 全部对齐）。发现 2 个 non-blocking 差异：storyMode 字段不在 iOS DTO 中（静默忽略）、originalAddress/geohash 未输出（optional 不影响）。importBundledPackIfNeeded() 当前未调用

@@ -4,9 +4,9 @@
 
 ## 进度总览
 - 总任务: 24
-- 已完成: 15
+- 已完成: 16
 - 进行中: 0
-- 进度: 62.5%
+- 进度: 66.7%
 
 ---
 
@@ -113,3 +113,19 @@
   - **内容包构建**（build_pack.py）：输出 北派盗墓笔记_pack.json（2 places, pack-id: beipai-damuji）
   - 🎉 北派盗墓笔记案例端到端跑通！
   - 注意：质量自审较严格，13→6→2 地点损失较大，后续可优化审查策略
+
+### 2026-05-28 18:00
+- ✅ 任务 #16：检查 GeoLore iOS 项目结构
+  - **技术栈**：SwiftUI + SwiftData + MapKit + RevenueCat（IAP）
+  - **目标**：iOS 17+，Xcode 15+，Swift 6
+  - **架构**：3 Tab — 地图（MapScreen+ClusterMapView）、地图集（ContentView 列表）、设置（UserScreen）
+  - **数据模型**（16 个 SwiftData @Model）：Map, Place, MapPlace, Work, Fragment, WorkBookDetail, WorkScreenDetail, FragmentTextAnchor, FragmentScreenAnchor, PlaceMediaAsset, FragmentMediaAsset, Creator, WorkCreatorLink, ExternalId, Tag, TagLink
+  - **内容包导入**：ContentPackImporter 支持 async/sync 两种路径，upsert by id/coordinate/title，支持 merge/replace 模式
+  - **geolore-tools 输出兼容性**：
+    - ✅ schemaVersion、pack、map、places、mapPlaces、tags 字段完全匹配 iOS ContentPackDTO
+    - ✅ PackMeta（id/version/title/locale/applyMode）全部对齐
+    - ✅ PlaceDTO required 字段（clientId/title/latitude/longitude）全部有值
+    - ⚠️ build_pack.py 输出的 `storyMode` 字段不在 iOS DTO 中（会被 JSONDecoder 静默忽略）
+    - ⚠️ `originalAddress`、`geohash` 在 iOS DTO 中但 build_pack.py 未输出（均为 optional，不影响导入）
+  - **单元测试**：3 个基础测试（Place 初始化、Fragment 关联、Creator Link）
+  - **注意**：importBundledPackIfNeeded() 当前未被调用（init 中已注释掉自动导入）

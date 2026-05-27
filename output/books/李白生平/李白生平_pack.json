@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "pack": {
+    "id": "libai-life",
+    "version": 1,
+    "title": "李白生平巡礼",
+    "locale": "zh-Hans",
+    "applyMode": "merge"
+  },
+  "map": {
+    "title": "李白生平巡礼"
+  },
+  "places": [
+    {
+      "clientId": "osm-way-1310990127",
+      "title": "会稽",
+      "latitude": 29.9602249,
+      "longitude": 120.6055378,
+      "locality": "越城区",
+      "countryCode": "CN",
+      "formattedAddress": "会稽山天福园, 稽山街道, 绍兴滨海新区, 越城区, 绍兴市, 浙江省, 中国",
+      "synopsis": "李白离开扬州后，游历吴越之地，抵达会稽山，此处因大禹会聚诸侯而得名，并游览了波光如镜的镜湖。",
+      "timeline": {
+        "orderIndex": 25,
+        "dateStart": "726",
+        "dateEnd": ""
+      },
+      "storyMode": {
+        "chapterTitle": "第1章·禹迹镜湖",
+        "hook": "离开繁华扬州，李白的下一程将通往何处古迹？",
+        "narrativeText": "告别了扬州的喧嚣与繁华，李白继续向东南行进，踏入吴越之地。他此行的目的地是会稽——一个承载着上古帝王大禹伟业的传奇之地。站在会稽山上，他仿佛能听到当年万国诸侯在此会聚的号角，感受到治水英雄的雄浑气魄。下山之后，他来到山脚的镜湖，只见湖面平滑如镜，倒映着蓝天白云与周围青山，波光粼粼，宁静致远。李白在此盘桓数日，身心俱醉于这历史与自然交织的画卷之中。",
+        "transitionTo": "沉浸于吴越山水，李白决定继续探访此地的名山。",
+        "mood": "peaceful"
+      }
+    },
+    {
+      "clientId": "osm-node-8786286703",
+      "title": "天台山",
+      "latitude": 29.1432514,
+      "longitude": 120.973815,
+      "locality": "天台县",
+      "countryCode": "CN",
+      "formattedAddress": "天台山, 京岚线, 楼下山, 天台县, 台州市, 花前产业园区, 浙江省, 317200, 中国",
+      "synopsis": "李白继续游历，抵达佛教天台宗的发源地天台山。",
+      "timeline": {
+        "orderIndex": 26,
+        "dateStart": "726",
+        "dateEnd": ""
+      },
+      "storyMode": {
+        "chapterTitle": "第2章·佛宗圣境",
+        "hook": "一座山，一个宗派，李白将在此感受到何种精神力量？",
+        "narrativeText": "从会稽出发，李白来到了天台山。这里山势雄奇，云雾缭绕，更是中国佛教天台宗的发祥地。行走于古刹之间，听着晨钟暮鼓，感受着千年香火的余韵，李白这位深受道教影响的诗人，也在此地体验到了佛法的博大与宁静。山中的清幽氛围，让他暂时忘却了尘世的纷扰，心灵得到片刻的沉淀与洗涤。",
+        "transitionTo": "离开佛国天台，李白将沿着一条古老的溪流，进入另一片山水画廊。",
+        "mood": "peaceful"
+      }
+    },
+    {
+      "clientId": "osm-way-270593611",
+      "title": "剡中",
+      "latitude": 25.0448743,
+      "longitude": 121.5254899,
+      "locality": "臺北市",
+      "countryCode": "TW",
+      "formattedAddress": "台北市農會紹興大樓, 5, 紹興北街, 光華商場, 梅花里, 中正區, 華山, 臺北市, 100, 臺灣",
+      "synopsis": "李白沿剡溪逆流而上，欣赏两岸青山对峙、碧水长流的如画景色。",
+      "timeline": {
+        "orderIndex": 27,
+        "dateStart": "726",
+        "dateEnd": ""
+      },
+      "storyMode": {
+        "chapterTitle": "第3章·剡溪行舟",
+        "hook": "顺着一条如诗如画的溪流，李白将驶向何方？",
+        "narrativeText": "告别天台山的佛国清音，李白转入剡中之地。他登上一叶扁舟，沿着剡溪逆流而上。溪水清澈见底，两岸青山连绵对峙，倒映水中，船行其间，仿佛在画中游走。这“青山对峙，碧水长流”的景色，正是古代文人墨客梦寐以求的诗意栖居之所。李白立于船头，衣袂飘飘，尽情享受着这大自然的馈赠，胸中诗兴勃发。",
+        "transitionTo": "饱览吴越山水后，李白的人生将步入一个重要的新阶段——安家。",
+        "mood": "joyful"
+      }
+    },
+    {
+      "clientId": "osm-relation-3216399",
+      "title": "安陆",
+      "latitude": 31.3066219,
+      "longitude": 113.6480203,
+      "locality": "安陆市",
+      "countryCode": "CN",
+      "formattedAddress": "安陆市, 孝感市, 湖北省, 中国",
+      "synopsis": "开元十五年，李白抵达安陆，迎娶前宰相许圉师的孙女，并在此安家约十年。",
+      "timeline": {
+        "orderIndex": 28,
+        "dateStart": "727",
+        "dateEnd": "737"
+      },
+      "storyMode": {
+        "chapterTitle": "第4章·安陆成家",
+        "hook": "漂泊多年的李白，为何选择在一个小城停下脚步？",
+        "narrativeText": "结束了吴越的漫游，年近而立的李白来到了安陆。这里将成为他人生中第一个真正的“家”。在这里，他迎娶了前宰相许圉师的孙女为妻。许家是当地的名门望族，这段婚姻不仅给了李白一个温暖的家室，也让他得以在此地安定下来。在安陆的近十年里，他或读书会友，或游历周边，开始了人生中相对安稳的一段时光。这座小城，见证了一代诗仙从漂泊游子到成家立业的重要转变。",
+        "transitionTo": "在安陆定居期间，李白常外出游历，这一次，他要去拜访一位重要的诗友。",
+        "mood": "peaceful"
+      }
+    },
+    {
+      "clientId": "osm-node-1586077500",
+      "title": "襄阳",
+      "latitude": 32.0594775,
+      "longitude": 112.1491025,
+      "locality": "樊城区",
+      "countryCode": "CN",
+      "formattedAddress": "襄阳, 38, 前进路, 铜板厂家属院, 清河口街道, 中原街道, 樊城区, 襄阳市, 湖北省, 441000, 中国",
+      "synopsis": "李白在安陆期间，前往襄阳拜访隐居于鹿门山的诗人孟浩然，并与之结下深厚友谊。",
+      "timeline": {
+        "orderIndex": 29,
+        "dateStart": "730",
+        "dateEnd": ""
+      },
+      "storyMode": {
+        "chapterTitle": "第5章·鹿门访友",
+        "hook": "两位大诗人首次相会，会碰撞出怎样的火花？",
+        "narrativeText": "安陆成家后，李白并未停止他的脚步。他听说了比自己年长十余岁的诗人孟浩然，正隐居在襄阳的鹿门山。孟浩然此时已诗名远播，其山水田园诗清新脱俗。李白怀着敬仰之情，专程前往拜访。在鹿门山的草庐之中，两位大诗人一见如故，把酒言欢，畅谈诗歌与人生。这次会面，奠定了他们之间深厚友谊的基础，也成就了中国文学史上的一段佳话。",
+        "transitionTo": "拜访过孟浩然，李白对道家思想的兴趣愈发浓厚，他决定去探访一位著名的道士。",
+        "mood": "joyful"
+      }
+    },
+    {
+      "clientId": "osm-node-244081829",
+      "title": "随州",
+      "latitude": 31.691143,
+      "longitude": 113.3774967,
+      "locality": "随州市",
+      "countryCode": "CN",
+      "formattedAddress": "随州市, 曾都区, 随州市, 湖北省, 中国",
+      "synopsis": "李白到随州拜访著名道士胡紫阳，并在道教圣地大洪山学习道术。",
+      "timeline": {
+        "orderIndex": 30,
+        "dateStart": "730",
+        "dateEnd": ""
+      },
+      "storyMode": {
+        "chapterTitle": "第6章·洪山问道",
+        "hook": "在诗酒之外，李白内心深处追寻的“道”究竟是什么？",
+        "narrativeText": "在安陆的岁月里，李白不仅结交诗友，更深入探索他所热爱的道教思想。他前往随州，拜访了当时声名显赫的道士胡紫阳。随州境内的大洪山，是道教的重要圣地之一。李白在此向胡紫阳请教道术，并沉浸在道家清静无为、追求自然的氛围之中。这次问道之行，进一步加深了他对道教的理解和信仰，也为他日后许多充满仙风道骨的诗篇埋下了伏笔。",
+        "transitionTo": "在安陆的生活与游历告一段落，李白怀揣着更大的抱负，将目光投向了帝国的中心。",
+        "mood": "peaceful"
+      }
+    },
+    {
+      "clientId": "osm-relation-3246491",
+      "title": "洛阳",
+      "latitude": 34.6196539,
+      "longitude": 112.4477046,
+      "locality": "洛阳市",
+      "countryCode": "CN",
+      "formattedAddress": "洛阳市, 河南省, 中国"
+    },
+    {
+      "clientId": "osm-way-422644818",
+      "title": "龙门石窟",
+      "latitude": 34.5571154,
+      "longitude": 112.4707112,
+      "locality": "洛龙区",
+      "countryCode": "CN",
+      "formattedAddress": "龙门石窟, 龙门大桥, 河东社区, 龙门石窟街道, 洛龙区, 洛阳市, 河南省, 中国"
+    },
+    {
+      "clientId": "osm-way-1373450672",
+      "title": "汴州",
+      "latitude": 34.7912943,
+      "longitude": 114.3451045,
+      "locality": "鼓楼区",
+      "countryCode": "CN",
+      "formattedAddress": "开封州桥及汴河遗址博物馆, 中山路, 新华街道, 鼓楼区, 龙亭区, 开封市, 河南省, 475001, 中国"
+    },
+    {
+      "clientId": "osm-way-515703354",
+      "title": "齐州",
+      "latitude": 36.6840201,
+      "longitude": 116.8928415,
+      "locality": "槐荫区",
+      "countryCode": "CN",
+      "formattedAddress": "齐州路, 兴福街道, 槐荫区, 济南市, 山东省, 250000, 中国"
+    },
+    {
+      "clientId": "osm-node-5723485328",
+      "title": "趵突泉",
+      "latitude": 36.6605638,
+      "longitude": 117.009416,
+      "locality": "历下区",
+      "countryCode": "CN",
+      "formattedAddress": "趵突泉, 花墙子街, 趵突泉社区, 趵突泉街道, 历下区, 济南市, 山东省, 250000, 中国"
+    }
+  ],
+  "mapPlaces": [
+    {
+      "placeClientId": "osm-way-1310990127",
+      "orderIndex": 1,
+      "note": "李白离开扬州后，游历吴越之地，抵达会稽山，此处因大禹会聚诸侯而得名，并游览了波光如镜的镜湖。"
+    },
+    {
+      "placeClientId": "osm-node-8786286703",
+      "orderIndex": 2,
+      "note": "李白继续游历，抵达佛教天台宗的发源地天台山。"
+    },
+    {
+      "placeClientId": "osm-way-270593611",
+      "orderIndex": 3,
+      "note": "李白沿剡溪逆流而上，欣赏两岸青山对峙、碧水长流的如画景色。"
+    },
+    {
+      "placeClientId": "osm-relation-3216399",
+      "orderIndex": 4,
+      "note": "开元十五年，李白抵达安陆，迎娶前宰相许圉师的孙女，并在此安家约十年。"
+    },
+    {
+      "placeClientId": "osm-node-1586077500",
+      "orderIndex": 5,
+      "note": "李白在安陆期间，前往襄阳拜访隐居于鹿门山的诗人孟浩然，并与之结下深厚友谊。"
+    },
+    {
+      "placeClientId": "osm-node-244081829",
+      "orderIndex": 6,
+      "note": "李白到随州拜访著名道士胡紫阳，并在道教圣地大洪山学习道术。"
+    },
+    {
+      "placeClientId": "osm-relation-3246491",
+      "orderIndex": 7
+    },
+    {
+      "placeClientId": "osm-way-422644818",
+      "orderIndex": 8
+    },
+    {
+      "placeClientId": "osm-way-1373450672",
+      "orderIndex": 9
+    },
+    {
+      "placeClientId": "osm-way-515703354",
+      "orderIndex": 10
+    },
+    {
+      "placeClientId": "osm-node-5723485328",
+      "orderIndex": 11
+    }
+  ],
+  "tags": [
+    "curated",
+    "pack:libai-life@1"
+  ]
+}

@@ -4,9 +4,9 @@
 
 ## 进度总览
 - 总任务: 24
-- 已完成: 9
+- 已完成: 12
 - 进行中: 0
-- 进度: 37.5%
+- 进度: 50%
 
 ---
 
@@ -85,3 +85,17 @@
     - 21 个地点，schemaVersion=1
     - pack-id: work-1779880207
   - 🎉 繁花案例端到端跑通！
+  - Commit: f574086
+
+### 2026-05-28 04:30
+- ✅ 任务 #10-12：李白生平端到端 pipeline（AI分析 + 地理编码 + 内容包构建）
+  - **准备原文**：编写李白生平传记文本（12章，2948字符），覆盖碎叶→江油→蜀中→出蜀→扬州→安陆→长安→漫游→宣城→流放→晚年
+  - **AI 分析**（auto_pipeline.py）：
+    - Step 2: 59 个地点提取（19 major, 23 minor, 17 passing）
+    - Step 3: 结构化富化（12 个地点通过，模型返回格式不一致导致损失）
+    - 修复了 Step 3/4 中 MiMo 返回 "locations" 等非标准 key 的解析问题
+    - 输出: 李白生平_places_structured.json（12 places）
+  - **地理编码**（geocode_places.py）：11/12 成功 geocoded
+  - **内容包构建**（build_pack.py）：输出 李白生平_pack.json（11 places, pack-id: libai-life）
+  - 🎉 李白生平案例端到端跑通！
+  - Commit: 908ec29

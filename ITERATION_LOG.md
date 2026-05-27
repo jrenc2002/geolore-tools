@@ -44,3 +44,14 @@
   - **地理编码**（geocode_places.py）：升级脚本支持结构化输入+地址上下文搜索+城市BBOX验证。21/32 成功 geocoded，11 个历史小众地点无 Nominatim 数据。修复了原始脚本的误匹配问题
   - **内容包构建**（build_pack.py）：输出 work-1779880207_pack.json（21 places, schemaVersion=1）
   - 🎉 繁花案例端到端跑通！完整 SOP：原文 → 分片 → AI提取 → 富化 → 审查 → 地理编码 → 内容包
+
+### 2026-05-28 04:30
+- 任务：李白生平端到端 pipeline（任务 #10-12：AI分析 + 地理编码 + 内容包构建）
+- 状态：✅ 成功
+- 详情：
+  - **准备原文**：编写李白生平传记文本（12章，2948字符），覆盖碎叶→江油→蜀中→出蜀→扬州→安陆→长安→漫游→宣城→流放→晚年
+  - **AI 分析**（auto_pipeline.py）：MiMo v2.5 Pro Step2 提取 59 个地点，Step3 富化后 12 个地点通过（模型返回格式不一致导致损失，修复了 "locations" key 解析问题）
+  - **地理编码**（geocode_places.py）：11/12 成功 geocoded（"梁宋之地"为历史区域名无法定位）
+  - **内容包构建**（build_pack.py）：输出 李白生平_pack.json（11 places, pack-id: libai-life）
+  - 代码修复：auto_pipeline.py Step3/Step4 增加对 "locations" 等非标准 JSON key 的兼容解析
+  - 🎉 李白生平案例端到端跑通！第二个案例验证完成

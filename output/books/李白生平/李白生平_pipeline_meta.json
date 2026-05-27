@@ -1,0 +1,44 @@
+{
+  "work": {
+    "title": "李白生平",
+    "author": "李白",
+    "type": "biography",
+    "locale": "zh-Hans"
+  },
+  "pipeline": {
+    "generated_by": "geolore-auto-pipeline-v1",
+    "generated_at": "2026-05-27T15:02:03.009642+00:00",
+    "data_source_mode": "full_text",
+    "data_source_warning": null,
+    "model_select": "mimo-v2.5-pro",
+    "model_extract": "mimo-v2.5-pro",
+    "total_places": 12,
+    "major_places": 4,
+    "minor_places": 6,
+    "passing_places": 2,
+    "fictional_suspects": 0,
+    "address_completeness": 1.0,
+    "timeline_enabled": true,
+    "story_mode_enabled": true,
+    "story_mode_stats": {
+      "total_chapters": 6,
+      "avg_narrative_length": 153,
+      "mood_arc": [
+        "peaceful",
+        "peaceful",
+        "joyful",
+        "peaceful",
+        "joyful",
+        "peaceful"
+      ],
+      "transition_coverage": 1.2
+    },
+    "suggested_pack_id": "李白生平",
+    "suggested_map_title": "《李白生平》巡礼地图"
+  },
+  "review": {},
+  "next_steps": [
+    "python scripts/geocode_places.py --input output/books/李白生平/李白生平_places_structured.json --output output/books/李白生平/李白生平_geocoded.json --amap-key $AMAP_KEY --enable-validation",
+    "python scripts/build_pack.py --input output/books/李白生平/李白生平_geocoded.json --output output/books/李白生平/李白生平_pack.json --pack-id 李白生平 --title \"《李白生平》巡礼地图\""
+  ]
+}

@@ -971,10 +971,21 @@ def step3_enrich_places(
         if isinstance(enriched, list):
             print(f"     ✅ 批次 {batch_num}/{total_batches} 返回 {len(enriched)} 个结构化地点")
             return (batch_num, enriched)
-        elif isinstance(enriched, dict) and "places" in enriched:
-            items = enriched["places"]
-            print(f"     ✅ 批次 {batch_num}/{total_batches} 返回 {len(items)} 个结构化地点（unwrapped）")
-            return (batch_num, items)
+        elif isinstance(enriched, dict):
+            # 尝试从常见 wrapper key 中提取数组
+            items = None
+            for key in ("places", "locations", "data", "results", "items", "places_json"):
+                if key in enriched and isinstance(enriched[key], list):
+                    items = enriched[key]
+                    break
+            if items:
+                print(f"     ✅ 批次 {batch_num}/{total_batches} 返回 {len(items)} 个结构化地点（unwrapped from '{key}'）")
+                return (batch_num, items)
+            else:
+                print(f"     ⚠️  批次 {batch_num}/{total_batches} 返回 dict 但无可用数组 key: {list(enriched.keys())}")
+                if content:
+                    print(f"     DEBUG: 返回内容前 200 字: {content[:200]}")
+                return (batch_num, batch)
         else:
             print(f"     ⚠️  批次 {batch_num}/{total_batches} 解析失败，保留原始数据")
             if content:
@@ -1126,8 +1137,12 @@ def step4_review(config: LLMConfig, places: List[Dict], title: str = "", author:
             return (batch_idx, batch, [])
 
         result = extract_json_from_text(content)
-        if isinstance(result, dict) and "places" in result:
-            result = result["places"]
+        if isinstance(result, dict):
+            # 从常见 wrapper key 中提取数组
+            for key in ("places", "locations", "data", "results", "items"):
+                if key in result and isinstance(result[key], list):
+                    result = result[key]
+                    break
         if not isinstance(result, list):
             print(f"     ⚠️  审查批次 {batch_idx}/{total_batches} 解析失败，保留原始数据")
             if content:

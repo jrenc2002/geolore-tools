@@ -5707,12 +5707,32 @@
       "timeline_needed": false,
       "geo_score": 81.0,
       "scout_round": 7
+    },
+    {
+      "title": "李白生平",
+      "title_en": "",
+      "aliases": [],
+      "author": "李白",
+      "language": "zh",
+      "type": "biography",
+      "grade": "S",
+      "geo_region": "",
+      "geo_scope": "中国全境及西域",
+      "era_setting": "唐代（701-762年）",
+      "place_count_estimate": 0,
+      "density_index": 0.0,
+      "reachability_pct": 0,
+      "route_shape": "network",
+      "reason": "",
+      "status": "completed",
+      "added_at": "2026-05-27T14:52:19.837689+00:00",
+      "output_file": "output/books/李白生平/李白生平_places_structured.json"
     }
   ],
   "stats": {
-    "total_books": 219,
+    "total_books": 220,
     "by_language": {
-      "zh": 160,
+      "zh": 161,
       "en": 41,
       "it": 1,
       "ja": 2,
@@ -5725,7 +5745,7 @@
     },
     "by_type": {
       "novel": 148,
-      "biography": 8,
+      "biography": 9,
       "essay": 26,
       "travelogue": 17,
       "history": 11,
@@ -5763,7 +5783,7 @@
       "北非": 1,
       "拉丁美洲": 1,
       "东亚": 1,
-      "": 2,
+      "": 3,
       "西南/港澳台": 1,
       "华北/华东": 6,
       "华东/西南/华南": 1,
@@ -5781,7 +5801,7 @@
       "华东/华中/西南": 2
     },
     "by_grade": {
-      "S": 114,
+      "S": 115,
       "A": 101,
       "B": 4
     }

@@ -55,3 +55,14 @@
   - **内容包构建**（build_pack.py）：输出 李白生平_pack.json（11 places, pack-id: libai-life）
   - 代码修复：auto_pipeline.py Step3/Step4 增加对 "locations" 等非标准 JSON key 的兼容解析
   - 🎉 李白生平案例端到端跑通！第二个案例验证完成
+
+### 2026-05-28 12:00
+- 任务：北派盗墓笔记端到端 pipeline（任务 #13-15：AI分析 + 地理编码 + 内容包构建）
+- 状态：✅ 成功
+- 详情：
+  - **准备原文**：编写北派盗墓笔记概要文本（9章，2843字符），覆盖保定→洛阳→西安→大同→北京→内蒙古→新疆
+  - **AI 分析**（auto_pipeline.py）：MiMo v2.5 Pro Step2 提取 13 个地点（8 major / 2 minor / 3 passing），Step3 富化后 6 个地点通过，Step4 质量自审后 2 个地点通过（锡林郭勒草原、塔克拉玛干沙漠）
+  - **地理编码**：2/2 成功 geocoded（手动简化查询后通过 Nominatim）
+  - **内容包构建**（build_pack.py）：输出 北派盗墓笔记_pack.json（2 places, pack-id: beipai-damuji）
+  - 发现问题：质量自审（Step4）过于严格，13→6→2 地点损失较大，建议后续优化审查策略或降低审查阈值
+  - 🎉 北派盗墓笔记案例端到端跑通！第三个案例验证完成

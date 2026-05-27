@@ -5727,12 +5727,32 @@
       "status": "completed",
       "added_at": "2026-05-27T14:52:19.837689+00:00",
       "output_file": "output/books/李白生平/李白生平_places_structured.json"
+    },
+    {
+      "title": "北派盗墓笔记",
+      "title_en": "",
+      "aliases": [],
+      "author": "道门老九",
+      "language": "zh",
+      "type": "novel",
+      "grade": "S",
+      "geo_region": "",
+      "geo_scope": "中国北方各地",
+      "era_setting": "当代",
+      "place_count_estimate": 0,
+      "density_index": 0.0,
+      "reachability_pct": 0,
+      "route_shape": "network",
+      "reason": "",
+      "status": "completed",
+      "added_at": "2026-05-27T17:55:50.318339+00:00",
+      "output_file": "output/books/北派盗墓笔记/北派盗墓笔记_places_structured.json"
     }
   ],
   "stats": {
-    "total_books": 220,
+    "total_books": 221,
     "by_language": {
-      "zh": 161,
+      "zh": 162,
       "en": 41,
       "it": 1,
       "ja": 2,
@@ -5744,7 +5764,7 @@
       "ar": 1
     },
     "by_type": {
-      "novel": 148,
+      "novel": 149,
       "biography": 9,
       "essay": 26,
       "travelogue": 17,
@@ -5783,7 +5803,7 @@
       "北非": 1,
       "拉丁美洲": 1,
       "东亚": 1,
-      "": 3,
+      "": 4,
       "西南/港澳台": 1,
       "华北/华东": 6,
       "华东/西南/华南": 1,
@@ -5801,7 +5821,7 @@
       "华东/华中/西南": 2
     },
     "by_grade": {
-      "S": 115,
+      "S": 116,
       "A": 101,
       "B": 4
     }

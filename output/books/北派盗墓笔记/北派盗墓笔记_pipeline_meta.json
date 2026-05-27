@@ -1,0 +1,40 @@
+{
+  "work": {
+    "title": "北派盗墓笔记",
+    "author": "道门老九",
+    "type": "novel",
+    "locale": "zh-Hans"
+  },
+  "pipeline": {
+    "generated_by": "geolore-auto-pipeline-v1",
+    "generated_at": "2026-05-27T17:55:50.307524+00:00",
+    "data_source_mode": "full_text",
+    "data_source_warning": null,
+    "model_select": "mimo-v2.5-pro",
+    "model_extract": "mimo-v2.5-pro",
+    "total_places": 2,
+    "major_places": 2,
+    "minor_places": 0,
+    "passing_places": 0,
+    "fictional_suspects": 0,
+    "address_completeness": 1.0,
+    "timeline_enabled": false,
+    "story_mode_enabled": true,
+    "story_mode_stats": {
+      "total_chapters": 2,
+      "avg_narrative_length": 288,
+      "mood_arc": [
+        "mysterious",
+        "dramatic"
+      ],
+      "transition_coverage": 2.0
+    },
+    "suggested_pack_id": "北派盗墓笔记",
+    "suggested_map_title": "《北派盗墓笔记》巡礼地图"
+  },
+  "review": {},
+  "next_steps": [
+    "python scripts/geocode_places.py --input output/books/北派盗墓笔记/北派盗墓笔记_places_structured.json --output output/books/北派盗墓笔记/北派盗墓笔记_geocoded.json --amap-key $AMAP_KEY --enable-validation",
+    "python scripts/build_pack.py --input output/books/北派盗墓笔记/北派盗墓笔记_geocoded.json --output output/books/北派盗墓笔记/北派盗墓笔记_pack.json --pack-id 北派盗墓笔记 --title \"《北派盗墓笔记》巡礼地图\""
+  ]
+}
